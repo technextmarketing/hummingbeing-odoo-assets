@@ -52,7 +52,7 @@
       <a t-if="x_open" class="hb-btn hb-btn-primary" href="#reserve" data-xev-register="1">Register<t t-if="x_price and x_price != 'Free' and not x_price.startswith('From')"> — <t t-out="x_price"/></t></a>
       <span t-elif="x_sold" class="hb-btn btn-soldout">Sold Out</span>
       <a t-elif="x_partner and not x_past" class="hb-btn hb-btn-primary" t-att-href="x_partner" target="_blank" rel="noopener">Register at <t t-out="x_partner_name"/> →</a>
-      <a class="hb-btn btn-outline" href="#reserve">Details &amp; questions</a>
+      <a class="hb-btn btn-outline" href="#reserve">Tickets &amp; details</a>
     </div>
   </div></div>
 </section>
@@ -83,26 +83,7 @@
       <p t-elif="x_past" class="fine">This event has ended. See <a href="/event">upcoming events</a>.</p>
       <t t-elif="x_partner"><a class="hb-btn hb-btn-primary" t-att-href="x_partner" target="_blank" rel="noopener">Register at <t t-out="x_partner_name"/> →</a><p class="fine">Registration and payment for this session are handled by <t t-out="x_partner_name"/>.</p></t>
       <p t-else="" class="fine">Registration is not open yet. Email <a href="mailto:bonjour@bhdasia.com">bonjour@bhdasia.com</a> for details.</p>
-      <p t-if="x_open and x_gpp" class="fine xev-guest-note">Register here first — no payment is taken on this site. Right after registering you will see how to pay the facilitator directly (also sent in your confirmation email).</p>
-      <p t-if="x_open" class="fine">Secure checkout. Your confirmation and receipt arrive by email.</p>
-    </div>
-    <div class="ce-box xev-enquiry">
-      <h3>Ask a question</h3>
-      <p class="sub">Leave your details and Isabelle will get back to you.</p>
-      <form class="s_website_form evtl-form" action="/website/form/" method="post" enctype="multipart/form-data" data-model_name="crm.lead" data-success-mode="message">
-        <input type="hidden" class="s_website_form_input" name="name" t-att-value="'Event enquiry: ' + event.name"/><input type="hidden" class="s_website_form_input" name="event_id" t-att-value="event.id"/>
-        <div class="evtl-field s_website_form_field s_website_form_required" data-type="char"><label class="s_website_form_label" for="xev-q-name">Full name</label><input id="xev-q-name" type="text" class="s_website_form_input" name="contact_name" required="required" autocomplete="name"/></div>
-        <div class="evtl-field s_website_form_field s_website_form_required" data-type="email"><label class="s_website_form_label" for="xev-q-email">Email</label><input id="xev-q-email" type="email" class="s_website_form_input" name="email_from" required="required" autocomplete="email" placeholder="your@email.com"/></div>
-        <div class="evtl-field s_website_form_field" data-type="char"><label class="s_website_form_label" for="xev-q-phone">Phone / WhatsApp (optional)</label><input id="xev-q-phone" type="tel" class="s_website_form_input" name="phone" autocomplete="tel"/></div>
-        <div class="evtl-field s_website_form_field" data-type="text"><label class="s_website_form_label" for="xev-q-msg">Your question</label><textarea id="xev-q-msg" class="s_website_form_input" name="description" rows="3"/></div>
-        <div class="s_website_form_submit"><button type="submit" class="hb-btn hb-btn-primary s_website_form_send">Send enquiry →</button><span id="s_website_form_result"/></div>
-      </form>
-      <div class="s_website_form_end_message d-none"><p class="xev-thanks"><i class="fa-solid fa-circle-check"/> Thank you — your enquiry is in. Isabelle will get back to you shortly.</p></div>
-    </div>
-    <div class="ce-box ce-qa">
-      <h3>Questions?</h3>
-      <p>Ask before the event rather than on the day — we’re glad to help.</p>
-      <p><a href="mailto:bonjour@bhdasia.com">bonjour@bhdasia.com</a><br/><a href="https://wa.me/818065151778" rel="noopener" target="_blank">WhatsApp +81 80 6515 1778</a></p>
+      <p t-if="x_open and not x_gpp" class="fine">Secure checkout. Your confirmation and receipt arrive by email.</p>
     </div>
   </aside>
 </div>
