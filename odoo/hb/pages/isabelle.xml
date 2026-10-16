@@ -1,0 +1,294 @@
+<t t-name="hbx.page_isabelle"><t t-call="website.layout"><div id="wrap" class="oe_structure hbx xev-flush xev-pg-isabelle"><link rel="stylesheet" href="/hb/pages/isabelle.css?v=1"/><div class="page-hero">
+<video autoplay="" class="hero-video" loop="" muted="" playsinline="" poster="/hb/images/isabelle-hero.webp" title="Isabelle Claus Teixeira — somatic practitioner background video">
+<source src="/hb/images/isabelle-hero.mp4" type="video/mp4">
+</source></video>
+<span class="eyebrow">Meet the Practitioner</span>
+<h1>Isabelle <em>Claus Teixeira</em></h1>
+<p>· Senior Executive Coach (PCC) · Resilience Coach · Mindfulness Teacher · Somatic Coach · Somatic Bodyworker · Global TRE™ Certifying Trainer · Global TRE™ Provider · Breathwork Facilitator · Reiki &amp; Core Shamanism Healer ·</p>
+<div class="hero-actions">
+<a class="hb-btn hb-btn-primary" href="/book">Book a Free Discovery Call</a>
+<a class="hb-btn btn-outline" href="/tre-certification">Explore Services</a>
+</div>
+</div><div aria-hidden="true" class="ticker-wrap">
+<div class="ticker-track">
+<span class="t-item"><span class="t-star">★</span> Somatic Wellness</span><span class="t-sep">·</span>
+<span class="t-item">In-Person &amp; Online Worldwide</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Certified TRE™ Provider</span><span class="t-sep">·</span>
+<span class="t-item">30 Years of Experience</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Coaching</span><span class="t-sep">·</span>
+<span class="t-item">Mindfulness</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> 9 Countries · 40+ Nationalities</span><span class="t-sep">·</span>
+<span class="t-item">Release · Renew · Restore</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Business &amp; Human Development</span><span class="t-sep">·</span>
+<span class="t-item">Nervous System Reset</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Mindfulness</span><span class="t-sep">·</span>
+<span class="t-item">Embodied Leadership</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Trauma &amp; Tension Release</span><span class="t-sep">·</span>
+<span class="t-item">Mind · Body · Soul</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Corporate Wellness</span><span class="t-sep">·</span>
+<span class="t-item">Polyvagal Theory</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Global TRE™ Certifying Trainer</span><span class="t-sep">·</span>
+<span class="t-item">Executive Coaching</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Breathwork</span><span class="t-sep">·</span>
+<span class="t-item">Online &amp; In-Person</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Group Sessions</span><span class="t-sep">·</span>
+<span class="t-item">Burnout Recovery</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Deep Rest &amp; Renewal</span><span class="t-sep">·</span>
+<span class="t-item">Body Intelligence</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Somatic Intelligence</span><span class="t-sep">·</span>
+<span class="t-item">Self-Regulation</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Dr. David Berceli Method</span><span class="t-sep">·</span><span class="t-item">Neurogenic Tremors</span><span class="t-sep">·</span><span class="t-item">Vagal Tone</span><span class="t-sep">·</span><span class="t-item">Psoas Release</span><span class="t-sep">·</span><span class="t-item">Europe · US · Asia · Worldwide</span><span class="t-sep">·</span><span class="t-item">Free Discovery Call</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Certified Reiki Level II</span><span class="t-sep">·</span><span class="t-item">Nervous System Literacy</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Somatic Wellness</span><span class="t-sep">·</span>
+<span class="t-item">In-Person &amp; Online Worldwide</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Certified TRE™ Provider</span><span class="t-sep">·</span>
+<span class="t-item">30 Years of Experience</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Coaching</span><span class="t-sep">·</span>
+<span class="t-item">Mindfulness</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> 9 Countries · 40+ Nationalities</span><span class="t-sep">·</span>
+<span class="t-item">Release · Renew · Restore</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Business &amp; Human Development</span><span class="t-sep">·</span>
+<span class="t-item">Nervous System Reset</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Mindfulness</span><span class="t-sep">·</span>
+<span class="t-item">Embodied Leadership</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Trauma &amp; Tension Release</span><span class="t-sep">·</span>
+<span class="t-item">Mind · Body · Soul</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Corporate Wellness</span><span class="t-sep">·</span>
+<span class="t-item">Polyvagal Theory</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Global TRE™ Certifying Trainer</span><span class="t-sep">·</span>
+<span class="t-item">Executive Coaching</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Breathwork</span><span class="t-sep">·</span>
+<span class="t-item">Online &amp; In-Person</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Group Sessions</span><span class="t-sep">·</span>
+<span class="t-item">Burnout Recovery</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Deep Rest &amp; Renewal</span><span class="t-sep">·</span>
+<span class="t-item">Body Intelligence</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Somatic Intelligence</span><span class="t-sep">·</span>
+<span class="t-item">Self-Regulation</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Dr. David Berceli Method</span><span class="t-sep">·</span><span class="t-item">Neurogenic Tremors</span><span class="t-sep">·</span><span class="t-item">Vagal Tone</span><span class="t-sep">·</span><span class="t-item">Psoas Release</span><span class="t-sep">·</span><span class="t-item">Europe · US · Asia · Worldwide</span><span class="t-sep">·</span><span class="t-item">Free Discovery Call</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Certified Reiki Level II</span><span class="t-sep">·</span><span class="t-item">Nervous System Literacy</span><span class="t-sep">·</span> </div>
+</div><section aria-labelledby="is-x-story-t" class="section-cream is-x-sec is-x-story">
+<div class="is-x-wrap is-x-story-grid">
+<figure class="is-x-portrait is-x-rv" data-is-x-tilt="">
+<div class="is-x-portrait-frame"><img alt="Isabelle Claus Teixeira — somatic practitioner" decoding="async" height="600" loading="lazy" src="/hb/images/isabelle-her-story.jpg" width="800"/></div>
+<div class="is-x-badge is-x-badge-a"><span class="is-x-badge-n"><span data-is-x-count="30">30</span>+</span><span class="is-x-badge-l">Years in Fortune 100 HR &amp; talent leadership</span></div>
+<div class="is-x-badge is-x-badge-b"><span class="is-x-badge-n" data-is-x-count="9">9</span><span class="is-x-badge-l">Countries</span></div>
+</figure>
+<div class="is-x-story-text">
+<span class="is-x-eyebrow is-x-rv">Her Story</span>
+<h2 class="is-x-title is-x-rv" id="is-x-story-t">From Fortune 100 HR Leader<br/><em>to Somatic Practitioner</em></h2>
+<ol class="is-x-chaps" data-is-x-rail="">
+<li aria-hidden="true" class="is-x-rail"><span class="is-x-rail-fill"/></li>
+<li class="is-x-chap is-x-rv" data-is-x-chap="">
+<span aria-hidden="true" class="is-x-chap-node"><i class="fa-solid fa-briefcase"/></span>
+<div class="is-x-chap-body">
+<span class="is-x-chap-k">Then</span>
+<p>Isabelle spent over <strong>30 years</strong> as a Senior HR Business Partner and Talent Management leader in Fortune 100 companies across 9 countries. She built careers, supported leaders, and achieved everything the corporate system rewards. She also went through her own hardship — the quiet damage that toxic work environments and toxic people can cause.</p>
+</div>
+</li>
+<li class="is-x-chap is-x-rv" data-is-x-chap="">
+<span aria-hidden="true" class="is-x-chap-node"><i class="fa-solid fa-leaf"/></span>
+<div class="is-x-chap-body">
+<span class="is-x-chap-k">Now</span>
+<p>She healed herself through somatic practices, TRE™, mindfulness and deep personal work. That firsthand journey is what brought her here. She doesn’t approach this work as someone standing above you with a set of techniques. She approaches it as someone who has walked through it, who continues to do her own inner work, and who now walks alongside others as they find their way back: to themselves, their bodies and their aliveness.</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div class="is-x-cta is-x-rv">
+<a class="hb-btn hb-btn-primary" href="/book">Work With Isabelle</a>
+</div>
+</section><section aria-labelledby="is-x-cred-t" class="section-sage is-x-sec is-x-cred">
+<div class="is-x-wrap">
+<header class="is-x-head is-x-center">
+<span class="is-x-eyebrow is-x-rv">Credentials &amp; Training</span>
+<h2 class="is-x-title is-x-rv" id="is-x-cred-t">Her Training &amp; <em>Formation</em></h2>
+</header>
+<div class="is-x-cx is-x-rv">
+<div aria-label="Credentials and training" aria-orientation="vertical" class="is-x-cx-list" role="tablist">
+<button aria-controls="is-x-cx-p1" aria-selected="true" class="is-x-cx-tab o_no_wait_lazy_js" id="is-x-cx-t1" role="tab" type="button"><span aria-hidden="true" class="is-x-cx-num">01</span><span aria-hidden="true" class="is-x-cx-ico"><i class="fa-solid fa-graduation-cap"/></span><span class="is-x-cx-name">Global TRE™ Certifying Trainer &amp; Certified TRE™ Provider</span></button>
+<button aria-controls="is-x-cx-p2" aria-selected="false" class="is-x-cx-tab o_no_wait_lazy_js" id="is-x-cx-t2" role="tab" tabindex="-1" type="button"><span aria-hidden="true" class="is-x-cx-num">02</span><span aria-hidden="true" class="is-x-cx-ico"><i class="fa-solid fa-medal"/></span><span class="is-x-cx-name">ICF PCC Level Certified Executive Coach</span></button>
+<button aria-controls="is-x-cx-p3" aria-selected="false" class="is-x-cx-tab o_no_wait_lazy_js" id="is-x-cx-t3" role="tab" tabindex="-1" type="button"><span aria-hidden="true" class="is-x-cx-num">03</span><span aria-hidden="true" class="is-x-cx-ico"><i class="fa-solid fa-dna"/></span><span class="is-x-cx-name">Strozzi Somatic Bodywork</span></button>
+<button aria-controls="is-x-cx-p4" aria-selected="false" class="is-x-cx-tab o_no_wait_lazy_js" id="is-x-cx-t4" role="tab" tabindex="-1" type="button"><span aria-hidden="true" class="is-x-cx-num">04</span><span aria-hidden="true" class="is-x-cx-ico"><i class="fa-solid fa-spa"/></span><span class="is-x-cx-name">Certified Accredited Usui/Holy Fire III Reiki Healer</span></button>
+<button aria-controls="is-x-cx-p5" aria-selected="false" class="is-x-cx-tab o_no_wait_lazy_js" id="is-x-cx-t5" role="tab" tabindex="-1" type="button"><span aria-hidden="true" class="is-x-cx-num">05</span><span aria-hidden="true" class="is-x-cx-ico"><i class="fa-solid fa-book-open"/></span><span class="is-x-cx-name">Continuously Studying &amp; Growing</span></button>
+<button aria-controls="is-x-cx-p6" aria-selected="false" class="is-x-cx-tab o_no_wait_lazy_js" id="is-x-cx-t6" role="tab" tabindex="-1" type="button"><span aria-hidden="true" class="is-x-cx-num">06</span><span aria-hidden="true" class="is-x-cx-ico"><i class="fa-solid fa-earth-americas"/></span><span class="is-x-cx-name">Global HR Leadership</span></button>
+<button aria-controls="is-x-cx-p7" aria-selected="false" class="is-x-cx-tab o_no_wait_lazy_js" id="is-x-cx-t7" role="tab" tabindex="-1" type="button"><span aria-hidden="true" class="is-x-cx-num">07</span><span aria-hidden="true" class="is-x-cx-ico"><i class="fa-solid fa-handshake"/></span><span class="is-x-cx-name">Cross-Cultural Expertise</span></button>
+</div>
+<div class="is-x-cx-stage" data-is-x-glow="">
+<div class="is-x-cx-panels">
+<article aria-labelledby="is-x-cx-t1" class="is-x-cx-panel" id="is-x-cx-p1" role="tabpanel" tabindex="0">
+<span aria-hidden="true" class="is-x-cx-big">01</span>
+<span aria-hidden="true" class="is-x-cx-pico"><i class="fa-solid fa-graduation-cap"/></span>
+<h3>Global TRE™ Certifying Trainer &amp; Certified TRE™ Provider</h3>
+<p>Accredited as a Global TRE™ Certifying Trainer and Certified Provider under Dr. David Berceli’s methodology — the highest level of TRE™ qualification worldwide.</p>
+</article>
+<article aria-labelledby="is-x-cx-t2" class="is-x-cx-panel" id="is-x-cx-p2" role="tabpanel" tabindex="0">
+<span aria-hidden="true" class="is-x-cx-big">02</span>
+<span aria-hidden="true" class="is-x-cx-pico"><i class="fa-solid fa-medal"/></span>
+<h3>ICF PCC Level Certified Executive Coach</h3>
+<p>Certified Leadership Coach since 2012, supporting C-suite executives, senior leaders and high-potential professionals across Europe, the US, Asia and beyond.</p>
+</article>
+<article aria-labelledby="is-x-cx-t3" class="is-x-cx-panel" id="is-x-cx-p3" role="tabpanel" tabindex="0">
+<span aria-hidden="true" class="is-x-cx-big">03</span>
+<span aria-hidden="true" class="is-x-cx-pico"><i class="fa-solid fa-dna"/></span>
+<h3>Strozzi Somatic Bodywork</h3>
+<p>Trained in Strozzi Somatic Bodywork — a body-based methodology that uses gentle, systematic touch to help clients release historical patterns and contractions.</p>
+</article>
+<article aria-labelledby="is-x-cx-t4" class="is-x-cx-panel" id="is-x-cx-p4" role="tabpanel" tabindex="0">
+<span aria-hidden="true" class="is-x-cx-big">04</span>
+<span aria-hidden="true" class="is-x-cx-pico"><i class="fa-solid fa-spa"/></span>
+<h3>Certified Accredited Usui/Holy Fire III Reiki Healer</h3>
+<p>Certified Accredited Usui/Holy Fire III Reiki healer (lineage of William Lee Rand). Furthering her practice towards Reiki Master and Karuna Reiki — bringing deep energetic healing into her work.</p>
+</article>
+<article aria-labelledby="is-x-cx-t5" class="is-x-cx-panel" id="is-x-cx-p5" role="tabpanel" tabindex="0">
+<span aria-hidden="true" class="is-x-cx-big">05</span>
+<span aria-hidden="true" class="is-x-cx-pico"><i class="fa-solid fa-book-open"/></span>
+<h3>Continuously Studying &amp; Growing</h3>
+<p>Continuously studying coaching, resilience, somatic and energetic healing modalities. Isabelle is passionate and dedicated to her own development so she can best serve her clients and ensure her practice reflects the latest developments. She is currently studying under recognised teachers specialising in transformational coaching, breathwork, somatic practices, energetic healing, core shamanism and trauma-informed techniques.</p>
+</article>
+<article aria-labelledby="is-x-cx-t6" class="is-x-cx-panel" id="is-x-cx-p6" role="tabpanel" tabindex="0">
+<span aria-hidden="true" class="is-x-cx-big">06</span>
+<span aria-hidden="true" class="is-x-cx-pico"><i class="fa-solid fa-earth-americas"/></span>
+<h3>Global HR Leadership</h3>
+<p>30 years in senior HR roles at Fortune 100 companies across US, Europe, Asia, Russia and Japan — giving her unique insight into the challenges of corporate high performance.</p>
+</article>
+<article aria-labelledby="is-x-cx-t7" class="is-x-cx-panel" id="is-x-cx-p7" role="tabpanel" tabindex="0">
+<span aria-hidden="true" class="is-x-cx-big">07</span>
+<span aria-hidden="true" class="is-x-cx-pico"><i class="fa-solid fa-handshake"/></span>
+<h3>Cross-Cultural Expertise</h3>
+<p>Extensive experience in global, European, US and Asian leadership contexts. Has lived in 9 countries and collaborated with colleagues representing 40+ nationalities.</p>
+</article>
+</div>
+<div aria-hidden="true" class="is-x-cx-nav">
+<button aria-label="Previous credential" class="is-x-cx-arrow o_no_wait_lazy_js" data-is-x-step="-1" tabindex="-1" type="button"><i class="fa-solid fa-arrow-left"/></button>
+<span class="is-x-cx-count"><b data-is-x-cur="">01</b> / 07</span>
+<span class="is-x-cx-prog"><span data-is-x-prog=""/></span>
+<button aria-label="Next credential" class="is-x-cx-arrow o_no_wait_lazy_js" data-is-x-step="1" tabindex="-1" type="button"><i class="fa-solid fa-arrow-right"/></button>
+</div>
+</div>
+</div>
+</div>
+<div class="is-x-cta is-x-rv">
+<a class="hb-btn hb-btn-primary" href="/book">See If We're a Fit</a>
+</div>
+</section><section aria-labelledby="is-x-globe-t" class="section-white is-x-sec is-x-globe" id="global-journey">
+<div class="is-x-wrap">
+<div class="is-x-globe-top">
+<div class="is-x-globe-text">
+<span class="is-x-eyebrow is-x-rv">A Truly Global Journey</span>
+<h2 class="is-x-title is-x-rv" id="is-x-globe-t"><span data-is-x-count="9">9</span> Countries. <em><span data-is-x-count="40">40</span>+ Nationalities.</em></h2>
+<p class="is-x-rv">Isabelle has lived and worked across an extraordinary range of cultures — including the United States, France, Russia, Japan, Singapore and multiple other countries in Asia and Europe.</p>
+<p class="is-x-rv">This depth of cross-cultural exposure has shaped her ability to connect with clients from all walks of life — adapting her language, approach and style to whatever serves the individual in front of her.</p>
+<p class="is-x-rv">She has collaborated with colleagues and clients representing 40+ nationalities across diverse religious, gender and age backgrounds. Her somatic practice is built on this foundation of genuine cultural respect and curiosity.</p>
+</div>
+<figure class="is-x-globe-photo is-x-rv" data-is-x-tilt="">
+<div class="is-x-portrait-frame"><img alt="Isabelle Claus Teixeira — 9 countries, 40+ nationalities" decoding="async" height="600" loading="lazy" src="/hb/images/isabelle-global-journey.jpg" width="800"/></div>
+</figure>
+</div>
+<div class="is-x-map is-x-rv" data-is-x-map="">
+<div class="is-x-map-canvas">
+<svg aria-labelledby="is-x-map-title" class="is-x-map-svg" focusable="false" role="img" viewbox="150 50 800 235">
+<title id="is-x-map-title">Map of the places named in Isabelle’s journey: the United States, France, Russia, Singapore and Japan</title>
+<defs>
+<radialgradient cx="50%" cy="50%" id="is-x-halo" r="50%"><stop offset="0" stop-color="#F5A623" stop-opacity=".5"/><stop offset="1" stop-color="#F5A623" stop-opacity="0"/></radialgradient>
+<pattern height="12" id="is-x-dots" patternunits="userSpaceOnUse" width="12"><circle cx="6" cy="6" fill="#ffffff" fill-opacity=".1" r="1.2"/></pattern>
+</defs>
+<rect aria-hidden="true" fill="url(#is-x-dots)" height="235" width="800" x="150" y="50"/>
+<g aria-hidden="true" class="is-x-grat">
+<path d="M150 50H950M150 91.7H950M150 133.3H950M150 175H950M150 216.7H950M150 258.3H950M150 300H950"/>
+<path d="M166.7 40V300M250 40V300M333.3 40V300M416.7 40V300M500 40V300M583.3 40V300M666.7 40V300M750 40V300M833.3 40V300M916.7 40V300"/>
+<path class="is-x-equator" d="M150 250H950"/>
+</g>
+<g aria-hidden="true" class="is-x-regions">
+<text class="is-x-region" text-anchor="middle" x="545" y="182">EUROPE</text>
+<text class="is-x-region" text-anchor="middle" x="712" y="196">ASIA</text>
+</g>
+<g aria-hidden="true" class="is-x-arcs">
+<path d="M884.7 149.4Q556 -20 227.8 141.7" data-arc="us"/>
+<path d="M884.7 149.4Q695 40 506.1 120.6" data-arc="fr"/>
+<path d="M884.7 149.4Q755 70 625 91.7" data-arc="ru"/>
+<path d="M884.7 149.4Q860 215 788.3 246.3" data-arc="sg"/>
+</g>
+<g aria-hidden="true" class="is-x-pins">
+<g class="is-x-pin" data-pin="us" transform="translate(227.8 141.7)"><circle class="is-x-pin-halo" fill="url(#is-x-halo)" r="26"/><circle class="is-x-pin-ring" r="9"/><circle class="is-x-pin-dot" r="5"/><text class="is-x-pin-t" y="-16">United States</text></g>
+<g class="is-x-pin" data-pin="fr" transform="translate(506.1 120.6)"><circle class="is-x-pin-halo" fill="url(#is-x-halo)" r="26"/><circle class="is-x-pin-ring" r="9"/><circle class="is-x-pin-dot" r="5"/><text class="is-x-pin-t" y="24">France</text></g>
+<g class="is-x-pin" data-pin="ru" transform="translate(625 91.7)"><circle class="is-x-pin-halo" fill="url(#is-x-halo)" r="26"/><circle class="is-x-pin-ring" r="9"/><circle class="is-x-pin-dot" r="5"/><text class="is-x-pin-t" y="-16">Russia</text></g>
+<g class="is-x-pin" data-pin="sg" transform="translate(788.3 246.3)"><circle class="is-x-pin-halo" fill="url(#is-x-halo)" r="26"/><circle class="is-x-pin-ring" r="9"/><circle class="is-x-pin-dot" r="5"/><text class="is-x-pin-t" y="26">Singapore</text></g>
+<g class="is-x-pin is-x-pin-home" data-pin="jp" transform="translate(884.7 149.4)"><circle class="is-x-pin-halo" fill="url(#is-x-halo)" r="30"/><circle class="is-x-pin-ring" r="10"/><circle class="is-x-pin-dot" r="6"/><text class="is-x-pin-t" y="-18">Japan</text></g>
+</g>
+</svg>
+</div>
+<div class="is-x-map-side">
+<div aria-label="Places in her journey" class="is-x-places" role="group">
+<button aria-pressed="false" class="is-x-place o_no_wait_lazy_js" data-k="Lived and worked" data-line="Part of her experience in US leadership contexts." data-place="us" type="button"><i aria-hidden="true" class="fa-solid fa-location-dot"/>United States</button>
+<button aria-pressed="false" class="is-x-place o_no_wait_lazy_js" data-k="Lived and worked · Europe" data-line="Part of her experience in European leadership contexts." data-place="fr" type="button"><i aria-hidden="true" class="fa-solid fa-location-dot"/>France</button>
+<button aria-pressed="false" class="is-x-place o_no_wait_lazy_js" data-k="Lived and worked" data-line="One of the places of her senior HR roles at Fortune 100 companies." data-place="ru" type="button"><i aria-hidden="true" class="fa-solid fa-location-dot"/>Russia</button>
+<button aria-pressed="false" class="is-x-place o_no_wait_lazy_js" data-k="Lived and worked · Asia" data-line="Part of her experience in Asian leadership contexts." data-place="sg" type="button"><i aria-hidden="true" class="fa-solid fa-location-dot"/>Singapore</button>
+<button aria-pressed="true" class="is-x-place o_no_wait_lazy_js" data-k="Current home" data-line="Currently living in Japan and working globally." data-place="jp" type="button"><i aria-hidden="true" class="fa-solid fa-house"/>Japan</button>
+<button aria-pressed="false" class="is-x-place o_no_wait_lazy_js" data-k="Asia &amp; Europe" data-line="Multiple other countries in Asia and Europe." data-place="more" type="button"><i aria-hidden="true" class="fa-solid fa-ellipsis"/>More in Asia &amp; Europe</button>
+</div>
+<div aria-live="polite" class="is-x-map-cap">
+<span class="is-x-map-k" data-is-x-k="">Current home</span>
+<strong class="is-x-map-t" data-is-x-t="">Japan</strong>
+<span class="is-x-map-l" data-is-x-l="">Currently living in Japan and working globally.</span>
+</div>
+</div>
+</div>
+<ul class="is-x-facts">
+<li class="is-x-fact is-x-rv"><span aria-hidden="true" class="is-x-fact-ico"><i class="fa-solid fa-location-dot"/></span><strong>Currently living in Japan and working globally</strong></li>
+<li class="is-x-fact is-x-rv"><span aria-hidden="true" class="is-x-fact-ico"><i class="fa-solid fa-language"/></span><strong>Fluent in English, Spanish and French</strong></li>
+<li class="is-x-fact is-x-rv"><span aria-hidden="true" class="is-x-fact-ico"><i class="fa-solid fa-briefcase"/></span><strong>Extensive experience in global, European, US and Asian leadership contexts</strong></li>
+<li class="is-x-fact is-x-rv"><span aria-hidden="true" class="is-x-fact-ico"><i class="fa-solid fa-handshake"/></span><strong>Part of Business and Human Development Consulting Pte Ltd</strong></li>
+</ul>
+</div>
+<div class="is-x-cta is-x-rv">
+<a class="hb-btn hb-btn-primary" href="/book">Connect With Isabelle</a>
+</div>
+</section><section aria-labelledby="is-x-note-t" class="is-x-sec is-x-note">
+<div aria-hidden="true" class="is-x-breath"><span/><span/><span/></div>
+<div class="is-x-wrap is-x-note-in">
+<span class="is-x-eyebrow is-x-eyebrow-lt is-x-rv">In Her Own Words</span>
+<svg aria-hidden="true" class="is-x-qmark is-x-rv" focusable="false" viewbox="0 0 64 48"><path d="M0 48V28C0 12 8 2 26 0l2 7C18 10 14 16 14 24h12v24H0zm36 0V28c0-16 8-26 26-28l2 7c-10 3-14 9-14 17h12v24H36z"/></svg>
+<h2 class="is-x-quote" data-is-x-words="" id="is-x-note-t">“I don’t do this work from a distance. <em>I’ve walked through it myself.</em> The practices I offer are ones I live — through my own ongoing inner work. Humility is not a value I add on. It is what this path requires.”</h2>
+<span aria-hidden="true" class="is-x-note-line is-x-rv"/>
+<p class="is-x-note-p is-x-rv">My corporate career gave me every achievement the system rewards — and I also went through my own hardship. The damage a toxic work environment can cause is real. Healing myself through somatic practices is what brought me here. Now I support others to walk through and out of those environments, and to find themselves back: empowered, respected, and as healthy — mentally and physically — as possible.</p>
+<p class="is-x-sig is-x-rv">— Isabelle Claus Teixeira</p>
+</div>
+<div class="is-x-cta is-x-rv">
+<a class="hb-btn hb-btn-primary" href="/book">Start the Conversation</a>
+</div>
+</section><section aria-labelledby="is-x-work-t" class="section-cream is-x-sec is-x-work">
+<div class="is-x-wrap">
+<header class="is-x-head is-x-center">
+<span class="is-x-eyebrow is-x-rv">Work With Isabelle</span>
+<h2 class="is-x-title is-x-rv" id="is-x-work-t">Three Ways to <em>Begin</em></h2>
+<p class="is-x-sub is-x-rv">Each path is designed to meet you where you are.</p>
+</header>
+<div class="is-x-paths">
+<article class="is-x-path is-x-rv" data-is-x-glow="">
+<span aria-hidden="true" class="is-x-path-n">01</span>
+<span aria-hidden="true" class="is-x-path-ico"><i class="fa-solid fa-leaf"/></span>
+<h3>TRE™ Sessions</h3>
+<p>Learn Tension &amp; Trauma Release Exercises in supervised 1:1 sessions. After 3–4 sessions, practice independently as a lifelong self-regulation tool.</p>
+<span aria-hidden="true" class="is-x-path-chip"><i class="fa-regular fa-clock"/>3–4 sessions</span>
+<a class="is-x-path-link" href="/tre-certification">Learn About TRE™ <span class="is-x-arr">→</span></a>
+</article>
+<article class="is-x-path is-x-path-feat is-x-rv" data-is-x-glow="">
+<span aria-hidden="true" class="is-x-path-n">02</span>
+<span aria-hidden="true" class="is-x-path-ico"><i class="fa-solid fa-spa"/></span>
+<h3>Coaching</h3>
+<p>Somatic, trauma and neuroscience informed coaching — a 6–12 session journey that builds embodied intelligence for greater resilience, reduced stress and deeper self-awareness.</p>
+<span aria-hidden="true" class="is-x-path-chip"><i class="fa-regular fa-clock"/>6–12 sessions</span>
+<a class="is-x-path-link" href="/holistic-mastermind">Explore Coaching <span class="is-x-arr">→</span></a>
+</article>
+<article class="is-x-path is-x-rv" data-is-x-glow="">
+<span aria-hidden="true" class="is-x-path-n">03</span>
+<span aria-hidden="true" class="is-x-path-ico"><i class="fa-solid fa-hand"/></span>
+<h3>Mindfulness</h3>
+<p>A 6 or 8-session personalised journey to bring mindfulness and neuroscience-backed practices into your daily life — creating space for more presence, ease and aliveness.</p>
+<span aria-hidden="true" class="is-x-path-chip"><i class="fa-regular fa-clock"/>6 or 8 sessions</span>
+<a class="is-x-path-link" href="/holistic-mastermind">Explore Mindfulness <span class="is-x-arr">→</span></a>
+</article>
+</div>
+</div>
+<div class="is-x-cta is-x-rv">
+<a class="hb-btn hb-btn-dark" href="/book">Let's Have a Chat</a>
+</div>
+</section><script src="/hb/pages/isabelle.js?v=1" defer="defer"/></div></t></t>

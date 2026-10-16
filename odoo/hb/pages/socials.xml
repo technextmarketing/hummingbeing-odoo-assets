@@ -1,0 +1,465 @@
+<t t-name="hbx.page_socials"><t t-call="website.layout"><div id="wrap" class="oe_structure hbx xev-flush xev-pg-socials"><link rel="stylesheet" href="/hb/pages/socials.css?v=1"/><div class="page-hero">
+<video autoplay="" class="hero-video" loop="" muted="" playsinline="" poster="/hb/poster-socials.jpg" preload="none" title="HummingBeing social media — background video">
+<source src="/hb/hero-socials.mp4" type="video/mp4">
+</source></video>
+<span class="eyebrow">Stay Connected</span>
+<h1>Follow <em>the Journey</em></h1>
+<p>Insights, practices and inspiration from Isabelle — across all platforms.</p>
+<div class="hero-actions">
+<a class="hb-btn hb-btn-primary" href="/book">Book a Free Discovery Call</a>
+<a class="hb-btn btn-outline" href="https://www.instagram.com/isabelleclausteixeira_bhd/" rel="noopener noreferrer" target="_blank">Follow Isabelle</a>
+</div>
+</div><div aria-hidden="true" class="ticker-wrap">
+<div class="ticker-track">
+<span class="t-item"><span class="t-star">★</span> Somatic Wellness</span><span class="t-sep">·</span>
+<span class="t-item">In-Person &amp; Online Worldwide</span><span class="t-sep">·</span>
+<span class="t-item">30 Years of Experience</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Coaching</span><span class="t-sep">·</span>
+<span class="t-item">Mindfulness</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> 9 Countries · 40+ Nationalities</span><span class="t-sep">·</span>
+<span class="t-item">Release · Renew · Restore</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Business &amp; Human Development</span><span class="t-sep">·</span>
+<span class="t-item">Nervous System Reset</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Mindfulness</span><span class="t-sep">·</span>
+<span class="t-item">Embodied Leadership</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Trauma &amp; Tension Release</span><span class="t-sep">·</span>
+<span class="t-item">Mind · Body · Soul</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Corporate Wellness</span><span class="t-sep">·</span>
+<span class="t-item">Polyvagal Theory</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Global TRE™ Certifying Trainer</span><span class="t-sep">·</span>
+<span class="t-item">Executive Coaching</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Breathwork</span><span class="t-sep">·</span>
+<span class="t-item">Online &amp; In-Person</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Group Sessions</span><span class="t-sep">·</span>
+<span class="t-item">Burnout Recovery</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Deep Rest &amp; Renewal</span><span class="t-sep">·</span>
+<span class="t-item">Body Intelligence</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Somatic Intelligence</span><span class="t-sep">·</span>
+<span class="t-item">Self-Regulation</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Dr. David Berceli Method</span><span class="t-sep">·</span><span class="t-item">Neurogenic Tremors</span><span class="t-sep">·</span><span class="t-item">Vagal Tone</span><span class="t-sep">·</span><span class="t-item">Psoas Release</span><span class="t-sep">·</span><span class="t-item">Europe · US · Asia · Worldwide</span><span class="t-sep">·</span><span class="t-item">Free Discovery Call</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Certified Reiki Level II</span><span class="t-sep">·</span><span class="t-item">Nervous System Literacy</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Somatic Wellness</span><span class="t-sep">·</span>
+<span class="t-item">In-Person &amp; Online Worldwide</span><span class="t-sep">·</span>
+<span class="t-item">30 Years of Experience</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Coaching</span><span class="t-sep">·</span>
+<span class="t-item">Mindfulness</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> 9 Countries · 40+ Nationalities</span><span class="t-sep">·</span>
+<span class="t-item">Release · Renew · Restore</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Business &amp; Human Development</span><span class="t-sep">·</span>
+<span class="t-item">Nervous System Reset</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Mindfulness</span><span class="t-sep">·</span>
+<span class="t-item">Embodied Leadership</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Trauma &amp; Tension Release</span><span class="t-sep">·</span>
+<span class="t-item">Mind · Body · Soul</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Corporate Wellness</span><span class="t-sep">·</span>
+<span class="t-item">Polyvagal Theory</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Global TRE™ Certifying Trainer</span><span class="t-sep">·</span>
+<span class="t-item">Executive Coaching</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Breathwork</span><span class="t-sep">·</span>
+<span class="t-item">Online &amp; In-Person</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Group Sessions</span><span class="t-sep">·</span>
+<span class="t-item">Burnout Recovery</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Deep Rest &amp; Renewal</span><span class="t-sep">·</span>
+<span class="t-item">Body Intelligence</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Somatic Intelligence</span><span class="t-sep">·</span>
+<span class="t-item">Self-Regulation</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Dr. David Berceli Method</span><span class="t-sep">·</span><span class="t-item">Neurogenic Tremors</span><span class="t-sep">·</span><span class="t-item">Vagal Tone</span><span class="t-sep">·</span><span class="t-item">Psoas Release</span><span class="t-sep">·</span><span class="t-item">Europe · US · Asia · Worldwide</span><span class="t-sep">·</span><span class="t-item">Free Discovery Call</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Certified Reiki Level II</span><span class="t-sep">·</span><span class="t-item">Nervous System Literacy</span><span class="t-sep">·</span> </div>
+</div><main class="sx" id="sx">
+
+<section aria-label="Why follow along" class="sx-intro">
+<div class="sx-wrap sx-intro__in">
+<p class="sx-intro__line" data-sx-reveal="">Short practices, honest reflections and conversations on the nervous system — <em>shared where you already spend your time.</em></p>
+<div class="sx-jump" data-sx-reveal="" style="--d:120ms">
+<span aria-hidden="true" class="sx-jump__lbl">Jump to</span>
+<button aria-label="Show Instagram" class="sx-jump__btn o_no_wait_lazy_js" data-sx-jump="0" style="--brand:#E1306C" type="button"><i aria-hidden="true" class="fa-brands fa-instagram"/></button>
+<button aria-label="Show LinkedIn" class="sx-jump__btn o_no_wait_lazy_js" data-sx-jump="1" style="--brand:#0A66C2" type="button"><i aria-hidden="true" class="fa-brands fa-linkedin"/></button>
+<button aria-label="Show YouTube" class="sx-jump__btn o_no_wait_lazy_js" data-sx-jump="2" style="--brand:#FF0000" type="button"><i aria-hidden="true" class="fa-brands fa-youtube"/></button>
+<button aria-label="Show Pinterest" class="sx-jump__btn o_no_wait_lazy_js" data-sx-jump="3" style="--brand:#E60023" type="button"><i aria-hidden="true" class="fa-brands fa-pinterest"/></button>
+<button aria-label="Show WhatsApp" class="sx-jump__btn o_no_wait_lazy_js" data-sx-jump="4" style="--brand:#25D366" type="button"><i aria-hidden="true" class="fa-brands fa-whatsapp"/></button>
+<button aria-label="Show BHD Asia" class="sx-jump__btn o_no_wait_lazy_js" data-sx-jump="5" style="--brand:#c98000" type="button"><i aria-hidden="true" class="fa-solid fa-globe"/></button>
+</div>
+</div>
+</section>
+
+<section aria-labelledby="sx-platforms-h" class="sx-sec sx-sec--cream" id="sx-platforms">
+<div class="sx-wrap">
+<header class="sx-head">
+<div data-sx-reveal="">
+<span class="sx-eyebrow">Our Platforms</span>
+<h2 class="sx-title" id="sx-platforms-h">Find Us <em>Where You Are</em></h2>
+</div>
+<p class="sx-sub" data-sx-reveal="" style="--d:100ms">Follow Isabelle and HummingBeing for somatic wellness content, leadership insights and community.</p>
+</header>
+<div class="sx-switch" data-sx-switch="">
+<div aria-label="Platforms" class="sx-tabs" data-sx-stagger="" role="tablist">
+<span aria-hidden="true" class="sx-tabs__ind"/>
+<button aria-controls="sx-panel-ig" aria-selected="true" class="sx-tab o_no_wait_lazy_js" data-sx-reveal="" id="sx-tab-ig" role="tab" style="--brand:#E1306C" type="button">
+<span class="sx-tab__icon"><i aria-hidden="true" class="fa-brands fa-instagram"/></span>
+<span class="sx-tab__txt"><span class="sx-tab__name">Instagram</span><span class="sx-tab__handle">@isabelleclausteixeira_bhd</span></span>
+<span aria-hidden="true" class="sx-tab__num">01</span>
+</button>
+<button aria-controls="sx-panel-li" aria-selected="false" class="sx-tab o_no_wait_lazy_js" data-sx-reveal="" id="sx-tab-li" role="tab" style="--brand:#0A66C2" type="button">
+<span class="sx-tab__icon"><i aria-hidden="true" class="fa-brands fa-linkedin"/></span>
+<span class="sx-tab__txt"><span class="sx-tab__name">LinkedIn</span><span class="sx-tab__handle">Isabelle Claus Teixeira</span></span>
+<span aria-hidden="true" class="sx-tab__num">02</span>
+</button>
+<button aria-controls="sx-panel-yt" aria-selected="false" class="sx-tab o_no_wait_lazy_js" data-sx-reveal="" id="sx-tab-yt" role="tab" style="--brand:#FF0000" type="button">
+<span class="sx-tab__icon"><i aria-hidden="true" class="fa-brands fa-youtube"/></span>
+<span class="sx-tab__txt"><span class="sx-tab__name">YouTube</span><span class="sx-tab__handle">@IsabelleClausTeixeira</span></span>
+<span aria-hidden="true" class="sx-tab__num">03</span>
+</button>
+<button aria-controls="sx-panel-pin" aria-selected="false" class="sx-tab o_no_wait_lazy_js" data-sx-reveal="" id="sx-tab-pin" role="tab" style="--brand:#E60023" type="button">
+<span class="sx-tab__icon"><i aria-hidden="true" class="fa-brands fa-pinterest"/></span>
+<span class="sx-tab__txt"><span class="sx-tab__name">Pinterest</span><span class="sx-tab__handle">isabelleclausteixeira</span></span>
+<span aria-hidden="true" class="sx-tab__num">04</span>
+</button>
+<button aria-controls="sx-panel-wa" aria-selected="false" class="sx-tab o_no_wait_lazy_js" data-sx-reveal="" id="sx-tab-wa" role="tab" style="--brand:#25D366" type="button">
+<span class="sx-tab__icon"><i aria-hidden="true" class="fa-brands fa-whatsapp"/></span>
+<span class="sx-tab__txt"><span class="sx-tab__name">WhatsApp</span><span class="sx-tab__handle">+81 806515 1778</span></span>
+<span aria-hidden="true" class="sx-tab__num">05</span>
+</button>
+<button aria-controls="sx-panel-bhd" aria-selected="false" class="sx-tab o_no_wait_lazy_js" data-sx-reveal="" id="sx-tab-bhd" role="tab" style="--brand:#c98000" type="button">
+<span class="sx-tab__icon"><i aria-hidden="true" class="fa-solid fa-globe"/></span>
+<span class="sx-tab__txt"><span class="sx-tab__name">BHD Asia</span><span class="sx-tab__handle">bhdasia.com</span></span>
+<span aria-hidden="true" class="sx-tab__num">06</span>
+</button>
+</div>
+<div class="sx-stage" data-sx-reveal="" data-sx-tilt="2.2" style="--d:120ms">
+<span aria-hidden="true" class="sx-glow"/>
+<span aria-hidden="true" class="sx-orbit">
+<svg fill="none" viewbox="0 0 420 420"><circle cx="210" cy="210" r="200" stroke="rgba(245,166,35,.35)" stroke-dasharray="2 10" stroke-width="1"/><circle cx="210" cy="210" r="140" stroke="rgba(255,255,255,.14)" stroke-width="1"/><circle cx="210" cy="10" fill="#F5A623" r="5"/></svg>
+<svg class="sx-orbit__b" fill="none" viewbox="0 0 420 420"><circle cx="210" cy="210" r="85" stroke="rgba(245,166,35,.3)" stroke-dasharray="1 7" stroke-width="1"/><circle cx="210" cy="350" fill="#fff" fill-opacity=".7" r="3.5"/></svg>
+</span>
+<div class="sx-panels">
+<article aria-labelledby="sx-tab-ig" class="sx-panel is-active" id="sx-panel-ig" role="tabpanel" style="--brand:#E1306C">
+<div class="sx-panel__top">
+<span class="sx-panel__icon"><i aria-hidden="true" class="fa-brands fa-instagram"/></span>
+<span aria-hidden="true" class="sx-panel__count"><b>01</b> / 06</span>
+</div>
+<h3 class="sx-panel__name">Instagram</h3>
+<div class="sx-handle">
+<span class="sx-handle__txt">@isabelleclausteixeira_bhd</span>
+<button aria-label="Copy Instagram handle" class="sx-copy o_no_wait_lazy_js" data-copy="@isabelleclausteixeira_bhd" type="button"><i aria-hidden="true" class="fa-regular fa-copy"/><span aria-hidden="true" class="sx-copy__lbl">Copy</span></button>
+</div>
+<p class="sx-panel__label">What Isabelle shares here</p>
+<ul class="sx-panel__list"><li>Somatic Micro-Practices</li><li>The Hummingbird Journal</li><li>Client Transformations</li></ul>
+<div class="sx-panel__foot">
+<span class="sx-magnet"><a class="hb-btn hb-btn-primary" href="https://www.instagram.com/isabelleclausteixeira_bhd/" rel="noopener noreferrer" target="_blank">Follow on Instagram<i aria-hidden="true" class="fa-solid fa-arrow-right"/></a></span>
+<button class="sx-textbtn o_no_wait_lazy_js" data-sx-show="instagram" type="button">See Instagram themes <i aria-hidden="true" class="fa-solid fa-arrow-down"/></button>
+</div>
+</article>
+<article aria-labelledby="sx-tab-li" class="sx-panel" id="sx-panel-li" role="tabpanel" style="--brand:#0A66C2">
+<div class="sx-panel__top">
+<span class="sx-panel__icon"><i aria-hidden="true" class="fa-brands fa-linkedin"/></span>
+<span aria-hidden="true" class="sx-panel__count"><b>02</b> / 06</span>
+</div>
+<h3 class="sx-panel__name">LinkedIn</h3>
+<div class="sx-handle">
+<span class="sx-handle__txt">Isabelle Claus Teixeira</span>
+<button aria-label="Copy LinkedIn name" class="sx-copy o_no_wait_lazy_js" data-copy="Isabelle Claus Teixeira" type="button"><i aria-hidden="true" class="fa-regular fa-copy"/><span aria-hidden="true" class="sx-copy__lbl">Copy</span></button>
+</div>
+<p class="sx-panel__label">What Isabelle shares here</p>
+<ul class="sx-panel__list"><li>Leadership &amp; Resilience</li><li>Neuroscience &amp; Wellbeing</li></ul>
+<div class="sx-panel__foot">
+<span class="sx-magnet"><a class="hb-btn hb-btn-primary" href="https://www.linkedin.com/in/isabelleclausteixeira/" rel="noopener noreferrer" target="_blank">Connect on LinkedIn<i aria-hidden="true" class="fa-solid fa-arrow-right"/></a></span>
+<button class="sx-textbtn o_no_wait_lazy_js" data-sx-show="linkedin" type="button">See LinkedIn themes <i aria-hidden="true" class="fa-solid fa-arrow-down"/></button>
+</div>
+</article>
+<article aria-labelledby="sx-tab-yt" class="sx-panel" id="sx-panel-yt" role="tabpanel" style="--brand:#FF0000">
+<div class="sx-panel__top">
+<span class="sx-panel__icon"><i aria-hidden="true" class="fa-brands fa-youtube"/></span>
+<span aria-hidden="true" class="sx-panel__count"><b>03</b> / 06</span>
+</div>
+<h3 class="sx-panel__name">YouTube</h3>
+<div class="sx-handle">
+<span class="sx-handle__txt">@IsabelleClausTeixeira</span>
+<button aria-label="Copy YouTube handle" class="sx-copy o_no_wait_lazy_js" data-copy="@IsabelleClausTeixeira" type="button"><i aria-hidden="true" class="fa-regular fa-copy"/><span aria-hidden="true" class="sx-copy__lbl">Copy</span></button>
+</div>
+<p class="sx-panel__label">What Isabelle shares here</p>
+<ul class="sx-panel__list"><li>Guided Somatic Sessions</li><li>Expert Conversations</li></ul>
+<div class="sx-panel__foot">
+<span class="sx-magnet"><a class="hb-btn hb-btn-primary" href="https://www.youtube.com/@IsabelleClausTeixeira" rel="noopener noreferrer" target="_blank">Watch on YouTube<i aria-hidden="true" class="fa-solid fa-arrow-right"/></a></span>
+<button class="sx-textbtn o_no_wait_lazy_js" data-sx-show="youtube" type="button">See YouTube themes <i aria-hidden="true" class="fa-solid fa-arrow-down"/></button>
+</div>
+</article>
+<article aria-labelledby="sx-tab-pin" class="sx-panel" id="sx-panel-pin" role="tabpanel" style="--brand:#E60023">
+<div class="sx-panel__top">
+<span class="sx-panel__icon"><i aria-hidden="true" class="fa-brands fa-pinterest"/></span>
+<span aria-hidden="true" class="sx-panel__count"><b>04</b> / 06</span>
+</div>
+<h3 class="sx-panel__name">Pinterest</h3>
+<div class="sx-handle">
+<span class="sx-handle__txt">isabelleclausteixeira</span>
+<button aria-label="Copy Pinterest handle" class="sx-copy o_no_wait_lazy_js" data-copy="isabelleclausteixeira" type="button"><i aria-hidden="true" class="fa-regular fa-copy"/><span aria-hidden="true" class="sx-copy__lbl">Copy</span></button>
+</div>
+<p class="sx-panel__label">What Isabelle shares here</p>
+<ul class="sx-panel__list"><li>Wellness Inspiration Boards</li></ul>
+<div class="sx-panel__foot">
+<span class="sx-magnet"><a class="hb-btn hb-btn-primary" href="https://www.pinterest.com/isabelleclausteixeira/" rel="noopener noreferrer" target="_blank">Follow on Pinterest<i aria-hidden="true" class="fa-solid fa-arrow-right"/></a></span>
+<button class="sx-textbtn o_no_wait_lazy_js" data-sx-show="pinterest" type="button">See Pinterest themes <i aria-hidden="true" class="fa-solid fa-arrow-down"/></button>
+</div>
+</article>
+<article aria-labelledby="sx-tab-wa" class="sx-panel" id="sx-panel-wa" role="tabpanel" style="--brand:#25D366">
+<div class="sx-panel__top">
+<span class="sx-panel__icon"><i aria-hidden="true" class="fa-brands fa-whatsapp"/></span>
+<span aria-hidden="true" class="sx-panel__count"><b>05</b> / 06</span>
+</div>
+<h3 class="sx-panel__name">WhatsApp</h3>
+<div class="sx-handle">
+<span class="sx-handle__txt">+81 806515 1778</span>
+<button aria-label="Copy WhatsApp number" class="sx-copy o_no_wait_lazy_js" data-copy="+818065151778" type="button"><i aria-hidden="true" class="fa-regular fa-copy"/><span aria-hidden="true" class="sx-copy__lbl">Copy</span></button>
+</div>
+<p class="sx-panel__label">Direct line</p>
+<p class="sx-panel__desc">Send Isabelle a message directly on WhatsApp.</p>
+<div class="sx-panel__foot">
+<span class="sx-magnet"><a class="hb-btn hb-btn-primary" href="https://wa.me/818065151778" rel="noopener noreferrer" target="_blank">Message on WhatsApp<i aria-hidden="true" class="fa-solid fa-arrow-right"/></a></span>
+</div>
+</article>
+<article aria-labelledby="sx-tab-bhd" class="sx-panel" id="sx-panel-bhd" role="tabpanel" style="--brand:#c98000">
+<div class="sx-panel__top">
+<span class="sx-panel__icon"><i aria-hidden="true" class="fa-solid fa-globe"/></span>
+<span aria-hidden="true" class="sx-panel__count"><b>06</b> / 06</span>
+</div>
+<h3 class="sx-panel__name">BHD Asia</h3>
+<div class="sx-handle">
+<span class="sx-handle__txt">bhdasia.com</span>
+<button aria-label="Copy BHD Asia address" class="sx-copy o_no_wait_lazy_js" data-copy="bhdasia.com" type="button"><i aria-hidden="true" class="fa-regular fa-copy"/><span aria-hidden="true" class="sx-copy__lbl">Copy</span></button>
+</div>
+<p class="sx-panel__label">About</p>
+<p class="sx-panel__desc">The parent organisation offering executive coaching, leadership development, organisational consulting and TRE™ services worldwide.</p>
+<div class="sx-panel__foot">
+<span class="sx-magnet"><a class="hb-btn hb-btn-primary" href="https://bhdasia.com" rel="noopener noreferrer" target="_blank">Visit bhdasia.com<i aria-hidden="true" class="fa-solid fa-arrow-right"/></a></span>
+</div>
+</article>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section aria-labelledby="sx-themes-h" class="sx-sec" id="sx-themes" style="scroll-margin-top:90px">
+<div class="sx-wrap">
+<header class="sx-head">
+<div data-sx-reveal="">
+<span class="sx-eyebrow">What to Expect</span>
+<h2 class="sx-title" id="sx-themes-h">Content That <em>Nourishes</em></h2>
+</div>
+<p class="sx-sub" data-sx-reveal="" style="--d:100ms">Isabelle's social content spans the full landscape of somatic wellness and human development.</p>
+</header>
+<div aria-label="Filter themes by platform" class="sx-chips" data-noun="themes" data-sx-filter="sx-theme-grid" data-sx-reveal="" role="group">
+<button aria-pressed="true" class="sx-chip o_no_wait_lazy_js" data-f="all" type="button">All</button>
+<button aria-pressed="false" class="sx-chip o_no_wait_lazy_js" data-f="instagram" type="button"><i aria-hidden="true" class="fa-brands fa-instagram"/>Instagram</button>
+<button aria-pressed="false" class="sx-chip o_no_wait_lazy_js" data-f="linkedin" type="button"><i aria-hidden="true" class="fa-brands fa-linkedin"/>LinkedIn</button>
+<button aria-pressed="false" class="sx-chip o_no_wait_lazy_js" data-f="youtube" type="button"><i aria-hidden="true" class="fa-brands fa-youtube"/>YouTube</button>
+<button aria-pressed="false" class="sx-chip o_no_wait_lazy_js" data-f="pinterest" type="button"><i aria-hidden="true" class="fa-brands fa-pinterest"/>Pinterest</button>
+</div>
+<div class="sx-themes" data-sx-stagger="" id="sx-theme-grid">
+<div class="sx-theme-cell" data-sx-reveal="" data-tags="instagram">
+<article class="sx-theme" data-sx-tilt="5" style="--brand:#E1306C">
+<div class="sx-theme__plat"><i aria-hidden="true" class="fa-brands fa-instagram"/> Instagram</div>
+<h3>Somatic Micro-Practices</h3>
+<p>Short, accessible exercises you can do anywhere to regulate your nervous system, release tension and return to presence.</p>
+</article>
+</div>
+<div class="sx-theme-cell" data-sx-reveal="" data-tags="linkedin">
+<article class="sx-theme" data-sx-tilt="5" style="--brand:#0A66C2">
+<div class="sx-theme__plat"><i aria-hidden="true" class="fa-brands fa-linkedin"/> LinkedIn</div>
+<h3>Leadership &amp; Resilience</h3>
+<p>Evidence-based insights on how somatic awareness makes better leaders — with practical applications for high-performance professionals.</p>
+</article>
+</div>
+<div class="sx-theme-cell" data-sx-reveal="" data-tags="youtube">
+<article class="sx-theme" data-sx-tilt="5" style="--brand:#FF0000">
+<div class="sx-theme__plat"><i aria-hidden="true" class="fa-brands fa-youtube"/> YouTube</div>
+<h3>Guided Somatic Sessions</h3>
+<p>Full-length guided TRE™ practice sessions, somatic movement sequences and educational deep-dives on nervous system health.</p>
+</article>
+</div>
+<div class="sx-theme-cell" data-sx-reveal="" data-tags="instagram">
+<article class="sx-theme" data-sx-tilt="5" style="--brand:#E1306C">
+<div class="sx-theme__plat"><i aria-hidden="true" class="fa-brands fa-instagram"/> Instagram</div>
+<h3>The Hummingbird Journal</h3>
+<p>Personal reflections on the path from corporate high-achiever to somatic practitioner — honest, warm and thought-provoking.</p>
+</article>
+</div>
+<div class="sx-theme-cell" data-sx-reveal="" data-tags="linkedin">
+<article class="sx-theme" data-sx-tilt="5" style="--brand:#0A66C2">
+<div class="sx-theme__plat"><i aria-hidden="true" class="fa-brands fa-linkedin"/> LinkedIn</div>
+<h3>Neuroscience &amp; Wellbeing</h3>
+<p>Accessible breakdowns of the latest research in polyvagal theory, trauma neuroscience and embodied leadership for professional audiences.</p>
+</article>
+</div>
+<div class="sx-theme-cell" data-sx-reveal="" data-tags="pinterest">
+<article class="sx-theme" data-sx-tilt="5" style="--brand:#E60023">
+<div class="sx-theme__plat"><i aria-hidden="true" class="fa-brands fa-pinterest"/> Pinterest</div>
+<h3>Wellness Inspiration Boards</h3>
+<p>Curated visual collections on somatic practices, breathwork, mindful movement, nature-based healing and holistic lifestyle.</p>
+</article>
+</div>
+<div class="sx-theme-cell" data-sx-reveal="" data-tags="instagram">
+<article class="sx-theme" data-sx-tilt="5" style="--brand:#E1306C">
+<div class="sx-theme__plat"><i aria-hidden="true" class="fa-brands fa-instagram"/> Instagram</div>
+<h3>Client Transformations</h3>
+<p>With permission, sharing the journeys of clients who have found their way back to resilience, energy and joy through somatic practices.</p>
+</article>
+</div>
+<div class="sx-theme-cell" data-sx-reveal="" data-tags="youtube">
+<article class="sx-theme" data-sx-tilt="5" style="--brand:#FF0000">
+<div class="sx-theme__plat"><i aria-hidden="true" class="fa-brands fa-youtube"/> YouTube</div>
+<h3>Expert Conversations</h3>
+<p>Interviews with leading voices in somatics, trauma therapy, neuroscience and conscious leadership from around the world.</p>
+</article>
+</div>
+</div>
+</div>
+</section>
+
+<section aria-labelledby="sx-res-h" class="sx-sec sx-sec--cream">
+<div class="sx-wrap">
+<header class="sx-head">
+<div data-sx-reveal="">
+<span class="sx-eyebrow">Further Reading</span>
+<h2 class="sx-title" id="sx-res-h">Resources &amp; <em>Related Organisations</em></h2>
+</div>
+<p class="sx-sub" data-sx-reveal="" style="--d:100ms">Expand your understanding of somatic wellness with these trusted resources.</p>
+</header>
+<div aria-label="Filter resources" class="sx-chips" data-noun="resources" data-sx-filter="sx-res-list" data-sx-reveal="" role="group">
+<button aria-pressed="true" class="sx-chip o_no_wait_lazy_js" data-f="all" type="button">All</button>
+<button aria-pressed="false" class="sx-chip o_no_wait_lazy_js" data-f="org" type="button"><i aria-hidden="true" class="fa-solid fa-building-columns"/>Organisations</button>
+<button aria-pressed="false" class="sx-chip o_no_wait_lazy_js" data-f="partner" type="button"><i aria-hidden="true" class="fa-solid fa-handshake"/>Partners</button>
+<button aria-pressed="false" class="sx-chip o_no_wait_lazy_js" data-f="isabelle" type="button"><i aria-hidden="true" class="fa-solid fa-feather"/>Isabelle’s Work</button>
+</div>
+<ul class="sx-res-list" data-sx-stagger="" id="sx-res-list">
+<li class="sx-res" data-sx-reveal="" data-tags="org">
+<span aria-hidden="true" class="sx-res__num">01</span>
+<span aria-hidden="true" class="sx-res__icon"><i class="fa-solid fa-globe"/></span>
+<div class="sx-res__body">
+<h3>TRE™ Global</h3>
+<p>The official global organisation for Tension &amp; Trauma Release Exercises, founded by Dr. David Berceli. Find certified practitioners, research and resources worldwide.</p>
+</div>
+<a class="sx-res__link" href="https://traumaprevention.com" rel="noopener noreferrer" target="_blank">traumaprevention.com <span aria-hidden="true" class="sx-res__arrow"><i class="fa-solid fa-arrow-right"/></span></a>
+</li>
+<li class="sx-res" data-sx-reveal="" data-tags="org">
+<span aria-hidden="true" class="sx-res__num">02</span>
+<span aria-hidden="true" class="sx-res__icon"><i class="fa-solid fa-building-columns"/></span>
+<div class="sx-res__body">
+<h3>Strozzi Institute</h3>
+<p>The home of Strozzi Somatic Bodywork and Leadership — the methodology behind Isabelle's bodywork practice. A global leader in somatics and leadership development.</p>
+</div>
+<a class="sx-res__link" href="https://strozziinstitute.com" rel="noopener noreferrer" target="_blank">strozziinstitute.com <span aria-hidden="true" class="sx-res__arrow"><i class="fa-solid fa-arrow-right"/></span></a>
+</li>
+<li class="sx-res" data-sx-reveal="" data-tags="partner">
+<span aria-hidden="true" class="sx-res__num">03</span>
+<span aria-hidden="true" class="sx-res__icon"><i class="fa-solid fa-spa"/></span>
+<div class="sx-res__body">
+<h3>Living with the Spirit</h3>
+<p>The practice of Simba Stenqvist — Global TRE™ Certifying Trainer and creator of Internal Alchemy, a partner facilitator for HummingBeing’s TRE™ certifications and workshops.</p>
+</div>
+<a class="sx-res__link" href="https://livingwiththespirit.com/" rel="noopener noreferrer" target="_blank">livingwiththespirit.com <span aria-hidden="true" class="sx-res__arrow"><i class="fa-solid fa-arrow-right"/></span></a>
+</li>
+<li class="sx-res" data-sx-reveal="" data-tags="partner">
+<span aria-hidden="true" class="sx-res__num">04</span>
+<span aria-hidden="true" class="sx-res__icon"><i class="fa-solid fa-brain"/></span>
+<div class="sx-res__body">
+<h3>BHD Asia</h3>
+<p>The parent organisation offering executive coaching, leadership development, organisational consulting and TRE™ services worldwide.</p>
+</div>
+<a class="sx-res__link" href="https://bhdasia.com" rel="noopener noreferrer" target="_blank">bhdasia.com <span aria-hidden="true" class="sx-res__arrow"><i class="fa-solid fa-arrow-right"/></span></a>
+</li>
+<li class="sx-res" data-sx-reveal="" data-tags="isabelle">
+<span aria-hidden="true" class="sx-res__num">05</span>
+<span aria-hidden="true" class="sx-res__icon"><i class="fa-solid fa-book-open"/></span>
+<div class="sx-res__body">
+<h3>Magic Somatic (Book)</h3>
+<p>Isabelle's book on somatic healing — a practical and philosophical guide to working with the body for personal transformation and resilience.</p>
+</div>
+<a class="sx-res__link" href="https://www.amazon.com/Magic-Somatic-Isabelle-Mullesch/dp/B0CYXRHYGD" rel="noopener noreferrer" target="_blank">Find on Amazon <span aria-hidden="true" class="sx-res__arrow"><i class="fa-solid fa-arrow-right"/></span></a>
+</li>
+<li class="sx-res" data-sx-reveal="" data-tags="org">
+<span aria-hidden="true" class="sx-res__num">06</span>
+<span aria-hidden="true" class="sx-res__icon"><i class="fa-solid fa-earth-asia"/></span>
+<div class="sx-res__body">
+<h3>Somatic Asia</h3>
+<p>A growing community of somatic practitioners across Asia — supporting the spread of body-based healing modalities in a region where access has historically been limited.</p>
+</div>
+<a class="sx-res__link" href="https://www.facebook.com/SomaticAsiaTherapy/" rel="noopener noreferrer" target="_blank">Somatic Asia <span aria-hidden="true" class="sx-res__arrow"><i class="fa-solid fa-arrow-right"/></span></a>
+</li>
+<li class="sx-res" data-sx-reveal="" data-tags="isabelle">
+<span aria-hidden="true" class="sx-res__num">07</span>
+<span aria-hidden="true" class="sx-res__icon"><i class="fa-solid fa-graduation-cap"/></span>
+<div class="sx-res__body">
+<h3>Noomii — Isabelle's Profile</h3>
+<p>View Isabelle's coaching profile on Noomii — the world's largest directory of life coaches and executive coaches — including client testimonials and focus areas.</p>
+</div>
+<a class="sx-res__link" href="https://www.noomii.com/users/isabelle-claus_teixeira" rel="noopener noreferrer" target="_blank">View Profile <span aria-hidden="true" class="sx-res__arrow"><i class="fa-solid fa-arrow-right"/></span></a>
+</li>
+</ul>
+</div>
+</section>
+
+<section aria-labelledby="sx-nl-h" class="sx-sec">
+<div class="sx-wrap">
+<div class="sx-nl" data-sx-reveal="">
+<div class="sx-nl__l">
+<span class="sx-eyebrow">Stay in the Loop</span>
+<h2 id="sx-nl-h">The HummingBeing Letter</h2>
+<p>Monthly somatic insights, practices you can use immediately and stories from the field of human transformation.</p>
+<ul class="sx-perks">
+<li><i aria-hidden="true" class="fa-solid fa-check"/>Monthly somatic micro-practices</li>
+<li><i aria-hidden="true" class="fa-solid fa-check"/>Nervous system research, made simple</li>
+<li><i aria-hidden="true" class="fa-solid fa-check"/>Stories of transformation &amp; healing</li>
+</ul>
+</div>
+<div class="sx-nl__r">
+<div>
+<h3>Join the community</h3>
+<p class="sx-nl__note">No spam — ever. Unsubscribe anytime.</p>
+</div>
+<form class="sx-nl__form" novalidate="">
+<label for="sx-nl-email">Email address</label>
+<input autocomplete="email" id="sx-nl-email" name="email" placeholder="Your email address" required="" type="email"/>
+<button class="hb-btn hb-btn-primary o_no_wait_lazy_js" type="submit">Subscribe</button>
+<p aria-live="polite" class="sx-nl__msg" role="status"/>
+</form>
+<p class="sx-nl__privacy"><i aria-hidden="true" class="fa-solid fa-lock"/> Your privacy is protected. No spam, ever.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section aria-labelledby="sx-close-h" class="sx-close">
+<span aria-hidden="true" class="sx-close__orb sx-close__orb--a"/>
+<span aria-hidden="true" class="sx-close__orb sx-close__orb--b"/>
+<div class="sx-wrap sx-close__in">
+<div class="sx-close__copy" data-sx-reveal="">
+<span class="sx-eyebrow">Stay in Touch</span>
+<h2 class="sx-title" id="sx-close-h">Ready to Start <em>Your Journey?</em></h2>
+<p>Follow along on social — or take the next step and book a free discovery call.</p>
+<span class="sx-magnet"><a class="hb-btn hb-btn-primary" href="/book">Book a Free Call<i aria-hidden="true" class="fa-solid fa-arrow-right"/></a></span>
+</div>
+<div class="sx-contacts" data-sx-stagger="">
+<div class="sx-contact" data-sx-reveal="" style="--brand:#25D366">
+<span aria-hidden="true" class="sx-contact__icon"><i class="fa-brands fa-whatsapp"/></span>
+<div>
+<span class="sx-contact__lbl">WhatsApp</span>
+<span class="sx-contact__val">+81 806515 1778</span>
+</div>
+<div class="sx-contact__acts">
+<a class="hb-btn btn-outline" href="https://wa.me/818065151778" rel="noopener noreferrer" target="_blank">Message on WhatsApp</a>
+<button aria-label="Copy WhatsApp number" class="sx-copy o_no_wait_lazy_js" data-copy="+818065151778" type="button"><i aria-hidden="true" class="fa-regular fa-copy"/><span aria-hidden="true" class="sx-copy__lbl">Copy</span></button>
+</div>
+</div>
+<div class="sx-contact" data-sx-reveal="">
+<span aria-hidden="true" class="sx-contact__icon"><i class="fa-solid fa-envelope"/></span>
+<div>
+<span class="sx-contact__lbl">Email</span>
+<span class="sx-contact__val">bonjour@bhdasia.com</span>
+</div>
+<div class="sx-contact__acts">
+<a class="hb-btn btn-outline" href="mailto:bonjour@bhdasia.com">Send an Email</a>
+<button aria-label="Copy email address" class="sx-copy o_no_wait_lazy_js" data-copy="bonjour@bhdasia.com" type="button"><i aria-hidden="true" class="fa-regular fa-copy"/><span aria-hidden="true" class="sx-copy__lbl">Copy</span></button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<p aria-live="polite" class="sx-sr sx-status" role="status"/>
+<div aria-atomic="true" aria-live="polite" class="sx-toast" role="status"><i aria-hidden="true" class="fa-solid fa-circle-check"/><span class="sx-toast__msg"/></div>
+</main><script src="/hb/pages/socials.js?v=1" defer="defer"/></div></t></t>

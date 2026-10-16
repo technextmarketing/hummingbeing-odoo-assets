@@ -1,0 +1,209 @@
+<t t-name="hbx.page_about"><t t-call="website.layout"><div id="wrap" class="oe_structure hbx xev-flush xev-pg-about"><link rel="stylesheet" href="/hb/pages/about.css?v=1"/><div class="page-hero">
+<video autoplay="" class="hero-video" loop="" muted="" playsinline="" poster="/hb/poster-about.jpg" preload="none" title="About HummingBeing — somatic wellness background video">
+<source src="/hb/hero-about.mp4" type="video/mp4">
+</source></video>
+<span class="eyebrow">About HummingBeing</span>
+<h1>Science Backed Processes to<br/><em>Release, Renew &amp; Restore</em></h1>
+<p>Rooted in neuroscience, trauma informed, integrating mindfulness and somatics, and 30 years of human development experience.</p>
+<div class="hero-actions">
+<a class="hb-btn hb-btn-primary" href="/book">Book a Free Discovery Call</a>
+<a class="hb-btn btn-outline" href="/isabelle">Meet Isabelle</a>
+</div>
+</div><div aria-hidden="true" class="ticker-wrap">
+<div class="ticker-track">
+<span class="t-item"><span class="t-star">★</span> Somatic Wellness</span><span class="t-sep">·</span>
+<span class="t-item">In-Person &amp; Online Worldwide</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Certified TRE™ Provider</span><span class="t-sep">·</span>
+<span class="t-item">30 Years of Experience</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Coaching</span><span class="t-sep">·</span>
+<span class="t-item">Mindfulness</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> 9 Countries · 40+ Nationalities</span><span class="t-sep">·</span>
+<span class="t-item">Release · Renew · Restore</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Business &amp; Human Development</span><span class="t-sep">·</span>
+<span class="t-item">Nervous System Reset</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Mindfulness</span><span class="t-sep">·</span>
+<span class="t-item">Embodied Leadership</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Trauma &amp; Tension Release</span><span class="t-sep">·</span>
+<span class="t-item">Mind · Body · Soul</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Corporate Wellness</span><span class="t-sep">·</span>
+<span class="t-item">Polyvagal Theory</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Global TRE™ Certifying Trainer</span><span class="t-sep">·</span>
+<span class="t-item">Executive Coaching</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Breathwork</span><span class="t-sep">·</span>
+<span class="t-item">Online &amp; In-Person</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Group Sessions</span><span class="t-sep">·</span>
+<span class="t-item">Burnout Recovery</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Deep Rest &amp; Renewal</span><span class="t-sep">·</span>
+<span class="t-item">Body Intelligence</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Somatic Intelligence</span><span class="t-sep">·</span>
+<span class="t-item">Self-Regulation</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Dr. David Berceli Method</span><span class="t-sep">·</span><span class="t-item">Neurogenic Tremors</span><span class="t-sep">·</span><span class="t-item">Vagal Tone</span><span class="t-sep">·</span><span class="t-item">Psoas Release</span><span class="t-sep">·</span><span class="t-item">Europe · US · Asia · Worldwide</span><span class="t-sep">·</span><span class="t-item">Free Discovery Call</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Certified Reiki Level II</span><span class="t-sep">·</span><span class="t-item">Nervous System Literacy</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Somatic Wellness</span><span class="t-sep">·</span>
+<span class="t-item">In-Person &amp; Online Worldwide</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Certified TRE™ Provider</span><span class="t-sep">·</span>
+<span class="t-item">30 Years of Experience</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Coaching</span><span class="t-sep">·</span>
+<span class="t-item">Mindfulness</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> 9 Countries · 40+ Nationalities</span><span class="t-sep">·</span>
+<span class="t-item">Release · Renew · Restore</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Business &amp; Human Development</span><span class="t-sep">·</span>
+<span class="t-item">Nervous System Reset</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Mindfulness</span><span class="t-sep">·</span>
+<span class="t-item">Embodied Leadership</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Trauma &amp; Tension Release</span><span class="t-sep">·</span>
+<span class="t-item">Mind · Body · Soul</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Corporate Wellness</span><span class="t-sep">·</span>
+<span class="t-item">Polyvagal Theory</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Global TRE™ Certifying Trainer</span><span class="t-sep">·</span>
+<span class="t-item">Executive Coaching</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Breathwork</span><span class="t-sep">·</span>
+<span class="t-item">Online &amp; In-Person</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Group Sessions</span><span class="t-sep">·</span>
+<span class="t-item">Burnout Recovery</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Deep Rest &amp; Renewal</span><span class="t-sep">·</span>
+<span class="t-item">Body Intelligence</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Somatic Intelligence</span><span class="t-sep">·</span>
+<span class="t-item">Self-Regulation</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Dr. David Berceli Method</span><span class="t-sep">·</span><span class="t-item">Neurogenic Tremors</span><span class="t-sep">·</span><span class="t-item">Vagal Tone</span><span class="t-sep">·</span><span class="t-item">Psoas Release</span><span class="t-sep">·</span><span class="t-item">Europe · US · Asia · Worldwide</span><span class="t-sep">·</span><span class="t-item">Free Discovery Call</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Certified Reiki Level II</span><span class="t-sep">·</span><span class="t-item">Nervous System Literacy</span><span class="t-sep">·</span> </div>
+</div><section class="section-cream ab-sec ab-mission">
+<div class="ab-wrap ab-grid">
+<figure class="ab-frame ab-rv" data-ab-tilt="">
+<span aria-hidden="true" class="ab-frame-line"/>
+<div class="ab-frame-in">
+<img alt="The Module 2 group with Isabelle, September 2026" decoding="async" height="1200" loading="lazy" src="/hb/images/gallery/gallery-module2-sep2026-6.jpg" width="1600"/>
+<span aria-hidden="true" class="ab-curtain"/>
+<span aria-hidden="true" class="ab-glow"/>
+</div>
+</figure>
+<div class="ab-copy">
+<span class="ab-eyebrow ab-rv">Why HummingBeing Exists</span>
+<h2 class="ab-title ab-split">A Place to Come Back to Yourself</h2>
+<span aria-hidden="true" class="ab-rule"/>
+<p class="ab-rv">HummingBeing started with a personal realisation: that <span class="ab-mark">real transformation lives in the body</span> — not in another strategy or framework. It was born from Isabelle’s own healing journey — through and out of the kind of environments that quietly deplete us.</p>
+<p class="ab-rv">Through trauma-informed, mindfulness and neuroscience backed practices, we help people release what they’ve been carrying — and find themselves back: <span class="ab-mark">empowered</span>, <span class="ab-mark">respected</span> and <span class="ab-mark">as healthy as possible</span>.</p>
+<div class="ab-cta ab-rv">
+<a class="hb-btn hb-btn-primary" href="/book">Come Back to Yourself</a>
+</div>
+</div>
+</div>
+</section><section class="section-sage">
+<div class="section-header-center">
+<span class="section-eyebrow">Our Philosophy</span>
+<h2 class="section-title">The Body Knows the Way</h2>
+<div class="divider divider-center"/>
+<p class="section-subtitle">Most personal development works from the neck up. We start in the body — where real change lives.</p>
+</div>
+<div class="philo-row">
+<div class="philo-item">
+<span class="philo-eyebrow">01</span>
+<i class="fa-solid fa-brain philo-icon"/>
+<h3>Neuroscience-Backed</h3>
+<p>Rooted in polyvagal theory and somatic neuroscience. Change isn’t just possible — it’s built into your physiology.</p>
+</div>
+<div class="philo-item">
+<span class="philo-eyebrow">02</span>
+<i class="fa-solid fa-hands philo-icon"/>
+<h3>Whole-Person Approach</h3>
+<p>We address mind, body, emotions and spirit together. True resilience isn't compartmentalised — it emerges when all dimensions are engaged and integrated.</p>
+</div>
+<div class="philo-item">
+<span class="philo-eyebrow">03</span>
+<i class="fa-solid fa-earth-americas philo-icon"/>
+<h3>Culturally Inclusive</h3>
+<p>Having worked with 40+ nationalities across Asia, Europe, the Americas and Russia, we create safe, respectful spaces where every background and identity is honoured.</p>
+</div>
+</div>
+<div class="philo-row philo-row-2">
+<div class="philo-item">
+<span class="philo-eyebrow">04</span>
+<i class="fa-solid fa-microscope philo-icon"/>
+<h3>Grounded in Research</h3>
+<p>Every practice we offer — TRE™, Coaching and Mindfulness — has a solid evidence base. We let results speak for themselves.</p>
+</div>
+<div class="philo-item">
+<span class="philo-eyebrow">05</span>
+<i class="fa-solid fa-seedling philo-icon"/>
+<h3>Change That Lasts</h3>
+<p>Quick fixes aren't what we're here for. We invest time in you — because the practices you build here are yours to keep for the rest of your life.</p>
+</div>
+<div class="philo-item">
+<span class="philo-eyebrow">06</span>
+<i class="fa-solid fa-dove philo-icon"/>
+<h3>Safe &amp; Compassionate</h3>
+<p>You will never be asked to relive or narrate anything difficult here. The body finds its own way — gently, quietly, at exactly the pace that feels right for you.</p>
+</div>
+</div>
+<p style="max-width:680px;margin:2.5rem auto 0;text-align:center;font-size:1rem;color:var(--text-mid);font-style:italic;line-height:1.85">These traditions — TRE™, somatic coaching, mindfulness, Reiki — ask the same thing of every practitioner: humility, service, and a commitment to one’s own ongoing inner work. This is what Isabelle brings to every session — not an image, but a practice she lives herself.</p>
+<div style="margin-top:2rem;display:flex;justify-content:center">
+<a class="hb-btn hb-btn-primary" href="/book">Explore the Practices</a>
+</div>
+</section><section class="section-cream ab-sec ab-bird">
+<div class="ab-wrap ab-grid ab-bird-grid">
+<div class="ab-copy">
+<span class="ab-eyebrow ab-rv">The Hummingbird Metaphor</span>
+<h2 class="ab-title ab-split"><span class="ab-num" data-ab-to="200">200</span> Beats Per Minute.<br/><em>Never Depleted.</em></h2>
+<span aria-hidden="true" class="ab-rule"/>
+<div aria-label="The hummingbird metaphor" class="ab-tabs ab-rv" hidden="">
+<button aria-controls="ab-pan-1" aria-selected="true" class="ab-tab o_no_wait_lazy_js" id="ab-tab-1" type="button"><i aria-hidden="true" class="fa-solid fa-feather-pointed"/><span class="ab-tab-l">Wingbeat</span></button>
+<button aria-controls="ab-pan-2" aria-selected="false" class="ab-tab o_no_wait_lazy_js" id="ab-tab-2" type="button"><i aria-hidden="true" class="fa-solid fa-heart-pulse"/><span class="ab-tab-l">Regulated</span></button>
+<button aria-controls="ab-pan-3" aria-selected="false" class="ab-tab o_no_wait_lazy_js" id="ab-tab-3" type="button"><i aria-hidden="true" class="fa-solid fa-sun"/><span class="ab-tab-l">Symbolism</span></button>
+<button aria-controls="ab-pan-4" aria-selected="false" class="ab-tab o_no_wait_lazy_js" id="ab-tab-4" type="button"><i aria-hidden="true" class="fa-solid fa-route"/><span class="ab-tab-l">On the Move</span></button>
+</div>
+<div class="ab-panels ab-rv">
+<div class="ab-panel ab-cur" id="ab-pan-1">
+<p>The hummingbird beats its wings up to 200 times per minute — yet is never burned out. It hovers with precision, navigates with grace, and lives with a vibrancy that seems impossible given the energy it expends.</p>
+</div>
+<div class="ab-panel" id="ab-pan-2">
+<p>This is possible because its entire system is optimally regulated. It doesn't carry the residue of yesterday. Each moment, it's fully present and fully resourced — and that's the natural state your nervous system is designed for, before years of chronic stress layer over it.</p>
+</div>
+<div class="ab-panel" id="ab-pan-3">
+<p>The hummingbird animal symbolizes <span class="ab-trait">joy</span>, <span class="ab-trait">resilience</span>, <span class="ab-trait">adaptability</span>, <span class="ab-trait">perseverance</span>, <span class="ab-trait">presence</span> and <span class="ab-trait">lightness of being</span>. This little bird also symbolises the ability to find beauty in the little things in life and to appreciate every moment. Remember to have fun and enjoy your surroundings and the moments that make you happy.</p>
+</div>
+<div class="ab-panel" id="ab-pan-4">
+<p>The hummingbird’s positive energy is omnipresent; they are always on the move and never seem to tire. They can cover impressive distances during their migrations. This reminds us how important it is to take care of our physical and mental health, while having a positive attitude in our lives.</p>
+</div>
+</div>
+<div class="ab-cta ab-rv">
+<a class="hb-btn hb-btn-primary" href="/book">Find Your Way Back</a>
+</div>
+</div>
+<figure class="ab-frame ab-bird-fig ab-rv" data-ab-tilt="" data-ab-v="1">
+<span aria-hidden="true" class="ab-frame-line"/>
+<div class="ab-frame-in">
+<img alt="Isabelle at a TRE™ gathering in Vietnam" decoding="async" height="1368" loading="lazy" src="/hb/images/gallery/gallery-isabelle-vietnam-tre.jpg" width="1368"/>
+<span aria-hidden="true" class="ab-scrim"/>
+<span aria-hidden="true" class="ab-glow"/>
+<span aria-hidden="true" class="ab-chip"><span class="ab-chip-i"><i class="fa-solid fa-feather-pointed"/></span><span class="ab-chip-l">Wingbeat</span><span class="ab-chip-n">01 / 04</span></span>
+<span aria-hidden="true" class="ab-curtain"/>
+</div>
+</figure>
+</div>
+</section><section class="section-white ab-sec ab-bhd">
+<div class="ab-wrap ab-grid ab-bhd-grid">
+<figure class="ab-frame ab-rv" data-ab-tilt="">
+<span aria-hidden="true" class="ab-frame-line"/>
+<div class="ab-frame-in">
+<img alt="Group somatic healing session — the BHD Asia community in practice" decoding="async" height="600" loading="lazy" src="/hb/images/about-bhd-family.jpg" width="800"/>
+<span aria-hidden="true" class="ab-curtain"/>
+<span aria-hidden="true" class="ab-glow"/>
+</div>
+</figure>
+<div class="ab-copy">
+<span class="ab-eyebrow ab-rv">Part of the BHD Family</span>
+<h2 class="ab-title ab-split">Business &amp; Human Development</h2>
+<span aria-hidden="true" class="ab-rule"/>
+<p class="ab-rv">HummingBeing is part of <strong>Business and Human Development Consulting Pte Ltd</strong> — a boutique Leadership Coaching and Human Development consultancy established in Singapore in 2012.</p>
+<p class="ab-rv">Our work extends BHD's mission into the body — offering somatic practices that complement leadership coaching and support anyone ready to access more of who they already are.</p>
+<div aria-hidden="true" class="ab-link ab-rv">
+<div class="ab-node"><span class="ab-node-i"><i class="fa-solid fa-briefcase"/></span><span class="ab-node-t"><b>BHD Consulting</b><small>Singapore · 2012</small></span></div>
+<div class="ab-wire"><span class="ab-wire-line"/><span class="ab-wire-run"><span class="ab-wire-dot"/></span></div>
+<div class="ab-node"><span class="ab-node-i"><i class="fa-solid fa-feather-pointed"/></span><span class="ab-node-t"><b>HummingBeing</b><small>Somatic practices</small></span></div>
+</div>
+<div class="ab-rv">
+<a class="hb-btn hb-btn-dark" href="https://bhdasia.com" target="_blank">Explore BHD Asia</a>
+</div>
+</div>
+</div>
+</section><div class="cta-banner">
+<h2>Curious? Let's Just Talk.</h2>
+<p>A free 30-minute chat with Isabelle — no agenda, no pressure. Just a conversation about where you are and what might help.</p>
+<a class="hb-btn hb-btn-primary" href="/book">Book Your Free Call</a>
+</div><script src="/hb/pages/about.js?v=1" defer="defer"/></div></t></t>

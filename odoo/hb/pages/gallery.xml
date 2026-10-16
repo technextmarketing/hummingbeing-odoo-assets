@@ -1,0 +1,481 @@
+<t t-name="hbx.page_gallery"><t t-call="website.layout"><div id="wrap" class="oe_structure hbx xev-flush xev-pg-gallery"><link rel="stylesheet" href="/hb/pages/gallery.css?v=1"/><div class="page-hero">
+<video autoplay="" class="hero-video" loop="" muted="" playsinline="" poster="/hb/poster-gallery.jpg" preload="none" title="HummingBeing gallery — somatic wellness visuals">
+<source src="/hb/hero-gallery.mp4" type="video/mp4">
+</source></video>
+<span class="eyebrow">Media &amp; Content</span>
+<h1>Our <em>Gallery</em></h1>
+<p>Explore podcasts, videos and images — somatic wisdom in every format.</p>
+<div class="hero-actions">
+<a class="hb-btn hb-btn-primary" href="/book">Book a Free Discovery Call</a>
+<a class="hb-btn btn-outline" href="#gallery-grid">Browse Gallery</a>
+</div>
+</div><div aria-hidden="true" class="ticker-wrap">
+<div class="ticker-track">
+<span class="t-item"><span class="t-star">★</span> Somatic Wellness</span><span class="t-sep">·</span>
+<span class="t-item">In-Person &amp; Online Worldwide</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Certified TRE™ Provider</span><span class="t-sep">·</span>
+<span class="t-item">30 Years of Experience</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Coaching</span><span class="t-sep">·</span>
+<span class="t-item">Mindfulness</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> 9 Countries · 40+ Nationalities</span><span class="t-sep">·</span>
+<span class="t-item">Release · Renew · Restore</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Business &amp; Human Development</span><span class="t-sep">·</span>
+<span class="t-item">Nervous System Reset</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Mindfulness</span><span class="t-sep">·</span>
+<span class="t-item">Embodied Leadership</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Trauma &amp; Tension Release</span><span class="t-sep">·</span>
+<span class="t-item">Mind · Body · Soul</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Corporate Wellness</span><span class="t-sep">·</span>
+<span class="t-item">Polyvagal Theory</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Global TRE™ Certifying Trainer</span><span class="t-sep">·</span>
+<span class="t-item">Executive Coaching</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Breathwork</span><span class="t-sep">·</span>
+<span class="t-item">Online &amp; In-Person</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Group Sessions</span><span class="t-sep">·</span>
+<span class="t-item">Burnout Recovery</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Deep Rest &amp; Renewal</span><span class="t-sep">·</span>
+<span class="t-item">Body Intelligence</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Somatic Intelligence</span><span class="t-sep">·</span>
+<span class="t-item">Self-Regulation</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Dr. David Berceli Method</span><span class="t-sep">·</span><span class="t-item">Neurogenic Tremors</span><span class="t-sep">·</span><span class="t-item">Vagal Tone</span><span class="t-sep">·</span><span class="t-item">Psoas Release</span><span class="t-sep">·</span><span class="t-item">Europe · US · Asia · Worldwide</span><span class="t-sep">·</span><span class="t-item">Free Discovery Call</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Certified Reiki Level II</span><span class="t-sep">·</span><span class="t-item">Nervous System Literacy</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Somatic Wellness</span><span class="t-sep">·</span>
+<span class="t-item">In-Person &amp; Online Worldwide</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Certified TRE™ Provider</span><span class="t-sep">·</span>
+<span class="t-item">30 Years of Experience</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Coaching</span><span class="t-sep">·</span>
+<span class="t-item">Mindfulness</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> 9 Countries · 40+ Nationalities</span><span class="t-sep">·</span>
+<span class="t-item">Release · Renew · Restore</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Business &amp; Human Development</span><span class="t-sep">·</span>
+<span class="t-item">Nervous System Reset</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Mindfulness</span><span class="t-sep">·</span>
+<span class="t-item">Embodied Leadership</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Trauma &amp; Tension Release</span><span class="t-sep">·</span>
+<span class="t-item">Mind · Body · Soul</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Corporate Wellness</span><span class="t-sep">·</span>
+<span class="t-item">Polyvagal Theory</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Global TRE™ Certifying Trainer</span><span class="t-sep">·</span>
+<span class="t-item">Executive Coaching</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Breathwork</span><span class="t-sep">·</span>
+<span class="t-item">Online &amp; In-Person</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Group Sessions</span><span class="t-sep">·</span>
+<span class="t-item">Burnout Recovery</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Deep Rest &amp; Renewal</span><span class="t-sep">·</span>
+<span class="t-item">Body Intelligence</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Somatic Intelligence</span><span class="t-sep">·</span>
+<span class="t-item">Self-Regulation</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Dr. David Berceli Method</span><span class="t-sep">·</span><span class="t-item">Neurogenic Tremors</span><span class="t-sep">·</span><span class="t-item">Vagal Tone</span><span class="t-sep">·</span><span class="t-item">Psoas Release</span><span class="t-sep">·</span><span class="t-item">Europe · US · Asia · Worldwide</span><span class="t-sep">·</span><span class="t-item">Free Discovery Call</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Certified Reiki Level II</span><span class="t-sep">·</span><span class="t-item">Nervous System Literacy</span><span class="t-sep">·</span> </div>
+</div><section aria-labelledby="gx-title" class="gx" id="gallery-grid">
+<div class="gx-wrap">
+
+<div class="gx-intro">
+<div class="gx-rv">
+<span class="gx-eyebrow">All Media</span>
+<h2 class="gx-title" id="gx-title">Moments from <em>the room</em></h2>
+<p class="gx-lede">Trainings, conferences and the people behind the practice — from Singapore and Kyoto to Da Nang and Leebong Island. Open any photo full-screen, press play on a session, or filter to find exactly what you're looking for.</p>
+</div>
+<div class="gx-stats gx-rv" style="--d:120ms">
+<button aria-pressed="false" class="gx-stat o_no_wait_lazy_js" data-go="images" type="button"><span class="gx-stat-n" data-count="images">33</span><span class="gx-stat-l"><i aria-hidden="true" class="fa-regular fa-image"/> Photos</span></button>
+<button aria-pressed="false" class="gx-stat o_no_wait_lazy_js" data-go="video" type="button"><span class="gx-stat-n" data-count="video">3</span><span class="gx-stat-l"><i aria-hidden="true" class="fa-brands fa-youtube"/> Videos</span></button>
+<button aria-pressed="false" class="gx-stat o_no_wait_lazy_js" data-go="podcast" type="button"><span class="gx-stat-n" data-count="podcast">3</span><span class="gx-stat-l"><i aria-hidden="true" class="fa-solid fa-microphone"/> Podcast episodes</span></button>
+</div>
+</div>
+
+<div class="gx-bar gx-rv" id="gx-bar">
+<div aria-label="Filter the gallery" class="gx-tabs" role="group">
+<span aria-hidden="true" class="gx-ind"/>
+<button aria-pressed="true" class="gx-tab o_no_wait_lazy_js" data-filter="all" type="button"><i aria-hidden="true" class="fa-solid fa-grip"/> All <span class="gx-tab-c" data-count="all"/></button>
+<button aria-pressed="false" class="gx-tab o_no_wait_lazy_js" data-filter="images" type="button"><i aria-hidden="true" class="fa-regular fa-image"/> Images <span class="gx-tab-c" data-count="images"/></button>
+<button aria-pressed="false" class="gx-tab o_no_wait_lazy_js" data-filter="video" type="button"><i aria-hidden="true" class="fa-brands fa-youtube"/> Video <span class="gx-tab-c" data-count="video"/></button>
+<button aria-pressed="false" class="gx-tab o_no_wait_lazy_js" data-filter="podcast" type="button"><i aria-hidden="true" class="fa-solid fa-microphone"/> Podcast <span class="gx-tab-c" data-count="podcast"/></button>
+</div>
+<p aria-live="polite" class="gx-status" id="gx-status">Showing everything</p>
+</div>
+
+<div class="gx-group" data-group="images">
+<div class="gx-ghead"><h3>Photographs</h3><span class="gx-gcount" data-gcount="images"/></div>
+<div class="gx-grid" id="gx-grid">
+<div class="gx-cell gx-rv gx-f" data-cat="images">
+<button aria-label="Open photo: TRE™ Module 2 cohort — 26–27 September 2026, Singapore" class="gx-tile o_no_wait_lazy_js" data-photo="0" type="button">
+<img alt="TRE™ Module 2 cohort — 26–27 September 2026, Singapore" decoding="async" height="1200" loading="eager" src="/hb/images/gallery/gallery-module2-sep2026-6.jpg" width="1600"/>
+<span aria-hidden="true" class="gx-cap">TRE™ Module 2 cohort — 26–27 September 2026, Singapore</span>
+<span aria-hidden="true" class="gx-zoom"><i class="fa-solid fa-expand"/></span>
+</button>
+</div>
+<div class="gx-cell gx-rv" data-cat="images" data-nocount="">
+<button aria-label="Open the TRE™ Module 2 photo set, 26–27 September 2026" class="gx-label o_no_wait_lazy_js" data-open="0" type="button">
+<span class="gx-label-k">Latest cohort</span>
+<span><span class="gx-label-t">TRE™ Module 2</span>
+<span class="gx-label-m">26–27 September 2026 · Singapore</span></span>
+<span class="gx-label-cta">View the set <i aria-hidden="true" class="fa-solid fa-arrow-right"/></span>
+</button>
+</div>
+<div class="gx-cell gx-rv gx-t" data-cat="images">
+<button aria-label="Open photo: Isabelle teaching — TRE™ Module 2, September 2026" class="gx-tile o_no_wait_lazy_js" data-photo="1" type="button">
+<img alt="Isabelle teaching — TRE™ Module 2, September 2026" decoding="async" height="1600" loading="lazy" src="/hb/images/gallery/gallery-module2-sep2026-1.jpg" width="1200"/>
+<span aria-hidden="true" class="gx-cap">Isabelle teaching — TRE™ Module 2, September 2026</span>
+<span aria-hidden="true" class="gx-zoom"><i class="fa-solid fa-expand"/></span>
+</button>
+</div>
+<div class="gx-cell gx-rv gx-t" data-cat="images">
+<button aria-label="Open photo: Module 2 in session with Simba Stenqvist — Singapore, September 2026" class="gx-tile o_no_wait_lazy_js" data-photo="2" type="button">
+<img alt="Module 2 in session with Simba Stenqvist — Singapore, September 2026" decoding="async" height="1600" loading="lazy" src="/hb/images/gallery/gallery-module2-sep2026-2.jpg" width="1200"/>
+<span aria-hidden="true" class="gx-cap">Module 2 in session with Simba Stenqvist — Singapore, September 2026</span>
+<span aria-hidden="true" class="gx-zoom"><i class="fa-solid fa-expand"/></span>
+</button>
+</div>
+<div class="gx-cell gx-rv" data-cat="images">
+<button aria-label="Open photo: Isabelle &amp; Simba with the Module 2 cohort — September 2026" class="gx-tile o_no_wait_lazy_js" data-photo="3" type="button">
+<img alt="Isabelle &amp; Simba with the Module 2 cohort — September 2026" decoding="async" height="1200" loading="lazy" src="/hb/images/gallery/gallery-module2-sep2026-4.jpg" width="1600"/>
+<span aria-hidden="true" class="gx-cap">Isabelle &amp; Simba with the Module 2 cohort — September 2026</span>
+<span aria-hidden="true" class="gx-zoom"><i class="fa-solid fa-expand"/></span>
+</button>
+</div>
+<div class="gx-cell gx-rv gx-t" data-cat="images">
+<button aria-label="Open photo: Sharing circle — TRE™ Module 2, September 2026" class="gx-tile o_no_wait_lazy_js" data-photo="4" type="button">
+<img alt="Sharing circle — TRE™ Module 2, September 2026" decoding="async" height="1600" loading="lazy" src="/hb/images/gallery/gallery-module2-sep2026-3.jpg" width="1200"/>
+<span aria-hidden="true" class="gx-cap">Sharing circle — TRE™ Module 2, September 2026</span>
+<span aria-hidden="true" class="gx-zoom"><i class="fa-solid fa-expand"/></span>
+</button>
+</div>
+<div class="gx-cell gx-rv" data-cat="images">
+<button aria-label="Open photo: Module 2 with Isabelle &amp; Simba — Singapore, September 2026" class="gx-tile o_no_wait_lazy_js" data-photo="5" type="button">
+<img alt="Module 2 with Isabelle &amp; Simba — Singapore, September 2026" decoding="async" height="1200" loading="lazy" src="/hb/images/gallery/gallery-module2-sep2026-5.jpg" width="1600"/>
+<span aria-hidden="true" class="gx-cap">Module 2 with Isabelle &amp; Simba — Singapore, September 2026</span>
+<span aria-hidden="true" class="gx-zoom"><i class="fa-solid fa-expand"/></span>
+</button>
+</div>
+<div class="gx-cell gx-rv gx-t" data-cat="images">
+<button aria-label="Open photo: Indoor Skydiving in Singapore with TRE™ Colleagues" class="gx-tile o_no_wait_lazy_js" data-photo="6" type="button">
+<img alt="Indoor Skydiving in Singapore with TRE™ Colleagues" decoding="async" height="2048" loading="lazy" src="/hb/images/gallery/gallery-indoor-skydiving-singapore.jpg" width="1536"/>
+<span aria-hidden="true" class="gx-cap">Indoor Skydiving in Singapore with TRE™ Colleagues</span>
+<span aria-hidden="true" class="gx-zoom"><i class="fa-solid fa-expand"/></span>
+</button>
+</div>
+<div class="gx-cell gx-rv gx-t" data-cat="images">
+<button aria-label="Open photo: Isabelle at Work" class="gx-tile o_no_wait_lazy_js" data-photo="7" type="button">
+<img alt="Isabelle at Work" decoding="async" height="1280" loading="lazy" src="/hb/images/isabelle-her-story.jpg" width="850"/>
+<span aria-hidden="true" class="gx-cap">Isabelle at Work</span>
+<span aria-hidden="true" class="gx-zoom"><i class="fa-solid fa-expand"/></span>
+</button>
+</div>
+<div class="gx-cell gx-rv gx-t" data-cat="images">
+<button aria-label="Open photo: Isabelle — October 2023" class="gx-tile o_no_wait_lazy_js" data-photo="8" type="button">
+<img alt="Isabelle — October 2023" decoding="async" height="1216" loading="lazy" src="/hb/images/gallery/gallery-isabelle-oct-2023.jpg" width="708"/>
+<span aria-hidden="true" class="gx-cap">Isabelle — October 2023</span>
+<span aria-hidden="true" class="gx-zoom"><i class="fa-solid fa-expand"/></span>
+</button>
+</div>
+<div class="gx-cell gx-rv gx-t" data-cat="images">
+<button aria-label="Open photo: Kyoto Station — October 2023" class="gx-tile o_no_wait_lazy_js" data-photo="9" type="button">
+<img alt="Kyoto Station — October 2023" decoding="async" height="640" loading="lazy" src="/hb/images/gallery/gallery-isabelle-kyoto-2023.jpg" width="418"/>
+<span aria-hidden="true" class="gx-cap">Kyoto Station — October 2023</span>
+<span aria-hidden="true" class="gx-zoom"><i class="fa-solid fa-expand"/></span>
+</button>
+</div>
+<div class="gx-cell gx-rv" data-cat="images">
+<button aria-label="Open photo: TRE™ Asia Conference, Vietnam" class="gx-tile o_no_wait_lazy_js" data-photo="10" type="button">
+<img alt="TRE™ Asia Conference, Vietnam" decoding="async" height="1368" loading="lazy" src="/hb/images/gallery/gallery-isabelle-vietnam-tre.jpg" width="1368"/>
+<span aria-hidden="true" class="gx-cap">TRE™ Asia Conference, Vietnam</span>
+<span aria-hidden="true" class="gx-zoom"><i class="fa-solid fa-expand"/></span>
+</button>
+</div>
+<div class="gx-cell gx-rv gx-t" data-cat="images">
+<button aria-label="Open photo: Teaching TRE™ Module 1" class="gx-tile o_no_wait_lazy_js" data-photo="11" type="button">
+<img alt="Teaching TRE™ Module 1" decoding="async" height="1600" loading="lazy" src="/hb/images/gallery/gallery-isabelle-teaching-tre.jpg" width="1200"/>
+<span aria-hidden="true" class="gx-cap">Teaching TRE™ Module 1</span>
+<span aria-hidden="true" class="gx-zoom"><i class="fa-solid fa-expand"/></span>
+</button>
+</div>
+<div class="gx-cell gx-rv gx-t" data-cat="images">
+<button aria-label="Open photo: TRE™ Module 1 — January 2026" class="gx-tile o_no_wait_lazy_js" data-photo="12" type="button">
+<img alt="TRE™ Module 1 — January 2026" decoding="async" height="2844" loading="lazy" src="/hb/images/gallery/gallery-tre-module1-2026.jpg" width="1600"/>
+<span aria-hidden="true" class="gx-cap">TRE™ Module 1 — January 2026</span>
+<span aria-hidden="true" class="gx-zoom"><i class="fa-solid fa-expand"/></span>
+</button>
+</div>
+<div class="gx-cell gx-rv" data-cat="images">
+<button aria-label="Open photo: Somatic Bodywork Session" class="gx-tile o_no_wait_lazy_js" data-photo="13" type="button">
+<img alt="Somatic Bodywork Session" decoding="async" height="892" loading="lazy" src="/hb/images/gallery/gallery-screenshot-practice.jpg" width="1132"/>
+<span aria-hidden="true" class="gx-cap">Somatic Bodywork Session</span>
+<span aria-hidden="true" class="gx-zoom"><i class="fa-solid fa-expand"/></span>
+</button>
+</div>
+<div class="gx-cell gx-rv" data-cat="images">
+<button aria-label="Open photo: TRE™ Module 1 Training" class="gx-tile o_no_wait_lazy_js" data-photo="14" type="button">
+<img alt="TRE™ Module 1 Training" decoding="async" height="1200" loading="lazy" src="/hb/images/gallery/gallery-ws-1.jpg" width="1600"/>
+<span aria-hidden="true" class="gx-cap">TRE™ Module 1 Training</span>
+<span aria-hidden="true" class="gx-zoom"><i class="fa-solid fa-expand"/></span>
+</button>
+</div>
+<div class="gx-cell gx-rv gx-t" data-cat="images">
+<button aria-label="Open photo: At the Esplanade, Singapore" class="gx-tile o_no_wait_lazy_js" data-photo="15" type="button">
+<img alt="At the Esplanade, Singapore" decoding="async" height="1600" loading="lazy" src="/hb/images/gallery/gallery-ws-2.jpg" width="1200"/>
+<span aria-hidden="true" class="gx-cap">At the Esplanade, Singapore</span>
+<span aria-hidden="true" class="gx-zoom"><i class="fa-solid fa-expand"/></span>
+</button>
+</div>
+<div class="gx-cell gx-rv gx-t" data-cat="images">
+<button aria-label="Open photo: Retreat at Leebong Island" class="gx-tile o_no_wait_lazy_js" data-photo="16" type="button">
+<img alt="Retreat at Leebong Island" decoding="async" height="1280" loading="lazy" src="/hb/images/gallery/gallery-ws-3.jpg" width="960"/>
+<span aria-hidden="true" class="gx-cap">Retreat at Leebong Island</span>
+<span aria-hidden="true" class="gx-zoom"><i class="fa-solid fa-expand"/></span>
+</button>
+</div>
+<div class="gx-cell gx-rv" data-cat="images">
+<button aria-label="Open photo: TRE™ Certification" class="gx-tile o_no_wait_lazy_js" data-photo="17" type="button">
+<img alt="TRE™ Certification" decoding="async" height="1200" loading="lazy" src="/hb/images/gallery/gallery-ws-4.jpg" width="1600"/>
+<span aria-hidden="true" class="gx-cap">TRE™ Certification</span>
+<span aria-hidden="true" class="gx-zoom"><i class="fa-solid fa-expand"/></span>
+</button>
+</div>
+<div class="gx-cell gx-rv gx-f" data-cat="images">
+<button aria-label="Open photo: Da Nang TRE™ Conference — November 2025" class="gx-tile o_no_wait_lazy_js" data-photo="18" type="button">
+<img alt="Da Nang TRE™ Conference — November 2025" decoding="async" height="1200" loading="lazy" src="/hb/images/gallery/gallery-danang-tre-conference-nov2025.jpg" width="1600"/>
+<span aria-hidden="true" class="gx-cap">Da Nang TRE™ Conference — November 2025</span>
+<span aria-hidden="true" class="gx-zoom"><i class="fa-solid fa-expand"/></span>
+</button>
+</div>
+<div class="gx-cell gx-rv gx-f" data-cat="images">
+<button aria-label="Open photo: Dinner with David Berceli, Founder of TRE™" class="gx-tile o_no_wait_lazy_js" data-photo="19" type="button">
+<img alt="Dinner with David Berceli, Founder of TRE™" decoding="async" height="959" loading="lazy" src="/hb/images/gallery/gallery-dinner-david-berceli-founders.jpg" width="929"/>
+<span aria-hidden="true" class="gx-cap">Dinner with David Berceli, Founder of TRE™</span>
+<span aria-hidden="true" class="gx-zoom"><i class="fa-solid fa-expand"/></span>
+</button>
+</div>
+<div class="gx-cell gx-rv gx-t" data-cat="images">
+<button aria-label="Open photo: Isabelle Claus Teixeira" class="gx-tile o_no_wait_lazy_js" data-photo="20" type="button">
+<img alt="Isabelle Claus Teixeira" decoding="async" height="1216" loading="lazy" src="/hb/images/gallery/gallery-isabelle-oct-2023.jpg" width="708"/>
+<span aria-hidden="true" class="gx-cap">Isabelle Claus Teixeira</span>
+<span aria-hidden="true" class="gx-zoom"><i class="fa-solid fa-expand"/></span>
+</button>
+</div>
+<div class="gx-cell gx-rv gx-t" data-cat="images">
+<button aria-label="Open photo: Isabelle and Saymara" class="gx-tile o_no_wait_lazy_js" data-photo="21" type="button">
+<img alt="Isabelle and Saymara" decoding="async" height="1600" loading="lazy" src="/hb/images/gallery/gallery-isabelle-saymara.jpg" width="1045"/>
+<span aria-hidden="true" class="gx-cap">Isabelle and Saymara</span>
+<span aria-hidden="true" class="gx-zoom"><i class="fa-solid fa-expand"/></span>
+</button>
+</div>
+<div class="gx-cell gx-rv gx-t" data-cat="images">
+<button aria-label="Open photo: Isabelle and Saymara" class="gx-tile o_no_wait_lazy_js" data-photo="22" type="button">
+<img alt="Isabelle and Saymara" decoding="async" height="1048" loading="lazy" src="/hb/images/gallery/gallery-isabelle-saymara-2.jpg" width="809"/>
+<span aria-hidden="true" class="gx-cap">Isabelle and Saymara</span>
+<span aria-hidden="true" class="gx-zoom"><i class="fa-solid fa-expand"/></span>
+</button>
+</div>
+<div class="gx-cell gx-rv gx-t" data-cat="images">
+<button aria-label="Open photo: Isabelle and Saymara" class="gx-tile o_no_wait_lazy_js" data-photo="23" type="button">
+<img alt="Isabelle and Saymara" decoding="async" height="1599" loading="lazy" src="/hb/images/gallery/gallery-isabelle-saymara-3.jpg" width="1200"/>
+<span aria-hidden="true" class="gx-cap">Isabelle and Saymara</span>
+<span aria-hidden="true" class="gx-zoom"><i class="fa-solid fa-expand"/></span>
+</button>
+</div>
+<div class="gx-cell gx-rv gx-f" data-cat="images">
+<button aria-label="Open photo: Isabelle and Saymara" class="gx-tile o_no_wait_lazy_js" data-photo="24" type="button">
+<img alt="Isabelle and Saymara" decoding="async" height="970" loading="lazy" src="/hb/images/gallery/gallery-isabelle-saymara-4.jpg" width="894"/>
+<span aria-hidden="true" class="gx-cap">Isabelle and Saymara</span>
+<span aria-hidden="true" class="gx-zoom"><i class="fa-solid fa-expand"/></span>
+</button>
+</div>
+<div class="gx-cell gx-rv gx-f" data-cat="images">
+<button aria-label="Open photo: TRE™ Module 1 — May 2026" class="gx-tile o_no_wait_lazy_js" data-photo="25" type="button">
+<img alt="TRE™ Module 1 — May 2026" decoding="async" height="1200" loading="lazy" src="/hb/images/gallery/gallery-isabelle-students-module1-may2026.jpg" width="1600"/>
+<span aria-hidden="true" class="gx-cap">TRE™ Module 1 — May 2026</span>
+<span aria-hidden="true" class="gx-zoom"><i class="fa-solid fa-expand"/></span>
+</button>
+</div>
+<div class="gx-cell gx-rv gx-t" data-cat="images">
+<button aria-label="Open photo: Isabelle with David Berceli, Simba Stenqvist &amp; Nikki Tay" class="gx-tile o_no_wait_lazy_js" data-photo="26" type="button">
+<img alt="Isabelle with David Berceli, Simba Stenqvist &amp; Nikki Tay" decoding="async" height="2048" loading="lazy" src="/hb/images/gallery/gallery-isabelle-david-simba-nikki.jpg" width="1536"/>
+<span aria-hidden="true" class="gx-cap">Isabelle with David Berceli, Simba Stenqvist &amp; Nikki Tay</span>
+<span aria-hidden="true" class="gx-zoom"><i class="fa-solid fa-expand"/></span>
+</button>
+</div>
+<div class="gx-cell gx-rv gx-w" data-cat="images">
+<button aria-label="Open photo: Visiting INSEAD Campus with Simba Stenqvist" class="gx-tile o_no_wait_lazy_js" data-photo="27" type="button">
+<img alt="Visiting INSEAD Campus with Simba Stenqvist" decoding="async" height="1134" loading="lazy" src="/hb/images/gallery/gallery-insead-simba-stenqvist.jpg" width="2016"/>
+<span aria-hidden="true" class="gx-cap">Visiting INSEAD Campus with Simba Stenqvist</span>
+<span aria-hidden="true" class="gx-zoom"><i class="fa-solid fa-expand"/></span>
+</button>
+</div>
+<div class="gx-cell gx-rv" data-cat="images">
+<button aria-label="Open photo: TRE™ Students from the UK at Singapore Airport" class="gx-tile o_no_wait_lazy_js" data-photo="28" type="button">
+<img alt="TRE™ Students from the UK at Singapore Airport" decoding="async" height="1200" loading="lazy" src="/hb/images/gallery/gallery-uk-students-singapore-airport.jpg" width="1600"/>
+<span aria-hidden="true" class="gx-cap">TRE™ Students from the UK at Singapore Airport</span>
+<span aria-hidden="true" class="gx-zoom"><i class="fa-solid fa-expand"/></span>
+</button>
+</div>
+<div class="gx-cell gx-rv gx-t" data-cat="images">
+<button aria-label="Open photo: With UK TRE™ Provider Students" class="gx-tile o_no_wait_lazy_js" data-photo="29" type="button">
+<img alt="With UK TRE™ Provider Students" decoding="async" height="1600" loading="lazy" src="/hb/images/gallery/gallery-uk-tre-providers.jpg" width="1200"/>
+<span aria-hidden="true" class="gx-cap">With UK TRE™ Provider Students</span>
+<span aria-hidden="true" class="gx-zoom"><i class="fa-solid fa-expand"/></span>
+</button>
+</div>
+<div class="gx-cell gx-rv gx-t" data-cat="images">
+<button aria-label="Open photo: With UK TRE™ Provider Students" class="gx-tile o_no_wait_lazy_js" data-photo="30" type="button">
+<img alt="With UK TRE™ Provider Students" decoding="async" height="1600" loading="lazy" src="/hb/images/gallery/gallery-uk-tre-providers-2.jpg" width="1200"/>
+<span aria-hidden="true" class="gx-cap">With UK TRE™ Provider Students</span>
+<span aria-hidden="true" class="gx-zoom"><i class="fa-solid fa-expand"/></span>
+</button>
+</div>
+<div class="gx-cell gx-rv gx-f" data-cat="images">
+<button aria-label="Open photo: Asia TRE™ Trainers with David Berceli" class="gx-tile o_no_wait_lazy_js" data-photo="31" type="button">
+<img alt="Asia TRE™ Trainers with David Berceli" decoding="async" height="1380" loading="lazy" src="/hb/images/gallery/gallery-asia-tre-trainers-david.jpg" width="1600"/>
+<span aria-hidden="true" class="gx-cap">Asia TRE™ Trainers with David Berceli</span>
+<span aria-hidden="true" class="gx-zoom"><i class="fa-solid fa-expand"/></span>
+</button>
+</div>
+<div class="gx-cell gx-rv gx-t" data-cat="images">
+<button aria-label="Open photo: With Chris Balsley — Master Coach" class="gx-tile o_no_wait_lazy_js" data-photo="32" type="button">
+<img alt="With Chris Balsley — Master Coach" decoding="async" height="1600" loading="lazy" src="/hb/images/gallery/gallery-chris-balsley-master-coach.jpg" width="1200"/>
+<span aria-hidden="true" class="gx-cap">With Chris Balsley — Master Coach</span>
+<span aria-hidden="true" class="gx-zoom"><i class="fa-solid fa-expand"/></span>
+</button>
+</div>
+</div>
+</div>
+
+<div class="gx-group" data-group="media">
+<div class="gx-ghead"><h3>Watch &amp; listen</h3><span class="gx-gcount" data-gcount="media"/></div>
+<div class="gx-media">
+<div class="gx-cell gx-rv gx-mfeat" data-cat="video">
+<button aria-label="Play video: Isabelle &amp; Simba in the Room" class="gx-vid o_no_wait_lazy_js" data-title="Isabelle &amp; Simba in the Room" data-video="8_UE9nKEh2s" type="button">
+<span class="gx-vid-thumb">
+<img alt="" decoding="async" height="720" loading="lazy" src="https://i.ytimg.com/vi/8_UE9nKEh2s/maxresdefault.jpg" width="1280"/>
+<span class="gx-pill">TRE™ Module 2</span>
+<span aria-hidden="true" class="gx-play"><i class="fa-solid fa-play"/></span>
+</span>
+<span class="gx-vid-body">
+<span class="gx-kicker"><i aria-hidden="true" class="fa-brands fa-youtube"/> Featured video</span>
+<span class="gx-vid-title">Isabelle &amp; Simba in the Room</span>
+<span class="gx-vid-desc">A look inside a live TRE™ training — how Isabelle Claus Teixeira and Simba Stenqvist teach, guide and hold the space.</span>
+<span class="gx-link">Play video <i aria-hidden="true" class="fa-solid fa-arrow-right"/></span>
+</span>
+</button>
+</div>
+<div class="gx-cell gx-rv" data-cat="video" style="--d:80ms">
+<a class="gx-chan" href="https://www.youtube.com/@IsabelleClausTeixeira" rel="noopener" target="_blank">
+<span class="gx-chan-top"><span class="gx-ico"><i aria-hidden="true" class="fa-brands fa-youtube"/></span><span class="gx-tag">YouTube <i aria-hidden="true" class="fa-solid fa-arrow-up-right-from-square"/></span></span>
+<h4>TRE™ Group Sessions with Isabelle</h4>
+<p>Watch Isabelle guide groups through TRE™ — demonstrating the tremoring mechanism that naturally releases held tension and stress from the body.</p>
+<span class="gx-link">Watch on YouTube <i aria-hidden="true" class="fa-solid fa-arrow-right"/></span>
+</a>
+</div>
+<div class="gx-cell gx-rv" data-cat="video" style="--d:160ms">
+<a class="gx-chan" href="https://www.youtube.com/@IsabelleClausTeixeira" rel="noopener" target="_blank">
+<span class="gx-chan-top"><span class="gx-ico"><i aria-hidden="true" class="fa-brands fa-youtube"/></span><span class="gx-tag">YouTube <i aria-hidden="true" class="fa-solid fa-arrow-up-right-from-square"/></span></span>
+<h4>@IsabelleClausTeixeira</h4>
+<p>Guided TRE™ sessions, somatic movement sequences and expert conversations on nervous system health</p>
+<span class="gx-link">Browse Channel <i aria-hidden="true" class="fa-solid fa-arrow-right"/></span>
+</a>
+</div>
+<div class="gx-cell gx-rv" data-cat="podcast">
+<a class="gx-pod" href="https://www.youtube.com/@IsabelleClausTeixeira" rel="noopener" target="_blank">
+<span class="gx-chan-top"><span class="gx-ico"><i aria-hidden="true" class="fa-brands fa-youtube"/></span><span aria-hidden="true" class="gx-eq"><span/><span/><span/><span/></span></span>
+<span class="gx-pod-show">Video Podcast  ·  TRE™ Series</span>
+<h4>TRE™ Star Groups with Isabelle Claus Teixeira</h4>
+<p>Isabelle guides a live group through TRE™ — demonstrating the tremoring mechanism that naturally releases held tension and stress from the body.</p>
+<span class="gx-link"><i aria-hidden="true" class="fa-solid fa-play"/> Watch Episode</span>
+</a>
+</div>
+<div class="gx-cell gx-rv" data-cat="podcast" style="--d:80ms">
+<a class="gx-pod" href="https://www.youtube.com/@IsabelleClausTeixeira" rel="noopener" target="_blank">
+<span class="gx-chan-top"><span class="gx-ico"><i aria-hidden="true" class="fa-solid fa-headphones"/></span><span aria-hidden="true" class="gx-eq"><span/><span/><span/><span/></span></span>
+<span class="gx-pod-show">Somatic Insights  ·  Guided Practice</span>
+<h4>Nervous System Reset — A Somatic Practice for Busy Professionals</h4>
+<p>Short breath, movement and body-awareness sequences designed to shift you from stress activation into regulated calm — in under 10 minutes.</p>
+<span class="gx-link"><i aria-hidden="true" class="fa-brands fa-youtube"/> View on YouTube</span>
+</a>
+</div>
+<div class="gx-cell gx-rv" data-cat="podcast" style="--d:160ms">
+<a class="gx-pod" href="https://www.youtube.com/@IsabelleClausTeixeira" rel="noopener" target="_blank">
+<span class="gx-chan-top"><span class="gx-ico"><i aria-hidden="true" class="fa-solid fa-podcast"/></span><span aria-hidden="true" class="gx-eq"><span/><span/><span/><span/></span></span>
+<span class="gx-pod-show">Leadership Series  ·  Interview</span>
+<h4>Leading from the Body — Somatic Intelligence in the Workplace</h4>
+<p>How leaders use somatic awareness to make better decisions, build resilient teams and navigate change from the inside out — without burning out.</p>
+<span class="gx-link"><i aria-hidden="true" class="fa-brands fa-youtube"/> View on YouTube</span>
+</a>
+</div>
+</div>
+</div>
+
+<div class="gx-tl" id="gx-tl">
+<div class="gx-ghead"><h3>Along the way</h3><span class="gx-gcount">Dated moments</span></div>
+<p class="gx-tl-sub">A few dated moments from the collection — select one to open it full-screen.</p>
+<ol class="gx-tl-track">
+<li>
+<button aria-label="October 2023 — open photo: Isabelle — October 2023" class="gx-moment o_no_wait_lazy_js" data-open="8" type="button">
+<span class="gx-moment-d">October 2023</span>
+<span class="gx-moment-img"><img alt="" decoding="async" height="1216" loading="lazy" src="/hb/images/gallery/gallery-isabelle-oct-2023.jpg" width="708"/></span>
+<span class="gx-moment-c">Isabelle — October 2023</span>
+</button>
+</li>
+<li>
+<button aria-label="October 2023 — open photo: Kyoto Station — October 2023" class="gx-moment o_no_wait_lazy_js" data-open="9" type="button">
+<span class="gx-moment-d">October 2023</span>
+<span class="gx-moment-img"><img alt="" decoding="async" height="640" loading="lazy" src="/hb/images/gallery/gallery-isabelle-kyoto-2023.jpg" width="418"/></span>
+<span class="gx-moment-c">Kyoto Station — October 2023</span>
+</button>
+</li>
+<li>
+<button aria-label="November 2025 — open photo: Da Nang TRE™ Conference — November 2025" class="gx-moment o_no_wait_lazy_js" data-open="18" type="button">
+<span class="gx-moment-d">November 2025</span>
+<span class="gx-moment-img"><img alt="" decoding="async" height="1200" loading="lazy" src="/hb/images/gallery/gallery-danang-tre-conference-nov2025.jpg" width="1600"/></span>
+<span class="gx-moment-c">Da Nang TRE™ Conference — November 2025</span>
+</button>
+</li>
+<li>
+<button aria-label="January 2026 — open photo: TRE™ Module 1 — January 2026" class="gx-moment o_no_wait_lazy_js" data-open="12" type="button">
+<span class="gx-moment-d">January 2026</span>
+<span class="gx-moment-img"><img alt="" decoding="async" height="2844" loading="lazy" src="/hb/images/gallery/gallery-tre-module1-2026.jpg" width="1600"/></span>
+<span class="gx-moment-c">TRE™ Module 1 — January 2026</span>
+</button>
+</li>
+<li>
+<button aria-label="May 2026 — open photo: TRE™ Module 1 — May 2026" class="gx-moment o_no_wait_lazy_js" data-open="25" type="button">
+<span class="gx-moment-d">May 2026</span>
+<span class="gx-moment-img"><img alt="" decoding="async" height="1200" loading="lazy" src="/hb/images/gallery/gallery-isabelle-students-module1-may2026.jpg" width="1600"/></span>
+<span class="gx-moment-c">TRE™ Module 1 — May 2026</span>
+</button>
+</li>
+<li>
+<button aria-label="September 2026 — open photo: TRE™ Module 2 cohort — 26–27 September 2026, Singapore" class="gx-moment o_no_wait_lazy_js" data-open="0" type="button">
+<span class="gx-moment-d">September 2026</span>
+<span class="gx-moment-img"><img alt="" decoding="async" height="1200" loading="lazy" src="/hb/images/gallery/gallery-module2-sep2026-6.jpg" width="1600"/></span>
+<span class="gx-moment-c">TRE™ Module 2 cohort — 26–27 September 2026, Singapore</span>
+</button>
+</li>
+</ol>
+</div>
+<div class="gx-cta">
+<a class="hb-btn hb-btn-primary" href="/book">Book a Free Consultation</a>
+<a class="hb-btn hb-btn-dark" href="https://www.youtube.com/@IsabelleClausTeixeira" rel="noopener" target="_blank">Visit the YouTube Channel</a>
+</div>
+</div>
+</section><div class="cta-banner">
+<h2>Experience It for Yourself</h2>
+<p>Watch, listen and explore — then take the first step and book a free discovery call with Isabelle.</p>
+<a class="hb-btn hb-btn-primary" href="/book">Book a Free Call</a>
+</div><div aria-label="Photo viewer" aria-modal="true" class="gx gx-ov gx-lb" hidden="" id="gx-lb" role="dialog">
+<div class="gx-ov-bg" data-close=""/>
+<div class="gx-ov-bar">
+<span aria-live="polite" class="gx-count"><b id="gx-lb-i">1</b> / <span id="gx-lb-n">1</span></span>
+<button aria-label="Close photo viewer" class="gx-ov-btn o_no_wait_lazy_js" data-close="" type="button"><i aria-hidden="true" class="fa-solid fa-xmark"/></button>
+</div>
+<button aria-label="Previous photo" class="gx-ov-btn gx-lb-nav gx-lb-prev o_no_wait_lazy_js" id="gx-lb-prev" type="button"><i aria-hidden="true" class="fa-solid fa-arrow-left"/></button>
+<figure class="gx-lb-stage" id="gx-lb-stage">
+<img alt="" class="gx-lb-img" id="gx-lb-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
+<figcaption class="gx-lb-cap" id="gx-lb-cap"/>
+</figure>
+<button aria-label="Next photo" class="gx-ov-btn gx-lb-nav gx-lb-next o_no_wait_lazy_js" id="gx-lb-next" type="button"><i aria-hidden="true" class="fa-solid fa-arrow-right"/></button>
+<div aria-hidden="true" class="gx-lb-prog"><span id="gx-lb-prog"/></div>
+</div><div aria-labelledby="gx-vm-title" aria-modal="true" class="gx gx-ov gx-vm" hidden="" id="gx-vm" role="dialog">
+<div class="gx-ov-bg" data-close=""/>
+<div class="gx-vm-box">
+<div class="gx-ov-bar" style="position:static;padding:0 0 .85rem">
+<p class="gx-vm-title" id="gx-vm-title">Video</p>
+<button aria-label="Close video" class="gx-ov-btn o_no_wait_lazy_js" data-close="" type="button"><i aria-hidden="true" class="fa-solid fa-xmark"/></button>
+</div>
+<div class="gx-vm-ratio" id="gx-vm-ratio"/>
+</div>
+</div><script src="/hb/pages/gallery.js?v=1" defer="defer"/></div></t></t>

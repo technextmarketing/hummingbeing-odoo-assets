@@ -1,0 +1,167 @@
+<data>
+<xpath expr="//div[@id='wrap']" position="replace">
+<div id="wrap" class="o_wevent_index hbx xev-flush">
+<t t-set="xev_dom" t-value="website.website_domain() + [('website_published', '=', True)]"/>
+<t t-set="xev_up" t-value="env['event.event'].search(xev_dom + [('date_end', '&gt;=', datetime.datetime.utcnow())], order='date_begin asc').sorted(lambda e: ((('Sold out' in e.tag_ids.mapped('name')) or e.event_registrations_sold_out), e.date_begin))"/>
+<t t-set="xev_past" t-value="env['event.event'].search(xev_dom + [('date_end', '&lt;', datetime.datetime.utcnow())], order='date_begin desc', limit=12)"/>
+<t t-set="xev_list" t-value="xev_up"/>
+<div class="event-hero">
+<video autoplay="" class="hero-video" loop="" muted="" playsinline="" poster="/hb/poster-events.webp" preload="none" title="HummingBeing events — background video">
+<source src="/hb/hero-events.mp4" type="video/mp4">
+</source></video>
+<span class="eyebrow">Live Events &amp; Workshops</span>
+<h1>Events &amp; <em>Sessions</em></h1>
+<p>Group workshops, TRE™ sessions, somatic intensives and community gatherings — in Singapore, Europe and online.</p>
+<div class="hero-actions">
+<a class="hb-btn hb-btn-primary" href="/book">Book a Free Discovery Call</a>
+<a class="hb-btn btn-outline" href="#events-grid">Browse Events</a>
+</div>
+</div><div aria-hidden="true" class="ticker-wrap">
+<div class="ticker-track">
+<span class="t-item"><span class="t-star">★</span> Somatic Wellness</span><span class="t-sep">·</span>
+<span class="t-item">In-Person &amp; Online Worldwide</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Certified TRE™ Provider</span><span class="t-sep">·</span>
+<span class="t-item">30 Years of Experience</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Coaching</span><span class="t-sep">·</span>
+<span class="t-item">Mindfulness</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> 9 Countries · 40+ Nationalities</span><span class="t-sep">·</span>
+<span class="t-item">Release · Renew · Restore</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Business &amp; Human Development</span><span class="t-sep">·</span>
+<span class="t-item">Nervous System Reset</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Mindfulness</span><span class="t-sep">·</span>
+<span class="t-item">Embodied Leadership</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Trauma &amp; Tension Release</span><span class="t-sep">·</span>
+<span class="t-item">Mind · Body · Soul</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Corporate Wellness</span><span class="t-sep">·</span>
+<span class="t-item">Polyvagal Theory</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Global TRE™ Certifying Trainer</span><span class="t-sep">·</span>
+<span class="t-item">Executive Coaching</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Breathwork</span><span class="t-sep">·</span>
+<span class="t-item">Online &amp; In-Person</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Group Sessions</span><span class="t-sep">·</span>
+<span class="t-item">Burnout Recovery</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Deep Rest &amp; Renewal</span><span class="t-sep">·</span>
+<span class="t-item">Body Intelligence</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Somatic Intelligence</span><span class="t-sep">·</span>
+<span class="t-item">Self-Regulation</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Dr. David Berceli Method</span><span class="t-sep">·</span><span class="t-item">Neurogenic Tremors</span><span class="t-sep">·</span><span class="t-item">Vagal Tone</span><span class="t-sep">·</span><span class="t-item">Psoas Release</span><span class="t-sep">·</span><span class="t-item">Europe · US · Asia · Worldwide</span><span class="t-sep">·</span><span class="t-item">Free Discovery Call</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Certified Reiki Level II</span><span class="t-sep">·</span><span class="t-item">Nervous System Literacy</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Somatic Wellness</span><span class="t-sep">·</span>
+<span class="t-item">In-Person &amp; Online Worldwide</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Certified TRE™ Provider</span><span class="t-sep">·</span>
+<span class="t-item">30 Years of Experience</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Coaching</span><span class="t-sep">·</span>
+<span class="t-item">Mindfulness</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> 9 Countries · 40+ Nationalities</span><span class="t-sep">·</span>
+<span class="t-item">Release · Renew · Restore</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Business &amp; Human Development</span><span class="t-sep">·</span>
+<span class="t-item">Nervous System Reset</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Mindfulness</span><span class="t-sep">·</span>
+<span class="t-item">Embodied Leadership</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Trauma &amp; Tension Release</span><span class="t-sep">·</span>
+<span class="t-item">Mind · Body · Soul</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Corporate Wellness</span><span class="t-sep">·</span>
+<span class="t-item">Polyvagal Theory</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Global TRE™ Certifying Trainer</span><span class="t-sep">·</span>
+<span class="t-item">Executive Coaching</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Breathwork</span><span class="t-sep">·</span>
+<span class="t-item">Online &amp; In-Person</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Group Sessions</span><span class="t-sep">·</span>
+<span class="t-item">Burnout Recovery</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Deep Rest &amp; Renewal</span><span class="t-sep">·</span>
+<span class="t-item">Body Intelligence</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Somatic Intelligence</span><span class="t-sep">·</span>
+<span class="t-item">Self-Regulation</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Dr. David Berceli Method</span><span class="t-sep">·</span><span class="t-item">Neurogenic Tremors</span><span class="t-sep">·</span><span class="t-item">Vagal Tone</span><span class="t-sep">·</span><span class="t-item">Psoas Release</span><span class="t-sep">·</span><span class="t-item">Europe · US · Asia · Worldwide</span><span class="t-sep">·</span><span class="t-item">Free Discovery Call</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Certified Reiki Level II</span><span class="t-sep">·</span><span class="t-item">Nervous System Literacy</span><span class="t-sep">·</span> </div>
+</div><section aria-labelledby="ecx-title" class="ecx" id="next-event">
+<div aria-hidden="true" class="ecx-orb"/>
+<div class="ecx-inner">
+<div class="ecx-info" id="ecx-info">
+<span class="ecx-live"><i aria-hidden="true"/>Next live event</span>
+<h2 class="ecx-title" id="ecx-title">From Shaking to Shaping — Online</h2>
+<p class="ecx-sub" id="ecx-sub">Online · 8 October 2026 · 7–9pm</p>
+<ul class="ecx-meta" id="ecx-meta"/>
+<div class="ecx-actions">
+<a class="hb-btn hb-btn-primary" href="/event/from-shaking-to-shaping-online-1" id="ecx-reg">Register now</a>
+<button class="hb-btn btn-outline o_no_wait_lazy_js" id="ecx-ics" type="button"><i aria-hidden="true" class="fa-regular fa-calendar-plus"/>  Add to calendar</button>
+</div>
+</div>
+<div class="ecx-clock">
+<div aria-label="Time remaining" class="ecx-tiles" id="ecx-tiles" role="timer">
+<div class="ecx-tile" data-u="d"><span aria-hidden="true" class="ecx-num"/><span class="ecx-lbl">Days</span><i class="ecx-prog"/></div>
+<div class="ecx-tile" data-u="h"><span aria-hidden="true" class="ecx-num"/><span class="ecx-lbl">Hours</span><i class="ecx-prog"/></div>
+<div class="ecx-tile" data-u="m"><span aria-hidden="true" class="ecx-num"/><span class="ecx-lbl">Minutes</span><i class="ecx-prog"/></div>
+<div class="ecx-tile" data-u="s"><span aria-hidden="true" class="ecx-num"/><span class="ecx-lbl">Seconds</span><i class="ecx-prog"/></div>
+</div>
+<p aria-live="polite" class="sr-only" id="ecx-sr"/>
+<p class="ecx-note" id="ecx-local"/>
+<div class="ecx-next" hidden="" id="ecx-next"><h3>Also coming up — tap to count down</h3><div class="ecx-chips" id="ecx-chips"/></div>
+</div>
+</div>
+</section><section aria-labelledby="ev-up-title" class="section-cream ev ev-up" id="events-grid">
+<div class="ev-wrap">
+<div class="ev-head">
+<div class="ev-head-t ev-rv">
+<span class="section-eyebrow">Calendar</span>
+<h2 class="section-title" id="ev-up-title">Upcoming Events</h2>
+<p class="section-subtitle ev-count" id="evt-count"><span id="evt-count-up">–</span> upcoming · <span id="evt-count-past">–</span> past &amp; sold out</p>
+</div>
+<div aria-label="Choose a layout" class="ev-views ev-rv" role="group" style="--d:120ms">
+<button aria-pressed="true" class="ev-view o_no_wait_lazy_js" data-view="grid" type="button"><i aria-hidden="true" class="fa-solid fa-grip"/>Grid</button>
+<button aria-pressed="false" class="ev-view o_no_wait_lazy_js" data-view="month" type="button"><i aria-hidden="true" class="fa-regular fa-calendar"/>By month</button>
+</div>
+</div>
+
+<div class="ev-bar ev-rv" style="--d:180ms">
+<div aria-label="Filter events" class="evt-filter" role="tablist">
+<button aria-controls="evt-grid" aria-selected="true" class="evt-filter-btn is-active o_no_wait_lazy_js" data-filter="all" id="ev-tab-all" role="tab" type="button">All events</button>
+<button aria-controls="evt-grid" aria-selected="false" class="evt-filter-btn o_no_wait_lazy_js" data-filter="singapore" id="ev-tab-singapore" role="tab" tabindex="-1" type="button">Singapore</button>
+<button aria-controls="evt-grid" aria-selected="false" class="evt-filter-btn o_no_wait_lazy_js" data-filter="online" id="ev-tab-online" role="tab" tabindex="-1" type="button">Online</button>
+<button aria-controls="evt-grid" aria-selected="false" class="evt-filter-btn o_no_wait_lazy_js" data-filter="international" id="ev-tab-international" role="tab" tabindex="-1" type="button">International</button>
+<button aria-controls="evt-grid" aria-selected="false" class="evt-filter-btn o_no_wait_lazy_js" data-filter="certification" id="ev-tab-certification" role="tab" tabindex="-1" type="button">Certification</button>
+<button aria-controls="evt-grid" aria-selected="false" class="evt-filter-btn o_no_wait_lazy_js" data-filter="workshops" id="ev-tab-workshops" role="tab" tabindex="-1" type="button">Workshops</button>
+</div>
+<p aria-live="polite" class="ev-status" id="ev-status"/>
+</div>
+
+<div aria-labelledby="ev-tab-all" class="evt-grid" id="evt-grid" role="tabpanel"><t t-foreach="xev_up" t-as="event"><t t-call="hbx.event_card"/></t>
+
+
+
+
+
+
+
+
+
+<p class="evt-empty" id="evt-empty">No events in this category yet.</p>
+</div>
+</div>
+</section><section aria-labelledby="ev-past-title" class="section-white ev ev-past" id="past-events">
+<div class="ev-wrap">
+<div class="ev-head ev-past-head">
+<div class="ev-head-t ev-rv">
+<span class="section-eyebrow">Archive</span>
+<h2 class="section-title" id="ev-past-title">Past and Sold Out Events</h2>
+<p class="section-subtitle">Recently with us, or fully booked — now closed</p>
+</div>
+<div class="ev-nav" hidden="">
+<button aria-controls="evt-archive" aria-label="Previous past and sold out events" class="ev-arrow o_no_wait_lazy_js" data-dir="-1" type="button"><i aria-hidden="true" class="fa-solid fa-arrow-left"/></button>
+<button aria-controls="evt-archive" aria-label="More past and sold out events" class="ev-arrow o_no_wait_lazy_js" data-dir="1" type="button"><i aria-hidden="true" class="fa-solid fa-arrow-right"/></button>
+</div>
+</div>
+<div aria-label="Past and sold out events" class="evt-grid evt-archive ev-strip" id="evt-archive" role="region" tabindex="0"><t t-foreach="xev_past" t-as="event"><t t-call="hbx.event_card"/></t>
+
+
+
+
+
+
+
+
+
+</div>
+<div aria-hidden="true" class="ev-prog" hidden=""><span/></div>
+</div>
+</section>
+<t t-set="xev_data_src" t-value="xev_up"/><t t-call="hbx.data_list"/>
+</div>
+</xpath>
+</data>

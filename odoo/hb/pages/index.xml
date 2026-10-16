@@ -1,0 +1,359 @@
+<t t-name="website.homepage"><t t-call="website.layout"><div id="wrap" class="oe_structure hbx xev-flush xev-pg-index"><link rel="stylesheet" href="/hb/pages/index.css?v=1"/><section class="hero">
+<video autoplay="" class="hero-video" loop="" muted="" playsinline="" poster="/hb/images/index-hero.jpg" title="Somatic wellness — HummingBeing background video">
+<source src="/hb/images/index-hero.mp4" type="video/mp4">
+</source></video>
+<div class="hero-content">
+<span class="hero-eyebrow">Holistic Mastermind Ecosystem</span>
+<h1>Release. <em>Renew.</em> Restore.</h1>
+<p>Cognitive optimization, somatic decompression, neuroscience, and energetic mastery.</p>
+<div class="hero-actions">
+<a class="hb-btn hb-btn-primary" href="https://calendly.com/bhdasia/30min" rel="noopener" target="_blank">Start with a Free Chat</a>
+<a class="hb-btn btn-outline" href="/about">Learn More</a>
+</div>
+</div>
+</section><div aria-hidden="true" class="ticker-wrap">
+<div class="ticker-track">
+<span class="t-item"><span class="t-star">★</span> Somatic Wellness</span><span class="t-sep">·</span>
+<span class="t-item">In-Person &amp; Online Worldwide</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Certified TRE™ Provider</span><span class="t-sep">·</span>
+<span class="t-item">30 Years of Experience</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Coaching</span><span class="t-sep">·</span>
+<span class="t-item">Mindfulness</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> 9 Countries · 40+ Nationalities</span><span class="t-sep">·</span>
+<span class="t-item">Release · Renew · Restore</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Business &amp; Human Development</span><span class="t-sep">·</span>
+<span class="t-item">Nervous System Reset</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Mindfulness</span><span class="t-sep">·</span>
+<span class="t-item">Embodied Leadership</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Trauma &amp; Tension Release</span><span class="t-sep">·</span>
+<span class="t-item">Mind · Body · Soul</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Corporate Wellness</span><span class="t-sep">·</span>
+<span class="t-item">Polyvagal Theory</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Global TRE™ Certifying Trainer</span><span class="t-sep">·</span>
+<span class="t-item">Executive Coaching</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Breathwork</span><span class="t-sep">·</span>
+<span class="t-item">Online &amp; In-Person</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Group Sessions</span><span class="t-sep">·</span>
+<span class="t-item">Burnout Recovery</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Deep Rest &amp; Renewal</span><span class="t-sep">·</span>
+<span class="t-item">Body Intelligence</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Somatic Intelligence</span><span class="t-sep">·</span>
+<span class="t-item">Self-Regulation</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Dr. David Berceli Method</span><span class="t-sep">·</span><span class="t-item">Neurogenic Tremors</span><span class="t-sep">·</span><span class="t-item">Vagal Tone</span><span class="t-sep">·</span><span class="t-item">Psoas Release</span><span class="t-sep">·</span><span class="t-item">Europe · US · Asia · Worldwide</span><span class="t-sep">·</span><span class="t-item">Free Discovery Call</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Certified Reiki Level II</span><span class="t-sep">·</span><span class="t-item">Nervous System Literacy</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Somatic Wellness</span><span class="t-sep">·</span>
+<span class="t-item">In-Person &amp; Online Worldwide</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Certified TRE™ Provider</span><span class="t-sep">·</span>
+<span class="t-item">30 Years of Experience</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Coaching</span><span class="t-sep">·</span>
+<span class="t-item">Mindfulness</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> 9 Countries · 40+ Nationalities</span><span class="t-sep">·</span>
+<span class="t-item">Release · Renew · Restore</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Business &amp; Human Development</span><span class="t-sep">·</span>
+<span class="t-item">Nervous System Reset</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Mindfulness</span><span class="t-sep">·</span>
+<span class="t-item">Embodied Leadership</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Trauma &amp; Tension Release</span><span class="t-sep">·</span>
+<span class="t-item">Mind · Body · Soul</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Corporate Wellness</span><span class="t-sep">·</span>
+<span class="t-item">Polyvagal Theory</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Global TRE™ Certifying Trainer</span><span class="t-sep">·</span>
+<span class="t-item">Executive Coaching</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Breathwork</span><span class="t-sep">·</span>
+<span class="t-item">Online &amp; In-Person</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Group Sessions</span><span class="t-sep">·</span>
+<span class="t-item">Burnout Recovery</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Deep Rest &amp; Renewal</span><span class="t-sep">·</span>
+<span class="t-item">Body Intelligence</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Somatic Intelligence</span><span class="t-sep">·</span>
+<span class="t-item">Self-Regulation</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Dr. David Berceli Method</span><span class="t-sep">·</span><span class="t-item">Neurogenic Tremors</span><span class="t-sep">·</span><span class="t-item">Vagal Tone</span><span class="t-sep">·</span><span class="t-item">Psoas Release</span><span class="t-sep">·</span><span class="t-item">Europe · US · Asia · Worldwide</span><span class="t-sep">·</span><span class="t-item">Free Discovery Call</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Certified Reiki Level II</span><span class="t-sep">·</span><span class="t-item">Nervous System Literacy</span><span class="t-sep">·</span> </div>
+</div><div class="evt-countdown-bar hx-sec hx-evts" id="hx-evts">
+<div class="hx-wrap">
+<div class="hx-head hx-head-split">
+<div class="hx-rv">
+<span class="hx-eyebrow">Upcoming Events</span>
+<h2 class="hx-title">Join Isabelle Live</h2>
+<p class="hx-lede">Upcoming TRE™ workshops and certifications — live online and in person.</p>
+</div>
+<div class="hx-evt-nav hx-rv" hidden="" style="--d:120ms">
+<button aria-controls="home-evt-grid" aria-label="Previous event" class="hx-arrow o_no_wait_lazy_js" data-dir="-1" type="button"><svg aria-hidden="true" viewbox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></button>
+<button aria-controls="home-evt-grid" aria-label="Next event" class="hx-arrow o_no_wait_lazy_js" data-dir="1" type="button"><svg aria-hidden="true" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+</div>
+</div>
+<div aria-label="Filter events" class="hx-evf hx-rv" hidden="" role="toolbar"/>
+<div aria-live="polite" class="home-evt-3" id="home-evt-grid">
+<article class="home-evt-card hx-rv" data-cat="online international workshops">
+<a aria-label="From Shaking to Shaping — Online - event details" class="home-evt-thumb" href="/event/from-shaking-to-shaping-online-1">
+<img alt="From Shaking to Shaping — Online, 8 October" decoding="async" height="1080" loading="lazy" src="/hb/images/card-event-shaking-online.webp" width="1920"/>
+</a>
+<div class="home-evt-body">
+<div class="home-evt-tags"><span class="home-evt-tag loc">Online</span><span class="home-evt-tag">TRE™ Coaching</span></div>
+<h3>From Shaking to Shaping — Online</h3>
+<div class="evt-dates"><span class="evt-date-tag" data-end="2026-10-08" data-start="2026-10-08">8 Oct 2026 · 7–9pm</span></div>
+<p class="home-evt-desc">A live online workshop on using TRE™ in a coaching context — co-led by Isabelle Claus Teixeira &amp; Saymara Ryon, in partnership with Neurogenic Integration.</p>
+<div class="home-evt-actions">
+<a class="hb-btn hb-btn-primary" href="/event/from-shaking-to-shaping-online-1">Register</a>
+<a class="hb-btn home-evt-btn2" href="/event/from-shaking-to-shaping-online-1">View Details</a>
+</div>
+</div>
+</article>
+<article class="home-evt-card hx-rv" data-cat="online workshops" style="--d:110ms">
+<a aria-label="Navigating Feminine &amp; Masculine Energetics - event details" class="home-evt-thumb" href="/event/navigating-feminine-masculine-energetics-4">
+<img alt="Navigating Feminine &amp; Masculine Energetics Inside Corporate Structures — Sara Marie, 28 October" decoding="async" height="1080" loading="lazy" src="/hb/images/card-event-feminine-masculine.webp" width="1920"/>
+</a>
+<div class="home-evt-body">
+<div class="home-evt-tags"><span class="home-evt-tag loc">Online</span><span class="home-evt-tag">Energetics &amp; Somatics</span></div>
+<h3>Navigating Feminine &amp; Masculine Energetics</h3>
+<div class="evt-dates"><span class="evt-date-tag" data-end="2026-10-28" data-start="2026-10-28">28 Oct 2026 · 7–9:30pm SGT</span></div>
+<p class="home-evt-desc">A live online workshop with Sara Marie — The Alchemist. Alchemising the pressure of masculine corporate structures into liberation, ease and personal power, through energetic transmission and somatic release.</p>
+<div class="home-evt-actions">
+<a class="hb-btn hb-btn-primary" href="/event/navigating-feminine-masculine-energetics-4">Register</a>
+<a class="hb-btn home-evt-btn2" href="/event/navigating-feminine-masculine-energetics-4">View Details</a>
+</div>
+</div>
+</article>
+<article class="home-evt-card hx-rv" data-cat="online workshops" style="--d:220ms">
+<a aria-label="The Body in the Room - event details" class="home-evt-thumb" href="/event/the-body-in-the-room-5">
+<img alt="The Body in the Room — online workshop with Aun Ali, 25 November 2026" decoding="async" height="1080" loading="lazy" src="/hb/images/card-event-body-in-the-room.webp" width="1920"/>
+</a>
+<div class="home-evt-body">
+<div class="home-evt-tags"><span class="home-evt-tag loc">Online</span><span class="home-evt-tag">Psychotherapy &amp; Somatics</span></div>
+<h3>The Body in the Room</h3>
+<div class="evt-dates"><span class="evt-date-tag" data-end="2026-11-25" data-start="2026-11-25">25 Nov 2026 · 7–9pm SGT</span></div>
+<p class="home-evt-desc">Integrating TRE™ and somatic practice into psychotherapy — a trauma-informed approach. An online workshop with Aun Ali, Certified TRE™ Trainer and Clinically Certified Trauma Specialist, for psychologists, counsellors and narrative therapists.</p>
+<div class="home-evt-actions">
+<a class="hb-btn hb-btn-primary" href="/event/the-body-in-the-room-5#register">Register — S$88</a>
+<a class="hb-btn home-evt-btn2" href="/event/the-body-in-the-room-5">View Details</a>
+</div>
+</div>
+</article>
+<article class="home-evt-card hx-rv" data-cat="online workshops" style="--d:275ms">
+<a aria-label="Breath as a medicine - event details" class="home-evt-thumb" href="/event/breath-as-a-medicine-12">
+<img alt="Ania Zielińska, yoga teacher, who leads the Breath as a medicine workshop on 15 December 2026" decoding="async" height="1080" loading="lazy" src="/hb/images/card-event-breath-as-medicine.webp" width="1920"/>
+</a>
+<div class="home-evt-body">
+<div class="home-evt-tags"><span class="home-evt-tag loc">Online</span><span class="home-evt-tag">Breathwork &amp; Yoga</span></div>
+<h3>Breath as a medicine</h3>
+<div class="evt-dates"><span class="evt-date-tag" data-end="2026-12-15" data-start="2026-12-15">15 Dec 2026 · 7–9pm SGT</span></div>
+<p class="home-evt-desc">An introduction to pranayama: how conscious breathing supports your physical, mental and emotional wellbeing. An online workshop with Ania Zielińska, yoga teacher and life realignment mentor. Beginners welcome.</p>
+<div class="home-evt-actions">
+<a class="hb-btn hb-btn-primary" href="/event/breath-as-a-medicine-12#register">Register — S$88</a>
+<a class="hb-btn home-evt-btn2" href="/event/breath-as-a-medicine-12">View Details</a>
+</div>
+</div>
+</article>
+<article class="home-evt-card hx-rv" data-cat="singapore certification" style="--d:330ms">
+<a aria-label="Become a Certified TRE™ Provider — 2027 Cohort - event details" class="home-evt-thumb" href="/event/become-a-certified-tretm-provider-2027-cohort-6">
+<img alt="Become a Certified TRE™ Provider 2027 — boosted by Internal Alchemy, with Isabelle Claus Teixeira and Simba Stenqvist" decoding="async" height="1080" loading="lazy" src="/hb/images/card-event-certification-2027.webp" width="1920"/>
+</a>
+<div class="home-evt-body">
+<div class="home-evt-tags"><span class="home-evt-tag loc">Singapore</span><span class="home-evt-tag">Certification</span></div>
+<h3>Become a Certified TRE™ Provider — 2027 Cohort</h3>
+<div class="evt-dates"><span class="evt-date-tag" data-end="2027-02-28" data-start="2027-02-27">M1 · 27–28 Feb 2027</span><span class="evt-date-tag" data-end="2027-07-04" data-start="2027-07-03">M2 · 3–4 Jul 2027</span><span class="evt-date-tag" data-end="2027-10-31" data-start="2027-10-30">M3 · 30–31 Oct 2027</span></div>
+<p class="home-evt-desc">The 2027 Singapore cohort of the Global TRE™ Provider Certification — three in-person modules plus online supervisions and bonus programs, taught by two TRE™ Trainers, Isabelle Claus Teixeira &amp; Simba Stenqvist. 21 ICF CCEs for Module 1 (CCEs pending confirmation for Module 2). Bundle from S$5,888 early bird.</p>
+<div class="home-evt-actions">
+<a class="hb-btn hb-btn-primary" href="/event/become-a-certified-tretm-provider-2027-cohort-6#reserve">Register</a>
+<a class="hb-btn home-evt-btn2" href="/event/become-a-certified-tretm-provider-2027-cohort-6">Details</a>
+</div>
+</div>
+</article>
+</div>
+<div aria-hidden="true" class="hx-evt-prog" hidden=""><i/></div>
+<div class="hx-evt-foot hx-rv">
+<p aria-live="polite" class="hx-evt-count"><span class="hx-evt-n">4</span> upcoming events · updated from the events calendar</p>
+<a class="hb-btn btn-outline" href="/event">See all events</a>
+</div>
+</div>
+</div><section class="section-white hx-sec hx-teach" id="how-we-teach">
+<div class="hx-wrap">
+<div class="hx-head hx-head-center hx-rv">
+<span class="hx-eyebrow">How We Teach</span>
+<h2 class="hx-title">Isabelle &amp; Simba in the Room</h2>
+<p class="hx-lede">A look inside a live TRE™ training — how Isabelle Claus Teixeira and Simba Stenqvist teach, guide and hold the space.</p>
+</div>
+<div class="hx-video hx-rv" style="--d:120ms">
+<div class="hx-video-frame">
+<button aria-label="Play video: How we teach TRE — Isabelle Claus Teixeira &amp; Simba Stenqvist" class="hx-facade o_no_wait_lazy_js" hidden="" type="button">
+<img alt="" decoding="async" height="1200" loading="lazy" src="/hb/images/gallery/gallery-module2-sep2026-4.jpg" width="1600"/>
+<span aria-hidden="true" class="hx-facade-shade"/>
+<span aria-hidden="true" class="hx-yt"><i class="fa-brands fa-youtube"/> YouTube</span>
+<span aria-hidden="true" class="hx-play"><svg viewbox="0 0 24 24"><path d="M6 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L7.5 3.64A1 1 0 0 0 6 4.5z"/></svg></span>
+<span aria-hidden="true" class="hx-facade-cap"><span class="hx-facade-k">Play the video</span><span class="hx-facade-t">Isabelle &amp; Simba in the Room</span></span>
+</button>
+<noscript><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/8_UE9nKEh2s?rel=0" style="position:absolute;inset:0;width:100%;height:100%;border:0" title="How we teach TRE — Isabelle Claus Teixeira &amp; Simba Stenqvist"/></noscript>
+</div>
+</div>
+<div class="hx-ctarow hx-rv"><a class="hb-btn hb-btn-primary" href="/tre-certification">Explore the Certification</a></div>
+</div>
+</section><section class="section-cream hx-sec hx-offer">
+<div class="hx-wrap">
+<div class="hx-head hx-head-center hx-rv">
+<span class="hx-eyebrow">What We Offer</span>
+<h2 class="hx-title">Somatic Practices for<br/>Lasting Transformation</h2>
+<p class="hx-lede">Body-based approaches that work with your nervous system directly — not just your mind.</p>
+</div>
+<div class="hx-offer-ui hx-rv" style="--d:120ms">
+<div aria-label="What we offer" aria-orientation="vertical" class="hx-offer-tabs" role="tablist">
+<button aria-controls="hx-opanel-1" aria-selected="true" class="hx-otab o_no_wait_lazy_js" id="hx-otab-1" role="tab" type="button"><span aria-hidden="true" class="hx-otab-bar"/><span aria-hidden="true" class="hx-otab-n">01</span><span aria-hidden="true" class="hx-otab-i"><i class="fa-solid fa-leaf"/></span><span class="hx-otab-t">TRE™ Exercises</span></button>
+<button aria-controls="hx-opanel-2" aria-selected="false" class="hx-otab o_no_wait_lazy_js" id="hx-otab-2" role="tab" tabindex="-1" type="button"><span aria-hidden="true" class="hx-otab-bar"/><span aria-hidden="true" class="hx-otab-n">02</span><span aria-hidden="true" class="hx-otab-i"><i class="fa-solid fa-spa"/></span><span class="hx-otab-t">Coaching</span></button>
+<button aria-controls="hx-opanel-3" aria-selected="false" class="hx-otab o_no_wait_lazy_js" id="hx-otab-3" role="tab" tabindex="-1" type="button"><span aria-hidden="true" class="hx-otab-bar"/><span aria-hidden="true" class="hx-otab-n">03</span><span aria-hidden="true" class="hx-otab-i"><i class="fa-solid fa-hand"/></span><span class="hx-otab-t">Mindfulness</span></button>
+</div>
+<div class="hx-offer-stage">
+<article aria-labelledby="hx-otab-1" class="hx-opanel hx-cur" id="hx-opanel-1">
+<div class="hx-opanel-media"><img alt="TRE™ Exercises — group practice at Module 2, September 2026" decoding="async" height="1200" loading="lazy" src="/hb/images/gallery/gallery-module2-sep2026-5.jpg" width="1600"/></div>
+<div class="hx-opanel-body">
+<span aria-hidden="true" class="hx-opanel-n">01</span>
+<span aria-hidden="true" class="hx-opanel-icon"><i class="fa-solid fa-leaf"/></span>
+<h3>TRE™ Exercises</h3>
+<p>Simple exercises that trigger your body's built-in tremoring response — releasing stored stress and tension from the nervous system.</p>
+<a class="hx-link" href="/tre-certification">Learn More →</a>
+</div>
+</article>
+<article aria-labelledby="hx-otab-2" class="hx-opanel" id="hx-opanel-2">
+<div class="hx-opanel-media"><img alt="Coaching — Isabelle guiding a one-to-one session" decoding="async" height="892" loading="lazy" src="/hb/images/gallery/gallery-screenshot-practice.jpg" width="1132"/></div>
+<div class="hx-opanel-body">
+<span aria-hidden="true" class="hx-opanel-n">02</span>
+<span aria-hidden="true" class="hx-opanel-icon"><i class="fa-solid fa-spa"/></span>
+<h3>Coaching</h3>
+<p>Somatic, trauma and neuroscience informed coaching that builds embodied intelligence — for lasting resilience, calm and transformation.</p>
+<a class="hx-link" href="/holistic-mastermind">Learn More →</a>
+</div>
+</article>
+<article aria-labelledby="hx-otab-3" class="hx-opanel" id="hx-opanel-3">
+<div class="hx-opanel-media"><img alt="Mindfulness — Isabelle leading a practice in the studio" decoding="async" height="1200" loading="lazy" src="/hb/images/gallery/gallery-ws-1.jpg" width="1600"/></div>
+<div class="hx-opanel-body">
+<span aria-hidden="true" class="hx-opanel-n">03</span>
+<span aria-hidden="true" class="hx-opanel-icon"><i class="fa-solid fa-hand"/></span>
+<h3>Mindfulness</h3>
+<p>A 6 or 8-session personalised journey to bring mindfulness and neuroscience-backed practices into your daily life.</p>
+<a class="hx-link" href="/holistic-mastermind">Learn More →</a>
+</div>
+</article>
+</div>
+</div>
+<div class="hx-ctarow hx-rv">
+<a class="hb-btn hb-btn-primary" href="/book">Find Your Practice</a>
+</div>
+</div>
+</section><section class="section-sage hb-bird">
+<div class="two-col">
+<div class="two-col-image"><img alt="Isabelle Claus Teixeira and Saymara Ryon outdoors" decoding="async" height="1600" loading="lazy" src="/hb/images/gallery/gallery-isabelle-saymara.jpg" width="1045"/><span aria-hidden="true" class="hb-glow"/><span aria-hidden="true" class="hb-pollen"><span style="left:12%;animation-delay:0.0s;--dx:40px"/><span style="left:28%;animation-delay:2.4s;--dx:-30px"/><span style="left:46%;animation-delay:4.8s;--dx:26px"/><span style="left:63%;animation-delay:1.2s;--dx:-44px"/><span style="left:78%;animation-delay:3.6s;--dx:34px"/><span style="left:88%;animation-delay:6.0s;--dx:-20px"/><span style="left:36%;animation-delay:7.2s;--dx:50px"/></span><span class="hb-tag"><b>200</b><span>wing beats a minute<br/>and never depleted</span></span></div>
+<div class="two-col-text">
+<span class="section-eyebrow">The HummingBeing Philosophy</span>
+<h2>Like the Hummingbird,<br/>You Are Built to Thrive</h2>
+<svg aria-hidden="true" class="hb-wave" viewbox="0 0 420 46"><path class="ghost" d="M0 23H420"/><path class="live" d="M0 23H420"/></svg>
+<div class="hb-wave-ctl"><button class="o_no_wait_lazy_js" aria-label="Show what stress looks like" aria-pressed="false" type="button"><svg viewbox="0 0 24 24"><path d="M2 12h3l2-6 4 12 3-9 2 3h6"/></svg></button><span aria-live="polite">This is a regulated system: steady and calm. Tap to see stress.</span></div>
+<p>The hummingbird beats its wings 200 times a minute — yet is never depleted. It moves with precision, vibrancy and grace. That's the natural state your nervous system is built for.</p>
+<p>Chronic stress and unprocessed tension pull us away from that balance. HummingBeing helps you release what's been building — and find your way back to the energy that's always been there.</p>
+<a class="hb-btn hb-btn-dark" href="/about" style="margin-top:1rem">Our Full Story</a>
+</div>
+</div>
+</section><section class="section-white">
+<div class="section-header-center">
+<span class="section-eyebrow">The Process</span>
+<h2 class="section-title">Your Journey to Resilience</h2>
+<p class="section-subtitle">A gentle, body-led process that meets you exactly where you are.</p>
+</div>
+<div class="steps">
+<div class="step">
+<div class="step-num">1</div>
+<h4>Free Consultation</h4>
+<p>A relaxed 30-minute chat with Isabelle to explore what you're carrying and which practice might feel right for you.</p>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<h4>Guided Sessions</h4>
+<p>Work 1:1 with Isabelle in supervised sessions designed to gently activate your body's natural release mechanisms.</p>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<h4>Self-Regulation Practice</h4>
+<p>After 3–4 sessions most people can practice on their own — a simple tool you can use for the rest of your life.</p>
+</div>
+<div class="step">
+<div class="step-num">4</div>
+<h4>Ongoing Integration</h4>
+<p>Continued support as you integrate new patterns of resilience into daily life, work and relationships.</p>
+</div>
+</div>
+<div class="section-cta-center"><a class="hb-btn hb-btn-primary" href="/book">Book a Free Chat</a></div>
+</section><section class="section-cream hx-sec hx-voices">
+<div class="hx-wrap">
+<div class="hx-head hx-head-center hx-rv">
+<span class="hx-eyebrow">In Their Own Words</span>
+<h2 class="hx-title">What People Are Saying</h2>
+</div>
+<div aria-label="What people are saying" aria-roledescription="carousel" class="hx-q hx-rv" role="region" style="--d:120ms">
+<div class="hx-q-stage" id="hx-q-stage">
+<figure class="hx-q-slide">
+<blockquote><p>"Thank you!!! I am deeply grateful for this journey and everyone in it. Thank you, dear Isabelle, for going beyond a trainer with your passion, energy and care. Let’s continue to explore &amp; keep this community growing and helping others uncover their path to healing &amp; releasing! Shake it off — Yay!!"</p></blockquote>
+<figcaption>— R.H., TRE™ Certification Student</figcaption>
+</figure>
+<figure class="hx-q-slide">
+<blockquote><p>"I am less anxious and feel so much more grounded. I never expected a body-based practice to create such profound changes in my mindset."</p></blockquote>
+<figcaption>— Senior Manager, Singapore</figcaption>
+</figure>
+<figure class="hx-q-slide">
+<blockquote><p>"I slept so well after my first TRE™ session. Three months in, I can genuinely say my relationship with stress has completely changed."</p></blockquote>
+<figcaption>— Finance Executive, Tokyo</figcaption>
+</figure>
+<figure class="hx-q-slide">
+<blockquote><p>"Isabelle created such a safe, professional space. The somatic bodywork helped me release patterns I had carried for decades."</p></blockquote>
+<figcaption>— Entrepreneur, Hong Kong</figcaption>
+</figure>
+<figure class="hx-q-slide">
+<blockquote><p>"My back pain has significantly reduced and I have far more energy at work. I recommend TRE™ to every high performer I know."</p></blockquote>
+<figcaption>— Mumbai</figcaption>
+</figure>
+</div>
+<div class="hx-q-ctl">
+<div class="hx-q-row">
+<button aria-controls="hx-q-stage" aria-label="Previous quote" class="hx-arrow o_no_wait_lazy_js" data-q="-1" type="button"><svg aria-hidden="true" viewbox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></button>
+<div class="hx-q-dots"/>
+<button aria-controls="hx-q-stage" aria-label="Next quote" class="hx-arrow o_no_wait_lazy_js" data-q="1" type="button"><svg aria-hidden="true" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+</div>
+<div class="hx-q-meta">
+<span aria-hidden="true" class="hx-q-count">01 / 05</span>
+<button aria-pressed="false" class="hx-q-pause o_no_wait_lazy_js" hidden="" type="button"><svg aria-hidden="true" viewbox="0 0 24 24"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"/></svg><span>Pause</span></button>
+</div>
+</div>
+</div>
+<div class="hx-ctarow hx-rv">
+<a class="hb-btn hb-btn-primary" href="/book">Start Your Journey</a>
+</div>
+</div>
+</section><section class="section-white hx-sec hx-fit">
+<div class="hx-wrap hx-fit-grid">
+<div class="hx-fit-media hx-rv">
+<div class="hx-fit-frame"><img alt="Isabelle with students at TRE™ Module 1, May 2026" decoding="async" height="1200" loading="lazy" src="/hb/images/gallery/gallery-isabelle-students-module1-may2026.jpg" width="1600"/></div>
+</div>
+<div class="hx-fit-text">
+<div class="hx-rv">
+<span class="hx-eyebrow">Is This for You?</span>
+<h2 class="hx-title">You Don't Need a Particular Story</h2>
+</div>
+<p class="hx-rv" style="--d:80ms">HummingBeing is for anyone who feels something is off — even if they can't quite name it. You don't need to be in crisis. You just need to feel the quiet pull to come back to yourself.</p>
+<p class="hx-fit-hint" hidden=""><i aria-hidden="true" class="fa-regular fa-hand-pointer"/> Tap any that feel familiar</p>
+<ul class="hx-fit-list">
+<li class="hx-fit-item hx-rv" style="--d:0ms"><span aria-hidden="true" class="hx-fit-dot"/><span class="hx-fit-label">You're exhausted in a way that sleep doesn't fix</span></li>
+<li class="hx-fit-item hx-rv" style="--d:60ms"><span aria-hidden="true" class="hx-fit-dot"/><span class="hx-fit-label">You're going through a big life or work change</span></li>
+<li class="hx-fit-item hx-rv" style="--d:120ms"><span aria-hidden="true" class="hx-fit-dot"/><span class="hx-fit-label">Anxiety, tension or overwhelm feel like your default setting</span></li>
+<li class="hx-fit-item hx-rv" style="--d:180ms"><span aria-hidden="true" class="hx-fit-dot"/><span class="hx-fit-label">You've been through something and don't want to talk about it to heal</span></li>
+<li class="hx-fit-item hx-rv" style="--d:240ms"><span aria-hidden="true" class="hx-fit-dot"/><span class="hx-fit-label">You want to feel more present, more alive, more like <em>you</em></span></li>
+<li class="hx-fit-item hx-rv" style="--d:300ms"><span aria-hidden="true" class="hx-fit-dot"/><span class="hx-fit-label">You sense there's more available to you than what you're currently living</span></li>
+</ul>
+<div aria-live="polite" class="hx-fit-meter" hidden=""><span aria-hidden="true" class="hx-fit-bar"><i/></span><span><b>0</b> of 6 feel familiar</span></div>
+<div class="hx-fit-cta hx-rv">
+<a class="hb-btn hb-btn-primary" href="/book">Book a Free Chat</a>
+<span>Free 30-min discovery call · No commitment</span>
+</div>
+</div>
+</div>
+</section><div class="cta-banner hx-sec hx-cta">
+<div aria-hidden="true" class="hx-breath"><span/><span/><span/></div>
+<span aria-hidden="true" class="hx-cta-glow"/>
+<div class="hx-cta-in">
+<span aria-hidden="true" class="hx-breath-lbl" hidden="">Breathe in</span>
+<h2>Come as You Are</h2>
+<p>Start with a free 30-minute chat with Isabelle. No agenda, no pressure — just an honest conversation about how you're feeling and what might help.</p>
+<a class="hb-btn hb-btn-primary" href="/book">Book a Free Chat</a>
+</div>
+</div><script src="/hb/pages/index.js?v=1" defer="defer"/></div></t></t>

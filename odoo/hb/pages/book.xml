@@ -1,0 +1,342 @@
+<t t-name="hbx.page_book"><t t-call="website.layout"><div id="wrap" class="oe_structure hbx xev-flush xev-pg-book"><link rel="stylesheet" href="/hb/pages/book.css?v=1"/><div class="page-hero">
+<video autoplay="" class="hero-video" loop="" muted="" playsinline="" poster="/hb/poster-book.webp" preload="none" style="object-position: center 20%;" title="Book a session with Isabelle Claus Teixeira">
+<source src="/hb/hero-book.mp4" type="video/mp4">
+</source></video>
+<span class="eyebrow">Your First Step</span>
+<h1>Let's Begin <em>Together</em></h1>
+<p>Every journey starts with a single honest conversation. No pressure — just a space to explore what's possible for you.</p>
+<div class="hero-actions">
+<a class="hb-btn hb-btn-primary" href="#pricing">View Session Pricing</a>
+<a class="hb-btn btn-outline" href="https://wa.me/818065151778" target="_blank">WhatsApp Isabelle</a>
+</div>
+</div><div aria-hidden="true" class="ticker-wrap">
+<div class="ticker-track">
+<span class="t-item"><span class="t-star">★</span> Somatic Wellness</span><span class="t-sep">·</span>
+<span class="t-item">In-Person &amp; Online Worldwide</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Certified TRE™ Provider</span><span class="t-sep">·</span>
+<span class="t-item">30 Years of Experience</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Coaching</span><span class="t-sep">·</span>
+<span class="t-item">Mindfulness</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> 9 Countries · 40+ Nationalities</span><span class="t-sep">·</span>
+<span class="t-item">Release · Renew · Restore</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Business &amp; Human Development</span><span class="t-sep">·</span>
+<span class="t-item">Nervous System Reset</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Mindfulness</span><span class="t-sep">·</span>
+<span class="t-item">Embodied Leadership</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Trauma &amp; Tension Release</span><span class="t-sep">·</span>
+<span class="t-item">Mind · Body · Soul</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Corporate Wellness</span><span class="t-sep">·</span>
+<span class="t-item">Polyvagal Theory</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Global TRE™ Certifying Trainer</span><span class="t-sep">·</span>
+<span class="t-item">Executive Coaching</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Breathwork</span><span class="t-sep">·</span>
+<span class="t-item">Online &amp; In-Person</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Group Sessions</span><span class="t-sep">·</span>
+<span class="t-item">Burnout Recovery</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Deep Rest &amp; Renewal</span><span class="t-sep">·</span>
+<span class="t-item">Body Intelligence</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Somatic Intelligence</span><span class="t-sep">·</span>
+<span class="t-item">Self-Regulation</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Dr. David Berceli Method</span><span class="t-sep">·</span><span class="t-item">Neurogenic Tremors</span><span class="t-sep">·</span><span class="t-item">Vagal Tone</span><span class="t-sep">·</span><span class="t-item">Psoas Release</span><span class="t-sep">·</span><span class="t-item">Europe · US · Asia · Worldwide</span><span class="t-sep">·</span><span class="t-item">Free Discovery Call</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Certified Reiki Level II</span><span class="t-sep">·</span><span class="t-item">Nervous System Literacy</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Somatic Wellness</span><span class="t-sep">·</span>
+<span class="t-item">In-Person &amp; Online Worldwide</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Certified TRE™ Provider</span><span class="t-sep">·</span>
+<span class="t-item">30 Years of Experience</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Coaching</span><span class="t-sep">·</span>
+<span class="t-item">Mindfulness</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> 9 Countries · 40+ Nationalities</span><span class="t-sep">·</span>
+<span class="t-item">Release · Renew · Restore</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Business &amp; Human Development</span><span class="t-sep">·</span>
+<span class="t-item">Nervous System Reset</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Mindfulness</span><span class="t-sep">·</span>
+<span class="t-item">Embodied Leadership</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Trauma &amp; Tension Release</span><span class="t-sep">·</span>
+<span class="t-item">Mind · Body · Soul</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Corporate Wellness</span><span class="t-sep">·</span>
+<span class="t-item">Polyvagal Theory</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Global TRE™ Certifying Trainer</span><span class="t-sep">·</span>
+<span class="t-item">Executive Coaching</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Breathwork</span><span class="t-sep">·</span>
+<span class="t-item">Online &amp; In-Person</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Group Sessions</span><span class="t-sep">·</span>
+<span class="t-item">Burnout Recovery</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Deep Rest &amp; Renewal</span><span class="t-sep">·</span>
+<span class="t-item">Body Intelligence</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Somatic Intelligence</span><span class="t-sep">·</span>
+<span class="t-item">Self-Regulation</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Dr. David Berceli Method</span><span class="t-sep">·</span><span class="t-item">Neurogenic Tremors</span><span class="t-sep">·</span><span class="t-item">Vagal Tone</span><span class="t-sep">·</span><span class="t-item">Psoas Release</span><span class="t-sep">·</span><span class="t-item">Europe · US · Asia · Worldwide</span><span class="t-sep">·</span><span class="t-item">Free Discovery Call</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Certified Reiki Level II</span><span class="t-sep">·</span><span class="t-item">Nervous System Literacy</span><span class="t-sep">·</span> </div>
+</div><div class="bk-trust">
+<div class="bk-wrap bk-trust-row">
+<div class="bk-trust-i bk-rv" style="--d:0ms">
+<span aria-hidden="true" class="bk-trust-ic"><i class="fa-solid fa-envelope-open-text"/></span>
+<div class="bk-trust-tx">
+<strong>Isabelle reads every message</strong>
+<span>Personal reply within 1–2 days</span>
+</div>
+</div>
+<div class="bk-trust-i bk-rv" style="--d:90ms">
+<span aria-hidden="true" class="bk-trust-ic"><i class="fa-solid fa-heart"/></span>
+<div class="bk-trust-tx">
+<strong>No sales pressure — ever</strong>
+<span>We find what’s right for you</span>
+</div>
+</div>
+<div class="bk-trust-i bk-rv" style="--d:180ms">
+<span aria-hidden="true" class="bk-trust-ic"><i class="fa-solid fa-video"/></span>
+<div class="bk-trust-tx">
+<strong>In-Person &amp; Online</strong>
+<span>Singapore, Japan &amp; globally via Zoom</span>
+</div>
+</div>
+<div class="bk-trust-i bk-rv" style="--d:270ms">
+<span aria-hidden="true" class="bk-trust-ic"><i class="fa-solid fa-shield-halved"/></span>
+<div class="bk-trust-tx">
+<strong>You set the pace</strong>
+<span>No commitment beyond the free call</span>
+</div>
+</div>
+</div>
+</div><section class="section-white bk-sec bk-price" id="pricing">
+<div class="bk-wrap">
+<div class="bk-head bk-head-c bk-rv">
+<span class="bk-eyebrow">Sessions &amp; Pricing</span>
+<h2 class="bk-h2">Choose Your Path</h2>
+<p class="bk-lede">Start with a free discovery call. From there, we find the programme that fits your life, your goals and your pace.</p>
+</div>
+<div class="bk-plans" id="bk-plans">
+
+<div class="bk-plan-cell bk-rv" style="--d:0ms">
+<article class="bk-plan" data-bk-icon="fa-seedling" data-bk-service="Coaching">
+<span aria-hidden="true" class="bk-plan-pick"><i class="fa-solid fa-check"/></span>
+<div class="bk-plan-head">
+<span aria-hidden="true" class="bk-plan-ic"><i class="fa-solid fa-seedling"/></span>
+<h3 class="bk-plan-name">8-Week Coaching Package</h3>
+</div>
+<div class="bk-plan-price"><span class="bk-count" data-bk-pre="S$" data-bk-to="2300">S$2,300</span></div>
+<p class="bk-plan-tag">Our signature 8-week individual coaching programme — designed to create meaningful, lasting change, fully customised to your goals.</p>
+<ul class="bk-plan-list">
+<li>Initial diagnostic session</li>
+<li>8 weekly one-on-one coaching sessions</li>
+<li>Targeted exercises between sessions</li>
+<li>Follow-up session at 3 months</li>
+<li>Leadership, career, stress resilience or personal growth focus</li>
+</ul>
+<a class="hb-btn hb-btn-dark bk-plan-cta" href="#contact-form">Get Started</a>
+</article>
+</div>
+
+<div class="bk-plan-cell bk-plan-cell-feat bk-rv" style="--d:110ms">
+<article class="bk-plan bk-plan-feat" data-bk-icon="fa-layer-group" data-bk-tip="1">
+<span aria-hidden="true" class="bk-plan-pick"><i class="fa-solid fa-check"/></span>
+<div class="bk-plan-head">
+<span aria-hidden="true" class="bk-plan-ic"><i class="fa-solid fa-layer-group"/></span>
+<h3 class="bk-plan-name">Deep Dive Package</h3>
+</div>
+<div class="bk-plan-price">Custom</div>
+<p class="bk-plan-tag">A longer, more personal journey shaped entirely around you — for those ready to go deeper and stay with the process.</p>
+<ul class="bk-plan-list">
+<li>12–24 personalised sessions</li>
+<li>Combined TRE™, Coaching &amp; Bodywork</li>
+<li>Corporate &amp; leadership programmes</li>
+<li>Priority scheduling &amp; direct access</li>
+<li>Ongoing integration support</li>
+</ul>
+<a class="hb-btn hb-btn-primary bk-plan-cta" href="#contact-form">Enquire Now</a>
+</article>
+</div>
+
+<div class="bk-plan-cell bk-rv" style="--d:220ms">
+<article class="bk-plan" data-bk-icon="fa-mug-hot">
+<span aria-hidden="true" class="bk-plan-pick"><i class="fa-solid fa-check"/></span>
+<div class="bk-plan-head">
+<span aria-hidden="true" class="bk-plan-ic"><i class="fa-solid fa-mug-hot"/></span>
+<h3 class="bk-plan-name">Free Discovery Call</h3>
+</div>
+<div class="bk-plan-price">$0</div>
+<p class="bk-plan-tag">Not sure which path is right? Start with a free 30-minute call with Isabelle. No commitment, just clarity.</p>
+<ul class="bk-plan-list">
+<li>30-minute video or phone call</li>
+<li>Understand your options</li>
+<li>No sales pressure — ever</li>
+<li>Available globally via Zoom</li>
+<li>Book via form or WhatsApp</li>
+</ul>
+<a class="hb-btn hb-btn-primary bk-plan-cta" href="#contact-form">Book Now — It’s Free</a>
+</article>
+</div>
+</div>
+</div>
+</section><section class="section-cream bk-sec bk-contact" id="contact-form">
+<div class="bk-wrap bk-book">
+
+<div class="bk-formcol">
+<div class="bk-head bk-rv">
+<span class="bk-eyebrow">Send a Message</span>
+<h2 class="bk-h2">Get in Touch with Isabelle</h2>
+<p class="bk-lede">Fill in the form below and Isabelle will personally get back to you within one or two days to arrange your free discovery call.</p>
+</div>
+<div class="bk-panel bk-rv" id="bk-panel">
+<form class="bk-form" onsubmit="handleBookSubmit(event)">
+<fieldset class="bk-grp">
+<legend class="bk-grp-h"><span aria-hidden="true" class="bk-grp-n"><span>01</span><i class="fa-solid fa-check"/></span>About you</legend>
+<div class="form-row">
+<div class="form-group bk-fld">
+<label for="fname">First Name *</label>
+<input id="fname" placeholder="Your first name" required="" type="text"/>
+</div>
+<div class="form-group bk-fld">
+<label for="lname">Last Name *</label>
+<input id="lname" placeholder="Your last name" required="" type="text"/>
+</div>
+</div>
+<div class="form-row">
+<div class="form-group bk-fld">
+<label for="email">Email Address *</label>
+<input id="email" placeholder="your@email.com" required="" type="email"/>
+</div>
+<div class="form-group bk-fld">
+<label for="phone">WhatsApp / Phone</label>
+<input id="phone" placeholder="+65 or +81 number" type="tel"/>
+</div>
+</div>
+<div class="form-group bk-fld bk-sel">
+<label for="location">Where are you based? *</label>
+<select id="location" required="">
+<option value="">Select your location</option>
+<option>Singapore</option>
+<option>Japan (Tokyo)</option>
+<option>Japan (Other)</option>
+<option>Hong Kong</option>
+<option>Other Asia</option>
+<option>Europe</option>
+<option>Other</option>
+</select>
+</div>
+</fieldset>
+<fieldset class="bk-grp">
+<legend class="bk-grp-h"><span aria-hidden="true" class="bk-grp-n"><span>02</span><i class="fa-solid fa-check"/></span>Your interest</legend>
+<div class="form-group bk-fld bk-sel bk-svc">
+<label for="service">Which service interests you most? *</label>
+<select id="service" required="">
+<option value="">Choose a service</option>
+<option>TRE™ (Tension &amp; Trauma Release Exercises)</option>
+<option>Coaching</option>
+<option>Mindfulness</option>
+<option>Not sure — help me decide</option>
+<option>Corporate / Team Programme</option>
+</select>
+</div>
+<div class="form-group bk-fld bk-sel">
+<label for="hear">How did you hear about us?</label>
+<select id="hear">
+<option value="">Select an option</option>
+<option>Instagram</option>
+<option>LinkedIn</option>
+<option>YouTube</option>
+<option>Google Search</option>
+<option>Referral from a friend or colleague</option>
+<option>BHD Asia</option>
+<option>Other</option>
+</select>
+</div>
+</fieldset>
+<fieldset class="bk-grp">
+<legend class="bk-grp-h"><span aria-hidden="true" class="bk-grp-n"><span>03</span><i class="fa-solid fa-check"/></span>Your message</legend>
+<div class="form-group bk-fld">
+<label for="message">What brings you here? *</label>
+<textarea id="message" placeholder="Briefly share what you're experiencing or hoping to address. No detail is too small — I read every message personally." required=""/>
+</div>
+</fieldset>
+<button class="hb-btn hb-btn-dark o_no_wait_lazy_js" style="width:100%;font-size:1rem;padding:1.1rem" type="submit">Send My Enquiry</button>
+</form>
+<div class="bk-success" id="success-msg" style="display:none;background:var(--cream);border:1.5px solid var(--border);border-radius:3px;padding:2rem;margin-top:1.5rem;text-align:center">
+<i class="fa-solid fa-circle-check" style="color:var(--gold);font-size:2rem;display:block;margin-bottom:.8rem"/>
+<p style="font-family:'PT Serif',Georgia,serif;font-size:1.35rem;color:var(--navy);margin-bottom:.4rem">Thank You!</p>
+<p style="color:var(--text-mid);font-size:.93rem;margin:0">Isabelle will be in touch within 1–2 business days to arrange your free discovery call.</p>
+</div>
+</div>
+</div>
+
+<div class="bk-side">
+
+<div class="bk-isa bk-rv">
+<div class="bk-isa-ph"><img alt="Isabelle Claus Teixeira" class="bk-isa-img" decoding="async" height="90" loading="lazy" src="/hb/images/isabelle-her-story.jpg" width="90"/></div>
+<h3>Isabelle Claus Teixeira</h3>
+<span class="bk-isa-t">Somatic Practitioner &amp; Coach</span>
+<blockquote>“I believe every body holds the wisdom it needs to heal. My role is simply to create the conditions for that wisdom to emerge.”</blockquote>
+</div>
+
+<div class="bk-wa bk-rv" style="--d:90ms">
+<span aria-hidden="true" class="bk-wa-ic"><i class="fa-brands fa-whatsapp"/></span>
+<h3>Prefer WhatsApp?</h3>
+<p>Many clients find it easier to reach out directly. Message Isabelle on WhatsApp anytime.</p>
+<a class="hb-btn hb-btn-primary" href="https://wa.me/818065151778" target="_blank">WhatsApp Isabelle</a>
+</div>
+
+<div class="bk-info bk-rv" style="--d:180ms">
+<div class="bk-tabs" hidden="">
+<button class="bk-tabbtn o_no_wait_lazy_js" id="bk-tab-where" type="button"><i aria-hidden="true" class="fa-solid fa-location-dot"/>Where We Work</button>
+<button class="bk-tabbtn o_no_wait_lazy_js" id="bk-tab-len" type="button"><i aria-hidden="true" class="fa-solid fa-clipboard-list"/>Session Lengths</button>
+<span aria-hidden="true" class="bk-tabind"/>
+</div>
+<div class="bk-pane" id="bk-p-where">
+<h3 class="bk-pane-h"><i aria-hidden="true" class="fa-solid fa-location-dot"/>Where We Work</h3>
+<ul class="bk-locs">
+<li class="bk-loc"><span aria-hidden="true" class="bk-loc-pin"><i class="fa-solid fa-location-dot"/></span><span><strong>Singapore</strong> — in-person &amp; online</span></li>
+<li class="bk-loc"><span aria-hidden="true" class="bk-loc-pin"><i class="fa-solid fa-location-dot"/></span><span><strong>Japan</strong> (Tokyo &amp; beyond) — in-person &amp; online</span></li>
+<li class="bk-loc"><span aria-hidden="true" class="bk-loc-pin"><i class="fa-solid fa-globe"/></span><span><strong>International</strong> — online globally via Zoom</span></li>
+</ul>
+</div>
+<div class="bk-pane" id="bk-p-len">
+<h3 class="bk-pane-h"><i aria-hidden="true" class="fa-solid fa-clipboard-list"/>Session Lengths</h3>
+<ul class="bk-lens">
+<li class="bk-len" style="--a:.667;--b:1"><span class="bk-len-k">TRE™</span><span class="bk-len-v">60–90 min per session</span><span aria-hidden="true" class="bk-len-bar"><b/><i/></span></li>
+<li class="bk-len" style="--a:.667;--b:.833"><span class="bk-len-k">Coaching</span><span class="bk-len-v">60–75 min</span><span aria-hidden="true" class="bk-len-bar"><b/><i/></span></li>
+<li class="bk-len" style="--a:.667;--b:.833"><span class="bk-len-k">Mindfulness</span><span class="bk-len-v">60–75 min</span><span aria-hidden="true" class="bk-len-bar"><b/><i/></span></li>
+<li class="bk-len bk-len-pkg"><span class="bk-len-k">8-Week Coaching Package</span><span class="bk-len-v">S$2,300</span></li>
+<li class="bk-len" style="--a:.333;--b:.333"><span class="bk-len-k">Free discovery call</span><span class="bk-len-v">30 min</span><span aria-hidden="true" class="bk-len-bar"><b/><i/></span></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section><section class="section-sage bk-sec bk-faq">
+<div class="bk-wrap bk-faq-grid">
+<div class="bk-faq-intro bk-rv">
+<span class="bk-eyebrow">Common Questions</span>
+<h2 class="bk-h2">Before You Book</h2>
+<p class="bk-lede">Questions Isabelle hears most often — answered honestly.</p>
+<div class="bk-faq-cta">
+<a class="hb-btn hb-btn-primary" href="https://wa.me/818065151778" target="_blank">Still have questions? Message on WhatsApp</a>
+</div>
+</div>
+<div class="bk-faq-list">
+<div class="bk-q bk-rv" style="--d:0ms">
+<h3 class="bk-q-h"><button aria-controls="bk-a1" class="bk-q-btn o_no_wait_lazy_js" id="bk-q1" type="button"><span aria-hidden="true" class="bk-q-n">01</span><span class="bk-q-t">Do I need any previous experience with somatic practices?</span><span aria-hidden="true" class="bk-q-ic"/></button></h3>
+<div aria-labelledby="bk-q1" class="bk-a" id="bk-a1" role="region"><div class="bk-a-in"><p>None at all. Every practice is designed to meet you where you are — no prior experience needed.</p></div></div>
+</div>
+<div class="bk-q bk-rv" style="--d:60ms">
+<h3 class="bk-q-h"><button aria-controls="bk-a2" class="bk-q-btn o_no_wait_lazy_js" id="bk-q2" type="button"><span aria-hidden="true" class="bk-q-n">02</span><span class="bk-q-t">Do I need to talk about my trauma or past experiences?</span><span aria-hidden="true" class="bk-q-ic"/></button></h3>
+<div aria-labelledby="bk-q2" class="bk-a" id="bk-a2" role="region"><div class="bk-a-in"><p>No. You never need to talk about what happened. The body releases in its own way — no narrative required.</p></div></div>
+</div>
+<div class="bk-q bk-rv" style="--d:120ms">
+<h3 class="bk-q-h"><button aria-controls="bk-a3" class="bk-q-btn o_no_wait_lazy_js" id="bk-q3" type="button"><span aria-hidden="true" class="bk-q-n">03</span><span class="bk-q-t">How many sessions will I need?</span><span aria-hidden="true" class="bk-q-ic"/></button></h3>
+<div aria-labelledby="bk-q3" class="bk-a" id="bk-a3" role="region"><div class="bk-a-in"><p>It varies. TRE™ is self-sufficient after 3–4 sessions. Coaching typically runs 6–12 sessions. Isabelle will be upfront about what she thinks you need.</p></div></div>
+</div>
+<div class="bk-q bk-rv" style="--d:180ms">
+<h3 class="bk-q-h"><button aria-controls="bk-a4" class="bk-q-btn o_no_wait_lazy_js" id="bk-q4" type="button"><span aria-hidden="true" class="bk-q-n">04</span><span class="bk-q-t">Can sessions be done online?</span><span aria-hidden="true" class="bk-q-ic"/></button></h3>
+<div aria-labelledby="bk-q4" class="bk-a" id="bk-a4" role="region"><div class="bk-a-in"><p>Yes. All sessions are available online via Zoom. In-person is available in Singapore and Japan.</p></div></div>
+</div>
+<div class="bk-q bk-rv" style="--d:240ms">
+<h3 class="bk-q-h"><button aria-controls="bk-a5" class="bk-q-btn o_no_wait_lazy_js" id="bk-q5" type="button"><span aria-hidden="true" class="bk-q-n">05</span><span class="bk-q-t">Is this available for corporate teams?</span><span aria-hidden="true" class="bk-q-ic"/></button></h3>
+<div aria-labelledby="bk-q5" class="bk-a" id="bk-a5" role="region"><div class="bk-a-in"><p>Yes — group TRE™ and team resilience programmes are available. Contact us to explore options.</p></div></div>
+</div>
+<div class="bk-q bk-rv" style="--d:300ms">
+<h3 class="bk-q-h"><button aria-controls="bk-a6" class="bk-q-btn o_no_wait_lazy_js" id="bk-q6" type="button"><span aria-hidden="true" class="bk-q-n">06</span><span class="bk-q-t">What is the cancellation policy?</span><span aria-hidden="true" class="bk-q-ic"/></button></h3>
+<div aria-labelledby="bk-q6" class="bk-a" id="bk-a6" role="region"><div class="bk-a-in"><p>24 hours’ notice to cancel or reschedule. Life happens — just let Isabelle know.</p></div></div>
+</div>
+</div>
+</div>
+</section><div class="cta-banner">
+<h2>Ready When You Are</h2>
+<p>The first step is free. Book your 30-minute discovery call and let’s have an honest conversation about what’s possible.</p>
+<a class="hb-btn hb-btn-primary" href="#contact-form">Book My Free Call</a>
+</div><script src="/hb/pages/book.js?v=1" defer="defer"/></div></t></t>

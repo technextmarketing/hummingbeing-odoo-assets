@@ -1,0 +1,82 @@
+<data>
+<xpath expr="//header[@id='top']" position="replace">
+<header t-if="not no_header" id="top" data-anchor="true" class="hbx xev-head o_no_autohide_menu"><ul class="top_menu" hidden="hidden"/><nav>
+<a class="logo" href="/"><img alt="HummingBeing — Coaching &amp; Somatics" class="logo-on-dark" height="56" src="/hb/images/logo-dark.webp" style="height:56px;width:auto" width="168"/><img alt="HummingBeing — Coaching &amp; Somatics" class="logo-on-light" height="56" src="/hb/images/logo-light.webp" style="height:56px;width:auto" width="168"/></a>
+<ul class="nav-links">
+<li><a href="/">Home</a></li>
+<li><a href="/about">About</a></li>
+<li><a href="/isabelle">Isabelle</a></li>
+<li class="nav-dropdown">
+<a class="nav-dropdown-toggle" href="javascript:void(0)">Services <i class="fa-solid fa-chevron-down nav-arrow"/></a>
+<ul class="nav-dropdown-menu">
+<li><a href="/holistic-mastermind">Holistic Mastermind Ecosystem</a></li>
+<li><a href="/tre-certification">Global Certifications</a></li>
+<li><a href="/retreats-workshops">Resilience Retreats</a></li>
+</ul>
+</li>
+<li><a href="/socials">Socials</a></li>
+<li><a href="/gallery">Gallery</a></li>
+<li><a class="active" href="/event">Events</a></li>
+<li class="nav-book-mobile"><a href="/book">Book a Session</a></li>
+</ul>
+<div class="nav-actions">
+<a class="nav-cta" href="/book">Book a Session</a>
+<button class="hamburger o_no_wait_lazy_js" onclick="toggleMenu()"><span/><span/><span/></button>
+</div>
+</nav></header>
+</xpath>
+<xpath expr="//footer[@id='bottom']" position="replace">
+<div t-if="not no_footer" id="bottom" data-anchor="true" class="hbx xev-foot"><footer>
+<div class="foot-grid">
+<div>
+<a class="foot-logo" href="/"><img alt="HummingBeing — Coaching &amp; Somatics" height="48" src="/hb/images/logo-dark.webp" style="height:48px;width:auto;display:block" width="144"/></a>
+<p class="foot-desc">Science backed processes with TRE™, Coaching and Somatic Practices — a space to release, renew and restore.</p>
+<p class="foot-desc">Part of <strong>Business and Human Development Consulting Pte Ltd</strong></p>
+<div class="foot-socials">
+<a aria-label="Instagram" class="soc" href="https://www.instagram.com/isabelleclausteixeira_bhd/" target="_blank"><i class="fa-brands fa-instagram"/></a>
+<a aria-label="LinkedIn" class="soc" href="https://www.linkedin.com/in/isabelleclausteixeira/" target="_blank"><i class="fa-brands fa-linkedin"/></a>
+<a aria-label="YouTube" class="soc" href="https://www.youtube.com/@IsabelleClausTeixeira" target="_blank"><i class="fa-brands fa-youtube"/></a>
+<a aria-label="WhatsApp" class="soc" href="https://wa.me/818065151778" target="_blank"><i class="fa-brands fa-whatsapp"/></a>
+</div>
+</div>
+<div>
+<div class="foot-h">Services</div>
+<ul class="foot-links">
+<li><a href="/holistic-mastermind">Holistic Mastermind Ecosystem</a></li>
+<li><a href="/tre-certification">Global Certifications</a></li>
+<li><a href="/retreats-workshops">Resilience Retreats</a></li>
+<li><a href="/book">Book a Session</a></li>
+</ul>
+</div>
+<div>
+<div class="foot-h">Company</div>
+<ul class="foot-links">
+<li><a href="/about">About HummingBeing</a></li>
+<li><a href="/isabelle">Meet Isabelle</a></li>
+<li><a href="/socials">Social Media</a></li>
+<li><a href="/gallery">Gallery</a></li>
+<li><a href="/event">Events</a></li>
+<li><a href="https://bhdasia.com" target="_blank">BHD Asia</a></li>
+</ul>
+</div>
+<div>
+<div class="foot-h">Contact</div>
+<ul class="foot-links">
+<li><a href="mailto:bonjour@bhdasia.com">bonjour@bhdasia.com</a></li>
+<li><a href="https://wa.me/818065151778" target="_blank">WhatsApp Us</a></li>
+<li><span>Global</span></li>
+</ul>
+</div>
+</div>
+<div class="foot-bottom">
+<div class="foot-copy">© 2026 HummingBeing — Business and Human Development Consulting Pte Ltd</div>
+<div class="foot-legal">
+<span>Privacy Policy</span>
+<span>Terms of Service</span>
+<span class="foot-sep">·</span>
+<a href="https://technext.asia" target="_blank">Powered by <span class="tn-brand">TechNext</span></a>
+</div>
+</div>
+</footer><a aria-label="Chat on WhatsApp" class="wa-float" href="https://wa.me/818065151778" target="_blank"><i class="fa-brands fa-whatsapp"/></a><button aria-label="Back to top" class="top-float o_no_wait_lazy_js" onclick="window.scrollTo({top:0,behavior:'smooth'})"><i class="fa-solid fa-chevron-up"/></button></div>
+</xpath>
+</data>

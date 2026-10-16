@@ -1,0 +1,223 @@
+<t t-name="hbx.page_online_session_preparation"><t t-call="website.layout"><div id="wrap" class="oe_structure hbx xev-flush xev-pg-online-session-preparation"><link rel="stylesheet" href="/hb/pages/online-session-preparation.css?v=1"/><div class="page-hero guide-hero">
+<video autoplay="" class="hero-video" loop="" muted="" playsinline="" poster="/hb/poster-tre.jpg" preload="none" title="TRE™ background video">
+<source src="/hb/hero-tre.mp4" type="video/mp4">
+</source></video>
+<span class="eyebrow">Participant Guide</span>
+<h1>Preparing for Your <em>Online TRE™</em> Session</h1>
+<p>Everything to set up before we meet online — your space, your camera, your kit and your safety. Please read this through before your first session.</p>
+<div class="hero-actions">
+<a class="hb-btn hb-btn-primary" href="#prepare">What to Prepare</a>
+<a class="hb-btn btn-outline" download="" href="https://hummingbeing.com/online-tre-session-guide.pdf?v=2">Download PDF Guide ↓</a>
+<a class="hb-btn btn-outline" href="/event">Upcoming Events</a>
+</div>
+</div><section class="section-cream">
+<div class="section-header-center">
+<span class="section-eyebrow">Before We Begin</span>
+<h2 class="section-title">Your Setup Is <em>Part of the Practice</em></h2>
+</div>
+<div class="guide-lead">
+<p>In an online session, everything your facilitator can offer you comes through the camera — watching how your body moves, how your tremors travel, and when it’s time to pause. A few minutes of preparation lets us give you the same quality of attention you would receive in the room.</p>
+<p>Please make sure you have enough space to place your device far enough away that we can see your <strong>whole body</strong> — standing upright during the preparation exercises, and lying on your mat during the TRE™ practice itself.</p>
+</div>
+<div class="key-note">
+<i class="fa-solid fa-circle-info"/>
+<p><strong>The one thing that matters most:</strong> we must be able to see you head to toe, both standing and on the mat. If we can only see part of you, we cannot guide you safely — so please test your camera before the session starts.</p>
+</div>
+</section><section class="section-white" id="camera">
+<div class="section-header-center">
+<span class="section-eyebrow">Camera Positioning</span>
+<h2 class="section-title">Where to Place <em>Your Camera</em></h2>
+<p class="section-subtitle">Two views to check before every session — standing, and on the mat.</p>
+</div>
+<div class="cam-grid">
+
+<div class="cam-panel">
+<svg aria-label="Diagram showing a device placed about two to two and a half metres away, angled so a standing person is visible from head to feet." role="img" viewbox="0 0 400 250">
+<defs>
+<marker id="hb-arrow" markerheight="8" markerwidth="8" orient="auto" refx="7" refy="4"><path d="M0,0 L8,4 L0,8 Z" fill="#5f6472"/></marker>
+<marker id="hb-arrow-s" markerheight="8" markerwidth="8" orient="auto" refx="1" refy="4"><path d="M8,0 L0,4 L8,8 Z" fill="#5f6472"/></marker>
+</defs>
+
+<path d="M78,170 L352,52 L352,224 Z" fill="#F5A623" opacity=".10"/>
+<path d="M78,170 L352,52" fill="none" stroke="#F5A623" stroke-dasharray="5 4" stroke-width="1.4"/>
+<path d="M78,170 L352,224" fill="none" stroke="#F5A623" stroke-dasharray="5 4" stroke-width="1.4"/>
+
+<line stroke="#242e42" stroke-width="2" x1="20" x2="380" y1="212" y2="212"/>
+
+<rect fill="#242e42" height="20" opacity=".18" rx="3" width="60" x="46" y="192"/>
+<rect fill="#242e42" height="8" rx="2" width="48" x="52" y="184"/>
+<path d="M58,184 L62,150 L96,150 L100,184 Z" fill="#242e42"/>
+<rect fill="#fafaf8" height="24" rx="2" width="26" x="65" y="155"/>
+<circle cx="78" cy="152" fill="#F5A623" r="2.6"/>
+
+<circle cx="300" cy="90" fill="#242e42" r="14"/>
+<line stroke="#242e42" stroke-linecap="round" stroke-width="8" x1="300" x2="300" y1="104" y2="160"/>
+<line stroke="#242e42" stroke-linecap="round" stroke-width="6" x1="300" x2="278" y1="116" y2="146"/>
+<line stroke="#242e42" stroke-linecap="round" stroke-width="6" x1="300" x2="322" y1="116" y2="146"/>
+<line stroke="#242e42" stroke-linecap="round" stroke-width="6.5" x1="300" x2="288" y1="160" y2="211"/>
+<line stroke="#242e42" stroke-linecap="round" stroke-width="6.5" x1="300" x2="312" y1="160" y2="211"/>
+
+<line marker-end="url(#hb-arrow)" marker-start="url(#hb-arrow-s)" stroke="#c98000" stroke-width="1.4" x1="342" x2="342" y1="76" y2="212"/>
+<text fill="#c98000" font-family="Lato, sans-serif" font-size="11" font-weight="700" text-anchor="middle" transform="rotate(90 352 140)" x="352" y="140">HEAD TO TOE</text>
+
+<line marker-end="url(#hb-arrow)" marker-start="url(#hb-arrow-s)" stroke="#5f6472" stroke-width="1.2" x1="82" x2="296" y1="232" y2="232"/>
+<text fill="#5f6472" font-family="Lato, sans-serif" font-size="11" font-weight="700" text-anchor="middle" x="189" y="245">approx. 2–2.5 m</text>
+<text fill="#242e42" font-family="Lato, sans-serif" font-size="10" font-weight="800" letter-spacing="1" text-anchor="middle" x="78" y="132">CAMERA</text>
+</svg>
+<h3>1. Standing — the preparation exercises</h3>
+<p>Step back until your feet and the top of your head are both inside the frame with a little room to spare. Landscape orientation, camera at roughly hip height.</p>
+</div>
+
+<div class="cam-panel">
+<svg aria-label="Diagram showing a device placed to the side of a yoga mat, angled so the whole mat and a person lying in butterfly position are visible." role="img" viewbox="0 0 400 250">
+
+<path d="M74,150 L352,86 L352,232 Z" fill="#F5A623" opacity=".10"/>
+<path d="M74,150 L352,86" fill="none" stroke="#F5A623" stroke-dasharray="5 4" stroke-width="1.4"/>
+<path d="M74,150 L352,232" fill="none" stroke="#F5A623" stroke-dasharray="5 4" stroke-width="1.4"/>
+
+<line stroke="#242e42" stroke-width="2" x1="20" x2="380" y1="212" y2="212"/>
+
+<rect fill="#F5A623" height="12" opacity=".55" rx="6" width="204" x="150" y="198"/>
+<rect fill="none" height="12" rx="6" stroke="#c98000" stroke-width="1.2" width="204" x="150" y="198"/>
+<text fill="#c98000" font-family="Lato, sans-serif" font-size="10.5" font-weight="800" letter-spacing="1" text-anchor="middle" x="252" y="228">WHOLE MAT IN FRAME</text>
+
+<circle cx="172" cy="188" fill="#242e42" r="12"/>
+<line stroke="#242e42" stroke-linecap="round" stroke-width="9" x1="184" x2="252" y1="190" y2="192"/>
+<path d="M252,192 L278,158" fill="none" stroke="#242e42" stroke-linecap="round" stroke-width="7"/>
+<path d="M278,158 L296,196" fill="none" stroke="#242e42" stroke-linecap="round" stroke-width="7"/>
+<path d="M252,192 L272,164" fill="none" opacity=".5" stroke="#242e42" stroke-linecap="round" stroke-width="6"/>
+<line stroke="#242e42" stroke-linecap="round" stroke-width="5.5" x1="196" x2="216" y1="192" y2="176"/>
+
+<rect fill="#242e42" height="36" opacity=".18" rx="3" width="62" x="42" y="176"/>
+<rect fill="#242e42" height="8" rx="2" width="50" x="48" y="168"/>
+<path d="M54,168 L60,132 L94,132 L98,168 Z" fill="#242e42"/>
+<rect fill="#fafaf8" height="24" rx="2" width="26" x="62" y="137"/>
+<circle cx="75" cy="134" fill="#F5A623" r="2.6"/>
+<text fill="#242e42" font-family="Lato, sans-serif" font-size="10" font-weight="800" letter-spacing="1" text-anchor="middle" x="74" y="116">CAMERA</text>
+
+<text fill="#5f6472" font-family="Lato, sans-serif" font-size="11.5" font-weight="700" text-anchor="middle" x="200" y="44">Place the device to the side of the mat —</text>
+<text fill="#5f6472" font-family="Lato, sans-serif" font-size="11.5" font-weight="700" text-anchor="middle" x="200" y="60">not at your head or feet</text>
+</svg>
+<h3>2. On the mat — the tremoring practice</h3>
+<p>Set the device to the <em>side</em> of your mat so the full length of your body stays in shot, including your knees in the butterfly position.</p>
+</div>
+</div>
+<ul class="cam-tips">
+<li><i class="fa-solid fa-mobile-screen-button"/><span>Use <strong>landscape</strong> orientation and prop the device so it cannot slide or fall.</span></li>
+<li><i class="fa-solid fa-display"/><span>A larger screen helps — you need to follow the exercises being demonstrated.</span></li>
+<li><i class="fa-solid fa-eye"/><span>Join a few minutes early and check your own video preview before we start.</span></li>
+<li><i class="fa-solid fa-arrows-left-right"/><span>Leave room to step forward and back without walking out of frame.</span></li>
+</ul>
+</section><section class="section-cream" id="prepare">
+<div class="section-header-center">
+<span class="section-eyebrow">Your Checklist</span>
+<h2 class="section-title">What to <em>Prepare</em></h2>
+<p class="section-subtitle">Have all of this ready and within reach before the session begins.</p>
+</div>
+<div class="prep-grid">
+<div class="prep-card">
+<div class="prep-icon"><i class="fa-solid fa-rug"/></div>
+<h3>A yoga mat</h3>
+<p>Somewhere comfortable and non-slip to lie down for the tremoring practice.</p>
+<span class="req must">Required</span>
+</div>
+<div class="prep-card">
+<div class="prep-icon"><i class="fa-solid fa-laptop"/></div>
+<h3>A device with a camera</h3>
+<p>Laptop, tablet or phone — the bigger the screen the better, so you can clearly see the exercises being shown.</p>
+<span class="req must">Required</span>
+</div>
+<div class="prep-card">
+<div class="prep-icon"><i class="fa-solid fa-headphones"/></div>
+<h3>Wireless headphones</h3>
+<p>Essential in group classes, as you’ll be far from the device. In private sessions we can try without — but please have a pair ready to connect.</p>
+<span class="req must">Required in group classes</span>
+</div>
+<div class="prep-card">
+<div class="prep-icon"><i class="fa-solid fa-wifi"/></div>
+<h3>Reliable internet</h3>
+<p>A stable connection throughout. If you can, sit close to your router or use a wired connection.</p>
+<span class="req must">Required</span>
+</div>
+<div class="prep-card">
+<div class="prep-icon"><i class="fa-solid fa-bed"/></div>
+<h3>Pillows, cushions, blankets</h3>
+<p>For support under your knees or head, and to stay warm as your body settles afterwards.</p>
+<span class="req nice">As needed</span>
+</div>
+<div class="prep-card">
+<div class="prep-icon"><i class="fa-solid fa-lightbulb"/></div>
+<h3>Good lighting</h3>
+<p>Light the room well and face the light where possible. If you are backlit or in shadow, we can’t see your movement.</p>
+<span class="req must">Required</span>
+</div>
+<div class="prep-card">
+<div class="prep-icon"><i class="fa-solid fa-shirt"/></div>
+<h3>Loose, light-coloured trousers</h3>
+<p>Stretchy and comfortable enough for the butterfly position. Dark clothing hides your tremors from the camera, so please avoid black.</p>
+<span class="req must">Required</span>
+</div>
+<div class="prep-card">
+<div class="prep-icon"><i class="fa-solid fa-bottle-water"/></div>
+<h3>Water within reach</h3>
+<p>Keep a glass or bottle beside your mat so you don’t have to leave the frame.</p>
+<span class="req nice">Recommended</span>
+</div>
+<div class="prep-card">
+<div class="prep-icon"><i class="fa-solid fa-door-closed"/></div>
+<h3>An undisturbed space</h3>
+<p>Let the household know, silence notifications, and close the door so you can let go completely.</p>
+<span class="req nice">Recommended</span>
+</div>
+</div>
+</section><section class="section-dark">
+<div class="section-header-center">
+<span class="section-eyebrow">Safety First</span>
+<h2 class="section-title">Someone You <em>Trust</em>, Nearby</h2>
+</div>
+<div style="max-width:800px;margin:0 auto;text-align:center">
+<p style="font-size:1.02rem;line-height:1.85;color:rgba(255,255,255,.9)">Please ask someone you trust to be in the same house or apartment as you — or right next door — for the duration of the session, and give us their <strong style="color:var(--gold)">name and phone number on your consent form</strong>.</p>
+<p style="font-size:1.02rem;line-height:1.85;color:rgba(255,255,255,.9);margin-top:1rem">This is rarely needed. It simply means that if you would benefit from someone physically present, we can reach them straight away. Having their details on the form is the important part.</p>
+<div class="guide-actions">
+<a class="hb-btn hb-btn-primary" href="/book">Ask a Question</a>
+</div>
+</div>
+</section><section class="section-white" id="platform">
+<div class="section-header-center">
+<span class="section-eyebrow">The Platform</span>
+<h2 class="section-title">Joining on <em>Zoom</em></h2>
+</div>
+<div class="zoom-box">
+<p style="font-size:.98rem;line-height:1.8;color:var(--body-text);margin:0">Our online sessions and group classes run on <strong>Zoom</strong>. Only authenticated users can join, and only through the Zoom application — so please set this up in advance rather than on the day.</p>
+<ol>
+<li><strong>Download the Zoom client app</strong> for your desktop or mobile device from <a href="https://zoom.us/download" rel="noopener" style="color:var(--gold-dark);font-weight:700" target="_blank">zoom.us/download</a>.</li>
+<li><strong>Create or sign in to a Zoom account</strong> using the same email address you registered with.</li>
+<li><strong>Test your camera and microphone</strong> inside the app before the session day.</li>
+<li><strong>Join through the app</strong>, not the browser — joining from a browser or while signed out may block you from the session.</li>
+<li>If Zoom is new to you, allow ten extra minutes the first time. There are plenty of short walkthroughs online, and we’re happy to help you test in advance.</li>
+</ol>
+</div>
+</section><section class="section-cream">
+<div class="section-header-center">
+<span class="section-eyebrow">On the Day</span>
+<h2 class="section-title">Fifteen Minutes <em>Before</em></h2>
+</div>
+<ol class="final-list">
+<li>Roll out your mat and clear the space around it.</li>
+<li>Set your device in place and check the two camera views above — standing, and lying down.</li>
+<li>Turn on the lights; close curtains if you are backlit.</li>
+<li>Change into loose, light-coloured trousers.</li>
+<li>Put cushions, a blanket and water beside your mat.</li>
+<li>Charge or plug in your device, and connect your headphones.</li>
+<li>Confirm your support person knows the session is happening.</li>
+<li>Open Zoom, sign in, and join a few minutes early.</li>
+</ol>
+<div class="guide-actions">
+<button class="hb-btn hb-btn-dark o_no_wait_lazy_js" onclick="window.print()"><i class="fa-solid fa-print"/>  Print This Guide</button>
+<a class="hb-btn hb-btn-primary" href="/event">View Upcoming Events</a>
+</div>
+</section><div class="cta-banner">
+<h2>Still Have a Question?</h2>
+<p>If anything about your setup is unclear — the space, the camera, the kit — please ask before your session rather than on the day. We’re glad to help you get it right.</p>
+<a class="hb-btn hb-btn-primary" href="/book">Get in Touch →</a>
+</div><script src="/hb/pages/online-session-preparation.js?v=1" defer="defer"/></div></t></t>

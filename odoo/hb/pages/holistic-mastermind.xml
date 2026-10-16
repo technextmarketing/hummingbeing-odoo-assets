@@ -1,0 +1,300 @@
+<t t-name="hbx.page_holistic_mastermind"><t t-call="website.layout"><div id="wrap" class="oe_structure hbx xev-flush xev-pg-holistic-mastermind"><link rel="stylesheet" href="/hb/pages/holistic-mastermind.css?v=1"/><div class="page-hero">
+<video autoplay="" class="hero-video" loop="" muted="" playsinline="" poster="/hb/poster-holistic.webp" preload="none" title="The Holistic Mastermind Ecosystem — Isabelle Claus Teixeira">
+<source src="/hb/hero-holistic.mp4" type="video/mp4">
+</source></video>
+<span class="eyebrow">The Framework</span>
+<h1>The Holistic <em>Mastermind Ecosystem</em></h1>
+<p>A four-pillar system that works at every level — mind, body, energy and vision — for leaders ready to perform at their highest.</p>
+<div class="hero-actions">
+<a class="hb-btn hb-btn-primary" href="/book">Book a Free Discovery Call</a>
+<a class="hb-btn btn-outline" href="/isabelle">Meet Isabelle</a>
+</div>
+</div><div aria-hidden="true" class="ticker-wrap">
+<div class="ticker-track">
+<span class="t-item"><span class="t-star">★</span> Somatic Wellness</span><span class="t-sep">·</span>
+<span class="t-item">In-Person &amp; Online Worldwide</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Holistic Mastermind Ecosystem</span><span class="t-sep">·</span>
+<span class="t-item">Four Pillars of Leadership</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> The Tactical Mind</span><span class="t-sep">·</span>
+<span class="t-item">The Somatic Vessel</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> The Energetic Matrix</span><span class="t-sep">·</span>
+<span class="t-item">The Expressive Vision</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Certified TRE™ Provider</span><span class="t-sep">·</span>
+<span class="t-item">30 Years of Experience</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Coaching</span><span class="t-sep">·</span>
+<span class="t-item">Mindfulness</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> 9 Countries · 40+ Nationalities</span><span class="t-sep">·</span>
+<span class="t-item">Release · Renew · Restore</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Business &amp; Human Development</span><span class="t-sep">·</span>
+<span class="t-item">Nervous System Reset</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Mindfulness</span><span class="t-sep">·</span>
+<span class="t-item">Embodied Leadership</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Cognitive Optimization</span><span class="t-sep">·</span>
+<span class="t-item">Energetic Mastery</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Corporate Wellness</span><span class="t-sep">·</span>
+<span class="t-item">Burnout Recovery</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Executive Coaching</span><span class="t-sep">·</span>
+<span class="t-item">Breathwork</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Online &amp; In-Person</span><span class="t-sep">·</span>
+<span class="t-item">Body Intelligence</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Somatic Intelligence</span><span class="t-sep">·</span>
+<span class="t-item">Self-Regulation</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Dr. David Berceli Method</span><span class="t-sep">·</span>
+<span class="t-item">Europe · US · Asia · Worldwide</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Free Discovery Call</span><span class="t-sep">·</span>
+<span class="t-item">Nervous System Literacy</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Holistic Mastermind Ecosystem</span><span class="t-sep">·</span>
+<span class="t-item">Four Pillars of Leadership</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> The Tactical Mind</span><span class="t-sep">·</span>
+<span class="t-item">The Somatic Vessel</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> The Energetic Matrix</span><span class="t-sep">·</span>
+<span class="t-item">The Expressive Vision</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Certified TRE™ Provider</span><span class="t-sep">·</span>
+<span class="t-item">30 Years of Experience</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Coaching</span><span class="t-sep">·</span>
+<span class="t-item">Mindfulness</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> 9 Countries · 40+ Nationalities</span><span class="t-sep">·</span>
+<span class="t-item">Release · Renew · Restore</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Business &amp; Human Development</span><span class="t-sep">·</span>
+<span class="t-item">Nervous System Reset</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Cognitive Optimization</span><span class="t-sep">·</span>
+<span class="t-item">Energetic Mastery</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Embodied Leadership</span><span class="t-sep">·</span>
+<span class="t-item">Corporate Wellness</span><span class="t-sep">·</span>
+<span class="t-item"><span class="t-star">★</span> Burnout Recovery</span><span class="t-sep">·</span>
+<span class="t-item">Europe · US · Asia · Worldwide</span><span class="t-sep">·</span>
+</div>
+</div><section class="section-cream hm hm-why">
+<div class="hm-wrap hm-why-grid">
+<figure class="hm-why-media hm-rv hm-rv-l" data-hm-tilt="">
+<div class="hm-why-frame">
+<img alt="Isabelle Claus Teixeira teaching TRE™" decoding="async" loading="lazy" src="/hb/images/gallery/gallery-isabelle-teaching-tre.jpg"/>
+</div>
+<div aria-hidden="true" class="hm-seal">
+<div class="hm-seal-spin">
+<i class="fa-solid fa-brain" style="--a:0deg"/>
+<i class="fa-solid fa-person-running" style="--a:90deg"/>
+<i class="fa-solid fa-star" style="--a:180deg"/>
+<i class="fa-solid fa-eye" style="--a:270deg"/>
+</div>
+<span class="hm-seal-core"/>
+</div>
+</figure>
+<div class="hm-why-text">
+<span class="hm-eyebrow hm-rv">Why Holistic?</span>
+<h2 class="hm-title hm-rv">Real Performance Lives in the Body, Not Just the Mind</h2>
+<div aria-hidden="true" class="hm-rule hm-rv"/>
+<p class="hm-rv">Most leadership development works from the neck up — strategy, frameworks, cognitive tools. They are valuable. But peak performance, sustained resilience and genuine leadership presence are not primarily cognitive phenomena. <span class="hm-hl">They are physiological.</span> They live in the nervous system, the breath, the posture, the field.</p>
+<p class="hm-rv">The Holistic Mastermind Ecosystem is built on a different premise: that transformational leadership requires attending to all four dimensions of the human system simultaneously. <span class="hm-ph" data-hm-p="0">The Tactical (mind)</span>, <span class="hm-ph" data-hm-p="1">the Somatic (body)</span>, <span class="hm-ph" data-hm-p="2">the Energetic (subtle body)</span> and <span class="hm-ph" data-hm-p="3">the Expressive (vision)</span> are not separate domains — they are one integrated system. Neglect any one, and the others are limited.</p>
+<p class="hm-rv">This is not a modular menu of wellness offerings. It is a coherent framework, designed so that each pillar amplifies the others. When the nervous system is regulated, cognition sharpens. When the energetic field is clear, somatic work deepens. When vision is rooted in the body, strategy becomes effortless.</p>
+<span class="hm-go-lbl hm-rv">Explore each pillar</span>
+<ul class="hm-go hm-rv">
+<li><a data-hm-go="0" href="#hm-pillars"><span aria-hidden="true" class="hm-go-n">I</span><span class="hm-go-t">Cognitive Optimization</span><i aria-hidden="true" class="fa-solid fa-arrow-right"/></a></li>
+<li><a data-hm-go="1" href="#hm-pillars"><span aria-hidden="true" class="hm-go-n">II</span><span class="hm-go-t">Somatic Decompression</span><i aria-hidden="true" class="fa-solid fa-arrow-right"/></a></li>
+<li><a data-hm-go="2" href="#hm-pillars"><span aria-hidden="true" class="hm-go-n">III</span><span class="hm-go-t">Energetic Mastery</span><i aria-hidden="true" class="fa-solid fa-arrow-right"/></a></li>
+<li><a data-hm-go="3" href="#hm-pillars"><span aria-hidden="true" class="hm-go-n">IV</span><span class="hm-go-t">Expressive Vision</span><i aria-hidden="true" class="fa-solid fa-arrow-right"/></a></li>
+</ul>
+</div>
+</div>
+</section><section class="section-sage hm hm-pillars" id="hm-pillars">
+<div class="hm-wrap">
+<header class="hm-head hm-rv">
+<span class="hm-eyebrow">The Four Pillars</span>
+<h2 class="hm-title">A Complete System for Transformational Leadership</h2>
+<p class="hm-lede">Four interconnected dimensions of the human system — each essential, each amplifying the others.</p>
+</header>
+<div class="hm-ex">
+<div class="hm-wheel hm-rv">
+<span aria-hidden="true" class="hm-ring hm-ring-b"/>
+<span aria-hidden="true" class="hm-ring hm-ring-a"/>
+<span aria-hidden="true" class="hm-ring hm-ring-c"/>
+<span aria-hidden="true" class="hm-beam"/>
+<div aria-hidden="true" class="hm-core">
+<div class="hm-core-in"><span class="hm-core-n">I</span><span class="hm-core-l">Mind</span></div>
+</div>
+<div class="hm-orbit">
+<button class="hm-node o_no_wait_lazy_js" data-hm-core="Mind" data-hm-i="0" style="--a:0deg" type="button"><span class="hm-node-d"><i aria-hidden="true" class="fa-solid fa-brain"/></span><span class="hm-node-t"><b>I</b>The Tactical Mind</span></button>
+<button class="hm-node o_no_wait_lazy_js" data-hm-core="Body" data-hm-i="1" style="--a:90deg" type="button"><span class="hm-node-d"><i aria-hidden="true" class="fa-solid fa-person-running"/></span><span class="hm-node-t"><b>II</b>The Somatic Vessel</span></button>
+<button class="hm-node o_no_wait_lazy_js" data-hm-core="Subtle body" data-hm-i="2" style="--a:180deg" type="button"><span class="hm-node-d"><i aria-hidden="true" class="fa-solid fa-star"/></span><span class="hm-node-t"><b>III</b>The Energetic Matrix</span></button>
+<button class="hm-node o_no_wait_lazy_js" data-hm-core="Vision" data-hm-i="3" style="--a:270deg" type="button"><span class="hm-node-d"><i aria-hidden="true" class="fa-solid fa-eye"/></span><span class="hm-node-t"><b>IV</b>The Expressive Vision</span></button>
+</div>
+</div>
+<div class="hm-panels hm-rv">
+<div class="hm-pn-stack">
+
+<article class="hm-pn hm-is-cur" id="hm-pn-0">
+<span aria-hidden="true" class="hm-pn-num">I</span>
+<div class="hm-pn-top">
+<div class="hm-pn-ico"><i aria-hidden="true" class="fa-solid fa-brain"/></div>
+<div>
+<h3>I. The Tactical Mind</h3>
+<p class="hm-pn-sub"><em>Cognitive optimization for peak performance</em></p>
+</div>
+</div>
+<p class="hm-pn-body">Values and belief-system auditing, identifying and dismantling saboteurs, resilience planning aligned with your core values. You develop the cognitive clarity and strategic thinking of someone operating from wholeness — not survival. The goal is not just better thinking, but liberated thinking: free from the unconscious patterns that have been quietly constraining your decisions.</p>
+<ul class="hm-chips">
+<li style="--i:0">Neuroscience-Backed Coaching</li>
+<li style="--i:1">Values &amp; Beliefs</li>
+<li style="--i:2">Saboteurs</li>
+<li style="--i:3">Resilience Coaching</li>
+</ul>
+</article>
+
+<article class="hm-pn" id="hm-pn-1">
+<span aria-hidden="true" class="hm-pn-num">II</span>
+<div class="hm-pn-top">
+<div class="hm-pn-ico"><i aria-hidden="true" class="fa-solid fa-person-running"/></div>
+<div>
+<h3>II. The Somatic Vessel</h3>
+<p class="hm-pn-sub"><em>Releasing corporate trauma from the nervous system</em></p>
+</div>
+</div>
+<p class="hm-pn-body">Stress and tension stored in the body directly compromise cognitive capacity, emotional regulation and decision-making. Years of high-stakes performance leave a physiological imprint. This pillar physically discharges accumulated corporate stress through evidence-based somatic practices — increasing physiological and cognitive capacity, command and presence in ways that no amount of mindset work can replicate.</p>
+<ul class="hm-chips">
+<li style="--i:0">TRE™</li>
+<li style="--i:1">Breathwork</li>
+<li style="--i:2">Somatic Coaching</li>
+<li style="--i:3">EFT</li>
+<li style="--i:4">TFT</li>
+<li style="--i:5">EFT Energy</li>
+</ul>
+</article>
+
+<article class="hm-pn" id="hm-pn-2">
+<span aria-hidden="true" class="hm-pn-num">III</span>
+<div class="hm-pn-top">
+<div class="hm-pn-ico"><i aria-hidden="true" class="fa-solid fa-star"/></div>
+<div>
+<h3>III. The Energetic Matrix</h3>
+<p class="hm-pn-sub"><em>Clearing subconscious blocks at the root</em></p>
+</div>
+</div>
+<p class="hm-pn-body">Subtle-body work that clears energetic blocks, ancestral baggage and deep-rooted burnout patterns that cognitive and somatic work alone cannot reach. Some of what limits a leader is not held in the mind or even the body — it operates at a deeper frequency. This pillar addresses those roots directly. You emerge lighter, more aligned and operating from your highest potential — often with a sense of space and ease that surprises even the most sceptical clients.</p>
+<ul class="hm-chips">
+<li style="--i:0">Reiki</li>
+<li style="--i:1">Somatic Bodywork</li>
+<li style="--i:2">Core Shamanism</li>
+</ul>
+</article>
+
+<article class="hm-pn" id="hm-pn-3">
+<span aria-hidden="true" class="hm-pn-num">IV</span>
+<div class="hm-pn-top">
+<div class="hm-pn-ico"><i aria-hidden="true" class="fa-solid fa-eye"/></div>
+<div>
+<h3>IV. The Expressive Vision</h3>
+<p class="hm-pn-sub"><em>Accessing intuition and legacy vision</em></p>
+</div>
+</div>
+<p class="hm-pn-body">Activating the right hemisphere of the brain for creative problem-solving, intuitive leadership and legacy vision-casting. The most consequential leadership decisions — the pivots, the courageous acts, the bold bets — rarely come from analysis alone. This pillar moves you beyond the strategic mind into the visionary self that already knows the way, and gives you the tools to access that intelligence reliably.</p>
+<ul class="hm-chips">
+<li style="--i:0">Mindfulness</li>
+<li style="--i:1">NLP</li>
+<li style="--i:2">Art-Based Coaching</li>
+</ul>
+</article>
+</div>
+<div class="hm-pn-nav">
+<button aria-label="Previous pillar" class="hm-pn-btn o_no_wait_lazy_js" data-hm-step="-1" type="button"><i aria-hidden="true" class="fa-solid fa-arrow-left"/></button>
+<span aria-live="polite" class="hm-pn-count"><b class="hm-pn-cur">01</b> / 04</span>
+<span aria-hidden="true" class="hm-pn-prog"><span/></span>
+<button aria-label="Next pillar" class="hm-pn-btn o_no_wait_lazy_js" data-hm-step="1" type="button"><i aria-hidden="true" class="fa-solid fa-arrow-right"/></button>
+</div>
+</div>
+</div>
+</div>
+</section><section class="section-white hm hm-flow">
+<div class="hm-wrap">
+<header class="hm-head hm-rv">
+<span class="hm-eyebrow">How We Work Together</span>
+<h2 class="hm-title">Your Journey Through the Ecosystem</h2>
+<p class="hm-lede">Each engagement is bespoke. The steps below describe the arc of the work — the pace and sequencing are always tailored to you.</p>
+</header>
+<div class="hm-path">
+<div aria-hidden="true" class="hm-rail"><span class="hm-rail-fill"/><span class="hm-rail-bead"/></div>
+<ol class="hm-steps">
+<li class="hm-st">
+<span aria-hidden="true" class="hm-st-node">1</span>
+<div class="hm-st-card hm-rv hm-rv-l">
+<span class="hm-st-k"><i aria-hidden="true" class="fa-solid fa-compass"/> Step 1</span>
+<h3>Discovery</h3>
+<p>A free 30-minute consultation to map your current situation, identify where you are carrying the most load, and determine the highest-leverage pillar to begin with. This is not a sales call — it is a genuine diagnostic conversation. We design your bespoke programme together, based on where you are right now.</p>
+</div>
+</li>
+<li class="hm-st">
+<span aria-hidden="true" class="hm-st-node">2</span>
+<div class="hm-st-card hm-rv hm-rv-r">
+<span class="hm-st-k"><i aria-hidden="true" class="fa-solid fa-seedling"/> Step 2</span>
+<h3>Foundation Work</h3>
+<p>We begin with the pillar most immediately relevant to your current situation — often The Tactical Mind or The Somatic Vessel — to establish the physiological and cognitive baseline that makes deeper work possible. Most clients notice meaningful shifts within the first few sessions.</p>
+</div>
+</li>
+<li class="hm-st">
+<span aria-hidden="true" class="hm-st-node">3</span>
+<div class="hm-st-card hm-rv hm-rv-l">
+<span class="hm-st-k"><i aria-hidden="true" class="fa-solid fa-circle-nodes"/> Step 3</span>
+<h3>Pillar Integration</h3>
+<p>As the foundation stabilises, we introduce additional pillars at the right pace. Each builds on the last. The system compounds: somatic work deepens once the mind is clearer; energetic work lands more fully once the body is regulated. The integration phase is where most clients experience the greatest acceleration.</p>
+</div>
+</li>
+<li class="hm-st">
+<span aria-hidden="true" class="hm-st-node">4</span>
+<div class="hm-st-card hm-rv hm-rv-r">
+<span class="hm-st-k"><i aria-hidden="true" class="fa-solid fa-infinity"/> Step 4</span>
+<h3>Sustained Transformation</h3>
+<p>Ongoing support for leaders committed to sustaining peak performance across every dimension. Many clients engage across all four pillars over 12–18 months, returning to the ecosystem at pivotal career moments — transitions, expansions, periods of high intensity or deep renewal.</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</section><section class="section-cream hm hm-guide">
+<div class="hm-wrap hm-guide-grid">
+<figure class="hm-guide-media hm-rv hm-rv-r" data-hm-tilt="">
+<div class="hm-guide-frame">
+<img alt="Isabelle Claus Teixeira — rare range of credentials across all four pillars" decoding="async" loading="lazy" src="/hb/images/isabelle-her-story.jpg"/>
+</div>
+</figure>
+<div class="hm-guide-text">
+<span class="hm-eyebrow hm-rv">The Right Guide</span>
+<h2 class="hm-title hm-rv">An Ecosystem That Requires a Rare Range</h2>
+<div aria-hidden="true" class="hm-rule hm-rv"/>
+<p class="hm-rv">Very few practitioners can credibly hold all four pillars. Each demands deep specialist training, supervised practice and lived fluency — not a weekend certification. Isabelle holds credentials spanning executive coaching (ICF PCC), somatic bodywork (Strozzi Institute), TRE™ (Global Certifying Trainer), Reiki (Usui/Holy Fire III Master Teacher), breathwork, NLP, mindfulness and core shamanism.</p>
+<p class="hm-rv">This breadth is not accidental — it is the result of 25+ years of disciplined study, practice and client work across nine countries and forty nationalities. It is what makes the ecosystem coherent, and why the four pillars function as an integrated system rather than a loose collection of modalities.</p>
+<ul aria-hidden="true" class="hm-stats hm-rv">
+<li class="hm-stat"><span class="hm-stat-n" data-hm-count="25" data-hm-suffix="+">25+</span><span class="hm-stat-l">Years of study &amp; practice</span></li>
+<li class="hm-stat" style="--d:150ms"><span class="hm-stat-n" data-hm-count="9">9</span><span class="hm-stat-l">Countries</span></li>
+<li class="hm-stat" style="--d:300ms"><span class="hm-stat-n" data-hm-count="40">40</span><span class="hm-stat-l">Nationalities</span></li>
+</ul>
+<ul class="hm-creds">
+<li class="hm-cred hm-rv"><i class="fa-solid fa-check"/> ICF PCC Level Certified Executive Coach</li>
+<li class="hm-cred hm-rv"><i class="fa-solid fa-check"/> Global TRE™ Certifying Trainer &amp; Provider</li>
+<li class="hm-cred hm-rv"><i class="fa-solid fa-check"/> Strozzi Somatic Bodywork Practitioner</li>
+<li class="hm-cred hm-rv"><i class="fa-solid fa-check"/> Certified Accredited Usui/Holy Fire III Reiki Healer</li>
+<li class="hm-cred hm-rv"><i class="fa-solid fa-check"/> Breathwork Facilitator</li>
+<li class="hm-cred hm-rv"><i class="fa-solid fa-check"/> NLP &amp; Mindfulness Teacher</li>
+</ul>
+<a class="hb-btn btn-outline" href="/isabelle" style="margin-top:1.5rem">Read Isabelle's Full Story</a>
+</div>
+</div>
+</section><section class="cta-banner hm hm-cta">
+<div class="cta-banner-inner hm-cta-panel">
+<div aria-hidden="true" class="hm-cta-fx">
+<span class="hm-cta-glow"/>
+<span class="hm-cta-ring" style="--s:340px"/>
+<span class="hm-cta-ring" style="--s:620px"/>
+<span class="hm-cta-ring hm-cta-pulse" style="--s:900px"/>
+<span class="hm-cta-ring hm-cta-pulse" style="--s:900px"/>
+<span class="hm-cta-orb" style="--s:620px"><span style="--a:0deg"/><span style="--a:90deg"/><span style="--a:180deg"/><span style="--a:270deg"/></span>
+</div>
+<ul aria-hidden="true" class="hm-cta-pips">
+<li style="--i:0"><i class="fa-solid fa-brain"/></li>
+<li style="--i:1"><i class="fa-solid fa-person-running"/></li>
+<li style="--i:2"><i class="fa-solid fa-star"/></li>
+<li style="--i:3"><i class="fa-solid fa-eye"/></li>
+</ul>
+<h2>Ready to Work at <em>Every Level?</em></h2>
+<p>Book a free discovery call to explore which pillar is the right place to start — and how the full ecosystem can serve your transformation.</p>
+<a class="hb-btn hb-btn-primary" href="/book">Book a Free Discovery Call</a>
+</div>
+</section><script src="/hb/pages/holistic-mastermind.js?v=1" defer="defer"/></div></t></t>

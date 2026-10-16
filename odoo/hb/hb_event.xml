@@ -1,0 +1,131 @@
+<data>
+<xpath expr="//t[@t-call='website_event.event_details']" position="replace">
+<t t-call="website_event.event_details">
+<div class="hbx xev-flush xev-page" id="xev-root">
+<t t-set="x_tags" t-value="event.tag_ids.mapped('name')"/>
+<t t-set="x_past" t-value="event.is_finished"/>
+<t t-set="x_sold" t-value="(not x_past) and (('Sold out' in x_tags) or event.event_registrations_sold_out)"/>
+<t t-set="x_partner" t-value="('Partner registration' in x_tags) and event.sudo().organizer_id.website or False"/>
+<t t-set="x_partner_name" t-value="event.sudo().organizer_id.name or 'our partner'"/>
+<t t-set="x_open" t-value="(not x_past) and (not x_sold) and (not x_partner) and event.event_registrations_open"/>
+<t t-set="x_online" t-value="not event.address_id"/>
+<t t-set="x_country" t-value="event.sudo().address_id.country_id.name or ''"/>
+<t t-set="x_city" t-value="event.sudo().address_id.city or ''"/>
+<t t-set="x_loc" t-value="'Online' if x_online else (x_country or x_city)"/>
+<t t-set="x_label" t-value="(event.tag_ids.filtered(lambda t: t.category_id.name == 'Card label')[:1].name) or ''"/>
+<t t-set="x_type" t-value="(event.tag_ids.filtered(lambda t: t.category_id.name == 'Type')[:1].name) or 'Event'"/>
+<t t-set="x_tickets" t-value="event.event_ticket_ids.filtered(lambda t: t.sale_available)"/>
+<t t-set="x_prices" t-value="sorted(x_tickets.mapped('price'))"/>
+<t t-set="x_fmt" t-value="lambda p: 'S$' + ('{:,.0f}'.format(p) if p == int(p) else '{:,.2f}'.format(p))"/>
+<t t-set="x_price" t-value="('Free' if not x_prices[-1] else (x_fmt(x_prices[0]) if x_prices[0] == x_prices[-1] else 'From ' + x_fmt(x_prices[0]))) if x_prices else ('Free' if x_open and not event.event_ticket_ids else '')"/>
+<t t-set="x_left" t-value="event.seats_available if (event.seats_limited and event.seats_max) else None"/>
+<t t-set="x_url" t-value="'/event/%s/register' % slug(event)"/>
+<t t-set="x_bg" t-value="json.loads(event.cover_properties or '{}').get('background-image') or ''"/>
+<t t-set="x_img" t-value="x_bg.split('(')[-1].split(')')[0].replace(&quot;'&quot;, '').replace('&quot;', '') if 'url(' in x_bg else '/hb/poster-events.webp'"/>
+<t t-set="x_tz" t-value="event.date_tz or 'Asia/Singapore'"/>
+<t t-set="x_tzl" t-value="{'Asia/Singapore': 'SGT', 'Europe/Bucharest': 'Bucharest time', 'Asia/Tokyo': 'JST', 'Europe/London': 'UK time'}.get(x_tz, '')"/>
+<t t-set="x_tzlong" t-value="{'Asia/Singapore': 'Singapore time', 'Europe/Bucharest': 'Bucharest time', 'Asia/Tokyo': 'Japan time', 'Europe/London': 'UK time'}.get(x_tz, x_tz)"/>
+<t t-set="x_start" t-value="event.date_begin.strftime('%Y-%m-%d')"/>
+<t t-set="x_end" t-value="event.date_end.strftime('%Y-%m-%d')"/>
+<t t-set="x_iso" t-value="event.date_begin.strftime('%Y-%m-%dT%H:%M:%SZ')"/>
+<t t-set="x_samemonth" t-value="event.date_begin.month == event.date_end.month and event.date_begin.year == event.date_end.year"/>
+<t t-set="x_sameyear" t-value="event.date_begin.year == event.date_end.year"/>
+
+<t t-set="xev_list" t-value="env['event.event'].search(website.website_domain() + [('website_published', '=', True), ('id', '!=', event.id), '!', ('tag_ids.name', '=', 'Sold out'), ('date_end', '&gt;=', datetime.datetime.utcnow())], order='date_begin asc').filtered(lambda e: not e.event_registrations_sold_out)[:3]"/>
+<i id="xev-page" t-att-data-page="slug(event)" hidden="hidden"/>
+<section class="ce-hero">
+  <div class="ce-bg" t-attf-style="background-image:url('#{x_img}')"/>
+  <div class="ce-hero-inner"><div>
+    <p class="ce-crumbs"><a href="/event">Events</a> › <t t-out="('Online ' if x_online else '') + x_type.lower()"/></p>
+    <div class="ce-badges">
+      <span class="ce-badge cat" t-out="'Live Online' if x_online else x_loc"/>
+      <span t-if="x_label" class="ce-badge" t-out="x_label"/>
+      <span class="ce-badge"><t t-if="event.is_one_day"><t t-out="event.date_begin" t-options="{'widget': 'datetime', 'tz_name': x_tz, 'format': 'd MMM y'}"/> · <t t-out="event.date_begin" t-options="{'widget': 'datetime', 'tz_name': x_tz, 'format': 'h:mm'}"/>–<t t-out="event.date_end" t-options="{'widget': 'datetime', 'tz_name': x_tz, 'format': 'h:mm a'}"/><t t-if="x_online and x_tzl"> <t t-out="x_tzl"/></t></t><t t-elif="x_samemonth"><t t-out="event.date_begin" t-options="{'widget': 'datetime', 'tz_name': x_tz, 'format': 'd'}"/>–<t t-out="event.date_end" t-options="{'widget': 'datetime', 'tz_name': x_tz, 'format': 'd MMM y'}"/></t><t t-else=""><t t-out="event.date_begin" t-options="{'widget': 'datetime', 'tz_name': x_tz, 'format': 'd MMM' if x_sameyear else 'd MMM y'}"/> – <t t-out="event.date_end" t-options="{'widget': 'datetime', 'tz_name': x_tz, 'format': 'd MMM y'}"/></t></span>
+      <span t-if="x_price and not x_sold and not x_past" class="ce-badge" t-out="x_price"/>
+      <span t-if="x_left is not None and x_open" class="ce-badge xev-seats-badge"><t t-out="x_left"/> <t t-out="'seat' if x_left == 1 else 'seats'"/> left</span>
+      <span t-if="x_sold" class="ce-badge">Sold out</span>
+      <span t-if="x_past" class="ce-badge">Event ended</span>
+    </div>
+    <h1 t-field="event.name"/>
+    <p class="ce-lead" t-field="event.subtitle"/>
+    <div class="ce-hero-actions">
+      <a t-if="x_open" class="hb-btn hb-btn-primary" href="#reserve" data-xev-register="1">Register<t t-if="x_price and x_price != 'Free' and not x_price.startswith('From')"> — <t t-out="x_price"/></t></a>
+      <span t-elif="x_sold" class="hb-btn btn-soldout">Sold Out</span>
+      <a t-elif="x_partner and not x_past" class="hb-btn hb-btn-primary" t-att-href="x_partner" target="_blank" rel="noopener">Register at <t t-out="x_partner_name"/> →</a>
+      <a class="hb-btn btn-outline" href="#reserve">Details &amp; questions</a>
+    </div>
+  </div></div>
+</section>
+<div class="ce-facts"><div class="ce-facts-grid">
+  <div class="ce-fact"><i class="fa-regular fa-calendar"/><div><b>Date</b><span><t t-if="event.is_one_day"><t t-out="event.date_begin" t-options="{'widget': 'datetime', 'tz_name': x_tz, 'format': 'EEEE, d MMMM y'}"/></t><t t-elif="x_samemonth"><t t-out="event.date_begin" t-options="{'widget': 'datetime', 'tz_name': x_tz, 'format': 'd'}"/>–<t t-out="event.date_end" t-options="{'widget': 'datetime', 'tz_name': x_tz, 'format': 'd MMMM y'}"/></t><t t-else=""><t t-out="event.date_begin" t-options="{'widget': 'datetime', 'tz_name': x_tz, 'format': 'd MMMM' if x_sameyear else 'd MMMM y'}"/> – <t t-out="event.date_end" t-options="{'widget': 'datetime', 'tz_name': x_tz, 'format': 'd MMMM y'}"/></t></span></div></div>
+  <div class="ce-fact"><i class="fa-regular fa-clock"/><div><b>Time</b><span><t t-if="event.is_one_day"><t t-out="event.date_begin" t-options="{'widget': 'datetime', 'tz_name': x_tz, 'format': 'h:mm'}"/>–<t t-out="event.date_end" t-options="{'widget': 'datetime', 'tz_name': x_tz, 'format': 'h:mm a'}"/></t><t t-else=""><t t-out="event.date_begin" t-options="{'widget': 'datetime', 'tz_name': x_tz, 'format': 'h:mm a'}"/> – <t t-out="event.date_end" t-options="{'widget': 'datetime', 'tz_name': x_tz, 'format': 'h:mm a'}"/></t> <t t-out="x_tzlong"/></span></div></div>
+  <div class="ce-fact"><i t-att-class="'fa-solid fa-video' if x_online else 'fa-solid fa-location-dot'"/><div><b>Format</b><span><t t-if="x_online">Live online (Zoom)</t><t t-else="">In person · <t t-out="event.sudo().address_id.name if event.sudo().address_id.name and event.sudo().address_id.name != x_city else x_city"/><t t-if="x_city and event.sudo().address_id.name and event.sudo().address_id.name != x_city">, <t t-out="x_city"/></t></t></span></div></div>
+  <div class="ce-fact"><i class="fa-solid fa-tag"/><div><b>Investment</b><span><t t-if="x_past">Event ended</t><t t-elif="x_sold">Sold out</t><t t-elif="x_price" t-out="x_price"/><t t-elif="x_partner">Via <t t-out="x_partner_name"/></t><t t-else="">Registration closed</t></span></div></div>
+</div></div>
+<div class="ce-layout">
+  <div class="ce-main">
+    <figure class="ce-poster"><img t-att-src="x_img" t-att-alt="event.name" width="1920" height="1080" decoding="async"/></figure>
+    <div class="xev-desc" t-field="event.description"/>
+  </div>
+  <aside class="ce-side" id="reserve">
+    <div class="ce-box xev-reg">
+      <h3>Register for the <t t-out="x_type.lower() if x_type != 'Event' else 'event'"/></h3>
+      <p class="sub"><t t-if="event.is_one_day"><t t-out="event.date_begin" t-options="{'widget': 'datetime', 'tz_name': x_tz, 'format': 'EEEE, d MMMM y'}"/></t><t t-elif="x_samemonth"><t t-out="event.date_begin" t-options="{'widget': 'datetime', 'tz_name': x_tz, 'format': 'd'}"/>–<t t-out="event.date_end" t-options="{'widget': 'datetime', 'tz_name': x_tz, 'format': 'd MMMM y'}"/></t><t t-else=""><t t-out="event.date_begin" t-options="{'widget': 'datetime', 'tz_name': x_tz, 'format': 'd MMMM' if x_sameyear else 'd MMMM y'}"/> – <t t-out="event.date_end" t-options="{'widget': 'datetime', 'tz_name': x_tz, 'format': 'd MMMM y'}"/></t><t t-if="event.is_one_day">, <t t-out="event.date_begin" t-options="{'widget': 'datetime', 'tz_name': x_tz, 'format': 'h:mm'}"/>–<t t-out="event.date_end" t-options="{'widget': 'datetime', 'tz_name': x_tz, 'format': 'h:mm a'}"/> <t t-out="x_tzlong"/></t>. <t t-if="x_online">Live on Zoom; the link is shared with registered participants.</t><t t-else=""><t t-if="x_online">Live online (Zoom)</t><t t-else="">In person · <t t-out="event.sudo().address_id.name if event.sudo().address_id.name and event.sudo().address_id.name != x_city else x_city"/><t t-if="x_city and event.sudo().address_id.name and event.sudo().address_id.name != x_city">, <t t-out="x_city"/></t></t>.</t></p>
+      <div t-if="event.event_ticket_ids" class="ce-tiers xev-tiers">
+        <t t-foreach="event.event_ticket_ids" t-as="tk">
+          <div class="xev-tier"><span><t t-out="tk.name"/><small t-if="tk.description" t-out="tk.description"/><small t-if="tk.end_sale_datetime and tk.sale_available">Until <t t-out="tk.end_sale_datetime" t-options="{'widget': 'datetime', 'tz_name': x_tz, 'format': 'd MMM y'}"/></small><small t-if="tk.seats_limited and tk.seats_max and tk.sale_available"><t t-out="tk.seats_available"/> left at this price</small></span>
+          <strong><t t-if="x_past">Closed</t><t t-elif="tk.is_sold_out or x_sold">Sold out</t><t t-elif="tk.is_expired">Closed</t><t t-elif="not tk.sale_available and tk.start_sale_datetime"><t t-out="x_fmt(tk.price) if tk.price else 'Free'"/> <small class="xev-from">from <t t-out="tk.start_sale_datetime" t-options="{'widget': 'datetime', 'tz_name': x_tz, 'format': 'd MMM y'}"/></small></t><t t-else="" t-out="x_fmt(tk.price) if tk.price else 'Free'"/></strong></div>
+        </t>
+      </div>
+      <div t-if="x_left is not None and x_open" class="xev-seatbar"><div class="xev-seatbar-txt"><b t-out="x_left"/> of <t t-out="event.seats_max"/> seats left</div><div class="xev-seatbar-track"><i t-attf-style="width:#{int(100 * (event.seats_max - x_left) / event.seats_max) if event.seats_max else 0}%"/></div></div>
+      <button t-if="x_open" type="button" class="hb-btn hb-btn-primary xev-open-reg" data-bs-toggle="modal" data-bs-target="#modal_ticket_registration">Register<t t-if="x_price and x_price != 'Free' and not x_price.startswith('From')"> — <t t-out="x_price"/></t></button>
+      <p t-elif="x_sold" class="fine"><b>Sold out.</b> Email <a t-att-href="'mailto:bonjour@bhdasia.com?subject=Waitlist%20-%20' + event.name">bonjour@bhdasia.com</a> to join the waitlist.</p>
+      <p t-elif="x_past" class="fine">This event has ended. See <a href="/event">upcoming events</a>.</p>
+      <t t-elif="x_partner"><a class="hb-btn hb-btn-primary" t-att-href="x_partner" target="_blank" rel="noopener">Register at <t t-out="x_partner_name"/> →</a><p class="fine">Registration and payment for this session are handled by <t t-out="x_partner_name"/>.</p></t>
+      <p t-else="" class="fine">Registration is not open yet. Email <a href="mailto:bonjour@bhdasia.com">bonjour@bhdasia.com</a> for details.</p>
+      <p t-if="x_open" class="fine">Secure checkout. Your confirmation and receipt arrive by email.</p>
+    </div>
+    <div class="ce-box xev-enquiry">
+      <h3>Ask a question</h3>
+      <p class="sub">Leave your details and Isabelle will get back to you.</p>
+      <form class="s_website_form evtl-form" action="/website/form/" method="post" enctype="multipart/form-data" data-model_name="crm.lead" data-success-mode="message">
+        <input type="hidden" class="s_website_form_input" name="name" t-att-value="'Event enquiry: ' + event.name"/><input type="hidden" class="s_website_form_input" name="event_id" t-att-value="event.id"/>
+        <div class="evtl-field s_website_form_field s_website_form_required" data-type="char"><label class="s_website_form_label" for="xev-q-name">Full name</label><input id="xev-q-name" type="text" class="s_website_form_input" name="contact_name" required="required" autocomplete="name"/></div>
+        <div class="evtl-field s_website_form_field s_website_form_required" data-type="email"><label class="s_website_form_label" for="xev-q-email">Email</label><input id="xev-q-email" type="email" class="s_website_form_input" name="email_from" required="required" autocomplete="email" placeholder="your@email.com"/></div>
+        <div class="evtl-field s_website_form_field" data-type="char"><label class="s_website_form_label" for="xev-q-phone">Phone / WhatsApp (optional)</label><input id="xev-q-phone" type="tel" class="s_website_form_input" name="phone" autocomplete="tel"/></div>
+        <div class="evtl-field s_website_form_field" data-type="text"><label class="s_website_form_label" for="xev-q-msg">Your question</label><textarea id="xev-q-msg" class="s_website_form_input" name="description" rows="3"/></div>
+        <div class="s_website_form_submit"><button type="submit" class="hb-btn hb-btn-primary s_website_form_send">Send enquiry →</button><span id="s_website_form_result"/></div>
+      </form>
+      <div class="s_website_form_end_message d-none"><p class="xev-thanks"><i class="fa-solid fa-circle-check"/> Thank you — your enquiry is in. Isabelle will get back to you shortly.</p></div>
+    </div>
+    <div class="ce-box ce-qa">
+      <h3>Questions?</h3>
+      <p>Ask before the event rather than on the day — we’re glad to help.</p>
+      <p><a href="mailto:bonjour@bhdasia.com">bonjour@bhdasia.com</a><br/><a href="https://wa.me/818065151778" rel="noopener" target="_blank">WhatsApp +81 80 6515 1778</a></p>
+    </div>
+  </aside>
+</div>
+<section t-if="x_online and not x_past" class="ce-prep-section">
+  <div class="ce-prep" id="prepare">
+    <h2>This is a live online session on Zoom</h2>
+    <p>Join from a quiet, private space with a stable connection. Your Zoom link arrives after registration.</p>
+    <ul class="ce-list ce-prep-list">
+      <li>A quiet space with a stable internet connection</li>
+      <li>The Zoom app installed, joined a few minutes early</li>
+      <li>Comfortable clothing and a notebook beside you</li>
+    </ul>
+    <div class="btn-row"><a t-if="x_open" class="hb-btn hb-btn-primary" href="#reserve" data-xev-register="1">Register<t t-if="x_price and x_price != 'Free' and not x_price.startswith('From')"> — <t t-out="x_price"/></t></a><a class="hb-btn btn-outline" href="https://hummingbeing.com/online-session-preparation">Preparation guide</a></div>
+  </div>
+</section>
+<section t-if="xev_list" class="ce-related">
+  <div class="ce-related-inner">
+    <h2>Other upcoming events</h2>
+    <div class="ce-rel-grid">
+      <t t-call="hbx.rel_list"/>
+    </div>
+  </div>
+</section>
+</div>
+</t>
+</xpath>
+</data>
