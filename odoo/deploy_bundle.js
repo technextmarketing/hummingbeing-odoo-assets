@@ -5,6 +5,9 @@
 window.XD = async function (base, opts) {
   opts = opts || {};
   const DRY = !!opts.dry, log = window.XDLOG = [], L = (...a) => log.push(a.join(' '));
+  /* 2026-10-16: Odoo is now the master copy of these three sites (edits are made in Odoo). A bundle built from
+     the old static sites would overwrite them, so writing needs an explicit {overwrite_odoo: true}. */
+  if (!DRY && !opts.overwrite_odoo) throw new Error('Refused: Odoo is the master copy of these sites. Re-import only on an explicit request, with {overwrite_odoo: true}.');
   const ck = (m, meth, args, kw) => fetch('/web/dataset/call_kw', {method: 'POST', headers: {'Content-Type': 'application/json'},
     body: JSON.stringify({jsonrpc: '2.0', method: 'call', params: {model: m, method: meth, args: args || [], kwargs: kw || {}}})})
     .then(r => r.json()).then(j => { if (j.error) throw new Error(m + '.' + meth + ': ' + ((j.error.data || {}).message || JSON.stringify(j.error))); return j.result; });
