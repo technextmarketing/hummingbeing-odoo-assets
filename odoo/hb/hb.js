@@ -1413,6 +1413,19 @@ document.addEventListener('DOMContentLoaded', function() {
     var keep=function(){ hbNav.classList.add('scrolled'); };
     keep(); window.addEventListener('scroll',keep,{passive:true});
   }
+  /* sticky register bars the site scripts append to <body> sit outside the scoped site wrapper (and so lost the
+     site's look: transparent button, Odoo's purple text): move each one into a scoped holder as it appears */
+  (function(){
+    var sc=document.querySelector('header#top.hbx')?'hbx':(document.querySelector('header#top.bhdx')?'bhdx':'');
+    if(!sc) return;
+    function adopt(){
+      document.querySelectorAll('body > .ce-bar, body > .ev-bar').forEach(function(b){
+        var h=document.createElement('div'); h.className=sc+' xev-bar-host';
+        b.parentNode.insertBefore(h,b); h.appendChild(b);
+      });
+    }
+    adopt(); new MutationObserver(adopt).observe(document.body,{childList:true});
+  })();
   if(/register-now/.test(location.hash)){
     /* keep trying until Odoo's ticket window is really open (its scripts load lazily) */
     var tries=0,t=setInterval(function(){

@@ -10,6 +10,13 @@
    "sha1": "2c991a73e50d430a24c705b2d48317ab948c12ab",
    "mimetype": "text/css",
    "size": 150391
+  },
+  {
+   "url": "/bhd/bhd.js",
+   "src": "bhd.js",
+   "sha1": "36dbebbc8f4c9e68581bb745f54bbc6468632e8d",
+   "mimetype": "application/javascript",
+   "size": 90915
   }
  ],
  "pages": [],
