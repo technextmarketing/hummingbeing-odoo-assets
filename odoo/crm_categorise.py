@@ -83,6 +83,8 @@ for lead in records:
         if not hit:
             add.append(I_WORK if (lead.event_id or reg) else I_OTHER)
     vals = {}
+    if lead.contact_name and lead.contact_name not in (lead.name or ''):
+        vals['name'] = (lead.name or 'Website enquiry') + ' — ' + lead.contact_name   # 'Topic — Person' on every site
     new = [t for t in add if t not in tags]
     if new:
         vals['tag_ids'] = [(4, t) for t in new]
