@@ -2,7 +2,7 @@
 /* 2026-10-16 TRE event pages: Odoo's stock event template restyled to the TRE design
    (dark photo hero + white title, TRE type, card sidebar, styled description blocks). Website 3 only. */
 #wrap.o_wevent_event{--navy:#1c3d7a;--navy-deep:#132b56;--navy-ink:#0f1f3d;--blue-tint:#f4f7fc;--blue-soft:#e7eef8;--orange:#e08a2e;--orange-deep:#c4741d;--gold:#c9a45c;--cream:#faf6ef;--ink:#1b2536;--ink-2:#3a4657;--muted:#5f6b7d;--line:#e4dfd6;--fd:"Plus Jakarta Sans","Plus Jakarta Sans Fallback",Inter,system-ui,sans-serif;--fb:Inter,"Inter Fallback",system-ui,-apple-system,"Segoe UI",sans-serif;font-family:var(--fb);color:var(--ink);background:#fff}
-#o_wevent_event_main > .container{max-width:1180px;padding-top:12px}
+#o_wevent_event_main > .container{max-width:1180px;padding-top:12px;overflow:clip !important}
 #o_wevent_event_main :is(h1,h2,h3,h4,h5,h6){font-family:var(--fd);color:var(--navy);letter-spacing:-.015em}
 #o_wevent_event_main a:not(.btn){color:var(--navy);text-underline-offset:3px}
 #o_wevent_event_main a:not(.btn):hover{color:var(--navy-ink)}
@@ -13,8 +13,8 @@
 
 /* hero: photo cover with a navy wash, white title */
 #o_wevent_event_main .o_record_cover_container{min-height:380px;border-radius:20px;overflow:hidden;box-shadow:0 2px 6px rgba(19,43,86,.07),0 18px 44px rgba(19,43,86,.13);margin-top:6px}
-#o_wevent_event_main .o_record_cover_image{background-position:center 30% !important}
-#o_wevent_event_main .o_record_cover_filter{opacity:1 !important;background:linear-gradient(180deg,rgba(15,31,61,.28) 0%,rgba(15,31,61,.72) 55%,rgba(15,31,61,.94) 100%) !important}
+#o_wevent_event_main .o_record_cover_image{background-position:center 30% !important;filter:blur(3px) saturate(.85);transform:scale(1.04)}
+#o_wevent_event_main .o_record_cover_filter{opacity:1 !important;background:linear-gradient(180deg,rgba(15,31,61,.62) 0%,rgba(15,31,61,.86) 45%,rgba(15,31,61,.96) 100%) !important}
 #o_wevent_event_main_cover_content{padding:40px 44px 40px !important;position:relative}
 #o_wevent_event_main_cover_content h1{color:#fff !important;font-size:clamp(2rem,3.6vw,3.1rem);font-weight:700;line-height:1.08;letter-spacing:-.025em;margin:0 0 14px !important;text-shadow:0 2px 20px rgba(0,0,0,.25)}
 #o_wevent_event_main_cover_content .lead{color:#dbe3f1 !important;font-size:1.06rem;line-height:1.65;max-width:62ch;margin:0}
