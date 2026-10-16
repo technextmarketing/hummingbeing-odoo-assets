@@ -12,11 +12,11 @@
 <t t-set="d_e"><t t-out="event.date_end" t-options="{'widget': 'datetime', 'tz_name': event.date_tz, 'format': 'yyyyMMdd'}"/></t>
 <t t-set="a_b"><t t-out="event.date_begin" t-options="{'widget': 'datetime', 'tz_name': event.date_tz, 'format': 'a'}"/></t>
 <t t-set="a_e"><t t-out="event.date_end" t-options="{'widget': 'datetime', 'tz_name': event.date_tz, 'format': 'a'}"/></t>
-<t t-set="multi" t-value="d_b != d_e"/>
+<t t-set="multi" t-value="not event.is_one_day"/>
 <t t-set="online" t-value="not event.address_id"/>
 <t t-set="tz_single" t-value="'SGT' if event.date_tz == 'Asia/Singapore' else ('Bucharest time' if event.date_tz == 'Europe/Bucharest' else event.date_tz)"/>
 <t t-set="tz_multi" t-value="'Singapore time (SGT, UTC+8)' if event.date_tz == 'Asia/Singapore' else ('Bucharest time' if event.date_tz == 'Europe/Bucharest' else event.date_tz)"/>
-<t t-set="where_txt" t-value="'Online (Zoom)' if online else ((event.address_id.name or event.address_id.display_name) + ((', ' + event.address_id.city) if event.address_id.city and event.address_id.city != event.address_id.name else ''))"/>
+<t t-set="where_txt" t-value="'Online (Zoom)' if online else ((event.address_id.name or event.address_id.display_name) + ((', ' + event.address_id.city) if event.address_id.city and event.address_id.city not in (event.address_id.name or '') else ''))"/>
 <t t-set="ttype" t-value="attendee.event_ticket_id.name or 'Registration'"/>
 <t t-set="ticket_no" t-value="'#%04d' % attendee.id"/>
 <t t-set="ord_tkt" t-value="((so.name + ' · ') if so else '') + ticket_no"/>
@@ -27,6 +27,11 @@
 <t t-set="time_html"><t t-if="multi"><t t-out="tz_multi"/></t><t t-else=""><span class="lc"><t t-if="a_b == a_e"><t t-out="event.date_begin" t-options="{'widget': 'datetime', 'tz_name': event.date_tz, 'format': 'h:mm'}"/></t><t t-else=""><t t-out="event.date_begin" t-options="{'widget': 'datetime', 'tz_name': event.date_tz, 'format': 'h:mm a'}"/></t>–<t t-out="event.date_end" t-options="{'widget': 'datetime', 'tz_name': event.date_tz, 'format': 'h:mm a'}"/></span> <t t-out="tz_single"/></t></t>
 <div t-attf-class="bq bq-#{brand}">
 <style>
+body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !important; margin:0 !important; max-width:none !important; width:auto !important; }
+.bq table, .bq thead, .bq tbody, .bq tfoot, .bq tr, .bq th, .bq td { border-style:none; border-width:0; }
+
+body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !important; margin:0 !important; max-width:none !important; width:auto !important; }
+.bq table, .bq thead, .bq tbody, .bq tfoot, .bq tr, .bq th, .bq td { border-style:none; border-width:0; }
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@600;700');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600');
@@ -613,6 +618,11 @@
 <t t-set="fbrand" t-value="{1:'bhd',2:'hb',3:'tre'}.get(fwid,'bhd')"/>
 <t t-set="fsite" t-value="{'bhd':'bhdasia.com','hb':'hummingbeing.com','tre':'tre-in-singapore.com'}[fbrand]"/>
 <style>
+body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !important; margin:0 !important; max-width:none !important; width:auto !important; }
+.bq table, .bq thead, .bq tbody, .bq tfoot, .bq tr, .bq th, .bq td { border-style:none; border-width:0; }
+
+body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !important; margin:0 !important; max-width:none !important; width:auto !important; }
+.bq table, .bq thead, .bq tbody, .bq tfoot, .bq tr, .bq th, .bq td { border-style:none; border-width:0; }
 .bqf { width: 794px; margin: 0; padding: 0; -webkit-box-sizing: border-box; box-sizing: border-box; }
 .bqf table { width: 100%; border-collapse: collapse; border-spacing: 0; }
 .bqf td { vertical-align: top; text-align: left; padding: 0; line-height: 1.5; }

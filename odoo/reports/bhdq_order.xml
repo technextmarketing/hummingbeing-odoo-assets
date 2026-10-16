@@ -29,6 +29,11 @@
 <t t-set="pill_html"><span t-attf-class="pill#{' cancel' if is_cancel else ''}"><i></i><t t-out="st_label"/></span></t>
 <div t-attf-class="bq bq-#{brand}">
 <style>
+body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !important; margin:0 !important; max-width:none !important; width:auto !important; }
+.bq table, .bq thead, .bq tbody, .bq tfoot, .bq tr, .bq th, .bq td { border-style:none; border-width:0; }
+
+body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !important; margin:0 !important; max-width:none !important; width:auto !important; }
+.bq table, .bq thead, .bq tbody, .bq tfoot, .bq tr, .bq th, .bq td { border-style:none; border-width:0; }
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@600;700');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600');
@@ -592,10 +597,10 @@
 <t t-set="d_e"><t t-out="ev.date_end" t-options="{'widget': 'datetime', 'tz_name': ev.date_tz, 'format': 'yyyyMMdd'}"/></t>
 <t t-set="a_b"><t t-out="ev.date_begin" t-options="{'widget': 'datetime', 'tz_name': ev.date_tz, 'format': 'a'}"/></t>
 <t t-set="a_e"><t t-out="ev.date_end" t-options="{'widget': 'datetime', 'tz_name': ev.date_tz, 'format': 'a'}"/></t>
-<t t-set="multi" t-value="d_b != d_e"/>
+<t t-set="multi" t-value="not ev.is_one_day"/>
 <t t-set="tzl" t-value="'SGT (UTC+8)' if ev.date_tz == 'Asia/Singapore' else ('Bucharest time' if ev.date_tz == 'Europe/Bucharest' else ev.date_tz)"/>
 <t t-set="tzl_multi" t-value="'SGT, UTC+8' if ev.date_tz == 'Asia/Singapore' else ('Bucharest time' if ev.date_tz == 'Europe/Bucharest' else ev.date_tz)"/>
-<t t-set="where_txt" t-value="((ev.address_id.name or ev.address_id.display_name) + ((', ' + ev.address_id.city) if ev.address_id.city and ev.address_id.city != ev.address_id.name else '')) if ev.address_id else 'Online (Zoom) — joining link emailed before the session'"/>
+<t t-set="where_txt" t-value="((ev.address_id.name or ev.address_id.display_name) + ((', ' + ev.address_id.city) if ev.address_id.city and ev.address_id.city not in (ev.address_id.name or '') else '')) if ev.address_id else 'Online (Zoom) — joining link emailed before the session'"/>
 <div class="ev"><div class="evn"><t t-out="ev.name"/></div><table><tr>
 <td style="width:190px"><div class="evk">Date</div><div class="evv"><t t-out="ev.date_begin" t-options="{'widget': 'datetime', 'tz_name': ev.date_tz, 'format': 'd MMM y'}"/><t t-if="multi"> – <t t-out="ev.date_end" t-options="{'widget': 'datetime', 'tz_name': ev.date_tz, 'format': 'd MMM y'}"/></t></div></td>
 <td style="width:110px"><div class="evk">Time</div><div class="evv">
@@ -684,6 +689,11 @@
 <t t-set="fbrand" t-value="{1:'bhd',2:'hb',3:'tre'}.get(fwid,'bhd')"/>
 <t t-set="fsite" t-value="{'bhd':'bhdasia.com','hb':'hummingbeing.com','tre':'tre-in-singapore.com'}[fbrand]"/>
 <style>
+body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !important; margin:0 !important; max-width:none !important; width:auto !important; }
+.bq table, .bq thead, .bq tbody, .bq tfoot, .bq tr, .bq th, .bq td { border-style:none; border-width:0; }
+
+body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !important; margin:0 !important; max-width:none !important; width:auto !important; }
+.bq table, .bq thead, .bq tbody, .bq tfoot, .bq tr, .bq th, .bq td { border-style:none; border-width:0; }
 .bqf { width: 794px; margin: 0; padding: 0; -webkit-box-sizing: border-box; box-sizing: border-box; }
 .bqf table { width: 100%; border-collapse: collapse; border-spacing: 0; }
 .bqf td { vertical-align: top; text-align: left; padding: 0; line-height: 1.5; }
