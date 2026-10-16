@@ -1,6 +1,6 @@
 <data>
 <xpath expr="//header[@id='top']" position="replace">
-<header t-if="not no_header" id="top" data-anchor="true" class="hbx xev-head o_no_autohide_menu"><ul class="top_menu" hidden="hidden"/><nav>
+<header t-if="not no_header" id="top" data-anchor="true" class="hbx xev-head o_no_autohide_menu"><ul class="top_menu" hidden="hidden"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&amp;family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&amp;family=Raleway:wght@300;400;500&amp;display=swap"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/><link rel="stylesheet" href="/hb/hb.css?v=21"/><nav>
 <a class="logo" href="/"><img alt="HummingBeing — Coaching &amp; Somatics" class="logo-on-dark" height="56" src="/hb/images/logo-dark.webp" style="height:56px;width:auto" width="168"/><img alt="HummingBeing — Coaching &amp; Somatics" class="logo-on-light" height="56" src="/hb/images/logo-light.webp" style="height:56px;width:auto" width="168"/></a>
 <ul class="nav-links">
 <li><a t-att-class="'active' if (request.httprequest.path == '/') else None" href="/">Home</a></li>
