@@ -1,0 +1,19 @@
+{
+ "site": "bhd",
+ "website": 1,
+ "prefix": "/bhd/",
+ "source": "TechNextSG/BHDasia@77f0ff928ed8efec964a771a3acf62f0efa0b4dc",
+ "files": [
+  {
+   "url": "/bhd/bhd.css",
+   "src": "bhd.css",
+   "sha1": "2c991a73e50d430a24c705b2d48317ab948c12ab",
+   "mimetype": "text/css",
+   "size": 150391
+  }
+ ],
+ "pages": [],
+ "views": [],
+ "redirects": {},
+ "cache": true
+}

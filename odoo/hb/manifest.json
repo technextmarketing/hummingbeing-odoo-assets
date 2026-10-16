@@ -2,508 +2,508 @@
  "site": "hb",
  "website": 2,
  "prefix": "/hb/",
- "source": "technextsg/hummingbeing-website@4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d",
+ "source": "technextsg/hummingbeing-website@f8efb21e0664d3a5921060af951578b295699771",
  "files": [
   {
    "url": "/hb/hero-about.mp4",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/hero-about.mp4",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/hero-about.mp4",
    "sha1": "53b857dba6e56c7792871007953097fb3fc7303e",
    "mimetype": "video/mp4",
    "size": 847762
   },
   {
    "url": "/hb/hero-book.mp4",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/hero-book.mp4",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/hero-book.mp4",
    "sha1": "254a2bfcc176b6c8db432e7c3a042abaa6f22d11",
    "mimetype": "video/mp4",
    "size": 601524
   },
   {
    "url": "/hb/hero-certifications.mp4",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/hero-certifications.mp4",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/hero-certifications.mp4",
    "sha1": "f96ae3532532553fc624dbf33c75e3346d26dada",
    "mimetype": "video/mp4",
    "size": 509588
   },
   {
    "url": "/hb/hero-gallery.mp4",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/hero-gallery.mp4",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/hero-gallery.mp4",
    "sha1": "e8707f7f828867dd35265a3924852160a16fb8a6",
    "mimetype": "video/mp4",
    "size": 501447
   },
   {
    "url": "/hb/hero-holistic.mp4",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/hero-holistic.mp4",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/hero-holistic.mp4",
    "sha1": "1aee4cddcfbb67b6fe6d9316ed6ee16d6eabada5",
    "mimetype": "video/mp4",
    "size": 462125
   },
   {
    "url": "/hb/hero-retreats.mp4",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/hero-retreats.mp4",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/hero-retreats.mp4",
    "sha1": "de11013a054fe35a16be1b6d8959e64f54b58fc3",
    "mimetype": "video/mp4",
    "size": 300704
   },
   {
    "url": "/hb/hero-socials.mp4",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/hero-socials.mp4",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/hero-socials.mp4",
    "sha1": "84bb8b5965e3630abcff9439ddccff9a9bd84185",
    "mimetype": "video/mp4",
    "size": 350305
   },
   {
    "url": "/hb/hero-tre.mp4",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/hero-tre.mp4",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/hero-tre.mp4",
    "sha1": "de11013a054fe35a16be1b6d8959e64f54b58fc3",
    "mimetype": "video/mp4",
    "size": 300704
   },
   {
    "url": "/hb/images/about-bhd-family.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/about-bhd-family.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/about-bhd-family.jpg",
    "sha1": "76be22973f5425ffe1e7ee3d52c3701b259ce3bb",
    "mimetype": "image/jpeg",
    "size": 147374
   },
   {
    "url": "/hb/images/about-hummingbird-metaphor.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/about-hummingbird-metaphor.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/about-hummingbird-metaphor.jpg",
    "sha1": "f6f1fda02b1da70ecf968b85b877e8e5da606871",
    "mimetype": "image/jpeg",
    "size": 160629
   },
   {
    "url": "/hb/images/card-event-body-in-the-room.webp",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/card-event-body-in-the-room.webp",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/card-event-body-in-the-room.webp",
    "sha1": "059eb23cd5ed03047ecb4f8746369c373b2575c9",
    "mimetype": "application/octet-stream",
    "size": 217180
   },
   {
    "url": "/hb/images/card-event-breath-as-medicine.webp",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/card-event-breath-as-medicine.webp",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/card-event-breath-as-medicine.webp",
    "sha1": "98a719a8daf81050a47ec4835c62c043cd22ccf5",
    "mimetype": "application/octet-stream",
    "size": 162984
   },
   {
    "url": "/hb/images/card-event-certification-2027.webp",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/card-event-certification-2027.webp",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/card-event-certification-2027.webp",
    "sha1": "0c087881c2054120f911e4f81bc9ae87e90a1e0d",
    "mimetype": "application/octet-stream",
    "size": 154668
   },
   {
    "url": "/hb/images/card-event-feminine-masculine.webp",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/card-event-feminine-masculine.webp",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/card-event-feminine-masculine.webp",
    "sha1": "f43be76a9b957fc518d4b4961fad1774b49e113b",
    "mimetype": "application/octet-stream",
    "size": 159898
   },
   {
    "url": "/hb/images/card-event-shaking-online.webp",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/card-event-shaking-online.webp",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/card-event-shaking-online.webp",
    "sha1": "87878293ff197449834faa34a5b905a5c51a0c33",
    "mimetype": "application/octet-stream",
    "size": 198468
   },
   {
    "url": "/hb/images/gallery/gallery-asia-tre-trainers-david.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/gallery/gallery-asia-tre-trainers-david.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/gallery/gallery-asia-tre-trainers-david.jpg",
    "sha1": "337ba2a38dceafad2e7363992723c42db322807a",
    "mimetype": "image/jpeg",
    "size": 306305
   },
   {
    "url": "/hb/images/gallery/gallery-chris-balsley-master-coach.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/gallery/gallery-chris-balsley-master-coach.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/gallery/gallery-chris-balsley-master-coach.jpg",
    "sha1": "cddcbc01bd4aa9d9f8231cf739fb44df1236bfda",
    "mimetype": "image/jpeg",
    "size": 307940
   },
   {
    "url": "/hb/images/gallery/gallery-danang-tre-conference-nov2025.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/gallery/gallery-danang-tre-conference-nov2025.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/gallery/gallery-danang-tre-conference-nov2025.jpg",
    "sha1": "86a118f130a4cfa0735ce507381591b74601417a",
    "mimetype": "image/jpeg",
    "size": 342664
   },
   {
    "url": "/hb/images/gallery/gallery-dinner-david-berceli-founders.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/gallery/gallery-dinner-david-berceli-founders.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/gallery/gallery-dinner-david-berceli-founders.jpg",
    "sha1": "9bbf988fe7da5cb8564966dfba0e8340c102a336",
    "mimetype": "image/jpeg",
    "size": 179523
   },
   {
    "url": "/hb/images/gallery/gallery-indoor-skydiving-singapore.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/gallery/gallery-indoor-skydiving-singapore.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/gallery/gallery-indoor-skydiving-singapore.jpg",
    "sha1": "0719b1fd9eca3737f3311e20f1c0b795367b5fe4",
    "mimetype": "image/jpeg",
    "size": 408223
   },
   {
    "url": "/hb/images/gallery/gallery-insead-simba-stenqvist.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/gallery/gallery-insead-simba-stenqvist.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/gallery/gallery-insead-simba-stenqvist.jpg",
    "sha1": "cba58c0eba9449f6195f84a608b5e45c9720612f",
    "mimetype": "image/jpeg",
    "size": 186477
   },
   {
    "url": "/hb/images/gallery/gallery-isabelle-david-simba-nikki.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/gallery/gallery-isabelle-david-simba-nikki.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/gallery/gallery-isabelle-david-simba-nikki.jpg",
    "sha1": "15f38df4847baf6e4995762da067eaf2780a7c60",
    "mimetype": "image/jpeg",
    "size": 432333
   },
   {
    "url": "/hb/images/gallery/gallery-isabelle-kyoto-2023.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/gallery/gallery-isabelle-kyoto-2023.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/gallery/gallery-isabelle-kyoto-2023.jpg",
    "sha1": "2f3f097bdfa6773e126dc535f45b9392a04b7773",
    "mimetype": "image/jpeg",
    "size": 99548
   },
   {
    "url": "/hb/images/gallery/gallery-isabelle-oct-2023.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/gallery/gallery-isabelle-oct-2023.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/gallery/gallery-isabelle-oct-2023.jpg",
    "sha1": "2e3884cddda825b16cfe245545734128339d9ce2",
    "mimetype": "image/jpeg",
    "size": 91442
   },
   {
    "url": "/hb/images/gallery/gallery-isabelle-saymara-2.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/gallery/gallery-isabelle-saymara-2.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/gallery/gallery-isabelle-saymara-2.jpg",
    "sha1": "4c8d44634aaf80221af20b5eef66a9e29addf004",
    "mimetype": "image/jpeg",
    "size": 110810
   },
   {
    "url": "/hb/images/gallery/gallery-isabelle-saymara-3.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/gallery/gallery-isabelle-saymara-3.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/gallery/gallery-isabelle-saymara-3.jpg",
    "sha1": "fe1789c59fc9160089247fd1ab480e2508045e0c",
    "mimetype": "image/jpeg",
    "size": 180536
   },
   {
    "url": "/hb/images/gallery/gallery-isabelle-saymara-4.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/gallery/gallery-isabelle-saymara-4.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/gallery/gallery-isabelle-saymara-4.jpg",
    "sha1": "7d36ff804580402b8be872971699fe0590f24fa3",
    "mimetype": "image/jpeg",
    "size": 137918
   },
   {
    "url": "/hb/images/gallery/gallery-isabelle-saymara.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/gallery/gallery-isabelle-saymara.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/gallery/gallery-isabelle-saymara.jpg",
    "sha1": "0a53432af0f83ebf7dbe80e80f22aafb441b0aa4",
    "mimetype": "image/jpeg",
    "size": 331578
   },
   {
    "url": "/hb/images/gallery/gallery-isabelle-students-module1-may2026.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/gallery/gallery-isabelle-students-module1-may2026.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/gallery/gallery-isabelle-students-module1-may2026.jpg",
    "sha1": "aab4804738ee2517553c50763c17a22dfae8342d",
    "mimetype": "image/jpeg",
    "size": 145725
   },
   {
    "url": "/hb/images/gallery/gallery-isabelle-teaching-tre.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/gallery/gallery-isabelle-teaching-tre.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/gallery/gallery-isabelle-teaching-tre.jpg",
    "sha1": "3b54c4042564ca4a793472dbd0693206fd66ef02",
    "mimetype": "image/jpeg",
    "size": 161242
   },
   {
    "url": "/hb/images/gallery/gallery-isabelle-vietnam-tre.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/gallery/gallery-isabelle-vietnam-tre.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/gallery/gallery-isabelle-vietnam-tre.jpg",
    "sha1": "d164cbe7d761663c81e79a74423eed435fbd8533",
    "mimetype": "image/jpeg",
    "size": 238529
   },
   {
    "url": "/hb/images/gallery/gallery-module2-sep2026-1.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/gallery/gallery-module2-sep2026-1.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/gallery/gallery-module2-sep2026-1.jpg",
    "sha1": "b7f14bc5d9a74ef2a67b0da395598acd7852d288",
    "mimetype": "image/jpeg",
    "size": 245120
   },
   {
    "url": "/hb/images/gallery/gallery-module2-sep2026-2.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/gallery/gallery-module2-sep2026-2.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/gallery/gallery-module2-sep2026-2.jpg",
    "sha1": "2815ad2bbab8461b142f97568064456adededf9b",
    "mimetype": "image/jpeg",
    "size": 159755
   },
   {
    "url": "/hb/images/gallery/gallery-module2-sep2026-3.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/gallery/gallery-module2-sep2026-3.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/gallery/gallery-module2-sep2026-3.jpg",
    "sha1": "c2a4340c157f863708668b1ad75eebfed56fde33",
    "mimetype": "image/jpeg",
    "size": 219577
   },
   {
    "url": "/hb/images/gallery/gallery-module2-sep2026-4.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/gallery/gallery-module2-sep2026-4.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/gallery/gallery-module2-sep2026-4.jpg",
    "sha1": "99d76d69850eacd6cbcaf5e76a0d045942c98931",
    "mimetype": "image/jpeg",
    "size": 203976
   },
   {
    "url": "/hb/images/gallery/gallery-module2-sep2026-5.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/gallery/gallery-module2-sep2026-5.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/gallery/gallery-module2-sep2026-5.jpg",
    "sha1": "bc043ff27c844a77ea0b5810312d1854bad3fd5c",
    "mimetype": "image/jpeg",
    "size": 239141
   },
   {
    "url": "/hb/images/gallery/gallery-module2-sep2026-6.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/gallery/gallery-module2-sep2026-6.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/gallery/gallery-module2-sep2026-6.jpg",
    "sha1": "d92ee75d0e6e73e59b3af24e5048737377c22f2c",
    "mimetype": "image/jpeg",
    "size": 215524
   },
   {
    "url": "/hb/images/gallery/gallery-screenshot-practice.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/gallery/gallery-screenshot-practice.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/gallery/gallery-screenshot-practice.jpg",
    "sha1": "bfaf55d5ab64931a50aaf53508064541a2de65bd",
    "mimetype": "image/jpeg",
    "size": 159487
   },
   {
    "url": "/hb/images/gallery/gallery-tre-module1-2026.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/gallery/gallery-tre-module1-2026.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/gallery/gallery-tre-module1-2026.jpg",
    "sha1": "d6c63e996ed9236300171c2d1dfd8f9c20522bb1",
    "mimetype": "image/jpeg",
    "size": 354570
   },
   {
    "url": "/hb/images/gallery/gallery-uk-students-singapore-airport.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/gallery/gallery-uk-students-singapore-airport.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/gallery/gallery-uk-students-singapore-airport.jpg",
    "sha1": "7b7d65e855a95966e48dadc095681c86e8f1cbe5",
    "mimetype": "image/jpeg",
    "size": 200534
   },
   {
    "url": "/hb/images/gallery/gallery-uk-tre-providers-2.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/gallery/gallery-uk-tre-providers-2.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/gallery/gallery-uk-tre-providers-2.jpg",
    "sha1": "efcf46c679af9d818241e42aeb002d403a1a6e93",
    "mimetype": "image/jpeg",
    "size": 175207
   },
   {
    "url": "/hb/images/gallery/gallery-uk-tre-providers.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/gallery/gallery-uk-tre-providers.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/gallery/gallery-uk-tre-providers.jpg",
    "sha1": "52ab075b59bff4b6ca36c4d92dd6d8fba3bc563f",
    "mimetype": "image/jpeg",
    "size": 254017
   },
   {
    "url": "/hb/images/gallery/gallery-ws-1.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/gallery/gallery-ws-1.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/gallery/gallery-ws-1.jpg",
    "sha1": "0b884705e9b276cbea7f901ff95a7ceb311d20ef",
    "mimetype": "image/jpeg",
    "size": 128841
   },
   {
    "url": "/hb/images/gallery/gallery-ws-2.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/gallery/gallery-ws-2.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/gallery/gallery-ws-2.jpg",
    "sha1": "8036df44eb55a69c0697f82fc024fd4f813e27d4",
    "mimetype": "image/jpeg",
    "size": 242477
   },
   {
    "url": "/hb/images/gallery/gallery-ws-3.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/gallery/gallery-ws-3.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/gallery/gallery-ws-3.jpg",
    "sha1": "3989fca9b5ab4e1c167cb6693f81e4da8f3f1bbd",
    "mimetype": "image/jpeg",
    "size": 316988
   },
   {
    "url": "/hb/images/gallery/gallery-ws-4.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/gallery/gallery-ws-4.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/gallery/gallery-ws-4.jpg",
    "sha1": "f669abbd61c6cc82b14ec8cc5be6352d1b9a6a9c",
    "mimetype": "image/jpeg",
    "size": 309748
   },
   {
    "url": "/hb/images/index-hero.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/index-hero.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/index-hero.jpg",
    "sha1": "31bc68579b3825b0b2a779b5dd6c34c0903d2e3d",
    "mimetype": "image/jpeg",
    "size": 127255
   },
   {
    "url": "/hb/images/index-hero.mp4",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/index-hero.mp4",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/index-hero.mp4",
    "sha1": "344ff05878acb0aeac83d9f10523fbf0854fb66f",
    "mimetype": "video/mp4",
    "size": 603121
   },
   {
    "url": "/hb/images/isabelle-global-journey.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/isabelle-global-journey.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/isabelle-global-journey.jpg",
    "sha1": "c0738de1e4c04605c58d754308fe5bd6308bd079",
    "mimetype": "image/jpeg",
    "size": 187268
   },
   {
    "url": "/hb/images/isabelle-her-story.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/isabelle-her-story.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/isabelle-her-story.jpg",
    "sha1": "54967b6692f91705bab3d474be68b0326e004480",
    "mimetype": "image/jpeg",
    "size": 181702
   },
   {
    "url": "/hb/images/isabelle-hero.mp4",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/isabelle-hero.mp4",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/isabelle-hero.mp4",
    "sha1": "373f3ab1c4ebe63763cf866a99a9469c1579d5f8",
    "mimetype": "video/mp4",
    "size": 399036
   },
   {
    "url": "/hb/images/isabelle-hero.webp",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/isabelle-hero.webp",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/isabelle-hero.webp",
    "sha1": "95d0ed036c8981dfca707e65b8e515f49bea725e",
    "mimetype": "application/octet-stream",
    "size": 254980
   },
   {
    "url": "/hb/images/isabelle-where-we-gather.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/isabelle-where-we-gather.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/isabelle-where-we-gather.jpg",
    "sha1": "c2c0d3b3b4943b16135f9f73bba31f3bd05ed300",
    "mimetype": "image/jpeg",
    "size": 145531
   },
   {
    "url": "/hb/images/isabelle-who-this-is-for.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/isabelle-who-this-is-for.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/isabelle-who-this-is-for.jpg",
    "sha1": "ab988394f1663b8831730e2c72067d86993ff7ce",
    "mimetype": "image/jpeg",
    "size": 143659
   },
   {
    "url": "/hb/images/isabelle-your-trainer.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/isabelle-your-trainer.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/isabelle-your-trainer.jpg",
    "sha1": "3f1ffff3b361057794bea19d362ca3ef574303fb",
    "mimetype": "image/jpeg",
    "size": 165058
   },
   {
    "url": "/hb/images/logo-bhd-asia.webp",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/logo-bhd-asia.webp",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/logo-bhd-asia.webp",
    "sha1": "67c0e1b5656ea071c1331f605961c3347bc464fa",
    "mimetype": "application/octet-stream",
    "size": 17922
   },
   {
    "url": "/hb/images/logo-hummingbeing-full.webp",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/logo-hummingbeing-full.webp",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/logo-hummingbeing-full.webp",
    "sha1": "f9f1dde432a43d600475254a84807af371315a0b",
    "mimetype": "application/octet-stream",
    "size": 31220
   },
   {
    "url": "/hb/images/logo-icf-cce.webp",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/logo-icf-cce.webp",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/logo-icf-cce.webp",
    "sha1": "96b1b721fe2d1ccdd30d157309cb8dc60991222f",
    "mimetype": "application/octet-stream",
    "size": 31742
   },
   {
    "url": "/hb/poster-about.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/poster-about.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/poster-about.jpg",
    "sha1": "95ffcbe942f189c8051201890964ce0c45006406",
    "mimetype": "image/jpeg",
    "size": 90275
   },
   {
    "url": "/hb/poster-book.webp",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/poster-book.webp",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/poster-book.webp",
    "sha1": "b457695902a7afe4be8bf8bc1ddb37d6a21337e6",
    "mimetype": "application/octet-stream",
    "size": 78282
   },
   {
    "url": "/hb/poster-certifications.webp",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/poster-certifications.webp",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/poster-certifications.webp",
    "sha1": "883f12f21d726457006a2e1ca468fd7b7f99c88b",
    "mimetype": "application/octet-stream",
    "size": 77576
   },
   {
    "url": "/hb/poster-gallery.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/poster-gallery.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/poster-gallery.jpg",
    "sha1": "08ca53988cad6fbb52396b8505f7b708244d211d",
    "mimetype": "image/jpeg",
    "size": 163036
   },
   {
    "url": "/hb/poster-holistic.webp",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/poster-holistic.webp",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/poster-holistic.webp",
    "sha1": "fe8a74c4fabcabd647a62eab0044da0a48ceab29",
    "mimetype": "application/octet-stream",
    "size": 78114
   },
   {
    "url": "/hb/poster-retreats.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/poster-retreats.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/poster-retreats.jpg",
    "sha1": "29b5dcecda8c29338a52f5f7683abb511e5cedb3",
    "mimetype": "image/jpeg",
    "size": 139923
   },
   {
    "url": "/hb/poster-socials.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/poster-socials.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/poster-socials.jpg",
    "sha1": "99ecee178e25c588fdfd2292d8e5084c8c93f592",
    "mimetype": "image/jpeg",
    "size": 162545
   },
   {
    "url": "/hb/poster-tre.jpg",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/poster-tre.jpg",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/poster-tre.jpg",
    "sha1": "29b5dcecda8c29338a52f5f7683abb511e5cedb3",
    "mimetype": "image/jpeg",
    "size": 139923
   },
   {
    "url": "/hb/images/card-event-bucharest-module1.webp",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/card-event-bucharest-module1.webp",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/card-event-bucharest-module1.webp",
    "sha1": "a0697b457be71b00c17ec90d54ac09f8eda84ef9",
    "mimetype": "application/octet-stream",
    "size": 170450
   },
   {
    "url": "/hb/images/card-event-internal-alchemy.webp",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/card-event-internal-alchemy.webp",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/card-event-internal-alchemy.webp",
    "sha1": "02a5d09dcff98065391806de1aabcdad51197476",
    "mimetype": "application/octet-stream",
    "size": 130982
   },
   {
    "url": "/hb/images/card-event-nervous-system.webp",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/card-event-nervous-system.webp",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/card-event-nervous-system.webp",
    "sha1": "b4ee45cc2499b4f3bfd16008cb14e4b0df8e5176",
    "mimetype": "application/octet-stream",
    "size": 183116
   },
   {
    "url": "/hb/images/card-event-shaking-to-shaping-sep3.webp",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/card-event-shaking-to-shaping-sep3.webp",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/card-event-shaking-to-shaping-sep3.webp",
    "sha1": "639f530703c52760e1debcc58be2e40c73253776",
    "mimetype": "application/octet-stream",
    "size": 188258
   },
   {
    "url": "/hb/images/card-event-shaking-to-shaping.webp",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/card-event-shaking-to-shaping.webp",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/card-event-shaking-to-shaping.webp",
    "sha1": "2979bfeb2095546977ed034f9721ca7b9ad19a7e",
    "mimetype": "application/octet-stream",
    "size": 189874
   },
   {
    "url": "/hb/images/card-event-transform-practice.webp",
-   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/card-event-transform-practice.webp",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/f8efb21e0664d3a5921060af951578b295699771/images/card-event-transform-practice.webp",
    "sha1": "8318da22c067edd4c66cceb73296a957c2a60763",
    "mimetype": "application/octet-stream",
    "size": 140942
@@ -511,9 +511,9 @@
   {
    "url": "/hb/hb.css",
    "src": "hb.css",
-   "sha1": "a300a186a870176a7f41c3c2647264ebbe6bca81",
+   "sha1": "aa8e87e88fd2c84b3ea931b977607d0fc15362fd",
    "mimetype": "text/css",
-   "size": 144539
+   "size": 145009
   },
   {
    "url": "/hb/hb.js",
