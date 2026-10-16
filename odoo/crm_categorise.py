@@ -4,12 +4,12 @@
 # Site comes from the form's "Website: ..." line, the event order's website, or the team.
 SITE_TAG = {'bhd': 11, 'hb': 10, 'tre': 13}
 SITE_SRC = {'bhd': 16, 'hb': 17, 'tre': 18}
-SITE_TEAM = {'bhd': 5, 'hb': 4, 'tre': 4}
+SITE_TEAM = {'bhd': 5, 'hb': 5, 'tre': 5}   # one team for all three sites (user, 16 Oct): 'BHD Asia - all websites'
 WEB_SITE = {1: 'bhd', 2: 'hb', 3: 'tre'}
 SRC_SITE = {16: 'bhd', 17: 'hb', 18: 'tre'}
 TAG_SITE = {11: 'bhd', 10: 'hb', 13: 'tre'}
-T_REG, T_ENQ, T_GEN, T_CALL = 9, 12, 14, 15
-TYPES = [T_REG, T_ENQ, T_GEN, T_CALL]
+T_REG, T_ENQ, T_GEN, T_CALL, T_NEWS = 9, 12, 14, 15, 25
+TYPES = [T_REG, T_ENQ, T_GEN, T_CALL, T_NEWS]
 I_SESS, I_COACH, I_MIND, I_CERT, I_CORP, I_WORK, I_DIR, I_MEDIA, I_OTHER = 16, 17, 18, 19, 20, 21, 22, 23, 24
 INTERESTS = [I_SESS, I_COACH, I_MIND, I_CERT, I_CORP, I_WORK, I_DIR, I_MEDIA, I_OTHER]
 RULES = [
