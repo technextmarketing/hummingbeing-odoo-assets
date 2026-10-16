@@ -504,9 +504,9 @@
   {
    "url": "/hb/pages/book.js",
    "src": "pages/book.js",
-   "sha1": "6a82641928a6bc7cdf37782f5ff12bd7f780d92b",
+   "sha1": "0e4697c998f9444923fcfe36c659b85d2ca3b1cb",
    "mimetype": "application/javascript",
-   "size": 15605
+   "size": 15633
   },
   {
    "url": "/hb/pages/gallery.css",
@@ -588,9 +588,9 @@
   {
    "url": "/hb/pages/socials.js",
    "src": "pages/socials.js",
-   "sha1": "3601a6a50f104c14b562b118dbafa593c965c47a",
+   "sha1": "7d0887cc908fdf92677d4157005b355e129ec702",
    "mimetype": "application/javascript",
-   "size": 13312
+   "size": 13340
   },
   {
    "url": "/hb/pages/tre-certification.css",

@@ -2996,9 +2996,9 @@
   {
    "url": "/assets/js/odoo-forms.js",
    "src": "odoo-forms.js",
-   "sha1": "542dd5e84a20468f7e8f0859a789ff5114328e1a",
+   "sha1": "1350c834576e4fdd5386b50e4fd6dacc1b7fff99",
    "mimetype": "application/javascript",
-   "size": 2511
+   "size": 2619
   }
  ],
  "pages": [

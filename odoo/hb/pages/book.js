@@ -13,7 +13,7 @@ window.sendLead=function(d){
     fd.append('contact_name',d.name||'');
     fd.append('email_from',d.email||'');
     fd.append('phone',d.phone||'');
-    fd.append('description',['Source: '+(d.source||'HummingBeing website'),d.event?'Event: '+d.event:'',d.inquiry?'Enquiry: '+d.inquiry:'','',d.message||''].filter(function(x,i){return x||i===3;}).join('\n'));
+    fd.append('description',['Website: HummingBeing','Page: '+(d.source||location.pathname),d.event?'Location / event: '+d.event:'',d.inquiry?'Enquiry: '+d.inquiry:'','',d.message||''].filter(function(x,i){return x||i===4;}).join('\n'));
     fetch('/website/form/crm.lead',{method:'POST',body:fd}).catch(function(){});
   }catch(e){console.warn('sendLead',e);}
 };

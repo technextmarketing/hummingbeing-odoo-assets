@@ -15,7 +15,8 @@
         body: JSON.stringify({jsonrpc: '2.0', method: 'call', params: {list_id: LIST_ID, value: d.email, subscription_type: 'email'}})})
         .then(function (r) { return r.json(); }).then(function (j) { if (j.error) throw new Error('subscribe failed'); return ok(); });
     }
-    var topic = d._subject || ('TRE in Singapore — ' + (d.interest || d.event || 'Website enquiry'));
+    var sub = d._subject && d._subject.indexOf('Event registration') === 0 ? d._subject : '';
+    var topic = sub || d.interest || 'Website enquiry';   /* same "Topic — Person" titles as the other two sites */
     var fd = new FormData();
     fd.append('csrf_token', csrf());
     fd.append('name', topic + (d.name ? ' — ' + d.name : ''));

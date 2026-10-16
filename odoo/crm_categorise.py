@@ -50,10 +50,12 @@ for lead in records:
     add = [SITE_TAG[site]]
     # ---- the event, for event registrations sent by a site form ("Event registration — <title>")
     if not lead.event_id and 'event registration' in name:
-        title = (lead.name or '').split('—', 1)[-1].split(' — ')[0].strip()
-        ev = env['event.event'].search([('name', '=ilike', title)], limit=1) if title else env['event.event']
-        if ev:
-            lead.write({'event_id': ev.id})
+        best = env['event.event']
+        for e in env['event.event'].search([]):
+            if e.name and e.name.lower() in name and len(e.name) > len(best.name or ''):
+                best = e
+        if best:
+            lead.write({'event_id': best.id})
     # ---- type
     is_call = bool(lead.calendar_event_ids) or any(w in name for w in CALL_WORDS)
     if not [t for t in tags if t in TYPES]:
