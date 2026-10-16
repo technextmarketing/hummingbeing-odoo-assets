@@ -28,12 +28,10 @@
 <t t-set="portal_qr" t-value="portal_url.replace('%','%25').replace('&amp;','%26').replace('?','%3F').replace('=','%3D').replace('#','%23').replace('+','%2B')"/>
 <t t-set="pill_html"><span t-attf-class="pill#{' cancel' if is_cancel else ''}"><i></i><t t-out="st_label"/></span></t>
 <div t-attf-class="bq bq-#{brand}">
-<style>
-body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !important; margin:0 !important; max-width:none !important; width:auto !important; }
+<style>body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !important; margin:0 !important; max-width:none !important; width:auto !important; }
 .bq table, .bq thead, .bq tbody, .bq tfoot, .bq tr, .bq th, .bq td { border-style:none; border-width:0; }
 
-body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !important; margin:0 !important; max-width:none !important; width:auto !important; }
-.bq table, .bq thead, .bq tbody, .bq tfoot, .bq tr, .bq th, .bq td { border-style:none; border-width:0; }
+
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@600;700');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600');
@@ -688,12 +686,10 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 <t t-set="fwid" t-value="doc.website_id.id or 1"/>
 <t t-set="fbrand" t-value="{1:'bhd',2:'hb',3:'tre'}.get(fwid,'bhd')"/>
 <t t-set="fsite" t-value="{'bhd':'bhdasia.com','hb':'hummingbeing.com','tre':'tre-in-singapore.com'}[fbrand]"/>
-<style>
-body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !important; margin:0 !important; max-width:none !important; width:auto !important; }
+<style>body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !important; margin:0 !important; max-width:none !important; width:auto !important; }
 .bq table, .bq thead, .bq tbody, .bq tfoot, .bq tr, .bq th, .bq td { border-style:none; border-width:0; }
 
-body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !important; margin:0 !important; max-width:none !important; width:auto !important; }
-.bq table, .bq thead, .bq tbody, .bq tfoot, .bq tr, .bq th, .bq td { border-style:none; border-width:0; }
+
 .bqf { width: 794px; margin: 0; padding: 0; -webkit-box-sizing: border-box; box-sizing: border-box; }
 .bqf table { width: 100%; border-collapse: collapse; border-spacing: 0; }
 .bqf td { vertical-align: top; text-align: left; padding: 0; line-height: 1.5; }
