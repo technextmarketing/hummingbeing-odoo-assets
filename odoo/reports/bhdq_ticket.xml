@@ -565,7 +565,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 <td style="width:136px">
 <div class="fk">Attendee</div><div class="fv"><t t-out="attendee.name"/></div>
 <div class="fk">Ticket type</div><div class="fv"><t t-out="ttype"/></div>
-<div class="fk">Order / ticket no.</div><div class="fv"><t t-out="ord_tkt"/></div>
+<div class="fk"><t t-out="'Order / ticket no.' if so else 'Ticket no.'"/></div><div class="fv"><t t-out="ord_tkt"/></div>
 </td>
 </tr></table>
 </div>

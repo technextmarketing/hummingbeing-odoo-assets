@@ -536,7 +536,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 <t t-if="brand == 'bhd'">
 <div class="hd"><table><tr>
 <td style="width:98px"><div class="logo-plate"><img t-att-src="logo_src" t-att-width="lw" t-att-height="lh" t-att-style="'width:%spx;height:%spx' % (lw, lh)" alt="BHD Asia"/></div></td>
-<td><div class="ttl"><t t-out="'Quotation' if is_quote else 'Order Confirmation'"/></div><div class="sub"><t t-out="sub_txt"/></div></td>
+<td><div class="ttl"><t t-out="'Quotation' if is_quote else ('Cancelled Order' if is_cancel else 'Order Confirmation')"/></div><div class="sub"><t t-out="sub_txt"/></div></td>
 <td style="width:170px">
 <div class="mk">Order no.</div><div class="mv"><t t-out="doc.name"/></div>
 <div class="mk">Order date</div><div class="mv"><span t-field="doc.date_order" t-options="{'widget': 'date', 'format': 'd MMM y'}"/></div>
@@ -547,7 +547,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 <t t-if="brand == 'hb'">
 <div class="hd"><div class="logo-box"><img t-att-src="logo_src" t-att-width="lw" t-att-height="lh" t-att-style="'width:%spx;height:%spx' % (lw, lh)" alt="HummingBeing Coaching &amp; Somatics"/></div>
 <table class="orn"><tr><td class="ol"></td><td class="od"><i></i></td><td class="ol"></td></tr></table>
-<div class="ttl"><t t-if="is_quote"><em>Quotation</em></t><t t-else="">Order <em>Confirmation</em></t></div>
+<div class="ttl"><t t-if="is_quote"><em>Quotation</em></t><t t-elif="is_cancel">Cancelled <em>Order</em></t><t t-else="">Order <em>Confirmation</em></t></div>
 <table class="hmeta"><tr>
 <td><div class="mk">Order no.</div><div class="mv"><t t-out="doc.name"/></div></td>
 <td class="sep"><div class="mk">Order date</div><div class="mv"><span t-field="doc.date_order" t-options="{'widget': 'date', 'format': 'd MMM y'}"/></div></td>
@@ -557,7 +557,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 </t>
 <t t-if="brand == 'tre'">
 <div class="hd"><table><tr><td><div class="logo-box"><img t-att-src="logo_src" t-att-width="lw" t-att-height="lh" t-att-style="'width:%spx;height:%spx' % (lw, lh)" alt="TRE Singapore"/></div></td>
-<td><div class="ttl"><small>TRE Singapore</small><t t-out="'Quotation' if is_quote else 'Order Confirmation'"/></div></td></tr></table></div>
+<td><div class="ttl"><small>TRE Singapore</small><t t-out="'Quotation' if is_quote else ('Cancelled Order' if is_cancel else 'Order Confirmation')"/></div></td></tr></table></div>
 <table class="hmeta"><tr>
 <td><div class="mk">Order no.</div><div class="mv"><t t-out="doc.name"/></div></td>
 <td><div class="mk">Order date</div><div class="mv"><span t-field="doc.date_order" t-options="{'widget': 'date', 'format': 'd MMM y'}"/></div></td>
@@ -634,7 +634,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 <td class="idx"><t t-out="idx"/></td>
 <td class="desc"><b><t t-out="desc"/></b>
 <span class="att" t-if="att_names"><t t-if="brand == 'hb'"><t t-out="'Attendees: ' if len(l.registration_ids) > 1 else 'Attendee: '"/></t><t t-out="att_names"/></span>
-<span class="att" t-elif="rest"><t t-out="rest"/></span></td>
+<span class="att" t-elif="l.calendar_event_id"><t t-set="ctz" t-value="l.calendar_event_id.appointment_type_id.appointment_tz or 'Asia/Singapore'"/><t t-out="l.calendar_event_id.start" t-options="{'widget': 'datetime', 'tz_name': ctz, 'format': 'EEE d MMM y, h:mm a'}"/><t t-out="' SGT' if ctz == 'Asia/Singapore' else ' (' + ctz + ')'"/></span><span class="att" t-elif="rest"><t t-out="rest"/></span></td>
 <td class="num qty"><t t-out="qv"/></td>
 <td class="num unit"><span t-out="l.price_unit" t-options="{'widget': 'monetary', 'display_currency': doc.currency_id}"/></td>
 <td class="num amt strong"><span t-out="l.price_subtotal" t-options="{'widget': 'monetary', 'display_currency': doc.currency_id}"/></td>
@@ -649,7 +649,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 <div t-att-class="'totals-card' if brand == 'tre' else None">
 <table class="totals">
 <tr><td class="tl">Subtotal</td><td class="tv"><span t-out="subtotal" t-options="{'widget': 'monetary', 'display_currency': doc.currency_id}"/></td></tr>
-<tr t-if="rewards"><td class="tl">Discount code applied</td><td class="tv"><span t-out="disc" t-options="{'widget': 'monetary', 'display_currency': doc.currency_id}"/></td></tr>
+<tr t-if="rewards"><td class="tl">Discount code applied</td><td class="tv">−<span t-out="-disc" t-options="{'widget': 'monetary', 'display_currency': doc.currency_id}"/></td></tr>
 <tr t-else=""><td class="tl">Discount</td><td class="tv">—</td></tr>
 <tr><td class="tl">Tax</td><td class="tv"><t t-if="doc.amount_tax"><span t-out="doc.amount_tax" t-options="{'widget': 'monetary', 'display_currency': doc.currency_id}"/></t><t t-else="">—</t></td></tr>
 <tr class="tg lastrow"><td class="tl">Total</td><td class="tv"><span t-out="doc.amount_total" t-options="{'widget': 'monetary', 'display_currency': doc.currency_id}"/></td></tr>
@@ -670,13 +670,20 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 <div style="height:16px"></div>
 
 <!-- ============ NEXT STEPS ============ -->
+<t t-if="not is_quote and not is_cancel">
 <div class="sec-h"><i t-if="brand == 'tre'"></i>What happens next</div>
 <table class="steps"><tr>
+<t t-if="evs">
 <td class="sc"><div class="sn">1</div><p>Your ticket is emailed to you, with a QR code for check-in.</p></td>
 <td class="sc"><div class="sn">2</div><p>Your venue and joining details are sent before the event.</p></td>
+</t><t t-else="">
+<td class="sc"><div class="sn">1</div><p>Your booking confirmation and calendar invitation are emailed to you.</p></td>
+<td class="sc"><div class="sn">2</div><p>Your joining details are sent before your session.</p></td>
+</t>
 <td class="sc"><div class="sn">3</div><p>Questions? Write to <b class="strong">bonjour@bhdasia.com</b>.</p></td>
 </tr></table>
 <div style="height:16px"></div>
+</t>
 <div class="terms"><b>Terms.</b> Refunds are made in SGD, less card processing fees. Full terms: <t t-out="site"/>/terms</div>
 </div>
 </div>
