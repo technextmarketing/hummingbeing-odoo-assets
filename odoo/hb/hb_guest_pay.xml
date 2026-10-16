@@ -1,0 +1,8 @@
+<data>
+  <xpath expr="//div[hasclass('o_wereg_confirmed')]/div[hasclass('row')]" position="after">
+    <div t-if="event.sudo().ticket_instructions" class="xev-guest-pay my-4 p-4" style="background:#FFF8EC;border-left:4px solid #F5A623;border-radius:10px;max-width:760px">
+      <t t-out="event.sudo().ticket_instructions"/>
+      <p class="mb-0 small text-muted">These details are also in your confirmation email.</p>
+    </div>
+  </xpath>
+</data>

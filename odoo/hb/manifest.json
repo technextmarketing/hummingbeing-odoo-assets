@@ -780,31 +780,57 @@
    "key": "hbx.layout",
    "inherit": "website.layout",
    "name": "HummingBeing header and footer",
-   "arch": "hb_layout.xml"
+   "arch": "hb_layout.xml",
+   "priority": 1000
   },
   {
    "key": "hbx.event_index",
    "inherit": "website_event.index",
    "name": "HummingBeing events listing",
-   "arch": "hb_index.xml"
+   "arch": "hb_index.xml",
+   "priority": 1000
   },
   {
    "key": "hbx.event_page",
    "inherit": "website_event.event_description_full",
    "name": "HummingBeing event page",
-   "arch": "hb_event.xml"
+   "arch": "hb_event.xml",
+   "priority": 1000
   },
   {
    "key": "hbx.event_card",
    "inherit": null,
    "name": "HummingBeing event card",
-   "arch": "hb_card.xml"
+   "arch": "hb_card.xml",
+   "priority": 1000
   },
   {
    "key": "hbx.rel_card",
    "inherit": null,
    "name": "HummingBeing related event card",
-   "arch": "hb_rel.xml"
+   "arch": "hb_rel.xml",
+   "priority": 1000
+  },
+  {
+   "key": "hbx.data_item",
+   "inherit": null,
+   "name": "HummingBeing countdown/status item",
+   "arch": "hb_data.xml",
+   "priority": 1000
+  },
+  {
+   "key": "hbx.modal_guest_price",
+   "inherit": "website_event.modal_ticket_registration",
+   "name": "HummingBeing guest-event ticket price",
+   "arch": "hb_guest_modal.xml",
+   "priority": 30
+  },
+  {
+   "key": "hbx.registration_guest_pay",
+   "inherit": "website_event.registration_complete",
+   "name": "HummingBeing guest-event payment block",
+   "arch": "hb_guest_pay.xml",
+   "priority": 30
   }
  ],
  "redirects": {

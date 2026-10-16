@@ -14,7 +14,7 @@
 <t t-set="x_tickets" t-value="event.event_ticket_ids.filtered(lambda t: t.sale_available)"/>
 <t t-set="x_prices" t-value="sorted(x_tickets.mapped('price'))"/>
 <t t-set="x_fmt" t-value="lambda p: 'S$' + ('{:,.0f}'.format(p) if p == int(p) else '{:,.2f}'.format(p))"/>
-<t t-set="x_price" t-value="('Free' if not x_prices[-1] else (x_fmt(x_prices[0]) if x_prices[0] == x_prices[-1] else 'From ' + x_fmt(x_prices[0]))) if x_prices else ('Free' if x_open and not event.event_ticket_ids else '')"/>
+<t t-set="x_price" t-value="('Free' if not x_prices[-1] else (x_fmt(x_prices[0]) if x_prices[0] == x_prices[-1] else 'From ' + x_fmt(x_prices[0]))) if x_prices else ('Free' if x_open and not event.event_ticket_ids else '')"/><t t-set="x_gpp" t-value="[t.x_display_price for t in event.event_ticket_ids.sorted('sequence') if t.x_display_price]"/><t t-set="x_price" t-value="(x_gpp[0] if len(set(x_gpp)) == 1 else 'From ' + x_gpp[0]) if x_gpp else x_price"/>
 <t t-set="x_left" t-value="event.seats_available if (event.seats_limited and event.seats_max) else None"/>
 <t t-set="x_url" t-value="'/event/%s/register' % slug(event)"/>
 <t t-set="x_bg" t-value="json.loads(event.cover_properties or '{}').get('background-image') or ''"/>

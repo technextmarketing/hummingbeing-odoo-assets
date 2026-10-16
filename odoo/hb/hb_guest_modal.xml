@@ -1,0 +1,10 @@
+<data>
+  <xpath expr="//span[hasclass('badge')][hasclass('text-bg-success')]" position="replace">
+    <span t-elif="ticket.x_display_price" class="badge text-bg-secondary p-2 px-3" t-out="ticket.x_display_price"/>
+    <span t-else="" class="badge text-bg-success p-2 px-3">Free</span>
+  </xpath>
+  <xpath expr="//span[hasclass('badge')][hasclass('text-uppercase')]" position="replace">
+    <span t-elif="tickets.x_display_price" class="badge text-bg-secondary fs-6" t-out="tickets.x_display_price"/>
+    <span t-else="" class="badge text-bg-secondary fs-6 text-uppercase">Free</span>
+  </xpath>
+</data>
