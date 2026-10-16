@@ -64,7 +64,11 @@
 </div></div>
 <div class="ce-layout">
   <div class="ce-main">
-    <figure class="ce-poster"><img t-att-src="x_img" t-att-alt="event.name" width="1920" height="1080" decoding="async"/></figure>
+    <!-- as on hummingbeing.com: the event's tall poster (the one in its "Event poster" section) leads the page; else the wide cover -->
+    <t t-set="x_desc" t-value="str(event.description or '')"/>
+    <t t-set="x_after" t-value="x_desc.split('ce-poster-tall', 1)[1] if 'ce-poster-tall' in x_desc else ''"/>
+    <t t-set="x_poster" t-value="x_after.split('src=&quot;', 1)[1].split('&quot;', 1)[0] if 'src=&quot;' in x_after else ''"/>
+    <figure t-attf-class="ce-poster#{' ce-poster-portrait' if x_poster else ''}"><img t-att-src="x_poster or x_img" t-att-alt="event.name" t-att-width="1080 if x_poster else 1920" t-att-height="1350 if x_poster else 1080" decoding="async"/></figure>
     <div class="xev-desc" t-field="event.description"/>
   </div>
   <aside class="ce-side" id="reserve">

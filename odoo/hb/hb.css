@@ -1967,6 +1967,8 @@ main :where(h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6):not(.hbx *){font-family:"
 .btn-primary{--btn-color:#242e42;--btn-bg:#F5A623;--btn-border-color:#F5A623;--btn-hover-color:#fff;--btn-hover-bg:#242e42;--btn-hover-border-color:#242e42;--btn-active-color:#fff;--btn-active-bg:#1a2030;--btn-active-border-color:#1a2030;--btn-disabled-color:#242e42;--btn-disabled-bg:#F5A623;--btn-disabled-border-color:#F5A623;font-weight:700}
 .xev-seatbar-track i{background:#F5A623}
 .hbx .xev-desc .evt-section-label{display:none}
+/* the tall poster already leads the page (figure.ce-poster), so its "Event poster" copy in the shared description is not repeated */
+.hbx .xev-desc section:has(> figure.ce-poster-tall){display:none}
 .hbx .xev-desc h2{font-family:"Playfair Display",serif}
 /* Odoo's own screens (checkout, confirmation, login): site colours instead of Odoo purple */
 #wrapwrap .text-primary:not(.hbx *),#wrapwrap .link-primary:not(.hbx *){color:#c98000!important}
