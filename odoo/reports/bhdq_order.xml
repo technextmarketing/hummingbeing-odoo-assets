@@ -10,7 +10,7 @@
 <t t-set="is_quote" t-value="doc.state in ('draft','sent')"/>
 <t t-set="is_cancel" t-value="doc.state == 'cancel'"/>
 <t t-set="is_conf" t-value="doc.state in ('sale','done')"/>
-<t t-set="paid_amt" t-value="sum(doc.transaction_ids.filtered(lambda t: t.state in ('done','authorized')).mapped('amount'))"/>
+<t t-set="paid_amt" t-value="sum(doc.sudo().transaction_ids.filtered(lambda t: t.state in ('done','authorized')).mapped('amount'))"/>
 <t t-set="is_free" t-value="is_conf and not doc.amount_total"/>
 <t t-set="is_paid" t-value="bool(is_conf and doc.amount_total and paid_amt >= doc.amount_total - 0.005)"/>
 <t t-set="st_label" t-value="'Cancelled' if is_cancel else ('Confirmed' if is_free else ('Paid' if is_paid else ('Quotation' if is_quote else 'Awaiting payment')))"/>
@@ -23,7 +23,7 @@
 <t t-set="rewards" t-value="doc.order_line.filtered(lambda l: l.is_reward_line and not l.display_type)"/>
 <t t-set="subtotal" t-value="sum(lines.mapped('price_subtotal'))"/>
 <t t-set="disc" t-value="sum(rewards.mapped('price_subtotal'))"/>
-<t t-set="pay_tx" t-value="doc.transaction_ids.filtered(lambda t: t.state in ('done','authorized'))[:1] or doc.transaction_ids[:1]"/>
+<t t-set="pay_tx" t-value="doc.sudo().transaction_ids.filtered(lambda t: t.state in ('done','authorized'))[:1] or doc.sudo().transaction_ids[:1]"/>
 <t t-set="portal_url" t-value="(doc.get_base_url() + doc.get_portal_url()) if is_quote else ''"/>
 <t t-set="portal_qr" t-value="portal_url.replace('%','%25').replace('&amp;','%26').replace('?','%3F').replace('=','%3D').replace('#','%23').replace('+','%2B')"/>
 <t t-set="pill_html"><span t-attf-class="pill#{' cancel' if is_cancel else ''}"><i></i><t t-out="st_label"/></span></t>
