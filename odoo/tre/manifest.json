@@ -3024,9 +3024,23 @@
   {
    "url": "/assets/js/odoo-forms.js",
    "src": "odoo-forms.js",
-   "sha1": "1350c834576e4fdd5386b50e4fd6dacc1b7fff99",
+   "sha1": "77322f835e171c86da2440db6b813edc68ccac16",
    "mimetype": "application/javascript",
-   "size": 2619
+   "size": 4975
+  },
+  {
+   "url": "/tre/trex.css",
+   "src": "trex.css",
+   "sha1": "350d68a6342313984d1ebb5fd36a413f425ec852",
+   "mimetype": "text/css",
+   "size": 87867
+  },
+  {
+   "url": "/tre/trex.js",
+   "src": "trex.js",
+   "sha1": "b5161b5c968a74fad3bd13de5e8a264ac0da067d",
+   "mimetype": "application/javascript",
+   "size": 1261
   }
  ],
  "pages": [
@@ -3383,7 +3397,15 @@
    "indexed": true
   }
  ],
- "views": [],
+ "views": [
+  {
+   "key": "trex.layout",
+   "inherit": "website.layout",
+   "name": "TRE in Singapore header and footer",
+   "arch": "tre_layout.xml",
+   "priority": 1000
+  }
+ ],
  "redirects": {
   "/certified-tre-providers": "/facilitators",
   "/index": "/",

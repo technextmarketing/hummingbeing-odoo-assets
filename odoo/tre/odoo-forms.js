@@ -40,3 +40,30 @@
     return F.apply(this, arguments);
   };
 })();
+
+/* Register buttons point at hummingbeing.com on the static site; where Odoo serves TRE, they open this site's
+   own Odoo registration, ticket window and checkout (same events, seats and payments as the other two sites). */
+(function () {
+  var MAP = {
+"https://hummingbeing.com/event-body-in-the-room": "/event/the-body-in-the-room-5/register#register-now",
+"https://hummingbeing.com/event-breath-as-medicine": "/event/breath-as-a-medicine-12/register#register-now",
+"https://hummingbeing.com/event-certification-2027": "/event/become-a-certified-tretm-provider-2027-cohort-6/register#register-now",
+"https://hummingbeing.com/event-2027-module1": "/event/become-a-certified-tretm-provider-2027-cohort-6/register#register-now",
+"https://hummingbeing.com/event-2027-module2": "/event/become-a-certified-tretm-provider-2027-cohort-6/register#register-now",
+"https://hummingbeing.com/event-2027-module3": "/event/become-a-certified-tretm-provider-2027-cohort-6/register#register-now",
+"https://hummingbeing.com/event-certification": "/event/become-a-certified-tretm-provider-2026-cohort-7/register#register-now",
+"https://hummingbeing.com/event-feminine-masculine-energetics": "/event/navigating-feminine-masculine-energetics-4/register#register-now",
+"https://hummingbeing.com/event-internal-alchemy": "/event/internal-alchemy-introductory-workshop-9/register#register-now",
+"https://hummingbeing.com/event-selfcare-coaches-singapore": "/event/nervous-system-regulation-self-induced-neurogenic-tremoring-10/register#register-now",
+"https://hummingbeing.com/event-shaking-online": "/event/from-shaking-to-shaping-online-1/register#register-now",
+"https://hummingbeing.com/event-shaking-to-shaping-sep3": "/event/from-shaking-to-shaping-online-3-sep-8/register#register-now",
+"https://hummingbeing.com/event-shaking-to-shaping": "/event/from-shaking-to-shaping-bucharest-3/register#register-now",
+"https://hummingbeing.com/event-tre-module1-bucharest": "/event/tretm-module-1-bucharest-2/register#register-now"
+};
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[href^="https://hummingbeing.com/event-"]');
+    if (!a) return;
+    var u = a.getAttribute('href').split('#')[0].split('?')[0].replace(/\.html$/, '');
+    if (MAP[u]) { e.preventDefault(); window.location.href = MAP[u]; }
+  }, true);
+})();
