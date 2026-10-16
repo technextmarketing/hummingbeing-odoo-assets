@@ -2,8 +2,10 @@
 <xpath expr="//div[@id='wrap']" position="replace">
 <div id="wrap" class="o_wevent_index hbx xev-flush">
 <t t-set="xev_dom" t-value="website.website_domain() + [('website_published', '=', True)]"/>
-<t t-set="xev_up" t-value="env['event.event'].search(xev_dom + [('date_end', '&gt;=', datetime.datetime.utcnow())], order='date_begin asc').sorted(lambda e: ((('Sold out' in e.tag_ids.mapped('name')) or e.event_registrations_sold_out), e.date_begin))"/>
-<t t-set="xev_past" t-value="env['event.event'].search(xev_dom + [('date_end', '&lt;', datetime.datetime.utcnow())], order='date_begin desc', limit=12)"/>
+<t t-set="xev_next" t-value="env['event.event'].search(xev_dom + [('date_end', '&gt;=', datetime.datetime.utcnow())], order='date_begin asc')"/>
+<t t-set="xev_sold" t-value="xev_next.filtered(lambda e: ('Sold out' in e.tag_ids.mapped('name')) or e.event_registrations_sold_out)"/>
+<t t-set="xev_up" t-value="xev_next - xev_sold"/>
+<t t-set="xev_past" t-value="xev_sold + env['event.event'].search(xev_dom + [('date_end', '&lt;', datetime.datetime.utcnow())], order='date_begin desc', limit=12)"/>
 <t t-set="xev_list" t-value="xev_up"/>
 <div class="event-hero">
 <video autoplay="" class="hero-video" loop="" muted="" playsinline="" poster="/hb/poster-events.webp" preload="none" title="HummingBeing events — background video">

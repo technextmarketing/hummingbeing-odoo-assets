@@ -41,9 +41,10 @@ window.XD = async function (base, opts) {
   // 2) site views (header/footer, events listing, event page)
   for (const v of man.views) {
     const arch = await text(v.arch);
-    const par = (await sr('ir.ui.view', [['key', '=', v.inherit], ['website_id', '=', false]], ['id']))[0];
+    const par = v.inherit ? (await sr('ir.ui.view', [['key', '=', v.inherit], ['website_id', '=', false]], ['id']))[0] : null;
     const cur = (await sr('ir.ui.view', [['key', '=', v.key], ['website_id', '=', W]], ['id']))[0];
-    const vals = {name: v.name, key: v.key, type: 'qweb', website_id: W, arch: arch, active: true, inherit_id: par.id, mode: 'extension', priority: 1000};
+    const vals = Object.assign({name: v.name, key: v.key, type: 'qweb', website_id: W, arch: arch, active: true},
+      par ? {inherit_id: par.id, mode: 'extension', priority: 1000} : {mode: 'primary', priority: 16});
     if (!DRY) { if (cur) await write('ir.ui.view', [cur.id], vals); else await create('ir.ui.view', vals); }
     out.views.push((cur ? 'updated ' : 'created ') + v.key);
   }

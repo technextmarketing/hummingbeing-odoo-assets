@@ -1,0 +1,30 @@
+<t t-name="hbx.rel_card">
+<t t-set="x_tags" t-value="event.tag_ids.mapped('name')"/>
+<t t-set="x_past" t-value="event.is_finished"/>
+<t t-set="x_sold" t-value="(not x_past) and (('Sold out' in x_tags) or event.event_registrations_sold_out)"/>
+<t t-set="x_partner" t-value="('Partner registration' in x_tags) and event.sudo().organizer_id.website or False"/>
+<t t-set="x_partner_name" t-value="event.sudo().organizer_id.name or 'our partner'"/>
+<t t-set="x_open" t-value="(not x_past) and (not x_sold) and (not x_partner) and event.event_registrations_open"/>
+<t t-set="x_online" t-value="not event.address_id"/>
+<t t-set="x_country" t-value="event.sudo().address_id.country_id.name or ''"/>
+<t t-set="x_city" t-value="event.sudo().address_id.city or ''"/>
+<t t-set="x_loc" t-value="'Online' if x_online else (x_country or x_city)"/>
+<t t-set="x_label" t-value="(event.tag_ids.filtered(lambda t: t.category_id.name == 'Card label')[:1].name) or ''"/>
+<t t-set="x_type" t-value="(event.tag_ids.filtered(lambda t: t.category_id.name == 'Type')[:1].name) or 'Event'"/>
+<t t-set="x_tickets" t-value="event.event_ticket_ids.filtered(lambda t: t.sale_available)"/>
+<t t-set="x_prices" t-value="sorted(x_tickets.mapped('price'))"/>
+<t t-set="x_fmt" t-value="lambda p: 'S$' + ('{:,.0f}'.format(p) if p == int(p) else '{:,.2f}'.format(p))"/>
+<t t-set="x_price" t-value="('Free' if not x_prices[-1] else (x_fmt(x_prices[0]) if x_prices[0] == x_prices[-1] else 'From ' + x_fmt(x_prices[0]))) if x_prices else ('Free' if x_open and not event.event_ticket_ids else '')"/>
+<t t-set="x_left" t-value="event.seats_available if (event.seats_limited and event.seats_max) else None"/>
+<t t-set="x_url" t-value="'/event/%s/register' % slug(event)"/>
+<t t-set="x_bg" t-value="json.loads(event.cover_properties or '{}').get('background-image') or ''"/>
+<t t-set="x_img" t-value="x_bg.split('(')[-1].split(')')[0].replace(&quot;'&quot;, '').replace('&quot;', '') if 'url(' in x_bg else '/hb/poster-events.webp'"/>
+<t t-set="x_tz" t-value="event.date_tz or 'Asia/Singapore'"/>
+<t t-set="x_tzl" t-value="{'Asia/Singapore': 'SGT', 'Europe/Bucharest': 'Bucharest time', 'Asia/Tokyo': 'JST', 'Europe/London': 'UK time'}.get(x_tz, '')"/>
+<t t-set="x_tzlong" t-value="{'Asia/Singapore': 'Singapore time', 'Europe/Bucharest': 'Bucharest time', 'Asia/Tokyo': 'Japan time', 'Europe/London': 'UK time'}.get(x_tz, x_tz)"/>
+<t t-set="x_start" t-value="event.date_begin.strftime('%Y-%m-%d')"/>
+<t t-set="x_end" t-value="event.date_end.strftime('%Y-%m-%d')"/>
+<t t-set="x_iso" t-value="event.date_begin.strftime('%Y-%m-%dT%H:%M:%SZ')"/>
+<t t-set="x_samemonth" t-value="event.date_begin.month == event.date_end.month and event.date_begin.year == event.date_end.year"/>
+<t t-set="x_sameyear" t-value="event.date_begin.year == event.date_end.year"/>
+<t t-set="x_img" t-value="{1: '/hb/images/card-event-shaking-online.webp', 2: '/hb/images/card-event-bucharest-module1.webp', 3: '/hb/images/card-event-shaking-to-shaping.webp', 4: '/hb/images/card-event-feminine-masculine.webp', 5: '/hb/images/card-event-body-in-the-room.webp', 6: '/hb/images/card-event-certification-2027.webp', 7: '/hb/images/card-event-transform-practice.webp', 8: '/hb/images/card-event-shaking-to-shaping-sep3.webp', 9: '/hb/images/card-event-internal-alchemy.webp', 10: '/hb/images/card-event-nervous-system.webp', 12: '/hb/images/card-event-breath-as-medicine.webp'}.get(event.id, x_img)"/><a class="ce-rel" t-att-href="x_url"><img t-att-src="x_img" t-att-alt="event.name" loading="lazy" decoding="async"/><div class="b"><strong t-out="event.name"/><span><t t-out="x_loc"/> · <t t-if="event.is_one_day"><t t-out="event.date_begin" t-options="{'widget': 'datetime', 'tz_name': x_tz, 'format': 'd MMM y'}"/> · <t t-out="event.date_begin" t-options="{'widget': 'datetime', 'tz_name': x_tz, 'format': 'h:mm'}"/>–<t t-out="event.date_end" t-options="{'widget': 'datetime', 'tz_name': x_tz, 'format': 'h:mm a'}"/><t t-if="x_online and x_tzl"> <t t-out="x_tzl"/></t></t><t t-elif="x_samemonth"><t t-out="event.date_begin" t-options="{'widget': 'datetime', 'tz_name': x_tz, 'format': 'd'}"/>–<t t-out="event.date_end" t-options="{'widget': 'datetime', 'tz_name': x_tz, 'format': 'd MMM y'}"/></t><t t-else=""><t t-out="event.date_begin" t-options="{'widget': 'datetime', 'tz_name': x_tz, 'format': 'd MMM' if x_sameyear else 'd MMM y'}"/> – <t t-out="event.date_end" t-options="{'widget': 'datetime', 'tz_name': x_tz, 'format': 'd MMM y'}"/></t></span></div></a></t>

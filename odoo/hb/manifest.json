@@ -467,6 +467,48 @@
    "size": 139923
   },
   {
+   "url": "/hb/images/card-event-bucharest-module1.webp",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/card-event-bucharest-module1.webp",
+   "sha1": "a0697b457be71b00c17ec90d54ac09f8eda84ef9",
+   "mimetype": "application/octet-stream",
+   "size": 170450
+  },
+  {
+   "url": "/hb/images/card-event-internal-alchemy.webp",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/card-event-internal-alchemy.webp",
+   "sha1": "02a5d09dcff98065391806de1aabcdad51197476",
+   "mimetype": "application/octet-stream",
+   "size": 130982
+  },
+  {
+   "url": "/hb/images/card-event-nervous-system.webp",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/card-event-nervous-system.webp",
+   "sha1": "b4ee45cc2499b4f3bfd16008cb14e4b0df8e5176",
+   "mimetype": "application/octet-stream",
+   "size": 183116
+  },
+  {
+   "url": "/hb/images/card-event-shaking-to-shaping-sep3.webp",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/card-event-shaking-to-shaping-sep3.webp",
+   "sha1": "639f530703c52760e1debcc58be2e40c73253776",
+   "mimetype": "application/octet-stream",
+   "size": 188258
+  },
+  {
+   "url": "/hb/images/card-event-shaking-to-shaping.webp",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/card-event-shaking-to-shaping.webp",
+   "sha1": "2979bfeb2095546977ed034f9721ca7b9ad19a7e",
+   "mimetype": "application/octet-stream",
+   "size": 189874
+  },
+  {
+   "url": "/hb/images/card-event-transform-practice.webp",
+   "src": "https://raw.githubusercontent.com/technextsg/hummingbeing-website/4d8bb1ad2ed82dd4ad9f633c3ae820b682b6884d/images/card-event-transform-practice.webp",
+   "sha1": "8318da22c067edd4c66cceb73296a957c2a60763",
+   "mimetype": "application/octet-stream",
+   "size": 140942
+  },
+  {
    "url": "/hb/pages/index.css",
    "src": "pages/index.css",
    "sha1": "cb2d61572a4b7fa51c3977db312089218d416062",
@@ -737,6 +779,18 @@
    "inherit": "website_event.event_description_full",
    "name": "HummingBeing event page",
    "arch": "hb_event.xml"
+  },
+  {
+   "key": "hbx.event_card",
+   "inherit": null,
+   "name": "HummingBeing event card",
+   "arch": "hb_card.xml"
+  },
+  {
+   "key": "hbx.rel_card",
+   "inherit": null,
+   "name": "HummingBeing related event card",
+   "arch": "hb_rel.xml"
   }
  ],
  "redirects": {
@@ -744,6 +798,34 @@
   "/index": "/",
   "/contactus": "/book",
   "/contact": "/book",
+  "/event-body-in-the-room": "/event/the-body-in-the-room-5",
+  "/event-body-in-the-room.html": "/event/the-body-in-the-room-5",
+  "/event-breath-as-medicine": "/event/breath-as-a-medicine-12",
+  "/event-breath-as-medicine.html": "/event/breath-as-a-medicine-12",
+  "/event-certification-2027": "/event/become-a-certified-tretm-provider-2027-cohort-6",
+  "/event-certification-2027.html": "/event/become-a-certified-tretm-provider-2027-cohort-6",
+  "/event-2027-module1": "/event/become-a-certified-tretm-provider-2027-cohort-6",
+  "/event-2027-module1.html": "/event/become-a-certified-tretm-provider-2027-cohort-6",
+  "/event-2027-module2": "/event/become-a-certified-tretm-provider-2027-cohort-6",
+  "/event-2027-module2.html": "/event/become-a-certified-tretm-provider-2027-cohort-6",
+  "/event-2027-module3": "/event/become-a-certified-tretm-provider-2027-cohort-6",
+  "/event-2027-module3.html": "/event/become-a-certified-tretm-provider-2027-cohort-6",
+  "/event-certification": "/event/become-a-certified-tretm-provider-2026-cohort-7",
+  "/event-certification.html": "/event/become-a-certified-tretm-provider-2026-cohort-7",
+  "/event-feminine-masculine-energetics": "/event/navigating-feminine-masculine-energetics-4",
+  "/event-feminine-masculine-energetics.html": "/event/navigating-feminine-masculine-energetics-4",
+  "/event-internal-alchemy": "/event/internal-alchemy-introductory-workshop-9",
+  "/event-internal-alchemy.html": "/event/internal-alchemy-introductory-workshop-9",
+  "/event-selfcare-coaches-singapore": "/event/nervous-system-regulation-self-induced-neurogenic-tremoring-10",
+  "/event-selfcare-coaches-singapore.html": "/event/nervous-system-regulation-self-induced-neurogenic-tremoring-10",
+  "/event-shaking-online": "/event/from-shaking-to-shaping-online-1",
+  "/event-shaking-online.html": "/event/from-shaking-to-shaping-online-1",
+  "/event-shaking-to-shaping-sep3": "/event/from-shaking-to-shaping-online-3-sep-8",
+  "/event-shaking-to-shaping-sep3.html": "/event/from-shaking-to-shaping-online-3-sep-8",
+  "/event-shaking-to-shaping": "/event/from-shaking-to-shaping-bucharest-3",
+  "/event-shaking-to-shaping.html": "/event/from-shaking-to-shaping-bucharest-3",
+  "/event-tre-module1-bucharest": "/event/tretm-module-1-bucharest-2",
+  "/event-tre-module1-bucharest.html": "/event/tretm-module-1-bucharest-2",
   "/index.html": "/",
   "/about.html": "/about",
   "/book.html": "/book",
