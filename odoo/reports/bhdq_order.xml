@@ -5,8 +5,8 @@
 <t t-set="site" t-value="{'bhd':'bhdasia.com','hb':'hummingbeing.com','tre':'tre-in-singapore.com'}[brand]"/>
 <t t-set="brand_name" t-value="{'bhd':'BHD Asia','hb':'HummingBeing','tre':'TRE Singapore'}[brand]"/>
 <t t-set="logo_src" t-value="{'bhd':'/web/content/947','hb':'/web/content/1535','tre':'/web/content/1435'}[brand]"/>
-<t t-set="lw" t-value="{'bhd':80,'hb':169,'tre':118}[brand]"/>
-<t t-set="lh" t-value="{'bhd':62,'hb':46,'tre':64}[brand]"/>
+<t t-set="lw" t-value="{'bhd':80,'hb':169,'tre':165}[brand]"/>
+<t t-set="lh" t-value="{'bhd':62,'hb':46,'tre':90}[brand]"/>
 <t t-set="is_quote" t-value="doc.state in ('draft','sent')"/>
 <t t-set="is_cancel" t-value="doc.state == 'cancel'"/>
 <t t-set="is_conf" t-value="doc.state in ('sale','done')"/>
@@ -46,7 +46,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 .bq-bhd td, .bq-bhd th { padding: 0; vertical-align: top; text-align: left; }
 .bq-bhd p { margin: 0; }
 .bq-bhd img { display: block; }
-.bq-bhd .page { position: relative; width: 794px; background: #ffffff; min-height: 1050px; }
+.bq-bhd .page { position: relative; width: 794px; background: #ffffff; min-height: 1064px; }
 .bq-bhd .inner { padding: 0 60px; }
 .bq-bhd .num { text-align: right !important; white-space: nowrap; -webkit-font-feature-settings: "tnum" 1; font-feature-settings: "tnum" 1; }
 .bq-bhd .r { text-align: right; }
@@ -197,7 +197,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 .bq-hb td, .bq-hb th { padding: 0; vertical-align: top; text-align: left; }
 .bq-hb p { margin: 0; }
 .bq-hb img { display: block; }
-.bq-hb .page { position: relative; width: 794px; background: #fafaf8; min-height: 1050px; }
+.bq-hb .page { position: relative; width: 794px; background: #fafaf8; min-height: 1064px; }
 .bq-hb .inner { padding: 0 60px; }
 .bq-hb .num { text-align: right !important; white-space: nowrap; -webkit-font-feature-settings: "tnum" 1; font-feature-settings: "tnum" 1; }
 .bq-hb .r { text-align: right; }
@@ -375,7 +375,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 .bq-tre td, .bq-tre th { padding: 0; vertical-align: top; text-align: left; }
 .bq-tre p { margin: 0; }
 .bq-tre img { display: block; }
-.bq-tre .page { position: relative; width: 794px; background: #faf6ef; min-height: 1050px; }
+.bq-tre .page { position: relative; width: 794px; background: #faf6ef; min-height: 1064px; }
 .bq-tre .inner { padding: 0 60px; }
 .bq-tre .num { text-align: right !important; white-space: nowrap; -webkit-font-feature-settings: "tnum" 1; font-feature-settings: "tnum" 1; }
 .bq-tre .r { text-align: right; }
