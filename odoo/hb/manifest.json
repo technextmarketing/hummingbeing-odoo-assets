@@ -469,142 +469,142 @@
   {
    "url": "/hb/pages/index.css",
    "src": "pages/index.css",
-   "sha1": "4a7cfa4c8600cc1b9eebbe7e6dc1308ccbdf564a",
+   "sha1": "cb2d61572a4b7fa51c3977db312089218d416062",
    "mimetype": "text/css",
-   "size": 38477
+   "size": 38117
   },
   {
    "url": "/hb/pages/index.js",
    "src": "pages/index.js",
-   "sha1": "4a9022f01e4ca7bcbac8fbe5ea68bee202c667f7",
+   "sha1": "7028d83386db32f897cbb5e3d95dc523002540d8",
    "mimetype": "application/javascript",
-   "size": 29256
+   "size": 28688
   },
   {
    "url": "/hb/pages/about.css",
    "src": "pages/about.css",
-   "sha1": "4d0c71539f7161e9bb13c08c37c1d9145e4ad0d8",
+   "sha1": "e592852fba4ef761466fd7fb07acfb210df5f9e4",
    "mimetype": "text/css",
-   "size": 15590
+   "size": 15411
   },
   {
    "url": "/hb/pages/about.js",
    "src": "pages/about.js",
-   "sha1": "0c665f25443a15a13b09672291fde5f936958fa8",
+   "sha1": "2e0b4d535e4995af244daac3cd321382e469f36e",
    "mimetype": "application/javascript",
-   "size": 8860
+   "size": 8676
   },
   {
    "url": "/hb/pages/book.css",
    "src": "pages/book.css",
-   "sha1": "39cd3a1924beb1364bd5716a3332b780607cdcd9",
+   "sha1": "b5de49be0deafd2a206d5e383538f2ec7c219b5a",
    "mimetype": "text/css",
-   "size": 36560
+   "size": 36169
   },
   {
    "url": "/hb/pages/book.js",
    "src": "pages/book.js",
-   "sha1": "66a0dea81713586c71611970c798db2933f1dada",
+   "sha1": "6a82641928a6bc7cdf37782f5ff12bd7f780d92b",
    "mimetype": "application/javascript",
-   "size": 15902
+   "size": 15605
   },
   {
    "url": "/hb/pages/gallery.css",
    "src": "pages/gallery.css",
-   "sha1": "1f07526e3d249a72d597153d46fec2187f2b7a0b",
+   "sha1": "dff7775bc6c700fc126d43ea1d08b329d70f022a",
    "mimetype": "text/css",
-   "size": 27288
+   "size": 26961
   },
   {
    "url": "/hb/pages/gallery.js",
    "src": "pages/gallery.js",
-   "sha1": "833cf4977054b2e25f3e56c252855a1a7b958d9d",
+   "sha1": "1ab913e2f2720da16d0c1672589ce6df5197f1f1",
    "mimetype": "application/javascript",
-   "size": 19496
+   "size": 19109
   },
   {
    "url": "/hb/pages/holistic-mastermind.css",
    "src": "pages/holistic-mastermind.css",
-   "sha1": "82fe16ab813682393ba91e07d93e5c1eeddcd661",
+   "sha1": "d91423e241d73a022e58c17155cfe1894cceea16",
    "mimetype": "text/css",
-   "size": 31858
+   "size": 31527
   },
   {
    "url": "/hb/pages/holistic-mastermind.js",
    "src": "pages/holistic-mastermind.js",
-   "sha1": "37f38cdfb54d427c37da621cb18e1b200626243c",
+   "sha1": "74b6b975e440de76a76b66afceb02c6f33c0e7e3",
    "mimetype": "application/javascript",
-   "size": 11821
+   "size": 11571
   },
   {
    "url": "/hb/pages/isabelle.css",
    "src": "pages/isabelle.css",
-   "sha1": "cf9cc65ac763e12d37c3d97a8bc7cb208ea5db8a",
+   "sha1": "1effdc9a5a9d92fd4f532b4f436ab1cf331f89e7",
    "mimetype": "text/css",
-   "size": 34301
+   "size": 33969
   },
   {
    "url": "/hb/pages/isabelle.js",
    "src": "pages/isabelle.js",
-   "sha1": "4da2a2f1d7016bca5dad4370cf5a017a0375454f",
+   "sha1": "541ce2bdd90213e93c67b3b29752edc0297196e7",
    "mimetype": "application/javascript",
-   "size": 12763
+   "size": 12529
   },
   {
    "url": "/hb/pages/online-session-preparation.css",
    "src": "pages/online-session-preparation.css",
-   "sha1": "b9d9d3bd427c9f92f600c5bdf33a957cb8ea2b84",
+   "sha1": "02023ce57f3d544efa740979d3d096b913302a63",
    "mimetype": "text/css",
-   "size": 5215
+   "size": 5170
   },
   {
    "url": "/hb/pages/online-session-preparation.js",
    "src": "pages/online-session-preparation.js",
-   "sha1": "21f0d1bb651d4a37d9dc374268048f05cd0f3068",
+   "sha1": "912bf4f23cd94dfddcaf265837fbf0f434f1c5d8",
    "mimetype": "application/javascript",
-   "size": 31
+   "size": 30
   },
   {
    "url": "/hb/pages/retreats-workshops.css",
    "src": "pages/retreats-workshops.css",
-   "sha1": "45ce1ca899b83abae8f16e07888f1d7afbc3893a",
+   "sha1": "fa49a9a00addac0baed9f051db27da064bbd3590",
    "mimetype": "text/css",
-   "size": 27182
+   "size": 26904
   },
   {
    "url": "/hb/pages/retreats-workshops.js",
    "src": "pages/retreats-workshops.js",
-   "sha1": "7e9c4007af69b6be04d5c68c9d2f4df42847e7ff",
+   "sha1": "d266db30f25504d55fbcd8ad4ffa8a6a46d65951",
    "mimetype": "application/javascript",
-   "size": 15709
+   "size": 15399
   },
   {
    "url": "/hb/pages/socials.css",
    "src": "pages/socials.css",
-   "sha1": "c9a9d1aba808ec17b1f18f7fc12414cd4b57c9b6",
+   "sha1": "1019b4d74b14ccd114441869f1ea5396ed636f5a",
    "mimetype": "text/css",
-   "size": 27998
+   "size": 27700
   },
   {
    "url": "/hb/pages/socials.js",
    "src": "pages/socials.js",
-   "sha1": "84a63d1788547656b3168ffe376d10d16ed355a5",
+   "sha1": "3601a6a50f104c14b562b118dbafa593c965c47a",
    "mimetype": "application/javascript",
-   "size": 13622
+   "size": 13312
   },
   {
    "url": "/hb/pages/tre-certification.css",
    "src": "pages/tre-certification.css",
-   "sha1": "fc828c577967ed1bba8402e421124cda496db380",
+   "sha1": "7d9e5bc43be33e216f6b31292de52dd10761ea05",
    "mimetype": "text/css",
-   "size": 35639
+   "size": 35272
   },
   {
    "url": "/hb/pages/tre-certification.js",
    "src": "pages/tre-certification.js",
-   "sha1": "ca228b6850068ce89421b08c79cd9e3602d87474",
+   "sha1": "53b04996b20ee29265daf3f93270a55bbbfee253",
    "mimetype": "application/javascript",
-   "size": 14332
+   "size": 14032
   }
  ],
  "pages": [
