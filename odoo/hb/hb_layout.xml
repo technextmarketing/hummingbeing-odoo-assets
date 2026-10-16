@@ -3,21 +3,21 @@
 <header t-if="not no_header" id="top" data-anchor="true" class="hbx xev-head o_no_autohide_menu"><ul class="top_menu" hidden="hidden"/><nav>
 <a class="logo" href="/"><img alt="HummingBeing — Coaching &amp; Somatics" class="logo-on-dark" height="56" src="/hb/images/logo-dark.webp" style="height:56px;width:auto" width="168"/><img alt="HummingBeing — Coaching &amp; Somatics" class="logo-on-light" height="56" src="/hb/images/logo-light.webp" style="height:56px;width:auto" width="168"/></a>
 <ul class="nav-links">
-<li><a href="/">Home</a></li>
-<li><a href="/about">About</a></li>
-<li><a href="/isabelle">Isabelle</a></li>
+<li><a t-att-class="'active' if (request.httprequest.path == '/') else None" href="/">Home</a></li>
+<li><a t-att-class="'active' if (request.httprequest.path == '/about' or request.httprequest.path.startswith('/about/')) else None" href="/about">About</a></li>
+<li><a t-att-class="'active' if (request.httprequest.path == '/isabelle' or request.httprequest.path.startswith('/isabelle/')) else None" href="/isabelle">Isabelle</a></li>
 <li class="nav-dropdown">
 <a class="nav-dropdown-toggle" href="javascript:void(0)">Services <i class="fa-solid fa-chevron-down nav-arrow"/></a>
 <ul class="nav-dropdown-menu">
-<li><a href="/holistic-mastermind">Holistic Mastermind Ecosystem</a></li>
-<li><a href="/tre-certification">Global Certifications</a></li>
-<li><a href="/retreats-workshops">Resilience Retreats</a></li>
+<li><a t-att-class="'active' if (request.httprequest.path == '/holistic-mastermind' or request.httprequest.path.startswith('/holistic-mastermind/')) else None" href="/holistic-mastermind">Holistic Mastermind Ecosystem</a></li>
+<li><a t-att-class="'active' if (request.httprequest.path == '/tre-certification' or request.httprequest.path.startswith('/tre-certification/')) else None" href="/tre-certification">Global Certifications</a></li>
+<li><a t-att-class="'active' if (request.httprequest.path == '/retreats-workshops' or request.httprequest.path.startswith('/retreats-workshops/')) else None" href="/retreats-workshops">Resilience Retreats</a></li>
 </ul>
 </li>
-<li><a href="/socials">Socials</a></li>
-<li><a href="/gallery">Gallery</a></li>
-<li><a class="active" href="/event">Events</a></li>
-<li class="nav-book-mobile"><a href="/book">Book a Session</a></li>
+<li><a t-att-class="'active' if (request.httprequest.path == '/socials' or request.httprequest.path.startswith('/socials/')) else None" href="/socials">Socials</a></li>
+<li><a t-att-class="'active' if (request.httprequest.path == '/gallery' or request.httprequest.path.startswith('/gallery/')) else None" href="/gallery">Gallery</a></li>
+<li><a t-att-class="'active' if (request.httprequest.path == '/event' or request.httprequest.path.startswith('/event/')) else None" href="/event">Events</a></li>
+<li class="nav-book-mobile"><a t-att-class="'active' if (request.httprequest.path == '/book' or request.httprequest.path.startswith('/book/')) else None" href="/book">Book a Session</a></li>
 </ul>
 <div class="nav-actions">
 <a class="nav-cta" href="/book">Book a Session</a>

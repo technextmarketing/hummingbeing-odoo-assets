@@ -51,7 +51,7 @@ window.XD = async function (base, opts) {
   // 3) pages (the homepage replaces Odoo's blank starter page of this website)
   for (const p of man.pages) {
     const arch = await text(p.arch);
-    const meta = {website_meta_title: p.title, website_meta_description: p.description, is_published: true, website_indexed: true};
+    const meta = {website_meta_title: p.title, website_meta_description: p.description, is_published: true, website_indexed: p.indexed !== false};
     if (p.og) meta.website_meta_og_img = p.og;
     const cur = (await sr('website.page', [['url', '=', p.url], ['website_id', '=', W]], ['id']))[0];
     const vals = p.url === '/' ? Object.assign(meta, {arch: arch, name: 'Home'})
@@ -79,13 +79,13 @@ window.XD = async function (base, opts) {
     s = s.replace(CONT_RE, (m, id) => { const a = i[+id]; if (!a) return m; const nw = curl(a); if (nw !== m) n++; return nw; });
     s = s.replace(PATH_RE, m => { const a = u[m.split('?')[0]]; if (!a) return m; n++; return curl(a); });
     return [s, n]; };
-  if (!DRY) {
+  if (!DRY && man.cache !== false) {
     let [u, i] = await atts();
     for (const a of Object.values(u)) {                      // stylesheets + scripts first (they point at images/video)
       if (!/\.(css|js)$/.test(a.url)) continue;
       const src = await (await fetch('/web/content/' + a.id + '?unique=' + a.checksum.slice(0, 12))).text();
       const [nw, n] = rewrite(src, u, i);
-      if (n) { await write('ir.attachment', [a.id], {raw: await b64txt(nw)}); out.cache += n; }
+      if (n) { await write('ir.attachment', [a.id], {raw: await b64txt(nw), mimetype: a.url.endsWith('.css') ? 'text/css' : 'application/javascript'}); out.cache += n; }
     }
     [u, i] = await atts();
     const w = (await sr('website', [['id', '=', W]], ['custom_code_head', 'custom_code_footer']))[0];

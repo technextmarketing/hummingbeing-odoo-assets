@@ -1,0 +1,381 @@
+<t t-name="trex.page_blog"><t t-call="web.layout"><t t-set="html_data" t-value="{'lang': 'en-SG'}"/><t t-set="title">TRE™ Blog — Trauma Release, Stress &amp; the Nervous System</t><t t-set="head"><script src="/assets/js/odoo-forms.js"></script><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="description" content="Plain-language articles on TRE&#x2122; (Tension &amp; Trauma Releasing Exercises), neurogenic tremors, nervous-system regulation and practising TRE&#x2122; in Singapore."/><link rel="canonical" href="https://tre-in-singapore.com/blog"/><meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"/><meta property="og:locale" content="en_SG"/><meta property="og:site_name" content="TRE&#x2122; in Singapore"/><meta property="og:type" content="website"/><meta property="og:title" content="TRE&#x2122; Blog &#x2014; Trauma Release, Stress &amp; the Nervous System"/><meta property="og:description" content="Plain-language articles on TRE&#x2122; (Tension &amp; Trauma Releasing Exercises), neurogenic tremors, nervous-system regulation and practising TRE&#x2122; in Singapore."/><meta property="og:url" content="https://tre-in-singapore.com/blog"/><meta property="og:image" content="https://tre-in-singapore.com/assets/img/og/blog.jpg"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="TRE&#x2122; Blog &#x2014; Trauma Release, Stress &amp; the Nervous System"/><meta name="twitter:description" content="Plain-language articles on TRE&#x2122; (Tension &amp; Trauma Releasing Exercises), neurogenic tremors, nervous-system regulation and practising TRE&#x2122; in Singapore."/><meta name="twitter:image" content="https://tre-in-singapore.com/assets/img/og/blog.jpg"/><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://tre-in-singapore.com/#org","name":"TRE™ in Singapore","alternateName":["TRE Singapore","TRE in Singapore"],"url":"https://tre-in-singapore.com/","logo":{"@type":"ImageObject","url":"https://tre-in-singapore.com/assets/img/logo-tre-singapore.png"},"image":"https://tre-in-singapore.com/assets/img/og-cover.jpg","description":"The home of TRE™ (Tension and Trauma Releasing Exercises) in Singapore: certified providers, Global TRE™ Provider Certification, workshops, practice circles and resources.","email":"bonjour@bhdasia.com","telephone":"+81 80 6515 1778","address":{"@type":"PostalAddress","streetAddress":"50 Raffles Place, #30-00 Singapore Land Tower","addressLocality":"Singapore","postalCode":"048623","addressCountry":"SG"},"areaServed":{"@type":"Country","name":"Singapore"},"founder":{"@id":"https://tre-in-singapore.com/#isabelle"},"parentOrganization":{"@type":"Organization","name":"Business &amp; Human Development Consulting Pte Ltd","alternateName":"BHD Asia","url":"https://bhdasia.com/","sameAs":["https://www.facebook.com/bhdasia/"]},"knowsAbout":["Tension and Trauma Releasing Exercises (TRE)","Neurogenic tremors","Nervous system regulation","Stress and trauma release","TRE provider certification"]},{"@type":"WebSite","@id":"https://tre-in-singapore.com/#website","url":"https://tre-in-singapore.com/","name":"TRE™ in Singapore","alternateName":"TRE Singapore","inLanguage":"en-SG","publisher":{"@id":"https://tre-in-singapore.com/#org"}},{"@type":"Person","@id":"https://tre-in-singapore.com/#isabelle","name":"Isabelle Claus Teixeira","url":"https://tre-in-singapore.com/facilitators/isabelle-claus-teixeira","jobTitle":["Global TRE™ Certifying Trainer","ICF PCC Executive Coach","Mindfulness Teacher"],"image":"https://tre-in-singapore.com/assets/img/facilitators/isabelle-her-story.jpg","sameAs":["https://www.linkedin.com/in/isabelleclausteixeira/","https://www.instagram.com/isabelleclausteixeira_bhd/","https://www.youtube.com/@IsabelleClausTeixeira","https://www.facebook.com/bhdasia/","https://bhdasia.com","https://hummingbeing.com/"],"worksFor":{"@id":"https://tre-in-singapore.com/#org"}},{"@type":"CollectionPage","@id":"https://tre-in-singapore.com/blog#webpage","url":"https://tre-in-singapore.com/blog","name":"TRE™ Blog — Trauma Release, Stress &amp; the Nervous System","description":"Plain-language articles on TRE™ (Tension &amp; Trauma Releasing Exercises), neurogenic tremors, nervous-system regulation and practising TRE™ in Singapore.","isPartOf":{"@id":"https://tre-in-singapore.com/#website"},"about":{"@id":"https://tre-in-singapore.com/#org"},"inLanguage":"en-SG","primaryImageOfPage":{"@type":"ImageObject","url":"https://tre-in-singapore.com/assets/img/og/blog.jpg"},"breadcrumb":{"@id":"https://tre-in-singapore.com/blog#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://tre-in-singapore.com/blog#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://tre-in-singapore.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://tre-in-singapore.com/blog"}]},{"@type":"ItemList","@id":"https://tre-in-singapore.com/blog#list","name":"TRE™ articles","numberOfItems":6,"itemListElement":[{"@type":"ListItem","position":1,"url":"https://tre-in-singapore.com/blog/what-is-tre","name":"What is TRE™? Tension &amp; Trauma Releasing Exercises Explained"},{"@type":"ListItem","position":2,"url":"https://tre-in-singapore.com/blog/science-of-neurogenic-tremors","name":"Why the Body Shakes: The Science of Neurogenic Tremors"},{"@type":"ListItem","position":3,"url":"https://tre-in-singapore.com/blog/your-first-tre-session","name":"Your First TRE™ Session in Singapore: How to Prepare"},{"@type":"ListItem","position":4,"url":"https://tre-in-singapore.com/blog/tre-for-coaches","name":"TRE™ for Coaches: From Shaking to Shaping"},{"@type":"ListItem","position":5,"url":"https://tre-in-singapore.com/blog/nervous-system-habits-for-the-workday","name":"Five Nervous-System Habits for Singapore's Workday"},{"@type":"ListItem","position":6,"url":"https://tre-in-singapore.com/blog/from-provider-to-certifying-trainer","name":"From Provider to Certifying Trainer: Isabelle's TRE™ Journey"}]}]}</script><meta name="theme-color" content="#1c3d7a"/><link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg"/><link rel="preload" href="assets/fonts/plus-jakarta-sans-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="assets/css/style.css?v=20261014a"/><link rel="stylesheet" href="assets/css/layer.css?v=20261014a"/><script>document.documentElement.classList.add('js');try{if(localStorage.getItem('tre-motion')==='paused')document.documentElement.classList.add('motion-paused')}catch(e){}(function(){try{var p=location.pathname,c=p.replace(/\/index\.html$/,'/').replace(/\.html$/,'');if(c!==p)history.replaceState(history.state,'',c+location.search+location.hash)}catch(e){}})();</script></t><a class="sr-only" href="#main">Skip to content</a><header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="./" aria-label="TRE™ in Singapore — home">
+      <img class="brand-logo" src="assets/img/logo-tre-singapore-214.webp" srcset="assets/img/logo-tre-singapore-214.webp 214w, assets/img/logo-tre-singapore-321.webp 321w" sizes="(max-width: 760px) 78px, 107px" alt="TRE™ in Singapore" width="107" height="58" decoding="async"/>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">
+      <span/><span/><span/>
+    </button>
+    <nav class="nav" id="site-nav" aria-label="Main navigation">
+      <a href="./">Home</a>
+      <a href="about">About</a>
+      <a href="education">Education</a>
+      <a href="facilitators">Providers</a>
+      <a href="events">Events</a>
+      <a href="blog" class="active">Blog</a>
+      <a href="contact">Contact</a>
+      <a class="btn btn-primary btn-sm" href="https://calendly.com/bhdasia/tre-certification-intake-call" target="_blank" rel="noopener">Book a call</a>
+    </nav>
+  </div>
+</header><main id="main">
+<style id="bl-css">
+/* ===== Blog listing (bl-): the reading index below the finished hero ===== */
+.bl-index{padding:var(--s9) 0}
+.bl-index .bl-t{color:inherit;text-decoration:none;background:linear-gradient(var(--gold),var(--gold)) 0 100%/0 2px no-repeat;transition:background-size .6s var(--ease-out)}
+.bl-index .bl-t::after{content:"";position:absolute;inset:0;z-index:3}
+.bl-index .bl-t:focus-visible{outline:none}
+.bl-index .btn,.bl-index .link-arrow,.bl-index .tre-term{position:relative;z-index:4}
+.bl-feature:hover .bl-t,.bl-card:hover .bl-t,.bl-index .bl-t:focus-visible{background-size:100% 2px}
+.bl-feature:has(.bl-t:focus-visible),.bl-card:has(.bl-t:focus-visible){outline:3px solid var(--gold);outline-offset:4px}
+
+/* featured story: a large photo window and the headline, unboxed */
+.bl-feature{position:relative;display:grid;grid-template-columns:minmax(0,1.22fr) minmax(0,1fr);gap:clamp(28px,5vw,72px);align-items:center;border-radius:var(--radius)}
+.bl-feature-media{position:relative;margin:0;aspect-ratio:5/4;border-radius:var(--radius);overflow:hidden;background:var(--navy-ink);box-shadow:var(--shadow-2)}
+.bl-feature-media img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 24%;scale:1.04;translate:var(--dx,0px) var(--dy,0px);transition:scale 1.4s var(--ease-out)}
+.bl-feature:hover .bl-feature-media img{scale:1.08}
+.bl-feature-media::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,rgba(var(--ink-wash),.3) 0%,rgba(var(--ink-wash),0) 26%)}
+.bl-feature-media .badge{position:absolute;left:18px;top:18px;z-index:1;background:var(--gold);color:var(--navy-ink)}
+.bl-feature h2{font-size:clamp(2rem,3.4vw,2.8rem);line-height:1.07;letter-spacing:-.025em;margin:0 0 1.1rem;max-width:15ch}
+.bl-feature h2 .bl-t{color:var(--navy)}
+.bl-feature .post-meta{font-size:.88rem}
+.bl-feature p{font-size:1.1rem;line-height:1.62;color:var(--ink-2);max-width:40ch;margin:1rem 0 0}
+.bl-feature .btn-row{margin-top:1.8rem}
+
+/* the index: cards change scale with importance, every one a real photo */
+.bl-grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:var(--s5);margin-top:var(--s9)}
+.bl-card{position:relative;isolation:isolate;display:flex;flex-direction:column;justify-content:flex-end;min-width:0;border-radius:var(--radius);overflow:hidden;background:var(--navy-ink);color:#fff;box-shadow:var(--shadow-1);transition:box-shadow var(--d2) var(--ease),border-color var(--d2) var(--ease)}
+.bl-card:hover{box-shadow:var(--shadow-2)}
+.bl-media{position:absolute;inset:0;z-index:-2;margin:0}
+.bl-media img{display:block;width:100%;height:100%;object-fit:cover;scale:1.02;transition:scale 1.4s var(--ease-out)}
+.bl-card:hover .bl-media img{scale:1.07}
+.bl-card::before,.bl-card::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none}
+.bl-card::before{background:linear-gradient(180deg,rgba(var(--ink-wash),.24) 0%,rgba(var(--ink-wash),0) 24%,rgba(var(--ink-wash),.16) 46%,rgba(var(--ink-wash),.9) 100%)}
+.bl-card::after{background:rgba(var(--ink-wash),.34);opacity:0;transition:opacity var(--d2) var(--ease)}
+.bl-card:hover::after,.bl-card:focus-within::after{opacity:1}
+.bl-tag{position:absolute;left:16px;top:16px;z-index:2;line-height:0}
+.bl-tag .badge{background:var(--gold);color:var(--navy-ink)}
+.bl-body{display:flex;flex-direction:column;gap:.45rem;padding:var(--s5);min-width:0}
+.bl-card h3{margin:0;color:#fff;font-size:1.24rem;line-height:1.25;max-width:26ch;text-shadow:0 1px 18px rgba(var(--ink-wash),.45)}
+.bl-card .post-meta{color:var(--on-navy);font-size:.82rem}
+.bl-lede{display:grid;grid-template-rows:1fr;transition:grid-template-rows var(--d2) var(--ease-out),opacity var(--d2) var(--ease-out)}
+.bl-lede &gt; div{min-height:0;overflow:hidden}
+.bl-lede p{margin:.25rem 0 0;color:#e6ecf7;font-size:.96rem;line-height:1.55;max-width:46ch}
+.bl-card .link-arrow{color:#fff;min-height:40px;padding:.35rem 0 0}
+.bl-card .link-arrow::after{background:var(--gold)}
+
+.bl-lg{grid-column:span 7;grid-row:span 2;min-height:440px}
+.bl-lg .bl-body{padding:var(--s6);gap:.6rem}
+.bl-lg h3{font-size:clamp(1.55rem,2.4vw,2.05rem);line-height:1.12;letter-spacing:-.02em;max-width:17ch}
+.bl-lg .bl-lede p{font-size:1.04rem;max-width:40ch}
+.bl-ov{grid-column:span 5;aspect-ratio:3/2}
+.bl-row{grid-column:span 6;display:grid;grid-template-columns:minmax(0,.82fr) minmax(0,1.18fr);justify-content:normal;min-height:236px;background:#fff;color:var(--ink);border:1px solid var(--line-2)}
+.bl-row::before,.bl-row::after{content:none}
+.bl-row:hover{border-color:rgba(28,61,122,.16)}
+.bl-row .bl-media{position:relative;inset:auto;z-index:0}
+.bl-row .bl-body{justify-content:flex-start;padding:var(--s5) var(--s5) var(--s4)}
+.bl-row h3{color:var(--navy);font-size:1.12rem;line-height:1.3;text-shadow:none}
+.bl-row .post-meta{color:var(--muted)}
+.bl-row .bl-lede p{color:var(--muted);font-size:.94rem}
+.bl-row .link-arrow{color:var(--navy)}
+.bl-row .link-arrow::after{background:var(--bronze)}
+
+/* hover (and keyboard focus) reveals the lede on the photo cards; touch sees it by default */
+@media (hover:hover) and (pointer:fine) and (min-width:641px){
+  .bl-ov .bl-lede{grid-template-rows:0fr;opacity:0}
+  .bl-ov:hover .bl-lede,.bl-ov:focus-within .bl-lede{grid-template-rows:1fr;opacity:1}
+}
+
+@media (max-width:980px){
+  .bl-feature{grid-template-columns:1fr;gap:var(--s5)}
+  .bl-feature-media{aspect-ratio:16/10}
+  .bl-feature h2{max-width:22ch}
+  .bl-feature p{max-width:60ch}
+  .bl-grid{grid-template-columns:repeat(2,minmax(0,1fr));margin-top:var(--s8)}
+  .bl-lg{grid-column:1/-1;grid-row:auto;min-height:0;aspect-ratio:16/10}
+  .bl-ov{grid-column:span 1;aspect-ratio:4/5}
+  .bl-row{grid-column:1/-1}
+}
+@media (max-width:640px){
+  .bl-index{padding:var(--s8) 0}
+  .bl-feature-media{aspect-ratio:4/3}
+  .bl-feature h2{font-size:clamp(1.7rem,7.4vw,2.1rem)}
+  .bl-feature p{font-size:1.02rem}
+  .bl-grid{grid-template-columns:1fr;gap:var(--s4);margin-top:var(--s7)}
+  .bl-lg{aspect-ratio:4/5}
+  .bl-lg .bl-body{padding:var(--s5)}
+  /* the rest become a compact list: thumbnail + words */
+  .bl-ov,.bl-row{grid-column:1/-1;aspect-ratio:auto;display:grid;grid-template-columns:104px minmax(0,1fr);justify-content:normal;min-height:0;background:#fff;color:var(--ink);border:1px solid var(--line-2)}
+  .bl-ov::before,.bl-ov::after{content:none}
+  .bl-ov .bl-media,.bl-row .bl-media{position:relative;inset:auto;z-index:0}
+  .bl-ov .bl-body,.bl-row .bl-body{justify-content:flex-start;padding:14px 16px 10px}
+  .bl-ov h3,.bl-row h3{color:var(--navy);font-size:1.02rem;line-height:1.3;text-shadow:none}
+  .bl-ov .post-meta,.bl-row .post-meta{color:var(--muted);font-size:.78rem}
+  .bl-ov .bl-lede p,.bl-row .bl-lede p{color:var(--muted);font-size:.9rem}
+  .bl-ov .link-arrow,.bl-row .link-arrow{color:var(--navy)}
+  .bl-ov .link-arrow::after,.bl-row .link-arrow::after{background:var(--bronze)}
+  .bl-ov .bl-tag,.bl-row .bl-tag{left:6px;top:6px}
+  .bl-ov .bl-tag .badge,.bl-row .bl-tag .badge{font-size:.7rem;padding:.24rem .46rem;letter-spacing:.03em}
+}
+@media (max-width:359px){
+  .bl-ov,.bl-row{grid-template-columns:1fr}
+  .bl-ov .bl-media,.bl-row .bl-media{aspect-ratio:16/9}
+}
+
+/* newsletter + close on the cream reading ground */
+.bl-end{background:var(--cream);padding:var(--s9) 0 88px}
+.bl-news{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:var(--s6) var(--s8);align-items:center}
+.bl-news h2{font-size:clamp(1.5rem,2.5vw,2rem);margin:0 0 .7rem;max-width:18ch}
+.bl-news-copy p{color:var(--muted);max-width:44ch;margin:0}
+.bl-news-form{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:var(--s5);box-shadow:var(--shadow-1)}
+.bl-news-form .badge{margin:0 0 1rem}
+.bl-news-form input[type="email"]{transition:border-color var(--d2) var(--ease),box-shadow var(--d2) var(--ease)}
+.bl-news-form input[type="email"]:focus{outline:none;border-color:var(--navy)!important;box-shadow:0 0 0 4px rgba(28,61,122,.12)}
+.bl-news-form .btn{min-height:48px}
+.cta-band.bl-band{display:block;margin-top:var(--s8);padding:var(--s7) var(--s7) calc(var(--s7) + 28px)}
+.bl-band-top{display:flex;align-items:center;justify-content:space-between;gap:var(--s5) var(--s6);flex-wrap:wrap}
+.bl-band-top h2{margin:0 0 .45rem}
+.bl-band .btn-row{margin:0}
+.bl-paths{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:var(--s5) var(--s7);margin-top:var(--s6);padding-top:var(--s6);box-shadow:inset 0 1px 0 rgba(255,255,255,.14)}
+.bl-path h3{color:#fff;font-size:1.14rem;margin:0 0 .9rem}
+.bl-path .btn-row{gap:.6rem 1.3rem;align-items:center}
+.bl-band .link-arrow{color:#fff}
+.bl-band .link-arrow::after{background:var(--gold)}
+.bl-band .link-arrow:hover{color:var(--gold)}
+.bl-band .bl-lines{position:absolute;left:0;right:0;bottom:0;width:100%;height:56px;pointer-events:none;z-index:0;opacity:.55}
+.bl-lines path{fill:none;stroke:var(--gold);stroke-width:1.6;stroke-linecap:round}
+.bl-lines path:nth-child(2){stroke:var(--on-navy);opacity:.5}
+.bl-lines path:nth-child(3){opacity:.55}
+@media (max-width:760px){
+  .bl-end{padding:var(--s8) 0 72px}
+  .bl-news{grid-template-columns:1fr;gap:var(--s5)}
+  .cta-band.bl-band{padding:var(--s6) var(--s5) calc(var(--s6) + 44px)}
+  .bl-paths{grid-template-columns:1fr}
+}
+@media (max-width:640px){
+  .bl-news-form input[type="email"]{flex:1 1 100%!important}
+  .bl-news-form .btn{flex:1 1 100%}
+}
+
+/* entrance: armed by the script only below the fold, so the page is complete without JS */
+.bl-arm{opacity:0;translate:0 18px;filter:blur(3px)}
+.bl-arm.bl-in{opacity:1;translate:0 0;filter:none;transition:opacity .8s var(--ease-out) var(--bl-d,0ms),translate .8s var(--ease-out) var(--bl-d,0ms),filter .8s var(--ease-out) var(--bl-d,0ms)}
+@media (prefers-reduced-motion:reduce){
+  .bl-arm{opacity:1;translate:none;filter:none}
+  .bl-media img,.bl-feature-media img{transition:none}
+  .bl-card:hover .bl-media img{scale:1.02}
+  .bl-feature:hover .bl-feature-media img{scale:1.04}
+}
+</style>
+
+<section class="page-hero hx hx-blog" style="--fx:55%;--fy:62%;--fx-m:52%;--lines-end:.38">
+  <div class="hx-media" aria-hidden="true"><picture><source type="image/avif" srcset="assets/img/gallery/hero-blog-960.avif 960w, assets/img/gallery/hero-blog-1600.avif 1600w" sizes="(max-width: 760px) 50vw, 100vw"><img class="hx-photo" src="assets/img/gallery/hero-blog-1600.webp" srcset="assets/img/gallery/hero-blog-960.webp 960w, assets/img/gallery/hero-blog-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 100vw" width="1600" height="1200" alt="" fetchpriority="high" decoding="async"/></source></picture></div>
+  <div class="hx-wash" aria-hidden="true"/>
+  <canvas class="hx-tremor" aria-hidden="true"/>
+  <div class="container hx-inner">
+      <h1>Learn, prepare, <span class="accent-gold">practise</span></h1>
+      <p>Plain-language articles on TRE™, the nervous system and life as a practitioner in Singapore — written for beginners, coaches, HR teams and certified providers alike.</p>
+  </div>
+  <p class="hx-credit">TRE™ Module 1 · January 2026</p>
+</section>
+
+<section class="bl-index">
+  <div class="container">
+    <!-- ===== FEATURED: the newest story ===== -->
+    <article class="bl-feature">
+      <figure class="bl-feature-media"><picture><source type="image/avif" srcset="assets/img/blog/from-provider-to-certifying-trainer-800.avif 800w, assets/img/blog/from-provider-to-certifying-trainer.avif 1600w" sizes="(max-width: 980px) 92vw, 56vw"><img src="assets/img/blog/from-provider-to-certifying-trainer.jpg" srcset="assets/img/blog/from-provider-to-certifying-trainer-800.webp 800w, assets/img/blog/from-provider-to-certifying-trainer.jpg 1600w" sizes="(max-width: 980px) 92vw, 56vw" width="1600" height="900" alt="Isabelle Claus Teixeira leading a TRE™ session" loading="lazy" decoding="async"/></source></picture><span class="badge badge-gold">Community</span></figure>
+      <div class="bl-feature-body">
+        <h2><a class="bl-t" href="blog/from-provider-to-certifying-trainer">From Provider to Certifying Trainer: Isabelle's TRE™ journey</a></h2>
+        <div class="post-meta"><span>29 July 2026</span><span>·</span><span>6 min read</span></div>
+        <p>From a first tremor session in 2017 to accreditation as a Global TRE™ Certifying Trainer in 2025 — and why that matters for practitioners in Singapore.</p>
+        <div class="btn-row"><a class="btn btn-navy" href="blog/from-provider-to-certifying-trainer">Read the story</a></div>
+      </div>
+    </article>
+
+    <!-- ===== INDEX: the plain-language guide leads, the rest vary in scale ===== -->
+    <div class="bl-grid">
+      <article class="bl-card bl-lg">
+        <div class="bl-media"><picture><source type="image/avif" srcset="assets/img/blog/what-is-tre-800.avif 800w, assets/img/blog/what-is-tre.avif 1600w" sizes="(max-width: 640px) 100vw, (max-width: 980px) 92vw, 56vw"><img src="assets/img/blog/what-is-tre.jpg" srcset="assets/img/blog/what-is-tre-800.webp 800w, assets/img/blog/what-is-tre.jpg 1600w" sizes="(max-width: 640px) 100vw, (max-width: 980px) 92vw, 56vw" width="1600" height="900" alt="A person resting on a mat, letting the body settle into a gentle tremor" loading="lazy" decoding="async" style="object-position:44% 50%"/></source></picture></div>
+        <div class="bl-tag"><span class="badge badge-gold">Beginners</span></div>
+        <div class="bl-body">
+          <h3><a class="bl-t" href="blog/what-is-tre">What is TRE™? A plain-language guide</a></h3>
+          <div class="post-meta"><span>14 Jan 2026</span><span>·</span><span>6 min</span></div>
+          <div class="bl-lede"><div><p>The seven exercises, the tremor reflex, and what a session actually feels like.</p><a class="link-arrow" href="blog/what-is-tre">Read</a></div></div>
+        </div>
+      </article>
+      <article class="bl-card bl-ov">
+        <div class="bl-media"><picture><source type="image/avif" srcset="assets/img/blog/science-of-neurogenic-tremors-800.avif 800w, assets/img/blog/science-of-neurogenic-tremors.avif 1600w" sizes="(max-width: 640px) 104px, (max-width: 980px) 46vw, 40vw"><img src="assets/img/blog/science-of-neurogenic-tremors.jpg" srcset="assets/img/blog/science-of-neurogenic-tremors-800.webp 800w, assets/img/blog/science-of-neurogenic-tremors.jpg 1600w" sizes="(max-width: 640px) 104px, (max-width: 980px) 46vw, 40vw" width="1600" height="900" alt="A person with eyes closed, breathing calmly" loading="lazy" decoding="async" style="object-position:52% 36%"/></source></picture></div>
+        <div class="bl-tag"><span class="badge badge-gold">Science</span></div>
+        <div class="bl-body">
+          <h3><a class="bl-t" href="blog/science-of-neurogenic-tremors">Why the body shakes: the science behind neurogenic tremors</a></h3>
+          <div class="post-meta"><span>18 Feb 2026</span><span>·</span><span>7 min</span></div>
+          <div class="bl-lede"><div><p>The stress response, the psoas and polyvagal theory — without the jargon.</p><a class="link-arrow" href="blog/science-of-neurogenic-tremors">Read</a></div></div>
+        </div>
+      </article>
+      <article class="bl-card bl-ov">
+        <div class="bl-media"><picture><source type="image/avif" srcset="assets/img/blog/your-first-tre-session-800.avif 800w, assets/img/blog/your-first-tre-session.avif 1600w" sizes="(max-width: 640px) 104px, (max-width: 980px) 46vw, 40vw"><img src="assets/img/blog/your-first-tre-session.jpg" srcset="assets/img/blog/your-first-tre-session-800.webp 800w, assets/img/blog/your-first-tre-session.jpg 1600w" sizes="(max-width: 640px) 104px, (max-width: 980px) 46vw, 40vw" width="1600" height="900" alt="A person sitting comfortably on a mat before a TRE™ session" loading="lazy" decoding="async" style="object-position:38% 30%"/></source></picture></div>
+        <div class="bl-tag"><span class="badge badge-gold">Beginners</span></div>
+        <div class="bl-body">
+          <h3><a class="bl-t" href="blog/your-first-tre-session">Preparing for your first TRE™ session in Singapore</a></h3>
+          <div class="post-meta"><span>25 Mar 2026</span><span>·</span><span>5 min</span></div>
+          <div class="bl-lede"><div><p>What to wear, what to bring, what to expect — and how to look after yourself afterwards.</p><a class="link-arrow" href="blog/your-first-tre-session">Read</a></div></div>
+        </div>
+      </article>
+      <article class="bl-card bl-row">
+        <div class="bl-media"><picture><source type="image/avif" srcset="assets/img/blog/tre-for-coaches-800.avif 800w, assets/img/blog/tre-for-coaches.avif 1600w" sizes="(max-width: 640px) 104px, (max-width: 980px) 40vw, 20vw"><img src="assets/img/blog/tre-for-coaches.jpg" srcset="assets/img/blog/tre-for-coaches-800.webp 800w, assets/img/blog/tre-for-coaches.jpg 1600w" sizes="(max-width: 640px) 104px, (max-width: 980px) 40vw, 20vw" width="1600" height="900" alt="A coach and client in an attentive one-to-one conversation" loading="lazy" decoding="async" style="object-position:58% 45%"/></source></picture></div>
+        <div class="bl-tag"><span class="badge badge-gold">Practitioners</span></div>
+        <div class="bl-body">
+          <h3><a class="bl-t" href="blog/tre-for-coaches">From Shaking to Shaping: why coaches are adding TRE™ to their practice</a></h3>
+          <div class="post-meta"><span>6 May 2026</span><span>·</span><span>5 min</span></div>
+          <div class="bl-lede"><div><p>Self-care against secondary stress, a body-based tool for clients, and 21 ICF CCEUs.</p><a class="link-arrow" href="blog/tre-for-coaches">Read</a></div></div>
+        </div>
+      </article>
+      <article class="bl-card bl-row">
+        <div class="bl-media"><picture><source type="image/avif" srcset="assets/img/blog/nervous-system-habits-for-the-workday-800.avif 800w, assets/img/blog/nervous-system-habits-for-the-workday.avif 1600w" sizes="(max-width: 640px) 104px, (max-width: 980px) 40vw, 20vw"><img src="assets/img/blog/nervous-system-habits-for-the-workday.jpg" srcset="assets/img/blog/nervous-system-habits-for-the-workday-800.webp 800w, assets/img/blog/nervous-system-habits-for-the-workday.jpg 1600w" sizes="(max-width: 640px) 104px, (max-width: 980px) 40vw, 20vw" width="1600" height="900" alt="A professional pausing to reset during the workday" loading="lazy" decoding="async" style="object-position:52% 40%"/></source></picture></div>
+        <div class="bl-tag"><span class="badge badge-gold">Wellbeing</span></div>
+        <div class="bl-body">
+          <h3><a class="bl-t" href="blog/nervous-system-habits-for-the-workday">Five nervous-system habits for Singapore's fast-paced workday</a></h3>
+          <div class="post-meta"><span>17 Jun 2026</span><span>·</span><span>4 min</span></div>
+          <div class="bl-lede"><div><p>Small, realistic practices for the MRT, the open-plan office and the late-night call.</p><a class="link-arrow" href="blog/nervous-system-habits-for-the-workday">Read</a></div></div>
+        </div>
+      </article>
+    </div>
+
+  </div>
+</section>
+
+<section class="bl-end">
+  <div class="container">
+    <!-- ===== NEWSLETTER (form unchanged) ===== -->
+    <div class="bl-news">
+      <div class="bl-news-copy">
+        <h2>New articles and event dates, monthly</h2>
+        <p>One email a month with new posts, upcoming events in Singapore and certification news. No spam, unsubscribe any time.</p>
+      </div>
+      <div class="bl-news-form">
+        <span class="badge badge-gold">Newsletter</span>
+        <form action="https://formsubmit.co/bonjour@bhdasia.com" method="post" style="display:flex;gap:.5rem;flex-wrap:wrap">
+          <input type="hidden" name="_subject" value="New newsletter signup — TRE Singapore"/>
+          <input type="hidden" name="_template" value="table"/>
+          <input type="hidden" name="_next" value="https://tre-in-singapore.com/blog?subscribed=1"/>
+          <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off"/>
+          <label class="sr-only" for="nl-email">Email address</label>
+          <input id="nl-email" name="email" type="email" required="" placeholder="you@example.com" style="flex:1;min-width:160px;font:inherit;padding:.7rem .9rem;border:1px solid var(--line);border-radius:8px"/>
+          <button class="btn btn-navy btn-sm" type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- ===== CLOSE: suggest a topic, and both paths ===== -->
+    <div class="cta-band bl-band">
+      <svg class="bl-lines" viewbox="0 50 1200 90" preserveaspectratio="none" aria-hidden="true" focusable="false"><path data-draw="" data-draw-dur="1600" d="M-20 64 Q85 53.7 190 64 Q295 76.5 400 64 Q505 50.1 610 64 Q715 77.7 820 64 Q925 51.8 1030 64 Q1135 73.9 1240 64"/><path data-draw="" data-draw-dur="1600" d="M-20 98 Q110 105.6 240 98 Q370 88.6 500 98 Q630 108 760 98 Q890 89.1 1020 98 Q1130 104.8 1240 98"/><path data-draw="" data-draw-dur="1600" d="M-20 128 Q70 121.7 160 128 Q250 135.4 340 128 Q430 120.1 520 128 Q610 135.9 700 128 Q790 120.8 880 128 Q970 134.1 1060 128 Q1150 123 1240 128"/></svg>
+      <div class="bl-band-top">
+        <div>
+          <h2>Have a topic in mind?</h2>
+          <p>Certified providers in Singapore are welcome to contribute articles and case reflections. Tell us what you would like to read or write about.</p>
+        </div>
+        <div class="btn-row"><a class="btn btn-primary" href="contact?interest=other">Suggest a topic</a></div>
+      </div>
+      <div class="bl-paths">
+        <div class="bl-path">
+          <h3>Ready to learn the full practice?</h3>
+          <div class="btn-row"><a class="btn btn-ghost-light" href="facilitators">Find a certified provider</a><a class="link-arrow" href="events">See upcoming events</a></div>
+        </div>
+        <div class="bl-path">
+          <h3>Thinking about certification?</h3>
+          <div class="btn-row"><a class="btn btn-ghost-light" href="https://calendly.com/bhdasia/tre-certification-intake-call" target="_blank" rel="noopener">Book a certification intake call</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+(function(){ 'use strict';
+  function init(){
+    var L = window.TRELayer || null, R = !L || L.reduced;
+    var root = document.querySelector('.bl-index'); if (!root) return;
+    /* entrance: blocks below the fold settle in, one short stagger per batch */
+    if (!R &amp;&amp; 'IntersectionObserver' in window) {
+      var vh = window.innerHeight;
+      var els = [].slice.call(document.querySelectorAll('.bl-card, .bl-news-copy, .bl-news-form, .bl-band'))
+        .filter(function (el) { return el.getBoundingClientRect().top &gt; vh; });
+      els.forEach(function (el) { el.classList.add('bl-arm'); });
+      var io = new IntersectionObserver(function (entries) {
+        var n = 0;
+        entries.filter(function (en) { return en.isIntersecting; })
+          .sort(function (a, b) { return a.target.compareDocumentPosition(b.target) &amp; 2 ? 1 : -1; })
+          .forEach(function (en) {
+            var el = en.target; io.unobserve(el);
+            el.style.setProperty('--bl-d', (n++ * 90) + 'ms');
+            el.classList.add('bl-in');
+            setTimeout(function () { el.classList.remove('bl-arm', 'bl-in'); el.style.removeProperty('--bl-d'); }, 1500);
+          });
+      }, { threshold: 0.12, rootMargin: '0px 0px -6% 0px' });
+      els.forEach(function (el) { io.observe(el); });
+    }
+    /* featured photo: a slow drift toward the pointer (fine pointers only) */
+    var feat = root.querySelector('.bl-feature'), img = feat &amp;&amp; feat.querySelector('.bl-feature-media img');
+    if (img &amp;&amp; L &amp;&amp; L.fine &amp;&amp; !L.reduced) {
+      var tx = 0, ty = 0, cx = 0, cy = 0, raf = 0;
+      var loop = function () {
+        cx += (tx - cx) * 0.08; cy += (ty - cy) * 0.08;
+        img.style.setProperty('--dx', cx.toFixed(2) + 'px'); img.style.setProperty('--dy', cy.toFixed(2) + 'px');
+        raf = (Math.abs(tx - cx) &gt; 0.05 || Math.abs(ty - cy) &gt; 0.05) ? requestAnimationFrame(loop) : 0;
+      };
+      feat.addEventListener('pointermove', function (e) {
+        var r = feat.getBoundingClientRect();
+        tx = ((e.clientX - r.left) / r.width - 0.5) * -12; ty = ((e.clientY - r.top) / r.height - 0.5) * -8;
+        if (!raf) raf = requestAnimationFrame(loop);
+      }, { passive: true });
+      feat.addEventListener('pointerleave', function () { tx = ty = 0; if (!raf) raf = requestAnimationFrame(loop); });
+    }
+  }
+  document.addEventListener('DOMContentLoaded', function(){ setTimeout(init, 0); });
+})();
+</script>
+</main><footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="footer-wordmark">TRE™ in Singapore</span>
+        <p>Release stress, strengthen resilience, improve wellbeing. The home of TRE™ practitioners, trainees and first-timers in Singapore.</p>
+              <div class="socials" aria-label="Social media">
+        <a href="https://www.instagram.com/isabelleclausteixeira_bhd/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+        <a href="https://www.linkedin.com/in/isabelleclausteixeira/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewbox="0 0 24 24" fill="currentColor"><path d="M6.5 8.5H3.5V21h3V8.5zM5 3.5a1.75 1.75 0 1 0 0 3.5 1.75 1.75 0 0 0 0-3.5zM21 13.6c0-3.4-1.8-5.3-4.5-5.3-2 0-3 1.1-3.5 1.9V8.5h-3V21h3v-6.6c0-1.7.6-2.9 2.2-2.9 1.5 0 1.9 1.2 1.9 2.9V21H21v-7.4z"/></svg></a>
+        <a href="https://www.youtube.com/@IsabelleClausTeixeira" target="_blank" rel="noopener" aria-label="YouTube"><svg viewbox="0 0 24 24" fill="currentColor"><path d="M23 7.2c-.3-1.2-1.1-2-2.3-2.3C18.9 4.5 12 4.5 12 4.5s-6.9 0-8.7.4C2.1 5.2 1.3 6 1 7.2.6 9 .6 12 .6 12s0 3 .4 4.8c.3 1.2 1.1 2 2.3 2.3 1.8.4 8.7.4 8.7.4s6.9 0 8.7-.4c1.2-.3 2-1.1 2.3-2.3.4-1.8.4-4.8.4-4.8s0-3-.4-4.8zM9.8 15.5v-7l6 3.5-6 3.5z"/></svg></a>
+        <a href="https://www.facebook.com/bhdasia/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewbox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7.5h2.6l.4-3h-3V8.6c0-.9.3-1.5 1.5-1.5h1.6V4.4c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4v2.2H7.8v3h2.6V21h3.1z"/></svg></a>
+      </div>
+      </div>
+      <div>
+        <h2>Explore</h2>
+        <ul class="footer-links">
+          <li><a href="./">Home</a></li>
+          <li><a href="events">Events</a></li>
+          <li><a href="about">About</a></li>
+          <li><a href="blog">Blog</a></li>
+          <li><a href="education">Education</a></li>
+          <li><a href="contact">Contact</a></li>
+          <li><a href="online-session-guide">Online session guide</a></li>
+          <li><a href="facilitators">Providers</a></li>
+          <li><a href="facilitators#get-listed">Get listed</a></li>
+          <li><a href="education#certification">Certification</a></li>
+          <li><a href="https://hummingbeing.com/" target="_blank" rel="noopener">HummingBeing</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Contact</h2>
+        <ul class="footer-contact">
+          <li><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><a href="mailto:bonjour@bhdasia.com">bonjour@bhdasia.com</a></li>
+          <li><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.8 2z"/></svg><a href="https://wa.me/818065151778" target="_blank" rel="noopener">+81 80 6515 1778 (WhatsApp)</a></li>
+          <li><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg><span>Business &amp; Human Development Consulting Pte Ltd<br/>50 Raffles Place, Singapore Land Tower <span class="nowrap">#30-00,</span> Singapore 048623</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span data-year="">2026</span> Business &amp; Human Development Consulting Pte Ltd · TRE™ in Singapore. TRE™ is a registered trademark of TRE For All, Inc. Method created by Dr. David Berceli.</p>
+      <p class="footer-powered">Powered by <a href="https://technext.asia" target="_blank" rel="noopener">TechNext</a></p>
+    </div>
+  </div>
+</footer><a class="wa-float" href="https://wa.me/818065151778" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewbox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 12 12 0 0 0 4.6 4c1.7.7 2.1.6 2.8.5.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2 0-.1-.2-.2-.4-.3z"/></svg>
+</a><script>window.TRE_STATIC={"events":["tre-provider-certification-singapore","tre-module-1-bucharest","from-shaking-to-shaping-bucharest","feminine-masculine-energetics-corporate","the-body-in-the-room","breath-as-medicine","tre-module-3-singapore","tre-provider-certification-2027-singapore","from-shaking-to-shaping-online","tre-module-2-singapore","from-shaking-to-shaping-online-sep3","internal-alchemy-singapore","nervous-system-regulation-coaches-singapore"],"facilitators":["isabelle-claus-teixeira","yan","nikki-tay","rina-ho"]};</script><script>window.TRE_EVENT_POSTS={};</script><script>window.TRE_IMG={"assets/img/events/event-body-in-the-room.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-body-in-the-room.webp":[1920,1080,[480,960],1],"assets/img/events/event-body-in-the-room-portrait.webp":[1080,1350,[540],1],"assets/img/events/event-breath-as-medicine.webp":[1493,840,[480,960],1],"assets/img/events/card-event-breath-as-medicine.webp":[1920,1080,[480,960],1],"assets/img/events/event-certification-2027.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-certification-2027.webp":[1920,1080,[480,960],1],"assets/img/events/event-certification-2027-portrait.webp":[1080,1350,[540],1],"assets/img/events/event-transform-practice.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-transform-practice.webp":[1920,1080,[480,960],1],"assets/img/events/event-shaking-to-shaping.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-shaking-to-shaping.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-shaking-to-shaping-sep3.webp":[1920,1080,[480,960],1],"assets/img/events/event-shaking-online.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-shaking-online.webp":[1920,1080,[480,960],1],"assets/img/events/event-feminine-masculine.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-feminine-masculine.webp":[1920,1080,[480,960],1],"assets/img/events/event-feminine-masculine-portrait.webp":[1080,1350,[540],1],"assets/img/events/event-bucharest-module1.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-bucharest-module1.webp":[1920,1080,[480,960],1],"assets/img/events/event-nervous-system.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-nervous-system.webp":[1920,1080,[480,960],1],"assets/img/events/event-internal-alchemy.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-internal-alchemy.webp":[1920,1080,[480,960],1],"assets/img/facilitators/isabelle-her-story.jpg":[850,1280,[160,400],1],"assets/img/facilitators/gallery-isabelle-teaching-tre.jpg":[1200,1600,[400,800],1],"assets/img/facilitators/gallery-isabelle-students-module1-may2026.jpg":[1600,1200,[400,800,1200],1],"assets/img/facilitators/gallery-tre-module1-2026.jpg":[1600,2844,[400,800,1200],1],"assets/img/facilitators/gallery-ws-1.jpg":[1600,1200,[400,800,1200],1],"assets/img/facilitators/gallery-danang-tre-conference-nov2025.jpg":[1600,1200,[400,800,1200],1],"assets/img/facilitators/gallery-dinner-david-berceli-founders.jpg":[929,959,[400,800],1],"assets/img/facilitators/gallery-asia-tre-trainers-david.jpg":[1600,1380,[400,800,1200],1],"assets/img/facilitators/gallery-isabelle-vietnam-tre.jpg":[1368,1368,[400,800,1200],1],"assets/img/facilitators/gallery-uk-tre-providers.jpg":[1200,1600,[400,800],1],"assets/img/facilitators/gallery-ws-2.jpg":[1200,1600,[400,800],1],"assets/img/facilitators/isabelle-global-journey.jpg":[850,1280,[400],1],"assets/img/facilitators/yan.webp":[1600,1066,[160,400,800],1],"assets/img/facilitators/nikki-tay.webp":[1254,1254,[160,400,800],1],"assets/img/facilitators/rina-ho.webp":[1000,1000,[160,400,800],1]};window.TRE_HERO_AVIF=["hero-education","hero-events","hero-facilitators"];</script><script src="assets/js/events-data.js?v=20261014a"/><script src="assets/js/facilitators-data.js?v=20261014a"/><script src="assets/js/main.js?v=20261014a"/><script src="assets/js/layer.js?v=20261014a"/><script src="assets/js/chatbot.js?v=20261014a"/></t></t>

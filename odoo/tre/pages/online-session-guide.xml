@@ -1,0 +1,707 @@
+<t t-name="trex.page_online_session_guide"><t t-call="web.layout"><t t-set="html_data" t-value="{'lang': 'en-SG'}"/><t t-set="title">Online TRE™ Session Guide — Zoom, Camera &amp; Space Setup</t><t t-set="head"><script src="/assets/js/odoo-forms.js"></script><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="description" content="How to prepare for an online TRE&#x2122; session: head-to-toe camera framing, your space and kit, a support person, Zoom settings and the 15-minutes-before checklist."/><link rel="canonical" href="https://tre-in-singapore.com/online-session-guide"/><meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"/><meta property="og:locale" content="en_SG"/><meta property="og:site_name" content="TRE&#x2122; in Singapore"/><meta property="og:type" content="website"/><meta property="og:title" content="Online TRE&#x2122; Session Guide &#x2014; Zoom, Camera &amp; Space Setup"/><meta property="og:description" content="How to prepare for an online TRE&#x2122; session: head-to-toe camera framing, your space and kit, a support person, Zoom settings and the 15-minutes-before checklist."/><meta property="og:url" content="https://tre-in-singapore.com/online-session-guide"/><meta property="og:image" content="https://tre-in-singapore.com/assets/img/og/guide.jpg"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Online TRE&#x2122; Session Guide &#x2014; Zoom, Camera &amp; Space Setup"/><meta name="twitter:description" content="How to prepare for an online TRE&#x2122; session: head-to-toe camera framing, your space and kit, a support person, Zoom settings and the 15-minutes-before checklist."/><meta name="twitter:image" content="https://tre-in-singapore.com/assets/img/og/guide.jpg"/><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://tre-in-singapore.com/#org","name":"TRE™ in Singapore","alternateName":["TRE Singapore","TRE in Singapore"],"url":"https://tre-in-singapore.com/","logo":{"@type":"ImageObject","url":"https://tre-in-singapore.com/assets/img/logo-tre-singapore.png"},"image":"https://tre-in-singapore.com/assets/img/og-cover.jpg","description":"The home of TRE™ (Tension and Trauma Releasing Exercises) in Singapore: certified providers, Global TRE™ Provider Certification, workshops, practice circles and resources.","email":"bonjour@bhdasia.com","telephone":"+81 80 6515 1778","address":{"@type":"PostalAddress","streetAddress":"50 Raffles Place, #30-00 Singapore Land Tower","addressLocality":"Singapore","postalCode":"048623","addressCountry":"SG"},"areaServed":{"@type":"Country","name":"Singapore"},"founder":{"@id":"https://tre-in-singapore.com/#isabelle"},"parentOrganization":{"@type":"Organization","name":"Business &amp; Human Development Consulting Pte Ltd","alternateName":"BHD Asia","url":"https://bhdasia.com/","sameAs":["https://www.facebook.com/bhdasia/"]},"knowsAbout":["Tension and Trauma Releasing Exercises (TRE)","Neurogenic tremors","Nervous system regulation","Stress and trauma release","TRE provider certification"]},{"@type":"WebSite","@id":"https://tre-in-singapore.com/#website","url":"https://tre-in-singapore.com/","name":"TRE™ in Singapore","alternateName":"TRE Singapore","inLanguage":"en-SG","publisher":{"@id":"https://tre-in-singapore.com/#org"}},{"@type":"Person","@id":"https://tre-in-singapore.com/#isabelle","name":"Isabelle Claus Teixeira","url":"https://tre-in-singapore.com/facilitators/isabelle-claus-teixeira","jobTitle":["Global TRE™ Certifying Trainer","ICF PCC Executive Coach","Mindfulness Teacher"],"image":"https://tre-in-singapore.com/assets/img/facilitators/isabelle-her-story.jpg","sameAs":["https://www.linkedin.com/in/isabelleclausteixeira/","https://www.instagram.com/isabelleclausteixeira_bhd/","https://www.youtube.com/@IsabelleClausTeixeira","https://www.facebook.com/bhdasia/","https://bhdasia.com","https://hummingbeing.com/"],"worksFor":{"@id":"https://tre-in-singapore.com/#org"}},{"@type":"WebPage","@id":"https://tre-in-singapore.com/online-session-guide#webpage","url":"https://tre-in-singapore.com/online-session-guide","name":"Online TRE™ Session Guide — Zoom, Camera &amp; Space Setup","description":"How to prepare for an online TRE™ session: head-to-toe camera framing, your space and kit, a support person, Zoom settings and the 15-minutes-before checklist.","isPartOf":{"@id":"https://tre-in-singapore.com/#website"},"about":{"@id":"https://tre-in-singapore.com/#org"},"inLanguage":"en-SG","primaryImageOfPage":{"@type":"ImageObject","url":"https://tre-in-singapore.com/assets/img/og/guide.jpg"},"breadcrumb":{"@id":"https://tre-in-singapore.com/online-session-guide#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://tre-in-singapore.com/online-session-guide#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://tre-in-singapore.com/"},{"@type":"ListItem","position":2,"name":"Online session guide","item":"https://tre-in-singapore.com/online-session-guide"}]},{"@type":"FAQPage","@id":"https://tre-in-singapore.com/online-session-guide#faq","isPartOf":{"@id":"https://tre-in-singapore.com/online-session-guide#webpage"},"mainEntity":[{"@type":"Question","name":"What happens after the session?","acceptedAnswer":{"@type":"Answer","text":"Keep 20–30 minutes free afterwards to rest, drink water and let your body settle. Avoid a heavy meal in the two hours before, and be gentle with yourself for the rest of the day."}},{"@type":"Question","name":"Can I join from my phone?","acceptedAnswer":{"@type":"Answer","text":"Yes, but the bigger the screen the better — you need to follow the exercises being demonstrated. If you use a phone, prop it in landscape at hip height and connect wireless headphones."}},{"@type":"Question","name":"I live alone. Do I still need a support person?","acceptedAnswer":{"@type":"Answer","text":"Please arrange someone you trust to be reachable and nearby — a neighbour or a friend next door counts. Their name and phone number go on your consent form; it is rarely needed, but it keeps you safe."}},{"@type":"Question","name":"Do I have to keep my camera on?","acceptedAnswer":{"@type":"Answer","text":"Yes. Your facilitator watches for signs of over-activation and will guide you to slow down or stop. Without the camera we cannot guide you safely, so please keep it on for the whole session."}},{"@type":"Question","name":"What if my internet drops?","acceptedAnswer":{"@type":"Answer","text":"Rejoin through the Zoom app as soon as you can. If you cannot reconnect, pause the practice, rest on your mat and message your facilitator. Sitting close to your router or using a wired connection helps prevent this."}}]}]}</script><meta name="theme-color" content="#1c3d7a"/><link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg"/><link rel="preload" href="assets/fonts/plus-jakarta-sans-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="assets/css/style.css?v=20261014a"/><link rel="stylesheet" href="assets/css/layer.css?v=20261014a"/><script>document.documentElement.classList.add('js');try{if(localStorage.getItem('tre-motion')==='paused')document.documentElement.classList.add('motion-paused')}catch(e){}(function(){try{var p=location.pathname,c=p.replace(/\/index\.html$/,'/').replace(/\.html$/,'');if(c!==p)history.replaceState(history.state,'',c+location.search+location.hash)}catch(e){}})();</script></t><a class="sr-only" href="#main">Skip to content</a><header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="./" aria-label="TRE™ in Singapore — home">
+      <img class="brand-logo" src="assets/img/logo-tre-singapore-214.webp" srcset="assets/img/logo-tre-singapore-214.webp 214w, assets/img/logo-tre-singapore-321.webp 321w" sizes="(max-width: 760px) 78px, 107px" alt="TRE™ in Singapore" width="107" height="58" decoding="async"/>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">
+      <span/><span/><span/>
+    </button>
+    <nav class="nav" id="site-nav" aria-label="Main navigation">
+      <a href="./">Home</a>
+      <a href="about">About</a>
+      <a href="education">Education</a>
+      <a href="facilitators">Providers</a>
+      <a href="events" class="active">Events</a>
+      <a href="blog">Blog</a>
+      <a href="contact">Contact</a>
+      <a class="btn btn-primary btn-sm" href="https://calendly.com/bhdasia/tre-certification-intake-call" target="_blank" rel="noopener">Book a call</a>
+    </nav>
+  </div>
+</header><main id="main">
+<style id="gd-css">
+/* =========================================================
+   Online-session guide (gd-) — 2026-09-29. Read mode: a practical guide.
+   Everything is visible without JS; .gd-armed (set by the page script when motion is allowed)
+   only adds entrance states. Still under prefers-reduced-motion. Printable (see @media print).
+   ========================================================= */
+.gd{--gd-ring:rgba(28,61,122,.42)}
+.gd .gd-top{max-width:720px;margin:0 0 var(--s7)}
+.gd .gd-top h2{margin-bottom:.45em}
+.gd .gd-top p{margin:0;color:var(--muted);font-size:1.06rem;max-width:62ch}
+
+/* ---------- 1. The one thing ---------- */
+.gd-one-grid{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:clamp(32px,6vw,88px);align-items:center}
+.gd-one h2{font-size:clamp(1.9rem,3.5vw,2.7rem);max-width:19ch;margin-bottom:.65em}
+.gd-one-copy p{margin:0;max-width:56ch;font-size:1.12rem;line-height:1.72;color:var(--ink-2)}
+.gd-one-photo{width:100%;max-width:440px;aspect-ratio:4/5;justify-self:end}
+.gd-one-photo img{object-position:50% 74%}
+.gd-one-photo figcaption{z-index:2;text-align:center;padding:1.6rem 64px 1.05rem}
+.gd-vf{position:absolute;z-index:3;width:clamp(28px,3.2vw,40px);height:clamp(28px,3.2vw,40px);pointer-events:none;overflow:visible}
+.gd-vf path{fill:none;stroke:#fff;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;opacity:.92}
+.gd-vf-tl{top:16px;left:16px}.gd-vf-tr{top:16px;right:16px}.gd-vf-br{bottom:16px;right:16px}.gd-vf-bl{bottom:16px;left:16px}
+@media (max-width:640px){.gd-one h2{font-size:1.72rem}}
+@media (max-width:900px){
+  .gd-one-grid{grid-template-columns:1fr}
+  .gd-one-photo{justify-self:start;max-width:520px;aspect-ratio:4/3}
+  .gd-one-photo img{object-position:50% 82%}
+}
+
+/* ---------- 2. Camera stage: two views + toggle ---------- */
+.gd-switch{position:relative;display:inline-grid;grid-template-columns:1fr 1fr;padding:4px;margin:0 0 var(--s5);border-radius:999px;background:var(--paper);border:1px solid var(--line);box-shadow:var(--shadow-1)}
+.gd-switch[hidden]{display:none}
+.gd-switch::before{content:"";position:absolute;top:4px;bottom:4px;left:4px;width:calc(50% - 4px);border-radius:999px;background:var(--navy);transition:transform var(--d2) var(--ease-out)}
+.gd-switch[data-active="1"]::before{transform:translateX(100%)}
+.gd-tab{position:relative;z-index:1;display:inline-flex;align-items:center;justify-content:center;gap:.5rem;min-height:44px;padding:.55rem 1.25rem;border:0;border-radius:999px;background:none;cursor:pointer;font:700 .92rem/1 var(--font-display);color:var(--navy);transition:color var(--d2) var(--ease-out)}
+.gd-tab:hover{color:var(--blue)}
+.gd-tab[aria-selected="true"],.gd-tab[aria-selected="true"]:hover{color:#fff}
+.gd-tab:active{transform:scale(.98)}
+.gd-tab svg{width:18px;height:18px;flex:none;fill:none;stroke:currentColor;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round}
+.gd-views{display:grid;gap:var(--s7)}
+.gd-view{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(0,1fr);gap:clamp(24px,4vw,56px);align-items:center}
+.gd-views.is-tabbed{gap:0}
+.gd-views.is-tabbed &gt; .gd-view{grid-area:1/1;transition:opacity .55s var(--ease-out),visibility 0s linear .55s}
+.gd-views.is-tabbed &gt; .gd-view:not(.is-active){opacity:0;visibility:hidden;pointer-events:none}
+.gd-views.is-tabbed &gt; .gd-view.is-active{transition:opacity .55s var(--ease-out),visibility 0s}
+.gd-stage{margin:0;padding:clamp(8px,1.4vw,16px);background:var(--paper);border:1px solid var(--line-2);border-radius:var(--radius);box-shadow:var(--shadow-1)}
+.gd-svg{display:block;width:100%;height:auto;overflow:visible;--len:2000}
+.gd-view-text h3{font-size:1.3rem;margin:0 0 .55em}
+.gd-view-text p{margin:0;max-width:50ch;color:var(--ink-2)}
+/* drawing */
+.gd-svg text{font-family:var(--font-body);font-size:11.5px;fill:var(--muted)}
+.gd-svg .gd-lk{font-family:var(--font-display);font-weight:700;font-size:11px;letter-spacing:.12em;fill:var(--bronze)}
+.gd-svg .gd-lc{font-family:var(--font-display);font-weight:700;font-size:11px;letter-spacing:.08em;fill:var(--navy)}
+.gd-floor{fill:none;stroke:var(--bronze-soft);stroke-width:1.5;stroke-linecap:round}
+.gd-fig{fill:none;stroke:var(--navy);stroke-width:6.5;stroke-linecap:round;stroke-linejoin:round}
+.gd-fig-s{stroke-width:5}
+.gd-hd{fill:var(--navy)}
+.gd-corners{fill:none;stroke:var(--bronze);stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+.gd-edge{fill:none;stroke:var(--gold);stroke-width:1.5;stroke-linecap:round}
+.gd-axis{fill:none;stroke:var(--bronze);stroke-width:1.25;stroke-dasharray:3 5;opacity:.8}
+.gd-dim,.gd-lead{fill:none;stroke:var(--bronze);stroke-width:1.25;stroke-linecap:round}
+.gd-dev{fill:var(--navy)}
+.gd-lens{fill:#fff}.gd-lens-in{fill:var(--navy)}
+.gd-stand{fill:none;stroke:var(--navy);stroke-width:2.5;stroke-linecap:round}
+.gd-mat{fill:var(--blue-soft)}
+.gd-mat-line{fill:none;stroke:var(--blue);stroke-width:1.5}
+/* entrance: fills and labels settle in after the lines have drawn (JS only) */
+.gd-armed .gd-fade{transition:opacity .8s var(--ease-out)}
+.gd-armed .gd-view:not(.is-drawn) .gd-fade{opacity:0}
+.gd-armed .gd-view.is-drawn .gd-f1{transition-delay:.25s}
+.gd-armed .gd-view.is-drawn .gd-f2{transition-delay:.55s}
+.gd-armed .gd-view.is-drawn .gd-f3{transition-delay:.85s}
+.gd-armed .gd-snap .gd-fade{transition:none!important}
+/* tips */
+.gd-tips{list-style:none;margin:var(--s7) 0 0;padding:var(--s6) 0 0;border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--s5) clamp(24px,5vw,64px)}
+.gd-tips li{display:grid;grid-template-columns:24px minmax(0,1fr);gap:var(--s4);align-items:start;color:var(--ink-2)}
+.gd-tips svg{width:24px;height:24px;margin-top:1px;fill:none;stroke:var(--bronze);stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round}
+@media (max-width:900px){.gd-view{grid-template-columns:1fr}}
+@media (max-width:640px){.gd-tips{grid-template-columns:1fr}}
+@media (max-width:560px){
+  .gd-svg text{font-size:17px}
+  .gd-svg .gd-lk,.gd-svg .gd-lc{font-size:16px}
+  .gd-stage{padding:6px}
+  .gd-switch{display:grid;width:100%}
+  .gd-tab{padding:.55rem .6rem}
+}
+/* ---------- 3. Checklist ---------- */
+.gd-list-top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:var(--s5) var(--s7);margin-bottom:var(--s6)}
+.gd-list-top .gd-top{margin:0}
+.gd-progress{display:grid;gap:.6rem;width:min(100%,320px)}
+.gd-progress[hidden]{display:none}
+.gd-count{margin:0;font-size:.95rem;font-weight:600;color:var(--ink-2);font-variant-numeric:tabular-nums}
+.gd-count b{font-family:var(--font-display);color:var(--navy)}
+.gd-track{position:relative;height:3px;border-radius:3px;background:var(--line);overflow:hidden}
+.gd-fill{position:absolute;inset:0;border-radius:inherit;background:var(--gold);transform-origin:left center;transform:scaleX(var(--k,0));transition:transform .7s var(--ease-out)}
+.gd-progress.is-full .gd-fill{background:var(--bronze)}
+.gd-clear{justify-self:start;min-height:44px;margin:-.35rem 0 -.6rem;padding:0;border:0;background:none;cursor:pointer;font:600 .88rem var(--font-body);color:var(--bronze);text-decoration:underline;text-underline-offset:.22em;text-decoration-color:rgba(139,107,69,.4);transition:color var(--d1) var(--ease-out)}
+.gd-clear:hover{color:var(--navy)}
+.gd-clear[hidden]{display:none}
+.gd-check{list-style:none;margin:0;padding:0;columns:2;column-gap:clamp(32px,5vw,72px)}
+.gd-item{break-inside:avoid;border-top:1px solid var(--line)}
+.gd-row{position:relative;display:grid;grid-template-columns:28px minmax(0,1fr);gap:var(--s4);padding:var(--s5) var(--s2) var(--s5) 0;cursor:pointer}
+.gd-cb{position:absolute;top:var(--s5);left:0;width:28px;height:28px;margin:0;opacity:0;cursor:pointer}
+.gd-box{display:grid;place-items:center;width:28px;height:28px;border-radius:8px;border:1.75px solid var(--gd-ring);background:var(--paper);transition:background-color var(--d2) var(--ease-out),border-color var(--d2) var(--ease-out),transform var(--d1) var(--ease-out)}
+.gd-box svg{width:18px;height:18px;fill:none;stroke:var(--gold);stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:18;stroke-dashoffset:18;transition:stroke-dashoffset .38s var(--ease-out)}
+.gd-row:hover .gd-box{border-color:var(--navy)}
+.gd-row:active .gd-box{transform:scale(.94)}
+.gd-cb:checked + .gd-box{background:var(--navy);border-color:var(--navy)}
+.gd-cb:checked + .gd-box svg{stroke-dashoffset:0;transition-delay:.06s}
+.gd-cb:focus-visible + .gd-box{outline:3px solid var(--gold);outline-offset:3px}
+.gd-txt{display:block;min-width:0;transition:opacity var(--d2) var(--ease-out)}
+.gd-name{font-family:var(--font-display);font-weight:700;font-size:1.04rem;line-height:1.35;color:var(--navy)}
+.gd-req{display:inline-flex;align-items:center;gap:.4rem;margin-left:.45rem;font:700 .72rem/1 var(--font-display);letter-spacing:.08em;text-transform:uppercase;color:var(--bronze);white-space:nowrap;vertical-align:.14em}
+.gd-req::before{content:"";width:6px;height:6px;border-radius:50%;border:1.5px solid currentColor;flex:none}
+.gd-req.is-must{color:var(--navy)}
+.gd-req.is-must::before{background:currentColor}
+.gd-desc{display:block;margin-top:.3rem;font-size:.94rem;line-height:1.6;color:var(--muted)}
+.gd-cb:checked ~ .gd-txt .gd-name{color:var(--ink-2)}
+.gd-check.gd-snap .gd-box,.gd-check.gd-snap .gd-box svg,.gd-check.gd-snap .gd-txt{transition:none!important}
+@media (max-width:760px){.gd-check{columns:1}}
+@media (max-width:560px){.gd-req{display:flex;width:fit-content;margin:.4rem 0 0}}
+
+/* ---------- 4. Safety + Zoom ---------- */
+.gd-safe{display:grid;grid-template-columns:auto minmax(0,1fr);gap:var(--s5) clamp(24px,4vw,48px);padding:clamp(24px,4.5vw,56px);background:var(--paper);border:1px solid var(--line-2);border-radius:var(--radius);box-shadow:var(--shadow-1)}
+.gd-safe-ic{width:56px;height:44px;margin-top:4px;fill:none;stroke:var(--bronze);stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round;overflow:visible}
+.gd-safe h2{font-size:clamp(1.5rem,2.6vw,2rem);margin-bottom:.75em}
+.gd-safe-cols{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:clamp(24px,4vw,48px);align-items:start}
+.gd-safe-ask{margin:0;font-size:1.1rem;line-height:1.7;color:var(--ink)}
+.gd-safe-ask strong{background-image:linear-gradient(rgba(201,164,92,.4),rgba(201,164,92,.4));background-repeat:no-repeat;background-position:0 88%;background-size:100% .4em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.gd-armed .gd-safe-ask strong{background-size:0 .4em;transition:background-size 1.3s var(--ease-out) .3s}
+.gd-armed .gd-safe.is-in .gd-safe-ask strong{background-size:100% .4em}
+.gd-safe-why{margin:0;padding-left:clamp(24px,4vw,48px);border-left:1px solid var(--line);color:var(--muted)}
+.gd-zoom{margin-top:var(--s9)}
+.gd-zsteps{--zg:var(--s5);position:relative;list-style:none;margin:0;padding:0;counter-reset:gdz;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:var(--zg)}
+.gd-zsteps::before,.gd-zsteps::after{content:"";position:absolute;top:21px;left:22px;right:calc((100% - 3 * var(--zg)) / 4 - 22px);height:2px;border-radius:2px;background:var(--line)}
+.gd-zsteps::after{background:var(--gold);transform-origin:left center}
+.gd-zstep{position:relative;counter-increment:gdz;padding-top:68px}
+.gd-zstep::before{content:counter(gdz);position:absolute;z-index:1;top:0;left:0;display:grid;place-items:center;width:44px;height:44px;border-radius:50%;font:800 1rem/1 var(--font-display);color:var(--gold);background:var(--navy);box-shadow:0 0 0 6px var(--cream),inset 0 0 0 1.75px var(--navy);transition:background-color .5s var(--ease-out),color .5s var(--ease-out),box-shadow .5s var(--ease-out)}
+.gd-zstep p{margin:0;color:var(--ink-2)}
+.gd-zstep strong{display:block;margin-bottom:.35rem;font-family:var(--font-display);font-size:1.05rem;line-height:1.3;color:var(--navy)}
+.gd-zsteps.is-armed::after{transform:scaleX(0)}
+.gd-zsteps.is-armed.is-in::after{transform:scaleX(1);transition:transform 1.5s var(--ease-out) .1s}
+.gd-zsteps.is-armed .gd-zstep::before{background:var(--paper);color:var(--navy);box-shadow:0 0 0 6px var(--cream),inset 0 0 0 1.75px var(--gd-ring)}
+.gd-zsteps.is-armed.is-in .gd-zstep::before{background:var(--navy);color:var(--gold);box-shadow:0 0 0 6px var(--cream),inset 0 0 0 1.75px var(--navy)}
+.gd-zsteps.is-in .gd-zstep:nth-child(2)::before{transition-delay:.45s}
+.gd-zsteps.is-in .gd-zstep:nth-child(3)::before{transition-delay:.85s}
+.gd-zsteps.is-in .gd-zstep:nth-child(4)::before{transition-delay:1.25s}
+.gd-znote{margin:var(--s6) 0 0;max-width:62ch;font-size:.95rem;color:var(--muted)}
+@media (max-width:900px){
+  .gd-safe-cols{grid-template-columns:1fr}
+  .gd-safe-why{padding:var(--s5) 0 0;border-left:0;border-top:1px solid var(--line)}
+  .gd-zsteps{grid-template-columns:1fr;gap:var(--s5)}
+  .gd-zsteps::before,.gd-zsteps::after{display:none}
+  .gd-zstep{padding:9px 0 0 68px;min-height:44px}
+  .gd-zstep:not(:last-child)::after{content:"";position:absolute;left:21px;top:50px;bottom:calc(6px - var(--s5));width:2px;border-radius:2px;background:var(--gold);transform-origin:center top}
+  .gd-zsteps.is-armed .gd-zstep::after{transform:scaleY(0)}
+  .gd-zsteps.is-armed.is-in .gd-zstep::after{transform:scaleY(1);transition:transform .5s var(--ease-out)}
+  .gd-zsteps.is-in .gd-zstep:nth-child(1)::after{transition-delay:.15s}
+  .gd-zsteps.is-in .gd-zstep:nth-child(2)::after{transition-delay:.55s}
+  .gd-zsteps.is-in .gd-zstep:nth-child(3)::after{transition-delay:.95s}
+}
+@media (max-width:560px){.gd-safe{grid-template-columns:1fr}}
+
+/* ---------- 5. On the day: countdown timeline ---------- */
+.gd-day-grid{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:clamp(32px,6vw,96px);align-items:start}
+.gd-day-aside{position:sticky;top:112px}
+.gd-day-aside h2{margin:0}
+.gd-clock{display:block;width:clamp(150px,17vw,200px);height:auto;margin-top:var(--s6);overflow:visible;--len:2000}
+.gd-ck-face{fill:var(--paper);stroke:var(--line);stroke-width:1.5}
+.gd-ck-wedge{fill:rgba(201,164,92,.2)}
+.gd-ck-arc{fill:none;stroke:var(--gold);stroke-width:6;stroke-linecap:round}
+.gd-ck-ticks{fill:none;stroke:var(--bronze-soft);stroke-width:2;stroke-linecap:round}
+.gd-ck-hand{fill:none;stroke:var(--navy);stroke-width:4.5;stroke-linecap:round}
+.gd-ck-hub{fill:var(--navy)}.gd-ck-pin{fill:var(--gold)}
+.gd-tl-wrap{position:relative;padding-left:48px}
+.gd-tl-track,.gd-tl-fill{position:absolute;left:10px;top:29px;bottom:11px;width:2px;border-radius:2px}
+.gd-tl-track{background:var(--line)}
+.gd-tl-fill{background:var(--gold);transform-origin:center top;transform:scaleY(var(--t,1))}
+.gd-tl{list-style:none;margin:0;padding:0}
+.gd-tl li{position:relative;padding:.95rem 0;border-bottom:1px solid var(--line-2);font-size:1.04rem;color:var(--ink-2);transition:color .5s var(--ease-out)}
+.gd-tl li::before{content:"";position:absolute;left:-43px;top:23px;width:12px;height:12px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 5px var(--paper),inset 0 0 0 2px var(--gold);transition:background-color .5s var(--ease-out),box-shadow .5s var(--ease-out)}
+.gd-live .gd-tl li:not(.on)::before{background:var(--paper);box-shadow:0 0 0 5px var(--paper),inset 0 0 0 2px var(--bronze-soft)}
+.gd-live .gd-tl li:not(.on){color:var(--muted)}
+.gd-tl-end{position:relative;margin:0;padding:1.15rem 0 0;font:700 1.1rem/1.3 var(--font-display);color:var(--navy)}
+.gd-tl-end::before{content:"";position:absolute;left:-48px;top:19px;width:22px;height:22px;border-radius:50%;background:var(--navy);box-shadow:0 0 0 5px var(--paper),inset 0 0 0 6px var(--gold);transition:background-color .5s var(--ease-out),box-shadow .5s var(--ease-out)}
+.gd-live .gd-tl-end:not(.on)::before{background:var(--paper);box-shadow:0 0 0 5px var(--paper),inset 0 0 0 2px var(--bronze-soft)}
+@media (max-width:900px){
+  .gd-day-grid{grid-template-columns:1fr;gap:var(--s6)}
+  .gd-day-aside{position:static;display:flex;align-items:center;justify-content:space-between;gap:var(--s5)}
+  .gd-clock{width:96px;margin:0;flex:none}
+}
+
+/* ---------- 6. FAQ + close ---------- */
+.gd-faq-grid{display:grid;grid-template-columns:minmax(0,.75fr) minmax(0,1.6fr);gap:clamp(24px,5vw,80px);align-items:start}
+.gd-faq-head h2{margin:0}
+.gd-qa{interpolate-size:allow-keywords}
+.gd-qa details{border-bottom:1px solid var(--line)}
+.gd-qa details:first-child{border-top:1px solid var(--line)}
+.gd-qa summary{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:44px;padding:1.15rem 0;list-style:none;cursor:pointer;font:700 1.06rem/1.35 var(--font-display);color:var(--navy);transition:color var(--d1) var(--ease-out)}
+.gd-qa summary::-webkit-details-marker{display:none}
+.gd-qa summary::after{content:"";flex:none;width:22px;height:22px;background:var(--bronze);-webkit-mask:var(--i-plus) center/contain no-repeat;mask:var(--i-plus) center/contain no-repeat;transition:transform var(--d2) var(--ease-out),background-color var(--d1)}
+.gd-qa summary:hover{color:var(--blue)}
+.gd-qa summary:hover::after{background:var(--navy)}
+.gd-qa details[open] summary::after{transform:rotate(45deg)}
+.gd-qa details &gt; p{margin:0;padding:0 0 1.3rem;max-width:62ch;color:var(--ink-2)}
+.gd-qa details::details-content{block-size:0;overflow:hidden;transition:block-size .45s var(--ease-out),content-visibility .45s allow-discrete}
+.gd-qa details[open]::details-content{block-size:auto}
+.gd-close-wrap{margin-top:var(--s7)}
+.gd-close{display:grid;grid-template-columns:48px auto;align-items:center;justify-content:start;gap:0 var(--s4);width:100%;max-width:100%;margin-top:0;padding:var(--s6) var(--s7) var(--s6) var(--s6);background:linear-gradient(120deg,var(--navy-ink),var(--navy-deep) 70%)}
+.gd-fork{width:48px;height:106px;overflow:visible;fill:none;stroke:var(--gold);stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round}
+.gd-fork circle{fill:var(--gold);stroke:none}
+.gd-close .btn-row{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin:0}
+@media (max-width:980px){.gd-faq-grid{grid-template-columns:1fr;gap:var(--s5)}}
+@media (max-width:600px){
+  .gd-close{display:block;width:auto;padding:var(--s4)}
+  .gd-fork{display:none}
+  .gd-close .btn-row{justify-items:stretch}
+  .gd-close .btn{white-space:normal;text-align:center;line-height:1.3;padding:.85rem 1rem;font-size:.9rem}
+}
+
+/* ---------- Reduced motion: still and complete ---------- */
+@media (prefers-reduced-motion:reduce){
+  .gd *,.gd *::before,.gd *::after{transition:none!important;animation:none!important}
+}
+
+/* ---------- Print: the guide on paper (both views, every answer, empty boxes to tick by hand) ---------- */
+@media print{
+  .gd *,.gd *::before,.gd *::after{transition:none!important;animation:none!important}
+  .guide-hero{min-height:0!important;padding:0 0 12px!important;display:block!important;background:#fff!important;color:#000!important}
+  .guide-hero .hx-media,.guide-hero .hx-wash,.guide-hero .hx-tremor,.guide-hero .hx-credit{display:none!important}
+  .guide-hero h1,.guide-hero p{color:#000!important;text-shadow:none!important}
+  .guide-hero .prep a{color:#000!important}
+  .gd .gd-sec{padding:14px 0!important;background:none!important;break-inside:auto!important}
+  .gd-switch,.gd-progress,.gd-close,.gd-one-photo{display:none!important}
+  .gd-one h2{font-size:1.5rem;max-width:none}
+  .gd-views.is-tabbed{gap:18px}
+  .gd-views.is-tabbed &gt; .gd-view{grid-area:auto;opacity:1!important;visibility:visible!important}
+  .gd-view{grid-template-columns:1.1fr 1fr;gap:18px}
+  .gd [data-draw]{stroke-dashoffset:0!important}
+  .gd .gd-fade{opacity:1!important}
+  .gd-stage,.gd-safe{box-shadow:none;border-color:#bbb}
+  .gd-view,.gd-item,.gd-tips li,.gd-safe,.gd-zstep,.gd-tl li,.gd-qa details{break-inside:avoid}
+  .gd-top,.gd h2,.gd h3{break-after:avoid}
+  .gd-box{border-color:#555}
+  .gd-zsteps.is-armed::after{transform:none}
+  .gd-zsteps .gd-zstep::before{background:#fff!important;color:#000!important;box-shadow:inset 0 0 0 1.75px #555!important}
+  .gd-zsteps::before,.gd-zsteps::after,.gd-zstep::after{display:none!important}
+  .gd-day-aside{position:static}
+  .gd-clock{display:none}
+  .gd-tl-fill{transform:none!important}
+  .gd-live .gd-tl li{color:var(--ink-2)}
+  .gd-qa summary::after{display:none}
+  .gd-qa details &gt; p{padding-bottom:.6rem}
+}
+@media print{.gd-qa details::details-content{block-size:auto!important;content-visibility:visible!important}}
+</style>
+
+<!-- ===== HERO ===== -->
+<section class="page-hero hx guide-hero" style="--fx:50%;--fy:70%;--fx-m:46%;--shift:30%;--feather:30%">
+  <div class="hx-media" aria-hidden="true"><picture><source type="image/avif" srcset="assets/img/gallery/hero-guide-960.avif 960w, assets/img/gallery/hero-guide-1600.avif 1600w" sizes="(max-width: 760px) 50vw, 100vw"><img class="hx-photo" src="assets/img/gallery/hero-guide-1600.webp" srcset="assets/img/gallery/hero-guide-960.webp 960w, assets/img/gallery/hero-guide-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 100vw" width="1600" height="1200" alt="" fetchpriority="high" decoding="async"/></source></picture></div>
+  <div class="hx-wash" aria-hidden="true"/>
+  <canvas class="hx-tremor" aria-hidden="true"/>
+  <div class="container hx-inner">
+      <h1>Setting up for your online TRE™ session</h1>
+      <p>Everything to prepare before we meet on Zoom — your space, your camera, your kit and your safety. Ten minutes of preparation lets your facilitator give you the same quality of attention you would receive in the room.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="#checklist">Go to the checklist</a>
+        <button type="button" class="btn btn-ghost-light" onclick="window.print()">Print this guide</button>
+      </div>
+      <p class="prep">Prefer a PDF? <a href="https://hummingbeing.com/online-tre-session-guide.pdf?v=2" target="_blank" rel="noopener">Download HummingBeing's printable guide</a>.</p>
+  </div>
+  <p class="hx-credit">Isabelle on the mat · TRE™ Module 1 studio</p>
+</section>
+
+<div class="gd">
+<!-- ===== THE ONE THING: head to toe, beside a real session photo ===== -->
+<section class="section gd-sec gd-one">
+  <div class="container gd-one-grid">
+    <div class="gd-one-copy">
+      <h2>We must be able to see you head to toe — standing and on the mat</h2>
+      <p>In an online session, everything your facilitator can offer you comes through the camera: watching how your body moves, how your tremors travel, and when it is time to pause. If we can only see part of you, we cannot guide you safely. Please test both camera views before the session starts.</p>
+    </div>
+    <figure class="lx-media gd-one-photo">
+      <picture><source type="image/avif" srcset="assets/img/gallery/isabelle-teaching-tre-600.avif 600w, assets/img/gallery/isabelle-teaching-tre-1200.avif 1200w" sizes="(max-width: 900px) 92vw, 440px"><img src="assets/img/gallery/isabelle-teaching-tre-1200.webp" srcset="assets/img/gallery/isabelle-teaching-tre-600.webp 600w, assets/img/gallery/isabelle-teaching-tre-1200.webp 1200w" sizes="(max-width: 900px) 92vw, 440px" width="1200" height="1600" alt="Teaching TRE™ Module 1" loading="lazy" decoding="async"/></source></picture>
+      <svg class="gd-vf gd-vf-tl" viewbox="0 0 40 40" aria-hidden="true"><path data-draw="" data-draw-dur="1100" d="M3 37V3H37"/></svg>
+      <svg class="gd-vf gd-vf-tr" viewbox="0 0 40 40" aria-hidden="true"><path data-draw="" data-draw-dur="1100" d="M3 3H37V37"/></svg>
+      <svg class="gd-vf gd-vf-br" viewbox="0 0 40 40" aria-hidden="true"><path data-draw="" data-draw-dur="1100" d="M37 3V37H3"/></svg>
+      <svg class="gd-vf gd-vf-bl" viewbox="0 0 40 40" aria-hidden="true"><path data-draw="" data-draw-dur="1100" d="M37 37H3V3"/></svg>
+      <figcaption>Teaching TRE™ Module 1</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ===== CAMERA POSITIONING: one stage, two views (toggle) ===== -->
+<section class="section bg-cream gd-sec gd-cam" id="camera">
+  <div class="container">
+    <div class="gd-top">
+      <h2>Two views to check before every session</h2>
+      <p>Landscape orientation, roughly hip height, about 2–2.5 metres away. Prop the device so it cannot slide or fall.</p>
+    </div>
+
+    <div class="gd-switch" role="tablist" aria-label="Camera view" data-active="0" hidden="">
+      <button type="button" class="gd-tab" role="tab" id="gd-tab-stand" aria-controls="gd-view-stand" aria-selected="true">
+        <svg viewbox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="4.6" r="2.1"/><path d="M12 7.4v7.2M12 9.4l-3.6 3.8M12 9.4l3.6 3.8M12 14.6l-2.6 6.4M12 14.6l2.6 6.4"/></svg>Standing</button>
+      <button type="button" class="gd-tab" role="tab" id="gd-tab-mat" aria-controls="gd-view-mat" aria-selected="false" tabindex="-1">
+        <svg viewbox="0 0 24 24" aria-hidden="true"><path d="M2.5 19h19"/><circle cx="5.2" cy="14.8" r="2"/><path d="M7.6 14.8h6.2l3.2-3.8 3 3.8"/></svg>On the mat</button>
+    </div>
+
+    <div class="gd-views">
+      <article class="gd-view is-active" id="gd-view-stand" role="tabpanel" aria-labelledby="gd-tab-stand">
+        <figure class="gd-stage">
+          <svg class="gd-svg" viewbox="0 0 480 320" role="img" aria-label="Standing view: the whole body from head to toe is inside the frame, camera about two to two and a half metres away at hip height">
+            <defs><lineargradient id="gd-beam-s" gradientunits="userSpaceOnUse" x1="372" y1="0" x2="196" y2="0"><stop offset="0" stop-color="#c9a45c" stop-opacity=".34"/><stop offset="1" stop-color="#c9a45c" stop-opacity=".07"/></lineargradient></defs>
+            <path class="gd-beam gd-fade gd-f2" d="M372 179L196 56V270H210Z" fill="url(#gd-beam-s)"/>
+            <path class="gd-edge" data-draw="" data-draw-dur="1300" data-gd-delay="320" d="M372 179L196 56"/>
+            <path class="gd-edge" data-draw="" data-draw-dur="1300" data-gd-delay="320" d="M372 179L210 270"/>
+            <path class="gd-floor" data-draw="" data-draw-dur="1200" d="M24 270H456"/>
+            <path class="gd-axis gd-fade gd-f3" d="M206 179H364"/>
+            <text class="gd-fade gd-f3" x="278" y="170" text-anchor="middle">roughly hip height</text>
+            <circle class="gd-hd gd-fade gd-f1" cx="150" cy="91" r="15"/>
+            <path class="gd-fig" data-draw="" data-draw-dur="1500" data-gd-delay="120" d="M150 106V178M150 122L128 174M150 122L172 174M150 178L135 267M150 178L165 267"/>
+            <path class="gd-corners" data-draw="" data-draw-dur="1000" d="M104 70V56H118M182 56H196V70M196 264V278H182M118 278H104V264"/>
+            <text class="gd-lk gd-fade gd-f2" x="104" y="44">HEAD TO TOE IN FRAME</text>
+            <path class="gd-stand" d="M394 194L381 269M394 194L407 269"/>
+            <rect class="gd-dev" x="372" y="164" width="44" height="30" rx="6"/>
+            <circle class="gd-lens" cx="394" cy="179" r="7"/><circle class="gd-lens-in" cx="394" cy="179" r="2.6"/>
+            <text class="gd-lc" x="394" y="152" text-anchor="middle">CAMERA</text>
+            <path class="gd-dim" data-draw="" data-draw-dur="1000" data-gd-delay="480" d="M150 292H394"/>
+            <path class="gd-dim gd-fade gd-f3" d="M150 286V298M394 286V298"/>
+            <text class="gd-fade gd-f3" x="272" y="312" text-anchor="middle">approx. 2–2.5 m</text>
+          </svg>
+        </figure>
+        <div class="gd-view-text">
+          <h3>1. Standing — the preparation exercises</h3>
+          <p>Step back until your feet and the top of your head are both inside the frame with a little room to spare. Leave space to step forward and back without walking out of shot.</p>
+        </div>
+      </article>
+
+      <article class="gd-view" id="gd-view-mat" role="tabpanel" aria-labelledby="gd-tab-mat">
+        <figure class="gd-stage">
+          <svg class="gd-svg" viewbox="0 0 480 320" role="img" aria-label="On the mat view: the camera sits to the side of the mat so the full length of the body stays in frame">
+            <defs><lineargradient id="gd-beam-m" gradientunits="userSpaceOnUse" x1="418" y1="0" x2="286" y2="0"><stop offset="0" stop-color="#c9a45c" stop-opacity=".34"/><stop offset="1" stop-color="#c9a45c" stop-opacity=".07"/></lineargradient></defs>
+            <path class="gd-beam gd-fade gd-f2" d="M418 160L286 42V278Z" fill="url(#gd-beam-m)"/>
+            <path class="gd-edge" data-draw="" data-draw-dur="1300" data-gd-delay="320" d="M418 160L286 42"/>
+            <path class="gd-edge" data-draw="" data-draw-dur="1300" data-gd-delay="320" d="M418 160L286 278"/>
+            <rect class="gd-mat gd-fade gd-f1" x="204" y="58" width="66" height="204" rx="9"/>
+            <rect class="gd-mat-line" data-draw="" data-draw-dur="1300" x="204" y="58" width="66" height="204" rx="9"/>
+            <path class="gd-axis gd-fade gd-f3" d="M414 160H274"/>
+            <circle class="gd-hd gd-fade gd-f1" cx="237" cy="82" r="11"/>
+            <path class="gd-fig gd-fig-s" data-draw="" data-draw-dur="1500" data-gd-delay="120" d="M237 93V180M235 104L222 146M239 104L252 146M237 180L209 210L234 236M237 180L265 210L240 236"/>
+            <path class="gd-corners" data-draw="" data-draw-dur="1000" d="M188 56V42H202M272 42H286V56M286 264V278H272M202 278H188V264"/>
+            <text class="gd-lk gd-fade gd-f2" x="188" y="30">WHOLE MAT IN FRAME</text>
+            <path class="gd-lead gd-fade gd-f3" d="M205 210L183 205"/>
+            <text class="gd-knees gd-fade gd-f3" x="176" y="191" text-anchor="end"><tspan x="176">knees in the </tspan><tspan x="176" dy="1.25em">butterfly position </tspan><tspan x="176" dy="1.25em">stay in shot</tspan></text>
+            <rect class="gd-dev" x="418" y="145" width="44" height="30" rx="6"/>
+            <circle class="gd-lens" cx="440" cy="160" r="7"/><circle class="gd-lens-in" cx="440" cy="160" r="2.6"/>
+            <text class="gd-cam-note" x="462" y="210" text-anchor="end"><tspan class="gd-lc">CAMERA</tspan><tspan x="462" dy="1.4em">to the side</tspan><tspan x="462" dy="1.25em">not head or feet</tspan></text>
+          </svg>
+        </figure>
+        <div class="gd-view-text">
+          <h3>2. On the mat — the tremoring practice</h3>
+          <p>Set the device to the <strong>side</strong> of your mat, never at your head or feet, so the full length of your body stays in shot, including your knees in the butterfly position.</p>
+        </div>
+      </article>
+    </div>
+
+    <ul class="gd-tips">
+      <li><svg viewbox="0 0 24 24" aria-hidden="true"><rect x="4" y="7" width="16" height="9.5" rx="1.8"/><path d="M9.5 21l2.5-4.5 2.5 4.5"/></svg><span>Use landscape orientation and prop the device so it cannot slide or fall.</span></li>
+      <li><svg viewbox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="4" width="19" height="12.5" rx="2"/><path d="M8.5 20.5h7M12 16.5v4"/></svg><span>A larger screen helps — you need to follow the exercises being demonstrated.</span></li>
+      <li><svg viewbox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="12" cy="10.4" r="2.2"/><path d="M8.2 16.6c.6-2 2-3 3.8-3s3.2 1 3.8 3"/></svg><span>Join a few minutes early and check your own video preview before we start.</span></li>
+      <li><svg viewbox="0 0 24 24" aria-hidden="true"><path d="M3.5 12h17M7 8.5 3.5 12 7 15.5M17 8.5l3.5 3.5-3.5 3.5"/></svg><span>Leave room to step forward and back without walking out of frame.</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ===== CHECKLIST: tick as you prepare (saved in this browser) ===== -->
+<section class="section gd-sec gd-list" id="checklist">
+  <div class="container">
+    <div class="gd-list-top">
+      <div class="gd-top">
+        <h2>What to prepare</h2>
+        <p>Have all of this ready and within reach before the session begins.</p>
+      </div>
+      <div class="gd-progress" hidden="">
+        <p class="gd-count" aria-live="polite"><span><b data-gd-count="">0</b> of 9 ready</span></p>
+        <div class="gd-track" role="progressbar" aria-label="Checklist progress" aria-valuemin="0" aria-valuemax="9" aria-valuenow="0"><span class="gd-fill"/></div>
+        <button type="button" class="gd-clear" hidden="">Clear ticks</button>
+      </div>
+    </div>
+    <ul class="gd-check">
+      <li class="gd-item"><label class="gd-row"><input class="gd-cb" type="checkbox" data-gd-item="mat" aria-labelledby="gd-n-mat" aria-describedby="gd-r-mat gd-d-mat"/><span class="gd-box" aria-hidden="true"><svg viewbox="0 0 24 24"><path d="M6.5 12.5l3.6 3.6 7.4-8.2"/></svg></span><span class="gd-txt"><span class="gd-name" id="gd-n-mat">A yoga mat</span> <span class="gd-req is-must" id="gd-r-mat">Required</span><span class="gd-desc" id="gd-d-mat">Somewhere comfortable and non-slip to lie down for the tremoring practice.</span></span></label></li>
+      <li class="gd-item"><label class="gd-row"><input class="gd-cb" type="checkbox" data-gd-item="device" aria-labelledby="gd-n-device" aria-describedby="gd-r-device gd-d-device"/><span class="gd-box" aria-hidden="true"><svg viewbox="0 0 24 24"><path d="M6.5 12.5l3.6 3.6 7.4-8.2"/></svg></span><span class="gd-txt"><span class="gd-name" id="gd-n-device">A device with a camera</span> <span class="gd-req is-must" id="gd-r-device">Required</span><span class="gd-desc" id="gd-d-device">Laptop, tablet or phone — the bigger the screen the better, so you can clearly see the exercises being shown.</span></span></label></li>
+      <li class="gd-item"><label class="gd-row"><input class="gd-cb" type="checkbox" data-gd-item="headphones" aria-labelledby="gd-n-headphones" aria-describedby="gd-r-headphones gd-d-headphones"/><span class="gd-box" aria-hidden="true"><svg viewbox="0 0 24 24"><path d="M6.5 12.5l3.6 3.6 7.4-8.2"/></svg></span><span class="gd-txt"><span class="gd-name" id="gd-n-headphones">Wireless headphones</span> <span class="gd-req is-must" id="gd-r-headphones">Required in group classes</span><span class="gd-desc" id="gd-d-headphones">Essential in group classes, as you will be far from the device. In private sessions we can try without, but please have a pair ready to connect.</span></span></label></li>
+      <li class="gd-item"><label class="gd-row"><input class="gd-cb" type="checkbox" data-gd-item="internet" aria-labelledby="gd-n-internet" aria-describedby="gd-r-internet gd-d-internet"/><span class="gd-box" aria-hidden="true"><svg viewbox="0 0 24 24"><path d="M6.5 12.5l3.6 3.6 7.4-8.2"/></svg></span><span class="gd-txt"><span class="gd-name" id="gd-n-internet">Reliable internet</span> <span class="gd-req is-must" id="gd-r-internet">Required</span><span class="gd-desc" id="gd-d-internet">A stable connection throughout. If you can, sit close to your router or use a wired connection.</span></span></label></li>
+      <li class="gd-item"><label class="gd-row"><input class="gd-cb" type="checkbox" data-gd-item="lighting" aria-labelledby="gd-n-lighting" aria-describedby="gd-r-lighting gd-d-lighting"/><span class="gd-box" aria-hidden="true"><svg viewbox="0 0 24 24"><path d="M6.5 12.5l3.6 3.6 7.4-8.2"/></svg></span><span class="gd-txt"><span class="gd-name" id="gd-n-lighting">Good lighting</span> <span class="gd-req is-must" id="gd-r-lighting">Required</span><span class="gd-desc" id="gd-d-lighting">Light the room well and face the light where possible. If you are backlit or in shadow, we cannot see your movement.</span></span></label></li>
+      <li class="gd-item"><label class="gd-row"><input class="gd-cb" type="checkbox" data-gd-item="trousers" aria-labelledby="gd-n-trousers" aria-describedby="gd-r-trousers gd-d-trousers"/><span class="gd-box" aria-hidden="true"><svg viewbox="0 0 24 24"><path d="M6.5 12.5l3.6 3.6 7.4-8.2"/></svg></span><span class="gd-txt"><span class="gd-name" id="gd-n-trousers">Loose, light-coloured trousers</span> <span class="gd-req is-must" id="gd-r-trousers">Required</span><span class="gd-desc" id="gd-d-trousers">Stretchy and comfortable enough for the butterfly position. Dark clothing hides your tremors from the camera, so please avoid black.</span></span></label></li>
+      <li class="gd-item"><label class="gd-row"><input class="gd-cb" type="checkbox" data-gd-item="cushions" aria-labelledby="gd-n-cushions" aria-describedby="gd-r-cushions gd-d-cushions"/><span class="gd-box" aria-hidden="true"><svg viewbox="0 0 24 24"><path d="M6.5 12.5l3.6 3.6 7.4-8.2"/></svg></span><span class="gd-txt"><span class="gd-name" id="gd-n-cushions">Pillows, cushions, blankets</span> <span class="gd-req" id="gd-r-cushions">As needed</span><span class="gd-desc" id="gd-d-cushions">For support under your knees or head, and to stay warm as your body settles afterwards.</span></span></label></li>
+      <li class="gd-item"><label class="gd-row"><input class="gd-cb" type="checkbox" data-gd-item="water" aria-labelledby="gd-n-water" aria-describedby="gd-r-water gd-d-water"/><span class="gd-box" aria-hidden="true"><svg viewbox="0 0 24 24"><path d="M6.5 12.5l3.6 3.6 7.4-8.2"/></svg></span><span class="gd-txt"><span class="gd-name" id="gd-n-water">Water within reach</span> <span class="gd-req" id="gd-r-water">Recommended</span><span class="gd-desc" id="gd-d-water">Keep a glass or bottle beside your mat so you do not have to leave the frame.</span></span></label></li>
+      <li class="gd-item"><label class="gd-row"><input class="gd-cb" type="checkbox" data-gd-item="space" aria-labelledby="gd-n-space" aria-describedby="gd-r-space gd-d-space"/><span class="gd-box" aria-hidden="true"><svg viewbox="0 0 24 24"><path d="M6.5 12.5l3.6 3.6 7.4-8.2"/></svg></span><span class="gd-txt"><span class="gd-name" id="gd-n-space">An undisturbed space</span> <span class="gd-req" id="gd-r-space">Recommended</span><span class="gd-desc" id="gd-d-space">Let the household know, silence notifications, and close the door so you can let go completely.</span></span></label></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ===== SAFETY + ZOOM: set up in advance ===== -->
+<section class="section bg-cream gd-sec gd-prep">
+  <div class="container">
+    <div class="gd-safe">
+      <svg class="gd-safe-ic" viewbox="0 0 56 44" aria-hidden="true">
+        <path data-draw="" data-draw-dur="1200" d="M3 41H53"/>
+        <path data-draw="" data-draw-dur="1300" d="M7 41V19L20.5 7.5 34 19v22"/>
+        <circle data-draw="" data-draw-dur="900" cx="20.5" cy="24.5" r="3.2"/>
+        <path data-draw="" data-draw-dur="1000" d="M15 36.5c0-3.4 2.4-5.8 5.5-5.8s5.5 2.4 5.5 5.8"/>
+        <circle data-draw="" data-draw-dur="900" cx="45" cy="24.5" r="3.2"/>
+        <path data-draw="" data-draw-dur="1000" d="M39.5 36.5c0-3.4 2.4-5.8 5.5-5.8s5.5 2.4 5.5 5.8"/>
+      </svg>
+      <div class="gd-safe-body">
+        <h2>Someone you trust, nearby</h2>
+        <div class="gd-safe-cols">
+          <p class="gd-safe-ask">Please ask someone you trust to be in the same house or apartment as you — or right next door — for the duration of the session, and give us their <strong>name and phone number on your consent form</strong>.</p>
+          <p class="gd-safe-why">This is rarely needed. It simply means that if you would benefit from someone physically present, we can reach them straight away. Having their details on the form is the important part.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="gd-zoom">
+      <div class="gd-top">
+        <h2>Joining on Zoom</h2>
+        <p>Our online sessions and group classes run on Zoom. Only authenticated users can join, and only through the Zoom application — so please set this up in advance rather than on the day.</p>
+      </div>
+      <ol class="gd-zsteps" role="list">
+        <li class="gd-zstep"><p><strong>Download the Zoom app</strong> for desktop or mobile from zoom.us/download.</p></li>
+        <li class="gd-zstep"><p><strong>Create or sign in to a Zoom account</strong> using the same email address you registered with.</p></li>
+        <li class="gd-zstep"><p><strong>Test your camera and microphone</strong> inside the app before the session day.</p></li>
+        <li class="gd-zstep"><p><strong>Join through the app, not the browser</strong> — joining from a browser or while signed out may block you from the session.</p></li>
+      </ol>
+      <p class="gd-znote">If Zoom is new to you, allow ten extra minutes the first time. We are happy to help you test in advance.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ON THE DAY: a timeline counting down to the session ===== -->
+<section class="section gd-sec gd-day" id="on-the-day">
+  <div class="container gd-day-grid">
+    <div class="gd-day-aside">
+      <h2>Fifteen minutes before</h2>
+      <svg class="gd-clock" viewbox="0 0 200 200" aria-hidden="true">
+        <circle class="gd-ck-face" cx="100" cy="100" r="92"/>
+        <path class="gd-ck-wedge" d="M100 100L16 100A84 84 0 0 1 100 16Z"/>
+        <path class="gd-ck-arc" data-draw="" data-draw-dur="1400" d="M8 100A92 92 0 0 1 100 8"/>
+        <path class="gd-ck-ticks" d="M100 38V16M136 37.65L141 28.99M162.35 64L171.01 59M162 100H184M162.35 136L171.01 141M136 162.35L141 171.01M100 162V184M64 162.35L59 171.01M37.65 136L28.99 141M38 100H16M37.65 64L28.99 59M64 37.65L59 28.99"/>
+        <path class="gd-ck-hand" d="M100 112V32" transform="rotate(-90 100 100)"/>
+        <circle class="gd-ck-hub" cx="100" cy="100" r="6.5"/><circle class="gd-ck-pin" cx="100" cy="100" r="2.4"/>
+      </svg>
+    </div>
+    <div class="gd-tl-wrap">
+      <span class="gd-tl-track" aria-hidden="true"/><span class="gd-tl-fill" aria-hidden="true"/>
+      <ol class="gd-tl" role="list">
+        <li>Roll out your mat and clear the space around it.</li>
+        <li>Set your device in place and check the two camera views — standing, and lying down.</li>
+        <li>Turn on the lights; close curtains if you are backlit.</li>
+        <li>Change into loose, light-coloured trousers.</li>
+        <li>Put cushions, a blanket and water beside your mat.</li>
+        <li>Charge or plug in your device, and connect your headphones.</li>
+        <li>Confirm your support person knows the session is happening.</li>
+        <li>Open Zoom, sign in, and join a few minutes early.</li>
+      </ol>
+      <p class="gd-tl-end">Session starts</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ + CLOSE (both paths) ===== -->
+<section class="section bg-cream gd-sec gd-faq">
+  <div class="container gd-faq-grid">
+    <div class="gd-faq-head"><h2>Common questions</h2></div>
+    <div class="gd-faq-body">
+      <div class="gd-qa">
+        <details><summary>What happens after the session?</summary><p>Keep 20–30 minutes free afterwards to rest, drink water and let your body settle. Avoid a heavy meal in the two hours before, and be gentle with yourself for the rest of the day.</p></details>
+        <details><summary>Can I join from my phone?</summary><p>Yes, but the bigger the screen the better — you need to follow the exercises being demonstrated. If you use a phone, prop it in landscape at hip height and connect wireless headphones.</p></details>
+        <details><summary>I live alone. Do I still need a support person?</summary><p>Please arrange someone you trust to be reachable and nearby — a neighbour or a friend next door counts. Their name and phone number go on your consent form; it is rarely needed, but it keeps you safe.</p></details>
+        <details><summary>Do I have to keep my camera on?</summary><p>Yes. Your facilitator watches for signs of over-activation and will guide you to slow down or stop. Without the camera we cannot guide you safely, so please keep it on for the whole session.</p></details>
+        <details><summary>What if my internet drops?</summary><p>Rejoin through the Zoom app as soon as you can. If you cannot reconnect, pause the practice, rest on your mat and message your facilitator. Sitting close to your router or using a wired connection helps prevent this.</p></details>
+      </div>
+    </div>
+  </div>
+  <div class="container gd-close-wrap">
+  <nav class="cta-band gd-close" aria-label="Next steps">
+        <svg class="gd-fork" viewbox="0 0 48 106" aria-hidden="true"><circle cx="6" cy="23" r="4"/><path data-draw="" data-draw-dur="1300" d="M10 23H46M20 23V71Q20 83 32 83H46"/></svg>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="events">See upcoming online sessions</a>
+          <a class="btn btn-ghost-light" href="https://calendly.com/bhdasia/tre-certification-intake-call" target="_blank" rel="noopener">Book a certification intake call</a>
+          <a class="btn btn-ghost-light" href="contact">Still have a question? Get in touch</a>
+        </div>
+      </nav>
+  </div>
+</section>
+</div>
+<script>
+/* Online-session guide (gd-): camera view toggle + redraw, tickable checklist (saved in this browser),
+   Zoom sequence and safety highlight entrances, scroll-linked countdown timeline, print helpers.
+   Without JS the page is complete: both camera views show, checkboxes still tick, the timeline is fully drawn. */
+(function () {
+  'use strict';
+  var KEY = 'tre-sg-guide-checklist-v1';
+  function $(s, c) { return (c || document).querySelector(s); }
+  function $$(s, c) { return Array.prototype.slice.call((c || document).querySelectorAll(s)); }
+  function clamp(v, a, b) { return v &lt; a ? a : v &gt; b ? b : v; }
+
+  function init() {
+    var root = $('.gd'); if (!root) return;
+    var L = window.TRELayer || {};
+    var R = typeof L.reduced === 'boolean' ? L.reduced : !!(window.matchMedia &amp;&amp; window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+    function seeOnce(el, cb, threshold) {
+      if (!el) return;
+      if (L.onVisible) L.onVisible(el, function (en, isIn) { if (isIn) cb(); }, { once: true, threshold: threshold || 0.25 });
+      else cb();
+    }
+    $$('.gd-view', root).forEach(function (p) { p.classList.add('gd-snap'); });
+    if (!R) root.classList.add('gd-armed');
+    views(root, R, seeOnce);
+    checklist(root);
+    if (!R) {
+      var safe = $('.gd-safe', root); seeOnce(safe, function () { safe.classList.add('is-in'); }, 0.35);
+      var z = $('.gd-zsteps', root); if (z) { z.classList.add('is-armed'); seeOnce(z, function () { z.classList.add('is-in'); }, 0.3); }
+    }
+    countdown(root, R);
+    printing(root);
+  }
+
+  /* ---- camera views: tablist (Left/Right/Home/End), cross-fade, redraw the lines of the view that opens ---- */
+  function views(root, R, seeOnce) {
+    var sw = $('.gd-switch', root), wrap = $('.gd-views', root); if (!sw || !wrap) return;
+    var tabs = $$('.gd-tab', sw), panels = $$('.gd-view', wrap), cur = 0, seen = 0;
+    sw.hidden = false; wrap.classList.add('is-tabbed');
+    function apply(i) {
+      cur = i;
+      tabs.forEach(function (t, k) { t.setAttribute('aria-selected', k === i ? 'true' : 'false'); t.tabIndex = k === i ? 0 : -1; });
+      panels.forEach(function (p, k) { p.classList.toggle('is-active', k === i); if (k === i) p.removeAttribute('inert'); else p.setAttribute('inert', ''); });
+      sw.setAttribute('data-active', String(i));
+    }
+    function redraw(p) {
+      p.classList.add('gd-snap'); p.classList.remove('is-drawn'); void p.offsetWidth; p.classList.remove('gd-snap'); p.classList.add('is-drawn');
+      if (R || !seen || performance.now() - seen &lt; 1900) return;          // first entrance still drawing (TRELayer.draw)
+      var paths = $$('[data-draw]', p), t0 = performance.now();
+      paths.forEach(function (el) { el.style.setProperty('--p', 0); });
+      requestAnimationFrame(function step(now) {
+        var busy = false;
+        paths.forEach(function (el) {
+          var d = parseFloat(el.getAttribute('data-gd-delay')) || 0, dur = parseFloat(el.getAttribute('data-draw-dur')) || 1200;
+          var k = clamp((now - t0 - d) / dur, 0, 1); if (k &lt; 1) busy = true;
+          el.style.setProperty('--p', (1 - Math.pow(1 - k, 3)).toFixed(4));
+        });
+        if (busy) requestAnimationFrame(step);
+      });
+    }
+    function select(i, focus) {
+      if (i !== cur) { apply(i); redraw(panels[i]); }
+      if (focus) tabs[i].focus();
+    }
+    tabs.forEach(function (t, k) { t.addEventListener('click', function () { select(k, false); }); });
+    sw.addEventListener('keydown', function (e) {
+      var n = tabs.length, k = null;
+      if (e.key === 'ArrowRight') k = (cur + 1) % n; else if (e.key === 'ArrowLeft') k = (cur + n - 1) % n;
+      else if (e.key === 'Home') k = 0; else if (e.key === 'End') k = n - 1;
+      if (k === null) return;
+      e.preventDefault(); select(k, true);
+    });
+    apply(0);
+    void wrap.offsetWidth;
+    panels.forEach(function (p) { p.classList.remove('gd-snap'); });
+    if (R) { panels.forEach(function (p) { p.classList.add('is-drawn'); }); return; }
+    seeOnce(wrap, function () { seen = performance.now(); panels[cur].classList.add('is-drawn'); }, 0.3);
+  }
+
+  /* ---- checklist: ticks + progress line, remembered in this browser only (works without storage) ---- */
+  function checklist(root) {
+    var list = $('.gd-check', root); if (!list) return;
+    var boxes = $$('.gd-cb', list), prog = $('.gd-progress', root), num = $('[data-gd-count]', root),
+        fill = $('.gd-fill', root), bar = $('.gd-track', root), clear = $('.gd-clear', root), saved = [];
+    try { saved = JSON.parse(window.localStorage.getItem(KEY) || '[]'); } catch (e) { saved = []; }
+    if (!Array.isArray(saved)) saved = [];
+    list.classList.add('gd-snap');
+    boxes.forEach(function (b) { if (saved.indexOf(b.getAttribute('data-gd-item')) &gt; -1) b.checked = true; });
+    function update(save) {
+      var on = boxes.filter(function (b) { return b.checked; }), n = on.length;
+      if (num) num.textContent = String(n);
+      if (fill) fill.style.setProperty('--k', (n / boxes.length).toFixed(3));
+      if (bar) bar.setAttribute('aria-valuenow', String(n));
+      if (prog) prog.classList.toggle('is-full', n === boxes.length);
+      if (clear) clear.hidden = n === 0;
+      if (save) { try { window.localStorage.setItem(KEY, JSON.stringify(on.map(function (b) { return b.getAttribute('data-gd-item'); }))); } catch (e) {} }
+    }
+    list.addEventListener('change', function (e) { if (e.target &amp;&amp; e.target.classList &amp;&amp; e.target.classList.contains('gd-cb')) update(true); });
+    if (clear) clear.addEventListener('click', function () { boxes.forEach(function (b) { b.checked = false; }); update(true); if (boxes[0]) boxes[0].focus(); });
+    if (prog) prog.hidden = false;
+    update(false);
+    void list.offsetWidth; list.classList.remove('gd-snap');
+  }
+
+  /* ---- on the day: the line fills to the reading position, steps light as they pass, the clock counts the last quarter down ---- */
+  function countdown(root, R) {
+    var sec = $('.gd-day', root), wrap = $('.gd-tl-wrap', root); if (!sec || !wrap || R) return;
+    var items = $$('.gd-tl li', wrap), end = $('.gd-tl-end', wrap), fill = $('.gd-tl-fill', wrap),
+        hand = $('.gd-ck-hand', sec), wedge = $('.gd-ck-wedge', sec), raf = 0, lastA = null;
+    sec.classList.add('gd-live');
+    function clock(p) {
+      var a = -90 + 90 * p; if (lastA !== null &amp;&amp; Math.abs(a - lastA) &lt; 0.05) return; lastA = a;
+      if (hand) hand.setAttribute('transform', 'rotate(' + a.toFixed(2) + ' 100 100)');
+      if (wedge) {
+        var rad = a * Math.PI / 180, x = 100 + 84 * Math.sin(rad), y = 100 - 84 * Math.cos(rad);
+        wedge.setAttribute('d', p &gt; 0.998 ? 'M100 100Z' : 'M100 100L' + x.toFixed(2) + ' ' + y.toFixed(2) + 'A84 84 0 0 1 100 16Z');
+      }
+    }
+    function paint() {
+      raf = 0;
+      var vh = window.innerHeight || 800, r = wrap.getBoundingClientRect();
+      if (r.bottom &lt; -vh || r.top &gt; vh * 2) return;
+      var y = vh * 0.62 - r.top, p = clamp((y - 29) / Math.max(1, r.height - 40), 0, 1);
+      if (fill) fill.style.setProperty('--t', p.toFixed(4));
+      items.forEach(function (li) { li.classList.toggle('on', li.offsetTop + 29 &lt;= y); });
+      if (end) end.classList.toggle('on', end.offsetTop + 30 &lt;= y);
+      clock(p);
+    }
+    function queue() { if (!raf) raf = requestAnimationFrame(paint); }
+    window.addEventListener('scroll', queue, { passive: true });
+    window.addEventListener('resize', queue, { passive: true });
+    paint();
+  }
+
+  /* ---- print: every answer open on paper, restored afterwards ---- */
+  function printing(root) {
+    var opened = [];
+    window.addEventListener('beforeprint', function () {
+      opened = $$('.gd-qa details', root).filter(function (d) { return !d.open; });
+      opened.forEach(function (d) { d.open = true; });
+    });
+    window.addEventListener('afterprint', function () { opened.forEach(function (d) { d.open = false; }); opened = []; });
+  }
+
+  document.addEventListener('DOMContentLoaded', function () { setTimeout(init, 0); });
+})();
+</script>
+</main><footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="footer-wordmark">TRE™ in Singapore</span>
+        <p>Release stress, strengthen resilience, improve wellbeing. The home of TRE™ practitioners, trainees and first-timers in Singapore.</p>
+              <div class="socials" aria-label="Social media">
+        <a href="https://www.instagram.com/isabelleclausteixeira_bhd/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+        <a href="https://www.linkedin.com/in/isabelleclausteixeira/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewbox="0 0 24 24" fill="currentColor"><path d="M6.5 8.5H3.5V21h3V8.5zM5 3.5a1.75 1.75 0 1 0 0 3.5 1.75 1.75 0 0 0 0-3.5zM21 13.6c0-3.4-1.8-5.3-4.5-5.3-2 0-3 1.1-3.5 1.9V8.5h-3V21h3v-6.6c0-1.7.6-2.9 2.2-2.9 1.5 0 1.9 1.2 1.9 2.9V21H21v-7.4z"/></svg></a>
+        <a href="https://www.youtube.com/@IsabelleClausTeixeira" target="_blank" rel="noopener" aria-label="YouTube"><svg viewbox="0 0 24 24" fill="currentColor"><path d="M23 7.2c-.3-1.2-1.1-2-2.3-2.3C18.9 4.5 12 4.5 12 4.5s-6.9 0-8.7.4C2.1 5.2 1.3 6 1 7.2.6 9 .6 12 .6 12s0 3 .4 4.8c.3 1.2 1.1 2 2.3 2.3 1.8.4 8.7.4 8.7.4s6.9 0 8.7-.4c1.2-.3 2-1.1 2.3-2.3.4-1.8.4-4.8.4-4.8s0-3-.4-4.8zM9.8 15.5v-7l6 3.5-6 3.5z"/></svg></a>
+        <a href="https://www.facebook.com/bhdasia/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewbox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7.5h2.6l.4-3h-3V8.6c0-.9.3-1.5 1.5-1.5h1.6V4.4c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4v2.2H7.8v3h2.6V21h3.1z"/></svg></a>
+      </div>
+      </div>
+      <div>
+        <h2>Explore</h2>
+        <ul class="footer-links">
+          <li><a href="./">Home</a></li>
+          <li><a href="events">Events</a></li>
+          <li><a href="about">About</a></li>
+          <li><a href="blog">Blog</a></li>
+          <li><a href="education">Education</a></li>
+          <li><a href="contact">Contact</a></li>
+          <li><a href="online-session-guide">Online session guide</a></li>
+          <li><a href="facilitators">Providers</a></li>
+          <li><a href="facilitators#get-listed">Get listed</a></li>
+          <li><a href="education#certification">Certification</a></li>
+          <li><a href="https://hummingbeing.com/" target="_blank" rel="noopener">HummingBeing</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Contact</h2>
+        <ul class="footer-contact">
+          <li><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><a href="mailto:bonjour@bhdasia.com">bonjour@bhdasia.com</a></li>
+          <li><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.8 2z"/></svg><a href="https://wa.me/818065151778" target="_blank" rel="noopener">+81 80 6515 1778 (WhatsApp)</a></li>
+          <li><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg><span>Business &amp; Human Development Consulting Pte Ltd<br/>50 Raffles Place, Singapore Land Tower <span class="nowrap">#30-00,</span> Singapore 048623</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span data-year="">2026</span> Business &amp; Human Development Consulting Pte Ltd · TRE™ in Singapore. TRE™ is a registered trademark of TRE For All, Inc. Method created by Dr. David Berceli.</p>
+      <p class="footer-powered">Powered by <a href="https://technext.asia" target="_blank" rel="noopener">TechNext</a></p>
+    </div>
+  </div>
+</footer><a class="wa-float" href="https://wa.me/818065151778" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewbox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 12 12 0 0 0 4.6 4c1.7.7 2.1.6 2.8.5.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2 0-.1-.2-.2-.4-.3z"/></svg>
+</a><script>window.TRE_STATIC={"events":["tre-provider-certification-singapore","tre-module-1-bucharest","from-shaking-to-shaping-bucharest","feminine-masculine-energetics-corporate","the-body-in-the-room","breath-as-medicine","tre-module-3-singapore","tre-provider-certification-2027-singapore","from-shaking-to-shaping-online","tre-module-2-singapore","from-shaking-to-shaping-online-sep3","internal-alchemy-singapore","nervous-system-regulation-coaches-singapore"],"facilitators":["isabelle-claus-teixeira","yan","nikki-tay","rina-ho"]};</script><script>window.TRE_EVENT_POSTS={};</script><script>window.TRE_IMG={"assets/img/events/event-body-in-the-room.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-body-in-the-room.webp":[1920,1080,[480,960],1],"assets/img/events/event-body-in-the-room-portrait.webp":[1080,1350,[540],1],"assets/img/events/event-breath-as-medicine.webp":[1493,840,[480,960],1],"assets/img/events/card-event-breath-as-medicine.webp":[1920,1080,[480,960],1],"assets/img/events/event-certification-2027.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-certification-2027.webp":[1920,1080,[480,960],1],"assets/img/events/event-certification-2027-portrait.webp":[1080,1350,[540],1],"assets/img/events/event-transform-practice.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-transform-practice.webp":[1920,1080,[480,960],1],"assets/img/events/event-shaking-to-shaping.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-shaking-to-shaping.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-shaking-to-shaping-sep3.webp":[1920,1080,[480,960],1],"assets/img/events/event-shaking-online.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-shaking-online.webp":[1920,1080,[480,960],1],"assets/img/events/event-feminine-masculine.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-feminine-masculine.webp":[1920,1080,[480,960],1],"assets/img/events/event-feminine-masculine-portrait.webp":[1080,1350,[540],1],"assets/img/events/event-bucharest-module1.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-bucharest-module1.webp":[1920,1080,[480,960],1],"assets/img/events/event-nervous-system.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-nervous-system.webp":[1920,1080,[480,960],1],"assets/img/events/event-internal-alchemy.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-internal-alchemy.webp":[1920,1080,[480,960],1],"assets/img/facilitators/isabelle-her-story.jpg":[850,1280,[160,400],1],"assets/img/facilitators/gallery-isabelle-teaching-tre.jpg":[1200,1600,[400,800],1],"assets/img/facilitators/gallery-isabelle-students-module1-may2026.jpg":[1600,1200,[400,800,1200],1],"assets/img/facilitators/gallery-tre-module1-2026.jpg":[1600,2844,[400,800,1200],1],"assets/img/facilitators/gallery-ws-1.jpg":[1600,1200,[400,800,1200],1],"assets/img/facilitators/gallery-danang-tre-conference-nov2025.jpg":[1600,1200,[400,800,1200],1],"assets/img/facilitators/gallery-dinner-david-berceli-founders.jpg":[929,959,[400,800],1],"assets/img/facilitators/gallery-asia-tre-trainers-david.jpg":[1600,1380,[400,800,1200],1],"assets/img/facilitators/gallery-isabelle-vietnam-tre.jpg":[1368,1368,[400,800,1200],1],"assets/img/facilitators/gallery-uk-tre-providers.jpg":[1200,1600,[400,800],1],"assets/img/facilitators/gallery-ws-2.jpg":[1200,1600,[400,800],1],"assets/img/facilitators/isabelle-global-journey.jpg":[850,1280,[400],1],"assets/img/facilitators/yan.webp":[1600,1066,[160,400,800],1],"assets/img/facilitators/nikki-tay.webp":[1254,1254,[160,400,800],1],"assets/img/facilitators/rina-ho.webp":[1000,1000,[160,400,800],1]};window.TRE_HERO_AVIF=["hero-education","hero-events","hero-facilitators"];</script><script src="assets/js/events-data.js?v=20261014a"/><script src="assets/js/facilitators-data.js?v=20261014a"/><script src="assets/js/main.js?v=20261014a"/><script src="assets/js/layer.js?v=20261014a"/><script src="assets/js/chatbot.js?v=20261014a"/></t></t>

@@ -1,0 +1,872 @@
+<t t-name="trex.page_facilitators"><t t-call="web.layout"><t t-set="html_data" t-value="{'lang': 'en-SG'}"/><t t-set="title">Certified TRE™ Providers in Singapore</t><t t-set="head"><script src="/assets/js/odoo-forms.js"></script><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="description" content="Find a certified TRE&#x2122; provider in Singapore for one-to-one, group, online or corporate sessions. Meet the Certifying Trainer and join the directory."/><link rel="canonical" href="https://tre-in-singapore.com/facilitators"/><meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"/><meta property="og:locale" content="en_SG"/><meta property="og:site_name" content="TRE&#x2122; in Singapore"/><meta property="og:type" content="website"/><meta property="og:title" content="Certified TRE&#x2122; Providers in Singapore"/><meta property="og:description" content="Find a certified TRE&#x2122; provider in Singapore for one-to-one, group, online or corporate sessions. Meet the Certifying Trainer and join the directory."/><meta property="og:url" content="https://tre-in-singapore.com/facilitators"/><meta property="og:image" content="https://tre-in-singapore.com/assets/img/og/facilitators.jpg"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Certified TRE&#x2122; Providers in Singapore"/><meta name="twitter:description" content="Find a certified TRE&#x2122; provider in Singapore for one-to-one, group, online or corporate sessions. Meet the Certifying Trainer and join the directory."/><meta name="twitter:image" content="https://tre-in-singapore.com/assets/img/og/facilitators.jpg"/><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://tre-in-singapore.com/#org","name":"TRE™ in Singapore","alternateName":["TRE Singapore","TRE in Singapore"],"url":"https://tre-in-singapore.com/","logo":{"@type":"ImageObject","url":"https://tre-in-singapore.com/assets/img/logo-tre-singapore.png"},"image":"https://tre-in-singapore.com/assets/img/og-cover.jpg","description":"The home of TRE™ (Tension and Trauma Releasing Exercises) in Singapore: certified providers, Global TRE™ Provider Certification, workshops, practice circles and resources.","email":"bonjour@bhdasia.com","telephone":"+81 80 6515 1778","address":{"@type":"PostalAddress","streetAddress":"50 Raffles Place, #30-00 Singapore Land Tower","addressLocality":"Singapore","postalCode":"048623","addressCountry":"SG"},"areaServed":{"@type":"Country","name":"Singapore"},"founder":{"@id":"https://tre-in-singapore.com/#isabelle"},"parentOrganization":{"@type":"Organization","name":"Business &amp; Human Development Consulting Pte Ltd","alternateName":"BHD Asia","url":"https://bhdasia.com/","sameAs":["https://www.facebook.com/bhdasia/"]},"knowsAbout":["Tension and Trauma Releasing Exercises (TRE)","Neurogenic tremors","Nervous system regulation","Stress and trauma release","TRE provider certification"]},{"@type":"WebSite","@id":"https://tre-in-singapore.com/#website","url":"https://tre-in-singapore.com/","name":"TRE™ in Singapore","alternateName":"TRE Singapore","inLanguage":"en-SG","publisher":{"@id":"https://tre-in-singapore.com/#org"}},{"@type":"Person","@id":"https://tre-in-singapore.com/#isabelle","name":"Isabelle Claus Teixeira","url":"https://tre-in-singapore.com/facilitators/isabelle-claus-teixeira","jobTitle":["Global TRE™ Certifying Trainer","ICF PCC Executive Coach","Mindfulness Teacher"],"image":"https://tre-in-singapore.com/assets/img/facilitators/isabelle-her-story.jpg","sameAs":["https://www.linkedin.com/in/isabelleclausteixeira/","https://www.instagram.com/isabelleclausteixeira_bhd/","https://www.youtube.com/@IsabelleClausTeixeira","https://www.facebook.com/bhdasia/","https://bhdasia.com","https://hummingbeing.com/"],"worksFor":{"@id":"https://tre-in-singapore.com/#org"}},{"@type":"CollectionPage","@id":"https://tre-in-singapore.com/facilitators#webpage","url":"https://tre-in-singapore.com/facilitators","name":"Certified TRE™ Providers in Singapore","description":"Find a certified TRE™ provider in Singapore for one-to-one, group, online or corporate sessions. Meet the Certifying Trainer and join the directory.","isPartOf":{"@id":"https://tre-in-singapore.com/#website"},"about":{"@id":"https://tre-in-singapore.com/#org"},"inLanguage":"en-SG","primaryImageOfPage":{"@type":"ImageObject","url":"https://tre-in-singapore.com/assets/img/og/facilitators.jpg"},"breadcrumb":{"@id":"https://tre-in-singapore.com/facilitators#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://tre-in-singapore.com/facilitators#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://tre-in-singapore.com/"},{"@type":"ListItem","position":2,"name":"Providers","item":"https://tre-in-singapore.com/facilitators"}]},{"@type":"ItemList","@id":"https://tre-in-singapore.com/facilitators#list","name":"TRE™ providers in Singapore","numberOfItems":4,"itemListElement":[{"@type":"ListItem","position":1,"url":"https://tre-in-singapore.com/facilitators/isabelle-claus-teixeira","name":"Isabelle Claus Teixeira"},{"@type":"ListItem","position":2,"url":"https://tre-in-singapore.com/facilitators/yan","name":"Yan Lau"},{"@type":"ListItem","position":3,"url":"https://tre-in-singapore.com/facilitators/nikki-tay","name":"Nikki Tay"},{"@type":"ListItem","position":4,"url":"https://tre-in-singapore.com/facilitators/rina-ho","name":"Rina Ho"}]}]}</script><meta name="theme-color" content="#1c3d7a"/><link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg"/><link rel="preload" href="assets/fonts/plus-jakarta-sans-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="assets/css/style.css?v=20261014a"/><link rel="stylesheet" href="assets/css/layer.css?v=20261014a"/><script>document.documentElement.classList.add('js');try{if(localStorage.getItem('tre-motion')==='paused')document.documentElement.classList.add('motion-paused')}catch(e){}(function(){try{var p=location.pathname,c=p.replace(/\/index\.html$/,'/').replace(/\.html$/,'');if(c!==p)history.replaceState(history.state,'',c+location.search+location.hash)}catch(e){}})();</script></t><a class="sr-only" href="#main">Skip to content</a><header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="./" aria-label="TRE™ in Singapore — home">
+      <img class="brand-logo" src="assets/img/logo-tre-singapore-214.webp" srcset="assets/img/logo-tre-singapore-214.webp 214w, assets/img/logo-tre-singapore-321.webp 321w" sizes="(max-width: 760px) 78px, 107px" alt="TRE™ in Singapore" width="107" height="58" decoding="async"/>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">
+      <span/><span/><span/>
+    </button>
+    <nav class="nav" id="site-nav" aria-label="Main navigation">
+      <a href="./">Home</a>
+      <a href="about">About</a>
+      <a href="education">Education</a>
+      <a href="facilitators" class="active">Providers</a>
+      <a href="events">Events</a>
+      <a href="blog">Blog</a>
+      <a href="contact">Contact</a>
+      <a class="btn btn-primary btn-sm" href="https://calendly.com/bhdasia/tre-certification-intake-call" target="_blank" rel="noopener">Book a call</a>
+    </nav>
+  </div>
+</header><main id="main">
+<style id="fc-css">
+/* =========================================================
+   FACILITATORS (fc-) - 2026-09-29 rebuild below the finished hero
+   1 directory tool (sticky toolbar, faceted counts, FLIP re-layout)
+   2 community photo strip (develops from navy, lightbox)
+   3 what "certified" means (module path drawn with a settling tremor, ticking checklist)
+   4 get listed as a drawn sequence   5 close offering both paths
+   Rich but calm; complete and still under prefers-reduced-motion.
+   ========================================================= */
+
+/* ---------- 1 · Directory ---------- */
+.fc-dir.section{padding:var(--s9) 0 var(--s8)}
+.fc-dir-head{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:var(--s4) var(--s8);align-items:end;margin:0 0 var(--s6)}
+.fc-dir-head h2{margin:0;max-width:21ch}
+.fc-dir-head p{margin:0;max-width:46ch;color:var(--muted)}
+.fc-browse{--fc-head:67px;position:relative}
+
+/* toolbar: one white bar that stays under the header while the grid is browsed */
+.fc-dir .fc-tools{position:sticky;top:calc(var(--fc-head) + 10px);z-index:20;display:grid;grid-template-columns:minmax(0,1fr) auto auto;grid-template-areas:"seg search shuffle" "chips count count";align-items:center;gap:10px 12px;margin:0 0 var(--s5);padding:10px 12px;background:var(--paper);border:1px solid var(--line-2);border-radius:var(--radius);box-shadow:0 1px 2px rgba(19,43,86,.04);transition:box-shadow var(--d2) var(--ease),border-color var(--d2) var(--ease)}
+.fc-dir .fc-tools.is-stuck{border-color:var(--line);box-shadow:0 0 0 10px var(--paper),0 22px 30px -18px rgba(19,43,86,.4)}
+.fc-dir .fac-tools-row,.fc-dir .fc-seg-wrap{display:contents}
+
+/* role filter = segmented control with a sliding thumb and live counts */
+.fc-dir .fc-seg{grid-area:seg;justify-self:start;position:relative;display:flex;flex-wrap:nowrap;justify-content:flex-start;gap:2px;width:fit-content;max-width:100%;margin:0;padding:4px;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:none;scrollbar-width:none;background:var(--blue-tint);border:1px solid var(--line-2);border-radius:999px;-webkit-mask-image:none;mask-image:none}
+.fc-dir .fc-seg::-webkit-scrollbar,.fc-dir .fc-chips::-webkit-scrollbar{display:none}
+.fc-dir .fc-seg .filter-btn{position:relative;z-index:1;flex:0 0 auto;scroll-snap-align:none;display:inline-flex;align-items:center;justify-content:center;gap:.5em;min-height:40px;padding:0 1rem;border:0;border-radius:999px;background:transparent;color:var(--ink-2);font-size:.86rem;font-weight:600;box-shadow:none;transition:color var(--d2) var(--ease-out),background-color var(--d1) var(--ease)}
+.fc-dir .fc-seg .filter-btn:hover{transform:none;color:var(--navy);background:rgba(28,61,122,.07)}
+.fc-dir .fc-seg .filter-btn.active{color:#fff;background:var(--navy);box-shadow:none}
+.fc-dir .fc-seg.has-thumb .filter-btn.active{background:transparent}
+.fc-dir .fc-seg .filter-btn.is-zero:not(.active){color:var(--muted)}
+.fc-seg-thumb{position:absolute;z-index:0;left:0;top:4px;width:0;height:40px;border-radius:999px;background:var(--navy);box-shadow:0 8px 18px -8px rgba(19,43,86,.55);pointer-events:none;transition:transform .44s var(--ease-out),width .44s var(--ease-out)}
+.fc-seg-thumb.is-instant{transition:none}
+.fc-dir .fc-n{font-size:.8em;font-weight:700;font-variant-numeric:tabular-nums;color:var(--muted);transition:color var(--d2) var(--ease)}
+.fc-dir .filter-btn.active .fc-n{color:rgba(255,255,255,.76)}
+
+/* format chips */
+.fc-dir .fc-chips{grid-area:chips;position:relative;display:flex;flex-wrap:nowrap;justify-content:flex-start;gap:5px;min-width:0;margin:0;padding:2px;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:none}
+.fc-dir .fc-chips .chip{flex:0 0 auto;display:inline-flex;align-items:center;min-height:36px;padding:0 .74rem;border-radius:999px;border:1px solid var(--line);background:var(--paper);color:var(--ink-2);font-size:.78rem;font-weight:700;transition:border-color var(--d1) var(--ease),background-color var(--d1) var(--ease),color var(--d1) var(--ease)}
+.fc-dir .fc-chips .chip:hover{border-color:var(--bronze-soft);color:var(--navy)}
+.fc-dir .fc-chips .chip.active{background:var(--gold-soft);border-color:var(--gold);color:var(--brown)}
+.fc-dir .fc-chips .chip.is-zero:not(.active){border-style:dashed;color:var(--muted)}
+/* scroll rows fade at the edge that has more */
+.fc-dir .fc-over{-webkit-mask-image:linear-gradient(90deg,#000 calc(100% - 40px),transparent);mask-image:linear-gradient(90deg,#000 calc(100% - 40px),transparent)}
+.fc-dir .fc-over.fc-mid{-webkit-mask-image:linear-gradient(90deg,transparent,#000 40px,#000 calc(100% - 40px),transparent);mask-image:linear-gradient(90deg,transparent,#000 40px,#000 calc(100% - 40px),transparent)}
+.fc-dir .fc-over.fc-end{-webkit-mask-image:linear-gradient(90deg,transparent,#000 40px);mask-image:linear-gradient(90deg,transparent,#000 40px)}
+
+/* search, shuffle, result count */
+.fc-dir .fc-search{grid-area:search;display:flex;align-items:center;gap:.55rem;width:clamp(200px,21.5vw,285px);min-width:0;max-width:none;flex:none;min-height:44px;margin:0;padding:0 .7rem 0 .95rem;background:var(--paper);border:1px solid var(--line);border-radius:999px;cursor:text;transition:border-color var(--d1) var(--ease),box-shadow var(--d2) var(--ease)}
+.fc-dir .fc-search:hover{border-color:var(--bronze-soft)}
+.fc-dir .fc-search:focus-within{border-color:var(--navy);box-shadow:0 0 0 3px rgba(201,164,92,.38)}
+.fc-dir .fc-search svg{width:17px;height:17px;flex:none;color:var(--bronze)}
+.fc-dir .fc-search input{flex:1;width:100%;min-width:0;height:42px;padding:0;border:0;outline:0;background:transparent;font:inherit;font-size:.9rem;color:var(--ink)}
+.fc-dir .fc-search input:focus-visible{outline:none}
+.fc-dir .fc-search input::placeholder{color:var(--muted);opacity:1}
+.fc-dir .fc-search input::-webkit-search-cancel-button{-webkit-appearance:none;appearance:none;width:18px;height:18px;margin:0;background:var(--bronze);-webkit-mask:var(--i-close) center/16px no-repeat;mask:var(--i-close) center/16px no-repeat;cursor:pointer}
+.fc-dir .fc-shuffle{grid-area:shuffle;min-height:44px;padding:0 1.05rem;gap:.5rem;border:1px solid var(--line);background:var(--paper);color:var(--navy);font-size:.84rem;box-shadow:none}
+.fc-dir .fc-shuffle:hover{transform:none;border-color:var(--navy);color:var(--navy)}
+.fc-dir .fc-shuffle svg{color:var(--bronze)}
+.fc-dir .fc-count{grid-area:count;justify-self:end;margin:0;font-size:.84rem;line-height:1.35;color:var(--muted);white-space:nowrap;font-variant-numeric:tabular-nums}
+.fc-dir .fc-count b{color:var(--navy);font-weight:700}
+
+/* grid + cards (main.js renders article.fac-card; restyled here) */
+.fc-stage{position:relative;isolation:isolate;overflow-anchor:none}
+.fc-stage.fc-clip{overflow:clip;overflow-clip-margin:28px}
+.fc-dir .fac-grid.grid{grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:var(--s5);margin:0}
+.fc-dir .fac-card{display:grid;grid-template-columns:minmax(0,1fr);grid-template-areas:"photo" "name" "role" "view" "bio" "meta" "acts";align-content:start;padding:10px 10px 20px;background:var(--paper);border:1px solid var(--line-2);border-radius:var(--radius);box-shadow:var(--shadow-1);animation:none;transform:none;filter:none;transition:translate var(--d2) var(--ease-out),box-shadow var(--d2) var(--ease),border-color var(--d2) var(--ease)}
+.fc-dir .fac-card::after{content:none;display:none}
+.fc-dir .fac-card:hover{transform:none;translate:0 -3px;box-shadow:var(--shadow-2);border-color:rgba(139,107,69,.3)}
+.fc-dir .fac-card.fc-pre{opacity:0}
+.fc-dir .fac-card.fc-ghost{position:absolute;z-index:-1;margin:0;pointer-events:none;box-shadow:none;translate:none}
+.fc-dir .fac-body{display:contents}
+.fc-dir .fac-photo{grid-area:photo;aspect-ratio:1/1;border-radius:var(--radius-sm);overflow:hidden;isolation:isolate}
+.fc-dir .fac-photo::after{content:none}
+.fc-dir .fac-photo img{object-position:50% 26%;transition:transform 1.2s var(--ease-out)}
+.fc-dir .fac-card:hover .fac-photo img{transform:scale(1.045)}
+.fc-dir .fac-sample{left:auto;right:18px;top:18px}
+.fc-dir .fac-body &gt; .tags{grid-area:photo;align-self:start;justify-self:start;z-index:2;display:flex;flex-wrap:wrap;gap:6px;margin:10px;pointer-events:none}
+.fc-dir .fac-body &gt; .tags .badge{box-shadow:0 6px 16px -6px rgba(15,31,61,.5)}
+.fc-dir .fac-body &gt; h3{grid-area:name;margin:16px 8px 3px;font-size:1.14rem;line-height:1.25}
+.fc-dir .fac-card:hover h3 a{color:var(--blue)}
+.fc-dir .fac-role{grid-area:role;margin:0 8px;font-size:.84rem;line-height:1.45}
+.fc-dir .fac-body &gt; .link-arrow{grid-area:view;justify-self:start;min-height:36px;margin:4px 8px 0;padding:0;font-size:.86rem}
+.fc-dir .fac-body &gt; p{grid-area:bio;margin:8px 8px 0;font-size:.9rem;line-height:1.6;color:var(--muted)}
+.fc-dir .fac-meta{grid-area:meta;margin:14px 8px 0;padding:12px 0 0;border-top:1px solid var(--line-2);font-size:.84rem;line-height:1.5}
+.fc-dir .fac-meta li{margin-bottom:.35rem}
+.fc-dir .fac-meta li:last-child{margin-bottom:0}
+.fc-dir .fac-meta svg,.fc-dir .fac-actions svg{stroke-width:1.75}
+.fc-dir .fac-meta svg{width:15px;height:15px;flex:0 0 15px;margin-top:3px}
+.fc-dir .fac-actions{grid-area:acts;display:flex;flex-wrap:wrap;gap:6px;margin:16px 8px 0;padding:0}
+.fc-dir .fac-actions .btn{flex:1 1 auto;min-height:40px;padding:0 .8rem;font-size:.78rem;gap:.35rem}
+.fc-dir .fac-actions .btn svg{width:14px;height:14px;flex:0 0 14px}
+@media (pointer:coarse){.fc-dir .fac-actions .btn{min-height:44px}}
+/* fine pointers (script sets .fc-fine from matchMedia): contact actions rise out of the portrait window on hover / keyboard focus */
+.fc-dir.fc-fine .fac-actions{grid-area:photo;align-self:end;z-index:3;margin:0 8px 8px;padding:8px;border-radius:12px;background:rgba(255,255,255,.97);box-shadow:0 16px 32px -14px rgba(15,31,61,.55);opacity:0;visibility:hidden;translate:0 10px;pointer-events:none;transition:opacity .2s var(--ease-out),translate .26s var(--ease-out),visibility 0s linear .26s}
+.fc-dir.fc-fine .fac-card:hover .fac-actions,.fc-dir.fc-fine .fac-card:focus-within .fac-actions{opacity:1;visibility:visible;translate:0 0;pointer-events:auto;transition:opacity .22s var(--ease-out),translate .28s var(--ease-out),visibility 0s}
+.fc-dir.fc-fine .fac-actions .btn{min-height:34px;padding:0 .7rem;font-size:.74rem}
+
+/* empty state that helps: who is listed, one-click reset, and the listing route */
+.fc-dir .event-empty{grid-column:1/-1;display:grid;justify-items:center;gap:var(--s4);padding:var(--s7) var(--s5);text-align:center;font-size:1.02rem;color:var(--ink-2);background:var(--cream);border:1px dashed var(--bronze-soft);border-radius:var(--radius)}
+.fc-dir .event-empty [data-fac-reset]{display:inline-flex;align-items:center;gap:.45rem;min-height:44px;padding:0 1.25rem;border:1px solid rgba(28,61,122,.35);border-radius:999px;background:var(--paper);color:var(--navy);font-size:.9rem;cursor:pointer;transition:background-color var(--d2) var(--ease),color var(--d2) var(--ease),border-color var(--d2) var(--ease)}
+.fc-dir .event-empty [data-fac-reset]:hover{background:var(--navy);border-color:var(--navy);color:#fff}
+.fc-dir .event-empty [data-fac-reset]:hover::after{background:#fff}
+.fc-empty-faces{display:flex;flex-wrap:wrap;justify-content:center;gap:8px}
+.fc-face-sm{display:block;width:52px;height:52px;border-radius:12px;overflow:hidden;box-shadow:0 0 0 1px var(--line);transition:translate var(--d2) var(--ease-out),box-shadow var(--d2) var(--ease)}
+.fc-face-sm:hover,.fc-face-sm:focus-visible{translate:0 -2px;box-shadow:0 0 0 2px var(--gold)}
+.fc-face-sm img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 26%}
+.fc-empty-note{display:grid;justify-items:center;gap:.2rem;max-width:54ch;margin:0;font-size:.92rem;color:var(--muted)}
+
+/* the two pointers under the grid */
+.fc-more{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--s6) var(--s8);margin-top:var(--s8);padding-top:var(--s7);border-top:1px solid var(--line-2)}
+.fc-more-item{display:grid;grid-template-columns:56px minmax(0,1fr);gap:var(--s5);align-items:start}
+.fc-more-art{display:block;width:56px;height:56px;color:var(--bronze)}
+.fc-more-art svg{width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round}
+.fc-more-art svg *{vector-effect:non-scaling-stroke}
+.fc-more h3{font-size:1.15rem;margin:.1rem 0 .45rem}
+.fc-more p{margin:0;color:var(--muted);font-size:.95rem;max-width:54ch}
+.fc-more .fc-more-act{display:flex;flex-wrap:wrap;align-items:center;gap:.4rem 1rem;margin:.8rem 0 0}
+
+/* ---------- 2 · Community strip ---------- */
+.fc-gal{padding:0 0 var(--s9)}
+.fc-strip.lx-strip{--fc-h:clamp(240px,29vw,380px);grid-auto-columns:max-content;gap:var(--s4);padding:6px max(var(--s5),calc((100% - var(--max)) / 2 + var(--s5))) 4px;scroll-padding-inline:max(var(--s5),calc((100% - var(--max)) / 2 + var(--s5)));scrollbar-width:none}
+.fc-strip.lx-strip::-webkit-scrollbar{display:none}
+.fc-shot{display:grid;align-content:start;gap:10px;width:calc(var(--fc-h) * var(--ar,1));color:inherit}
+.fc-shot .lx-media{display:block;height:var(--fc-h);aspect-ratio:auto;isolation:isolate}
+.fc-shot .lx-media img{height:100%;transition:scale 1.4s var(--ease-out),filter 1.4s var(--ease-out)}
+.fc-shot .lx-media::after{content:"";position:absolute;inset:0;background:var(--navy);mix-blend-mode:color;opacity:0;pointer-events:none;transition:opacity 1.5s var(--ease-out)}
+.fc-shot.fc-undev .lx-media::after{opacity:1;transition:none}
+.fc-shot.fc-undev .lx-media img{scale:1.14;filter:brightness(.8) contrast(.94);transition:none}
+.fc-cap{padding:0 2px;font-size:.8rem;line-height:1.45;color:var(--muted);transition:color var(--d2) var(--ease)}
+.fc-shot:hover .fc-cap{color:var(--navy)}
+.fc-gal-ctl{display:flex;align-items:center;gap:var(--s3);margin-top:var(--s4)}
+.fc-gal-ctl.is-idle{display:none}
+.fc-gal-bar{position:relative;flex:1;height:1px;margin-right:var(--s3);background:var(--line)}
+.fc-gal-bar i{position:absolute;left:0;top:-1px;width:30%;height:3px;border-radius:3px;background:var(--bronze)}
+.fc-gal-btn{flex:none;display:grid;place-items:center;width:44px;height:44px;border-radius:50%;border:1px solid var(--line);background:var(--paper);color:var(--navy);cursor:pointer;transition:border-color var(--d1) var(--ease),background-color var(--d1) var(--ease),color var(--d1) var(--ease)}
+.fc-gal-btn:hover:not([disabled]){border-color:var(--navy);background:var(--navy);color:#fff}
+.fc-gal-btn[disabled]{opacity:.38;cursor:default}
+.fc-gal-btn svg{width:18px;height:18px}
+
+/* ---------- 3 · What "certified" means ---------- */
+.fc-cert.section{padding:var(--s9) 0}
+.fc-cert-head{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:var(--s5) var(--s8);align-items:start}
+.fc-cert-head h2{margin:0;font-size:clamp(1.9rem,3.4vw,2.7rem);max-width:11ch}
+.fc-cert-copy p{max-width:62ch;color:var(--ink-2)}
+.fc-cert-copy p:first-child{font-size:1.08rem;color:var(--ink)}
+/* the module path: nodes are HTML, the line is drawn by script (a small tremor that settles) */
+.fc-path{position:relative;margin:var(--s8) 0 var(--s8);padding:0}
+.fc-path-svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none}
+.fc-path-ln{fill:none;stroke:var(--bronze);stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round}
+.fc-path-steps{position:relative;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:var(--s5);margin:0;padding:0;list-style:none}
+.fc-path:not(.fc-js) .fc-path-steps::before{content:"";position:absolute;left:8px;top:7px;width:calc(75% + var(--s5) * .75);height:2px;background:var(--bronze-soft)}
+.fc-path-steps &gt; li{position:relative;display:grid;align-content:start;gap:3px;padding:34px 12px 0 0}
+.fc-path-steps &gt; li::before{content:"";position:absolute;z-index:1;left:0;top:0;width:16px;height:16px;box-sizing:border-box;border-radius:50%;border:2px solid var(--gold);background:var(--cream);transition:background-color .6s var(--ease-out),box-shadow .6s var(--ease-out)}
+.fc-path-steps &gt; li.on::before,.fc-path:not(.fc-js) .fc-path-steps &gt; li::before{background:var(--gold);box-shadow:0 0 0 7px rgba(201,164,92,.2)}
+.fc-path-steps b{font-family:var(--font-display);font-weight:700;font-size:1.02rem;line-height:1.3;color:var(--navy)}
+.fc-path-steps span{font-size:.94rem;line-height:1.45;color:var(--ink-2)}
+.fc-path-steps &gt; li.fc-path-end::before{left:-4px;top:-4px;width:24px;height:24px;border-color:var(--bronze);background:var(--paper);box-shadow:none}
+.fc-path-steps &gt; li.fc-path-end::after{content:"";position:absolute;z-index:1;left:3px;top:3px;width:10px;height:10px;border-radius:50%;background:var(--gold);transform:scale(0);transition:transform .7s var(--ease-out)}
+.fc-path-steps &gt; li.fc-path-end.on::after,.fc-path:not(.fc-js) .fc-path-steps &gt; li.fc-path-end::after{transform:scale(1)}
+.fc-path-end b{font-size:1.12rem}
+.fc-path-note{position:relative;width:calc(75% - var(--s5) / 4);margin:var(--s5) 0 0;padding:16px 0 0 8px;font-size:.88rem;color:var(--muted)}
+.fc-path-note::before{content:"";position:absolute;left:8px;right:0;top:0;height:9px;border:1px solid var(--bronze-soft);border-top:0;border-radius:0 0 9px 9px;clip-path:inset(0 0 0 0);transition:clip-path 1s var(--ease-out)}
+.fc-path.fc-js:not(.is-done) .fc-path-note::before{clip-path:inset(0 100% 0 0)}
+/* ask your provider: a checklist that ticks as it arrives */
+.fc-ask{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,8fr);gap:var(--s5) var(--s8);align-items:start;padding:var(--s7);background:var(--paper);border:1px solid var(--line-2);border-radius:var(--radius);box-shadow:var(--shadow-1)}
+.fc-ask h3{margin:0;font-size:1.4rem;max-width:12ch}
+.fc-ask .fc-ticks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--s4) var(--s6)}
+.fc-ask .fc-ticks li{margin:0;color:var(--ink-2)}
+.fc-ticks li::before{background-image:none;transition:transform .34s var(--ease-out) calc(var(--k,0) * 150ms),opacity .34s var(--ease-out) calc(var(--k,0) * 150ms)}
+.fc-ticks li::after{content:"";position:absolute;left:0;top:.3rem;width:18px;height:18px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238b6b45' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12l5 5L20 7'/%3E%3C/svg%3E") center/11px no-repeat;clip-path:inset(0 0 0 0);transition:clip-path .42s var(--ease-out) calc(var(--k,0) * 150ms + 170ms)}
+.fc-ticks.fc-tick-wait li::before{transform:scale(.3);opacity:0;transition:none}
+.fc-ticks.fc-tick-wait li::after{clip-path:inset(0 100% 0 0);transition:none}
+.fc-ticks li:nth-child(2){--k:1}.fc-ticks li:nth-child(3){--k:2}.fc-ticks li:nth-child(4){--k:3}.fc-ticks li:nth-child(5){--k:4}.fc-ticks li:nth-child(6){--k:5}
+
+/* ---------- 4 · Get listed: a drawn sequence ---------- */
+.fc-list.section{padding:var(--s9) 0}
+.fc-list-grid{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,7fr);gap:var(--s6) var(--s8);align-items:start}
+.fc-list-head{position:sticky;top:120px}
+.fc-list-head h2{margin:0;font-size:clamp(1.9rem,3.4vw,2.7rem);max-width:11ch}
+.fc-seq{position:relative;display:grid;gap:var(--s7);margin:0;padding:0;list-style:none}
+.fc-seq::before,.fc-seq::after{content:"";position:absolute;left:9px;width:2px;margin-left:-1px;top:var(--fc-y0,14px);height:calc(var(--fc-y1,100%) - var(--fc-y0,14px));border-radius:2px;pointer-events:none}
+.fc-seq::before{background:var(--line)}
+.fc-seq::after{background:linear-gradient(var(--gold),var(--bronze));transform-origin:50% 0;transform:scaleY(var(--fc-p,1))}
+.fc-step{position:relative;padding-left:50px}
+.fc-step::before{content:"";position:absolute;z-index:1;left:0;top:5px;width:18px;height:18px;box-sizing:border-box;border-radius:50%;border:2px solid var(--gold);background:var(--paper);transition:background-color .5s var(--ease-out),box-shadow .5s var(--ease-out)}
+.fc-step.on::before,.fc-seq:not(.fc-seq-js) .fc-step::before{background:var(--gold);box-shadow:0 0 0 7px rgba(201,164,92,.18)}
+.fc-step-go::before{top:14px}
+.fc-step &gt; p{margin:0;font-size:1.1rem;line-height:1.6;color:var(--ink);max-width:54ch}
+.fc-need{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 28px;margin:var(--s5) 0 0}
+.fc-need li{margin:0;color:var(--ink-2)}
+.fc-step-go .btn-row{margin:0}
+
+/* ---------- 5 · Close: both paths ---------- */
+.fc-close.cta-band{display:block;margin:0;padding:var(--s9) 0;border-radius:0;background:radial-gradient(80% 90% at 12% 0%,rgba(42,99,168,.3),transparent 62%),radial-gradient(60% 80% at 100% 100%,rgba(139,107,69,.16),transparent 60%),var(--navy-ink);border-bottom:1px solid rgba(255,255,255,.08)}
+@media (hover:hover){.fc-close.cta-band:hover::before{opacity:.7}}
+.fc-close-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
+.fc-close-path{display:flex;flex-direction:column;align-items:flex-start;padding:var(--s2) var(--s8) var(--s2) 0}
+.fc-close-path + .fc-close-path{padding:var(--s2) 0 var(--s2) var(--s8);border-left:1px solid rgba(201,164,92,.34)}
+.fc-close h2{max-width:24ch;margin:0 0 var(--s6);font-size:clamp(1.45rem,2.4vw,1.95rem);line-height:1.22;color:#fff}
+.fc-close .btn-row{flex-direction:column;align-items:flex-start;gap:.9rem;margin-top:auto}
+.fc-close .link-arrow{color:#fff}
+.fc-close .link-arrow::after{background:var(--gold)}
+.fc-close .link-arrow:hover{color:var(--gold)}
+.fc-faces{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 var(--s5)}
+.fc-faces:empty{display:none}
+.fc-face{position:relative;display:block;width:58px;height:58px;border-radius:14px;box-shadow:0 0 0 1px rgba(255,255,255,.22),0 10px 22px -12px rgba(0,0,0,.6);transition:translate var(--d2) var(--ease-out),box-shadow var(--d2) var(--ease)}
+.fc-face img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 26%;border-radius:14px}
+.fc-face:hover,.fc-face:focus-visible{translate:0 -3px;box-shadow:0 0 0 2px var(--gold),0 14px 26px -12px rgba(0,0,0,.6)}
+.fc-face::after{content:attr(data-name);position:absolute;left:50%;bottom:calc(100% + 10px);translate:-50% 4px;padding:.32rem .6rem;border-radius:8px;background:var(--paper);color:var(--navy-ink);font:600 .74rem/1.2 var(--font-body);white-space:nowrap;opacity:0;pointer-events:none;transition:opacity .2s var(--ease-out),translate .2s var(--ease-out)}
+.fc-face:hover::after,.fc-face:focus-visible::after{opacity:1;translate:-50% 0}
+
+/* ---------- Responsive ---------- */
+@media (max-width:1040px){
+  .fc-dir .fc-tools{display:contents}
+  .fc-dir .fc-seg-wrap{display:block;position:sticky;top:var(--fc-head);z-index:20;margin:0 0 var(--s3);padding:8px 0;background:var(--paper);transition:box-shadow var(--d2) var(--ease)}
+  .fc-dir .fc-seg-wrap.is-stuck{box-shadow:0 14px 18px -14px rgba(19,43,86,.32)}
+  .fc-dir .fc-seg{width:auto}
+  .fc-dir .fc-seg .filter-btn{flex:1 0 auto}
+  .fc-dir .fac-tools-row{display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-start;gap:10px;margin:0 0 var(--s4)}
+  .fc-dir .fc-chips{flex:1 1 100%}
+  .fc-dir .fc-search{flex:1 1 0;width:auto;min-width:0}
+  .fc-dir .fc-count{margin:0 0 var(--s4);text-align:left;white-space:normal}
+}
+@media (max-width:900px){
+  .fc-dir-head,.fc-cert-head,.fc-list-grid{grid-template-columns:minmax(0,1fr)}
+  .fc-list-head{position:static}
+  .fc-list-head h2,.fc-cert-head h2{max-width:none}
+  .fc-ask{grid-template-columns:minmax(0,1fr);padding:var(--s6)}
+}
+@media (max-width:760px){
+  .fc-dir.section{padding:var(--s8) 0 var(--s7)}
+  .fc-dir .fac-grid.grid{grid-template-columns:minmax(0,1fr);gap:var(--s4)}
+  .fc-dir .fac-card{grid-template-columns:104px minmax(0,1fr);grid-template-areas:"photo name" "photo role" "photo tag" "photo view" "bio bio" "meta meta" "acts acts";column-gap:14px;padding:12px 12px 16px}
+  .fc-dir .fac-photo{align-self:start;border-radius:12px}
+  .fc-dir .fac-body &gt; .tags{grid-area:tag;margin:6px 0 0;pointer-events:auto}
+  .fc-dir .fac-body &gt; .tags .badge{box-shadow:none}
+  .fc-dir .fac-body &gt; h3{margin:2px 0 3px;font-size:1.08rem}
+  .fc-dir .fac-role{margin:0;font-size:.82rem}
+  .fc-dir .fac-body &gt; .link-arrow{min-height:44px;margin:0}
+  .fc-dir .fac-body &gt; p{margin:12px 2px 0}
+  .fc-dir .fac-meta{margin:12px 2px 0}
+  .fc-dir .fac-actions{margin:14px 2px 0}
+  .fc-more{grid-template-columns:minmax(0,1fr);margin-top:var(--s7);padding-top:var(--s6)}
+  .fc-more-item{grid-template-columns:44px minmax(0,1fr);gap:var(--s4)}
+  .fc-more-art{width:44px;height:44px}
+  .fc-gal{padding-bottom:var(--s8)}
+  .fc-cert.section,.fc-list.section,.fc-close.cta-band{padding:var(--s8) 0}
+  .fc-path{margin:var(--s7) 0}
+  .fc-path-steps{grid-template-columns:minmax(0,1fr);gap:26px}
+  .fc-path-steps &gt; li{padding:0 0 0 38px;min-height:20px}
+  .fc-path:not(.fc-js) .fc-path-steps::before{left:7px;top:8px;width:2px;height:calc(100% - 16px)}
+  .fc-path-note{width:auto;margin:var(--s5) 0 0 38px;padding:12px 0 0}
+  .fc-path-note::before{left:0;right:auto;width:48px;height:0;border:0;border-top:1px dashed var(--bronze-soft);border-radius:0}
+  .fc-close-grid{grid-template-columns:minmax(0,1fr)}
+  .fc-close-path{padding:0}
+  .fc-close-path + .fc-close-path{margin-top:var(--s7);padding:var(--s7) 0 0;border-left:0;border-top:1px solid rgba(201,164,92,.34)}
+  .fc-close h2{margin-bottom:var(--s5)}
+}
+@media (max-width:640px){
+  .fc-ask{padding:var(--s5)}
+  .fc-ask .fc-ticks,.fc-need{grid-template-columns:minmax(0,1fr)}
+  .fc-seq{gap:var(--s6)}
+  .fc-step{padding-left:42px}
+  .fc-close .btn-row .btn{flex:0 1 auto}
+}
+@media (prefers-reduced-motion:reduce){
+  .fc-dir .fac-card,.fc-dir .fac-card:hover{translate:none}
+  .fc-shot .lx-media img{scale:1}
+}
+/* finish review: on touch screens every card shows its actions, so their Book now is navy (one orange action per screen) */
+@media (hover:none),(max-width:760px){.fc-dir .fac-actions .btn-primary{background:var(--navy);border-color:var(--navy);color:#fff}.fc-dir .fac-actions .btn-primary:hover{background:var(--navy-deep);border-color:var(--navy-deep);color:#fff}}
+</style>
+
+<section class="page-hero hx" style="--fx:60%;--fy:44%;--fx-m:58%;--shift:34%;--feather:34%">
+  <div class="hx-media" aria-hidden="true"><picture><source type="image/avif" srcset="assets/img/gallery/hero-facilitators-960.avif 960w, assets/img/gallery/hero-facilitators-1600.avif 1600w" sizes="(max-width: 760px) 50vw, 100vw"><img class="hx-photo" src="assets/img/gallery/hero-facilitators-1600.webp" srcset="assets/img/gallery/hero-facilitators-960.webp 960w, assets/img/gallery/hero-facilitators-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 100vw" width="1600" height="1200" alt="" fetchpriority="high" decoding="async"/></source></picture></div>
+  <div class="hx-wash" aria-hidden="true"/>
+  <canvas class="hx-tremor" aria-hidden="true"/>
+  <div class="container hx-inner">
+      <h1>TRE™ Providers in Singapore</h1>
+      <p>Every provider listed here holds — or is completing — certification under the global TRE™ programme created by Dr. David Berceli. Book an individual session, join a group, or bring TRE™ to your organisation.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="#directory">Browse the directory</a>
+        <a class="btn btn-ghost-light" href="#get-listed">List your practice</a>
+      </div>
+  </div>
+  <p class="hx-credit">Asia TRE™ trainers with David Berceli</p>
+</section>
+
+<!-- ===== 1 · DIRECTORY — one grid, shuffled on every load (assets/js/facilitators-data.js), filters + search; main.js renders the cards ===== -->
+<section class="section fc-dir" id="directory">
+  <div class="container">
+    <div class="fc-dir-head">
+      <h2>Global TRE™ trainers and certified providers who teach in Singapore</h2>
+      <p>The order shuffles on every visit so each provider gets the same time at the top. Filter by role or format, or search by name, area or language.</p>
+    </div>
+    <div class="fc-browse">
+      <div class="fac-tools fc-tools">
+        <div class="fc-seg-wrap">
+          <div class="filters fc-seg" data-fac-filter="kind" role="group" aria-label="Filter by role" data-scroll-x="">
+            <button type="button" class="filter-btn active" data-value="all" aria-pressed="true">Everyone</button>
+            <button type="button" class="filter-btn" data-value="trainer" aria-pressed="false">Certifying trainers</button>
+            <button type="button" class="filter-btn" data-value="provider" aria-pressed="false">Certified providers</button>
+            <button type="button" class="filter-btn" data-value="trainee" aria-pressed="false">Providers-in-training</button>
+          </div>
+        </div>
+        <div class="fac-tools-row">
+          <div class="chips fc-chips" data-fac-filter="mode" role="group" aria-label="Filter by format" data-scroll-x="">
+            <button type="button" class="chip active" data-value="all" aria-pressed="true">All formats</button>
+            <button type="button" class="chip" data-value="1:1" aria-pressed="false">1:1</button>
+            <button type="button" class="chip" data-value="Groups" aria-pressed="false">Groups</button>
+            <button type="button" class="chip" data-value="Online" aria-pressed="false">Online</button>
+            <button type="button" class="chip" data-value="In-person" aria-pressed="false">In-person</button>
+            <button type="button" class="chip" data-value="Corporate" aria-pressed="false">Corporate</button>
+            <button type="button" class="chip" data-value="Workshops" aria-pressed="false">Workshops</button>
+            <button type="button" class="chip" data-value="Certification" aria-pressed="false">Certification</button>
+          </div>
+          <label class="fac-search fc-search"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input type="search" placeholder="Search name, area, language…" data-fac-search="" aria-label="Search providers"/></label>
+          <button type="button" class="btn btn-ghost btn-sm fc-shuffle" data-fac-shuffle="" title="Shuffle the order"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" style="width:15px;height:15px" aria-hidden="true"><path d="M16 3h5v5M4 20 21 3M21 16v5h-5M15 15l6 6M4 4l5 5"/></svg>Shuffle</button>
+        </div>
+        <p class="small muted fc-count" data-fac-count="" aria-live="polite"/>
+      </div>
+      <div class="fc-stage">
+        <div class="grid grid-3 fac-grid" data-facilitators-grid="">
+          <noscript><p class="muted">Enable JavaScript to see the providers, or email <a href="mailto:bonjour@bhdasia.com">bonjour@bhdasia.com</a>.</p></noscript>
+        </div>
+      </div>
+    </div>
+    <div class="fc-more">
+      <article class="fc-more-item">
+        <span class="fc-more-art" aria-hidden="true"><svg viewbox="0 0 56 56" focusable="false"><rect x="4" y="4" width="48" height="48" rx="12" stroke-dasharray="4 5"/><circle cx="28" cy="23" r="7"/><path d="M15.5 42c2.6-6.2 7.1-9.2 12.5-9.2s9.9 3 12.5 9.2"/></svg></span>
+        <div>
+          <h3>Are you a certified TRE™ provider in Singapore?</h3>
+          <p>Certified providers and providers-in-training can be listed here at no cost, with the same card, profile page and gallery as everyone else.</p>
+          <p class="fc-more-act"><span class="badge badge-gold">Free listing</span><a class="link-arrow" href="#get-listed">Get listed</a></p>
+        </div>
+      </article>
+      <article class="fc-more-item">
+        <span class="fc-more-art" aria-hidden="true"><svg viewbox="0 0 56 56" focusable="false"><circle cx="25" cy="31" r="18"/><path d="M7 31h36M25 13c5.3 5 7.8 11 7.8 18S30.3 44 25 49M25 13c-5.3 5-7.8 11-7.8 18S19.7 44 25 49"/><path d="M34.5 7.5c6.3 1.2 10.9 4.9 13.3 10.6"/><path d="m44.3 15.3 3.6 3.2 1.2-4.7"/></svg></span>
+        <div>
+          <h3>Trainers and senior providers</h3>
+          <p>If you are a Global TRE™ Certifying Trainer or senior provider visiting Singapore and would like to run a workshop or supervision day with our community, we would love to host you.</p>
+          <p class="fc-more-act"><span class="badge badge-navy">Coming to Singapore?</span><a class="link-arrow" href="contact?interest=event">Propose an event</a></p>
+        </div>
+      </article>
+    </div>
+  </div>
+<div class="container rec-static"><h2>All certified TRE™ providers in Singapore</h2><ul><li><a href="facilitators/isabelle-claus-teixeira">Isabelle Claus Teixeira</a> — Global TRE™ Certifying Trainer · ICF PCC Executive Coach · Mindfulness Teacher. Founder of TRE™ in Singapore; runs the full three-module certification and teaches individuals, groups and organisations.</li><li><a href="facilitators/yan">Yan Lau</a> — Holistic Healing &amp; Wellness Facilitator · Certified TRE™ Provider. Holistic facilitator blending Family Constellations, Brainspotting, TRE™ and PSYCH-K® to clear subconscious blocks and heal generational patterns.</li><li><a href="facilitators/nikki-tay">Nikki Tay</a> — Certified TRE™ Provider · MEd Special Education. Certified TRE™ Provider drawing on nearly three decades in early-childhood and special education to offer a gentle, body-based way to release tension.</li><li><a href="facilitators/rina-ho">Rina Ho</a> — Certified TRE™ Provider · Executive Coach · Former APAC Business Leader. Executive coach and certified TRE™ provider helping leaders and teams build resilience, self-regulation and sustainable performance, after 25+ years in senior corporate leadership.</li></ul></div>
+</section>
+
+<!-- ===== 2 · COMMUNITY — real trainer and cohort photos (hummingbeing.com gallery, captions from assets/img/gallery/manifest.json) ===== -->
+<div class="fc-gal">
+  <div class="lx-strip fc-strip" data-gallery="" data-scroll-x="">
+    <a class="fc-shot" href="assets/img/gallery/module2-sep2026-6-1200.webp" data-caption="TRE™ Module 2 cohort — 26–27 September 2026, Singapore" style="--ar:1.333">
+      <span class="lx-media"><picture><source type="image/avif" srcset="assets/img/gallery/module2-sep2026-6-600.avif 600w, assets/img/gallery/module2-sep2026-6-1200.avif 1200w" sizes="(max-width: 760px) 330px, 520px"><img src="assets/img/gallery/module2-sep2026-6-600.webp" srcset="assets/img/gallery/module2-sep2026-6-600.webp 600w, assets/img/gallery/module2-sep2026-6-1200.webp 1200w" sizes="(max-width: 760px) 330px, 520px" width="600" height="450" alt="TRE™ Module 2 cohort — 26–27 September 2026, Singapore" loading="lazy" decoding="async"/></source></picture></span>
+      <span class="fc-cap" aria-hidden="true">TRE™ Module 2 cohort — 26–27 September 2026, Singapore</span>
+    </a>
+    <a class="fc-shot" href="assets/img/gallery/isabelle-david-simba-nikki-1200.webp" data-caption="Isabelle with David Berceli, Simba Stenqvist &amp; Nikki Tay" style="--ar:.75">
+      <span class="lx-media"><picture><source type="image/avif" srcset="assets/img/gallery/isabelle-david-simba-nikki-600.avif 600w, assets/img/gallery/isabelle-david-simba-nikki-1200.avif 1200w" sizes="(max-width: 760px) 190px, 290px"><img src="assets/img/gallery/isabelle-david-simba-nikki-600.webp" srcset="assets/img/gallery/isabelle-david-simba-nikki-600.webp 600w, assets/img/gallery/isabelle-david-simba-nikki-1200.webp 1200w" sizes="(max-width: 760px) 190px, 290px" width="600" height="800" alt="Isabelle with David Berceli, Simba Stenqvist &amp; Nikki Tay" loading="lazy" decoding="async"/></source></picture></span>
+      <span class="fc-cap" aria-hidden="true">Isabelle with David Berceli, Simba Stenqvist &amp; Nikki Tay</span>
+    </a>
+    <a class="fc-shot" href="assets/img/gallery/asia-tre-trainers-david-1200.webp" data-caption="Asia TRE™ Trainers with David Berceli" style="--ar:1.158">
+      <span class="lx-media"><picture><source type="image/avif" srcset="assets/img/gallery/asia-tre-trainers-david-600.avif 600w, assets/img/gallery/asia-tre-trainers-david-1200.avif 1200w" sizes="(max-width: 760px) 290px, 450px"><img src="assets/img/gallery/asia-tre-trainers-david-600.webp" srcset="assets/img/gallery/asia-tre-trainers-david-600.webp 600w, assets/img/gallery/asia-tre-trainers-david-1200.webp 1200w" sizes="(max-width: 760px) 290px, 450px" width="600" height="518" alt="Asia TRE™ Trainers with David Berceli" loading="lazy" decoding="async"/></source></picture></span>
+      <span class="fc-cap" aria-hidden="true">Asia TRE™ Trainers with David Berceli</span>
+    </a>
+    <a class="fc-shot" href="assets/img/gallery/uk-tre-providers-2-1200.webp" data-caption="With UK TRE™ Provider Students" style="--ar:.75">
+      <span class="lx-media"><picture><source type="image/avif" srcset="assets/img/gallery/uk-tre-providers-2-600.avif 600w, assets/img/gallery/uk-tre-providers-2-1200.avif 1200w" sizes="(max-width: 760px) 190px, 290px"><img src="assets/img/gallery/uk-tre-providers-2-600.webp" srcset="assets/img/gallery/uk-tre-providers-2-600.webp 600w, assets/img/gallery/uk-tre-providers-2-1200.webp 1200w" sizes="(max-width: 760px) 190px, 290px" width="600" height="800" alt="With UK TRE™ Provider Students" loading="lazy" decoding="async"/></source></picture></span>
+      <span class="fc-cap" aria-hidden="true">With UK TRE™ Provider Students</span>
+    </a>
+    <a class="fc-shot" href="assets/img/gallery/danang-tre-conference-nov2025-1200.webp" data-caption="Da Nang TRE™ Conference — November 2025" style="--ar:1.333">
+      <span class="lx-media"><picture><source type="image/avif" srcset="assets/img/gallery/danang-tre-conference-nov2025-600.avif 600w, assets/img/gallery/danang-tre-conference-nov2025-1200.avif 1200w" sizes="(max-width: 760px) 330px, 520px"><img src="assets/img/gallery/danang-tre-conference-nov2025-600.webp" srcset="assets/img/gallery/danang-tre-conference-nov2025-600.webp 600w, assets/img/gallery/danang-tre-conference-nov2025-1200.webp 1200w" sizes="(max-width: 760px) 330px, 520px" width="600" height="450" alt="Da Nang TRE™ Conference — November 2025" loading="lazy" decoding="async"/></source></picture></span>
+      <span class="fc-cap" aria-hidden="true">Da Nang TRE™ Conference — November 2025</span>
+    </a>
+    <a class="fc-shot" href="assets/img/gallery/isabelle-teaching-tre-1200.webp" data-caption="Teaching TRE™ Module 1" style="--ar:.75">
+      <span class="lx-media"><picture><source type="image/avif" srcset="assets/img/gallery/isabelle-teaching-tre-600.avif 600w, assets/img/gallery/isabelle-teaching-tre-1200.avif 1200w" sizes="(max-width: 760px) 190px, 290px"><img src="assets/img/gallery/isabelle-teaching-tre-600.webp" srcset="assets/img/gallery/isabelle-teaching-tre-600.webp 600w, assets/img/gallery/isabelle-teaching-tre-1200.webp 1200w" sizes="(max-width: 760px) 190px, 290px" width="600" height="800" alt="Teaching TRE™ Module 1" loading="lazy" decoding="async"/></source></picture></span>
+      <span class="fc-cap" aria-hidden="true">Teaching TRE™ Module 1</span>
+    </a>
+  </div>
+  <div class="container fc-gal-ctl">
+    <span class="fc-gal-bar" aria-hidden="true"><i/></span>
+    <button type="button" class="fc-gal-btn" data-fc-gal="-1" aria-label="Previous photo"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 6-6 6 6 6"/></svg></button>
+    <button type="button" class="fc-gal-btn" data-fc-gal="1" aria-label="Next photo"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></button>
+  </div>
+</div>
+
+<!-- ===== 3 · WHAT CERTIFIED MEANS ===== -->
+<section class="section bg-cream fc-cert">
+  <div class="container">
+    <div class="fc-cert-head">
+      <h2>What "certified" means</h2>
+      <div class="fc-cert-copy">
+        <p>A <strong>Global TRE™ Certified Provider</strong> has completed all three modules of the certification — personal practice, teaching one-to-one and teaching groups — including twelve online sessions of personal practice and supervision, under a Global TRE™ Certifying Trainer accredited by TRE For All.</p>
+        <p>Certified providers are trained to recognise signs of over-activation, teach self-regulation, and adapt the exercises for different bodies and histories. That is what makes TRE™ safe to learn.</p>
+        <a class="link-arrow" href="education#certification">See the certification pathway</a>
+      </div>
+    </div>
+    <figure class="fc-path" data-fc-path="">
+      <svg class="fc-path-svg" aria-hidden="true" focusable="false"><path class="fc-path-ln" d=""/></svg>
+      <ol class="fc-path-steps">
+        <li><b>Module 1</b><span>Personal practice</span></li>
+        <li><b>Module 2</b><span>Teaching one-to-one</span></li>
+        <li><b>Module 3</b><span>Teaching groups</span></li>
+        <li class="fc-path-end"><b>Global TRE™ Certified Provider</b></li>
+      </ol>
+      <p class="fc-path-note">Twelve online sessions of personal practice and supervision</p>
+    </figure>
+    <div class="fc-ask">
+      <h3>Ask your provider</h3>
+      <ul class="list-check fc-ticks">
+        <li>Which modules have you completed, and with which Certifying Trainer?</li>
+        <li>How do you help clients regulate if the tremor becomes intense?</li>
+        <li>Do you offer a first session that teaches me to practise safely at home?</li>
+        <li>What is your experience with my situation (pain, anxiety, burnout, performance)?</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 4 · GET LISTED — the same copy, drawn as a sequence ===== -->
+<section class="section fc-list" id="get-listed">
+  <div class="container fc-list-grid">
+    <div class="fc-list-head">
+      <h2>Get listed in the Singapore directory</h2>
+    </div>
+    <ol class="fc-seq" data-fc-seq="">
+      <li class="fc-step"><p>Free for Global TRE™ Certified Providers and providers-in-training under supervision.</p></li>
+      <li class="fc-step"><p>Send us the following and we will publish your profile within a week:</p>
+        <ul class="list-check fc-ticks fc-need">
+          <li>Full name and professional title</li>
+          <li>Certification status and Certifying Trainer</li>
+          <li>Short bio (60–90 words) and a square photo</li>
+          <li>Areas served in Singapore and online availability</li>
+          <li>Languages and formats (1:1, groups, workplace)</li>
+          <li>Preferred contact: email, WhatsApp, website</li>
+        </ul>
+      </li>
+      <li class="fc-step fc-step-go">
+        <div class="btn-row">
+          <a class="btn btn-primary" href="contact?interest=listing">Submit my profile</a>
+          <a class="btn btn-outline" href="mailto:bonjour@bhdasia.com?subject=Directory%20listing%20request">Email the details</a>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ===== 5 · CLOSE — both paths (the page's own description; existing links) ===== -->
+<section class="fc-close cta-band">
+  <div class="container fc-close-grid">
+    <div class="fc-close-path">
+      <div class="fc-faces" data-fc-faces="all"/>
+      <h2>Find a certified TRE™ provider in Singapore for individual or group sessions.</h2>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="#directory">Browse the directory</a>
+        <a class="link-arrow" href="events">See upcoming events</a>
+      </div>
+    </div>
+    <div class="fc-close-path">
+      <div class="fc-faces" data-fc-faces="trainer"/>
+      <h2>Meet our Certifying Trainer and join the practitioner directory.</h2>
+      <div class="btn-row">
+        <a class="btn btn-ghost-light" href="https://calendly.com/bhdasia/tre-certification-intake-call" target="_blank" rel="noopener">Book a certification intake call</a>
+        <a class="link-arrow" href="education#certification">See the certification pathway</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+(function () {
+  'use strict';
+  var EASE = 'cubic-bezier(.16,1,.3,1)';
+  var REDUCED = false, HAS_IO = 'IntersectionObserver' in window, HAS_RO = 'ResizeObserver' in window;
+  var ORDER = [];                                   /* ids in the order the directory currently shows them */
+  function $(s, c) { return (c || document).querySelector(s); }
+  function $all(s, c) { return Array.prototype.slice.call((c || document).querySelectorAll(s)); }
+  function kids(el) { return Array.prototype.slice.call(el.children); }
+  function clamp(v, a, b) { return v &lt; a ? a : v &gt; b ? b : v; }
+  function smooth() { return REDUCED ? 'auto' : 'smooth'; }
+  function esc(s) { return String(s == null ? '' : s).replace(/[&amp;&lt;&gt;"']/g, function (c) { return { '&amp;': '&amp;amp;', '&lt;': '&amp;lt;', '&gt;': '&amp;gt;', '"': '&amp;quot;', "'": '&amp;#39;' }[c]; }); }
+  function idOf(href) { var m = /[?&amp;]id=([^&amp;#]+)/.exec(href || ''); return m ? decodeURIComponent(m[1]) : ''; }
+  function belowFold(el) { return el.getBoundingClientRect().top &gt; (window.innerHeight || 800) - 8; }
+  function onceVisible(el, cb, opts) {
+    if (!HAS_IO) { cb(); return; }
+    var io = new IntersectionObserver(function (es) { es.forEach(function (en) { if (en.isIntersecting) { io.disconnect(); cb(en); } }); }, opts || {});
+    io.observe(el);
+  }
+  function people() { return window.TRE_FACILITATORS || []; }
+  function ordered() {
+    var all = people(), by = {}; all.forEach(function (f) { by[f.id] = f; });
+    var list = ORDER.map(function (id) { return by[id]; }).filter(Boolean);
+    return list.length === all.length ? list : all.slice();
+  }
+  /* main.js turns every TRE™ into a tappable explainer once, on load; cards it re-renders on filtering get the same treatment here */
+  var TERM_SKIP = 'script,style,textarea,input,select,option,a,button,.btn,summary,.tre-term,.tre-pop,svg,figcaption,.lx-strip';
+  function termify(root) {
+    if (!root || !document.createTreeWalker) return;
+    var w = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, { acceptNode: function (t) {
+      if (!/TRE[®™]/.test(t.nodeValue)) return NodeFilter.FILTER_REJECT;
+      var p = t.parentElement; return !p || p.closest(TERM_SKIP) ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT; } });
+    var list = []; while (w.nextNode()) list.push(w.currentNode);
+    list.forEach(function (t) {
+      var frag = document.createDocumentFragment();
+      t.nodeValue.split(/(TRE[®™])/).forEach(function (part) {
+        if (/^TRE[®™]$/.test(part)) { var a = document.createElement('abbr'); a.className = 'tre-term'; a.setAttribute('role', 'button'); a.setAttribute('tabindex', '0'); a.setAttribute('title', 'What does TRE™ stand for?'); a.textContent = 'TRE™'; frag.appendChild(a); }
+        else if (part) frag.appendChild(document.createTextNode(part));
+      });
+      t.parentNode.replaceChild(frag, t);
+    });
+  }
+  function faces(list, cls) {
+    return list.filter(function (f) { return f &amp;&amp; f.photo; }).map(function (f) {
+      var href = window.TRE_recUrl ? window.TRE_recUrl('providers', f.id) : 'provider?id=' + encodeURIComponent(f.id);
+      var img = window.TRE_pic ? window.TRE_pic(f.photo, '', '64px', ' width="64" height="64" loading="lazy" decoding="async"') : '&lt;img src="' + esc(f.photo) + '" alt="" width="64" height="64" loading="lazy" decoding="async"&gt;';
+      return '&lt;a class="' + cls + '" href="' + esc(href) + '" aria-label="View profile: ' + esc(f.name) + '" data-name="' + esc(f.name) + '"&gt;' + img + '&lt;/a&gt;';
+    }).join('');
+  }
+
+  /* ---------- 1 · Directory: sticky toolbar, live counts, FLIP re-layout ---------- */
+  function directory() {
+    var dir = $('.fc-dir'); if (!dir) return;
+    var browse = $('.fc-browse', dir), tools = $('.fc-tools', dir), segWrap = $('.fc-seg-wrap', dir);
+    var seg = $('[data-fac-filter="kind"]', dir), chips = $('[data-fac-filter="mode"]', dir), search = $('[data-fac-search]', dir);
+    var countEl = $('[data-fac-count]', dir), stage = $('.fc-stage', dir), grid = $('[data-providers-grid]', dir), header = $('.site-header');
+    if (!browse || !seg || !chips || !grid || !stage) return;
+    var DATA = people();
+
+    function head() { if (header) browse.style.setProperty('--fc-head', Math.round(header.getBoundingClientRect().height) + 'px'); }
+    head(); if (HAS_RO &amp;&amp; header) new ResizeObserver(head).observe(header);
+
+    /* hover-capable pointers get the contact tray; touch keeps the actions in the card */
+    var fineMQ = window.matchMedia ? window.matchMedia('(hover: hover) and (pointer: fine) and (min-width: 761px)') : null;
+    function setFine() { dir.classList.toggle('fc-fine', !!(fineMQ &amp;&amp; fineMQ.matches)); }
+    setFine();
+    if (fineMQ) { if (fineMQ.addEventListener) fineMQ.addEventListener('change', setFine); else if (fineMQ.addListener) fineMQ.addListener(setFine); }
+
+    /* sliding thumb under the active role */
+    var thumb = document.createElement('span'); thumb.className = 'fc-seg-thumb is-instant'; thumb.setAttribute('aria-hidden', 'true');
+    seg.insertBefore(thumb, seg.firstChild); seg.classList.add('has-thumb');
+    function thumbTo(instant) {
+      var a = $('.filter-btn.active', seg); if (!a) { thumb.style.opacity = '0'; return; }
+      if (instant) thumb.classList.add('is-instant');
+      thumb.style.opacity = '1'; thumb.style.top = a.offsetTop + 'px'; thumb.style.height = a.offsetHeight + 'px'; thumb.style.width = a.offsetWidth + 'px';
+      thumb.style.transform = 'translateX(' + a.offsetLeft + 'px)';
+      if (instant) { void thumb.offsetWidth; requestAnimationFrame(function () { thumb.classList.remove('is-instant'); }); }
+    }
+    function edges(row) {
+      var max = row.scrollWidth - row.clientWidth, over = max &gt; 6, x = row.scrollLeft;
+      row.classList.toggle('fc-over', over); row.classList.toggle('fc-mid', over &amp;&amp; x &gt; 6 &amp;&amp; x &lt; max - 6); row.classList.toggle('fc-end', over &amp;&amp; x &gt;= max - 6);
+    }
+    function keep(row, el) {
+      if (!el) return; var max = row.scrollWidth - row.clientWidth; if (max &lt;= 1) return;
+      var l = el.offsetLeft, r = l + el.offsetWidth;
+      if (l &lt; row.scrollLeft + 12) row.scrollTo({ left: Math.max(0, l - 28), behavior: smooth() });
+      else if (r &gt; row.scrollLeft + row.clientWidth - 12) row.scrollTo({ left: Math.min(max, r - row.clientWidth + 28), behavior: smooth() });
+    }
+    [seg, chips].forEach(function (row) { row.addEventListener('scroll', function () { edges(row); }, { passive: true }); });
+
+    /* faceted counts: the same match rules main.js filters with */
+    function hay(f) { return [f.name, f.role, f.bio, f.tag, (f.services || []).join(' '), (f.meta || []).map(function (m) { return m.text; }).join(' '), f.facts &amp;&amp; f.facts.location, f.facts &amp;&amp; f.facts.languages].join(' ').toLowerCase(); }
+    var HAY = DATA.map(hay);
+    function state() { var k = $('.filter-btn.active', seg), m = $('.chip.active', chips); return { kind: k ? k.getAttribute('data-value') : 'all', mode: m ? m.getAttribute('data-value') : 'all', q: search ? search.value.trim().toLowerCase() : '' }; }
+    function n(kind, mode, q) { var c = 0; DATA.forEach(function (f, i) { if ((kind === 'all' || f.kind === kind) &amp;&amp; (mode === 'all' || (f.modes || []).indexOf(mode) &gt;= 0) &amp;&amp; (!q || HAY[i].indexOf(q) &gt;= 0)) c++; }); return c; }
+    function mark(btn, c, withNum) {
+      btn.classList.toggle('is-zero', c === 0); btn.setAttribute('aria-pressed', btn.classList.contains('active') ? 'true' : 'false');
+      if (!withNum) return;
+      var s = $('.fc-n', btn); if (!s) { s = document.createElement('span'); s.className = 'fc-n'; btn.appendChild(s); }
+      s.textContent = ' ' + c;
+    }
+    function boldCount() {
+      if (!countEl || countEl.querySelector('b')) return;
+      var m = /^(\d+) of (\d+)([\s\S]*)$/.exec(countEl.textContent || ''); if (!m) return;
+      var b1 = document.createElement('b'), b2 = document.createElement('b'); b1.textContent = m[1]; b2.textContent = m[2];
+      countEl.textContent = ''; countEl.appendChild(b1); countEl.appendChild(document.createTextNode(' of ')); countEl.appendChild(b2); countEl.appendChild(document.createTextNode(m[3]));
+    }
+    function enhanceEmpty(box, s) {
+      if (box.__fc) return; box.__fc = true;
+      var row = document.createElement('div'); row.className = 'fc-empty-faces'; row.innerHTML = faces(ordered(), 'fc-face-sm');
+      if (row.innerHTML) box.insertBefore(row, box.firstChild);
+      if (s.kind === 'trainee') {
+        var p = document.createElement('p'); p.className = 'fc-empty-note';
+        p.innerHTML = 'Certified providers and providers-in-training can be listed here at no cost, with the same card, profile page and gallery as everyone else. &lt;a class="link-arrow" href="#get-listed"&gt;Get listed&lt;/a&gt;';
+        box.appendChild(p);
+      }
+    }
+    function decorate() {
+      var s = state();
+      $all('.filter-btn', seg).forEach(function (b) { mark(b, n(b.getAttribute('data-value'), s.mode, s.q), true); });
+      $all('.chip', chips).forEach(function (b) { mark(b, n(s.kind, b.getAttribute('data-value'), s.q), false); });
+      thumbTo(false); boldCount(); edges(seg); edges(chips); termify(grid);
+      var ids = $all('.fac-card a.fac-photo', grid).map(function (a) { return idOf(a.getAttribute('href')); });
+      if (ids.length &amp;&amp; ids.length === DATA.length) ORDER = ids;
+      var empty = $('.event-empty', grid); if (empty) enhanceEmpty(empty, s);
+    }
+
+    /* FLIP: record where every card is just before main.js re-renders (capture phase runs first) */
+    var snap = null, act = '';
+    function keyOf(el) { if (el.classList.contains('event-empty')) return '#empty'; var a = el.querySelector('a.fac-photo'); return a ? a.getAttribute('href') : ''; }
+    function snapshot(kind) {
+      act = kind; if (snap) return;
+      var map = {}; kids(grid).forEach(function (el) { var k = keyOf(el); if (k) map[k] = { r: el.getBoundingClientRect(), el: el }; });
+      snap = { map: map, h: stage.getBoundingClientRect().height };
+    }
+    browse.addEventListener('click', function (e) {
+      var t = e.target &amp;&amp; e.target.closest ? e.target.closest('[data-fac-filter] button, [data-fac-shuffle], [data-fac-reset]') : null;
+      if (t) snapshot(t.hasAttribute('data-fac-reset') ? 'reset' : t.hasAttribute('data-fac-shuffle') ? 'shuffle' : 'filter');
+    }, true);
+    browse.addEventListener('input', function (e) { if (e.target === search) snapshot('search'); }, true);
+
+    function play(s) {
+      var sr = stage.getBoundingClientRect(), seen = {}, i = 0;
+      kids(grid).forEach(function (el) {
+        var k = keyOf(el), old = k &amp;&amp; s.map[k], r = el.getBoundingClientRect();
+        if (old) {
+          seen[k] = 1; if (k === '#empty') return;
+          var dx = old.r.left - r.left, dy = old.r.top - r.top;
+          if (Math.abs(dx) &gt; .5 || Math.abs(dy) &gt; .5) el.animate([{ transform: 'translate(' + dx.toFixed(1) + 'px,' + dy.toFixed(1) + 'px)' }, { transform: 'translate(0,0)' }], { duration: 540, easing: EASE });
+        } else {
+          el.animate([{ opacity: 0, transform: 'translateY(14px) scale(.985)', filter: 'blur(6px)' }, { opacity: 1, transform: 'none', filter: 'blur(0px)' }], { duration: 560, delay: 110 + Math.min(i++, 6) * 60, easing: EASE, fill: 'backwards' });
+        }
+      });
+      Object.keys(s.map).forEach(function (k) {                 /* leavers fade out where they stood */
+        if (seen[k]) return;
+        var v = s.map[k], g = v.el;
+        if (g.getAnimations) g.getAnimations().forEach(function (a) { a.cancel(); });
+        g.classList.add('fc-ghost'); g.setAttribute('aria-hidden', 'true'); g.setAttribute('inert', '');
+        g.style.left = (v.r.left - sr.left) + 'px'; g.style.top = (v.r.top - sr.top) + 'px'; g.style.width = v.r.width + 'px'; g.style.height = v.r.height + 'px';
+        stage.appendChild(g);
+        var a = g.animate([{ opacity: 1, transform: 'none' }, { opacity: 0, transform: 'scale(.97)' }], { duration: 260, easing: 'cubic-bezier(.4,0,1,1)', fill: 'forwards' });
+        a.onfinish = function () { g.remove(); };
+      });
+      if (stage.__ha) { stage.__ha.cancel(); stage.__ha = null; }  /* the page below glides instead of jumping */
+      var h1 = stage.getBoundingClientRect().height;
+      if (Math.abs(h1 - s.h) &gt; 2) {
+        stage.classList.add('fc-clip');
+        var ha = stage.animate([{ height: s.h + 'px' }, { height: h1 + 'px' }], { duration: 540, easing: EASE }); stage.__ha = ha;
+        ha.onfinish = ha.oncancel = function () { if (stage.__ha === ha || !stage.__ha) stage.classList.remove('fc-clip'); if (stage.__ha === ha) stage.__ha = null; };
+      }
+    }
+    function afterRender() {
+      keep(seg, $('.filter-btn.active', seg)); keep(chips, $('.chip.active', chips));
+      if (act === 'reset') { var all = $('.filter-btn[data-value="all"]', seg); if (all) { try { all.focus({ preventScroll: true }); } catch (e) { all.focus(); } } }
+      var wide = window.innerWidth &gt; 1040, bar = wide ? tools : segWrap;
+      if (!bar || !bar.classList.contains('is-stuck')) return;
+      var target = wide ? stage : (countEl || stage), gap = wide ? 16 : 12;
+      var top = target.getBoundingClientRect().top, bottom = bar.getBoundingClientRect().bottom;
+      if (top &lt; bottom + gap - 1) window.scrollBy({ top: top - bottom - gap, behavior: smooth() });
+    }
+    new MutationObserver(function () {
+      var s = snap; snap = null;
+      decorate();
+      if (s &amp;&amp; !REDUCED &amp;&amp; typeof grid.animate === 'function') play(s);
+      if (s) afterRender();
+    }).observe(grid, { childList: true });
+
+    /* stuck state (shadow) */
+    var ticking = false;
+    function stuck() {
+      ticking = false;
+      var wide = window.innerWidth &gt; 1040, el = wide ? tools : segWrap, other = wide ? segWrap : tools;
+      if (other) other.classList.remove('is-stuck'); if (!el) return;
+      var r = el.getBoundingClientRect(), want = parseFloat(getComputedStyle(el).top) || 0, b = browse.getBoundingClientRect().bottom;
+      el.classList.toggle('is-stuck', window.scrollY &gt; 0 &amp;&amp; r.top &lt;= want + 1 &amp;&amp; b &gt; r.bottom + 24);
+    }
+    window.addEventListener('scroll', function () { if (!ticking) { ticking = true; requestAnimationFrame(stuck); } }, { passive: true });
+    window.addEventListener('resize', function () { thumbTo(true); edges(seg); edges(chips); stuck(); });
+
+    /* the first time the grid arrives, the cards settle in as a list */
+    if (!REDUCED &amp;&amp; HAS_IO &amp;&amp; belowFold(stage)) {
+      var first = $('.fac-card', grid);
+      if (first) {
+        $all('.fac-card', grid).forEach(function (c) { c.classList.add('fc-pre'); });
+        onceVisible(first, function () {
+          $all('.fac-card.fc-pre', grid).forEach(function (c, i) {
+            c.classList.remove('fc-pre');
+            if (c.animate) c.animate([{ opacity: 0, transform: 'translateY(18px)', filter: 'blur(6px)' }, { opacity: 1, transform: 'none', filter: 'blur(0px)' }], { duration: 760, delay: i * 90, easing: EASE, fill: 'backwards' });
+          });
+        }, { rootMargin: '0px 0px -8% 0px' });
+      }
+    }
+    decorate(); thumbTo(true); stuck();
+    if (document.fonts &amp;&amp; document.fonts.ready) document.fonts.ready.then(function () { thumbTo(true); edges(seg); edges(chips); });
+    if (HAS_RO) new ResizeObserver(function () { thumbTo(true); edges(seg); edges(chips); }).observe(seg);
+  }
+
+  /* ---------- 2 · Community strip: photos develop out of navy as they come into view ---------- */
+  function strip() {
+    var el = $('.fc-strip'); if (!el) return;
+    var shots = $all('.fc-shot', el);
+    if (!REDUCED &amp;&amp; HAS_IO) {
+      var io = new IntersectionObserver(function (es) { es.forEach(function (en) { if (en.isIntersecting) { en.target.classList.remove('fc-undev'); io.unobserve(en.target); } }); }, { threshold: 0.45 });
+      shots.forEach(function (s) { var r = s.getBoundingClientRect(); if (r.top &gt; window.innerHeight - 8 || r.left &gt; window.innerWidth - 8) { s.classList.add('fc-undev'); io.observe(s); } });
+    }
+    var ctl = $('.fc-gal-ctl'), bar = $('.fc-gal-bar i'), prev = $('[data-fc-gal="-1"]'), next = $('[data-fc-gal="1"]');
+    function upd() {
+      var sw = el.scrollWidth, cw = el.clientWidth, max = sw - cw;
+      if (ctl) ctl.classList.toggle('is-idle', max &lt;= 2);
+      if (bar) { bar.style.width = (sw ? cw / sw * 100 : 100).toFixed(2) + '%'; bar.style.left = (sw ? el.scrollLeft / sw * 100 : 0).toFixed(2) + '%'; }
+      if (prev) prev.disabled = el.scrollLeft &lt;= 2;
+      if (next) next.disabled = el.scrollLeft &gt;= max - 2;
+    }
+    var t = false;
+    el.addEventListener('scroll', function () { if (!t) { t = true; requestAnimationFrame(function () { t = false; upd(); }); } }, { passive: true });
+    window.addEventListener('resize', upd); upd();
+    function go(d) { el.scrollBy({ left: d * Math.max(260, el.clientWidth * 0.66), behavior: smooth() }); }
+    if (prev) prev.addEventListener('click', function () { go(-1); });
+    if (next) next.addEventListener('click', function () { go(1); });
+  }
+
+  /* ---------- 3 · The module path draws itself; the line trembles as it is drawn, then settles ---------- */
+  function certPath() {
+    var fig = $('[data-fc-path]'); if (!fig) return;
+    var svg = $('.fc-path-svg', fig), ln = $('.fc-path-ln', fig), nodes = $all('.fc-path-steps &gt; li', fig);
+    if (!svg || !ln || nodes.length &lt; 2) return;
+    fig.classList.add('fc-js');
+    var pts = [], segs = [], total = 1, phase = REDUCED ? 'done' : 'wait', t0 = 0, DUR = 1.6, TAU = 0.3, AMP = 4;
+    function geom() {
+      var fr = fig.getBoundingClientRect();
+      svg.setAttribute('viewBox', '0 0 ' + Math.max(1, Math.round(fr.width)) + ' ' + Math.max(1, Math.round(fr.height)));
+      pts = nodes.map(function (li) { var r = li.getBoundingClientRect(); return { x: r.left - fr.left + 8, y: r.top - fr.top + 8 }; });
+      segs = []; total = 0;
+      for (var i = 0; i &lt; pts.length - 1; i++) { var dx = pts[i + 1].x - pts[i].x, dy = pts[i + 1].y - pts[i].y, l = Math.sqrt(dx * dx + dy * dy) || 1; segs.push({ x: pts[i].x, y: pts[i].y, ux: dx / l, uy: dy / l, l: l, s0: total }); total += l; }
+      total = total || 1;
+    }
+    function point(s, t) {
+      var g = segs[segs.length - 1];
+      for (var i = 0; i &lt; segs.length; i++) if (s &lt;= segs[i].s0 + segs[i].l) { g = segs[i]; break; }
+      var u = clamp(s - g.s0, 0, g.l), env = Math.sin(Math.PI * u / g.l);                   /* anchored at every node */
+      var age = t - DUR * (1 - Math.cbrt(1 - clamp(s / total, 0, 1)));                      /* time since the pen passed */
+      var off = AMP * env * (age &gt; 0 ? Math.exp(-age / TAU) : 1) * Math.sin(s * 0.09 + t * 17);
+      return (g.x + g.ux * u - g.uy * off).toFixed(1) + ' ' + (g.y + g.uy * u + g.ux * off).toFixed(1);
+    }
+    function straight() { ln.setAttribute('d', 'M' + pts.map(function (p) { return p.x.toFixed(1) + ' ' + p.y.toFixed(1); }).join(' L')); }
+    function finish() { phase = 'done'; straight(); nodes.forEach(function (li) { li.classList.add('on'); }); fig.classList.add('is-done'); }
+    function frame(now) {
+      if (phase !== 'run') return;
+      var t = (now - t0) / 1000, k = clamp(t / DUR, 0, 1), pen = (1 - Math.pow(1 - k, 3)) * total, d = '', s;
+      for (s = 0; s &lt; pen; s += 6) d += (d ? ' L' : 'M') + point(s, t);
+      d += (d ? ' L' : 'M') + point(pen, t);
+      ln.setAttribute('d', d);
+      nodes.forEach(function (li, i) { var at = i === 0 ? 0 : segs[i - 1].s0 + segs[i - 1].l; if (pen &gt;= at - 0.5) li.classList.add('on'); });
+      if (t &lt; DUR + TAU * 7) requestAnimationFrame(frame); else finish();
+    }
+    geom();
+    if (phase === 'done') finish();
+    else onceVisible(fig, function () { geom(); phase = 'run'; t0 = performance.now(); requestAnimationFrame(frame); }, { threshold: 0.4 });
+    if (HAS_RO) new ResizeObserver(function () { geom(); if (phase === 'done') straight(); }).observe(fig);
+  }
+
+  /* ---------- checklists tick as they arrive ---------- */
+  function ticks() {
+    if (REDUCED || !HAS_IO) return;
+    $all('.fc-ask .fc-ticks').forEach(function (list) {
+      if (!belowFold(list)) return;
+      list.classList.add('fc-tick-wait');
+      onceVisible(list, function () { list.classList.remove('fc-tick-wait'); }, { threshold: 0.3 });
+    });
+  }
+
+  /* ---------- 4 · Get listed: the line follows the reader, each step lights as it is reached ---------- */
+  function sequence() {
+    var seq = $('[data-fc-seq]'); if (!seq) return;
+    var steps = kids(seq).filter(function (el) { return el.classList.contains('fc-step'); }), need = $('.fc-need', seq), ys = [];
+    if (!steps.length) return;
+    function geom() {
+      var sr = seq.getBoundingClientRect();
+      ys = steps.map(function (s) { return s.getBoundingClientRect().top - sr.top + (s.classList.contains('fc-step-go') ? 23 : 14); });
+      seq.style.setProperty('--fc-y0', ys[0].toFixed(1) + 'px'); seq.style.setProperty('--fc-y1', ys[ys.length - 1].toFixed(1) + 'px');
+    }
+    geom();
+    if (REDUCED) { seq.style.setProperty('--fc-p', '1'); steps.forEach(function (s) { s.classList.add('on'); }); return; }
+    seq.classList.add('fc-seq-js');
+    if (need &amp;&amp; belowFold(need)) need.classList.add('fc-tick-wait');
+    var tick = false, reach = -1e4;                  /* one way: once read, a step stays lit */
+    function upd() {
+      tick = false;
+      var r = seq.getBoundingClientRect(), y0 = ys[0], y1 = ys[ys.length - 1];
+      reach = Math.max(reach, window.innerHeight * 0.62 - r.top);
+      seq.style.setProperty('--fc-p', clamp((reach - y0) / Math.max(1, y1 - y0), 0, 1).toFixed(4));
+      steps.forEach(function (s, i) { if (reach &gt;= ys[i] - 1) s.classList.add('on'); });
+      if (need &amp;&amp; steps[1] &amp;&amp; steps[1].classList.contains('on')) need.classList.remove('fc-tick-wait');
+    }
+    window.addEventListener('scroll', function () { if (!tick) { tick = true; requestAnimationFrame(upd); } }, { passive: true });
+    window.addEventListener('resize', function () { geom(); upd(); });
+    if (HAS_RO) new ResizeObserver(function () { geom(); upd(); }).observe(seq);
+    upd();
+  }
+
+  /* ---------- 5 · Close: the real faces behind both paths ---------- */
+  function closeFaces() {
+    if (!people().length) return;
+    var list = ordered();
+    $all('[data-fc-faces]').forEach(function (box) {
+      var trainers = box.getAttribute('data-fc-faces') === 'trainer';
+      box.innerHTML = faces(trainers ? list.filter(function (f) { return f.kind === 'trainer'; }) : list, 'fc-face');
+    });
+  }
+
+  function init() {
+    REDUCED = !!(window.TRELayer &amp;&amp; window.TRELayer.reduced) || !!(window.matchMedia &amp;&amp; window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+    [directory, strip, certPath, ticks, sequence, closeFaces].forEach(function (fn) {
+      try { fn(); } catch (e) { setTimeout(function () { throw e; }, 0); }
+    });
+  }
+  document.addEventListener('DOMContentLoaded', function () { setTimeout(init, 0); });
+})();
+</script>
+</main><footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="footer-wordmark">TRE™ in Singapore</span>
+        <p>Release stress, strengthen resilience, improve wellbeing. The home of TRE™ practitioners, trainees and first-timers in Singapore.</p>
+              <div class="socials" aria-label="Social media">
+        <a href="https://www.instagram.com/isabelleclausteixeira_bhd/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+        <a href="https://www.linkedin.com/in/isabelleclausteixeira/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewbox="0 0 24 24" fill="currentColor"><path d="M6.5 8.5H3.5V21h3V8.5zM5 3.5a1.75 1.75 0 1 0 0 3.5 1.75 1.75 0 0 0 0-3.5zM21 13.6c0-3.4-1.8-5.3-4.5-5.3-2 0-3 1.1-3.5 1.9V8.5h-3V21h3v-6.6c0-1.7.6-2.9 2.2-2.9 1.5 0 1.9 1.2 1.9 2.9V21H21v-7.4z"/></svg></a>
+        <a href="https://www.youtube.com/@IsabelleClausTeixeira" target="_blank" rel="noopener" aria-label="YouTube"><svg viewbox="0 0 24 24" fill="currentColor"><path d="M23 7.2c-.3-1.2-1.1-2-2.3-2.3C18.9 4.5 12 4.5 12 4.5s-6.9 0-8.7.4C2.1 5.2 1.3 6 1 7.2.6 9 .6 12 .6 12s0 3 .4 4.8c.3 1.2 1.1 2 2.3 2.3 1.8.4 8.7.4 8.7.4s6.9 0 8.7-.4c1.2-.3 2-1.1 2.3-2.3.4-1.8.4-4.8.4-4.8s0-3-.4-4.8zM9.8 15.5v-7l6 3.5-6 3.5z"/></svg></a>
+        <a href="https://www.facebook.com/bhdasia/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewbox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7.5h2.6l.4-3h-3V8.6c0-.9.3-1.5 1.5-1.5h1.6V4.4c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4v2.2H7.8v3h2.6V21h3.1z"/></svg></a>
+      </div>
+      </div>
+      <div>
+        <h2>Explore</h2>
+        <ul class="footer-links">
+          <li><a href="./">Home</a></li>
+          <li><a href="events">Events</a></li>
+          <li><a href="about">About</a></li>
+          <li><a href="blog">Blog</a></li>
+          <li><a href="education">Education</a></li>
+          <li><a href="contact">Contact</a></li>
+          <li><a href="online-session-guide">Online session guide</a></li>
+          <li><a href="facilitators">Providers</a></li>
+          <li><a href="facilitators#get-listed">Get listed</a></li>
+          <li><a href="education#certification">Certification</a></li>
+          <li><a href="https://hummingbeing.com/" target="_blank" rel="noopener">HummingBeing</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Contact</h2>
+        <ul class="footer-contact">
+          <li><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><a href="mailto:bonjour@bhdasia.com">bonjour@bhdasia.com</a></li>
+          <li><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.8 2z"/></svg><a href="https://wa.me/818065151778" target="_blank" rel="noopener">+81 80 6515 1778 (WhatsApp)</a></li>
+          <li><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg><span>Business &amp; Human Development Consulting Pte Ltd<br/>50 Raffles Place, Singapore Land Tower <span class="nowrap">#30-00,</span> Singapore 048623</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span data-year="">2026</span> Business &amp; Human Development Consulting Pte Ltd · TRE™ in Singapore. TRE™ is a registered trademark of TRE For All, Inc. Method created by Dr. David Berceli.</p>
+      <p class="footer-powered">Powered by <a href="https://technext.asia" target="_blank" rel="noopener">TechNext</a></p>
+    </div>
+  </div>
+</footer><a class="wa-float" href="https://wa.me/818065151778" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewbox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 12 12 0 0 0 4.6 4c1.7.7 2.1.6 2.8.5.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2 0-.1-.2-.2-.4-.3z"/></svg>
+</a><script>window.TRE_STATIC={"events":["tre-provider-certification-singapore","tre-module-1-bucharest","from-shaking-to-shaping-bucharest","feminine-masculine-energetics-corporate","the-body-in-the-room","breath-as-medicine","tre-module-3-singapore","tre-provider-certification-2027-singapore","from-shaking-to-shaping-online","tre-module-2-singapore","from-shaking-to-shaping-online-sep3","internal-alchemy-singapore","nervous-system-regulation-coaches-singapore"],"facilitators":["isabelle-claus-teixeira","yan","nikki-tay","rina-ho"]};</script><script>window.TRE_EVENT_POSTS={};</script><script>window.TRE_IMG={"assets/img/events/event-body-in-the-room.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-body-in-the-room.webp":[1920,1080,[480,960],1],"assets/img/events/event-body-in-the-room-portrait.webp":[1080,1350,[540],1],"assets/img/events/event-breath-as-medicine.webp":[1493,840,[480,960],1],"assets/img/events/card-event-breath-as-medicine.webp":[1920,1080,[480,960],1],"assets/img/events/event-certification-2027.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-certification-2027.webp":[1920,1080,[480,960],1],"assets/img/events/event-certification-2027-portrait.webp":[1080,1350,[540],1],"assets/img/events/event-transform-practice.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-transform-practice.webp":[1920,1080,[480,960],1],"assets/img/events/event-shaking-to-shaping.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-shaking-to-shaping.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-shaking-to-shaping-sep3.webp":[1920,1080,[480,960],1],"assets/img/events/event-shaking-online.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-shaking-online.webp":[1920,1080,[480,960],1],"assets/img/events/event-feminine-masculine.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-feminine-masculine.webp":[1920,1080,[480,960],1],"assets/img/events/event-feminine-masculine-portrait.webp":[1080,1350,[540],1],"assets/img/events/event-bucharest-module1.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-bucharest-module1.webp":[1920,1080,[480,960],1],"assets/img/events/event-nervous-system.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-nervous-system.webp":[1920,1080,[480,960],1],"assets/img/events/event-internal-alchemy.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-internal-alchemy.webp":[1920,1080,[480,960],1],"assets/img/facilitators/isabelle-her-story.jpg":[850,1280,[160,400],1],"assets/img/facilitators/gallery-isabelle-teaching-tre.jpg":[1200,1600,[400,800],1],"assets/img/facilitators/gallery-isabelle-students-module1-may2026.jpg":[1600,1200,[400,800,1200],1],"assets/img/facilitators/gallery-tre-module1-2026.jpg":[1600,2844,[400,800,1200],1],"assets/img/facilitators/gallery-ws-1.jpg":[1600,1200,[400,800,1200],1],"assets/img/facilitators/gallery-danang-tre-conference-nov2025.jpg":[1600,1200,[400,800,1200],1],"assets/img/facilitators/gallery-dinner-david-berceli-founders.jpg":[929,959,[400,800],1],"assets/img/facilitators/gallery-asia-tre-trainers-david.jpg":[1600,1380,[400,800,1200],1],"assets/img/facilitators/gallery-isabelle-vietnam-tre.jpg":[1368,1368,[400,800,1200],1],"assets/img/facilitators/gallery-uk-tre-providers.jpg":[1200,1600,[400,800],1],"assets/img/facilitators/gallery-ws-2.jpg":[1200,1600,[400,800],1],"assets/img/facilitators/isabelle-global-journey.jpg":[850,1280,[400],1],"assets/img/facilitators/yan.webp":[1600,1066,[160,400,800],1],"assets/img/facilitators/nikki-tay.webp":[1254,1254,[160,400,800],1],"assets/img/facilitators/rina-ho.webp":[1000,1000,[160,400,800],1]};window.TRE_HERO_AVIF=["hero-education","hero-events","hero-facilitators"];</script><script src="assets/js/events-data.js?v=20261014a"/><script src="assets/js/facilitators-data.js?v=20261014a"/><script src="assets/js/main.js?v=20261014a"/><script src="assets/js/layer.js?v=20261014a"/><script src="assets/js/chatbot.js?v=20261014a"/></t></t>

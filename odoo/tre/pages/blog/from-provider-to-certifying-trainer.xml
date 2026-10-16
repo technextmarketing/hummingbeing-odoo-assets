@@ -1,0 +1,169 @@
+<t t-name="trex.page_blog_from_provider_to_certifying_trainer"><t t-call="web.layout"><t t-set="html_data" t-value="{'lang': 'en-SG'}"/><t t-set="title">From Provider to Certifying Trainer: Isabelle's TRE™ Journey</t><t t-set="head"><script src="/assets/js/odoo-forms.js"></script><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="description" content="How Isabelle Claus Teixeira went from a first TRE&#x2122; session in 2017 to Global TRE&#x2122; Certifying Trainer in 2025, and what it means for TRE&#x2122; in Singapore."/><link rel="canonical" href="https://tre-in-singapore.com/blog/from-provider-to-certifying-trainer"/><meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"/><meta property="og:locale" content="en_SG"/><meta property="og:site_name" content="TRE&#x2122; in Singapore"/><meta property="og:type" content="article"/><meta property="og:title" content="From Provider to Certifying Trainer: Isabelle's TRE&#x2122; Journey"/><meta property="og:description" content="How Isabelle Claus Teixeira went from a first TRE&#x2122; session in 2017 to Global TRE&#x2122; Certifying Trainer in 2025, and what it means for TRE&#x2122; in Singapore."/><meta property="og:url" content="https://tre-in-singapore.com/blog/from-provider-to-certifying-trainer"/><meta property="og:image" content="https://tre-in-singapore.com/assets/img/blog/from-provider-to-certifying-trainer.jpg"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="From Provider to Certifying Trainer: Isabelle's TRE&#x2122; Journey"/><meta name="twitter:description" content="How Isabelle Claus Teixeira went from a first TRE&#x2122; session in 2017 to Global TRE&#x2122; Certifying Trainer in 2025, and what it means for TRE&#x2122; in Singapore."/><meta name="twitter:image" content="https://tre-in-singapore.com/assets/img/blog/from-provider-to-certifying-trainer.jpg"/><meta property="article:published_time" content="2026-07-29T00:00:00+08:00"/><meta property="article:section" content="Community"/><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://tre-in-singapore.com/#org","name":"TRE™ in Singapore","alternateName":["TRE Singapore","TRE in Singapore"],"url":"https://tre-in-singapore.com/","logo":{"@type":"ImageObject","url":"https://tre-in-singapore.com/assets/img/logo-tre-singapore.png"},"image":"https://tre-in-singapore.com/assets/img/og-cover.jpg","description":"The home of TRE™ (Tension and Trauma Releasing Exercises) in Singapore: certified providers, Global TRE™ Provider Certification, workshops, practice circles and resources.","email":"bonjour@bhdasia.com","telephone":"+81 80 6515 1778","address":{"@type":"PostalAddress","streetAddress":"50 Raffles Place, #30-00 Singapore Land Tower","addressLocality":"Singapore","postalCode":"048623","addressCountry":"SG"},"areaServed":{"@type":"Country","name":"Singapore"},"founder":{"@id":"https://tre-in-singapore.com/#isabelle"},"parentOrganization":{"@type":"Organization","name":"Business &amp; Human Development Consulting Pte Ltd","alternateName":"BHD Asia","url":"https://bhdasia.com/","sameAs":["https://www.facebook.com/bhdasia/"]},"knowsAbout":["Tension and Trauma Releasing Exercises (TRE)","Neurogenic tremors","Nervous system regulation","Stress and trauma release","TRE provider certification"]},{"@type":"WebSite","@id":"https://tre-in-singapore.com/#website","url":"https://tre-in-singapore.com/","name":"TRE™ in Singapore","alternateName":"TRE Singapore","inLanguage":"en-SG","publisher":{"@id":"https://tre-in-singapore.com/#org"}},{"@type":"Person","@id":"https://tre-in-singapore.com/#isabelle","name":"Isabelle Claus Teixeira","url":"https://tre-in-singapore.com/facilitators/isabelle-claus-teixeira","jobTitle":["Global TRE™ Certifying Trainer","ICF PCC Executive Coach","Mindfulness Teacher"],"image":"https://tre-in-singapore.com/assets/img/facilitators/isabelle-her-story.jpg","sameAs":["https://www.linkedin.com/in/isabelleclausteixeira/","https://www.instagram.com/isabelleclausteixeira_bhd/","https://www.youtube.com/@IsabelleClausTeixeira","https://www.facebook.com/bhdasia/","https://bhdasia.com","https://hummingbeing.com/"],"worksFor":{"@id":"https://tre-in-singapore.com/#org"}},{"@type":"WebPage","@id":"https://tre-in-singapore.com/blog/from-provider-to-certifying-trainer#webpage","url":"https://tre-in-singapore.com/blog/from-provider-to-certifying-trainer","name":"From Provider to Certifying Trainer: Isabelle's TRE™ Journey","description":"How Isabelle Claus Teixeira went from a first TRE™ session in 2017 to Global TRE™ Certifying Trainer in 2025, and what it means for TRE™ in Singapore.","isPartOf":{"@id":"https://tre-in-singapore.com/#website"},"about":{"@id":"https://tre-in-singapore.com/#org"},"inLanguage":"en-SG","primaryImageOfPage":{"@type":"ImageObject","url":"https://tre-in-singapore.com/assets/img/blog/from-provider-to-certifying-trainer.jpg"},"breadcrumb":{"@id":"https://tre-in-singapore.com/blog/from-provider-to-certifying-trainer#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://tre-in-singapore.com/blog/from-provider-to-certifying-trainer#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://tre-in-singapore.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://tre-in-singapore.com/blog"},{"@type":"ListItem","position":3,"name":"From Provider to Certifying Trainer: Isabelle's TRE™ Journey","item":"https://tre-in-singapore.com/blog/from-provider-to-certifying-trainer"}]},{"@type":"BlogPosting","@id":"https://tre-in-singapore.com/blog/from-provider-to-certifying-trainer#article","headline":"From Provider to Certifying Trainer: Isabelle's TRE™ journey","description":"How Isabelle Claus Teixeira went from a first TRE™ session in 2017 to Global TRE™ Certifying Trainer in 2025, and what it means for TRE™ in Singapore.","url":"https://tre-in-singapore.com/blog/from-provider-to-certifying-trainer","mainEntityOfPage":{"@id":"https://tre-in-singapore.com/blog/from-provider-to-certifying-trainer#webpage"},"image":["https://tre-in-singapore.com/assets/img/blog/from-provider-to-certifying-trainer.jpg"],"inLanguage":"en-SG","author":{"@id":"https://tre-in-singapore.com/#org"},"publisher":{"@id":"https://tre-in-singapore.com/#org"},"wordCount":672,"about":{"@type":"Thing","name":"Tension and Trauma Releasing Exercises (TRE)"},"datePublished":"2026-07-29T00:00:00+08:00","dateModified":"2026-07-29T00:00:00+08:00","articleSection":"Community"}]}</script><meta name="theme-color" content="#1c3d7a"/><link rel="icon" type="image/svg+xml" href="../assets/img/favicon.svg"/><link rel="preload" href="../assets/fonts/plus-jakarta-sans-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="../assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="../assets/css/style.css?v=20261014a"/><link rel="stylesheet" href="../assets/css/layer.css?v=20261014a"/><script>document.documentElement.classList.add('js');try{if(localStorage.getItem('tre-motion')==='paused')document.documentElement.classList.add('motion-paused')}catch(e){}(function(){try{var p=location.pathname,c=p.replace(/\/index\.html$/,'/').replace(/\.html$/,'');if(c!==p)history.replaceState(history.state,'',c+location.search+location.hash)}catch(e){}})();</script></t><a class="sr-only" href="#main">Skip to content</a><header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="../" aria-label="TRE™ in Singapore — home">
+      <img class="brand-logo" src="../assets/img/logo-tre-singapore-214.webp" srcset="../assets/img/logo-tre-singapore-214.webp 214w, ../assets/img/logo-tre-singapore-321.webp 321w" sizes="(max-width: 760px) 78px, 107px" alt="TRE™ in Singapore" width="107" height="58" decoding="async"/>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">
+      <span/><span/><span/>
+    </button>
+    <nav class="nav" id="site-nav" aria-label="Main navigation">
+      <a href="../">Home</a>
+      <a href="../about">About</a>
+      <a href="../education">Education</a>
+      <a href="../facilitators">Providers</a>
+      <a href="../events">Events</a>
+      <a href="../blog" class="active">Blog</a>
+      <a href="../contact">Contact</a>
+      <a class="btn btn-primary btn-sm" href="https://calendly.com/bhdasia/tre-certification-intake-call" target="_blank" rel="noopener">Book a call</a>
+    </nav>
+  </div>
+</header><main id="main">
+<link rel="stylesheet" href="../assets/css/article.css?v=20261014a"/>
+
+<section class="hx hx-article" style="--fx:50%;--fy:24%;--fx-m:50%;--fy-m:20%;--shift:30%;--feather:32%">
+  <div class="hx-media" aria-hidden="true"><picture><source type="image/avif" srcset="../assets/img/blog/from-provider-to-certifying-trainer-800.avif 800w, ../assets/img/blog/from-provider-to-certifying-trainer.avif 1600w" sizes="(max-width: 760px) 50vw, 100vw"><img class="hx-photo" src="../assets/img/blog/from-provider-to-certifying-trainer.jpg" srcset="../assets/img/blog/from-provider-to-certifying-trainer-800.webp 800w, ../assets/img/blog/from-provider-to-certifying-trainer.jpg 1600w" sizes="(max-width: 760px) 50vw, 100vw" width="1600" height="900" alt="" fetchpriority="high" decoding="async"/></source></picture></div>
+  <div class="hx-wash" aria-hidden="true"/>
+  <canvas class="hx-tremor" aria-hidden="true"/>
+  <div class="container hx-inner">
+    <div class="breadcrumb"><a class="ar-crumb" href="../blog">Blog</a> · Community</div>
+    <h1>From Provider to Certifying Trainer: Isabelle's TRE™ journey</h1>
+    <div class="post-meta"><span class="badge badge-gold">Community</span><span>By TRE™ in Singapore</span><span>·</span><span>29 July 2026</span><span>·</span><span>6 min read</span></div>
+  </div>
+  <p class="hx-credit">Isabelle Claus Teixeira leading a TRE™ session</p>
+</section>
+
+<section class="ar-read">
+  <div class="container ar-wrap">
+    <article class="article ar-article">
+      <div class="article-body">
+        <p class="lead">In 2025 Isabelle Claus Teixeira became a Global TRE™ Certifying Trainer — accredited by TRE For All under Dr. David Berceli's methodology to certify new providers. For Singapore, that means the full three-module certification is now run locally, on a regular basis, by someone who spent a decade living here. This is how she got there.</p>
+
+        <h2 id="thirty-years-of-watching-stress-at-work">Thirty years of watching stress at work</h2>
+        <p>Before TRE™, Isabelle was a Senior HR Business Partner and Talent Management leader in Fortune 100 companies, working across nine countries and with more than 40 nationalities. She saw what chronic pressure does to leaders and teams from the inside — and eventually experienced it herself, in work environments she describes plainly as toxic.</p>
+        <p>The recovery came through the body: somatic practice, mindfulness and, from 2017, TRE™. "I don't do this work from a distance," she says. "I've walked through it myself."</p>
+
+        <h2 id="from-practitioner-to-provider">2017 – 2019: from practitioner to provider</h2>
+        <p>A first TRE™ session in 2017 became a daily practice. By 2019 Isabelle had completed provider certification and began teaching individuals and groups in Singapore, Japan and online, alongside an executive coaching practice she had run since 2012 as an ICF PCC-level coach.</p>
+
+        <h2 id="learning-from-the-source">Learning from the source</h2>
+        <p>The path to Certifying Trainer is long by design: years of personal practice, extensive supervised teaching, and mentorship from senior trainers. Isabelle trained with Dr. David Berceli himself and with Michelle Beck, Ching Meoh Cheong and Donna Philips — some of the most experienced Certifying Trainers in the global TRE™ community. Along the way she added Strozzi somatic bodywork, certification as a Usui/Holy Fire III Reiki healer, and in 2024 mindfulness teacher training with Nick Cole of the UK College of Mindful Meditation.</p>
+        <blockquote>"Every trainer I learned from taught the same thing in a different body. That is what I want for Singapore — a community of providers who share the method and bring their own lives to it."</blockquote>
+
+        <h2 id="certifying-trainer-and-a-hub-for-singapore">2025: Certifying Trainer, and a hub for Singapore</h2>
+        <p>Accreditation as a Global TRE™ Certifying Trainer means Isabelle can now run all three certification modules and sign off new providers. The first full Singapore cohort began in August 2026 and completes in February 2027; the 2027 cohort follows from February to October 2027.</p>
+        <p>The same year she launched TRE™ in Singapore, this site, as a community hub: a directory of certified providers, a shared events calendar, practice circles for supervision and peer support, and plain-language resources for the public.</p>
+
+        <div class="lx-strip ar-strip" data-gallery="">
+          <figure class="lx-media"><a href="../assets/img/gallery/isabelle-david-simba-nikki-1200.webp" data-caption="Isabelle with David Berceli, Simba Stenqvist &amp; Nikki Tay"><picture><source type="image/avif" srcset="../assets/img/gallery/isabelle-david-simba-nikki-600.avif 600w, ../assets/img/gallery/isabelle-david-simba-nikki-1200.avif 1200w" sizes="260px"><img src="../assets/img/gallery/isabelle-david-simba-nikki-600.webp" srcset="../assets/img/gallery/isabelle-david-simba-nikki-600.webp 600w, ../assets/img/gallery/isabelle-david-simba-nikki-1200.webp 1200w" sizes="260px" width="600" height="800" alt="Isabelle with David Berceli, Simba Stenqvist &amp; Nikki Tay" loading="lazy" decoding="async"/></source></picture></a><figcaption>Isabelle with David Berceli, Simba Stenqvist &amp; Nikki Tay</figcaption></figure>
+          <figure class="lx-media"><a href="../assets/img/gallery/module2-sep2026-1-1200.webp" data-caption="Isabelle teaching — TRE™ Module 2, September 2026"><picture><source type="image/avif" srcset="../assets/img/gallery/module2-sep2026-1-600.avif 600w, ../assets/img/gallery/module2-sep2026-1-1200.avif 1200w" sizes="260px"><img src="../assets/img/gallery/module2-sep2026-1-600.webp" srcset="../assets/img/gallery/module2-sep2026-1-600.webp 600w, ../assets/img/gallery/module2-sep2026-1-1200.webp 1200w" sizes="260px" width="600" height="800" alt="Isabelle teaching — TRE™ Module 2, September 2026" loading="lazy" decoding="async"/></source></picture></a><figcaption>Isabelle teaching — TRE™ Module 2, September 2026</figcaption></figure>
+          <figure class="lx-media"><a href="../assets/img/gallery/module2-sep2026-2-1200.webp" data-caption="Module 2 in session with Simba Stenqvist — Singapore, September 2026"><picture><source type="image/avif" srcset="../assets/img/gallery/module2-sep2026-2-600.avif 600w, ../assets/img/gallery/module2-sep2026-2-1200.avif 1200w" sizes="260px"><img src="../assets/img/gallery/module2-sep2026-2-600.webp" srcset="../assets/img/gallery/module2-sep2026-2-600.webp 600w, ../assets/img/gallery/module2-sep2026-2-1200.webp 1200w" sizes="260px" width="600" height="800" alt="Module 2 in session with Simba Stenqvist — Singapore, September 2026" loading="lazy" decoding="async"/></source></picture></a><figcaption>Module 2 in session with Simba Stenqvist — Singapore, September 2026</figcaption></figure>
+          <figure class="lx-media"><a href="../assets/img/gallery/module2-sep2026-3-1200.webp" data-caption="Sharing circle — TRE™ Module 2, September 2026"><picture><source type="image/avif" srcset="../assets/img/gallery/module2-sep2026-3-600.avif 600w, ../assets/img/gallery/module2-sep2026-3-1200.avif 1200w" sizes="260px"><img src="../assets/img/gallery/module2-sep2026-3-600.webp" srcset="../assets/img/gallery/module2-sep2026-3-600.webp 600w, ../assets/img/gallery/module2-sep2026-3-1200.webp 1200w" sizes="260px" width="600" height="800" alt="Sharing circle — TRE™ Module 2, September 2026" loading="lazy" decoding="async"/></source></picture></a><figcaption>Sharing circle — TRE™ Module 2, September 2026</figcaption></figure>
+          <figure class="lx-media"><a href="../assets/img/gallery/uk-tre-providers-2-1200.webp" data-caption="With UK TRE™ Provider Students"><picture><source type="image/avif" srcset="../assets/img/gallery/uk-tre-providers-2-600.avif 600w, ../assets/img/gallery/uk-tre-providers-2-1200.avif 1200w" sizes="260px"><img src="../assets/img/gallery/uk-tre-providers-2-600.webp" srcset="../assets/img/gallery/uk-tre-providers-2-600.webp 600w, ../assets/img/gallery/uk-tre-providers-2-1200.webp 1200w" sizes="260px" width="600" height="800" alt="With UK TRE™ Provider Students" loading="lazy" decoding="async"/></source></picture></a><figcaption>With UK TRE™ Provider Students</figcaption></figure>
+        </div>
+
+        <h2 id="why-it-matters-for-practitioners-here">Why it matters for practitioners here</h2>
+        <ul>
+          <li><strong>Local certification.</strong> No more flying abroad for each module; the pathway runs in Singapore with online supervision between modules.</li>
+          <li><strong>Continuity.</strong> One trainer who knows the local context — the corporate culture, the pace, the multilingual client base — from Module 1 to certification and beyond.</li>
+          <li><strong>Community.</strong> A place to be listed, referred, supervised and kept learning, with visiting trainers such as Simba Stenqvist adding to the calendar.</li>
+        </ul>
+
+        <div class="callout">
+          <p><strong>Thinking about certification?</strong> Read the <a href="../education#certification">pathway, fees and dates</a>, or book a <a href="https://calendly.com/bhdasia/tre-certification-intake-call" target="_blank" rel="noopener">free intake call</a> with Isabelle.</p>
+        </div>
+      </div>
+
+      <div class="article-author">
+        <div class="avatar">ICT</div>
+        <p><b>About Isabelle Claus Teixeira</b><br/>Global TRE™ Certifying Trainer, Certified TRE™ Provider, ICF PCC Executive Coach and Mindfulness Teacher. French national, fluent in French, English and Spanish, based between Japan and Singapore. <a href="../about#isabelle">Full biography</a>.</p>
+      </div>
+      <div class="article-nav">
+        <a class="link-arrow ar-prev" href="nervous-system-habits-for-the-workday"><span class="ar-glyph" aria-hidden="true">←</span> Workday habits</a>
+        <a class="link-arrow" href="../blog">All articles</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="ar-more">
+  <div class="container">
+    <h2 class="ar-more-h">More articles</h2>
+    <div class="ar-rel">
+      <article class="ar-rel-card">
+        <div class="ar-rel-media"><picture><source type="image/avif" srcset="../assets/img/blog/tre-for-coaches-800.avif 800w, ../assets/img/blog/tre-for-coaches.avif 1600w" sizes="(max-width: 900px) 132px, 30vw"><img src="../assets/img/blog/tre-for-coaches-800.webp" srcset="../assets/img/blog/tre-for-coaches-800.webp 800w, ../assets/img/blog/tre-for-coaches.jpg 1600w" sizes="(max-width: 900px) 132px, 30vw" width="800" height="450" alt="A coach and client in an attentive one-to-one conversation" loading="lazy" decoding="async"/></source></picture><span class="badge badge-gold">Practitioners</span></div>
+        <h3><a class="ar-rel-t" href="tre-for-coaches">From Shaking to Shaping: why coaches are adding TRE™ to their practice</a></h3>
+        <div class="post-meta"><span>6 May 2026</span><span>·</span><span>5 min read</span></div>
+      </article>
+      <article class="ar-rel-card">
+        <div class="ar-rel-media"><picture><source type="image/avif" srcset="../assets/img/blog/what-is-tre-800.avif 800w, ../assets/img/blog/what-is-tre.avif 1600w" sizes="(max-width: 900px) 132px, 30vw"><img src="../assets/img/blog/what-is-tre-800.webp" srcset="../assets/img/blog/what-is-tre-800.webp 800w, ../assets/img/blog/what-is-tre.jpg 1600w" sizes="(max-width: 900px) 132px, 30vw" width="800" height="450" alt="A person resting on a mat, letting the body settle into a gentle tremor" loading="lazy" decoding="async" style="object-position:44% 50%"/></source></picture><span class="badge badge-gold">Beginners</span></div>
+        <h3><a class="ar-rel-t" href="what-is-tre">What is TRE™? A plain-language guide</a></h3>
+        <div class="post-meta"><span>14 January 2026</span><span>·</span><span>6 min read</span></div>
+      </article>
+      <article class="ar-rel-card">
+        <div class="ar-rel-media"><picture><source type="image/avif" srcset="../assets/img/blog/science-of-neurogenic-tremors-800.avif 800w, ../assets/img/blog/science-of-neurogenic-tremors.avif 1600w" sizes="(max-width: 900px) 132px, 30vw"><img src="../assets/img/blog/science-of-neurogenic-tremors-800.webp" srcset="../assets/img/blog/science-of-neurogenic-tremors-800.webp 800w, ../assets/img/blog/science-of-neurogenic-tremors.jpg 1600w" sizes="(max-width: 900px) 132px, 30vw" width="800" height="450" alt="A person with eyes closed, breathing calmly" loading="lazy" decoding="async"/></source></picture><span class="badge badge-gold">Science</span></div>
+        <h3><a class="ar-rel-t" href="science-of-neurogenic-tremors">Why the body shakes: the science behind neurogenic tremors</a></h3>
+        <div class="post-meta"><span>18 February 2026</span><span>·</span><span>7 min read</span></div>
+      </article>
+    </div>
+
+    <div class="cta-band ar-close">
+      <svg class="ar-lines" viewbox="0 50 1200 90" preserveaspectratio="none" aria-hidden="true" focusable="false"><path data-draw="" data-draw-dur="1600" d="M-20 64 Q85 53.7 190 64 Q295 76.5 400 64 Q505 50.1 610 64 Q715 77.7 820 64 Q925 51.8 1030 64 Q1135 73.9 1240 64"/><path data-draw="" data-draw-dur="1600" d="M-20 98 Q110 105.6 240 98 Q370 88.6 500 98 Q630 108 760 98 Q890 89.1 1020 98 Q1130 104.8 1240 98"/><path data-draw="" data-draw-dur="1600" d="M-20 128 Q70 121.7 160 128 Q250 135.4 340 128 Q430 120.1 520 128 Q610 135.9 700 128 Q790 120.8 880 128 Q970 134.1 1060 128 Q1150 123 1240 128"/></svg>
+      <div class="ar-path">
+        <h2>Ready to learn the full practice?</h2>
+        <div class="btn-row"><a class="btn btn-ghost-light" href="../facilitators">Find a certified provider</a><a class="link-arrow" href="../events">See upcoming events</a></div>
+      </div>
+      <div class="ar-path">
+        <h2>Thinking about certification?</h2>
+        <div class="btn-row"><a class="btn btn-primary" href="https://calendly.com/bhdasia/tre-certification-intake-call" target="_blank" rel="noopener">Book a certification intake call</a><a class="link-arrow" href="../education#certification">Certification pathway and fees</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="../assets/js/article.js?v=20261014a" defer="defer"/>
+</main><footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="footer-wordmark">TRE™ in Singapore</span>
+        <p>Release stress, strengthen resilience, improve wellbeing. The home of TRE™ practitioners, trainees and first-timers in Singapore.</p>
+              <div class="socials" aria-label="Social media">
+        <a href="https://www.instagram.com/isabelleclausteixeira_bhd/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+        <a href="https://www.linkedin.com/in/isabelleclausteixeira/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewbox="0 0 24 24" fill="currentColor"><path d="M6.5 8.5H3.5V21h3V8.5zM5 3.5a1.75 1.75 0 1 0 0 3.5 1.75 1.75 0 0 0 0-3.5zM21 13.6c0-3.4-1.8-5.3-4.5-5.3-2 0-3 1.1-3.5 1.9V8.5h-3V21h3v-6.6c0-1.7.6-2.9 2.2-2.9 1.5 0 1.9 1.2 1.9 2.9V21H21v-7.4z"/></svg></a>
+        <a href="https://www.youtube.com/@IsabelleClausTeixeira" target="_blank" rel="noopener" aria-label="YouTube"><svg viewbox="0 0 24 24" fill="currentColor"><path d="M23 7.2c-.3-1.2-1.1-2-2.3-2.3C18.9 4.5 12 4.5 12 4.5s-6.9 0-8.7.4C2.1 5.2 1.3 6 1 7.2.6 9 .6 12 .6 12s0 3 .4 4.8c.3 1.2 1.1 2 2.3 2.3 1.8.4 8.7.4 8.7.4s6.9 0 8.7-.4c1.2-.3 2-1.1 2.3-2.3.4-1.8.4-4.8.4-4.8s0-3-.4-4.8zM9.8 15.5v-7l6 3.5-6 3.5z"/></svg></a>
+        <a href="https://www.facebook.com/bhdasia/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewbox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7.5h2.6l.4-3h-3V8.6c0-.9.3-1.5 1.5-1.5h1.6V4.4c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4v2.2H7.8v3h2.6V21h3.1z"/></svg></a>
+      </div>
+      </div>
+      <div>
+        <h2>Explore</h2>
+        <ul class="footer-links">
+          <li><a href="../">Home</a></li>
+          <li><a href="../events">Events</a></li>
+          <li><a href="../about">About</a></li>
+          <li><a href="../blog">Blog</a></li>
+          <li><a href="../education">Education</a></li>
+          <li><a href="../contact">Contact</a></li>
+          <li><a href="../online-session-guide">Online session guide</a></li>
+          <li><a href="../facilitators">Providers</a></li>
+          <li><a href="../facilitators#get-listed">Get listed</a></li>
+          <li><a href="../education#certification">Certification</a></li>
+          <li><a href="https://hummingbeing.com/" target="_blank" rel="noopener">HummingBeing</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Contact</h2>
+        <ul class="footer-contact">
+          <li><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><a href="mailto:bonjour@bhdasia.com">bonjour@bhdasia.com</a></li>
+          <li><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.8 2z"/></svg><a href="https://wa.me/818065151778" target="_blank" rel="noopener">+81 80 6515 1778 (WhatsApp)</a></li>
+          <li><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg><span>Business &amp; Human Development Consulting Pte Ltd<br/>50 Raffles Place, Singapore Land Tower <span class="nowrap">#30-00,</span> Singapore 048623</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span data-year="">2026</span> Business &amp; Human Development Consulting Pte Ltd · TRE™ in Singapore. TRE™ is a registered trademark of TRE For All, Inc. Method created by Dr. David Berceli.</p>
+      <p class="footer-powered">Powered by <a href="https://technext.asia" target="_blank" rel="noopener">TechNext</a></p>
+    </div>
+  </div>
+</footer><a class="wa-float" href="https://wa.me/818065151778" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewbox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 12 12 0 0 0 4.6 4c1.7.7 2.1.6 2.8.5.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2 0-.1-.2-.2-.4-.3z"/></svg>
+</a><script>window.TRE_STATIC={"events":["tre-provider-certification-singapore","tre-module-1-bucharest","from-shaking-to-shaping-bucharest","feminine-masculine-energetics-corporate","the-body-in-the-room","breath-as-medicine","tre-module-3-singapore","tre-provider-certification-2027-singapore","from-shaking-to-shaping-online","tre-module-2-singapore","from-shaking-to-shaping-online-sep3","internal-alchemy-singapore","nervous-system-regulation-coaches-singapore"],"facilitators":["isabelle-claus-teixeira","yan","nikki-tay","rina-ho"]};</script><script>window.TRE_EVENT_POSTS={};</script><script>window.TRE_IMG={"assets/img/events/event-body-in-the-room.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-body-in-the-room.webp":[1920,1080,[480,960],1],"assets/img/events/event-body-in-the-room-portrait.webp":[1080,1350,[540],1],"assets/img/events/event-breath-as-medicine.webp":[1493,840,[480,960],1],"assets/img/events/card-event-breath-as-medicine.webp":[1920,1080,[480,960],1],"assets/img/events/event-certification-2027.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-certification-2027.webp":[1920,1080,[480,960],1],"assets/img/events/event-certification-2027-portrait.webp":[1080,1350,[540],1],"assets/img/events/event-transform-practice.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-transform-practice.webp":[1920,1080,[480,960],1],"assets/img/events/event-shaking-to-shaping.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-shaking-to-shaping.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-shaking-to-shaping-sep3.webp":[1920,1080,[480,960],1],"assets/img/events/event-shaking-online.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-shaking-online.webp":[1920,1080,[480,960],1],"assets/img/events/event-feminine-masculine.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-feminine-masculine.webp":[1920,1080,[480,960],1],"assets/img/events/event-feminine-masculine-portrait.webp":[1080,1350,[540],1],"assets/img/events/event-bucharest-module1.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-bucharest-module1.webp":[1920,1080,[480,960],1],"assets/img/events/event-nervous-system.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-nervous-system.webp":[1920,1080,[480,960],1],"assets/img/events/event-internal-alchemy.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-internal-alchemy.webp":[1920,1080,[480,960],1],"assets/img/facilitators/isabelle-her-story.jpg":[850,1280,[160,400],1],"assets/img/facilitators/gallery-isabelle-teaching-tre.jpg":[1200,1600,[400,800],1],"assets/img/facilitators/gallery-isabelle-students-module1-may2026.jpg":[1600,1200,[400,800,1200],1],"assets/img/facilitators/gallery-tre-module1-2026.jpg":[1600,2844,[400,800,1200],1],"assets/img/facilitators/gallery-ws-1.jpg":[1600,1200,[400,800,1200],1],"assets/img/facilitators/gallery-danang-tre-conference-nov2025.jpg":[1600,1200,[400,800,1200],1],"assets/img/facilitators/gallery-dinner-david-berceli-founders.jpg":[929,959,[400,800],1],"assets/img/facilitators/gallery-asia-tre-trainers-david.jpg":[1600,1380,[400,800,1200],1],"assets/img/facilitators/gallery-isabelle-vietnam-tre.jpg":[1368,1368,[400,800,1200],1],"assets/img/facilitators/gallery-uk-tre-providers.jpg":[1200,1600,[400,800],1],"assets/img/facilitators/gallery-ws-2.jpg":[1200,1600,[400,800],1],"assets/img/facilitators/isabelle-global-journey.jpg":[850,1280,[400],1],"assets/img/facilitators/yan.webp":[1600,1066,[160,400,800],1],"assets/img/facilitators/nikki-tay.webp":[1254,1254,[160,400,800],1],"assets/img/facilitators/rina-ho.webp":[1000,1000,[160,400,800],1]};window.TRE_HERO_AVIF=["hero-education","hero-events","hero-facilitators"];</script><script src="../assets/js/events-data.js?v=20261014a"/><script src="../assets/js/facilitators-data.js?v=20261014a"/><script src="../assets/js/main.js?v=20261014a"/><script src="../assets/js/layer.js?v=20261014a"/><script src="../assets/js/chatbot.js?v=20261014a"/></t></t>

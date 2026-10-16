@@ -1,0 +1,991 @@
+<t t-name="trex.page_education"><t t-call="web.layout"><t t-set="html_data" t-value="{'lang': 'en-SG'}"/><t t-set="title">TRE™ Certification Singapore — Become a Certified Provider</t><t t-set="head"><script src="/assets/js/odoo-forms.js"></script><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="description" content="What TRE&#x2122; is, how neurogenic tremors work, and how to become a Global TRE&#x2122; Certified Provider in Singapore: Modules 1&#x2013;3, fees, ICF CCEUs and FAQ."/><link rel="canonical" href="https://tre-in-singapore.com/education"/><meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"/><meta property="og:locale" content="en_SG"/><meta property="og:site_name" content="TRE&#x2122; in Singapore"/><meta property="og:type" content="website"/><meta property="og:title" content="TRE&#x2122; Certification Singapore &#x2014; Become a Certified Provider"/><meta property="og:description" content="What TRE&#x2122; is, how neurogenic tremors work, and how to become a Global TRE&#x2122; Certified Provider in Singapore: Modules 1&#x2013;3, fees, ICF CCEUs and FAQ."/><meta property="og:url" content="https://tre-in-singapore.com/education"/><meta property="og:image" content="https://tre-in-singapore.com/assets/img/og/education.jpg"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="TRE&#x2122; Certification Singapore &#x2014; Become a Certified Provider"/><meta name="twitter:description" content="What TRE&#x2122; is, how neurogenic tremors work, and how to become a Global TRE&#x2122; Certified Provider in Singapore: Modules 1&#x2013;3, fees, ICF CCEUs and FAQ."/><meta name="twitter:image" content="https://tre-in-singapore.com/assets/img/og/education.jpg"/><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://tre-in-singapore.com/#org","name":"TRE™ in Singapore","alternateName":["TRE Singapore","TRE in Singapore"],"url":"https://tre-in-singapore.com/","logo":{"@type":"ImageObject","url":"https://tre-in-singapore.com/assets/img/logo-tre-singapore.png"},"image":"https://tre-in-singapore.com/assets/img/og-cover.jpg","description":"The home of TRE™ (Tension and Trauma Releasing Exercises) in Singapore: certified providers, Global TRE™ Provider Certification, workshops, practice circles and resources.","email":"bonjour@bhdasia.com","telephone":"+81 80 6515 1778","address":{"@type":"PostalAddress","streetAddress":"50 Raffles Place, #30-00 Singapore Land Tower","addressLocality":"Singapore","postalCode":"048623","addressCountry":"SG"},"areaServed":{"@type":"Country","name":"Singapore"},"founder":{"@id":"https://tre-in-singapore.com/#isabelle"},"parentOrganization":{"@type":"Organization","name":"Business &amp; Human Development Consulting Pte Ltd","alternateName":"BHD Asia","url":"https://bhdasia.com/","sameAs":["https://www.facebook.com/bhdasia/"]},"knowsAbout":["Tension and Trauma Releasing Exercises (TRE)","Neurogenic tremors","Nervous system regulation","Stress and trauma release","TRE provider certification"]},{"@type":"WebSite","@id":"https://tre-in-singapore.com/#website","url":"https://tre-in-singapore.com/","name":"TRE™ in Singapore","alternateName":"TRE Singapore","inLanguage":"en-SG","publisher":{"@id":"https://tre-in-singapore.com/#org"}},{"@type":"Person","@id":"https://tre-in-singapore.com/#isabelle","name":"Isabelle Claus Teixeira","url":"https://tre-in-singapore.com/facilitators/isabelle-claus-teixeira","jobTitle":["Global TRE™ Certifying Trainer","ICF PCC Executive Coach","Mindfulness Teacher"],"image":"https://tre-in-singapore.com/assets/img/facilitators/isabelle-her-story.jpg","sameAs":["https://www.linkedin.com/in/isabelleclausteixeira/","https://www.instagram.com/isabelleclausteixeira_bhd/","https://www.youtube.com/@IsabelleClausTeixeira","https://www.facebook.com/bhdasia/","https://bhdasia.com","https://hummingbeing.com/"],"worksFor":{"@id":"https://tre-in-singapore.com/#org"}},{"@type":"WebPage","@id":"https://tre-in-singapore.com/education#webpage","url":"https://tre-in-singapore.com/education","name":"TRE™ Certification Singapore — Become a Certified Provider","description":"What TRE™ is, how neurogenic tremors work, and how to become a Global TRE™ Certified Provider in Singapore: Modules 1–3, fees, ICF CCEUs and FAQ.","isPartOf":{"@id":"https://tre-in-singapore.com/#website"},"about":{"@id":"https://tre-in-singapore.com/#org"},"inLanguage":"en-SG","primaryImageOfPage":{"@type":"ImageObject","url":"https://tre-in-singapore.com/assets/img/og/education.jpg"},"breadcrumb":{"@id":"https://tre-in-singapore.com/education#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://tre-in-singapore.com/education#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://tre-in-singapore.com/"},{"@type":"ListItem","position":2,"name":"Education","item":"https://tre-in-singapore.com/education"}]},{"@type":"FAQPage","@id":"https://tre-in-singapore.com/education#faq","isPartOf":{"@id":"https://tre-in-singapore.com/education#webpage"},"mainEntity":[{"@type":"Question","name":"Do I need any experience to try TRE™?","acceptedAnswer":{"@type":"Answer","text":"No. TRE™ is designed for anyone. Your provider adapts the exercises to your body and shows you how to control the intensity from the very first session."}},{"@type":"Question","name":"Do I have to talk about my trauma?","acceptedAnswer":{"@type":"Answer","text":"No. TRE™ works through the body. You never need to describe what happened, and many people prefer it for exactly that reason."}},{"@type":"Question","name":"How many sessions do I need?","acceptedAnswer":{"@type":"Answer","text":"Most people learn a safe self-practice in three to four sessions with a certified provider, then continue at home. Group sessions and practice circles are a good way to keep going."}},{"@type":"Question","name":"Can I do Module 1 online and continue in Singapore?","acceptedAnswer":{"@type":"Answer","text":"Yes. Module 1 is offered online as well as in person. Modules 2 and 3 are in person in Singapore, each followed by online supervision."}},{"@type":"Question","name":"Are the ICF CCEUs recognised?","acceptedAnswer":{"@type":"Answer","text":"Module 1 carries 21 ICF Continuing Coach Education Units, recognised by the International Coaching Federation for credential renewal."}},{"@type":"Question","name":"How long does certification take?","acceptedAnswer":{"@type":"Answer","text":"The 2027 Singapore cohort runs from February to October 2027: Module 1 on 27–28 February, Module 2 on 3–4 July and Module 3 on 30–31 October. Supervision requirements between modules mean most participants complete within 6–9 months."}},{"@type":"Question","name":"What happens after I certify?","acceptedAnswer":{"@type":"Answer","text":"You join the worldwide TRE™ provider network, can be listed in the Singapore directory on this site, and are welcome at our monthly practice circle and continuing-education workshops."}}]},{"@type":"Course","@id":"https://tre-in-singapore.com/education#course","name":"Global TRE™ Provider Certification","description":"The certification comprises three sequential modules. Each includes a 2-day in-person workshop plus 4 online sessions. On completion you receive the Global TRE™ Certified Provider certificate, qualifying you to offer individual and group TRE™ sessions anywhere in the world.","url":"https://tre-in-singapore.com/education#certification","provider":{"@id":"https://tre-in-singapore.com/#org"},"educationalCredentialAwarded":"Global TRE™ Certified Provider","inLanguage":"en"}]}</script><meta name="theme-color" content="#1c3d7a"/><link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg"/><link rel="preload" href="assets/fonts/plus-jakarta-sans-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="assets/css/style.css?v=20261014a"/><link rel="stylesheet" href="assets/css/layer.css?v=20261014a"/><script>document.documentElement.classList.add('js');try{if(localStorage.getItem('tre-motion')==='paused')document.documentElement.classList.add('motion-paused')}catch(e){}(function(){try{var p=location.pathname,c=p.replace(/\/index\.html$/,'/').replace(/\.html$/,'');if(c!==p)history.replaceState(history.state,'',c+location.search+location.hash)}catch(e){}})();</script></t><a class="sr-only" href="#main">Skip to content</a><header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="./" aria-label="TRE™ in Singapore — home">
+      <img class="brand-logo" src="assets/img/logo-tre-singapore-214.webp" srcset="assets/img/logo-tre-singapore-214.webp 214w, assets/img/logo-tre-singapore-321.webp 321w" sizes="(max-width: 760px) 78px, 107px" alt="TRE™ in Singapore" width="107" height="58" decoding="async"/>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">
+      <span/><span/><span/>
+    </button>
+    <nav class="nav" id="site-nav" aria-label="Main navigation">
+      <a href="./">Home</a>
+      <a href="about">About</a>
+      <a href="education" class="active">Education</a>
+      <a href="facilitators">Providers</a>
+      <a href="events">Events</a>
+      <a href="blog">Blog</a>
+      <a href="contact">Contact</a>
+      <a class="btn btn-primary btn-sm" href="https://calendly.com/bhdasia/tre-certification-intake-call" target="_blank" rel="noopener">Book a call</a>
+    </nav>
+  </div>
+</header><main id="main">
+<style id="ed-css">
+/* =========================================================
+   EDUCATION (ed-) — rebuilt 2026-09-29
+   What is TRE™ · how it works (one drawn line + live tremor field) ·
+   benefits checklist + safety callout · audiences (segmented tabs) ·
+   certification pathway (Module 1 → 2 → 3 → certified provider) ·
+   fees table · FAQ · a close offering both paths.
+   Complete without JS (html:not(.js) keeps every block readable);
+   the page script adds the live states; reduced motion stays still.
+   ========================================================= */
+.ed-sec{--ed-rule:rgba(139,107,69,.2)}
+.ed-head{max-width:720px;margin:0 0 var(--s7)}
+.ed-head.is-center{margin-left:auto;margin-right:auto;text-align:center}
+.ed-head h2{margin-bottom:var(--s4)}
+.ed-head p{margin:0;color:var(--muted);font-size:1.06rem;line-height:1.65}
+.ed-ico{width:20px;height:20px;flex:none;fill:none;stroke:currentColor;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round}
+
+/* ---------- 1 · What is TRE™ ---------- */
+.ed-what-grid{display:grid;grid-template-columns:minmax(0,1.12fr) minmax(0,.88fr);gap:clamp(40px,6vw,88px);align-items:start}
+.ed-what-copy h2{margin-bottom:var(--s5)}
+.ed-what-copy p{color:var(--ink-2);max-width:64ch}
+.ed-what-copy .ed-lede{font-size:1.14rem;line-height:1.62;color:var(--ink)}
+.ed-what-copy p:last-child{margin-bottom:0}
+.ed-nt{font-style:italic;color:var(--navy);padding-bottom:5px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 5'%3E%3Cpath d='M0 2.5Q1.75.5 3.5 2.5T7 2.5T10.5 2.5T14 2.5' fill='none' stroke='%23c9a45c' stroke-width='1.3'/%3E%3C/svg%3E") repeat-x 0 100%/14px 5px}
+@media (hover:hover){.ed-nt:hover{animation:ed-release 1.4s var(--ease-out)}}
+@keyframes ed-release{0%{background-size:14px 5px}13%{background-size:7px 6.5px}100%{background-size:14px 5px}}
+.ed-seven{background:var(--cream);border-radius:var(--radius);padding:var(--s6) var(--s6) var(--s5)}
+.ed-seven h3{font-size:1.1rem;margin:0 0 var(--s5)}
+.ed-seven-list{list-style:none;margin:0;padding:0;counter-reset:ed7}
+.ed-seven-list li{position:relative;display:grid;grid-template-columns:30px minmax(0,1fr);column-gap:14px;padding-bottom:14px;counter-increment:ed7}
+.ed-seven-list li::before{content:counter(ed7);grid-column:1;grid-row:1 / span 2;position:relative;z-index:1;box-sizing:border-box;width:30px;height:30px;border-radius:50%;border:1.5px solid var(--gold);background:var(--cream);color:var(--bronze);display:grid;place-items:center;font-family:var(--font-display);font-weight:700;font-size:.78rem;transition:background-color var(--d2) var(--ease-out),color var(--d2) var(--ease-out)}
+.ed-seven-list li:not(:last-child)::after{content:"";position:absolute;left:14.25px;top:30px;bottom:0;width:1.5px;background:rgba(201,164,92,.5)}
+.ed-seven-list strong{grid-column:2;padding-top:4px;font-family:var(--font-display);font-size:.98rem;line-height:1.3;color:var(--navy)}
+.ed-seven-list .ed-dash{display:none}
+.ed-seven-list .ed-desc{grid-column:2;font-size:.92rem;line-height:1.5;color:var(--muted)}
+.ed-seven-list li:last-child{padding-bottom:0}
+.ed-seven-list li:last-child::before,.ed-seven-list li:hover::before{background:var(--gold);color:#fff}
+.ed-seven-note{display:flex;gap:10px;align-items:flex-start;margin:var(--s5) 0 0;padding-top:var(--s4);border-top:1px solid var(--ed-rule);font-size:.9rem;line-height:1.55;color:var(--muted)}
+.ed-seven-note .ed-ico{width:18px;height:18px;margin-top:2px;color:var(--bronze)}
+
+/* ---------- 2 · How it works: three stages on one drawn line + a live tremor field ---------- */
+.ed-stage{position:relative;isolation:isolate;overflow:hidden;border-radius:var(--radius);color:var(--on-navy-2);
+  padding:clamp(16px,2.2vw,26px) clamp(20px,3.4vw,44px) clamp(28px,3.4vw,44px);
+  background:radial-gradient(110% 85% at 88% -10%,rgba(42,99,168,.42),transparent 60%),radial-gradient(80% 70% at -10% 110%,rgba(139,107,69,.2),transparent 60%),var(--navy-ink);
+  box-shadow:0 2px 6px rgba(19,43,86,.08),0 30px 70px -30px rgba(15,31,61,.55)}
+.ed-stage-view{position:relative;height:clamp(210px,25vw,300px);margin:0 calc(-1 * clamp(4px,1vw,12px));border-radius:12px;overflow:hidden;touch-action:pan-y;
+  background:radial-gradient(60% 80% at 50% 50%,rgba(42,99,168,.2),transparent 70%)}
+html:not(.js) .ed-stage-view,.ed-stage-view.is-off{display:none}
+.ed-cv{position:absolute;inset:0;width:100%;height:100%;display:block;opacity:0;pointer-events:none;transition:opacity 1.1s var(--ease-out),transform 1.4s var(--ease-out)}
+.ed-cv.is-on{opacity:1}
+.ed-cv.from-lo,.ed-cv.to-lo{transform:scaleY(.7)}
+.ed-cv.from-hi,.ed-cv.to-hi{transform:scaleY(1.45)}
+.ed-cv.from-lo,.ed-cv.from-hi{transition:none}
+.ed-illus{position:absolute;left:12px;top:10px;z-index:1;padding:.32rem .62rem;border:1px solid rgba(219,227,241,.24);border-radius:999px;font-family:var(--font-display);font-size:.72rem;font-weight:700;letter-spacing:.08em;line-height:1;text-transform:uppercase;color:rgba(219,227,241,.8)}
+.ed-flow-wrap{position:relative}
+.ed-flow{display:block;width:100%;height:56px;overflow:visible}
+html:not(.js) .ed-flow{display:none}
+.ed-flow .tk{fill:none;stroke:rgba(201,164,92,.28);stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}
+.ed-flow .pg{fill:none;stroke:var(--gold);stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1 1;stroke-dashoffset:1;transition:stroke-dashoffset .9s var(--ease-out)}
+.ed-flow .pg.on{stroke-dashoffset:0}
+.ed-flow .nd{cursor:pointer}
+.ed-flow .nd .dot{fill:var(--navy-ink);stroke:var(--gold);stroke-width:1.5;transition:fill .5s var(--ease-out)}
+.ed-flow .nd.past .dot{fill:rgba(201,164,92,.5)}
+.ed-flow .nd.on .dot{fill:var(--gold)}
+.ed-flow .nd .halo{fill:rgba(201,164,92,.12);stroke:rgba(201,164,92,.42);stroke-width:1;opacity:0;transition:opacity .6s var(--ease-out)}
+.ed-flow .nd.on .halo{opacity:1}
+.ed-steps{list-style:none;margin:var(--s2) 0 0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(20px,3vw,44px)}
+.ed-stage.is-live .ed-step{cursor:pointer}
+.ed-step h3{margin:0 0 .35rem;font-size:1.16rem;color:#fff;transition:color var(--d2) var(--ease-out)}
+.ed-step-n{color:var(--gold)}
+.ed-step-btn{appearance:none;-webkit-appearance:none;background:none;border:0;margin:0 0 0 -2px;padding:.3rem 2px;font:inherit;color:inherit;letter-spacing:inherit;text-align:left;cursor:pointer;min-height:44px;display:inline-flex;align-items:center;gap:.3em;border-radius:6px;transition:color var(--d2) var(--ease-out),transform var(--d1) var(--ease-out)}
+.ed-step-btn:active{transform:scale(.98)}
+.ed-step-btn:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.ed-step p{margin:0;font-size:.97rem;line-height:1.62;color:var(--on-navy-2);transition:color .6s var(--ease-out)}
+.ed-stage.is-live .ed-step h3{color:#aebbd2}
+.ed-stage.is-live .ed-step p{color:#9fb0cc}
+.ed-stage.is-live .ed-step.is-on h3,.ed-stage.is-live .ed-step-btn:hover{color:#fff}
+.ed-stage.is-live .ed-step.is-on p{color:#e6ecf7}
+
+/* ---------- 2b · Reported benefits (a checklist that ticks in) + the safety callout ---------- */
+.ed-after{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(32px,5vw,72px);align-items:start;margin-top:clamp(56px,7vw,96px)}
+.ed-benefits h3{font-size:1.3rem;margin:0 0 var(--s3)}
+.ed-benefits .ed-ticks li:first-child{border-top:1px solid var(--ed-rule)}
+.ed-ticks{list-style:none;margin:0;padding:0;display:grid;column-gap:var(--s6)}
+.ed-ticks.cols-2{grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-flow:column;grid-template-rows:repeat(var(--rows,5),auto)}
+.ed-ticks li{display:flex;gap:12px;align-items:flex-start;padding:12px 0;border-bottom:1px solid var(--ed-rule,rgba(139,107,69,.2));color:var(--ink-2);line-height:1.45;transition:color .5s var(--ease-out) calc(var(--i,0) * 90ms + 120ms)}
+.ed-tick{width:22px;height:22px;flex:none;margin-top:-1px;overflow:visible}
+.ed-tick circle{fill:var(--gold-soft);transform-box:fill-box;transform-origin:center;transition:transform .55s var(--ease-out) calc(var(--i,0) * 90ms),opacity .4s var(--ease-out) calc(var(--i,0) * 90ms)}
+.ed-tick path{fill:none;stroke:var(--bronze);stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1 1;stroke-dashoffset:0;transition:stroke-dashoffset .5s var(--ease-out) calc(var(--i,0) * 90ms + 180ms)}
+.ed-ticks.ed-pre li{color:var(--muted)}
+.ed-ticks.ed-pre .ed-tick circle{transform:scale(.35);opacity:0}
+.ed-ticks.ed-pre .ed-tick path{stroke-dashoffset:1}
+.ed-ticks.ed-pre.is-in li{color:var(--ink-2)}
+.ed-ticks.ed-pre.is-in .ed-tick circle{transform:none;opacity:1}
+.ed-ticks.ed-pre.is-in .ed-tick path{stroke-dashoffset:0}
+.ed-ticks.ed-notr li,.ed-ticks.ed-notr .ed-tick circle,.ed-ticks.ed-notr .ed-tick path{transition:none!important}
+.ed-safe{--ed-i-info:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.75' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='9'/%3E%3Cpath d='M12 11v5M12 7.9v.1'/%3E%3C/svg%3E");
+  background:var(--paper);border:1px solid var(--line-2);border-radius:var(--radius);padding:clamp(24px,3vw,36px);box-shadow:var(--shadow-1)}
+.ed-safe-top{display:flex;gap:14px;align-items:center;margin-bottom:var(--s4)}
+.ed-safe-mark{width:42px;height:42px;flex:none;border-radius:50%;background:var(--cream);color:var(--bronze);display:grid;place-items:center}
+.ed-safe-mark .ed-ico{width:22px;height:22px}
+.ed-safe h3{margin:0;font-size:1.3rem}
+.ed-safe p{color:var(--ink-2);margin:0 0 var(--s4)}
+.ed-safe-list{padding-top:var(--s4);border-top:1px solid var(--line-2)}
+.ed-cond{display:block;position:relative;padding:4px 0 4px 20px;color:var(--ink);font-weight:600}
+.ed-cond:first-of-type{margin-top:8px}
+.ed-cond::before{content:"";position:absolute;left:3px;top:calc(4px + .72em - 3px);width:6px;height:6px;border-radius:50%;background:var(--gold)}
+.ed-safe-note{display:block;position:relative;margin-top:var(--s4);padding:12px 14px 12px 42px;border-radius:var(--radius-sm);background:var(--blue-tint);color:var(--navy);font-weight:600;font-size:.94rem;line-height:1.5}
+.ed-safe-note::before{content:"";position:absolute;left:14px;top:14px;width:18px;height:18px;background:var(--navy);-webkit-mask:var(--ed-i-info) center/contain no-repeat;mask:var(--ed-i-info) center/contain no-repeat}
+.ed-safe .link-arrow{margin-top:-.25rem}
+
+/* ---------- 3 · Audiences: a segmented selector (arrow keys) ---------- */
+.ed-aud-box{max-width:920px;margin:0 auto}
+.ed-aud-panels{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--s6)}
+.ed-aud-panel h3{margin:.5rem 0 .4rem}
+.ed-aud-panel p{color:var(--muted);margin:0 0 .4rem}
+.ed-aud-tabs{position:relative;display:flex;gap:4px;width:max-content;max-width:100%;margin:0 auto var(--s7);padding:5px;background:var(--paper);border:1px solid var(--line);border-radius:999px;box-shadow:var(--shadow-1)}
+.ed-aud-ind{position:absolute;left:0;top:0;width:0;height:0;border-radius:999px;background:var(--navy);box-shadow:0 6px 16px rgba(19,43,86,.18);transition:transform .45s var(--ease-out),width .45s var(--ease-out),height .45s var(--ease-out)}
+.ed-aud-tabs.no-tr .ed-aud-ind{transition:none}
+.ed-aud-tab{position:relative;z-index:1;appearance:none;-webkit-appearance:none;border:0;background:none;margin:0;cursor:pointer;min-height:46px;padding:.65rem 1.3rem;border-radius:999px;font-family:var(--font-display);font-weight:600;font-size:.94rem;line-height:1.2;color:var(--ink-2);white-space:nowrap;transition:color .3s var(--ease-out),transform var(--d1) var(--ease-out)}
+.ed-aud-tab:hover{color:var(--navy)}
+.ed-aud-tab:active{transform:scale(.98)}
+.ed-aud-tab[aria-selected="true"],.ed-aud-tab[aria-selected="true"]:hover{color:#fff}
+.ed-aud-tab:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.ed-aud-box.is-tabs .ed-aud-panels{grid-template-columns:minmax(0,1fr)}
+.ed-aud-box.is-tabs .ed-aud-panel{grid-area:1 / 1;text-align:center;opacity:0;visibility:hidden;translate:0 10px;transition:opacity .35s var(--ease-out),translate .45s var(--ease-out),visibility 0s linear .45s}
+.ed-aud-box.is-tabs .ed-aud-panel.is-on{opacity:1;visibility:visible;translate:none;transition:opacity .55s var(--ease-out) .1s,translate .7s var(--ease-out) .1s,visibility 0s}
+.ed-aud-box.is-tabs .ed-aud-tag{display:none}
+.ed-aud-box.is-tabs .ed-aud-panel h3{font-size:clamp(1.4rem,2.4vw,1.8rem);margin:0 0 .7rem}
+.ed-aud-box.is-tabs .ed-aud-panel p{font-size:clamp(1.08rem,1.7vw,1.26rem);line-height:1.55;color:var(--ink-2);max-width:36ch;margin:0 auto 1rem}
+.ed-aud-panel:focus-visible{outline:2px solid var(--gold);outline-offset:8px;border-radius:12px}
+
+/* ---------- 4 · Certification: the pathway ---------- */
+.ed-cert-head{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:clamp(32px,5vw,72px);align-items:center;margin-bottom:clamp(48px,6vw,80px)}
+.ed-cert-head h2{margin-bottom:var(--s4)}
+.ed-cert-lede{margin:0;color:var(--ink-2);font-size:1.08rem;line-height:1.65;max-width:58ch}
+.ed-who{background:var(--paper);border-radius:var(--radius);padding:var(--s6);box-shadow:var(--shadow-1)}
+.ed-who h3{font-size:1.08rem;margin:0 0 .55rem}
+.ed-who p{color:var(--muted);font-size:.95rem;margin:0 0 .8rem}
+.ed-who .link-arrow{margin-top:-.3rem}
+.ed-path{list-style:none;margin:0;padding:0}
+.ed-mod{position:relative;display:grid;grid-template-columns:56px minmax(0,1fr) minmax(0,300px);column-gap:clamp(20px,3.2vw,44px);padding-bottom:clamp(48px,6vw,72px)}
+.ed-mod:not(:last-child)::before,.ed-mod:not(:last-child)::after{content:"";position:absolute;left:27px;top:62px;bottom:6px;width:2px;border-radius:2px}
+.ed-mod:not(:last-child)::before{background:rgba(139,107,69,.22)}
+.ed-mod:not(:last-child)::after{background:var(--gold);transform-origin:50% 0;transform:scaleY(var(--fill,1))}
+.ed-node{grid-column:1;grid-row:1;position:relative;z-index:1;width:56px;height:56px;border-radius:50%;display:grid;place-items:center;background:var(--navy);color:#fff;font-family:var(--font-display);font-weight:800;font-size:1.25rem;letter-spacing:-.02em;transition:background-color .6s var(--ease-out),color .6s var(--ease-out),box-shadow .6s var(--ease-out)}
+.ed-node-end{background:var(--gold);color:var(--navy-ink)}
+.ed-node-end .ed-ico{width:28px;height:28px}
+.ed-path.is-live .ed-mod:not(.is-on) .ed-node{background:var(--cream);color:var(--bronze);box-shadow:inset 0 0 0 1.5px var(--gold)}
+.ed-mod-body{grid-column:2;grid-row:1;min-width:0}
+.ed-mod:not(.has-media) .ed-mod-body{grid-column:2 / -1}
+.ed-mod-body h3{font-size:clamp(1.24rem,2vw,1.5rem);margin:.8rem 0 .9rem}
+.ed-facts{display:flex;flex-wrap:wrap;align-items:center;gap:6px 22px;margin:0 0 var(--s4);font-size:.92rem;font-weight:600;line-height:1.4;color:var(--ink-2)}
+.ed-fact{display:inline-flex;align-items:center;gap:8px;min-height:30px}
+.ed-fact .ed-ico{width:18px;height:18px;color:var(--bronze)}
+.ed-fact a{display:inline-flex;align-items:center;min-height:44px;margin:-7px 0}
+.ed-sep{display:none}
+.ed-mod-text{color:var(--muted);max-width:62ch;margin:0 0 var(--s4)}
+.ed-topics{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.ed-topics li{padding:.42rem .85rem;border:1px solid rgba(139,107,69,.3);border-radius:999px;background:rgba(255,255,255,.6);font-size:.86rem;line-height:1.3;color:var(--ink-2)}
+.ed-mod-media{grid-column:3;grid-row:1;margin-top:.3rem}
+.ed-mod-main{aspect-ratio:4/3}
+.ed-mod-main a{display:block;height:100%;cursor:zoom-in}
+.ed-mod-main img{object-position:var(--op,50% 50%)}
+.ed-mod-main figcaption{pointer-events:none}
+.ed-mod-main a:focus-visible{outline:3px solid var(--gold);outline-offset:-5px;border-radius:var(--radius)}
+.ed-thumbs{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px}
+.ed-thumb{display:block;aspect-ratio:4/3;border-radius:var(--radius-sm);overflow:hidden;background:var(--navy-ink);box-shadow:var(--shadow-1);cursor:zoom-in}
+.ed-thumb img{width:100%;height:100%;object-fit:cover;object-position:var(--op,50% 40%);transition:transform .9s var(--ease-out)}
+.ed-thumb:hover img{transform:scale(1.06)}
+.ed-thumb:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.ed-mod-end{padding-bottom:0}
+.ed-end{background:var(--paper);border-radius:var(--radius);padding:clamp(24px,3vw,40px);box-shadow:var(--shadow-2)}
+.ed-end h3{margin:0 0 .2rem;font-size:clamp(1.3rem,2.2vw,1.6rem)}
+.ed-end h4{margin:var(--s5) 0 .2rem;font-size:1rem;color:var(--bronze)}
+.ed-end .btn-row{margin-top:var(--s5)}
+
+/* ---------- 5 · Fees: a readable, interactive table ---------- */
+.ed-price .ed-head{margin-bottom:var(--s6)}
+.ed-price .table-wrap.ed-tw{overflow:visible;border-radius:var(--radius);border:1px solid var(--line-2);background:var(--paper);box-shadow:var(--shadow-1)}
+.ed-price table.ed-table{border-collapse:separate;border-spacing:0;min-width:0}
+.ed-price table.ed-table th,.ed-price table.ed-table td{border-bottom:1px solid var(--line-2);vertical-align:middle;transition:background-color var(--d1) var(--ease-out),box-shadow var(--d1) var(--ease-out),color var(--d1) var(--ease-out)}
+.ed-price table.ed-table thead th{position:sticky;top:66px;z-index:2;padding:14px 20px;font-size:.74rem;background:var(--navy);border-bottom:0}
+.ed-price table.ed-table thead th:first-child{border-top-left-radius:calc(var(--radius) - 1px)}
+.ed-price table.ed-table thead th:last-child{border-top-right-radius:calc(var(--radius) - 1px)}
+.ed-price table.ed-table tbody th{background:none;color:var(--ink);text-transform:none;letter-spacing:0;font-family:var(--font-body);font-size:1rem;font-weight:400;padding:18px 20px;width:38%}
+.ed-price table.ed-table tbody th b{font-family:var(--font-display);font-size:1.02rem;color:var(--navy)}
+.ed-price table.ed-table td{padding:18px 20px;font-family:var(--font-display);font-weight:600;font-size:1.08rem;color:var(--ink)}
+.ed-price table.ed-table td b{font-weight:800}
+.ed-price table.ed-table tbody tr:last-child &gt; *{border-bottom:0}
+.ed-price table.ed-table tbody tr:hover,.ed-price table.ed-table tbody tr.hl:hover{background:none}
+.ed-price table.ed-table tbody tr.hl &gt; *{background:var(--cream)}
+.ed-price table.ed-table td:focus{outline:none}
+.ed-price table.ed-table td:focus-visible{box-shadow:inset 0 0 0 2px var(--gold)}
+@media (min-width:641px){
+  .ed-price table.ed-table tbody tr.is-hr &gt; *{background:var(--blue-tint)}
+  .ed-price table.ed-table tbody tr.hl.is-hr &gt; *{background:var(--cream-2)}
+  .ed-price table.ed-table[data-hc="1"] tbody :is(td,th):nth-child(2),
+  .ed-price table.ed-table[data-hc="2"] tbody :is(td,th):nth-child(3),
+  .ed-price table.ed-table[data-hc="3"] tbody :is(td,th):nth-child(4){background:var(--blue-tint)}
+  .ed-price table.ed-table[data-hc="1"] tbody tr.hl &gt; :nth-child(2),
+  .ed-price table.ed-table[data-hc="2"] tbody tr.hl &gt; :nth-child(3),
+  .ed-price table.ed-table[data-hc="3"] tbody tr.hl &gt; :nth-child(4){background:var(--cream-2)}
+  .ed-price table.ed-table[data-hc="1"] thead th:nth-child(2),
+  .ed-price table.ed-table[data-hc="2"] thead th:nth-child(3),
+  .ed-price table.ed-table[data-hc="3"] thead th:nth-child(4){background:var(--navy-deep);color:var(--gold);box-shadow:inset 0 -2px 0 var(--gold)}
+  .ed-price table.ed-table tbody td.is-hc{background:var(--gold-soft)!important;color:var(--navy);box-shadow:inset 0 0 0 1.5px var(--gold)}
+}
+.ed-price-note{margin:var(--s4) 0 0;max-width:70ch}
+
+/* ---------- 6 · FAQ ---------- */
+.ed-faq-grid{display:grid;grid-template-columns:minmax(0,.75fr) minmax(0,1.6fr);gap:clamp(32px,6vw,96px);align-items:start}
+.ed-faq-head{position:sticky;top:112px}
+.ed-faq-head h2{margin:0}
+.ed-faq.faq details,.ed-faq.faq details:hover,.ed-faq.faq details[open]{background:none;border:0;border-bottom:1px solid var(--ed-rule);border-radius:0;padding:0;margin:0;box-shadow:none}
+.ed-faq.faq details:first-child{border-top:1px solid var(--ed-rule)}
+.ed-faq.faq summary{padding:20px 4px;min-height:64px;font-size:1.06rem;line-height:1.35;transition:color var(--d2) var(--ease-out)}
+.ed-faq.faq summary:hover{color:var(--blue)}
+.ed-faq.faq summary:focus-visible{outline:2px solid var(--gold);outline-offset:2px;border-radius:6px}
+.ed-faq.faq details &gt; p{padding:0 48px 22px 4px;color:var(--ink-2);max-width:64ch;animation:none}
+.ed-faq{interpolate-size:allow-keywords}
+.ed-faq details::details-content{block-size:0;overflow:hidden;transition:block-size .45s var(--ease-out),content-visibility .45s var(--ease-out) allow-discrete}
+.ed-faq details[open]::details-content{block-size:auto}
+
+/* ---------- 7 · Close: both paths ---------- */
+.ed-closes{padding:0 0 var(--s9)}
+.ed-close{--ed-cg:48px;position:relative;isolation:isolate;overflow:hidden;border-radius:var(--radius);color:var(--on-navy-2);padding:clamp(36px,5vw,64px) clamp(24px,5vw,64px) clamp(44px,6vw,72px);
+  background:radial-gradient(90% 120% at 100% 0%,rgba(42,99,168,.45),transparent 60%),linear-gradient(160deg,var(--navy-ink),var(--navy-deep));box-shadow:var(--shadow-2)}
+.ed-close-cv{position:absolute;inset:0;z-index:-1;width:100%;height:100%;display:block;pointer-events:none}
+.ed-fork{position:relative;height:56px;width:calc((100% + var(--ed-cg)) / 2);margin:0 auto var(--s4)}
+.ed-fork::before{content:"";position:absolute;left:calc(50% - .75px);top:0;width:1.5px;height:22px;background:var(--gold);transform-origin:50% 0;transition:transform .5s var(--ease-out)}
+.ed-fork-l,.ed-fork-r{position:absolute;top:21px;height:35px;width:calc(50% + .75px);border-top:1.5px solid var(--gold);transition:clip-path 1s var(--ease-out) .3s}
+.ed-fork-l{left:0;border-left:1.5px solid var(--gold);border-top-left-radius:18px;clip-path:inset(-4px -4px -8px -8px)}
+.ed-fork-r{right:0;border-right:1.5px solid var(--gold);border-top-right-radius:18px;clip-path:inset(-4px -8px -8px -4px)}
+.ed-fork-l::after,.ed-fork-r::after{content:"";position:absolute;bottom:-4px;width:8px;height:8px;border-radius:50%;background:var(--gold)}
+.ed-fork-l::after{left:-4.75px}
+.ed-fork-r::after{right:-4.75px}
+.ed-close.ed-pre .ed-fork::before{transform:scaleY(0)}
+.ed-close.ed-pre .ed-fork-l{clip-path:inset(-4px -4px -8px 101%)}
+.ed-close.ed-pre .ed-fork-r{clip-path:inset(-4px 101% -8px -4px)}
+.ed-close.ed-pre.is-in .ed-fork::before{transform:none}
+.ed-close.ed-pre.is-in .ed-fork-l{clip-path:inset(-4px -4px -8px -8px)}
+.ed-close.ed-pre.is-in .ed-fork-r{clip-path:inset(-4px -8px -8px -4px)}
+.ed-close-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--ed-cg);text-align:center}
+.ed-close h2{color:#fff;font-size:clamp(1.5rem,2.6vw,2rem);margin:0 0 .5rem}
+.ed-close p{color:var(--on-navy-2);margin:0 auto;max-width:34ch}
+.ed-close .btn-row{justify-content:center;margin-top:var(--s5)}
+
+/* ---------- responsive ---------- */
+@media (max-width:999px){
+  .ed-mod{grid-template-columns:56px minmax(0,1fr)}
+  .ed-mod-media{grid-column:2;grid-row:2;margin-top:var(--s5);max-width:480px}
+}
+@media (max-width:899px){
+  .ed-what-grid,.ed-after,.ed-cert-head,.ed-faq-grid{grid-template-columns:minmax(0,1fr)}
+  .ed-cert-head{align-items:start}
+  .ed-faq-head{position:static}
+  .ed-flow-wrap{margin-top:var(--s5)}
+  .ed-flow{position:absolute;left:0;top:0;width:30px;height:100%}
+  .ed-steps{grid-template-columns:minmax(0,1fr);gap:var(--s5);margin-top:0;padding-left:44px}
+  html:not(.js) .ed-steps{padding-left:0}
+}
+@media (max-width:760px){
+  .ed-close-grid{grid-template-columns:minmax(0,1fr);gap:0}
+  .ed-fork{display:none}
+  .ed-close-path + .ed-close-path{margin-top:var(--s6);padding-top:var(--s6);border-top:1px solid rgba(201,164,92,.3)}
+}
+@media (max-width:640px){
+  .ed-sec .btn{white-space:normal;text-align:center;line-height:1.25}
+  .ed-sec .link-arrow{display:inline-block;line-height:1.5;padding:.6rem 0;min-height:44px}
+  .ed-sec .link-arrow::after{display:inline;padding-left:1.05em;margin-left:.35rem;-webkit-mask-size:1.05em 1.05em;mask-size:1.05em 1.05em}
+  .ed-topics{display:block}
+  .ed-topics li{position:relative;padding:3px 0 3px 18px;border:0;border-radius:0;background:none;font-size:.92rem}
+  .ed-topics li::before{content:"";position:absolute;left:2px;top:calc(3px + .62em);width:8px;height:2px;border-radius:1px;background:var(--gold)}
+  .ed-seven{padding:var(--s5)}
+  .ed-ticks.cols-2{grid-template-columns:minmax(0,1fr);grid-auto-flow:row;grid-template-rows:none}
+  .ed-safe,.ed-who{padding:var(--s5)}
+  .ed-aud-panels{grid-template-columns:minmax(0,1fr)}
+  .ed-aud-tabs{display:grid;grid-template-columns:1fr 1fr;width:100%;border-radius:20px}
+  .ed-aud-ind{border-radius:15px}
+  .ed-aud-tab{border-radius:15px;padding:.6rem .5rem;font-size:.9rem}
+  .ed-mod{grid-template-columns:40px minmax(0,1fr);column-gap:14px}
+  .ed-node{width:40px;height:40px;font-size:1rem}
+  .ed-node-end .ed-ico{width:22px;height:22px}
+  .ed-mod:not(:last-child)::before,.ed-mod:not(:last-child)::after{left:19px;top:46px}
+  .ed-mod-body h3{margin-top:.35rem}
+  .ed-facts{gap:4px 18px}
+  .ed-end{padding:var(--s5)}
+  /* fees: each option becomes a card; the data-label cells name the fee window */
+  .ed-price .table-wrap.ed-tw{border:0;background:none;box-shadow:none}
+  .ed-price table.ed-table,.ed-price table.ed-table tbody,.ed-price table.ed-table tr,.ed-price table.ed-table th,.ed-price table.ed-table td{display:block;width:auto}
+  .ed-price table.ed-table thead{display:none}
+  .ed-price table.ed-table tbody tr{background:var(--paper);border:1px solid var(--line-2);border-radius:var(--radius);margin-bottom:12px;box-shadow:var(--shadow-1);overflow:hidden}
+  .ed-price table.ed-table tbody th{width:auto;padding:14px 16px;background:var(--blue-tint)}
+  .ed-price table.ed-table tbody tr.hl &gt; th{background:var(--gold-soft)}
+  .ed-price table.ed-table tbody tr.hl &gt; td{background:var(--paper)}
+  .ed-price table.ed-table td{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding:12px 16px;font-size:1.02rem}
+  .ed-price table.ed-table tbody tr &gt; :last-child{border-bottom:0}
+  .ed-faq.faq details &gt; p{padding-right:8px}
+  .ed-closes{padding-bottom:var(--s8)}
+}
+@media (prefers-reduced-motion:reduce){
+  .ed-cv,.ed-flow .pg,.ed-flow .dot,.ed-flow .halo,.ed-ticks li,.ed-tick circle,.ed-tick path,.ed-aud-panel,.ed-aud-ind,.ed-node,.ed-fork::before,.ed-fork-l,.ed-fork-r{transition:none!important}
+  .ed-nt:hover{animation:none}
+  .ed-cv.to-lo,.ed-cv.to-hi,.ed-cv.from-lo,.ed-cv.from-hi{transform:none}
+}
+@media (prefers-reduced-motion:reduce){.ed-faq details::details-content{transition:none}}
+@media print{.ed-ticks.ed-pre .ed-tick path{stroke-dashoffset:0}.ed-ticks.ed-pre .ed-tick circle{transform:none;opacity:1}}
+</style>
+
+<section class="page-hero hx" style="--fx:60%;--fy:58%;--fx-m:66%">
+  <div class="hx-media" aria-hidden="true"><picture><source type="image/avif" srcset="assets/img/gallery/hero-education-960.avif 960w, assets/img/gallery/hero-education-1600.avif 1600w" sizes="(max-width: 760px) 50vw, 100vw"><img class="hx-photo" src="assets/img/gallery/hero-education-1600.webp" srcset="assets/img/gallery/hero-education-960.webp 960w, assets/img/gallery/hero-education-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 100vw" width="1600" height="1200" alt="" fetchpriority="high" decoding="async"/></source></picture></div>
+  <div class="hx-wash" aria-hidden="true"/>
+  <canvas class="hx-tremor" aria-hidden="true"/>
+  <div class="container hx-inner">
+      <h1>Learn TRE™ — and learn to teach it</h1>
+      <p>Everything you need to understand Tension &amp; Trauma Releasing Exercises: how the method works, what a session involves, who it is for, and the three-module pathway to becoming a Global TRE™ Certified Provider in Singapore.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="#certification">Certification pathway</a>
+        <a class="btn btn-ghost-light" href="#what-is-tre">Start with the basics</a>
+      </div>
+  </div>
+  <p class="hx-credit">Isabelle &amp; Simba with the Module 2 cohort · September 2026</p>
+</section>
+
+<!-- ===== 1 · WHAT IS TRE ===== -->
+<section class="section ed-sec ed-what" id="what-is-tre">
+  <div class="container ed-what-grid">
+    <div class="ed-what-copy">
+      <h2>What is TRE™?</h2>
+      <p class="ed-lede"><strong>TRE™ (Tension &amp; Trauma Releasing Exercises)</strong> is an innovative series of seven exercises that assist the body in releasing deep muscular patterns of stress, tension and trauma. The exercises safely activate a natural reflex mechanism of shaking or vibrating — the <em class="ed-nt">neurogenic tremor</em> — that releases muscular tension and calms the nervous system.</p>
+      <p>The method was created by Dr. David Berceli, PhD, an international expert in trauma intervention who observed the same instinctive tremoring response in people across cultures and conflict zones. TRE™ is now taught in more than 100 countries through a global network of certified providers and certifying trainers, coordinated by the not-for-profit TRE For All, Inc.</p>
+      <p>When the tremor is activated in a safe, controlled environment, the body is encouraged to return to a state of balance. Many people report better sleep, less anxiety, reduced muscle pain, more energy and a greater sense of calm and resilience.</p>
+    </div>
+    <aside class="ed-seven" aria-labelledby="ed-seven-h">
+      <h3 id="ed-seven-h">The seven exercises at a glance</h3>
+      <ol class="ed-seven-list">
+        <li><strong>Feet &amp; ankles</strong><span class="ed-dash"> — </span><span class="ed-desc">grounding and gentle fatigue of the lower legs</span></li>
+        <li><strong>Calves</strong><span class="ed-dash"> — </span><span class="ed-desc">rising onto the toes to warm the calf muscles</span></li>
+        <li><strong>Adductors &amp; hips</strong><span class="ed-dash"> — </span><span class="ed-desc">opening the inner thighs</span></li>
+        <li><strong>Forward bends</strong><span class="ed-dash"> — </span><span class="ed-desc">lengthening the back line of the body</span></li>
+        <li><strong>Psoas stretch</strong><span class="ed-dash"> — </span><span class="ed-desc">releasing the deep hip flexors</span></li>
+        <li><strong>Wall sit</strong><span class="ed-dash"> — </span><span class="ed-desc">mild fatigue of the thighs to invite the tremor</span></li>
+        <li><strong>Lying down</strong><span class="ed-dash"> — </span><span class="ed-desc">allowing the tremor to move through the body with knees in a butterfly position</span></li>
+      </ol>
+      <p class="ed-seven-note"><svg class="ed-ico" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>A full session takes 45–60 minutes. Once learned with a certified provider, most people practise at home for 15–20 minutes, two to three times a week.</span></p>
+    </aside>
+  </div>
+</section>
+
+<!-- ===== 2 · HOW IT WORKS ===== -->
+<section class="section bg-cream ed-sec ed-how" aria-labelledby="ed-how-h">
+  <div class="container">
+    <div class="ed-head is-center">
+      <h2 id="ed-how-h">Fight, flight — and the reset the body was designed for</h2>
+      <p>Under threat, the body braces. If that charge is never discharged, it stays stored in the muscles and nervous system. TRE™ gives the body a safe way to complete the cycle.</p>
+    </div>
+
+    <div class="ed-stage" data-ed-stage="">
+      <div class="ed-stage-view" aria-hidden="true">
+        <canvas class="ed-cv"/>
+        <canvas class="ed-cv"/>
+        <canvas class="ed-cv"/>
+        <span class="ed-illus">Illustrative</span>
+      </div>
+      <div class="ed-flow-wrap">
+        <svg class="ed-flow" aria-hidden="true" focusable="false"/>
+        <ol class="ed-steps">
+          <li class="ed-step">
+            <h3><span class="ed-step-lbl"><span class="ed-step-n">1.</span> Activation</span></h3>
+            <p>Stress, deadlines or past events activate the sympathetic nervous system. Muscles — especially the deep psoas — contract to protect the core of the body.</p>
+          </li>
+          <li class="ed-step">
+            <h3><span class="ed-step-lbl"><span class="ed-step-n">2.</span> Tremor</span></h3>
+            <p>The seven exercises gently fatigue and stretch these muscles until the body's innate tremor mechanism switches on. The shaking is involuntary but always within your control.</p>
+          </li>
+          <li class="ed-step">
+            <h3><span class="ed-step-lbl"><span class="ed-step-n">3.</span> Regulation</span></h3>
+            <p>As the tremor releases stored tension, the parasympathetic system comes online — heart rate slows, breathing deepens and the body returns to rest and repair.</p>
+          </li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="ed-after">
+      <div class="ed-benefits">
+        <h3>Reported benefits</h3>
+        <ul class="ed-ticks" data-ed-ticks="">
+          <li><svg class="ed-tick" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10.5"/><path d="m7.6 12.4 2.9 2.9 5.9-6.3" pathlength="1"/></svg><span>Less worry and anxiety</span></li>
+          <li><svg class="ed-tick" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10.5"/><path d="m7.6 12.4 2.9 2.9 5.9-6.3" pathlength="1"/></svg><span>Better, deeper sleep</span></li>
+          <li><svg class="ed-tick" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10.5"/><path d="m7.6 12.4 2.9 2.9 5.9-6.3" pathlength="1"/></svg><span>Reduced muscle and back pain</span></li>
+          <li><svg class="ed-tick" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10.5"/><path d="m7.6 12.4 2.9 2.9 5.9-6.3" pathlength="1"/></svg><span>More energy and endurance</span></li>
+          <li><svg class="ed-tick" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10.5"/><path d="m7.6 12.4 2.9 2.9 5.9-6.3" pathlength="1"/></svg><span>Greater emotional resilience</span></li>
+          <li><svg class="ed-tick" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10.5"/><path d="m7.6 12.4 2.9 2.9 5.9-6.3" pathlength="1"/></svg><span>Relief from chronic medical conditions</span></li>
+          <li><svg class="ed-tick" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10.5"/><path d="m7.6 12.4 2.9 2.9 5.9-6.3" pathlength="1"/></svg><span>Improved flexibility and posture</span></li>
+          <li><svg class="ed-tick" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10.5"/><path d="m7.6 12.4 2.9 2.9 5.9-6.3" pathlength="1"/></svg><span>Healing of old injuries held in the body</span></li>
+          <li><svg class="ed-tick" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10.5"/><path d="m7.6 12.4 2.9 2.9 5.9-6.3" pathlength="1"/></svg><span>Increased presence and focus</span></li>
+          <li><svg class="ed-tick" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10.5"/><path d="m7.6 12.4 2.9 2.9 5.9-6.3" pathlength="1"/></svg><span>A calmer response to conflict</span></li>
+        </ul>
+      </div>
+      <div class="ed-safe">
+        <div class="ed-safe-top">
+          <span class="ed-safe-mark" aria-hidden="true"><svg class="ed-ico" viewbox="0 0 24 24" focusable="false"><path d="M12 3 5 6v5.2c0 4.4 3 8.1 7 9.8 4-1.7 7-5.4 7-9.8V6l-7-3z"/><path d="m9.2 12.2 2 2 3.8-4"/></svg></span>
+          <h3>Is TRE™ safe for me?</h3>
+        </div>
+        <p>TRE™ is suitable for most adults and requires no prior experience. Because the tremor can bring up strong physical or emotional sensations, always learn it first with a certified provider, who will show you how to self-regulate and adapt the exercises.</p>
+        <p class="ed-safe-list">Please speak to your doctor and tell your provider before a session if you <span class="ed-cond">are pregnant,</span> <span class="ed-cond">recovering from surgery or injury,</span> <span class="ed-cond">have epilepsy or a seizure disorder,</span> <span class="ed-cond">a heart condition,</span> <span class="ed-cond">or a psychiatric diagnosis such as complex PTSD, bipolar disorder or psychosis.</span> <span class="ed-safe-note">TRE™ does not replace medical or psychological treatment.</span></p>
+        <a class="link-arrow" href="blog/your-first-tre-session">How to prepare for your first session</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 3 · WHO IT IS FOR ===== -->
+<section class="section ed-sec ed-aud" aria-labelledby="ed-aud-h">
+  <div class="container">
+    <div class="ed-head is-center">
+      <h2 id="ed-aud-h">TRE™ in Singapore's everyday life</h2>
+    </div>
+    <div class="ed-aud-box" data-ed-tabs="">
+      <div class="ed-aud-panels">
+        <article class="ed-aud-panel" id="ed-aud-1">
+          <span class="badge badge-gold ed-aud-tag">Professionals</span>
+          <h3>Busy executives</h3>
+          <p>A 15-minute evening practice to switch off after long days, back-to-back calls and travel.</p>
+          <a class="link-arrow" href="facilitators">Find a certified provider</a>
+        </article>
+        <article class="ed-aud-panel" id="ed-aud-2">
+          <span class="badge badge-gold ed-aud-tag">Helpers</span>
+          <h3>Coaches &amp; therapists</h3>
+          <p>Self-care against secondary stress, plus a body-based tool to offer clients (see the certification pathway below).</p>
+          <a class="link-arrow" href="#certification">Certification pathway</a>
+        </article>
+        <article class="ed-aud-panel" id="ed-aud-3">
+          <span class="badge badge-gold ed-aud-tag">Organisations</span>
+          <h3>HR &amp; wellbeing teams</h3>
+          <p>Group sessions and workshops that give employees a skill they keep, not a one-off perk.</p>
+          <a class="link-arrow" href="contact?interest=event">Enquire about a private event</a>
+        </article>
+        <article class="ed-aud-panel" id="ed-aud-4">
+          <span class="badge badge-gold ed-aud-tag">Movement</span>
+          <h3>Yoga, Pilates &amp; sport</h3>
+          <p>A complement to existing practice: deeper release, faster recovery and better body awareness.</p>
+          <a class="link-arrow" href="events">See upcoming events</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 4 · CERTIFICATION ===== -->
+<section class="section bg-cream ed-sec ed-cert" id="certification" aria-labelledby="ed-cert-h">
+  <div class="container">
+    <div class="ed-cert-head">
+      <div>
+        <h2 id="ed-cert-h">Become a Global TRE™ Certified Provider</h2>
+        <p class="ed-cert-lede">The certification comprises three sequential modules. Each includes a 2-day in-person workshop plus 4 online sessions. On completion you receive the <strong>Global TRE™ Certified Provider</strong> certificate, qualifying you to offer individual and group TRE™ sessions anywhere in the world.</p>
+      </div>
+      <aside class="ed-who" aria-labelledby="ed-who-h">
+        <h3 id="ed-who-h">Who certifies?</h3>
+        <p>Coaches, therapists, counsellors, HR and wellbeing professionals, yoga and movement teachers, healthcare workers — and TRE™ enthusiasts who want to share the practice with family, teams or communities.</p>
+        <p>Your trainer is <a href="about#isabelle">Isabelle Claus Teixeira</a>, Global TRE™ Certifying Trainer, trained directly by Dr. David Berceli — joined by TRE™ Trainer Simba Stenqvist for the 2027 cohort.</p>
+        <a class="link-arrow" href="#pricing">See fees and dates</a>
+      </aside>
+    </div>
+
+    <ol class="ed-path" data-ed-path="">
+      <li class="ed-mod has-media">
+        <div class="ed-node" aria-hidden="true">1</div>
+        <div class="ed-mod-body">
+          <h3>Module 1 — Personal TRE™ Practice</h3>
+          <p class="ed-facts"><span class="ed-fact"><svg class="ed-ico" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m12 3 9 5-9 5-9-5 9-5z"/><path d="m3 13 9 5 9-5"/></svg>2-day workshop + 4 online sessions</span><span class="ed-sep"> · </span><span class="ed-fact"><svg class="ed-ico" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="9" r="6"/><path d="M8.5 14 7 22l5-3 5 3-1.5-8"/></svg>21 ICF CCEUs</span><span class="ed-sep"> · </span><span class="ed-fact"><svg class="ed-ico" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="4.5" width="18" height="16.5" rx="2"/><path d="M16 2.5v4M8 2.5v4M3 10h18"/></svg><a href="events/tre-provider-certification-2027-singapore">Singapore: 27–28 Feb 2027</a></span></p>
+          <p class="ed-mod-text">Anatomy of the stress response, the therapeutic tremor response and self-regulation techniques. You leave with a confident personal practice — the foundation for everything that follows. Open to anyone; also available online.</p>
+          <ul class="ed-topics"><li>Neurophysiology of stress and trauma</li><li>Learning and adapting the seven exercises</li><li>Self-regulation, grounding and containment</li></ul>
+        </div>
+        <div class="ed-mod-media" data-gallery="">
+          <figure class="lx-media ed-mod-main" style="--op:50% 84%">
+            <a href="assets/img/gallery/tre-module1-2026-1200.webp" data-caption="TRE™ Module 1 — January 2026"><picture><source type="image/avif" srcset="assets/img/gallery/tre-module1-2026-600.avif 600w, assets/img/gallery/tre-module1-2026-1200.avif 1200w" sizes="(max-width: 999px) 480px, 300px"><img src="assets/img/gallery/tre-module1-2026-600.webp" srcset="assets/img/gallery/tre-module1-2026-600.webp 600w, assets/img/gallery/tre-module1-2026-1200.webp 1200w" sizes="(max-width: 999px) 480px, 300px" width="600" height="1066" alt="TRE™ Module 1 — January 2026" loading="lazy" decoding="async"/></source></picture></a>
+            <figcaption aria-hidden="true">TRE™ Module 1 — January 2026</figcaption>
+          </figure>
+          <div class="ed-thumbs">
+            <a class="ed-thumb" href="assets/img/gallery/isabelle-teaching-tre-1200.webp" data-caption="Teaching TRE™ Module 1" style="--op:50% 70%"><picture><source type="image/avif" srcset="assets/img/gallery/isabelle-teaching-tre-600.avif 600w, assets/img/gallery/isabelle-teaching-tre-1200.avif 1200w" sizes="150px"><img src="assets/img/gallery/isabelle-teaching-tre-600.webp" sizes="150px" srcset="assets/img/gallery/isabelle-teaching-tre-600.webp 600w, assets/img/gallery/isabelle-teaching-tre-1200.webp 1200w" width="600" height="800" alt="Teaching TRE™ Module 1" loading="lazy" decoding="async"/></source></picture></a>
+            <a class="ed-thumb" href="assets/img/gallery/isabelle-students-module1-may2026-1200.webp" data-caption="TRE™ Module 1 — May 2026" style="--op:50% 35%"><picture><source type="image/avif" srcset="assets/img/gallery/isabelle-students-module1-may2026-600.avif 600w, assets/img/gallery/isabelle-students-module1-may2026-1200.avif 1200w" sizes="150px"><img src="assets/img/gallery/isabelle-students-module1-may2026-600.webp" sizes="150px" srcset="assets/img/gallery/isabelle-students-module1-may2026-600.webp 600w, assets/img/gallery/isabelle-students-module1-may2026-1200.webp 1200w" width="600" height="450" alt="TRE™ Module 1 — May 2026" loading="lazy" decoding="async"/></source></picture></a>
+          </div>
+        </div>
+      </li>
+      <li class="ed-mod has-media">
+        <div class="ed-node" aria-hidden="true">2</div>
+        <div class="ed-mod-body">
+          <h3>Module 2 — Teaching TRE™ One-to-One</h3>
+          <p class="ed-facts"><span class="ed-fact"><svg class="ed-ico" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m12 3 9 5-9 5-9-5 9-5z"/><path d="m3 13 9 5 9-5"/></svg>2-day workshop + 4 online supervision sessions</span><span class="ed-sep"> · </span><span class="ed-fact"><svg class="ed-ico" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="4.5" width="18" height="16.5" rx="2"/><path d="M16 2.5v4M8 2.5v4M3 10h18"/></svg><a href="events/tre-provider-certification-2027-singapore">Singapore: 3–4 Jul 2027</a></span><span class="ed-sep"> · </span><span class="ed-fact"><svg class="ed-ico" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="6" cy="6" r="2.5"/><circle cx="18" cy="18" r="2.5"/><path d="M6 8.5V12a4 4 0 0 0 4 4h5.5"/></svg>Prerequisite: Module 1</span></p>
+          <p class="ed-mod-text">Polyvagal theory and basic interventions, with hands-on practice guiding an individual client through the process safely.</p>
+          <ul class="ed-topics"><li>Polyvagal theory in practice</li><li>Reading the client's nervous system</li><li>Basic interventions and session structure</li></ul>
+        </div>
+        <div class="ed-mod-media" data-gallery="">
+          <figure class="lx-media ed-mod-main" style="--op:50% 62%">
+            <a href="assets/img/gallery/module2-sep2026-3-1200.webp" data-caption="Sharing circle — TRE™ Module 2, September 2026"><picture><source type="image/avif" srcset="assets/img/gallery/module2-sep2026-3-600.avif 600w, assets/img/gallery/module2-sep2026-3-1200.avif 1200w" sizes="(max-width: 999px) 480px, 300px"><img src="assets/img/gallery/module2-sep2026-3-600.webp" srcset="assets/img/gallery/module2-sep2026-3-600.webp 600w, assets/img/gallery/module2-sep2026-3-1200.webp 1200w" sizes="(max-width: 999px) 480px, 300px" width="600" height="800" alt="Sharing circle — TRE™ Module 2, September 2026" loading="lazy" decoding="async"/></source></picture></a>
+            <figcaption aria-hidden="true">Sharing circle — TRE™ Module 2, September 2026</figcaption>
+          </figure>
+          <div class="ed-thumbs">
+            <a class="ed-thumb" href="assets/img/gallery/module2-sep2026-1-1200.webp" data-caption="Isabelle teaching — TRE™ Module 2, September 2026" style="--op:50% 45%"><picture><source type="image/avif" srcset="assets/img/gallery/module2-sep2026-1-600.avif 600w, assets/img/gallery/module2-sep2026-1-1200.avif 1200w" sizes="150px"><img src="assets/img/gallery/module2-sep2026-1-600.webp" sizes="150px" srcset="assets/img/gallery/module2-sep2026-1-600.webp 600w, assets/img/gallery/module2-sep2026-1-1200.webp 1200w" width="600" height="800" alt="Isabelle teaching — TRE™ Module 2, September 2026" loading="lazy" decoding="async"/></source></picture></a>
+            <a class="ed-thumb" href="assets/img/gallery/module2-sep2026-6-1200.webp" data-caption="TRE™ Module 2 cohort — 26–27 September 2026, Singapore" style="--op:50% 40%"><picture><source type="image/avif" srcset="assets/img/gallery/module2-sep2026-6-600.avif 600w, assets/img/gallery/module2-sep2026-6-1200.avif 1200w" sizes="150px"><img src="assets/img/gallery/module2-sep2026-6-600.webp" sizes="150px" srcset="assets/img/gallery/module2-sep2026-6-600.webp 600w, assets/img/gallery/module2-sep2026-6-1200.webp 1200w" width="600" height="450" alt="TRE™ Module 2 cohort — 26–27 September 2026, Singapore" loading="lazy" decoding="async"/></source></picture></a>
+          </div>
+        </div>
+      </li>
+      <li class="ed-mod">
+        <div class="ed-node" aria-hidden="true">3</div>
+        <div class="ed-mod-body">
+          <h3>Module 3 — Teaching TRE™ to Groups</h3>
+          <p class="ed-facts"><span class="ed-fact"><svg class="ed-ico" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m12 3 9 5-9 5-9-5 9-5z"/><path d="m3 13 9 5 9-5"/></svg>2-day workshop + 4 online supervision sessions</span><span class="ed-sep"> · </span><span class="ed-fact"><svg class="ed-ico" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="4.5" width="18" height="16.5" rx="2"/><path d="M16 2.5v4M8 2.5v4M3 10h18"/></svg><a href="events/tre-provider-certification-2027-singapore">Singapore: 30–31 Oct 2027</a></span><span class="ed-sep"> · </span><span class="ed-fact"><svg class="ed-ico" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="6" cy="6" r="2.5"/><circle cx="18" cy="18" r="2.5"/><path d="M6 8.5V12a4 4 0 0 0 4 4h5.5"/></svg>Prerequisite: Module 2 requirements</span></p>
+          <p class="ed-mod-text">Fascia, advanced interventions and group facilitation for three or more participants. Completes the certification.</p>
+          <ul class="ed-topics"><li>Fascia and the whole-body tremor</li><li>Advanced interventions</li><li>Facilitating groups, workplaces and workshops</li></ul>
+        </div>
+      </li>
+      <li class="ed-mod ed-mod-end">
+        <div class="ed-node ed-node-end" aria-hidden="true"><svg class="ed-ico" viewbox="0 0 24 24" focusable="false"><circle cx="12" cy="9.5" r="6.5"/><path d="m9.3 9.7 1.9 1.9 3.6-3.8"/><path d="M8.4 15 7 22l5-2.8 5 2.8-1.4-7"/></svg></div>
+        <div class="ed-mod-body ed-end">
+          <h3>Global TRE™ Certified Provider</h3>
+          <h4>What is included</h4>
+          <ul class="ed-ticks cols-2" style="--rows:3" data-ed-ticks="">
+            <li><svg class="ed-tick" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10.5"/><path d="m7.6 12.4 2.9 2.9 5.9-6.3" pathlength="1"/></svg><span>Three 2-day in-person workshops</span></li>
+            <li><svg class="ed-tick" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10.5"/><path d="m7.6 12.4 2.9 2.9 5.9-6.3" pathlength="1"/></svg><span>12 online sessions (4 personal TRE™ + 8 supervision)</span></li>
+            <li><svg class="ed-tick" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10.5"/><path d="m7.6 12.4 2.9 2.9 5.9-6.3" pathlength="1"/></svg><span>21 ICF CCEUs on Module 1</span></li>
+            <li><svg class="ed-tick" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10.5"/><path d="m7.6 12.4 2.9 2.9 5.9-6.3" pathlength="1"/></svg><span>Training materials and manual</span></li>
+            <li><svg class="ed-tick" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10.5"/><path d="m7.6 12.4 2.9 2.9 5.9-6.3" pathlength="1"/></svg><span>Global TRE™ Provider certificate on completion</span></li>
+            <li><svg class="ed-tick" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10.5"/><path d="m7.6 12.4 2.9 2.9 5.9-6.3" pathlength="1"/></svg><span>Access to the worldwide TRE™ practitioner network and this Singapore directory</span></li>
+          </ul>
+          <div class="btn-row">
+            <a class="btn btn-navy" href="https://calendly.com/bhdasia/tre-certification-intake-call" target="_blank" rel="noopener">Book a certification intake call</a>
+          </div>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ===== 5 · PRICING ===== -->
+<section class="section ed-sec ed-price" id="pricing" aria-labelledby="ed-price-h">
+  <div class="container">
+    <div class="ed-head">
+      <h2 id="ed-price-h">Investment (Singapore, 2027 cohort)</h2>
+      <p>Early-bird fees apply until 31 December 2026. All fees in Singapore dollars. <a href="events/tre-provider-certification-2027-singapore">See the 2027 cohort's dates and programme</a>.</p>
+    </div>
+    <div class="table-wrap ed-tw">
+      <table class="price ed-table">
+        <thead><tr><th scope="col">Option</th><th scope="col">Early bird (to 31 Dec 2026)</th><th scope="col">Regular</th></tr></thead>
+        <tbody>
+          <tr class="hl"><th scope="row"><b>Full certification + bonus programs</b><br/><span class="note">Modules 1–3, all online sessions and supervisions, three self-paced bonus programs, certificate</span></th><td data-label="Early bird (to 31 Dec 2026)"><b>S$5,888</b></td><td data-label="Regular">S$6,688</td></tr>
+          <tr><th scope="row"><b>Module 1 only — personal practice</b><br/><span class="note">2 days in person + 4 online sessions, ICF CCE for coaches; can be taken alone</span></th><td data-label="Early bird (to 31 Dec 2026)">S$1,888</td><td data-label="Regular">S$1,988</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note ed-price-note">Tickets are non-refundable and non-cancellable. Payment plans can be discussed on the intake call. Module 1 online, and Module 2 and Module 3 fees for participants who completed Module 1 elsewhere, are quoted on request.</p>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="https://calendly.com/bhdasia/tre-certification-intake-call" target="_blank" rel="noopener">Book a certification intake call</a>
+      <a class="btn btn-outline" href="mailto:bonjour@bhdasia.com?subject=TRE%20Certification%20in%20Singapore">Email bonjour@bhdasia.com</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 6 · FAQ ===== -->
+<section class="section bg-cream ed-sec ed-faqs" aria-labelledby="ed-faq-h">
+  <div class="container ed-faq-grid">
+    <div class="ed-faq-head">
+      <h2 id="ed-faq-h">Common questions</h2>
+    </div>
+    <div class="faq ed-faq">
+      <details open=""><summary>Do I need any experience to try TRE™?</summary><p>No. TRE™ is designed for anyone. Your provider adapts the exercises to your body and shows you how to control the intensity from the very first session.</p></details>
+      <details><summary>Do I have to talk about my trauma?</summary><p>No. TRE™ works through the body. You never need to describe what happened, and many people prefer it for exactly that reason.</p></details>
+      <details><summary>How many sessions do I need?</summary><p>Most people learn a safe self-practice in three to four sessions with a certified provider, then continue at home. Group sessions and practice circles are a good way to keep going.</p></details>
+      <details><summary>Can I do Module 1 online and continue in Singapore?</summary><p>Yes. Module 1 is offered online as well as in person. Modules 2 and 3 are in person in Singapore, each followed by online supervision.</p></details>
+      <details><summary>Are the ICF CCEUs recognised?</summary><p>Module 1 carries 21 ICF Continuing Coach Education Units, recognised by the International Coaching Federation for credential renewal.</p></details>
+      <details><summary>How long does certification take?</summary><p>The 2027 Singapore cohort runs from February to October 2027: Module 1 on 27–28 February, Module 2 on 3–4 July and Module 3 on 30–31 October. Supervision requirements between modules mean most participants complete within 6–9 months.</p></details>
+      <details><summary>What happens after I certify?</summary><p>You join the worldwide TRE™ provider network, can be listed in the Singapore directory on this site, and are welcome at our monthly practice circle and continuing-education workshops.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 7 · CLOSE: both paths ===== -->
+<section class="bg-cream ed-sec ed-closes">
+  <div class="container">
+    <div class="ed-close" data-ed-close="">
+      <canvas class="ed-close-cv" aria-hidden="true"/>
+      <div class="ed-fork" aria-hidden="true"><i class="ed-fork-l"/><i class="ed-fork-r"/></div>
+      <div class="ed-close-grid">
+        <div class="ed-close-path">
+          <h2>Learn TRE™</h2>
+          <p>TRE™ is suitable for most adults and requires no prior experience.</p>
+          <div class="btn-row">
+            <a class="btn btn-light" href="facilitators">Find a certified provider</a>
+            <a class="btn btn-ghost-light" href="events">See upcoming events</a>
+          </div>
+        </div>
+        <div class="ed-close-path">
+          <h2>Learn to teach it</h2>
+          <p>Payment plans can be discussed on the intake call.</p>
+          <div class="btn-row">
+            <a class="btn btn-primary" href="https://calendly.com/bhdasia/tre-certification-intake-call" target="_blank" rel="noopener">Book a certification intake call</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+(function () {
+  'use strict';
+  function $(s, c) { return (c || document).querySelector(s); }
+  function $all(s, c) { return Array.prototype.slice.call((c || document).querySelectorAll(s)); }
+  function clamp(v, a, b) { return v &lt; a ? a : v &gt; b ? b : v; }
+  var HEAD = 70, NS = 'http://www.w3.org/2000/svg';
+  function svgEl(tag, attrs) { var e = document.createElementNS(NS, tag); for (var k in attrs) e.setAttribute(k, attrs[k]); return e; }
+  /* one rAF-throttled handler for scroll + resize */
+  function onScroll(fn) {
+    var t = false; function run() { t = false; fn(); }
+    function q() { if (!t) { t = true; requestAnimationFrame(run); } }
+    window.addEventListener('scroll', q, { passive: true }); window.addEventListener('resize', q, { passive: true });
+  }
+
+  /* =========================================================
+     1 · HOW IT WORKS — three stages on one drawn line. The live field
+     (TRELayer.tremor, one canvas per stage, cross-faded) goes from a tight,
+     charged bundle (activation) to shivering (tremor) to slow open waves
+     (regulation). Scrolling steps through it; the step buttons, the nodes
+     and the arrow keys choose a stage directly. Illustrative, no data.
+     ========================================================= */
+  var FIELD = [
+    { lines: 9, top: .41, bottom: .59, amp: 4, wave: [110, 190], breath: 2.6, shiver: 2.4, reach: 520, settle: 2.3, alpha: [.34, .88], width: 1.25, fade: .1, idlePulse: 0, colors: ['224,180,100', '243,232,210', '201,164,92'] },
+    { lines: 9, top: .26, bottom: .74, amp: 9, wave: [200, 360], breath: 4.6, shiver: 8.5, reach: 240, settle: 1.5, alpha: [.28, .84], width: 1.25, fade: .1, idlePulse: 0, colors: ['201,164,92', '243,232,210', '205,216,234'] },
+    { lines: 9, top: .15, bottom: .85, amp: 15, wave: [480, 860], breath: 8, shiver: 6, reach: 150, settle: 2.3, alpha: [.2, .66], width: 1.2, fade: .1, idlePulse: 0, colors: ['205,216,234', '243,232,210', '201,164,92'] }
+  ];
+  /* the drawn line: taut and humming (activation), shaking (tremor), long settling waves (regulation) */
+  function offset(kind, s, len) {
+    var u = len ? s / len : 0, tap = Math.max(0, Math.min(1, s / 12, (len - s) / 12)), T = Math.PI * 2;
+    if (kind === 'charge') return tap * (.45 + 2.6 * u * u) * Math.sin(T * s / 6.5);
+    if (kind === 'tremor') return tap * (1.4 + 6.2 * Math.sin(Math.PI * u)) * (.62 * Math.sin(T * s / 10.5) + .38 * Math.sin(T * s / 6.2 + 1.3));
+    if (kind === 'calm') return tap * 5.5 * Math.pow(1 - u, 1.5) * Math.sin(T * s / 150);
+    return 0;
+  }
+  function trace(a, b, base, kind, vertical) {
+    var len = Math.max(0, b - a), st = (kind === 'charge' || kind === 'tremor') ? 1.2 : 3, n = Math.max(1, Math.ceil(len / st)), d = '';
+    for (var i = 0; i &lt;= n; i++) {
+      var s = len * i / n, q = base + offset(kind, s, len), p = a + s;
+      d += (i ? 'L' : 'M') + (vertical ? q.toFixed(1) + ' ' + p.toFixed(1) : p.toFixed(1) + ' ' + q.toFixed(1));
+    }
+    return d;
+  }
+  function initStage(L, R) {
+    var stage = $('[data-ed-stage]'); if (!stage) return;
+    var view = $('.ed-stage-view', stage), wrap = $('.ed-flow-wrap', stage), svg = $('.ed-flow', stage);
+    var steps = $all('.ed-step', stage), cvs = $all('.ed-cv', stage);
+    if (!wrap || !svg || steps.length !== 3) return;
+    stage.classList.add('is-live');
+
+    /* the step headings become buttons (Tab, Enter/Space, arrow keys, Home/End) */
+    var btns = steps.map(function (s) {
+      var lbl = $('.ed-step-lbl', s), b = document.createElement('button');
+      b.type = 'button'; b.className = 'ed-step-btn';
+      if (lbl) { while (lbl.firstChild) b.appendChild(lbl.firstChild); lbl.parentNode.replaceChild(b, lbl); }
+      return b;
+    });
+
+    var inst = [], dummy = document.createElement('div');   /* pointer input is forwarded by this script */
+    if (L &amp;&amp; L.tremor &amp;&amp; view &amp;&amp; cvs.length === 3) {
+      cvs.forEach(function (c, i) { var o = { source: dummy }; for (var k in FIELD[i]) o[k] = FIELD[i][k]; inst[i] = L.tremor(c, o); });
+      cvs[0].classList.add('is-on');
+    } else if (view) view.classList.add('is-off');
+
+    var cur = 0, visible = false, raf = 0, ptr = null, lastPulse = 0, stopT = 0, manual = false, manualY = 0, segs = [], nodes = [];
+
+    function sleepOthers() { inst.forEach(function (I, i) { if (I &amp;&amp; i !== cur) I.stop(); }); }
+    function kick() { if (!raf &amp;&amp; visible &amp;&amp; !R &amp;&amp; inst.length) raf = requestAnimationFrame(drive); }
+    /* a slow virtual hand keeps the activation bundle humming and sends waves of tremor through stage 2 */
+    function drive(now) {
+      raf = 0; if (!visible || document.hidden) return;
+      var I = inst[cur]; if (!I) return;
+      var w = view.clientWidth, h = view.clientHeight, t = now / 1000;
+      var held = !!(L.motion &amp;&amp; L.motion.paused);   /* the site's pause switch stops the virtual hand; the visitor's own pointer still plays */
+      if (ptr) I.poke(ptr.x, ptr.y);
+      else if (held) { /* still */ }
+      else if (cur === 0) I.poke(w * (.5 + .24 * Math.sin(t * .31)), h * .5);
+      else if (cur === 1) {
+        I.poke(w * (.5 + .42 * Math.sin(t * .47)), h * (.5 + .14 * Math.sin(t * .83)));
+        if (now - lastPulse &gt; 1900) { lastPulse = now; I.pulse(-60, Math.floor(Math.random() * 9)); }
+      }
+      if (ptr || (cur !== 2 &amp;&amp; !held)) raf = requestAnimationFrame(drive);
+    }
+    if (L &amp;&amp; L.motion) L.motion.on(function (p) { if (!p) kick(); });
+    function paint(prev) {
+      var n = cur, first = prev == null;
+      segs.forEach(function (p, i) {
+        var on = i &lt;= n + 1, delay = 0;
+        if (!first &amp;&amp; !R) {
+          if (n &gt; prev &amp;&amp; on &amp;&amp; i &gt; prev + 1) delay = (i - prev - 2) * .5;
+          else if (n &lt; prev &amp;&amp; !on &amp;&amp; i &lt;= prev + 1) delay = (prev + 1 - i) * .3;
+        }
+        p.style.transition = first ? 'none' : '';
+        p.style.transitionDelay = delay ? delay + 's' : '';
+        p.classList.toggle('on', on);
+      });
+      if (first &amp;&amp; segs.length) { void svg.getBoundingClientRect(); segs.forEach(function (p) { p.style.transition = ''; }); }
+      nodes.forEach(function (g, i) { g.classList.toggle('on', i === n); g.classList.toggle('past', i &lt; n); });
+      steps.forEach(function (s, i) { s.classList.toggle('is-on', i === n); s.classList.toggle('is-past', i &lt; n); });
+      btns.forEach(function (b, i) { if (i === n) b.setAttribute('aria-current', 'step'); else b.removeAttribute('aria-current'); });
+    }
+    function setState(n) {
+      if (n === cur) return;
+      var prev = cur; cur = n;
+      if (inst.length) cvs.forEach(function (c, i) {
+        c.classList.remove('from-lo', 'from-hi', 'to-lo', 'to-hi');
+        if (i === n) {
+          if (!R) { c.classList.add(n &gt; prev ? 'from-lo' : 'from-hi'); void c.offsetWidth; c.classList.remove('from-lo', 'from-hi'); }
+          c.classList.add('is-on');
+        } else {
+          if (i === prev &amp;&amp; !R) c.classList.add(n &gt; prev ? 'to-hi' : 'to-lo');
+          c.classList.remove('is-on');
+        }
+      });
+      if (inst[n]) { inst[n].start(); if (inst[prev]) inst[prev].poke(-1e4, -1e4); }
+      clearTimeout(stopT); stopT = setTimeout(sleepOthers, 1600);
+      paint(prev); kick();
+    }
+    function choose(i) { manual = true; manualY = window.pageYOffset; setState(i); }
+    function build() {
+      var vertical = window.matchMedia('(max-width: 899px)').matches;
+      var box = svg.getBoundingClientRect(), W = box.width, H = box.height;
+      if (W &lt; 2 || H &lt; 2) return;
+      svg.setAttribute('viewBox', '0 0 ' + W.toFixed(1) + ' ' + H.toFixed(1));
+      var pos = steps.map(function (s, i) {
+        if (vertical) { var r = btns[i].getBoundingClientRect(); return r.top + r.height / 2 - box.top; }
+        return s.getBoundingClientRect().left - box.left + 10;
+      });
+      var base = vertical ? 15 : H / 2, marks = [0, pos[0], pos[1], pos[2], vertical ? H : W], kinds = ['lead', 'charge', 'tremor', 'calm'];
+      while (svg.firstChild) svg.removeChild(svg.firstChild);
+      var gT = svgEl('g', {}), gP = svgEl('g', {}), gN = svgEl('g', {});
+      segs = kinds.map(function (k, i) {
+        var d = trace(marks[i], marks[i + 1], base, k, vertical);
+        gT.appendChild(svgEl('path', { 'class': 'tk', d: d }));
+        var p = svgEl('path', { 'class': 'pg', d: d, pathLength: '1' }); gP.appendChild(p); return p;
+      });
+      nodes = pos.map(function (v, i) {
+        var g = svgEl('g', { 'class': 'nd', transform: 'translate(' + (vertical ? base : v).toFixed(1) + ' ' + (vertical ? v : base).toFixed(1) + ')' });
+        g.appendChild(svgEl('circle', { 'class': 'halo', r: '15' }));
+        g.appendChild(svgEl('circle', { 'class': 'dot', r: '7.5' }));
+        g.addEventListener('click', function () { choose(i); });
+        gN.appendChild(g); return g;
+      });
+      svg.appendChild(gT); svg.appendChild(gP); svg.appendChild(gN);
+      paint(null);
+    }
+    /* scroll position -&gt; stage: centred stages step through as they rise; tall (phone) stages follow the reading line */
+    function map() {
+      var vh = window.innerHeight, y = window.pageYOffset;
+      if (manual) { if (Math.abs(y - manualY) &lt; vh * .6) return; manual = false; }
+      var r = stage.getBoundingClientRect(); if (r.bottom &lt; 0 || r.top &gt; vh) return;
+      var n = 0;
+      if (r.height &lt;= vh - HEAD - 24) {
+        var p = (vh * .75 - (r.top + r.bottom) / 2) / (vh * .45);
+        n = p &lt; .34 ? 0 : p &lt; .67 ? 1 : 2;
+      } else {
+        var line = vh * .7;
+        steps.forEach(function (s, i) { if (s.getBoundingClientRect().top &lt; line) n = i; });
+      }
+      setState(n);
+    }
+
+    btns.forEach(function (b, i) {
+      b.addEventListener('click', function () { choose(i); });
+      b.addEventListener('keydown', function (e) {
+        var j = null;
+        if (e.key === 'ArrowRight' || e.key === 'ArrowDown') j = Math.min(2, i + 1);
+        else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') j = Math.max(0, i - 1);
+        else if (e.key === 'Home') j = 0; else if (e.key === 'End') j = 2;
+        if (j === null) return;
+        e.preventDefault(); btns[j].focus(); choose(j);
+      });
+    });
+    steps.forEach(function (s, i) { s.addEventListener('click', function (e) { if (!e.target.closest('button, a')) choose(i); }); });
+    if (view &amp;&amp; inst.length) {
+      view.addEventListener('pointermove', function (e) { var r = view.getBoundingClientRect(); ptr = { x: e.clientX - r.left, y: e.clientY - r.top }; kick(); }, { passive: true });
+      view.addEventListener('pointerleave', function () { ptr = null; if (inst[cur]) inst[cur].poke(-1e4, -1e4); kick(); });
+    }
+    if (L &amp;&amp; L.onVisible) L.onVisible(stage, function (en, isIn) { visible = isIn; if (isIn) { kick(); setTimeout(sleepOthers, 300); } });
+    else visible = true;
+
+    build();
+    if ('ResizeObserver' in window) { var rq = 0; new ResizeObserver(function () { cancelAnimationFrame(rq); rq = requestAnimationFrame(build); }).observe(wrap); }
+    else window.addEventListener('resize', build);
+    onScroll(map); map();
+  }
+
+  /* =========================================================
+     2 · CHECKLISTS — each tick draws in as the list comes into view
+     ========================================================= */
+  function initTicks(L, R) {
+    $all('[data-ed-ticks]').forEach(function (ul) {
+      $all('li', ul).forEach(function (li, i) { li.style.setProperty('--i', i); });
+      if (R || !L || !L.onVisible) return;
+      ul.classList.add('ed-notr', 'ed-pre'); void ul.offsetWidth; ul.classList.remove('ed-notr');
+      L.onVisible(ul, function (en, isIn) { if (isIn) ul.classList.add('is-in'); }, { once: true, threshold: .3 });
+    });
+  }
+
+  /* =========================================================
+     3 · AUDIENCES — four blocks become a segmented selector (ARIA tabs)
+     ========================================================= */
+  function initTabs() {
+    var box = $('[data-ed-tabs]'); if (!box) return;
+    var panels = $all('.ed-aud-panel', box); if (panels.length &lt; 2) return;
+    var list = document.createElement('div'), ind = document.createElement('span');
+    list.className = 'ed-aud-tabs no-tr'; list.setAttribute('role', 'tablist'); list.setAttribute('aria-labelledby', 'ed-aud-h');
+    ind.className = 'ed-aud-ind'; ind.setAttribute('aria-hidden', 'true'); list.appendChild(ind);
+    var tabs = panels.map(function (p, i) {
+      var tag = $('.ed-aud-tag', p), b = document.createElement('button');
+      b.type = 'button'; b.className = 'ed-aud-tab'; b.id = 'ed-aud-t' + (i + 1);
+      b.setAttribute('role', 'tab'); b.setAttribute('aria-controls', p.id);
+      b.textContent = (tag || $('h3', p)).textContent;
+      p.setAttribute('role', 'tabpanel'); p.setAttribute('aria-labelledby', b.id); p.setAttribute('tabindex', '0');
+      list.appendChild(b); return b;
+    });
+    box.insertBefore(list, box.firstChild); box.classList.add('is-tabs');
+    var cur = -1;
+    function place() { var b = tabs[cur]; if (!b) return; ind.style.width = b.offsetWidth + 'px'; ind.style.height = b.offsetHeight + 'px'; ind.style.transform = 'translate(' + b.offsetLeft + 'px,' + b.offsetTop + 'px)'; }
+    function select(i, focus) {
+      if (i === cur) return; cur = i;
+      tabs.forEach(function (b, j) { var on = j === i; b.setAttribute('aria-selected', on ? 'true' : 'false'); b.tabIndex = on ? 0 : -1; panels[j].classList.toggle('is-on', on); });
+      if (focus) tabs[i].focus();
+      place();
+    }
+    tabs.forEach(function (b, i) { b.addEventListener('click', function () { select(i); }); });
+    list.addEventListener('keydown', function (e) {
+      var n = tabs.length, j = null;
+      if (e.key === 'ArrowRight' || e.key === 'ArrowDown') j = (cur + 1) % n;
+      else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') j = (cur - 1 + n) % n;
+      else if (e.key === 'Home') j = 0; else if (e.key === 'End') j = n - 1;
+      if (j === null) return;
+      e.preventDefault(); select(j, true);
+    });
+    select(0);
+    requestAnimationFrame(function () { place(); requestAnimationFrame(function () { list.classList.remove('no-tr'); }); });
+    if ('ResizeObserver' in window) new ResizeObserver(place).observe(list); else window.addEventListener('resize', place);
+    if (document.fonts &amp;&amp; document.fonts.ready) document.fonts.ready.then(place);
+  }
+
+  /* =========================================================
+     4 · CERTIFICATION — the path lights up to each module as you read down
+     (and stays lit); nodes fill when the reading line reaches them
+     ========================================================= */
+  function initPath(R) {
+    var path = $('[data-ed-path]'); if (!path || R) return;
+    var mods = $all('.ed-mod', path), nodes = mods.map(function (m) { return $('.ed-node', m); });
+    if (!mods.length || nodes.some(function (n) { return !n; })) return;
+    var fill = mods.map(function () { return 0; });
+    path.classList.add('is-live');
+    function update() {
+      var line = window.innerHeight * .62, c = nodes.map(function (n) { var r = n.getBoundingClientRect(); return r.top + r.height / 2; });
+      mods.forEach(function (m, i) {
+        if (c[i] &lt; line) m.classList.add('is-on');
+        if (i &lt; mods.length - 1) {
+          var f = Math.max(fill[i], clamp((line - c[i]) / Math.max(1, c[i + 1] - c[i]), 0, 1));
+          if (f !== fill[i]) { fill[i] = f; m.style.setProperty('--fill', f.toFixed(3)); }
+        }
+      });
+    }
+    mods.forEach(function (m, i) { if (i &lt; mods.length - 1) m.style.setProperty('--fill', '0'); });
+    onScroll(update); update();
+  }
+
+  /* =========================================================
+     5 · FEES — row + column highlight on hover and keyboard focus
+     (one tab stop; the arrow keys move between the fee cells)
+     ========================================================= */
+  function initTable() {
+    var t = $('.ed-table'); if (!t) return;
+    var rows = $all('tbody tr', t), grid = rows.map(function (tr) { return $all('td', tr); });
+    function mark(r, c) {
+      if (c &gt; 0) t.setAttribute('data-hc', String(c)); else t.removeAttribute('data-hc');
+      rows.forEach(function (tr, i) { tr.classList.toggle('is-hr', i === r); });
+      grid.forEach(function (cells, i) { cells.forEach(function (td) { td.classList.toggle('is-hc', i === r &amp;&amp; td.cellIndex === c); }); });
+    }
+    t.addEventListener('pointerover', function (e) {
+      var cell = e.target.closest('td, th'); if (!cell || !t.contains(cell)) return;
+      mark(rows.indexOf(cell.parentElement), cell.cellIndex);
+    });
+    t.addEventListener('pointerleave', function () { if (!t.contains(document.activeElement)) mark(-1, 0); });
+    grid.forEach(function (cells, r) {
+      cells.forEach(function (td, c) {
+        td.tabIndex = r === 0 &amp;&amp; c === 0 ? 0 : -1;
+        td.addEventListener('focus', function () { grid.forEach(function (cs) { cs.forEach(function (x) { x.tabIndex = -1; }); }); td.tabIndex = 0; mark(r, td.cellIndex); });
+        td.addEventListener('keydown', function (e) {
+          var r2 = r, c2 = c;
+          if (e.key === 'ArrowRight') c2++; else if (e.key === 'ArrowLeft') c2--;
+          else if (e.key === 'ArrowDown') r2++; else if (e.key === 'ArrowUp') r2--;
+          else if (e.key === 'Home') c2 = 0; else if (e.key === 'End') c2 = cells.length - 1;
+          else return;
+          r2 = clamp(r2, 0, grid.length - 1); c2 = clamp(c2, 0, grid[r2].length - 1);
+          e.preventDefault(); grid[r2][c2].focus();
+        });
+      });
+    });
+    t.addEventListener('focusout', function (e) { if (!e.relatedTarget || !t.contains(e.relatedTarget)) mark(-1, 0); });
+  }
+
+  /* =========================================================
+     6 · CLOSE — the tremor field again, and one line forking into the two paths
+     ========================================================= */
+  function initClose(L, R) {
+    var box = $('[data-ed-close]'); if (!box) return;
+    var cv = $('.ed-close-cv', box);
+    if (L &amp;&amp; L.tremor &amp;&amp; cv) L.tremor(cv, { source: box, lines: 6, top: .62, bottom: .97, alpha: [.07, .26], fade: .2 });
+    if (R || !L || !L.onVisible) return;
+    box.classList.add('ed-pre');
+    L.onVisible(box, function (en, isIn) { if (isIn) box.classList.add('is-in'); }, { once: true, threshold: .35 });
+  }
+
+  function init() {
+    var L = window.TRELayer || null;
+    var R = L ? !!L.reduced : !!(window.matchMedia &amp;&amp; window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+    [function () { initStage(L, R); }, function () { initTicks(L, R); }, initTabs, function () { initPath(R); }, initTable, function () { initClose(L, R); }]
+      .forEach(function (f) { try { f(); } catch (err) { setTimeout(function () { throw err; }); } });
+  }
+  document.addEventListener('DOMContentLoaded', function () { setTimeout(init, 0); });
+})();
+</script>
+</main><footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="footer-wordmark">TRE™ in Singapore</span>
+        <p>Release stress, strengthen resilience, improve wellbeing. The home of TRE™ practitioners, trainees and first-timers in Singapore.</p>
+              <div class="socials" aria-label="Social media">
+        <a href="https://www.instagram.com/isabelleclausteixeira_bhd/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+        <a href="https://www.linkedin.com/in/isabelleclausteixeira/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewbox="0 0 24 24" fill="currentColor"><path d="M6.5 8.5H3.5V21h3V8.5zM5 3.5a1.75 1.75 0 1 0 0 3.5 1.75 1.75 0 0 0 0-3.5zM21 13.6c0-3.4-1.8-5.3-4.5-5.3-2 0-3 1.1-3.5 1.9V8.5h-3V21h3v-6.6c0-1.7.6-2.9 2.2-2.9 1.5 0 1.9 1.2 1.9 2.9V21H21v-7.4z"/></svg></a>
+        <a href="https://www.youtube.com/@IsabelleClausTeixeira" target="_blank" rel="noopener" aria-label="YouTube"><svg viewbox="0 0 24 24" fill="currentColor"><path d="M23 7.2c-.3-1.2-1.1-2-2.3-2.3C18.9 4.5 12 4.5 12 4.5s-6.9 0-8.7.4C2.1 5.2 1.3 6 1 7.2.6 9 .6 12 .6 12s0 3 .4 4.8c.3 1.2 1.1 2 2.3 2.3 1.8.4 8.7.4 8.7.4s6.9 0 8.7-.4c1.2-.3 2-1.1 2.3-2.3.4-1.8.4-4.8.4-4.8s0-3-.4-4.8zM9.8 15.5v-7l6 3.5-6 3.5z"/></svg></a>
+        <a href="https://www.facebook.com/bhdasia/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewbox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7.5h2.6l.4-3h-3V8.6c0-.9.3-1.5 1.5-1.5h1.6V4.4c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4v2.2H7.8v3h2.6V21h3.1z"/></svg></a>
+      </div>
+      </div>
+      <div>
+        <h2>Explore</h2>
+        <ul class="footer-links">
+          <li><a href="./">Home</a></li>
+          <li><a href="events">Events</a></li>
+          <li><a href="about">About</a></li>
+          <li><a href="blog">Blog</a></li>
+          <li><a href="education">Education</a></li>
+          <li><a href="contact">Contact</a></li>
+          <li><a href="online-session-guide">Online session guide</a></li>
+          <li><a href="facilitators">Providers</a></li>
+          <li><a href="facilitators#get-listed">Get listed</a></li>
+          <li><a href="education#certification">Certification</a></li>
+          <li><a href="https://hummingbeing.com/" target="_blank" rel="noopener">HummingBeing</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Contact</h2>
+        <ul class="footer-contact">
+          <li><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><a href="mailto:bonjour@bhdasia.com">bonjour@bhdasia.com</a></li>
+          <li><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.8 2z"/></svg><a href="https://wa.me/818065151778" target="_blank" rel="noopener">+81 80 6515 1778 (WhatsApp)</a></li>
+          <li><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg><span>Business &amp; Human Development Consulting Pte Ltd<br/>50 Raffles Place, Singapore Land Tower <span class="nowrap">#30-00,</span> Singapore 048623</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span data-year="">2026</span> Business &amp; Human Development Consulting Pte Ltd · TRE™ in Singapore. TRE™ is a registered trademark of TRE For All, Inc. Method created by Dr. David Berceli.</p>
+      <p class="footer-powered">Powered by <a href="https://technext.asia" target="_blank" rel="noopener">TechNext</a></p>
+    </div>
+  </div>
+</footer><a class="wa-float" href="https://wa.me/818065151778" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewbox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 12 12 0 0 0 4.6 4c1.7.7 2.1.6 2.8.5.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2 0-.1-.2-.2-.4-.3z"/></svg>
+</a><script>window.TRE_STATIC={"events":["tre-provider-certification-singapore","tre-module-1-bucharest","from-shaking-to-shaping-bucharest","feminine-masculine-energetics-corporate","the-body-in-the-room","breath-as-medicine","tre-module-3-singapore","tre-provider-certification-2027-singapore","from-shaking-to-shaping-online","tre-module-2-singapore","from-shaking-to-shaping-online-sep3","internal-alchemy-singapore","nervous-system-regulation-coaches-singapore"],"facilitators":["isabelle-claus-teixeira","yan","nikki-tay","rina-ho"]};</script><script>window.TRE_EVENT_POSTS={};</script><script>window.TRE_IMG={"assets/img/events/event-body-in-the-room.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-body-in-the-room.webp":[1920,1080,[480,960],1],"assets/img/events/event-body-in-the-room-portrait.webp":[1080,1350,[540],1],"assets/img/events/event-breath-as-medicine.webp":[1493,840,[480,960],1],"assets/img/events/card-event-breath-as-medicine.webp":[1920,1080,[480,960],1],"assets/img/events/event-certification-2027.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-certification-2027.webp":[1920,1080,[480,960],1],"assets/img/events/event-certification-2027-portrait.webp":[1080,1350,[540],1],"assets/img/events/event-transform-practice.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-transform-practice.webp":[1920,1080,[480,960],1],"assets/img/events/event-shaking-to-shaping.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-shaking-to-shaping.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-shaking-to-shaping-sep3.webp":[1920,1080,[480,960],1],"assets/img/events/event-shaking-online.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-shaking-online.webp":[1920,1080,[480,960],1],"assets/img/events/event-feminine-masculine.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-feminine-masculine.webp":[1920,1080,[480,960],1],"assets/img/events/event-feminine-masculine-portrait.webp":[1080,1350,[540],1],"assets/img/events/event-bucharest-module1.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-bucharest-module1.webp":[1920,1080,[480,960],1],"assets/img/events/event-nervous-system.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-nervous-system.webp":[1920,1080,[480,960],1],"assets/img/events/event-internal-alchemy.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-internal-alchemy.webp":[1920,1080,[480,960],1],"assets/img/facilitators/isabelle-her-story.jpg":[850,1280,[160,400],1],"assets/img/facilitators/gallery-isabelle-teaching-tre.jpg":[1200,1600,[400,800],1],"assets/img/facilitators/gallery-isabelle-students-module1-may2026.jpg":[1600,1200,[400,800,1200],1],"assets/img/facilitators/gallery-tre-module1-2026.jpg":[1600,2844,[400,800,1200],1],"assets/img/facilitators/gallery-ws-1.jpg":[1600,1200,[400,800,1200],1],"assets/img/facilitators/gallery-danang-tre-conference-nov2025.jpg":[1600,1200,[400,800,1200],1],"assets/img/facilitators/gallery-dinner-david-berceli-founders.jpg":[929,959,[400,800],1],"assets/img/facilitators/gallery-asia-tre-trainers-david.jpg":[1600,1380,[400,800,1200],1],"assets/img/facilitators/gallery-isabelle-vietnam-tre.jpg":[1368,1368,[400,800,1200],1],"assets/img/facilitators/gallery-uk-tre-providers.jpg":[1200,1600,[400,800],1],"assets/img/facilitators/gallery-ws-2.jpg":[1200,1600,[400,800],1],"assets/img/facilitators/isabelle-global-journey.jpg":[850,1280,[400],1],"assets/img/facilitators/yan.webp":[1600,1066,[160,400,800],1],"assets/img/facilitators/nikki-tay.webp":[1254,1254,[160,400,800],1],"assets/img/facilitators/rina-ho.webp":[1000,1000,[160,400,800],1]};window.TRE_HERO_AVIF=["hero-education","hero-events","hero-facilitators"];</script><script src="assets/js/events-data.js?v=20261014a"/><script src="assets/js/facilitators-data.js?v=20261014a"/><script src="assets/js/main.js?v=20261014a"/><script src="assets/js/layer.js?v=20261014a"/><script src="assets/js/chatbot.js?v=20261014a"/></t></t>

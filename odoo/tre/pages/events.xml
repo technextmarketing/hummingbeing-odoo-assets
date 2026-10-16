@@ -1,0 +1,880 @@
+<t t-name="trex.page_events"><t t-call="web.layout"><t t-set="html_data" t-value="{'lang': 'en-SG'}"/><t t-set="title">TRE™ Workshops &amp; Events — Singapore and Online</t><t t-set="head"><script src="/assets/js/odoo-forms.js"></script><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="description" content="Upcoming TRE&#x2122; workshops, certification modules and online sessions in Singapore, Bucharest and on Zoom: dates, prices and how to register."/><link rel="canonical" href="https://tre-in-singapore.com/events"/><meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"/><meta property="og:locale" content="en_SG"/><meta property="og:site_name" content="TRE&#x2122; in Singapore"/><meta property="og:type" content="website"/><meta property="og:title" content="TRE&#x2122; Workshops &amp; Events &#x2014; Singapore and Online"/><meta property="og:description" content="Upcoming TRE&#x2122; workshops, certification modules and online sessions in Singapore, Bucharest and on Zoom: dates, prices and how to register."/><meta property="og:url" content="https://tre-in-singapore.com/events"/><meta property="og:image" content="https://tre-in-singapore.com/assets/img/og/events.jpg"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="TRE&#x2122; Workshops &amp; Events &#x2014; Singapore and Online"/><meta name="twitter:description" content="Upcoming TRE&#x2122; workshops, certification modules and online sessions in Singapore, Bucharest and on Zoom: dates, prices and how to register."/><meta name="twitter:image" content="https://tre-in-singapore.com/assets/img/og/events.jpg"/><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://tre-in-singapore.com/#org","name":"TRE™ in Singapore","alternateName":["TRE Singapore","TRE in Singapore"],"url":"https://tre-in-singapore.com/","logo":{"@type":"ImageObject","url":"https://tre-in-singapore.com/assets/img/logo-tre-singapore.png"},"image":"https://tre-in-singapore.com/assets/img/og-cover.jpg","description":"The home of TRE™ (Tension and Trauma Releasing Exercises) in Singapore: certified providers, Global TRE™ Provider Certification, workshops, practice circles and resources.","email":"bonjour@bhdasia.com","telephone":"+81 80 6515 1778","address":{"@type":"PostalAddress","streetAddress":"50 Raffles Place, #30-00 Singapore Land Tower","addressLocality":"Singapore","postalCode":"048623","addressCountry":"SG"},"areaServed":{"@type":"Country","name":"Singapore"},"founder":{"@id":"https://tre-in-singapore.com/#isabelle"},"parentOrganization":{"@type":"Organization","name":"Business &amp; Human Development Consulting Pte Ltd","alternateName":"BHD Asia","url":"https://bhdasia.com/","sameAs":["https://www.facebook.com/bhdasia/"]},"knowsAbout":["Tension and Trauma Releasing Exercises (TRE)","Neurogenic tremors","Nervous system regulation","Stress and trauma release","TRE provider certification"]},{"@type":"WebSite","@id":"https://tre-in-singapore.com/#website","url":"https://tre-in-singapore.com/","name":"TRE™ in Singapore","alternateName":"TRE Singapore","inLanguage":"en-SG","publisher":{"@id":"https://tre-in-singapore.com/#org"}},{"@type":"Person","@id":"https://tre-in-singapore.com/#isabelle","name":"Isabelle Claus Teixeira","url":"https://tre-in-singapore.com/facilitators/isabelle-claus-teixeira","jobTitle":["Global TRE™ Certifying Trainer","ICF PCC Executive Coach","Mindfulness Teacher"],"image":"https://tre-in-singapore.com/assets/img/facilitators/isabelle-her-story.jpg","sameAs":["https://www.linkedin.com/in/isabelleclausteixeira/","https://www.instagram.com/isabelleclausteixeira_bhd/","https://www.youtube.com/@IsabelleClausTeixeira","https://www.facebook.com/bhdasia/","https://bhdasia.com","https://hummingbeing.com/"],"worksFor":{"@id":"https://tre-in-singapore.com/#org"}},{"@type":"CollectionPage","@id":"https://tre-in-singapore.com/events#webpage","url":"https://tre-in-singapore.com/events","name":"TRE™ Workshops &amp; Events — Singapore and Online","description":"Upcoming TRE™ workshops, certification modules and online sessions in Singapore, Bucharest and on Zoom: dates, prices and how to register.","isPartOf":{"@id":"https://tre-in-singapore.com/#website"},"about":{"@id":"https://tre-in-singapore.com/#org"},"inLanguage":"en-SG","primaryImageOfPage":{"@type":"ImageObject","url":"https://tre-in-singapore.com/assets/img/og/events.jpg"},"breadcrumb":{"@id":"https://tre-in-singapore.com/events#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://tre-in-singapore.com/events#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://tre-in-singapore.com/"},{"@type":"ListItem","position":2,"name":"Events","item":"https://tre-in-singapore.com/events"}]},{"@type":"ItemList","@id":"https://tre-in-singapore.com/events#list","name":"Upcoming TRE™ events","numberOfItems":7,"itemListElement":[{"@type":"ListItem","position":1,"url":"https://tre-in-singapore.com/events/tre-provider-certification-singapore","name":"Become a Certified TRE™ Provider — Singapore (Modules 1–3)"},{"@type":"ListItem","position":2,"url":"https://tre-in-singapore.com/events/from-shaking-to-shaping-bucharest","name":"From Shaking to Shaping — Use of TRE™ in a Coaching Context"},{"@type":"ListItem","position":3,"url":"https://tre-in-singapore.com/events/feminine-masculine-energetics-corporate","name":"Navigating Feminine &amp; Masculine Energetics Inside Corporate Structures"},{"@type":"ListItem","position":4,"url":"https://tre-in-singapore.com/events/the-body-in-the-room","name":"The Body in the Room — Integrating TRE™ and Somatic Practice into Psychotherapy"},{"@type":"ListItem","position":5,"url":"https://tre-in-singapore.com/events/breath-as-medicine","name":"Breath as a medicine — Introduction to pranayama"},{"@type":"ListItem","position":6,"url":"https://tre-in-singapore.com/events/tre-module-3-singapore","name":"TRE™ Module 3 — Teaching TRE™ to Groups"},{"@type":"ListItem","position":7,"url":"https://tre-in-singapore.com/events/tre-provider-certification-2027-singapore","name":"Become a Certified TRE™ Provider — 2027 Cohort (Singapore)"}]}]}</script><meta name="theme-color" content="#1c3d7a"/><link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg"/><link rel="preload" href="assets/fonts/plus-jakarta-sans-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="assets/css/style.css?v=20261014a"/><link rel="stylesheet" href="assets/css/layer.css?v=20261014a"/><script>document.documentElement.classList.add('js');try{if(localStorage.getItem('tre-motion')==='paused')document.documentElement.classList.add('motion-paused')}catch(e){}(function(){try{var p=location.pathname,c=p.replace(/\/index\.html$/,'/').replace(/\.html$/,'');if(c!==p)history.replaceState(history.state,'',c+location.search+location.hash)}catch(e){}})();</script></t><a class="sr-only" href="#main">Skip to content</a><header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="./" aria-label="TRE™ in Singapore — home">
+      <img class="brand-logo" src="assets/img/logo-tre-singapore-214.webp" srcset="assets/img/logo-tre-singapore-214.webp 214w, assets/img/logo-tre-singapore-321.webp 321w" sizes="(max-width: 760px) 78px, 107px" alt="TRE™ in Singapore" width="107" height="58" decoding="async"/>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">
+      <span/><span/><span/>
+    </button>
+    <nav class="nav" id="site-nav" aria-label="Main navigation">
+      <a href="./">Home</a>
+      <a href="about">About</a>
+      <a href="education">Education</a>
+      <a href="facilitators">Providers</a>
+      <a href="events" class="active">Events</a>
+      <a href="blog">Blog</a>
+      <a href="contact">Contact</a>
+      <a class="btn btn-primary btn-sm" href="https://calendly.com/bhdasia/tre-certification-intake-call" target="_blank" rel="noopener">Book a call</a>
+    </nav>
+  </div>
+</header><main id="main">
+<style id="ev-css">
+/* =========================================================
+   EVENTS PAGE (ev-) — 2026-09-29
+   next-event band · calendar: timeline rail built from window.TRE_EVENTS,
+   segmented filters, agenda list (main.js cards restyled), quiet archive ·
+   four kinds of gathering · online-prep flow · close with both paths.
+   Everything is visible without JS and still under reduced motion.
+   ========================================================= */
+
+/* ---------- next-event band ---------- */
+.ev-next{position:relative;background:var(--cream);border-bottom:1px solid var(--line-2)}
+.ev-next::before{content:"";position:absolute;left:0;right:0;top:0;height:1px;background:linear-gradient(90deg,rgba(201,164,92,0),rgba(201,164,92,.75) 22%,rgba(201,164,92,.75) 78%,rgba(201,164,92,0))}
+.ev-next .ev-next-in{display:grid;grid-template-columns:minmax(0,1fr) auto auto;align-items:center;gap:var(--s4) var(--s7);padding-top:var(--s5);padding-bottom:var(--s5)}
+.ev-next .countdown-label{display:inline-flex;align-items:center;gap:.55rem;font-family:var(--font-body);font-size:.84rem;font-weight:600;letter-spacing:0;text-transform:none;color:var(--brown)}
+.ev-next .countdown-label::before,.ev-close-lbl::before{content:"";width:7px;height:7px;flex:none;border-radius:50%;background:var(--gold)}
+@keyframes ev-breath{0%,100%{box-shadow:0 0 0 0 rgba(201,164,92,0)}50%{box-shadow:0 0 0 5px rgba(201,164,92,.28)}}
+.ev-next .countdown-title{margin-top:.3rem;font-size:1.16rem;line-height:1.3;color:var(--navy)}
+.ev-next .countdown-title small{display:block;margin-top:.25rem;font-size:.92rem;line-height:1.45;color:var(--muted)}
+.ev-next .countdown{display:flex;gap:0}
+.ev-next .countdown div{position:relative;min-width:0;padding:0 var(--s5);background:none;border:0;border-radius:0;box-shadow:none;text-align:center}
+.ev-next .countdown div + div::before{content:"";position:absolute;left:0;top:10%;bottom:10%;width:1px;background:var(--line)}
+.ev-next .countdown b{display:block;min-width:2ch;font-size:2.15rem;font-weight:600;line-height:1;letter-spacing:-.03em;color:var(--navy)}
+.ev-next .countdown span{display:block;margin-top:.45rem;font-size:.76rem;letter-spacing:.01em;text-transform:none;color:var(--muted)}
+.ev-next .countdown b.tick{animation:ev-tick .7s var(--ease-out)}
+@keyframes ev-tick{from{opacity:.55}to{opacity:1}}
+
+/* ---------- calendar head ---------- */
+.ev-cal{padding-bottom:var(--s8)}
+.ev-cal-head{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:var(--s2) var(--s5);margin-bottom:var(--s5)}
+.ev-cal-head h2{margin:0}
+.ev-cal-head p{margin:0;font-size:.92rem;color:var(--muted);font-variant-numeric:tabular-nums}
+
+/* ---------- timeline rail (built by the page script) ---------- */
+.ev-rail{margin:0 0 var(--s6)}
+.ev-legend{list-style:none;margin:0 0 var(--s3);padding:0;display:flex;flex-wrap:wrap;gap:.35rem 1.35rem;font-size:.8rem;line-height:1.4;color:var(--muted)}
+.ev-legend li{display:inline-flex;align-items:center;gap:.5rem}
+.ev-legend .lg{position:relative;display:inline-block;flex:none;width:12px;height:12px;border-radius:50%;background:var(--paper);box-shadow:inset 0 0 0 2px var(--bronze)}
+.ev-legend .lg-cert{background:var(--gold)}
+.ev-legend .lg-so{box-shadow:none;border:1.75px dashed var(--muted-2)}
+.ev-legend .lg-past{width:8px;height:8px;background:var(--muted-2);box-shadow:none}
+.ev-legend .lg-today{width:1px;height:15px;border-radius:0;box-shadow:none;background:repeating-linear-gradient(180deg,var(--bronze) 0 2px,transparent 2px 5px)}
+.ev-plot{position:relative;-webkit-user-select:none;user-select:none;touch-action:manipulation}
+.ev-plot svg{position:absolute;left:0;top:0;overflow:visible;pointer-events:none}
+.ev-plot path{fill:none;transition:opacity .5s var(--ease)}
+.ev-axis{stroke-width:1.75;stroke-linecap:round;stroke-dasharray:var(--len,2000);stroke-dashoffset:calc(var(--len,2000) * (1 - var(--p,1)))}
+.ev-gridl{stroke:var(--line-2);stroke-width:1}
+.ev-tline{stroke:var(--bronze);stroke-width:1;stroke-dasharray:2 3}
+.ev-stem{stroke:var(--bronze-soft);stroke-width:1}
+.ev-conn{stroke:var(--bronze-soft);stroke-width:1;stroke-dasharray:1.5 3}
+.ev-bar{stroke:var(--gold);stroke-width:4;stroke-linecap:round}
+.ev-bar.is-so{stroke:rgba(131,145,163,.6);stroke-width:2;stroke-dasharray:4 4;stroke-linecap:butt}
+.ev-plot path.is-dim{opacity:.18}
+.ev-mo{position:absolute;transform:translateX(-50%);font-size:.75rem;line-height:1.25;color:var(--muted);text-align:center;white-space:nowrap;pointer-events:none}
+.ev-mo small{display:block;font-size:.7rem;color:var(--muted)}
+.ev-today{position:absolute;top:0;transform:translateX(-50%);font-family:var(--font-display);font-size:.72rem;font-weight:700;line-height:1;color:var(--bronze);white-space:nowrap;pointer-events:none;transition:opacity .6s var(--ease)}
+.ev-node{position:absolute;z-index:1;width:calc(var(--w) + 22px);height:calc(var(--r) * 2 + 22px);transform:translate(-50%,-50%);display:grid;place-items:center;margin:0;padding:0;border:0;border-radius:999px;background:none;cursor:pointer;-webkit-tap-highlight-color:transparent;transition:opacity .5s var(--ease)}
+.ev-node i{position:relative;display:block;box-sizing:border-box;width:var(--w);height:calc(var(--r) * 2);border-radius:999px;background:var(--paper);box-shadow:inset 0 0 0 2px var(--bronze);transition:transform .4s var(--ease-out),box-shadow .32s var(--ease),background-color .32s var(--ease),border-color .32s var(--ease)}
+.ev-node.is-cert i{background:var(--gold)}
+.ev-node.is-so i{background:var(--paper);box-shadow:none;border:1.75px dashed var(--muted-2)}
+.ev-node.is-so.is-cert i{background:var(--gold-soft)}
+.ev-node.is-past i{background:var(--muted-2);box-shadow:none;opacity:.75}
+.ev-node.is-next::before{content:"";position:absolute;left:50%;top:50%;width:calc(var(--w) + 14px);height:calc(var(--r) * 2 + 14px);border-radius:999px;border:1px solid var(--gold);transform:translate(-50%,-50%) scale(.8);opacity:0;pointer-events:none;}
+@keyframes ev-halo{0%,100%{opacity:0;transform:translate(-50%,-50%) scale(.8)}50%{opacity:.9;transform:translate(-50%,-50%) scale(1.12)}}
+.ev-node:hover i,.ev-node.is-sel i{transform:scale(1.3)}
+.ev-node.is-sel i{box-shadow:inset 0 0 0 2px var(--navy)}
+.ev-node.is-so.is-sel i{border-color:var(--navy)}
+.ev-node.is-past.is-sel i{background:var(--ink-2);opacity:1}
+.ev-node.is-dim{opacity:.2}
+.ev-node:focus-visible{outline:2px solid var(--gold);outline-offset:1px}
+.ev-plot .ev-pre{opacity:0}
+.ev-node.ev-pre i{transform:scale(.4)}
+.ev-ro{position:relative;margin-top:var(--s2);min-height:96px}
+.ev-ro-body{position:relative;display:inline-flex;flex-direction:column;align-items:flex-start;gap:.15rem;max-width:min(480px,100%);padding:.75rem 1.05rem .8rem;border-radius:var(--radius-sm);background:var(--cream);box-shadow:inset 0 0 0 1px var(--line-2);transition:transform .45s var(--ease-out)}
+.ev-ro-body::before{content:"";position:absolute;top:-6px;left:var(--cx,28px);width:11px;height:11px;margin-left:-5.5px;background:var(--cream);border-left:1px solid var(--line-2);border-top:1px solid var(--line-2);transform:rotate(45deg);transition:left .45s var(--ease-out)}
+.ev-ro-body.ev-swap &gt; *{animation:ev-swap .38s var(--ease-out)}
+@keyframes ev-swap{from{opacity:.35}to{opacity:1}}
+.ev-ro-st{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--font-display);font-size:.78rem;font-weight:700;letter-spacing:.01em;color:var(--muted)}
+.ev-ro-st::before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor}
+.ev-ro-st.st-live{color:#1f6b42}.ev-ro-st.st-soldout{color:var(--red)}.ev-ro-st.st-new{color:#9a5510}.ev-ro-st.st-progress{color:var(--blue)}
+.ev-ro-go{display:inline-flex;align-items:flex-start;gap:.45rem;margin:0;padding:.15rem 0;border:0;background:none;cursor:pointer;text-align:left;font-family:var(--font-display);font-size:1.02rem;font-weight:700;line-height:1.35;color:var(--navy)}
+.ev-ro-go svg{width:18px;height:18px;flex:none;margin-top:.15rem;color:var(--bronze);transition:transform var(--d2) var(--ease-out)}
+.ev-ro-go:hover{color:var(--blue)}
+.ev-ro-go:hover svg{transform:translateY(3px)}
+.ev-ro-meta{font-size:.86rem;line-height:1.45;color:var(--muted)}
+
+/* ---------- segmented filters (main.js wires .filter-btn[data-filter]) ---------- */
+.ev-cal .filters{position:relative;display:flex;flex-wrap:nowrap;justify-content:flex-start;gap:2px;width:max-content;max-width:100%;margin:0 0 var(--s6);padding:4px;border:1px solid var(--line-2);border-radius:999px;background:var(--paper);overflow-x:auto;scrollbar-width:none;-webkit-mask-image:none;mask-image:none}
+.ev-cal .filters::-webkit-scrollbar{display:none}
+.ev-cal .filter-btn{position:relative;z-index:1;flex:0 0 auto;min-height:40px;padding:.5rem 1.05rem;border:0;border-radius:999px;background:transparent;color:var(--ink-2);font-weight:600;box-shadow:none;transform:none;transition:color .32s var(--ease),background-color .32s var(--ease)}
+.ev-cal .filter-btn:hover{transform:none;color:var(--navy);background:var(--blue-tint)}
+.ev-cal .filter-btn.active,.ev-cal .filter-btn.active:hover{background:var(--navy);color:#fff;box-shadow:none}
+.ev-cal .filters.ev-ind-on .filter-btn.active,.ev-cal .filters.ev-ind-on .filter-btn.active:hover{background:transparent}
+.ev-ind{position:absolute;z-index:0;left:0;top:4px;bottom:4px;width:0;border-radius:999px;background:var(--navy);box-shadow:0 6px 16px rgba(19,43,86,.18);pointer-events:none;transition:transform .5s var(--ease-out),width .5s var(--ease-out)}
+
+/* ---------- agenda list: main.js renderCard markup, restyled ---------- */
+.ev-listwrap{position:relative}
+.ev-list{display:grid;grid-template-columns:minmax(0,1fr);gap:var(--s4)}
+.ev-list .event-card{display:grid;grid-template-columns:104px minmax(200px,300px) minmax(0,1fr);grid-template-rows:auto 1fr;grid-template-areas:"date poster body" "date tags body";column-gap:var(--s6);row-gap:var(--s3);align-items:start;padding:var(--s5);background:var(--paper);border:1px solid var(--line-2);border-radius:var(--radius);box-shadow:none;overflow:visible;opacity:1;transform:none;animation:none;transition:border-color .32s var(--ease),box-shadow .6s var(--ease-out)}
+.ev-list .event-card:hover{transform:none;border-color:rgba(139,107,69,.32);box-shadow:var(--shadow-1)}
+.ev-list .event-card:has(.event-media:not(.has-img))::before{content:"";grid-area:poster;aspect-ratio:16/9;border-radius:var(--radius-sm);background:linear-gradient(150deg,var(--navy-deep),var(--navy) 60%,var(--bronze-soft))}
+.ev-list .event-media{display:contents}
+.ev-list .event-media::before,.ev-list .event-media::after{display:none}
+.ev-list .event-media.has-img img,.ev-list .event-media img{grid-area:poster;position:relative;inset:auto;display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:var(--radius-sm);background:var(--blue-tint);box-shadow:0 0 0 1px rgba(19,43,86,.07);transform:none;transition:box-shadow .32s var(--ease),filter .6s var(--ease),opacity .6s var(--ease)}
+.ev-list .event-card:hover .event-media.has-img img{transform:none;box-shadow:0 0 0 1px rgba(139,107,69,.35)}
+.ev-list .date-chip{grid-area:date;position:relative;align-self:start;min-width:0;margin:0;padding:.15rem 0 0;background:none;border-radius:0;box-shadow:none;color:var(--navy);text-align:left;line-height:1;transform:none}
+.ev-list .event-card:hover .date-chip{transform:none}
+.ev-list .date-chip b{display:block;font-family:var(--font-display);font-size:1.7rem;font-weight:700;letter-spacing:-.035em;white-space:nowrap}
+.ev-list .date-chip span{display:block;margin-top:.5rem;font-size:.8rem;font-weight:600;letter-spacing:.01em;text-transform:none;color:var(--bronze)}
+.ev-list .badges{grid-area:tags;position:static;display:flex;flex-wrap:wrap;justify-content:flex-start;gap:.4rem}
+.ev-list .event-media .badge{padding:.3rem .6rem;font-size:.72rem;background:var(--blue-tint);color:var(--navy)}
+.ev-list .event-media .badge.cat{background:var(--gold-soft);color:var(--brown)}
+.ev-list .event-body{grid-area:body;min-width:0;padding:0;gap:.6rem}
+.ev-list .event-body h3{font-size:1.24rem;line-height:1.3}
+.ev-cal .ev-list .event-body h3 a{text-decoration:none}
+.ev-cal .ev-list .event-body h3 a:hover,.ev-cal .ev-list .event-body h3 a:focus-visible{text-decoration:underline;text-decoration-color:currentColor;text-decoration-thickness:1px;text-underline-offset:.22em}
+.ev-list .event-meta{grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:.3rem 1.25rem;font-size:.9rem}
+.ev-list .event-meta svg{stroke-width:1.75}
+.ev-list .event-desc{max-width:72ch;font-size:.95rem;line-height:1.6}
+.ev-list .event-foot{margin-top:.25rem;padding-top:.85rem}
+.ev-list .event-foot .btn-primary{background:var(--navy);border-color:var(--navy);color:#fff;box-shadow:none}
+.ev-list .event-foot .btn-primary:hover{background:var(--navy-deep);border-color:var(--navy-deep);color:#fff;box-shadow:0 10px 24px rgba(19,43,86,.2)}
+.ev-list .event-card.ev-hl{border-color:var(--gold);box-shadow:0 0 0 3px rgba(201,164,92,.32),var(--shadow-1)}
+/* past events (archive, or the "Past events" filter): quieter */
+.ev-list .event-card.is-past{grid-template-columns:88px minmax(150px,210px) minmax(0,1fr);padding:var(--s4) var(--s5);background:transparent;opacity:1}
+.ev-list .event-card.is-past .event-media img{filter:saturate(.25);opacity:.82}
+.ev-list .event-card.is-past:hover .event-media img{filter:none;opacity:1}
+.ev-list .event-card.is-past .date-chip b{font-size:1.3rem;color:var(--ink-2)}
+.ev-list .event-card.is-past .event-body{gap:.45rem}
+.ev-list .event-card.is-past .event-body h3{font-size:1.04rem}
+.ev-list .event-card.is-past .event-body h3 a{color:var(--ink-2)}
+.ev-list .event-card.is-past .event-meta,.ev-list .event-card.is-past .event-desc{font-size:.86rem}
+.ev-list .event-card.is-past .event-price{font-size:.95rem;color:var(--ink-2)}
+.ev-list .event-empty{padding:var(--s7) var(--s5)}
+.ev-ghosts{position:absolute;inset:0;pointer-events:none}
+.ev-ghosts .event-card{position:absolute;margin:0}
+.ev-note{max-width:80ch;margin:var(--s5) 0 0;font-size:.86rem;line-height:1.6;color:var(--muted)}
+.ev-past{margin-top:var(--s8);padding-top:var(--s6);border-top:1px solid var(--line-2)}
+.ev-past h2{margin:0 0 var(--s5);font-size:1.4rem;color:var(--ink-2)}
+
+/* ---------- four kinds of gathering ---------- */
+.ev-kinds-in{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);grid-template-rows:auto 1fr;grid-template-areas:"photo head" "photo list";column-gap:var(--s8);align-items:start}
+.ev-kinds h2{grid-area:head;margin:0 0 var(--s4)}
+.ev-kinds-photo{grid-area:photo;aspect-ratio:4/5}
+.ev-kinds-list{grid-area:list}
+.ev-kind{position:relative;display:grid;grid-template-columns:128px minmax(0,1fr);grid-template-areas:"tag title" "tag text" "tag link";column-gap:var(--s5);padding:var(--s5) 0 var(--s5)}
+.ev-kind::before{content:"";position:absolute;left:0;right:0;top:0;height:1px;background:var(--line);transform-origin:0 50%;transition:transform 1.2s var(--ease-out),background-color .26s var(--ease);transition-delay:calc(var(--k,0) * 110ms),0s}
+.ev-kinds-list.ev-pre .ev-kind::before{transform:scaleX(0)}
+.ev-kind:hover::before{background:var(--gold)}
+.ev-kind .badge{grid-area:tag;justify-self:start;align-self:start;margin-top:.22rem;padding:0;border-radius:0;background:none;color:var(--brown);font-family:var(--font-display);font-size:.86rem;font-weight:700;letter-spacing:0;text-transform:none}
+.ev-kind h3{grid-area:title;margin:0 0 .35rem;font-size:1.2rem}
+.ev-kind p{grid-area:text;margin:0;color:var(--ink-2)}
+.ev-kind .link-arrow{grid-area:link;justify-self:start;margin-top:.2rem}
+
+/* ---------- online preparation: drawn flow ---------- */
+.ev-prep-in{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);grid-template-areas:"head flow" "photo inperson";gap:var(--s8);align-items:start}
+.ev-prep-head{grid-area:head;align-self:stretch}
+.ev-prep-stick{position:sticky;top:104px}
+.ev-prep-head h2{margin-bottom:var(--s4)}
+.ev-prep-head p{margin:0;font-size:1.06rem;line-height:1.65;color:var(--ink-2)}
+.ev-flow{grid-area:flow;position:relative;padding:.35rem 0 0 58px}
+.ev-flow-line{position:absolute;left:19px;top:24px;width:4px;height:calc(100% - 70px);overflow:visible;pointer-events:none}
+.ev-flow-line path{fill:none;stroke-width:1.5;stroke-linecap:round}
+.ev-flow-line .trk{stroke:var(--line)}
+.ev-flow-line .ink{stroke:var(--gold);stroke-dasharray:var(--len,1000);stroke-dashoffset:calc(var(--len,1000) * (1 - var(--p,1)))}
+.ev-steps{list-style:none;margin:0;padding:0;display:grid;gap:var(--s6)}
+.ev-steps li{position:relative;font-size:1rem;line-height:1.65;color:var(--ink-2)}
+.ev-steps strong{margin-right:.15rem;font-family:var(--font-display);font-size:1.1rem;color:var(--navy)}
+.ev-dot{position:absolute;left:-58px;top:-8px;width:42px;height:42px;display:grid;place-items:center;pointer-events:none}
+.ev-dot::before{content:"";width:14px;height:14px;border-radius:50%;background:var(--paper);box-shadow:inset 0 0 0 1.75px var(--bronze);transition:background-color .7s var(--ease-out),box-shadow .7s var(--ease-out)}
+.ev-dot.on::before{background:var(--gold);box-shadow:inset 0 0 0 1.75px var(--bronze),0 0 0 6px rgba(201,164,92,.16)}
+.ev-flow-end{position:relative;margin-top:var(--s6)}
+.ev-flow-end .ev-dot{top:2px}
+.ev-flow-end .ev-dot::before{width:18px;height:18px;box-shadow:inset 0 0 0 1.75px var(--navy)}
+.ev-flow-end .ev-dot.on::before{background:var(--navy);box-shadow:inset 0 0 0 1.75px var(--navy),0 0 0 6px rgba(28,61,122,.1)}
+.ev-flow-end .btn-row{margin-top:0}
+.ev-inp-photo{grid-area:photo;aspect-ratio:16/10}
+.ev-inp-photo img{object-position:50% 70%}
+.ev-inperson{grid-area:inperson;align-self:center;max-width:62ch}
+.ev-inperson h3{margin:0 0 .5rem}
+.ev-inperson p{margin:0 0 .8rem;font-size:.95rem;line-height:1.65;color:var(--ink-2)}
+.ev-inperson p:last-child{margin-bottom:0}
+
+/* ---------- close: both paths ---------- */
+.ev-closewrap{padding:var(--s4) 0 var(--s9)}
+.ev-close.cta-band{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,.85fr);align-items:center;gap:var(--s7);padding:var(--s7);background:linear-gradient(120deg,var(--navy-ink),var(--navy-deep) 55%,var(--navy))}
+.ev-close h2{margin:0 0 .6rem;max-width:20ch}
+.ev-close .ev-close-main p{max-width:54ch}
+.ev-close .btn-row{margin-top:var(--s5)}
+.ev-close-next{padding-left:var(--s7);border-left:1px solid rgba(255,255,255,.14)}
+.ev-close-lbl{display:inline-flex;align-items:center;gap:.55rem;font-size:.84rem;font-weight:600;color:var(--gold)}
+.ev-close .ev-close-title{margin:.55rem 0 .2rem;max-width:none;font-family:var(--font-display);font-size:1.14rem;font-weight:700;line-height:1.35;color:#fff}
+.ev-close .ev-close-sub{margin:0;max-width:none;font-size:.9rem;line-height:1.5;color:var(--on-navy-2)}
+.ev-close .ev-close-title:empty,.ev-close .ev-close-sub:empty{display:none}
+.ev-close-acts{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1.3rem;margin-top:var(--s4)}
+.ev-close .link-arrow{color:#fff}
+.ev-close .link-arrow::after{background:var(--gold)}
+.ev-close .link-arrow:hover{color:var(--gold)}
+
+/* ---------- tablet ---------- */
+@media (max-width:1020px){
+  .ev-list .event-card{grid-template-columns:84px minmax(170px,230px) minmax(0,1fr);column-gap:var(--s5)}
+  .ev-list .event-meta{grid-template-columns:1fr}
+  .ev-close.cta-band{grid-template-columns:1fr;gap:var(--s6)}
+  .ev-close-next{padding:var(--s5) 0 0;border-left:0;border-top:1px solid rgba(255,255,255,.14)}
+}
+@media (max-width:1000px){
+  .ev-cal .filters{width:auto;margin:0 calc(-1 * var(--s5)) var(--s5);padding:4px var(--s5);border:0;border-radius:0;background:none;scroll-snap-type:x proximity;scroll-padding-inline:var(--s5);-webkit-mask-image:linear-gradient(90deg,transparent,#000 14px,#000 calc(100% - 26px),transparent);mask-image:linear-gradient(90deg,transparent,#000 14px,#000 calc(100% - 26px),transparent)}
+  .ev-cal .filter-btn{min-height:44px;box-shadow:inset 0 0 0 1px var(--line);scroll-snap-align:start}
+  .ev-cal .filter-btn.active{box-shadow:none}
+}
+@media (max-width:900px){
+  .ev-kinds-in{grid-template-columns:1fr;grid-template-areas:"head" "photo" "list"}
+  .ev-kinds-photo{aspect-ratio:4/3;margin-bottom:var(--s4)}
+  .ev-prep-in{grid-template-columns:minmax(0,1fr);grid-template-areas:"head" "flow" "photo" "inperson";gap:var(--s6)}
+  .ev-prep-stick{position:static}
+  .ev-inp-photo{margin-top:var(--s3)}
+}
+/* ---------- phones ---------- */
+@media (max-width:760px){
+  .ev-next .ev-next-in{grid-template-columns:1fr;gap:var(--s4)}
+  .ev-next .countdown{width:100%;justify-content:space-between}
+  .ev-next .countdown div{flex:1;padding:0 4px}
+  .ev-next .countdown b{font-size:1.8rem;min-width:0}
+  .ev-next #countdown-link{width:100%;justify-content:center}
+  .ev-cal-head{margin-bottom:var(--s4)}
+  .ev-legend{gap:.3rem 1rem;font-size:.76rem}
+  .ev-ro{min-height:112px}
+  .ev-ro-go{min-height:44px;align-items:center}
+  .ev-list .event-card,.ev-list .event-card.is-past{grid-template-columns:auto minmax(0,1fr);grid-template-rows:auto;grid-template-areas:"poster poster" "date tags" "body body";row-gap:var(--s4);column-gap:var(--s4);padding:var(--s4)}
+  .ev-list .date-chip{display:flex;align-items:baseline;gap:.5rem;padding:0;align-self:center}
+  .ev-list .date-chip b{font-size:1.35rem}
+  .ev-list .date-chip span{margin:0;white-space:nowrap}
+  .ev-list .badges{justify-content:flex-end;align-self:center}
+  .ev-list .event-body h3{font-size:1.14rem}
+  .ev-kind{grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"title tag" "text text" "link link";column-gap:var(--s3);padding:var(--s4) 0}
+  .ev-kind .badge{margin-top:.3rem;font-size:.78rem}
+  .ev-flow{padding-left:50px}
+  .ev-dot{left:-50px}
+  .ev-flow-line{left:17px}
+  .ev-flow-end .btn-row{flex-direction:column;align-items:stretch}
+  .ev-flow-end .btn{white-space:normal;text-align:center;line-height:1.3}   /* 320px phones: "Read the full set-up guide" wraps instead of widening the page */
+  .ev-close.cta-band{padding:var(--s6) var(--s5)}
+  .ev-closewrap{padding-bottom:var(--s8)}
+}
+
+/* ---------- reduced motion: still and complete ---------- */
+@media (prefers-reduced-motion:reduce){
+  .ev-next .countdown-label::before,.ev-close-lbl::before,.ev-node.is-next::before{animation:none}
+  .ev-node.is-next::before{opacity:.8;transform:translate(-50%,-50%)}
+  .ev-plot .ev-pre{opacity:1}
+  .ev-node.ev-pre i{transform:none}
+  .ev-kinds-list.ev-pre .ev-kind::before{transform:none}
+  .ev-ro-body,.ev-ro-body::before,.ev-ind{transition:none}
+}
+@media print{.ev-plot .ev-pre{opacity:1}.ev-node.ev-pre i{transform:none}}
+/* finish review: "Next event" folds into the title line instead of sitting above it */
+.ev-next-lbl{font-weight:600;color:var(--brown)}
+.ev-next-lbl::after{content:" ·";color:var(--bronze)}
+.ev-close-lbl::before{display:none}
+.ev-close-lbl{display:inline;margin-right:.35rem}
+.ev-close-lbl::after{content:" ·"}
+.ev-close-lbl + .ev-close-title{display:inline}
+.ev-close-title + .ev-close-sub{margin-top:.35rem}
+</style>
+
+<!-- ===== HERO (modelled on hummingbeing.com/events.html) ===== -->
+<section class="page-hero hx hx-events" style="--fx:62%;--fy:60%;--fx-m:70%">
+  <div class="hx-media" aria-hidden="true"><picture><source type="image/avif" srcset="assets/img/gallery/hero-events-960.avif 960w, assets/img/gallery/hero-events-1600.avif 1600w" sizes="(max-width: 760px) 50vw, 100vw"><img class="hx-photo" src="assets/img/gallery/hero-events-1600.webp" srcset="assets/img/gallery/hero-events-960.webp 960w, assets/img/gallery/hero-events-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 100vw" width="1600" height="1200" alt="" fetchpriority="high" decoding="async"/></source></picture></div>
+  <div class="hx-wash" aria-hidden="true"/>
+  <canvas class="hx-tremor" aria-hidden="true"/>
+  <div class="container hx-inner">
+      <h1>TRE™ Events <em>&amp; Sessions</em></h1>
+      <p>Group workshops, TRE™ sessions, certification modules and community gatherings — in Singapore, Europe and online.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="https://calendly.com/bhdasia/tre-certification-intake-call" target="_blank" rel="noopener">Book a free discovery call</a>
+        <a class="btn btn-ghost-light" href="#calendar">Browse events</a>
+      </div>
+      <p class="prep">Joining online? Prepare your space first — <a href="#online-prep">camera positioning, what to bring, lighting, dress code and joining on Zoom</a>.</p>
+  </div>
+  <p class="hx-credit">Module 2 with Isabelle &amp; Simba · Singapore, September 2026</p>
+</section>
+
+<!-- ===== NEXT EVENT: a calm countdown band (main.js fills the title, date and digits) ===== -->
+<div class="countdown-bar ev-next">
+  <div class="container ev-next-in">
+    <div class="ev-next-copy">
+      <div class="countdown-title"><span class="ev-next-lbl">Next event</span> <span id="countdown-title">Navigating Feminine &amp; Masculine Energetics Inside Corporate Structures</span><small id="countdown-sub">Wednesday 28 October 2026 · Zoom (joining details sent on registration)</small></div>
+    </div>
+    <div class="countdown" id="countdown" aria-live="off">
+      <div><b id="cd-d">0</b><span>days</span></div>
+      <div><b id="cd-h">00</b><span>hours</span></div>
+      <div><b id="cd-m">00</b><span>mins</span></div>
+      <div><b id="cd-s">00</b><span>secs</span></div>
+    </div>
+    <a class="btn btn-navy btn-sm" id="countdown-link" href="events/feminine-masculine-energetics-corporate#register">Register</a>
+  </div>
+</div>
+
+<!-- ===== CALENDAR: timeline rail (built from events-data.js) · filters · agenda list · archive ===== -->
+<section class="section ev-cal" id="calendar">
+  <div class="container">
+    <div class="ev-cal-head">
+      <h2 id="ev-cal-h">Upcoming events</h2>
+      <p id="event-count" class="small"/>
+    </div>
+
+    <div class="ev-rail" data-ev-rail="" hidden=""/>
+
+    <div class="filters" role="tablist" aria-label="Filter events" data-scroll-x="">
+      <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true" aria-controls="events-grid">All events</button>
+      <button class="filter-btn" data-filter="singapore" role="tab" aria-selected="false" aria-controls="events-grid">Singapore</button>
+      <button class="filter-btn" data-filter="online" role="tab" aria-selected="false" aria-controls="events-grid">Online</button>
+      <button class="filter-btn" data-filter="international" role="tab" aria-selected="false" aria-controls="events-grid">International</button>
+      <button class="filter-btn" data-filter="certification" role="tab" aria-selected="false" aria-controls="events-grid">Certification</button>
+      <button class="filter-btn" data-filter="workshop" role="tab" aria-selected="false" aria-controls="events-grid">Workshops</button>
+      <button class="filter-btn" data-filter="past" role="tab" aria-selected="false" aria-controls="events-grid">Past and sold out</button>
+    </div>
+
+    <div class="ev-listwrap">
+      <div class="ev-list" id="events-grid" aria-live="polite">
+        <!-- rendered from assets/js/events-data.js -->
+        <noscript><div class="event-empty" style="grid-column:1/-1">Please enable JavaScript to view the events calendar, or email <a href="mailto:bonjour@bhdasia.com">bonjour@bhdasia.com</a> for the latest dates.</div></noscript>
+      </div>
+    </div>
+
+    <p class="note ev-note">All ticket sales are final — tickets are non-refundable and non-cancellable. Venues in Singapore are confirmed on registration. Times are Singapore time (SGT, UTC+8) unless stated otherwise; Bucharest events are in Eastern European Time (EET). Listings mirror <a href="https://hummingbeing.com/events" target="_blank" rel="noopener">hummingbeing.com/events</a>.</p>
+
+    <div id="past-events" class="ev-past" hidden="">
+      <h2>Past and sold out events</h2>
+      <div class="ev-list" id="past-grid"/>
+<div class="container rec-static"><h2>All TRE™ events</h2><h3>Upcoming</h3><ul><li><a href="events/feminine-masculine-energetics-corporate">Navigating Feminine &amp; Masculine Energetics Inside Corporate Structures</a> — Wednesday 28 October 2026 · Online</li><li><a href="events/the-body-in-the-room">The Body in the Room — Integrating TRE™ and Somatic Practice into Psychotherapy</a> — Wednesday 25 November 2026 · Online · S$88</li><li><a href="events/breath-as-medicine">Breath as a medicine — Introduction to pranayama</a> — Tuesday 15 December 2026 · Online · S$88</li><li><a href="events/tre-module-3-singapore">TRE™ Module 3 — Teaching TRE™ to Groups</a> — Saturday 20 – Sunday 21 February 2027 · Singapore</li><li><a href="events/tre-provider-certification-2027-singapore">Become a Certified TRE™ Provider — 2027 Cohort (Singapore)</a> — Feb–Oct 2027 · Module 1: 27–28 Feb · Module 2: 3–4 Jul · Module 3: 30–31 Oct 2027 · Singapore · S$5,888</li></ul><h3>Past and sold out events</h3><ul><li><a href="events/tre-provider-certification-singapore">Become a Certified TRE™ Provider — Singapore (Modules 1–3)</a> — Aug 2026 – Feb 2027 · Module 1: 29–30 Aug · Module 2: 26–27 Sep · Module 3: 20–21 Feb 2027 · Singapore · S$3,699</li><li><a href="events/tre-module-1-bucharest">TRE™ Module 1 — Bucharest, Romania (in English)</a> — Thursday 15 – Saturday 17 October 2026 · Bucharest, Romania · From €739 · Postponed</li><li><a href="events/from-shaking-to-shaping-bucharest">From Shaking to Shaping — Use of TRE™ in a Coaching Context</a> — Tuesday 20 October &amp; Saturday 24 October 2026 · Bucharest, Romania · €97</li><li><a href="events/from-shaking-to-shaping-online">From Shaking to Shaping — Live Online Workshop</a> — Thursday 8 October 2026 · Online</li><li><a href="events/tre-module-2-singapore">TRE™ Module 2 — Teaching TRE™ to One Person</a> — Saturday 26 – Sunday 27 September 2026 · Singapore</li><li><a href="events/from-shaking-to-shaping-online-sep3">From Shaking to Shaping — Online (3 September 2026)</a> — Thursday 3 September 2026 · Online · €89</li><li><a href="events/internal-alchemy-singapore">Internal Alchemy — Introductory Workshop</a> — Tuesday 1 September 2026 · Singapore · S$79</li><li><a href="events/nervous-system-regulation-coaches-singapore">Nervous System Regulation &amp; Self-Induced Neurogenic Tremoring — For Coaches</a> — 29 &amp; 30 August 2026 · Singapore · S$1,290</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOUR KINDS OF GATHERING: a real room beside a quiet list ===== -->
+<section class="section bg-cream ev-kinds">
+  <div class="container ev-kinds-in">
+    <h2>Four kinds of gathering</h2>
+    <figure class="lx-media ev-kinds-photo">
+      <picture><source type="image/avif" srcset="assets/img/gallery/module2-sep2026-3-600.avif 600w, assets/img/gallery/module2-sep2026-3-1200.avif 1200w" sizes="(max-width: 900px) 92vw, 440px"><img src="assets/img/gallery/module2-sep2026-3-1200.webp" srcset="assets/img/gallery/module2-sep2026-3-600.webp 600w, assets/img/gallery/module2-sep2026-3-1200.webp 1200w" sizes="(max-width: 900px) 92vw, 440px" width="1200" height="1600" alt="Sharing circle — TRE™ Module 2, September 2026" loading="lazy" decoding="async" data-parallax="18"/></source></picture>
+      <figcaption>Sharing circle — TRE™ Module 2, September 2026</figcaption>
+    </figure>
+    <div class="ev-kinds-list">
+      <article class="ev-kind" style="--k:0"><span class="badge badge-navy">Certification</span><h3>Modules 1–3</h3><p>Two-day in-person intensives, each followed by four online sessions. The pathway to becoming a Global TRE™ Certified Provider.</p><a class="link-arrow" href="education#certification">Pathway</a></article>
+      <article class="ev-kind" style="--k:1"><span class="badge badge-gold">Workshop</span><h3>Themed workshops</h3><p>Evening and weekend sessions with Isabelle and visiting Global TRE™ trainers — for coaches, teams and curious beginners.</p></article>
+      <article class="ev-kind" style="--k:2"><span class="badge badge-green">Community</span><h3>Practice circles</h3><p>Peer sessions for providers and trainees: shared tremoring, case discussion and supervision questions. Announced here when scheduled.</p></article>
+      <article class="ev-kind" style="--k:3"><span class="badge badge-orange">Coaching</span><h3>TRE™ coaching</h3><p>One-to-one sessions online or in Singapore, 60–90 minutes, for a personalised introduction or deeper work.</p><a class="link-arrow" href="facilitators">Providers</a></article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ONLINE PREP (summary — the full guide lives on online-session-guide): a drawn flow that ends at the guide ===== -->
+<section class="section ev-prep" id="online-prep">
+  <div class="container ev-prep-in">
+    <div class="ev-prep-head">
+      <div class="ev-prep-stick">
+        <h2>Preparing for your online TRE™ session</h2>
+        <p>Online sessions and group classes run on Zoom. Everything your facilitator can offer you comes through the camera, so a few minutes of set-up makes all the difference.</p>
+      </div>
+    </div>
+
+    <div class="ev-flow" data-ev-flow="">
+      <svg class="ev-flow-line" viewbox="0 0 4 1000" preserveaspectratio="none" aria-hidden="true" focusable="false"><path class="trk" d="M2 0V1000"/><path class="ink" d="M2 0V1000"/></svg>
+      <ol class="ev-steps">
+        <li><span class="ev-dot" aria-hidden="true"/><strong>Camera:</strong> we must see you head to toe — standing and on the mat. Device about 2–2.5 m away, landscape, at hip height, to the side of your mat.</li>
+        <li><span class="ev-dot" aria-hidden="true"/><strong>Kit:</strong> a yoga mat, wireless headphones (required in group classes), good lighting, loose light-coloured trousers, water and cushions within reach.</li>
+        <li><span class="ev-dot" aria-hidden="true"/><strong>Safety:</strong> someone you trust nearby, with their name and phone number on your consent form.</li>
+        <li><span class="ev-dot" aria-hidden="true"/><strong>Zoom:</strong> install the app, sign in with the email you registered with, test camera and microphone, and join through the app a few minutes early.</li>
+      </ol>
+      <div class="ev-flow-end">
+        <span class="ev-dot" aria-hidden="true"/>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="online-session-guide">Read the full set-up guide</a>
+          <a class="btn btn-outline" href="https://hummingbeing.com/online-tre-session-guide.pdf?v=2" target="_blank" rel="noopener">Download the PDF</a>
+        </div>
+      </div>
+    </div>
+
+    <figure class="lx-media ev-inp-photo">
+      <picture><source type="image/avif" srcset="assets/img/gallery/tre-module1-2026-600.avif 600w, assets/img/gallery/tre-module1-2026-1200.avif 1200w" sizes="(max-width: 900px) 92vw, 440px"><img src="assets/img/gallery/tre-module1-2026-1200.webp" srcset="assets/img/gallery/tre-module1-2026-600.webp 600w, assets/img/gallery/tre-module1-2026-1200.webp 1200w" sizes="(max-width: 900px) 92vw, 440px" width="1200" height="2133" alt="TRE™ Module 1 — January 2026" loading="lazy" decoding="async" data-parallax="12"/></source></picture>
+      <figcaption>TRE™ Module 1 — January 2026</figcaption>
+    </figure>
+    <div class="ev-inperson">
+      <h3>For in-person events in Singapore</h3>
+      <p>Mats, blankets and water are provided unless the event page says otherwise. Please arrive 10 minutes early. The exact address and directions are sent with your confirmation.</p>
+      <p>Still have a question about your set-up, the space, the camera or the kit? Ask before your session rather than on the day. <a href="https://wa.me/818065151778" target="_blank" rel="noopener">WhatsApp us</a> or email <a href="mailto:bonjour@bhdasia.com">bonjour@bhdasia.com</a>.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CLOSE: both paths — the next event (register) and a call (certification intake) ===== -->
+<section class="ev-closewrap">
+  <div class="container">
+    <div class="cta-band ev-close reveal">
+      <div class="ev-close-main">
+        <h2>Bring TRE™ to your team or community</h2>
+        <p>Private group sessions, lunch-and-learns, offsite modules and multi-week programmes for organisations in Singapore. We also co-host events with studios, clinics and practitioner networks.</p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="contact?interest=event">Enquire about a private event</a>
+          <a class="btn btn-ghost-light" href="https://calendly.com/bhdasia/tre-certification-intake-call" target="_blank" rel="noopener">Book a call</a>
+        </div>
+      </div>
+      <div class="ev-close-next" data-ev-close-next="">
+        <span class="ev-close-lbl">Next event</span>
+        <p class="ev-close-title" data-ev-next-title=""/>
+        <p class="ev-close-sub" data-ev-next-sub=""/>
+        <div class="ev-close-acts">
+          <a class="btn btn-light btn-sm" href="#calendar" data-ev-next-link="">Register</a>
+          <a class="link-arrow" href="#calendar">Browse events</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+/* Events page layer (ev-): timeline rail from window.TRE_EVENTS, calm filter re-layout,
+   sliding filter indicator, drawn online-prep flow, close panel. main.js owns the data
+   rendering (cards, countdown, filters); this script only reads the same data. */
+(function () {
+  'use strict';
+  var MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  var DAY = 864e5;
+  var ARROW_DOWN = '&lt;svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"&gt;&lt;path d="M12 5v14M6 13l6 6 6-6"/&gt;&lt;/svg&gt;';
+  var L, REDUCED, lastPointer = 'mouse';
+
+  function $(s, c) { return (c || document).querySelector(s); }
+  function $all(s, c) { return Array.prototype.slice.call((c || document).querySelectorAll(s)); }
+  function clamp(v, a, b) { return v &lt; a ? a : v &gt; b ? b : v; }
+  function esc(s) { return String(s == null ? '' : s).replace(/[&amp;&lt;&gt;"']/g, function (c) { return { '&amp;': '&amp;amp;', '&lt;': '&amp;lt;', '&gt;': '&amp;gt;', '"': '&amp;quot;', "'": '&amp;#39;' }[c]; }); }
+  function parseDate(iso) { var m = /^(\d{4})-(\d{2})-(\d{2})(?:T(\d{2}):(\d{2}))?/.exec(iso || ''); return m ? new Date(+m[1], +m[2] - 1, +m[3], m[4] ? +m[4] : 0, m[5] ? +m[5] : 0) : null; }
+  function dayStart(d) { return new Date(d.getFullYear(), d.getMonth(), d.getDate()); }
+  function isExternal(u) { return /^https?:/.test(u || ''); }
+
+  /* the same reading of events-data.js as main.js (past / sold out / in progress) */
+  function readEvents() {
+    var now = new Date();
+    return (window.TRE_EVENTS || []).map(function (ev, i) {
+      var s = parseDate(ev.start); if (!s) return null;
+      var e = ev.end ? parseDate(ev.end) : null; if (!e) e = s;
+      var end = new Date(dayStart(e).getTime() + DAY - 1), past = end &lt; now;
+      return { ev: ev, i: i, start: s, s0: dayStart(s), e0: dayStart(e), end: end, past: past, soldOut: !!ev.soldOut, live: !past &amp;&amp; s &lt; now, cat: ev.category || '', region: String(ev.region || '').toLowerCase() };
+    }).filter(Boolean);
+  }
+  function statusOf(x) {                 /* the card status lines of main.js */
+    if (x.past) return ['past', 'Completed'];
+    if (x.soldOut) return ['soldout', 'Sold out · waitlist open'];
+    if (x.live) return ['progress', 'In progress · later modules open'];
+    if (x.ev.sample) return ['sample', 'Sample listing · details to confirm'];
+    if (x.ev.isNew) return ['new', 'New'];
+    return ['live', 'Registration open'];
+  }
+  function matches(x, f) {               /* mirrors the main.js filter tabs */
+    if (f === 'past') return x.past || x.soldOut;
+    if (f === 'all') return true;        /* upcoming in the list, past and sold out in the archive below it */
+    if (x.past || x.soldOut) return false;
+    if (f === 'certification') return x.cat === 'Certification';
+    if (f === 'community') return x.cat === 'Community';
+    if (f === 'workshop') return x.cat === 'Workshop';
+    return x.region === f;
+  }
+  function nextOf(list) {                /* the countdown's "next event" */
+    var now = new Date();
+    var up = list.filter(function (x) { return !x.past; }).sort(function (a, b) { if (a.soldOut !== b.soldOut) return a.soldOut ? 1 : -1; return a.start - b.start; });
+    var ns = up.filter(function (x) { return x.start &gt; now; });
+    return ns.filter(function (x) { return !x.ev.sample; })[0] || ns[0] || null;
+  }
+  function currentFilter() { var a = $('.ev-cal .filter-btn.active'); return a ? a.getAttribute('data-filter') : 'all'; }
+
+  /* ---------- find a card, reveal it (switching to "All events" if the filter hides it) ---------- */
+  var quiet = false;                     /* true while this script changes the filter itself (no FLIP) */
+  function cardFor(x) {
+    var q = 'event?id=' + encodeURIComponent(x.ev.slug || '');
+    var hits = $all('#events-grid .event-card h3 a, #past-grid .event-card h3 a').filter(function (a) {
+      var h = a.getAttribute('href') || ''; return h === q || h.slice(-q.length - 1) === '/' + q;
+    });
+    for (var i = 0; i &lt; hits.length; i++) { var c = hits[i].closest('.event-card'); if (c &amp;&amp; c.offsetParent !== null) return c; }
+    return null;
+  }
+  function jumpTo(x) {
+    var card = cardFor(x);
+    if (!card) {
+      var all = $('.ev-cal .filter-btn[data-filter="all"]');
+      if (all &amp;&amp; !all.classList.contains('active')) { quiet = true; all.click(); quiet = false; }
+      card = cardFor(x);
+    }
+    if (!card) return;
+    var tall = card.offsetHeight &gt; window.innerHeight * 0.7;
+    card.scrollIntoView({ behavior: REDUCED ? 'auto' : 'smooth', block: tall ? 'start' : 'center' });
+    $all('.ev-list .event-card.ev-hl').forEach(function (c) { c.classList.remove('ev-hl'); });
+    card.classList.add('ev-hl');
+    clearTimeout(card.__evHl); card.__evHl = setTimeout(function () { card.classList.remove('ev-hl'); }, 2600);
+    var a = $('h3 a', card); if (a) { try { a.focus({ preventScroll: true }); } catch (e) { } }
+  }
+
+  /* =========================================================
+     TIMELINE RAIL — months on a drawn line; every event in the window is a node
+     (upcoming in bronze/gold, sold out dashed, completed muted); long programmes
+     run as bars under the line. Hover / focus shows the event, click scrolls to its card.
+     ========================================================= */
+  function initRail(list, next) {
+    var root = $('[data-ev-rail]'); if (!root) return null;
+    var now = new Date();
+    var up = list.filter(function (x) { return !x.past; });
+    if (!up.length) return null;
+    var m0 = new Date(now.getFullYear(), now.getMonth() - 1, 1), cap = new Date(now.getFullYear(), now.getMonth() - 3, 1);
+    up.forEach(function (x) { if (x.s0 &lt; m0) m0 = new Date(x.s0.getFullYear(), x.s0.getMonth(), 1); });
+    if (m0 &lt; cap) m0 = cap;
+    var last = up.reduce(function (a, x) { return x.s0 &gt; a ? x.s0 : a; }, dayStart(now));
+    var m1 = new Date(last.getFullYear(), last.getMonth() + 2, 1);
+    var T0 = m0.getTime(), T1 = m1.getTime();
+    var shown = list.filter(function (x) { return x.end &gt;= m0 &amp;&amp; x.s0 &lt; m1; }).sort(function (a, b) { return a.start - b.start; });
+
+    /* legend: only what the rail shows */
+    var others = {}, lg = '';
+    shown.forEach(function (x) { if (x.cat &amp;&amp; x.cat !== 'Certification') others[x.cat] = 1; });
+    if (shown.some(function (x) { return x.cat === 'Certification'; })) lg += '&lt;li&gt;&lt;i class="lg lg-cert"&gt;&lt;/i&gt;Certification&lt;/li&gt;';
+    if (Object.keys(others).length) lg += '&lt;li&gt;&lt;i class="lg"&gt;&lt;/i&gt;' + esc(Object.keys(others).join(' · ')) + '&lt;/li&gt;';
+    if (shown.some(function (x) { return x.soldOut &amp;&amp; !x.past; })) lg += '&lt;li&gt;&lt;i class="lg lg-so"&gt;&lt;/i&gt;Sold out&lt;/li&gt;';
+    if (shown.some(function (x) { return x.past; })) lg += '&lt;li&gt;&lt;i class="lg lg-past"&gt;&lt;/i&gt;Completed&lt;/li&gt;';
+    lg += '&lt;li&gt;&lt;i class="lg lg-today"&gt;&lt;/i&gt;Today&lt;/li&gt;';
+
+    root.innerHTML = '&lt;ul class="ev-legend" aria-hidden="true"&gt;' + lg + '&lt;/ul&gt;' +
+      '&lt;div class="ev-plot" role="group" aria-labelledby="ev-cal-h"&gt;&lt;/div&gt;' +
+      '&lt;div class="ev-ro"&gt;&lt;div class="ev-ro-body"&gt;&lt;span class="ev-ro-st"&gt;&lt;/span&gt;&lt;button type="button" class="ev-ro-go"&gt;&lt;span class="ev-ro-t"&gt;&lt;/span&gt;' + ARROW_DOWN + '&lt;/button&gt;&lt;span class="ev-ro-meta"&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;';
+    root.hidden = false;
+    var plot = $('.ev-plot', root), ro = $('.ev-ro-body', root);
+    var nodes = [], sel = null, W = 0, intro = !REDUCED, played = false, filter = currentFilter();
+
+    function build() {
+      W = Math.max(260, Math.round(plot.clientWidth));
+      var phone = W &lt; 560;
+      var R = phone ? 6 : 7, RP = phone ? 3.5 : 4, GAP = phone ? 4 : 6, LANE = phone ? 16 : 22;
+      function X(t) { return (t - T0) / (T1 - T0) * W; }
+      nodes = shown.map(function (x, k) {
+        var r = x.past ? RP : R, days = Math.round((x.e0 - x.s0) / DAY) + 1, prog = days &gt; 21;
+        var xs = X(x.s0.getTime()), xe = X(x.e0.getTime() + DAY), cx, w;
+        if (prog || days &lt;= 1) { cx = X(x.s0.getTime() + DAY / 2); w = 2 * r; }
+        else { cx = (xs + xe) / 2; w = Math.max(2 * r, xe - xs + r); }
+        cx = clamp(cx, w / 2, W - w / 2);
+        return { x: x, k: k, r: r, prog: prog, xs: xs, xe: xe, cx: cx, w: w, lane: 0, f: clamp(cx / W, 0, 1) };
+      });
+      /* lanes: upcoming events claim the line first; neighbours that would touch stack above it */
+      var placed = [];
+      nodes.slice().sort(function (a, b) { if (a.x.past !== b.x.past) return a.x.past ? 1 : -1; return a.x.start - b.x.start; }).forEach(function (n) {
+        var a0 = n.cx - n.w / 2 - GAP / 2, a1 = n.cx + n.w / 2 + GAP / 2, lane = 0;
+        while (placed.some(function (p) { return p.lane === lane &amp;&amp; a0 &lt; p.cx + p.w / 2 + GAP / 2 &amp;&amp; a1 &gt; p.cx - p.w / 2 - GAP / 2; })) lane++;
+        n.lane = lane; placed.push(n);
+      });
+      var maxLane = nodes.reduce(function (m, n) { return Math.max(m, n.lane); }, 0);
+      var TOP = phone ? 22 : 26, AX = TOP + R + 4 + maxLane * LANE;
+      nodes.forEach(function (n) { n.y = AX - n.lane * LANE; });
+      /* programme bars under the line */
+      var PB0 = AX + (phone ? 17 : 22), PBG = phone ? 9 : 11, bars = [];
+      nodes.forEach(function (n) {
+        if (!n.prog) return;
+        var b0 = clamp(n.xs, 0, W), b1 = clamp(n.xe, 0, W), lane = 0;
+        while (bars.some(function (p) { return p.plane === lane &amp;&amp; b0 &lt; p.b1 + 6 &amp;&amp; b1 &gt; p.b0 - 6; })) lane++;
+        n.plane = lane; n.b0 = b0; n.b1 = b1; n.by = PB0 + lane * PBG; n.clipR = n.xe &gt; W + 1; bars.push(n);
+      });
+      var maxP = bars.reduce(function (m, n) { return Math.max(m, n.plane); }, -1);
+      var GB = maxP &gt;= 0 ? PB0 + maxP * PBG + 9 : AX + 14, MO = GB + 7, H = MO + (phone ? 30 : 34);
+      var xT = clamp(X(now.getTime()), 0, W), fT = xT / W;
+
+      var svg = '&lt;svg width="' + W + '" height="' + H + '" viewBox="0 0 ' + W + ' ' + H + '" aria-hidden="true" focusable="false"&gt;&lt;defs&gt;' +
+        '&lt;linearGradient id="ev-ax-g" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="' + W + '" y2="0"&gt;&lt;stop offset="0" style="stop-color:var(--line)"/&gt;&lt;stop offset="' + fT.toFixed(4) + '" style="stop-color:var(--line)"/&gt;&lt;stop offset="' + fT.toFixed(4) + '" style="stop-color:var(--bronze-soft)"/&gt;&lt;stop offset="1" style="stop-color:var(--gold)"/&gt;&lt;/linearGradient&gt;';
+      bars.forEach(function (n) {
+        if (n.clipR) svg += '&lt;linearGradient id="ev-fd-' + n.k + '" gradientUnits="userSpaceOnUse" x1="' + (W - 90) + '" y1="0" x2="' + W + '" y2="0"&gt;&lt;stop offset="0" style="stop-color:' + (n.x.soldOut ? 'rgba(131,145,163,.45)' : 'var(--gold)') + '"/&gt;&lt;stop offset="1" style="stop-color:var(--gold);stop-opacity:0"/&gt;&lt;/linearGradient&gt;';
+      });
+      svg += '&lt;/defs&gt;';
+      var grid = '', labels = '';
+      for (var d = new Date(m0); d &lt; m1; d = new Date(d.getFullYear(), d.getMonth() + 1, 1)) {
+        var nx = new Date(d.getFullYear(), d.getMonth() + 1, 1), x0 = X(d.getTime()), x1 = X(nx.getTime());
+        if (x0 &gt; 0.5) grid += 'M' + x0.toFixed(1) + ' ' + (AX + 5) + 'V' + GB;
+        labels += '&lt;span class="ev-mo" style="left:' + ((x0 + x1) / 2).toFixed(1) + 'px;top:' + MO + 'px"&gt;' + MONTHS[d.getMonth()] + (d.getMonth() === 0 || d.getTime() === T0 ? '&lt;small&gt;' + d.getFullYear() + '&lt;/small&gt;' : '') + '&lt;/span&gt;';
+      }
+      if (grid) svg += '&lt;path class="ev-gridl" d="' + grid + '"/&gt;';
+      svg += '&lt;path class="ev-tline' + (intro &amp;&amp; !played ? ' ev-pre' : '') + '" data-f="' + fT.toFixed(4) + '" d="M' + xT.toFixed(1) + ' ' + (TOP - 6) + 'V' + GB + '"/&gt;';
+      svg += '&lt;path class="ev-axis" d="M0 ' + AX + 'H' + W + '" style="stroke:url(#ev-ax-g);--len:' + W + (intro &amp;&amp; !played ? ';--p:0' : '') + '"/&gt;';
+      nodes.forEach(function (n) {
+        var pre = intro &amp;&amp; !played ? ' ev-pre' : '';
+        if (n.prog) {
+          svg += '&lt;path class="ev-conn' + pre + '" data-k="' + n.k + '" d="M' + n.cx.toFixed(1) + ' ' + (n.y + n.r + 3).toFixed(1) + 'V' + (n.by - 4) + '"/&gt;';
+          svg += '&lt;path class="ev-bar' + (n.x.soldOut ? ' is-so' : '') + pre + '" data-k="' + n.k + '" d="M' + (n.b0 + 2).toFixed(1) + ' ' + n.by + 'H' + (n.clipR ? W : n.b1 - 2).toFixed(1) + '"' + (n.clipR ? ' style="stroke:url(#ev-fd-' + n.k + ')"' : '') + '/&gt;';
+        } else if (n.lane &gt; 0) {
+          svg += '&lt;path class="ev-stem' + pre + '" data-k="' + n.k + '" d="M' + n.cx.toFixed(1) + ' ' + (n.y + n.r + 3).toFixed(1) + 'V' + (AX - 2) + '"/&gt;';
+        }
+      });
+      svg += '&lt;/svg&gt;';
+      var html = svg + labels + '&lt;span class="ev-today' + (intro &amp;&amp; !played ? ' ev-pre' : '') + '" data-f="' + fT.toFixed(4) + '" style="left:' + clamp(xT, 18, W - 18).toFixed(1) + 'px"&gt;Today&lt;/span&gt;';
+      nodes.forEach(function (n) {
+        var x = n.x, st = statusOf(x);
+        var cls = 'ev-node' + (x.cat === 'Certification' ? ' is-cert' : '') + (x.soldOut &amp;&amp; !x.past ? ' is-so' : '') + (x.past ? ' is-past' : '') + (next &amp;&amp; x === next ? ' is-next' : '') + (intro &amp;&amp; !played ? ' ev-pre' : '');
+        html += '&lt;button type="button" class="' + cls + '" data-k="' + n.k + '" tabindex="-1" style="left:' + n.cx.toFixed(1) + 'px;top:' + n.y.toFixed(1) + 'px;--w:' + n.w.toFixed(1) + 'px;--r:' + n.r + 'px" aria-label="' + esc(x.ev.title + ', ' + x.ev.dateText + ', ' + st[1]) + '"&gt;&lt;i&gt;&lt;/i&gt;&lt;/button&gt;';
+      });
+      plot.style.height = H + 'px';
+      plot.innerHTML = html;
+      nodes.forEach(function (n) { n.el = plot.querySelector('.ev-node[data-k="' + n.k + '"]'); n.paths = $all('path[data-k="' + n.k + '"]', plot); });
+      var keep = sel ? nodes.filter(function (n) { return n.x === sel.x; })[0] : null;
+      sel = null;
+      applyFilter(filter);
+      select(keep || nodes.filter(function (n) { return n.x === next; })[0] || nodes.filter(function (n) { return !n.x.past; })[0] || nodes[0], false, true);
+    }
+
+    function applyFilter(f) {
+      filter = f;
+      nodes.forEach(function (n) { var dim = !matches(n.x, f); n.el.classList.toggle('is-dim', dim); n.paths.forEach(function (p) { p.classList.toggle('is-dim', dim); }); });
+    }
+    function select(n, focus, silent) {
+      if (!n) return;
+      if (sel &amp;&amp; sel !== n) sel.el.classList.remove('is-sel');
+      var changed = sel !== n; sel = n; n.el.classList.add('is-sel');
+      nodes.forEach(function (m) { m.el.tabIndex = m === n ? 0 : -1; });
+      if (focus) n.el.focus({ preventScroll: true });
+      if (!changed &amp;&amp; !silent) return;
+      var x = n.x, st = statusOf(x);
+      $('.ev-ro-st', ro).className = 'ev-ro-st st-' + st[0]; $('.ev-ro-st', ro).textContent = st[1];
+      $('.ev-ro-t', ro).textContent = x.ev.title;
+      $('.ev-ro-meta', ro).textContent = x.ev.dateText + (x.ev.location ? ' · ' + x.ev.location : '');
+      var bw = ro.offsetWidth, left = clamp(Math.round(n.cx - 30), 0, Math.max(0, W - bw));
+      ro.style.transform = 'translateX(' + left + 'px)';
+      ro.style.setProperty('--cx', clamp(n.cx - left, 16, bw - 16).toFixed(1) + 'px');
+      if (!silent &amp;&amp; !REDUCED) { ro.classList.remove('ev-swap'); void ro.offsetWidth; ro.classList.add('ev-swap'); }
+    }
+    function nearest(e, rad) {
+      var r = plot.getBoundingClientRect(), px = e.clientX - r.left, py = e.clientY - r.top, best = null, bd = rad;
+      nodes.forEach(function (n) {
+        var dx = Math.max(0, Math.abs(px - n.cx) - Math.max(0, n.w / 2 - n.r)), dy = py - n.y, d = Math.sqrt(dx * dx + dy * dy * 0.7);
+        if (n.prog &amp;&amp; px &gt;= n.b0 - 4 &amp;&amp; px &lt;= n.b1 + 4 &amp;&amp; Math.abs(py - n.by) &lt; 9) d = Math.min(d, Math.abs(py - n.by));
+        if (d &lt; bd) { bd = d; best = n; }
+      });
+      return best;
+    }
+    function byEl(el) { var k = el &amp;&amp; el.getAttribute('data-k'); return nodes.filter(function (n) { return String(n.k) === k; })[0] || null; }
+
+    plot.addEventListener('pointerdown', function (e) { lastPointer = e.pointerType || 'mouse'; }, { passive: true });
+    plot.addEventListener('pointermove', function (e) {
+      if (e.pointerType !== 'mouse') return;
+      var n = nearest(e, 26); if (n &amp;&amp; n !== sel) select(n, false);
+      plot.style.cursor = n ? 'pointer' : '';
+    }, { passive: true });
+    plot.addEventListener('click', function (e) {
+      var btn = e.target.closest ? e.target.closest('.ev-node') : null, n;
+      if (btn &amp;&amp; e.detail === 0) n = byEl(btn);             /* keyboard activation */
+      else n = nearest(e, lastPointer === 'mouse' ? 28 : 34) || byEl(btn);
+      if (!n) return;
+      if (lastPointer !== 'mouse' &amp;&amp; e.detail !== 0 &amp;&amp; n !== sel) { select(n, false); return; }   /* touch: first tap previews */
+      select(n, false); jumpTo(n.x);
+    });
+    plot.addEventListener('focusin', function (e) { var n = byEl(e.target.closest &amp;&amp; e.target.closest('.ev-node')); if (n &amp;&amp; n !== sel) select(n, false); });
+    plot.addEventListener('keydown', function (e) {
+      if (!sel) return;
+      var i = nodes.indexOf(sel), j = null;
+      if (e.key === 'ArrowRight' || e.key === 'ArrowDown') j = i + 1; else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') j = i - 1;
+      else if (e.key === 'Home') j = 0; else if (e.key === 'End') j = nodes.length - 1;
+      if (j == null) return; e.preventDefault(); select(nodes[clamp(j, 0, nodes.length - 1)], true);
+    });
+    $('.ev-ro-go', root).addEventListener('click', function () { if (sel) jumpTo(sel.x); });
+
+    /* intro: the line draws left to right and each node settles as the line reaches it */
+    function play() {
+      if (played) return; played = true;
+      var axis = $('.ev-axis', plot), t0 = performance.now(), T = 1700;
+      var pend = $all('.ev-pre', plot).map(function (el) { var n = byEl(el); var f = el.hasAttribute('data-f') ? parseFloat(el.getAttribute('data-f')) : n ? n.f : 0; return { el: el, f: f }; });
+      (function step(now2) {
+        var k = clamp((now2 - t0) / T, 0, 1), p = 1 - Math.pow(1 - k, 3);
+        if (axis) axis.style.setProperty('--p', p.toFixed(4));
+        pend = pend.filter(function (q) { if (q.f &lt;= p + 0.004) { q.el.classList.remove('ev-pre'); return false; } return true; });
+        if (k &lt; 1) requestAnimationFrame(step); else pend.forEach(function (q) { q.el.classList.remove('ev-pre'); });
+      })(t0);
+    }
+    build();
+    if (intro) L.onVisible(plot, function (en, isIn) { if (isIn) play(); }, { once: true, threshold: 0.35 }); else played = true;
+    var lastW = W;
+    if ('ResizeObserver' in window) new ResizeObserver(function () { var w = Math.round(plot.clientWidth); if (Math.abs(w - lastW) &gt; 1) { lastW = w; if (intro &amp;&amp; !played) played = true; build(); } }).observe(plot);
+    return { filter: applyFilter };
+  }
+
+  /* =========================================================
+     FILTERS — a sliding indicator, arrow-key tabs and a calm re-layout:
+     cards that stay glide to their new place, leaving ones fade, new ones fade in.
+     ========================================================= */
+  function initFilters(rail) {
+    var bar = $('.ev-cal .filters'), grid = $('#events-grid'); if (!bar) return;
+    var btns = $all('.filter-btn', bar);
+    var ind = document.createElement('span'); ind.className = 'ev-ind'; ind.setAttribute('aria-hidden', 'true');
+    bar.insertBefore(ind, bar.firstChild); bar.classList.add('ev-ind-on');
+    function place(instant) {
+      var a = $('.filter-btn.active', bar); if (!a) return;
+      if (instant) ind.style.transition = 'none';
+      ind.style.width = a.offsetWidth + 'px'; ind.style.transform = 'translateX(' + a.offsetLeft + 'px)';
+      if (instant) { void ind.offsetWidth; ind.style.transition = ''; }
+      if (bar.scrollWidth &gt; bar.clientWidth + 2) {
+        var l = a.offsetLeft - 28, r = a.offsetLeft + a.offsetWidth + 28;
+        if (l &lt; bar.scrollLeft) bar.scrollTo({ left: l, behavior: instant || REDUCED ? 'auto' : 'smooth' });
+        else if (r &gt; bar.scrollLeft + bar.clientWidth) bar.scrollTo({ left: r - bar.clientWidth, behavior: instant || REDUCED ? 'auto' : 'smooth' });
+      }
+    }
+    function sync() { btns.forEach(function (b) { b.tabIndex = b.classList.contains('active') ? 0 : -1; }); }
+    place(true); sync();
+    if (document.fonts &amp;&amp; document.fonts.ready) document.fonts.ready.then(function () { place(true); });
+    window.addEventListener('resize', function () { place(true); }, { passive: true });
+    bar.addEventListener('click', function (e) {             /* bubbles after main.js has re-rendered */
+      if (!e.target.closest || !e.target.closest('.filter-btn')) return;
+      place(false); sync(); if (rail) rail.filter(currentFilter());
+    });
+    bar.addEventListener('keydown', function (e) {
+      var i = btns.indexOf(document.activeElement); if (i &lt; 0) return;
+      var j = e.key === 'ArrowRight' ? i + 1 : e.key === 'ArrowLeft' ? i - 1 : e.key === 'Home' ? 0 : e.key === 'End' ? btns.length - 1 : null;
+      if (j == null) return; e.preventDefault(); j = (j + btns.length) % btns.length; btns[j].focus(); btns[j].click();
+    });
+
+    if (!grid || REDUCED || !('MutationObserver' in window)) return;
+    var wrap = grid.parentElement, snap = null, E = 'cubic-bezier(.16,1,.3,1)';
+    var ghosts = document.createElement('div'); ghosts.className = 'ev-list ev-ghosts'; ghosts.setAttribute('aria-hidden', 'true'); wrap.appendChild(ghosts);
+    function key(c) { var a = c.querySelector('h3 a'); return a ? a.getAttribute('href') : ''; }
+    bar.addEventListener('click', function (e) {             /* capture: runs before main.js re-renders */
+      var b = e.target.closest ? e.target.closest('.filter-btn') : null;
+      if (!b || b.classList.contains('active') || quiet) { snap = null; return; }
+      var wr = wrap.getBoundingClientRect(), items = {}, vh = window.innerHeight;
+      $all('.event-card', grid).forEach(function (c) { var r = c.getBoundingClientRect(); items[key(c)] = { r: r, el: c, on: r.bottom &gt; -120 &amp;&amp; r.top &lt; vh + 120 }; });
+      snap = { items: items, h: grid.getBoundingClientRect().height, wr: wr };
+    }, true);
+    new MutationObserver(function () {
+      var s = snap; snap = null; if (!s) return;
+      var cards = $all('.event-card', grid), newH = grid.getBoundingClientRect().height, keep = {};
+      cards.forEach(function (c) { keep[key(c)] = 1; });
+      ghosts.innerHTML = '';
+      Object.keys(s.items).forEach(function (k) {
+        var it = s.items[k]; if (keep[k] || !it.on) return;
+        var g = it.el; g.classList.remove('ev-hl'); g.setAttribute('inert', '');
+        g.style.cssText = 'left:' + (it.r.left - s.wr.left) + 'px;top:' + (it.r.top - s.wr.top) + 'px;width:' + it.r.width + 'px;height:' + it.r.height + 'px;transition:none;opacity:1';
+        ghosts.appendChild(g);
+      });
+      cards.forEach(function (c) {
+        var it = s.items[key(c)], r = c.getBoundingClientRect();
+        c.style.transition = 'none';
+        if (it &amp;&amp; it.on) { var dx = it.r.left - r.left, dy = it.r.top - r.top; if (Math.abs(dx) + Math.abs(dy) &gt; 1) c.style.transform = 'translate(' + dx.toFixed(1) + 'px,' + dy.toFixed(1) + 'px)'; }
+        else c.style.opacity = '0';
+      });
+      grid.style.height = s.h + 'px'; grid.style.overflow = 'hidden';
+      requestAnimationFrame(function () {
+        requestAnimationFrame(function () {
+          grid.style.transition = 'height .6s ' + E; grid.style.height = newH + 'px';
+          cards.forEach(function (c) { c.style.transition = 'transform .6s ' + E + ', opacity .45s ' + E + ' .14s'; c.style.transform = ''; c.style.opacity = ''; });
+          $all('.event-card', ghosts).forEach(function (g) { g.style.transition = 'opacity .28s cubic-bezier(.2,.7,.2,1)'; g.style.opacity = '0'; });
+          clearTimeout(grid.__evT);
+          grid.__evT = setTimeout(function () { ghosts.innerHTML = ''; grid.style.height = ''; grid.style.overflow = ''; grid.style.transition = ''; cards.forEach(function (c) { c.style.transition = ''; }); }, 680);
+        });
+      });
+    }).observe(grid, { childList: true });
+  }
+
+  /* =========================================================
+     ONLINE PREP — the line follows the reader: it is drawn down to the step that is
+     crossing the reading zone (62% of the viewport); each step's node fills as the line
+     reaches it and the last node is the guide. Reduced motion: drawn and filled at once.
+     ========================================================= */
+  function initFlow() {
+    var flow = $('[data-ev-flow]'); if (!flow) return;
+    var svg = $('.ev-flow-line', flow), ink = $('.ink', svg), dots = $all('.ev-dot', flow), fr = [];
+    ink.style.setProperty('--len', 1000);
+    function layout() {
+      var box = flow.getBoundingClientRect(), a = dots[0].getBoundingClientRect(), b = dots[dots.length - 1].getBoundingClientRect();
+      var top = a.top + a.height / 2 - box.top, bot = b.top + b.height / 2 - box.top, h = Math.max(1, bot - top);
+      svg.style.top = top.toFixed(1) + 'px'; svg.style.height = h.toFixed(1) + 'px';
+      fr = dots.map(function (d) { var r = d.getBoundingClientRect(); return (r.top + r.height / 2 - box.top - top) / h; });
+      update();
+    }
+    function update() {
+      var p = 1;
+      if (!REDUCED) { var r = svg.getBoundingClientRect(); p = clamp((window.innerHeight * 0.62 - r.top) / Math.max(1, r.height), 0, 1); }
+      ink.style.setProperty('--p', p.toFixed(4));
+      dots.forEach(function (d, i) { d.classList.toggle('on', p &gt; 0 &amp;&amp; p &gt;= fr[i] - 0.005); });
+    }
+    var tick = false;
+    window.addEventListener('scroll', function () { if (tick) return; tick = true; requestAnimationFrame(function () { tick = false; update(); }); }, { passive: true });
+    window.addEventListener('resize', layout, { passive: true });
+    if (document.fonts &amp;&amp; document.fonts.ready) document.fonts.ready.then(layout);
+    layout();
+  }
+
+  /* four kinds: the hairlines draw in as the list arrives */
+  function initKinds() {
+    var list = $('.ev-kinds-list'); if (!list || REDUCED) return;
+    var r = list.getBoundingClientRect(); if (r.top &lt; window.innerHeight * 0.9) return;
+    list.classList.add('ev-pre');
+    L.onVisible(list, function (en, isIn) { if (isIn) list.classList.remove('ev-pre'); }, { once: true, threshold: 0.12 });
+    setTimeout(function () { list.classList.remove('ev-pre'); }, 9000);
+  }
+
+  /* close: the same next event as the countdown */
+  function initClose(next) {
+    var box = $('[data-ev-close-next]'); if (!box || !next) return;
+    $('[data-ev-next-title]', box).textContent = next.ev.title;
+    $('[data-ev-next-sub]', box).textContent = next.ev.dateText + ' · ' + (next.ev.venue || next.ev.location || '');
+    var a = $('[data-ev-next-link]', box);
+    if (a &amp;&amp; next.ev.link) { a.href = next.ev.link; if (isExternal(next.ev.link)) { a.target = '_blank'; a.rel = 'noopener'; } }
+  }
+
+  function init() {
+    L = window.TRELayer || { reduced: window.matchMedia &amp;&amp; matchMedia('(prefers-reduced-motion: reduce)').matches, onVisible: function (el, cb) { cb(null, true); } };
+    REDUCED = !!L.reduced;
+    var list = readEvents(), next = nextOf(list), rail = null;
+    try { rail = initRail(list, next); } catch (e) { var r = $('[data-ev-rail]'); if (r) r.hidden = true; }
+    initFilters(rail);
+    initFlow();
+    initKinds();
+    initClose(next);
+  }
+  document.addEventListener('DOMContentLoaded', function () { setTimeout(init, 0); });
+})();
+</script>
+</main><footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="footer-wordmark">TRE™ in Singapore</span>
+        <p>Release stress, strengthen resilience, improve wellbeing. The home of TRE™ practitioners, trainees and first-timers in Singapore.</p>
+              <div class="socials" aria-label="Social media">
+        <a href="https://www.instagram.com/isabelleclausteixeira_bhd/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+        <a href="https://www.linkedin.com/in/isabelleclausteixeira/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewbox="0 0 24 24" fill="currentColor"><path d="M6.5 8.5H3.5V21h3V8.5zM5 3.5a1.75 1.75 0 1 0 0 3.5 1.75 1.75 0 0 0 0-3.5zM21 13.6c0-3.4-1.8-5.3-4.5-5.3-2 0-3 1.1-3.5 1.9V8.5h-3V21h3v-6.6c0-1.7.6-2.9 2.2-2.9 1.5 0 1.9 1.2 1.9 2.9V21H21v-7.4z"/></svg></a>
+        <a href="https://www.youtube.com/@IsabelleClausTeixeira" target="_blank" rel="noopener" aria-label="YouTube"><svg viewbox="0 0 24 24" fill="currentColor"><path d="M23 7.2c-.3-1.2-1.1-2-2.3-2.3C18.9 4.5 12 4.5 12 4.5s-6.9 0-8.7.4C2.1 5.2 1.3 6 1 7.2.6 9 .6 12 .6 12s0 3 .4 4.8c.3 1.2 1.1 2 2.3 2.3 1.8.4 8.7.4 8.7.4s6.9 0 8.7-.4c1.2-.3 2-1.1 2.3-2.3.4-1.8.4-4.8.4-4.8s0-3-.4-4.8zM9.8 15.5v-7l6 3.5-6 3.5z"/></svg></a>
+        <a href="https://www.facebook.com/bhdasia/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewbox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7.5h2.6l.4-3h-3V8.6c0-.9.3-1.5 1.5-1.5h1.6V4.4c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4v2.2H7.8v3h2.6V21h3.1z"/></svg></a>
+      </div>
+      </div>
+      <div>
+        <h2>Explore</h2>
+        <ul class="footer-links">
+          <li><a href="./">Home</a></li>
+          <li><a href="events">Events</a></li>
+          <li><a href="about">About</a></li>
+          <li><a href="blog">Blog</a></li>
+          <li><a href="education">Education</a></li>
+          <li><a href="contact">Contact</a></li>
+          <li><a href="online-session-guide">Online session guide</a></li>
+          <li><a href="facilitators">Providers</a></li>
+          <li><a href="facilitators#get-listed">Get listed</a></li>
+          <li><a href="education#certification">Certification</a></li>
+          <li><a href="https://hummingbeing.com/" target="_blank" rel="noopener">HummingBeing</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Contact</h2>
+        <ul class="footer-contact">
+          <li><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><a href="mailto:bonjour@bhdasia.com">bonjour@bhdasia.com</a></li>
+          <li><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.8 2z"/></svg><a href="https://wa.me/818065151778" target="_blank" rel="noopener">+81 80 6515 1778 (WhatsApp)</a></li>
+          <li><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg><span>Business &amp; Human Development Consulting Pte Ltd<br/>50 Raffles Place, Singapore Land Tower <span class="nowrap">#30-00,</span> Singapore 048623</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span data-year="">2026</span> Business &amp; Human Development Consulting Pte Ltd · TRE™ in Singapore. TRE™ is a registered trademark of TRE For All, Inc. Method created by Dr. David Berceli.</p>
+      <p class="footer-powered">Powered by <a href="https://technext.asia" target="_blank" rel="noopener">TechNext</a></p>
+    </div>
+  </div>
+</footer><a class="wa-float" href="https://wa.me/818065151778" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewbox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 12 12 0 0 0 4.6 4c1.7.7 2.1.6 2.8.5.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2 0-.1-.2-.2-.4-.3z"/></svg>
+</a><script>window.TRE_STATIC={"events":["tre-provider-certification-singapore","tre-module-1-bucharest","from-shaking-to-shaping-bucharest","feminine-masculine-energetics-corporate","the-body-in-the-room","breath-as-medicine","tre-module-3-singapore","tre-provider-certification-2027-singapore","from-shaking-to-shaping-online","tre-module-2-singapore","from-shaking-to-shaping-online-sep3","internal-alchemy-singapore","nervous-system-regulation-coaches-singapore"],"facilitators":["isabelle-claus-teixeira","yan","nikki-tay","rina-ho"]};</script><script>window.TRE_EVENT_POSTS={};</script><script>window.TRE_IMG={"assets/img/events/event-body-in-the-room.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-body-in-the-room.webp":[1920,1080,[480,960],1],"assets/img/events/event-body-in-the-room-portrait.webp":[1080,1350,[540],1],"assets/img/events/event-breath-as-medicine.webp":[1493,840,[480,960],1],"assets/img/events/card-event-breath-as-medicine.webp":[1920,1080,[480,960],1],"assets/img/events/event-certification-2027.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-certification-2027.webp":[1920,1080,[480,960],1],"assets/img/events/event-certification-2027-portrait.webp":[1080,1350,[540],1],"assets/img/events/event-transform-practice.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-transform-practice.webp":[1920,1080,[480,960],1],"assets/img/events/event-shaking-to-shaping.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-shaking-to-shaping.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-shaking-to-shaping-sep3.webp":[1920,1080,[480,960],1],"assets/img/events/event-shaking-online.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-shaking-online.webp":[1920,1080,[480,960],1],"assets/img/events/event-feminine-masculine.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-feminine-masculine.webp":[1920,1080,[480,960],1],"assets/img/events/event-feminine-masculine-portrait.webp":[1080,1350,[540],1],"assets/img/events/event-bucharest-module1.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-bucharest-module1.webp":[1920,1080,[480,960],1],"assets/img/events/event-nervous-system.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-nervous-system.webp":[1920,1080,[480,960],1],"assets/img/events/event-internal-alchemy.webp":[1920,1080,[480,960],1],"assets/img/events/card-event-internal-alchemy.webp":[1920,1080,[480,960],1],"assets/img/facilitators/isabelle-her-story.jpg":[850,1280,[160,400],1],"assets/img/facilitators/gallery-isabelle-teaching-tre.jpg":[1200,1600,[400,800],1],"assets/img/facilitators/gallery-isabelle-students-module1-may2026.jpg":[1600,1200,[400,800,1200],1],"assets/img/facilitators/gallery-tre-module1-2026.jpg":[1600,2844,[400,800,1200],1],"assets/img/facilitators/gallery-ws-1.jpg":[1600,1200,[400,800,1200],1],"assets/img/facilitators/gallery-danang-tre-conference-nov2025.jpg":[1600,1200,[400,800,1200],1],"assets/img/facilitators/gallery-dinner-david-berceli-founders.jpg":[929,959,[400,800],1],"assets/img/facilitators/gallery-asia-tre-trainers-david.jpg":[1600,1380,[400,800,1200],1],"assets/img/facilitators/gallery-isabelle-vietnam-tre.jpg":[1368,1368,[400,800,1200],1],"assets/img/facilitators/gallery-uk-tre-providers.jpg":[1200,1600,[400,800],1],"assets/img/facilitators/gallery-ws-2.jpg":[1200,1600,[400,800],1],"assets/img/facilitators/isabelle-global-journey.jpg":[850,1280,[400],1],"assets/img/facilitators/yan.webp":[1600,1066,[160,400,800],1],"assets/img/facilitators/nikki-tay.webp":[1254,1254,[160,400,800],1],"assets/img/facilitators/rina-ho.webp":[1000,1000,[160,400,800],1]};window.TRE_HERO_AVIF=["hero-education","hero-events","hero-facilitators"];</script><script src="assets/js/events-data.js?v=20261014a"/><script src="assets/js/facilitators-data.js?v=20261014a"/><script src="assets/js/main.js?v=20261014a"/><script src="assets/js/layer.js?v=20261014a"/><script src="assets/js/chatbot.js?v=20261014a"/></t></t>

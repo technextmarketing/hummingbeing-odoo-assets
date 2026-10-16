@@ -616,7 +616,8 @@
    "title": "TRE™ & Somatic Coaching in Singapore & Online | HummingBeing",
    "description": "TRE™ (Tension & Trauma Releasing Exercises), somatic coaching and mindfulness with Isabelle Claus Teixeira — in person in Singapore and Japan, and online.",
    "og": "/hb/images/isabelle-her-story.jpg",
-   "arch": "pages/index.xml"
+   "arch": "pages/index.xml",
+   "indexed": true
   },
   {
    "slug": "about",
@@ -626,7 +627,8 @@
    "title": "About HummingBeing | Science-Backed Somatic Practice",
    "description": "HummingBeing brings together TRE™, somatic practice, coaching and mindfulness: neuroscience-based, trauma-informed, built on 30 years of human development work.",
    "og": "/hb/images/about-hummingbird-metaphor.jpg",
-   "arch": "pages/about.xml"
+   "arch": "pages/about.xml",
+   "indexed": true
   },
   {
    "slug": "book",
@@ -636,7 +638,8 @@
    "title": "Book a TRE™ or Coaching Session | Free Discovery Call",
    "description": "Book a free 30-minute discovery call with Isabelle Claus Teixeira, or the 8-week coaching package (S$2,300). TRE™ and coaching in Singapore, Japan and on Zoom.",
    "og": "/hb/images/isabelle-her-story.jpg",
-   "arch": "pages/book.xml"
+   "arch": "pages/book.xml",
+   "indexed": true
   },
   {
    "slug": "gallery",
@@ -646,7 +649,8 @@
    "title": "Gallery: TRE™ Trainings, Workshops & Podcast | HummingBeing",
    "description": "Photos, session videos and podcast interviews with Isabelle Claus Teixeira — a genuine feel for the HummingBeing somatic approach.",
    "og": "/hb/images/isabelle-her-story.jpg",
-   "arch": "pages/gallery.xml"
+   "arch": "pages/gallery.xml",
+   "indexed": true
   },
   {
    "slug": "holistic-mastermind",
@@ -656,7 +660,8 @@
    "title": "Holistic Mastermind: Somatic Coaching for Leaders",
    "description": "Four-pillar coaching for leaders: mind, body, energy and vision. Neuroscience-backed somatic coaching with Isabelle Claus Teixeira, in person or online.",
    "og": "/hb/images/isabelle-her-story.jpg",
-   "arch": "pages/holistic-mastermind.xml"
+   "arch": "pages/holistic-mastermind.xml",
+   "indexed": true
   },
   {
    "slug": "isabelle",
@@ -666,7 +671,8 @@
    "title": "Isabelle Claus Teixeira | Global TRE™ Certifying Trainer",
    "description": "Meet Isabelle Claus Teixeira — Global TRE™ Certifying Trainer, ICF PCC Executive Coach and Somatic Coach with 30 years across 9 countries.",
    "og": "/hb/images/isabelle-her-story.jpg",
-   "arch": "pages/isabelle.xml"
+   "arch": "pages/isabelle.xml",
+   "indexed": true
   },
   {
    "slug": "online-session-preparation",
@@ -676,7 +682,8 @@
    "title": "Preparing for Your Online TRE™ Session | HummingBeing",
    "description": "How to prepare for an online TRE™ session with HummingBeing — camera positioning, what to bring, lighting, dress code, your support person and joining on Zoom.",
    "og": "/hb/poster-tre.jpg",
-   "arch": "pages/online-session-preparation.xml"
+   "arch": "pages/online-session-preparation.xml",
+   "indexed": true
   },
   {
    "slug": "retreats-workshops",
@@ -686,7 +693,8 @@
    "title": "Somatic Retreats & TRE™ Workshops | Singapore & Japan",
    "description": "TRE™ workshops, somatic retreats and corporate wellness with Isabelle Claus Teixeira — from half-day sessions to multi-day retreats in Singapore and Japan.",
    "og": "/hb/images/isabelle-her-story.jpg",
-   "arch": "pages/retreats-workshops.xml"
+   "arch": "pages/retreats-workshops.xml",
+   "indexed": true
   },
   {
    "slug": "socials",
@@ -696,7 +704,8 @@
    "title": "Follow HummingBeing | Isabelle Claus Teixeira",
    "description": "Follow Isabelle Claus Teixeira across Instagram, LinkedIn, YouTube and more — somatic wellness, TRE™ practices and leadership insights.",
    "og": "/hb/images/isabelle-her-story.jpg",
-   "arch": "pages/socials.xml"
+   "arch": "pages/socials.xml",
+   "indexed": true
   },
   {
    "slug": "tre-certification",
@@ -706,7 +715,8 @@
    "title": "TRE™ Certification Singapore | Become a TRE™ Provider",
    "description": "Become a Global TRE™ Certified Provider in Singapore. The 2027 cohort starts 27–28 Feb with Isabelle Claus Teixeira & Simba Stenqvist. Early bird from S$1,888.",
    "og": "/hb/images/isabelle-her-story.jpg",
-   "arch": "pages/tre-certification.xml"
+   "arch": "pages/tre-certification.xml",
+   "indexed": true
   }
  ],
  "views": [
@@ -734,6 +744,7 @@
   "/index": "/",
   "/contactus": "/book",
   "/contact": "/book",
+  "/index.html": "/",
   "/about.html": "/about",
   "/book.html": "/book",
   "/gallery.html": "/gallery",
@@ -743,5 +754,6 @@
   "/retreats-workshops.html": "/retreats-workshops",
   "/socials.html": "/socials",
   "/tre-certification.html": "/tre-certification"
- }
+ },
+ "cache": true
 }
