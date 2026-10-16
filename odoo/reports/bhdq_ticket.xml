@@ -26,9 +26,7 @@
 <t t-set="date_html"><t t-out="event.date_begin" t-options="{'widget': 'datetime', 'tz_name': event.date_tz, 'format': 'd MMM y'}"/><t t-if="multi"> – <t t-out="event.date_end" t-options="{'widget': 'datetime', 'tz_name': event.date_tz, 'format': 'd MMM y'}"/></t></t>
 <t t-set="time_html"><t t-if="multi"><t t-out="tz_multi"/></t><t t-else=""><span class="lc"><t t-if="a_b == a_e"><t t-out="event.date_begin" t-options="{'widget': 'datetime', 'tz_name': event.date_tz, 'format': 'h:mm'}"/></t><t t-else=""><t t-out="event.date_begin" t-options="{'widget': 'datetime', 'tz_name': event.date_tz, 'format': 'h:mm a'}"/></t>–<t t-out="event.date_end" t-options="{'widget': 'datetime', 'tz_name': event.date_tz, 'format': 'h:mm a'}"/></span> <t t-out="tz_single"/></t></t>
 <div t-attf-class="bq bq-#{brand}">
-<style>body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !important; margin:0 !important; max-width:none !important; width:auto !important; }
-.bq table, .bq thead, .bq tbody, .bq tfoot, .bq tr, .bq th, .bq td { border-style:none; border-width:0; }
-
+<style>
 
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@600;700');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700');
@@ -36,6 +34,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700');
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600');
+
+body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !important; margin:0 !important; max-width:none !important; width:auto !important; }
+.bq table, .bq thead, .bq tbody, .bq tfoot, .bq tr, .bq th, .bq td { border-style:none; border-width:0; }
 /* bhd */
 .bq-bhd * { box-sizing: border-box; -webkit-box-sizing: border-box; }
 .bq-bhd { background: #fff; font-size: 12px; line-height: 1.5; color: #4a5568; font-family: 'DM Sans', 'Segoe UI', sans-serif; width: 794px; }
@@ -615,7 +616,8 @@
 <t t-set="fwid" t-value="(fso and fso.website_id.id) or (attendee.visitor_id and attendee.visitor_id.website_id.id) or 1"/>
 <t t-set="fbrand" t-value="{1:'bhd',2:'hb',3:'tre'}.get(fwid,'bhd')"/>
 <t t-set="fsite" t-value="{'bhd':'bhdasia.com','hb':'hummingbeing.com','tre':'tre-in-singapore.com'}[fbrand]"/>
-<style>body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !important; margin:0 !important; max-width:none !important; width:auto !important; }
+<style>
+body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !important; margin:0 !important; max-width:none !important; width:auto !important; }
 .bq table, .bq thead, .bq tbody, .bq tfoot, .bq tr, .bq th, .bq td { border-style:none; border-width:0; }
 
 
