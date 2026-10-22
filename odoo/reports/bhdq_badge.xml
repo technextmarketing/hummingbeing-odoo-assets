@@ -1,26 +1,20 @@
 <t t-name="bhdq.badge_a6">
 <t t-set="so" t-value="attendee and attendee.sudo().sale_order_id"/>
-<t t-set="wid" t-value="(so and so.website_id.id) or (attendee and attendee.visitor_id and attendee.visitor_id.website_id.id) or 1"/>
-<t t-set="brand" t-value="event.env.context.get('bhdq_brand') or {1:'bhd',2:'hb',3:'tre'}.get(wid,'bhd')"/>
+<t t-set="wid" t-value="(so and so.website_id.id) or (attendee and attendee.visitor_id and attendee.visitor_id.website_id.id) or event.website_id.id or 1"/>
+<t t-set="brand" t-value="(event.env.context.get('bhdq_brand') if (event.env.context.get('bhdq_brand') in ('bhd','hb','tre') and event.env.user.has_group('base.group_system')) else False) or {1:'bhd',2:'hb',3:'tre'}.get(wid,'bhd')"/>
 <t t-set="site" t-value="{'bhd':'bhdasia.com','hb':'hummingbeing.com','tre':'tre-in-singapore.com'}[brand]"/><t t-set="cmp" t-value="event.company_id or event.env.company"/><t t-set="cmp_l1" t-value="', '.join([x for x in [cmp.street, cmp.street2] if x])"/><t t-set="cmp_l2" t-value="' '.join([x for x in [cmp.city, cmp.zip] if x]) + ((', ' + cmp.country_id.name) if cmp.country_id and cmp.country_id.name != cmp.city else '')"/>
-<t t-set="logo_src" t-value="{'bhd':'/web/content/1640','hb':'/web/content/1535','tre':'/web/content/1435'}[brand]"/>
-<t t-set="lw" t-value="{'bhd':118,'hb':170,'tre':150}[brand]"/>
-<t t-set="lh" t-value="{'bhd':92,'hb':46,'tre':82}[brand]"/>
-<t t-set="nm" t-value="event.env.context.get('bhdq_test_name') or (attendee and attendee.name) or 'Attendee Name'"/>
-<t t-set="nm_cls" t-value="'xl' if len(nm) &lt;= 16 else ('l' if len(nm) &lt;= 24 else 'm')"/>
+<t t-set="logo_src" t-value="{'bhd':'/web/content/1640','hb':'/web/content/1659','tre':'/web/content/1435'}[brand]"/>
+<t t-set="lw" t-value="{'bhd':118,'hb':172,'tre':150}[brand]"/>
+<t t-set="lh" t-value="{'bhd':92,'hb':50,'tre':82}[brand]"/>
+<t t-set="nm" t-value="(event.env.context.get('bhdq_test_name') if event.env.user.has_group('base.group_system') else False) or (attendee and attendee.name) or 'Attendee Name'"/>
+<t t-set="nm_cls" t-value="'xl' if len(nm) &lt;= 16 else ('l' if len(nm) &lt;= 24 else ('m' if len(nm) &lt;= 32 else 's'))"/>
 <t t-set="ttype" t-value="(attendee and attendee.event_ticket_id.name) or (event.event_ticket_ids[:1].name) or 'Attendee'"/>
 <t t-set="org" t-value="event.organizer_id.name or cmp.name"/>
 <t t-set="multi" t-value="not event.is_one_day"/>
 <t t-set="where_txt" t-value="'Online' if not event.address_id else (event.address_id.city or event.address_id.name)"/>
 <t t-set="code" t-value="attendee and attendee.barcode"/>
-<div t-attf-class="bb bb-#{brand}">
+<div t-attf-class="bb bb-#{brand}"><style t-if="brand == 'bhd'">@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600;700');@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700');</style><style t-if="brand == 'hb'">@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600');@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700');</style><style t-if="brand == 'tre'">@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800');@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600');</style>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600;700');
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700');
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600');
 body.container, body.o_body_html { padding:0 !important; margin:0 !important; max-width:none !important; width:auto !important; background:#fff !important; }
 .bb { width: 794px; height: 1122px; position: relative; page-break-after: always; overflow: hidden; }
 .bb table { border-collapse: collapse; border-spacing: 0; width: 100%; }
@@ -35,7 +29,7 @@ body.container, body.o_body_html { padding:0 !important; margin:0 !important; ma
 .bb .body { padding: 0 34px; text-align: center; }
 .bb .mid td { vertical-align: middle; text-align: center; }
 .bb .nm { line-height: 1.08; word-wrap: break-word; margin-top: 0 !important; }
-.bb .nm.xl { font-size: 38px; } .bb .nm.l { font-size: 31px; } .bb .nm.m { font-size: 25px; }
+.bb .nm.xl { font-size: 38px; } .bb .nm.l { font-size: 31px; } .bb .nm.m { font-size: 25px; } .bb .nm.s { font-size: 21px; }
 .bb .pill { display: inline-block; font-size: 10.5px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; padding: 4px 14px; border-radius: 20px; white-space: nowrap; }
 .bb .evn { font-size: 13.5px; line-height: 1.35; }
 .bb .evd { font-size: 11px; letter-spacing: .4px; margin-top: 5px; }
@@ -43,7 +37,7 @@ body.container, body.o_body_html { padding:0 !important; margin:0 !important; ma
 .bb .qrw { text-align: center; padding-bottom: 12px; }
 .bb .qrb { display: inline-block; background: #fff; padding: 5px; }
 .bb .qrw img { width: 84px !important; height: 84px !important; }
-.bb .qrn { font-size: 8px; letter-spacing: .4px; margin-top: 3px; }
+.bb .qrn { font-size: 9px; letter-spacing: .4px; margin-top: 3px; }
 .bb .ft { font-size: 9.5px; letter-spacing: .5px; padding: 10px 24px; }
 .bb .ft td.r { text-align: right; }
 /* ---- BHD Asia ---- */
@@ -70,7 +64,7 @@ body.container, body.o_body_html { padding:0 !important; margin:0 !important; ma
 .bb-hb .orn .od i { display: block; width: 7px; height: 7px; margin: 0 auto; background: #F5A623; -webkit-transform: rotate(45deg); transform: rotate(45deg); }
 .bb-hb .nm { font-family: 'Playfair Display', Georgia, serif; font-weight: 500; color: #242e42; margin-top: 30px; }
 .bb-hb .pill { border: 1px solid #F5A623; background: #FEF4E5; color: #242e42; margin-top: 16px; }
-.bb-hb .evn { font-family: 'Playfair Display', Georgia, serif; font-style: italic; font-size: 16px; color: #c98000; margin-top: 0; }
+.bb-hb .evn { font-family: 'Playfair Display', Georgia, serif; font-style: italic; font-size: 16px; color: #a86a00; margin-top: 0; }
 .bb-hb .evd { color: #5f6472; text-transform: uppercase; font-weight: 700; letter-spacing: 1.2px; font-size: 9.5px; margin-top: 7px; }
 .bb-hb .qrb { border: 1px solid #FCE6C1; }
 .bb-hb .qrn { color: #5f6472; }
@@ -79,7 +73,7 @@ body.container, body.o_body_html { padding:0 !important; margin:0 !important; ma
 /* ---- TRE Singapore ---- */
 .bb-tre .card { background: #faf6ef; border: 1px solid #e4dfd6; border-radius: 18px; font-family: 'Inter', 'Segoe UI', Arial, sans-serif; color: #2c3a52; }
 .bb-tre .hd { padding-top: 22px; height: 106px; }
-.bb-tre .nmbox { background: #1c3d7a; border-radius: 16px; border-left: 6px solid #b89a72; margin: 0; padding: 26px 18px 24px 18px; }
+.bb-tre .nmbox { background: #1c3d7a; border-radius: 16px; box-shadow: inset 6px 0 0 #b89a72; margin: 0; padding: 26px 18px 24px 18px; }
 .bb-tre .nm { font-family: 'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif; font-weight: 800; color: #ffffff; letter-spacing: -0.6px; }
 .bb-tre .pill { background: #f3e8d2; color: #132b56; border: 1px solid #b89a72; margin-top: 13px; font-family: 'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif; }
 .bb-tre .evn { font-family: 'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif; font-weight: 800; color: #1c3d7a; margin-top: 0; }
@@ -106,7 +100,7 @@ body.container, body.o_body_html { padding:0 !important; margin:0 !important; ma
 </div>
 </td></tr></table>
 <div class="rule" t-if="brand == 'bhd'"></div>
-<div class="evn"><t t-out="event.name"/></div>
+<div class="evn"><t t-out="(event.name.rsplit(' ', 1)[0] + '\u00a0' + event.name.rsplit(' ', 1)[1]) if ' ' in (event.name or '') else event.name"/></div>
 <div class="evd"><t t-out="event.date_begin" t-options="{'widget': 'datetime', 'tz_name': event.date_tz, 'format': 'd MMM y'}"/><t t-if="multi"> – <t t-out="event.date_end" t-options="{'widget': 'datetime', 'tz_name': event.date_tz, 'format': 'd MMM y'}"/></t> · <t t-out="where_txt"/></div>
 </div>
 <div class="bottom">

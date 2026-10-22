@@ -1,12 +1,12 @@
 <t t-name="bhdq.order_document">
 <div class="article" t-att-data-oe-model="doc._name" t-att-data-oe-id="doc.id" t-att-data-oe-lang="doc.env.context.get('lang')">
 <t t-set="wid" t-value="doc.website_id.id or 1"/>
-<t t-set="brand" t-value="doc.env.context.get('bhdq_brand') or {1:'bhd',2:'hb',3:'tre'}.get(wid,'bhd')"/>
+<t t-set="brand" t-value="(doc.env.context.get('bhdq_brand') if (doc.env.context.get('bhdq_brand') in ('bhd','hb','tre') and doc.env.user.has_group('base.group_system')) else False) or {1:'bhd',2:'hb',3:'tre'}.get(wid,'bhd')"/>
 <t t-set="site" t-value="{'bhd':'bhdasia.com','hb':'hummingbeing.com','tre':'tre-in-singapore.com'}[brand]"/><t t-set="cmp" t-value="doc.company_id or doc.env.company"/><t t-set="cmp_l1" t-value="', '.join([x for x in [cmp.street, cmp.street2] if x])"/><t t-set="cmp_l2" t-value="' '.join([x for x in [cmp.city, cmp.zip] if x]) + ((', ' + cmp.country_id.name) if cmp.country_id and cmp.country_id.name != cmp.city else '')"/>
 <t t-set="brand_name" t-value="{'bhd':'BHD Asia','hb':'HummingBeing','tre':'TRE Singapore'}[brand]"/>
-<t t-set="logo_src" t-value="{'bhd':'/web/content/1640','hb':'/web/content/1535','tre':'/web/content/1435'}[brand]"/>
-<t t-set="lw" t-value="{'bhd':100,'hb':169,'tre':165}[brand]"/>
-<t t-set="lh" t-value="{'bhd':78,'hb':46,'tre':90}[brand]"/>
+<t t-set="logo_src" t-value="{'bhd':'/web/content/1640','hb':'/web/content/1659','tre':'/web/content/1435'}[brand]"/>
+<t t-set="lw" t-value="{'bhd':100,'hb':172,'tre':138}[brand]"/>
+<t t-set="lh" t-value="{'bhd':78,'hb':50,'tre':62}[brand]"/>
 <t t-set="is_quote" t-value="doc.state in ('draft','sent')"/>
 <t t-set="is_cancel" t-value="doc.state == 'cancel'"/>
 <t t-set="is_pf" t-value="bool(is_pro_forma)"/>
@@ -19,9 +19,9 @@
 <t t-set="sub_txt" t-value="'Pro forma, not a tax invoice.' if is_pf else 'This order has been cancelled.' if is_cancel else ('Here is your quotation.' if is_quote else 'Thank you, your order is confirmed.')"/>
 <t t-set="partner" t-value="doc.partner_invoice_id"/>
 <t t-set="evs" t-value="doc.order_line.mapped('event_id')"/>
-<t t-set="lines" t-value="doc.order_line.filtered(lambda l: not l.display_type and not l.is_reward_line)"/>
-<t t-set="all_lines" t-value="doc.order_line.filtered(lambda l: not l.is_reward_line)"/>
-<t t-set="rewards" t-value="doc.order_line.filtered(lambda l: l.is_reward_line and not l.display_type)"/>
+<t t-set="lines" t-value="doc.order_line.filtered(lambda l: not l.display_type and not ('is_reward_line' in l._fields and l.is_reward_line))"/>
+<t t-set="all_lines" t-value="doc.order_line.filtered(lambda l: not ('is_reward_line' in l._fields and l.is_reward_line))"/>
+<t t-set="rewards" t-value="doc.order_line.filtered(lambda l: ('is_reward_line' in l._fields and l.is_reward_line) and not l.display_type)"/>
 <t t-set="tax_f" t-value="'tax_ids' if 'tax_ids' in lines._fields else 'tax_id'"/><t t-set="tax_names" t-value="lines.mapped(tax_f).filtered(lambda t: t.amount).mapped('tax_group_id.name')"/><t t-set="tax_lbl" t-value="'Tax' + ((' (' + ', '.join(sorted(set(tax_names))) + ')') if tax_names else '')"/>
 <t t-set="subtotal" t-value="sum(lines.mapped('price_subtotal'))"/>
 <t t-set="disc" t-value="sum(rewards.mapped('price_subtotal'))"/>
@@ -30,19 +30,13 @@
 <t t-set="portal_url" t-value="(doc.get_base_url() + doc.get_portal_url()) if show_pay else ''"/>
 <t t-set="portal_qr" t-value="portal_url.replace('%','%25').replace('&amp;','%26').replace('?','%3F').replace('=','%3D').replace('#','%23').replace('+','%2B')"/>
 <t t-set="pill_html"><span t-attf-class="pill#{' cancel' if is_cancel else ''}"><i></i><t t-out="st_label"/></span></t>
-<div t-attf-class="bq bq-#{brand}">
-<div class="header bqh"><style t-if="brand == 'hb'">html, body { background: #fafaf8 !important; }</style><style t-if="brand == 'tre'">html, body { background: #faf6ef !important; }</style></div><div t-if="brand in ('hb','tre')" t-attf-style="position:fixed; left:0; top:-40px; width:794px; height:1300px; z-index:-1; background:#{'#fafaf8' if brand == 'hb' else '#faf6ef'};"></div>
+<div t-attf-class="bq bq-#{brand}"><style t-if="brand == 'bhd'">@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600;700');@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700');</style><style t-if="brand == 'hb'">@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600');@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700');</style><style t-if="brand == 'tre'">@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800');@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600');</style>
+<t t-set="run_txt" t-value="('Pro Forma Invoice' if is_pf else ('Quotation' if is_quote else 'Order')) + ' ' + doc.name + ' · ' + (partner.name or '')"/><div class="header bqh"><style t-if="brand == 'bhd'">@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600;700');@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700');</style><style t-if="brand == 'hb'">@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600');@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700');</style><style t-if="brand == 'tre'">@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800');@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600');</style><t t-set="run_font" t-value="{'bhd':'Sora, Arial, sans-serif','hb':'Lato, Arial, sans-serif','tre':'Inter, Arial, sans-serif'}[brand]"/><t t-set="run_ink" t-value="{'bhd':'#0b2238','hb':'#242e42','tre':'#1c3d7a'}[brand]"/><t t-set="run_acc" t-value="{'bhd':'#E8B830','hb':'#F5A623','tre':'#b89a72'}[brand]"/><div class="not-first-page" t-attf-style="padding:20px 60px 0 60px; font-family:#{run_font}; color:#{run_ink};"><table style="width:674px; border-collapse:collapse; border:0;"><tr><td style="text-align:left; padding:0 0 7px 0; border:0; font-size:10px; font-weight:700; letter-spacing:1.2px; text-transform:uppercase;"><t t-out="{'bhd':'BHD Asia','hb':'HummingBeing','tre':'TRE Singapore'}[brand]"/></td><td style="text-align:right; padding:0 0 7px 0; border:0; font-size:10px;"><t t-out="run_txt"/> <span t-attf-style="color:#{run_acc};">· continued</span></td></tr></table><div t-attf-style="height:2px; background:#{run_acc};"></div></div><script>(function(){var q=document.location.search.substring(1).split('&amp;'),v={};for(var i=0;i&lt;q.length;i++){var z=q[i].split('=',2);v[z[0]]=unescape(z[1]);}if(v.sitepage==='1'){var e=document.getElementsByClassName('not-first-page');for(var j=0;j&lt;e.length;j++){e[j].style.visibility='hidden';}}})();</script></div>
 <style>
-
-@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600;700');
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700');
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600');
-
 body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !important; margin:0 !important; max-width:none !important; width:auto !important; }
 .bq table, .bq thead, .bq tbody, .bq tfoot, .bq tr, .bq th, .bq td { border-style:none; border-width:0; }
+
+
 /* bhd */
 .bq-bhd * { box-sizing: border-box; -webkit-box-sizing: border-box; }
 .bq-bhd { background: #fff; font-size: 12px; line-height: 1.5; color: #4a5568; font-family: 'DM Sans', 'Segoe UI', sans-serif; width: 794px; }
@@ -50,7 +44,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 .bq-bhd td, .bq-bhd th { padding: 0; vertical-align: top; text-align: left; }
 .bq-bhd p { margin: 0; }
 .bq-bhd img { display: block; }
-.bq-bhd .page { position: relative; width: 794px; background: #ffffff; min-height: 1026px; }
+.bq-bhd .page { position: relative; width: 794px; background: #ffffff; min-height: 1010px; }
 .bq-bhd .inner { padding: 0 60px; }
 .bq-bhd .num { text-align: right !important; white-space: nowrap; -webkit-font-feature-settings: "tnum" 1; font-feature-settings: "tnum" 1; }
 .bq-bhd .r { text-align: right; }
@@ -186,7 +180,23 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 .bq-bhd .info-title { font-family: 'Sora', 'Segoe UI', sans-serif; font-weight: 700; font-size: 18px; color: #0b2238; border-bottom: 2px solid #E8B830; padding-bottom: 7px; margin-bottom: 16px; }
 .bq-bhd .tk .tk-pill .pill { background: #FAF7F4; border: 1px solid #E5DDD5; color: #0b2238; font-size: 10px; border-radius: 4px; text-transform: none; letter-spacing: .3px; font-weight: 500; padding: 3px 10px; }
 .bq-bhd .tk .tk-pill .pill i { background: #E8B830; }
-.bq-bhd .hd { padding-top: 4px; }
+.bq-bhd .hd { padding-top: 0; }
+.bq-bhd thead { display: table-header-group; }
+.bq-bhd tr, .bq-bhd .ev, .bq-bhd .pay, .bq-bhd .party, .bq-bhd .steps, .bq-bhd .totals, .bq-bhd .totals-card, .bq-bhd .terms, .bq-bhd .keep { page-break-inside: avoid; }
+.bq-bhd .lc { white-space: nowrap; }
+.bq-bhd .k, .bq-bhd .ev .evk, .bq-bhd .pay td.pk, .bq-bhd .lines th { font-size: 10px; }
+.bq-bhd .hd .mk { font-size: 9.5px; }
+.bq-bhd .lines .att { font-size: 11px; }
+.bq-bhd .terms { font-size: 11px; }
+.bq-bhd .tk .fld .fk { font-size: 9.5px; }
+.bq-bhd .tk .stub .sk { font-size: 9px; }
+.bq-bhd .tk .stub .snum { font-size: 8.5px; }
+.bq-bhd .tk .qr-num { font-size: 9.5px; text-align: center; }
+.bq-bhd .tk .qrw2 { display: inline-block; text-align: center; }
+.bq-bhd .tk .stub .sq { text-align: center; }
+.bq-bhd .tk .void { position: absolute; left: 0; top: 236px; width: 508px; text-align: center; z-index: 5; }
+.bq-bhd .tk .void span { display: inline-block; background: #ffffff; border: 2px solid #c53030; color: #c53030; font-weight: 800; font-size: 15px; letter-spacing: 2px; text-transform: uppercase; padding: 9px 20px; -webkit-transform: rotate(-6deg); transform: rotate(-6deg); }
+.bq-bhd .info .ih { font-size: 10px; }
 .bq-bhd .lc { text-transform: lowercase; }
 .bq-bhd .secrow { background: #FAF7F4; color: #1c2b3a; font-size: 11.5px; padding: 8px 10px; border-bottom: 1px solid #E5DDD5; }
 .bq-bhd .pay td.po { border-top: 1px solid #E5DDD5; }
@@ -202,7 +212,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 .bq-hb td, .bq-hb th { padding: 0; vertical-align: top; text-align: left; }
 .bq-hb p { margin: 0; }
 .bq-hb img { display: block; }
-.bq-hb .page { position: relative; width: 794px; background: #fafaf8; min-height: 1026px; }
+.bq-hb .page { position: relative; width: 794px; background: #ffffff; min-height: 1010px; }
 .bq-hb .inner { padding: 0 60px; }
 .bq-hb .num { text-align: right !important; white-space: nowrap; -webkit-font-feature-settings: "tnum" 1; font-feature-settings: "tnum" 1; }
 .bq-hb .r { text-align: right; }
@@ -256,7 +266,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 .bq-hb .orn .od { width: 22px; text-align: center; }
 .bq-hb .orn .od i { display: block; width: 7px; height: 7px; margin: 0 auto; background: #F5A623; -webkit-transform: rotate(45deg); transform: rotate(45deg); }
 .bq-hb .hd .ttl { font-family: 'Playfair Display', Georgia, serif; font-weight: 500; font-size: 36px; color: #242e42; letter-spacing: 0; margin-top: 12px; line-height: 1.15; }
-.bq-hb .hd .ttl em { font-style: italic; font-weight: 400; color: #c98000; }
+.bq-hb .hd .ttl em { font-style: italic; font-weight: 400; color: #a86a00; }
 .bq-hb .hmeta { width: 600px; margin: 18px auto 0 auto; border-top: 1px solid #FCE6C1; border-bottom: 1px solid #FCE6C1; }
 .bq-hb .hmeta td { text-align: center; padding: 10px 6px; vertical-align: middle; }
 .bq-hb .hmeta td.sep { border-left: 1px solid #FCE6C1; }
@@ -292,7 +302,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 .bq-hb .tk table.tkt { height: 548px; }
 .bq-hb .tk .main { vertical-align: top; width: 508px; }
 .bq-hb .tk .stub { vertical-align: top; width: 166px; border-left: 2px dashed #5f6472; }
-.bq-hb .tk .notch { position: absolute; left: 495px; width: 26px; height: 14px; background: #fafaf8; z-index: 3; }
+.bq-hb .tk .notch { position: absolute; left: 495px; width: 26px; height: 14px; background: #ffffff; z-index: 3; }
 .bq-hb .tk .n-top { top: -1px; border-radius: 0 0 14px 14px; }
 .bq-hb .tk .n-bot { bottom: -1px; border-radius: 14px 14px 0 0; }
 .bq-hb .tk .main-in { padding: 28px 24px 0 24px; height: 548px; position: relative; }
@@ -325,26 +335,26 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 .bq-hb .tk .inset { position: absolute; left: 7px; top: 7px; right: 7px; bottom: 7px; border: 1px solid #FCE6C1; z-index: 0; }
 .bq-hb .tk .main-in { text-align: center; }
 .bq-hb .tk .tkh td { text-align: center; }
-.bq-hb .tk .tk-lab { text-align: center; color: #c98000; font-family: 'Playfair Display', Georgia, serif; font-style: italic; letter-spacing: 1px; text-transform: none; font-size: 15px; font-weight: 400; margin-top: 12px; }
+.bq-hb .tk .tk-lab { text-align: center; color: #a86a00; font-family: 'Playfair Display', Georgia, serif; font-style: italic; letter-spacing: 1px; text-transform: none; font-size: 15px; font-weight: 400; margin-top: 12px; }
 .bq-hb .tk .tk-title { font-family: 'Playfair Display', Georgia, serif; font-weight: 500; font-size: 36px; color: #242e42; letter-spacing: -0.2px; margin-top: 12px; }
-.bq-hb .tk .tk-title em { font-style: italic; color: #c98000; font-weight: 400; }
+.bq-hb .tk .tk-title em { font-style: italic; color: #a86a00; font-weight: 400; }
 .bq-hb .tk .orn { width: 220px; margin: 14px auto 0 auto; }
 .bq-hb .tk .fld { text-align: left; }
 .bq-hb .tk .fld .fk { color: #5f6472; font-weight: 700; }
 .bq-hb .tk .fld .fv { font-family: 'Playfair Display', Georgia, serif; font-weight: 500; font-size: 14px; }
 .bq-hb .tk .fld .fv.fvs { font-weight: 500; }
 .bq-hb .tk .admit { text-align: center; }
-.bq-hb .tk .admit td { text-align: center; font-family: 'Playfair Display', Georgia, serif; font-style: italic; text-transform: none; letter-spacing: .5px; font-size: 14px; color: #c98000; border-top: 1px solid #FCE6C1; padding-top: 11px; }
+.bq-hb .tk .admit td { text-align: center; font-family: 'Playfair Display', Georgia, serif; font-style: italic; text-transform: none; letter-spacing: .5px; font-size: 14px; color: #a86a00; border-top: 1px solid #FCE6C1; padding-top: 11px; }
 .bq-hb .tk .stub { background: #fffdf7; }
 .bq-hb .tk .stub .sk { color: #5f6472; font-weight: 700; }
 .bq-hb .tk .stub .sv { font-family: 'Playfair Display', Georgia, serif; font-weight: 500; font-size: 13px; color: #242e42; }
-.bq-hb .tk .stub .stub-top { font-family: 'Playfair Display', Georgia, serif; font-style: italic; font-size: 20px; color: #c98000; line-height: 1.1; margin-bottom: 18px; }
+.bq-hb .tk .stub .stub-top { font-family: 'Playfair Display', Georgia, serif; font-style: italic; font-size: 20px; color: #a86a00; line-height: 1.1; margin-bottom: 18px; }
 .bq-hb .tk .stub .snum { color: #5f6472; }
 .bq-hb .tk .notch { border: 1px solid #F5A623; border-top: 0; }
 .bq-hb .tk .n-bot { border: 1px solid #F5A623; border-bottom: 0; }
 .bq-hb .info .ih { font-family: 'Playfair Display', Georgia, serif; font-style: italic; font-weight: 400; text-transform: none; letter-spacing: 0; font-size: 16px; color: #242e42; border-bottom: 1px solid #FCE6C1; padding-bottom: 3px; margin-bottom: 7px; }
 .bq-hb .info-title { font-family: 'Playfair Display', Georgia, serif; font-weight: 500; font-size: 24px; color: #242e42; text-align: center; margin-bottom: 18px; }
-.bq-hb .info-title em { font-style: italic; color: #c98000; font-weight: 400; }
+.bq-hb .info-title em { font-style: italic; color: #a86a00; font-weight: 400; }
 .bq-hb .tk .tk-pill .pill { margin-top: 0; }
 .bq-hb .tk .tk-pill { text-align: center; }
 .bq-hb .hd { padding-top: 30px; }
@@ -365,7 +375,23 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 .bq-hb .pay td.pv { padding-bottom: 8px; }
 .bq-hb .party p { line-height: 1.45; }
 .bq-hb .tk .admit td.ar { display: none; }
-.bq-hb .hd { padding-top: 6px; }
+.bq-hb .hd { padding-top: 0; }
+.bq-hb thead { display: table-header-group; }
+.bq-hb tr, .bq-hb .ev, .bq-hb .pay, .bq-hb .party, .bq-hb .steps, .bq-hb .totals, .bq-hb .totals-card, .bq-hb .terms, .bq-hb .keep { page-break-inside: avoid; }
+.bq-hb .lc { white-space: nowrap; }
+.bq-hb .k, .bq-hb .ev .evk, .bq-hb .pay td.pk, .bq-hb .lines th { font-size: 10px; }
+.bq-hb .hmeta .mk { font-size: 9.5px; }
+.bq-hb .lines .att { font-size: 11px; }
+.bq-hb .terms { font-size: 11px; }
+.bq-hb .tk .fld .fk { font-size: 9.5px; }
+.bq-hb .tk .stub .sk { font-size: 9px; }
+.bq-hb .tk .stub .snum { font-size: 8.5px; }
+.bq-hb .tk .qr-num { font-size: 9.5px; text-align: center; }
+.bq-hb .tk .qrw2 { display: inline-block; text-align: center; }
+.bq-hb .tk .stub .sq { text-align: center; }
+.bq-hb .tk .void { position: absolute; left: 0; top: 236px; width: 508px; text-align: center; z-index: 5; }
+.bq-hb .tk .void span { display: inline-block; background: #ffffff; border: 2px solid #c53030; color: #c53030; font-weight: 800; font-size: 15px; letter-spacing: 2px; text-transform: uppercase; padding: 9px 20px; -webkit-transform: rotate(-6deg); transform: rotate(-6deg); }
+.bq-hb .info .ih { font-size: 10px; }
 .bq-hb .lc { text-transform: lowercase; }
 .bq-hb .secrow { background: #ffffff; color: #242e42; font-size: 11.5px; padding: 8px 10px; border-bottom: 1px solid #FCE6C1; }
 .bq-hb .pay td.po { border-top: 1px solid #FCE6C1; }
@@ -381,7 +407,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 .bq-tre td, .bq-tre th { padding: 0; vertical-align: top; text-align: left; }
 .bq-tre p { margin: 0; }
 .bq-tre img { display: block; }
-.bq-tre .page { position: relative; width: 794px; background: #faf6ef; min-height: 1026px; }
+.bq-tre .page { position: relative; width: 794px; background: #ffffff; min-height: 1010px; }
 .bq-tre .inner { padding: 0 60px; }
 .bq-tre .num { text-align: right !important; white-space: nowrap; -webkit-font-feature-settings: "tnum" 1; font-feature-settings: "tnum" 1; }
 .bq-tre .r { text-align: right; }
@@ -473,7 +499,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 .bq-tre .tk table.tkt { height: 548px; }
 .bq-tre .tk .main { vertical-align: top; width: 508px; }
 .bq-tre .tk .stub { vertical-align: top; width: 166px; border-left: 2px dashed #5f6b7d; }
-.bq-tre .tk .notch { position: absolute; left: 495px; width: 26px; height: 14px; background: #faf6ef; z-index: 3; }
+.bq-tre .tk .notch { position: absolute; left: 495px; width: 26px; height: 14px; background: #ffffff; z-index: 3; }
 .bq-tre .tk .n-top { top: -1px; border-radius: 0 0 14px 14px; }
 .bq-tre .tk .n-bot { bottom: -1px; border-radius: 14px 14px 0 0; }
 .bq-tre .tk .main-in { padding: 28px 24px 0 24px; height: 548px; position: relative; }
@@ -526,7 +552,26 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 .bq-tre .info td.ic .ibox { background: #fff; border: 1px solid #e4dfd6; border-radius: 14px; padding: 14px 16px; }
 .bq-tre .info td.ic { padding-right: 12px; }
 .bq-tre .tk .tk-pill .pill { font-size: 10px; }
-.bq-tre .hd { padding-top: 8px; }
+.bq-tre .hd { padding-top: 0; }
+.bq-tre thead { display: table-header-group; }
+.bq-tre tr, .bq-tre .ev, .bq-tre .pay, .bq-tre .party, .bq-tre .steps, .bq-tre .totals, .bq-tre .totals-card, .bq-tre .terms, .bq-tre .keep { page-break-inside: avoid; }
+.bq-tre .lc { white-space: nowrap; }
+.bq-tre .k, .bq-tre .ev .evk, .bq-tre .pay td.pk, .bq-tre .lines th { font-size: 10px; }
+.bq-tre .hmeta .mk { font-size: 9.5px; }
+.bq-tre .lines .att { font-size: 11px; }
+.bq-tre .terms { font-size: 11px; }
+.bq-tre .lines-card { background: transparent; border: 0; border-radius: 0; padding: 0; }
+.bq-tre .totals-card { padding: 4px 8px 6px 8px; }
+.bq-tre .hmeta { border-left: 0; box-shadow: inset 6px 0 0 #b89a72; }
+.bq-tre .tk .fld .fk { font-size: 9.5px; }
+.bq-tre .tk .stub .sk { font-size: 9px; }
+.bq-tre .tk .stub .snum { font-size: 8.5px; }
+.bq-tre .tk .qr-num { font-size: 9.5px; text-align: center; }
+.bq-tre .tk .qrw2 { display: inline-block; text-align: center; }
+.bq-tre .tk .stub .sq { text-align: center; }
+.bq-tre .tk .void { position: absolute; left: 0; top: 236px; width: 508px; text-align: center; z-index: 5; }
+.bq-tre .tk .void span { display: inline-block; background: #ffffff; border: 2px solid #c53030; color: #c53030; font-weight: 800; font-size: 15px; letter-spacing: 2px; text-transform: uppercase; padding: 9px 20px; -webkit-transform: rotate(-6deg); transform: rotate(-6deg); }
+.bq-tre .info .ih { font-size: 10px; }
 .bq-tre .lc { text-transform: lowercase; }
 .bq-tre .secrow { background: #ffffff; color: #0f1f3d; font-size: 11.5px; padding: 8px 10px; border-bottom: 1px solid #e4dfd6; }
 .bq-tre .pay td.po { border-top: 1px solid #e4dfd6; }
@@ -537,7 +582,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 .bq-tre .pill.cancel i { background: #c53030 !important; }
 .bq-tre .hmeta .pill.cancel { font-family: 'Plus Jakarta Sans', 'Segoe UI', sans-serif; }
 </style>
-<style t-if="brand == 'hb'">html, body { background: #fafaf8 !important; }</style><style t-if="brand == 'tre'">html, body { background: #faf6ef !important; }</style><div class="page">
+<div class="page">
 
 <!-- ============ HEADER ============ -->
 <t t-if="brand == 'bhd'">
@@ -642,7 +687,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 <td class="idx"><t t-out="idx"/></td>
 <td class="desc"><b><t t-out="desc"/></b>
 <span class="att" t-if="att_names"><t t-if="brand == 'hb'"><t t-out="'Attendees: ' if len(l.registration_ids) > 1 else 'Attendee: '"/></t><t t-out="att_names"/></span>
-<span class="att" t-elif="l.calendar_event_id"><t t-set="ctz" t-value="l.calendar_event_id.appointment_type_id.appointment_tz or 'Asia/Singapore'"/><t t-out="l.calendar_event_id.start" t-options="{'widget': 'datetime', 'tz_name': ctz, 'format': 'EEE d MMM y, h:mm a'}"/><t t-out="' SGT' if ctz == 'Asia/Singapore' else ' (' + ctz + ')'"/></span><span class="att" t-elif="rest"><t t-out="rest"/></span><span class="att" t-if="l.discount">Includes <t t-out="('%g' % l.discount)"/>% discount</span></td>
+<span class="att" t-elif="'calendar_event_id' in l._fields and l.calendar_event_id"><t t-set="ctz" t-value="l.calendar_event_id.appointment_type_id.appointment_tz or 'Asia/Singapore'"/><t t-out="l.calendar_event_id.start" t-options="{'widget': 'datetime', 'tz_name': ctz, 'format': 'EEE d MMM y, h:mm a'}"/><t t-out="' SGT' if ctz == 'Asia/Singapore' else ' (' + ctz + ')'"/></span><span class="att" t-elif="rest"><t t-out="rest"/></span><span class="att" t-if="l.discount">Includes <t t-out="('%g' % l.discount)"/>% discount</span></td>
 <td class="num qty"><t t-out="qv"/></td>
 <td class="num unit"><span t-out="l.price_unit" t-options="{'widget': 'monetary', 'display_currency': doc.currency_id}"/></td>
 <td class="num amt strong"><span t-out="l.price_subtotal" t-options="{'widget': 'monetary', 'display_currency': doc.currency_id}"/></td>
@@ -668,7 +713,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 <div class="sec-h"><i t-if="brand == 'tre'"></i>Payment</div>
 <table class="pay">
 <tr><td class="pk">Status</td><td class="pk">Method</td><td class="pk">Payment terms</td><td class="pk">Reference</td></tr>
-<tr><td class="pv"><t t-out="pay_label"/></td><td class="pv"><t t-out="pay_tx.provider_id.name or '—'"/></td><td class="pv"><t t-out="doc.payment_term_id.name or 'Immediate payment'"/></td><td class="pv"><t t-out="doc.name"/></td></tr>
+<tr><td class="pv"><t t-out="pay_label"/></td><td class="pv"><t t-out="pay_tx.provider_id.name or ('Not required' if (is_free or not doc.amount_total) else ('—' if is_cancel else 'Not yet selected'))"/></td><td class="pv"><t t-out="doc.payment_term_id.name or 'Immediate payment'"/></td><td class="pv"><t t-out="doc.name"/></td></tr>
 <t t-if="show_pay">
 <tr><td class="pk po" colspan="3">Pay online</td><td class="pq" rowspan="2"><img t-att-src="'/report/barcode/?barcode_type=QR&amp;value=%s&amp;width=360&amp;height=360&amp;quiet=0' % portal_qr" width="64" height="64" style="width:64px;height:64px" alt="QR"/></td></tr>
 <tr><td class="pv" colspan="3">Scan the QR code to view and pay this <t t-out="'order' if is_pf else 'quotation'"/> online.</td></tr>
@@ -691,15 +736,15 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 </tr></table>
 <div style="height:16px"></div>
 </t>
-<div class="terms"><b>Terms.</b> Refunds are made in SGD, less card processing fees. Full terms: <t t-out="site"/>/terms</div>
+<div class="terms"><b>Terms.</b> Refunds are made in <t t-out="doc.currency_id.name"/>, less card processing fees. Full terms: <t t-out="site"/>/terms</div>
 </div>
 </div>
 </div>
 </div>
 
-<div t-attf-class="footer bqf bqf-#{brand}"><style t-if="brand == 'hb'">html, body { background: #fafaf8 !important; }</style><style t-if="brand == 'tre'">html, body { background: #faf6ef !important; }</style>
+<div t-attf-class="footer bqf bqf-#{brand}"><style t-if="brand == 'bhd'">@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600;700');@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700');</style><style t-if="brand == 'hb'">@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600');@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700');</style><style t-if="brand == 'tre'">@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800');@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600');</style>
 <t t-set="fwid" t-value="doc.website_id.id or 1"/>
-<t t-set="fbrand" t-value="doc.env.context.get('bhdq_brand') or {1:'bhd',2:'hb',3:'tre'}.get(fwid,'bhd')"/>
+<t t-set="fbrand" t-value="(doc.env.context.get('bhdq_brand') if (doc.env.context.get('bhdq_brand') in ('bhd','hb','tre') and doc.env.user.has_group('base.group_system')) else False) or {1:'bhd',2:'hb',3:'tre'}.get(fwid,'bhd')"/>
 <t t-set="fsite" t-value="{'bhd':'bhdasia.com','hb':'hummingbeing.com','tre':'tre-in-singapore.com'}[fbrand]"/><t t-set="fcmp" t-value="doc.company_id or doc.env.company"/><t t-set="fcmp_line" t-value="' · '.join([x for x in [fcmp.name, ', '.join([y for y in [fcmp.street, fcmp.street2, ' '.join([z for z in [fcmp.city, fcmp.zip] if z])] if y])] if x])"/>
 <style>
 body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !important; margin:0 !important; max-width:none !important; width:auto !important; }
@@ -712,15 +757,15 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 .bqf table { width: 100%; border-collapse: collapse; border-spacing: 0; }
 .bqf td { vertical-align: top; text-align: left; padding: 0; line-height: 1.5; }
 .bqf-bhd { background: #0b2238; font-family: 'DM Sans', 'Segoe UI', Arial, sans-serif; }
-.bqf-bhd td { color: #c4d0de; padding: 13px 60px; font-size: 9.5px; }
+.bqf-bhd td { color: #c4d0de; padding: 13px 60px; font-size: 10px; }
 .bqf-bhd td.fr { text-align: right; color: #E8B830; font-weight: 500; }
 .bqf-bhd .foot-rule { height: 3px; background: #E8B830; }
-.bqf-hb { background: #fafaf8; padding: 0 60px 8px 60px; text-align: center; font-family: 'Lato', 'Segoe UI', Arial, sans-serif; }
-.bqf-hb td { text-align: center; color: #5f6472; font-size: 9.5px; letter-spacing: .3px; }
+.bqf-hb { background: #ffffff; padding: 0 60px 8px 60px; text-align: center; font-family: 'Lato', 'Segoe UI', Arial, sans-serif; }
+.bqf-hb td { text-align: center; color: #5f6472; font-size: 10px; letter-spacing: .3px; }
 .bqf-hb td.fl { border-top: 1px solid #FCE6C1; padding-top: 8px; }
-.bqf-tre { background: #faf6ef; padding: 0 60px 12px 60px; font-family: 'Inter', 'Segoe UI', Arial, sans-serif; }
+.bqf-tre { background: #ffffff; padding: 0 60px 12px 60px; font-family: 'Inter', 'Segoe UI', Arial, sans-serif; }
 .bqf-tre .fwrap { border-top: 2px solid #b89a72; }
-.bqf-tre td { padding-top: 10px; color: #5f6b7d; font-size: 9.5px; }
+.bqf-tre td { padding-top: 10px; color: #5f6b7d; font-size: 10px; }
 .bqf-tre td.fr { text-align: right; color: #1c3d7a; font-weight: 600; }
 </style>
 <t t-if="fbrand == 'bhd'">
