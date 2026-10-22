@@ -537,14 +537,14 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 
 <!-- ============ TICKET HEAD ============ -->
 <t t-if="brand == 'bhd'">
-<div class="main-top"><table class="tkh"><tr><td><div class="logo-plate"><img t-att-src="logo_src" t-att-width="lw" t-att-height="lh" t-att-style="'width:%spx;height:%spx' % (lw, lh)" alt="BHD Asia"/></div></td><td class="tk-lab">Event Ticket</td></tr></table></div>
+<div class="main-top"><table class="tkh"><tr><td t-attf-style="width:#{lw}px;min-width:#{lw}px"><div class="logo-plate"><img t-att-src="logo_src" t-att-width="lw" t-att-height="lh" t-att-style="'width:%spx;height:%spx;max-width:none;min-width:%spx;min-height:%spx' % (lw, lh, lw, lh)" alt="BHD Asia"/></div></td><td class="tk-lab">Event Ticket</td></tr></table></div>
 </t>
 <t t-if="brand == 'hb'">
-<table class="tkh"><tr><td><div class="logo-box" style="display:inline-block"><img t-att-src="logo_src" t-att-width="lw" t-att-height="lh" t-att-style="'width:%spx;height:%spx' % (lw, lh)" alt="HummingBeing Coaching &amp; Somatics"/></div></td></tr></table>
+<table class="tkh"><tr><td><div class="logo-box" style="display:inline-block"><img t-att-src="logo_src" t-att-width="lw" t-att-height="lh" t-att-style="'width:%spx;height:%spx;max-width:none;min-width:%spx;min-height:%spx' % (lw, lh, lw, lh)" alt="HummingBeing Coaching &amp; Somatics"/></div></td></tr></table>
 <div class="tk-lab">Event Ticket</div>
 </t>
 <t t-if="brand == 'tre'">
-<table class="tkh"><tr><td><div class="logo-box"><img t-att-src="logo_src" t-att-width="lw" t-att-height="lh" t-att-style="'width:%spx;height:%spx' % (lw, lh)" alt="TRE Singapore"/></div></td><td class="tk-lab">Event Ticket</td></tr></table>
+<table class="tkh"><tr><td><div class="logo-box"><img t-att-src="logo_src" t-att-width="lw" t-att-height="lh" t-att-style="'width:%spx;height:%spx;max-width:none;min-width:%spx;min-height:%spx' % (lw, lh, lw, lh)" alt="TRE Singapore"/></div></td><td class="tk-lab">Event Ticket</td></tr></table>
 </t>
 <div class="tk-title-wrap">
 <div t-attf-class="tk-title#{' long' if title_long else ''}"><t t-out="event.name"/></div>

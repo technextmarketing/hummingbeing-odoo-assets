@@ -526,7 +526,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 <!-- ============ HEADER ============ -->
 <t t-if="brand == 'bhd'">
 <div class="hd"><table><tr>
-<td style="width:122px"><div class="logo-plate"><img t-att-src="logo_src" t-att-width="lw" t-att-height="lh" t-att-style="'width:%spx;height:%spx' % (lw, lh)" alt="BHD Asia"/></div></td>
+<td style="width:122px;min-width:122px"><div class="logo-plate"><img t-att-src="logo_src" t-att-width="lw" t-att-height="lh" t-att-style="'width:%spx;height:%spx;max-width:none;min-width:%spx;min-height:%spx' % (lw, lh, lw, lh)" alt="BHD Asia"/></div></td>
 <td><div class="ttl"><t t-out="title"/></div><div class="sub"><t t-out="sub_txt"/></div></td>
 <td style="width:170px">
 <div class="mk">Receipt no.</div><div class="mv"><t t-out="o.name"/></div>
@@ -535,7 +535,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 </tr></table></div><div class="rule-gold"></div><div class="rule-thin"></div>
 </t>
 <t t-if="brand == 'hb'">
-<div class="hd"><div class="logo-box"><img t-att-src="logo_src" t-att-width="lw" t-att-height="lh" t-att-style="'width:%spx;height:%spx' % (lw, lh)" alt="HummingBeing Coaching &amp; Somatics"/></div>
+<div class="hd"><div class="logo-box"><img t-att-src="logo_src" t-att-width="lw" t-att-height="lh" t-att-style="'width:%spx;height:%spx;max-width:none;min-width:%spx;min-height:%spx' % (lw, lh, lw, lh)" alt="HummingBeing Coaching &amp; Somatics"/></div>
 <table class="orn"><tr><td class="ol"></td><td class="od"><i></i></td><td class="ol"></td></tr></table>
 <div class="ttl"><t t-out="'Refund' if is_out else 'Payment'"/> <em>Receipt</em></div>
 <table class="hmeta"><tr>
@@ -545,7 +545,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 </tr></table></div>
 </t>
 <t t-if="brand == 'tre'">
-<div class="hd"><table><tr><td><div class="logo-box"><img t-att-src="logo_src" t-att-width="lw" t-att-height="lh" t-att-style="'width:%spx;height:%spx' % (lw, lh)" alt="TRE Singapore"/></div></td>
+<div class="hd"><table><tr><td><div class="logo-box"><img t-att-src="logo_src" t-att-width="lw" t-att-height="lh" t-att-style="'width:%spx;height:%spx;max-width:none;min-width:%spx;min-height:%spx' % (lw, lh, lw, lh)" alt="TRE Singapore"/></div></td>
 <td><div class="ttl"><small>TRE Singapore</small><t t-out="title"/></div></td></tr></table></div>
 <table class="hmeta"><tr>
 <td><div class="mk">Receipt no.</div><div class="mv"><t t-out="o.name"/></div></td>

@@ -93,8 +93,8 @@ body.container, body.o_body_html { padding:0 !important; margin:0 !important; ma
 <div class="card">
 <div class="inset" t-if="brand == 'hb'"></div>
 <div class="hd">
-<t t-if="brand == 'bhd'"><div class="plate"><img t-att-src="logo_src" t-att-width="lw" t-att-height="lh" t-att-style="'width:%spx;height:%spx' % (lw, lh)" alt="BHD Asia"/></div></t>
-<t t-else=""><img t-att-src="logo_src" t-att-width="lw" t-att-height="lh" t-att-style="'width:%spx;height:%spx' % (lw, lh)" t-att-alt="'HummingBeing' if brand == 'hb' else 'TRE Singapore'"/></t>
+<t t-if="brand == 'bhd'"><div class="plate"><img t-att-src="logo_src" t-att-width="lw" t-att-height="lh" t-att-style="'width:%spx;height:%spx;max-width:none;min-width:%spx;min-height:%spx' % (lw, lh, lw, lh)" alt="BHD Asia"/></div></t>
+<t t-else=""><img t-att-src="logo_src" t-att-width="lw" t-att-height="lh" t-att-style="'width:%spx;height:%spx;max-width:none;min-width:%spx;min-height:%spx' % (lw, lh, lw, lh)" t-att-alt="'HummingBeing' if brand == 'hb' else 'TRE Singapore'"/></t>
 </div>
 <table class="orn" t-if="brand == 'hb'"><tr><td class="ol"></td><td class="od"><i></i></td><td class="ol"></td></tr></table>
 <div class="body">
