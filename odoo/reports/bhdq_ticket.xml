@@ -3,7 +3,7 @@
 <t t-set="so" t-value="attendee.sale_order_id"/>
 <t t-set="wid" t-value="(so and so.website_id.id) or (attendee.visitor_id and attendee.visitor_id.website_id.id) or 1"/>
 <t t-set="brand" t-value="attendee.env.context.get('bhdq_brand') or {1:'bhd',2:'hb',3:'tre'}.get(wid,'bhd')"/>
-<t t-set="site" t-value="{'bhd':'bhdasia.com','hb':'hummingbeing.com','tre':'tre-in-singapore.com'}[brand]"/>
+<t t-set="site" t-value="{'bhd':'bhdasia.com','hb':'hummingbeing.com','tre':'tre-in-singapore.com'}[brand]"/><t t-set="cmp" t-value="event.company_id or event.env.company"/><t t-set="cmp_l1" t-value="', '.join([x for x in [cmp.street, cmp.street2] if x])"/><t t-set="cmp_l2" t-value="' '.join([x for x in [cmp.city, cmp.zip] if x]) + ((', ' + cmp.country_id.name) if cmp.country_id and cmp.country_id.name != cmp.city else '')"/>
 <t t-set="logo_src" t-value="{'bhd':'/web/content/1640','hb':'/web/content/1535','tre':'/web/content/1435'}[brand]"/>
 <t t-set="lw" t-value="{'bhd':77,'hb':177,'tre':136}[brand]"/>
 <t t-set="lh" t-value="{'bhd':60,'hb':48,'tre':74}[brand]"/>
@@ -20,7 +20,7 @@
 <t t-set="ttype" t-value="attendee.event_ticket_id.name or 'Registration'"/>
 <t t-set="ticket_no" t-value="'#%04d' % attendee.id"/>
 <t t-set="ord_tkt" t-value="((so.name + ' · ') if so else '') + ticket_no"/>
-<t t-set="organiser" t-value="event.organizer_id.name or 'BHD Asia'"/>
+<t t-set="organiser" t-value="event.organizer_id.name or cmp.name"/>
 <t t-set="title_long" t-value="len(event.name or '') > 60"/>
 <t t-set="qr_url" t-value="'/report/barcode/?barcode_type=QR&amp;value=%s&amp;width=360&amp;height=360&amp;quiet=0' % attendee.barcode"/>
 <t t-set="date_html"><t t-out="event.date_begin" t-options="{'widget': 'datetime', 'tz_name': event.date_tz, 'format': 'd MMM y'}"/><t t-if="multi"> – <t t-out="event.date_end" t-options="{'widget': 'datetime', 'tz_name': event.date_tz, 'format': 'd MMM y'}"/></t></t>
@@ -597,13 +597,13 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 <p t-else=""><b><t t-out="event.name"/></b><br/><t t-out="date_html"/><br/><t t-out="time_html"/><br/><t t-out="where_txt"/>. Your venue and joining details are sent before the event.<br/>Add it to your calendar: use the calendar link in your confirmation email.</p>
 </div></td>
 <td class="ic"><div t-att-class="'ibox' if brand == 'tre' else None"><div class="ih">Your organiser</div>
-<p><b><t t-out="organiser"/></b><br/>bonjour@bhdasia.com<br/><t t-out="site"/><br/>50 Raffles Place, #30-00 Singapore Land Tower, Singapore 048623</p></div></td>
+<p><b><t t-out="organiser"/></b><br/><t t-out="cmp.email"/><br/><t t-out="site"/><br/><t t-out="cmp_l1"/>, <t t-out="cmp_l2"/></p></div></td>
 </tr>
 <tr>
 <td class="ic"><div t-att-class="'ibox' if brand == 'tre' else None"><div class="ih">Check-in</div>
 <p>Show this QR code on your phone or printed.</p></div></td>
 <td class="ic"><div t-att-class="'ibox' if brand == 'tre' else None"><div class="ih">Need to change something?</div>
-<p>Reply to your confirmation email or write to <b>bonjour@bhdasia.com</b>.</p></div></td>
+<p>Reply to your confirmation email or write to <b><t t-out="cmp.email"/></b>.</p></div></td>
 </tr>
 </table>
 </div>
@@ -615,7 +615,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 <t t-set="fso" t-value="attendee.sale_order_id"/>
 <t t-set="fwid" t-value="(fso and fso.website_id.id) or (attendee.visitor_id and attendee.visitor_id.website_id.id) or 1"/>
 <t t-set="fbrand" t-value="attendee.env.context.get('bhdq_brand') or {1:'bhd',2:'hb',3:'tre'}.get(fwid,'bhd')"/>
-<t t-set="fsite" t-value="{'bhd':'bhdasia.com','hb':'hummingbeing.com','tre':'tre-in-singapore.com'}[fbrand]"/>
+<t t-set="fsite" t-value="{'bhd':'bhdasia.com','hb':'hummingbeing.com','tre':'tre-in-singapore.com'}[fbrand]"/><t t-set="fcmp" t-value="attendee.event_id.company_id or attendee.event_id.env.company"/><t t-set="fcmp_line" t-value="' · '.join([x for x in [fcmp.name, ', '.join([y for y in [fcmp.street, fcmp.street2, ' '.join([z for z in [fcmp.city, fcmp.zip] if z])] if y])] if x])"/>
 <style>
 body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !important; margin:0 !important; max-width:none !important; width:auto !important; }
 .bq table, .bq thead, .bq tbody, .bq tfoot, .bq tr, .bq th, .bq td { border-style:none; border-width:0; }
@@ -639,14 +639,14 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 .bqf-tre td.fr { text-align: right; color: #1c3d7a; font-weight: 600; }
 </style>
 <t t-if="fbrand == 'bhd'">
-<table><tr><td>BHD Asia · 50 Raffles Place, #30-00 Singapore Land Tower, Singapore 048623 · <t t-out="fsite"/></td><td class="fr">Page <span class="page"></span> / <span class="topage"></span></td></tr></table>
+<table><tr><td><t t-out="fcmp_line"/> · <t t-out="fsite"/></td><td class="fr">Page <span class="page"></span> / <span class="topage"></span></td></tr></table>
 <div class="foot-rule"></div>
 </t>
 <t t-if="fbrand == 'hb'">
-<table><tr><td class="fl">BHD Asia · 50 Raffles Place, #30-00 Singapore Land Tower, Singapore 048623 · <t t-out="fsite"/><br/>Page <span class="page"></span> / <span class="topage"></span></td></tr></table>
+<table><tr><td class="fl"><t t-out="fcmp_line"/> · <t t-out="fsite"/><br/>Page <span class="page"></span> / <span class="topage"></span></td></tr></table>
 </t>
 <t t-if="fbrand == 'tre'">
-<div class="fwrap"><table><tr><td>BHD Asia · 50 Raffles Place, #30-00 Singapore Land Tower, Singapore 048623 · <t t-out="fsite"/></td><td class="fr">Page <span class="page"></span> / <span class="topage"></span></td></tr></table></div>
+<div class="fwrap"><table><tr><td><t t-out="fcmp_line"/> · <t t-out="fsite"/></td><td class="fr">Page <span class="page"></span> / <span class="topage"></span></td></tr></table></div>
 </t>
 </div>
 </t>

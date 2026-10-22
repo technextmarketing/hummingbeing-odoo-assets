@@ -4,7 +4,7 @@
 <t t-set="sos" t-value="invs.invoice_line_ids.sale_line_ids.order_id | o.sudo().payment_transaction_id.sale_order_ids"/>
 <t t-set="wid" t-value="sos[:1].website_id.id or (('website_id' in invs._fields) and invs[:1].website_id.id) or 1"/>
 <t t-set="brand" t-value="o.env.context.get('bhdq_brand') or {1:'bhd',2:'hb',3:'tre'}.get(wid,'bhd')"/>
-<t t-set="site" t-value="{'bhd':'bhdasia.com','hb':'hummingbeing.com','tre':'tre-in-singapore.com'}[brand]"/>
+<t t-set="site" t-value="{'bhd':'bhdasia.com','hb':'hummingbeing.com','tre':'tre-in-singapore.com'}[brand]"/><t t-set="cmp" t-value="o.company_id or o.env.company"/><t t-set="cmp_l1" t-value="', '.join([x for x in [cmp.street, cmp.street2] if x])"/><t t-set="cmp_l2" t-value="' '.join([x for x in [cmp.city, cmp.zip] if x]) + ((', ' + cmp.country_id.name) if cmp.country_id and cmp.country_id.name != cmp.city else '')"/>
 <t t-set="logo_src" t-value="{'bhd':'/web/content/1640','hb':'/web/content/1535','tre':'/web/content/1435'}[brand]"/>
 <t t-set="lw" t-value="{'bhd':100,'hb':169,'tre':165}[brand]"/>
 <t t-set="lh" t-value="{'bhd':78,'hb':46,'tre':90}[brand]"/>
@@ -560,8 +560,8 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 
 <!-- ============ PARTIES ============ -->
 <table class="party"><tr>
-<td class="pcell"><div class="sec-h"><i t-if="brand == 'tre'"></i><t t-out="'Paid by' if is_out else 'Received by'"/></div><div class="pc"><div class="pn">BHD Asia</div>
-<p>50 Raffles Place, #30-00 Singapore Land Tower<br/>Singapore 048623<br/>bonjour@bhdasia.com · <t t-out="site"/></p></div></td>
+<td class="pcell"><div class="sec-h"><i t-if="brand == 'tre'"></i><t t-out="'Paid by' if is_out else 'Received by'"/></div><div class="pc"><div class="pn"><t t-out="cmp.name"/></div>
+<p><t t-out="cmp_l1"/><br/><t t-out="cmp_l2"/><br/><t t-out="cmp.email"/> · <t t-out="site"/></p></div></td>
 <td class="gapc"></td>
 <td class="pcell"><div class="sec-h"><i t-if="brand == 'tre'"></i><t t-out="'Refunded to' if is_out else 'Received from'"/></div><div class="pc"><div class="pn"><t t-out="partner.name"/></div>
 <p>
@@ -584,7 +584,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 <div class="ev"><div class="evn"><t t-out="ev.name"/></div><table><tr>
 <td style="width:220px"><div class="evk">Date</div><div class="evv"><t t-out="ev.date_begin" t-options="{'widget': 'datetime', 'tz_name': ev.date_tz, 'format': 'd MMM y'}"/><t t-if="multi"> – <t t-out="ev.date_end" t-options="{'widget': 'datetime', 'tz_name': ev.date_tz, 'format': 'd MMM y'}"/></t></div></td>
 <td style="width:230px"><div class="evk">Where</div><div class="evv"><t t-out="where_txt"/></div></td>
-<td><div class="evk">Organiser</div><div class="evv"><t t-out="ev.organizer_id.name or 'BHD Asia'"/></div></td>
+<td><div class="evk">Organiser</div><div class="evv"><t t-out="ev.organizer_id.name or cmp.name"/></div></td>
 </tr></table></div>
 <div t-if="not ev0_last" style="height:8px"></div>
 </t>
@@ -625,7 +625,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 </table>
 </div>
 <div style="height:22px"></div>
-<div class="terms"><b>Keep this receipt for your records.</b> Questions about this payment: bonjour@bhdasia.com. Full terms: <t t-out="site"/>/terms</div>
+<div class="terms"><b>Keep this receipt for your records.</b> Questions about this payment: <t t-out="cmp.email"/>. Full terms: <t t-out="site"/>/terms</div>
 </div>
 </div>
 </div>
@@ -636,7 +636,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 <t t-set="fsos" t-value="finvs.invoice_line_ids.sale_line_ids.order_id | o.sudo().payment_transaction_id.sale_order_ids"/>
 <t t-set="fwid" t-value="fsos[:1].website_id.id or (('website_id' in finvs._fields) and finvs[:1].website_id.id) or 1"/>
 <t t-set="fbrand" t-value="o.env.context.get('bhdq_brand') or {1:'bhd',2:'hb',3:'tre'}.get(fwid,'bhd')"/>
-<t t-set="fsite" t-value="{'bhd':'bhdasia.com','hb':'hummingbeing.com','tre':'tre-in-singapore.com'}[fbrand]"/>
+<t t-set="fsite" t-value="{'bhd':'bhdasia.com','hb':'hummingbeing.com','tre':'tre-in-singapore.com'}[fbrand]"/><t t-set="fcmp" t-value="o.company_id or o.env.company"/><t t-set="fcmp_line" t-value="' · '.join([x for x in [fcmp.name, ', '.join([y for y in [fcmp.street, fcmp.street2, ' '.join([z for z in [fcmp.city, fcmp.zip] if z])] if y])] if x])"/>
 <style>
 body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !important; margin:0 !important; max-width:none !important; width:auto !important; }
 .bq table, .bq thead, .bq tbody, .bq tfoot, .bq tr, .bq th, .bq td { border-style:none; border-width:0; }
@@ -660,14 +660,14 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 .bqf-tre td.fr { text-align: right; color: #1c3d7a; font-weight: 600; }
 </style>
 <t t-if="fbrand == 'bhd'">
-<table><tr><td>BHD Asia · 50 Raffles Place, #30-00 Singapore Land Tower, Singapore 048623 · <t t-out="fsite"/></td><td class="fr">Page <span class="page"></span> / <span class="topage"></span></td></tr></table>
+<table><tr><td><t t-out="fcmp_line"/> · <t t-out="fsite"/></td><td class="fr">Page <span class="page"></span> / <span class="topage"></span></td></tr></table>
 <div class="foot-rule"></div>
 </t>
 <t t-if="fbrand == 'hb'">
-<table><tr><td class="fl">BHD Asia · 50 Raffles Place, #30-00 Singapore Land Tower, Singapore 048623 · <t t-out="fsite"/><br/>Page <span class="page"></span> / <span class="topage"></span></td></tr></table>
+<table><tr><td class="fl"><t t-out="fcmp_line"/> · <t t-out="fsite"/><br/>Page <span class="page"></span> / <span class="topage"></span></td></tr></table>
 </t>
 <t t-if="fbrand == 'tre'">
-<div class="fwrap"><table><tr><td>BHD Asia · 50 Raffles Place, #30-00 Singapore Land Tower, Singapore 048623 · <t t-out="fsite"/></td><td class="fr">Page <span class="page"></span> / <span class="topage"></span></td></tr></table></div>
+<div class="fwrap"><table><tr><td><t t-out="fcmp_line"/> · <t t-out="fsite"/></td><td class="fr">Page <span class="page"></span> / <span class="topage"></span></td></tr></table></div>
 </t>
 </div>
 </t>

@@ -2,7 +2,7 @@
 <div class="article" t-att-data-oe-model="doc._name" t-att-data-oe-id="doc.id" t-att-data-oe-lang="doc.env.context.get('lang')">
 <t t-set="wid" t-value="doc.website_id.id or 1"/>
 <t t-set="brand" t-value="doc.env.context.get('bhdq_brand') or {1:'bhd',2:'hb',3:'tre'}.get(wid,'bhd')"/>
-<t t-set="site" t-value="{'bhd':'bhdasia.com','hb':'hummingbeing.com','tre':'tre-in-singapore.com'}[brand]"/>
+<t t-set="site" t-value="{'bhd':'bhdasia.com','hb':'hummingbeing.com','tre':'tre-in-singapore.com'}[brand]"/><t t-set="cmp" t-value="doc.company_id or doc.env.company"/><t t-set="cmp_l1" t-value="', '.join([x for x in [cmp.street, cmp.street2] if x])"/><t t-set="cmp_l2" t-value="' '.join([x for x in [cmp.city, cmp.zip] if x]) + ((', ' + cmp.country_id.name) if cmp.country_id and cmp.country_id.name != cmp.city else '')"/>
 <t t-set="brand_name" t-value="{'bhd':'BHD Asia','hb':'HummingBeing','tre':'TRE Singapore'}[brand]"/>
 <t t-set="logo_src" t-value="{'bhd':'/web/content/1640','hb':'/web/content/1535','tre':'/web/content/1435'}[brand]"/>
 <t t-set="lw" t-value="{'bhd':100,'hb':169,'tre':165}[brand]"/>
@@ -22,6 +22,7 @@
 <t t-set="lines" t-value="doc.order_line.filtered(lambda l: not l.display_type and not l.is_reward_line)"/>
 <t t-set="all_lines" t-value="doc.order_line.filtered(lambda l: not l.is_reward_line)"/>
 <t t-set="rewards" t-value="doc.order_line.filtered(lambda l: l.is_reward_line and not l.display_type)"/>
+<t t-set="tax_f" t-value="'tax_ids' if 'tax_ids' in lines._fields else 'tax_id'"/><t t-set="tax_names" t-value="lines.mapped(tax_f).filtered(lambda t: t.amount).mapped('tax_group_id.name')"/><t t-set="tax_lbl" t-value="'Tax' + ((' (' + ', '.join(sorted(set(tax_names))) + ')') if tax_names else '')"/>
 <t t-set="subtotal" t-value="sum(lines.mapped('price_subtotal'))"/>
 <t t-set="disc" t-value="sum(rewards.mapped('price_subtotal'))"/>
 <t t-set="pay_tx" t-value="doc.sudo().transaction_ids.filtered(lambda t: t.state in ('done','authorized'))[:1] or doc.sudo().transaction_ids[:1]"/>
@@ -574,11 +575,12 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 
 <!-- ============ FROM / BILLED TO ============ -->
 <table class="party"><tr>
-<td class="pcell"><div class="sec-h"><i t-if="brand == 'tre'"></i>From</div><div class="pc"><div class="pn">BHD Asia</div>
-<p>50 Raffles Place, #30-00 Singapore Land Tower<br/>Singapore 048623<br/>bonjour@bhdasia.com · <t t-out="site"/></p></div></td>
+<td class="pcell"><div class="sec-h"><i t-if="brand == 'tre'"></i>From</div><div class="pc"><div class="pn"><t t-out="cmp.name"/></div>
+<p><t t-out="cmp_l1"/><br/><t t-out="cmp_l2"/><br/><t t-out="cmp.email"/> · <t t-out="site"/></p></div></td>
 <td class="gapc"></td>
 <td class="pcell"><div class="sec-h"><i t-if="brand == 'tre'"></i>Billed to</div><div class="pc"><div class="pn"><t t-out="partner.name"/></div>
 <p>
+<t t-if="partner.parent_id and partner.parent_id.name != partner.name"><t t-out="partner.parent_id.name"/><br/></t>
 <t t-if="partner.street"><t t-out="partner.street"/><br/></t>
 <t t-if="partner.street and partner.street2"><t t-out="partner.street2"/><br/></t>
 <t t-if="partner.street and (partner.zip or partner.city)"><t t-out="' '.join([x for x in [partner.zip, partner.city] if x])"/><br/></t>
@@ -609,7 +611,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 <t t-else=""><span class="lc"><t t-if="a_b == a_e"><t t-out="ev.date_begin" t-options="{'widget': 'datetime', 'tz_name': ev.date_tz, 'format': 'h:mm'}"/></t><t t-else=""><t t-out="ev.date_begin" t-options="{'widget': 'datetime', 'tz_name': ev.date_tz, 'format': 'h:mm a'}"/></t>–<t t-out="ev.date_end" t-options="{'widget': 'datetime', 'tz_name': ev.date_tz, 'format': 'h:mm a'}"/></span> <t t-out="tzl"/></t>
 </div></td>
 <td style="width:200px"><div class="evk">Where</div><div class="evv"><t t-out="where_txt"/></div></td>
-<td><div class="evk">Organiser</div><div class="evv"><t t-out="ev.organizer_id.name or 'BHD Asia'"/></div></td>
+<td><div class="evk">Organiser</div><div class="evv"><t t-out="ev.organizer_id.name or cmp.name"/></div></td>
 </tr></table></div>
 <div t-if="not ev0_last" style="height:8px"></div>
 </t>
@@ -636,7 +638,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 <td class="idx"><t t-out="idx"/></td>
 <td class="desc"><b><t t-out="desc"/></b>
 <span class="att" t-if="att_names"><t t-if="brand == 'hb'"><t t-out="'Attendees: ' if len(l.registration_ids) > 1 else 'Attendee: '"/></t><t t-out="att_names"/></span>
-<span class="att" t-elif="l.calendar_event_id"><t t-set="ctz" t-value="l.calendar_event_id.appointment_type_id.appointment_tz or 'Asia/Singapore'"/><t t-out="l.calendar_event_id.start" t-options="{'widget': 'datetime', 'tz_name': ctz, 'format': 'EEE d MMM y, h:mm a'}"/><t t-out="' SGT' if ctz == 'Asia/Singapore' else ' (' + ctz + ')'"/></span><span class="att" t-elif="rest"><t t-out="rest"/></span></td>
+<span class="att" t-elif="l.calendar_event_id"><t t-set="ctz" t-value="l.calendar_event_id.appointment_type_id.appointment_tz or 'Asia/Singapore'"/><t t-out="l.calendar_event_id.start" t-options="{'widget': 'datetime', 'tz_name': ctz, 'format': 'EEE d MMM y, h:mm a'}"/><t t-out="' SGT' if ctz == 'Asia/Singapore' else ' (' + ctz + ')'"/></span><span class="att" t-elif="rest"><t t-out="rest"/></span><span class="att" t-if="l.discount">Includes <t t-out="('%g' % l.discount)"/>% discount</span></td>
 <td class="num qty"><t t-out="qv"/></td>
 <td class="num unit"><span t-out="l.price_unit" t-options="{'widget': 'monetary', 'display_currency': doc.currency_id}"/></td>
 <td class="num amt strong"><span t-out="l.price_subtotal" t-options="{'widget': 'monetary', 'display_currency': doc.currency_id}"/></td>
@@ -653,7 +655,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 <tr><td class="tl">Subtotal</td><td class="tv"><span t-out="subtotal" t-options="{'widget': 'monetary', 'display_currency': doc.currency_id}"/></td></tr>
 <tr t-if="rewards"><td class="tl">Discount code applied</td><td class="tv">−<span t-out="-disc" t-options="{'widget': 'monetary', 'display_currency': doc.currency_id}"/></td></tr>
 <tr t-else=""><td class="tl">Discount</td><td class="tv">—</td></tr>
-<tr><td class="tl">Tax</td><td class="tv"><t t-if="doc.amount_tax"><span t-out="doc.amount_tax" t-options="{'widget': 'monetary', 'display_currency': doc.currency_id}"/></t><t t-else="">—</t></td></tr>
+<tr><td class="tl"><t t-out="tax_lbl"/></td><td class="tv"><t t-if="doc.amount_tax"><span t-out="doc.amount_tax" t-options="{'widget': 'monetary', 'display_currency': doc.currency_id}"/></t><t t-else="">—</t></td></tr>
 <tr class="tg lastrow"><td class="tl">Total</td><td class="tv"><span t-out="doc.amount_total" t-options="{'widget': 'monetary', 'display_currency': doc.currency_id}"/></td></tr>
 </table>
 </div>
@@ -682,7 +684,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 <td class="sc"><div class="sn">1</div><p>Your booking confirmation and calendar invitation are emailed to you.</p></td>
 <td class="sc"><div class="sn">2</div><p>Your joining details are sent before your session.</p></td>
 </t>
-<td class="sc"><div class="sn">3</div><p>Questions? Write to <b class="strong">bonjour@bhdasia.com</b>.</p></td>
+<td class="sc"><div class="sn">3</div><p>Questions? Write to <b class="strong"><t t-out="cmp.email"/></b>.</p></td>
 </tr></table>
 <div style="height:16px"></div>
 </t>
@@ -695,7 +697,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 <div t-attf-class="footer bqf bqf-#{brand}"><style t-if="brand == 'hb'">html, body { background: #fafaf8 !important; }</style><style t-if="brand == 'tre'">html, body { background: #faf6ef !important; }</style>
 <t t-set="fwid" t-value="doc.website_id.id or 1"/>
 <t t-set="fbrand" t-value="doc.env.context.get('bhdq_brand') or {1:'bhd',2:'hb',3:'tre'}.get(fwid,'bhd')"/>
-<t t-set="fsite" t-value="{'bhd':'bhdasia.com','hb':'hummingbeing.com','tre':'tre-in-singapore.com'}[fbrand]"/>
+<t t-set="fsite" t-value="{'bhd':'bhdasia.com','hb':'hummingbeing.com','tre':'tre-in-singapore.com'}[fbrand]"/><t t-set="fcmp" t-value="doc.company_id or doc.env.company"/><t t-set="fcmp_line" t-value="' · '.join([x for x in [fcmp.name, ', '.join([y for y in [fcmp.street, fcmp.street2, ' '.join([z for z in [fcmp.city, fcmp.zip] if z])] if y])] if x])"/>
 <style>
 body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !important; margin:0 !important; max-width:none !important; width:auto !important; }
 .bq table, .bq thead, .bq tbody, .bq tfoot, .bq tr, .bq th, .bq td { border-style:none; border-width:0; }
@@ -719,14 +721,14 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 .bqf-tre td.fr { text-align: right; color: #1c3d7a; font-weight: 600; }
 </style>
 <t t-if="fbrand == 'bhd'">
-<table><tr><td>BHD Asia · 50 Raffles Place, #30-00 Singapore Land Tower, Singapore 048623 · <t t-out="fsite"/></td><td class="fr">Page <span class="page"></span> / <span class="topage"></span></td></tr></table>
+<table><tr><td><t t-out="fcmp_line"/> · <t t-out="fsite"/></td><td class="fr">Page <span class="page"></span> / <span class="topage"></span></td></tr></table>
 <div class="foot-rule"></div>
 </t>
 <t t-if="fbrand == 'hb'">
-<table><tr><td class="fl">BHD Asia · 50 Raffles Place, #30-00 Singapore Land Tower, Singapore 048623 · <t t-out="fsite"/><br/>Page <span class="page"></span> / <span class="topage"></span></td></tr></table>
+<table><tr><td class="fl"><t t-out="fcmp_line"/> · <t t-out="fsite"/><br/>Page <span class="page"></span> / <span class="topage"></span></td></tr></table>
 </t>
 <t t-if="fbrand == 'tre'">
-<div class="fwrap"><table><tr><td>BHD Asia · 50 Raffles Place, #30-00 Singapore Land Tower, Singapore 048623 · <t t-out="fsite"/></td><td class="fr">Page <span class="page"></span> / <span class="topage"></span></td></tr></table></div>
+<div class="fwrap"><table><tr><td><t t-out="fcmp_line"/> · <t t-out="fsite"/></td><td class="fr">Page <span class="page"></span> / <span class="topage"></span></td></tr></table></div>
 </t>
 </div>
 </t>
