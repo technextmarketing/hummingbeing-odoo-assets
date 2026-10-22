@@ -25,6 +25,8 @@ body.container, body.o_body_html { padding:0 !important; margin:0 !important; ma
 .bb { width: 794px; height: 1122px; position: relative; page-break-after: always; overflow: hidden; }
 .bb table { border-collapse: collapse; border-spacing: 0; width: 100%; }
 .bb td { padding: 0; vertical-align: top; text-align: left; border-style: none; border-width: 0; }
+.bb table, .bb tbody, .bb thead, .bb tr, .bb th, .bb td { border-style: none !important; border-width: 0 !important; }
+.bb-hb .orn td.ol { border-top: 1px solid #F5A623 !important; }
 .bb .card { position: absolute; left: 0; top: 0; width: 397px; height: 561px; overflow: hidden; -webkit-box-sizing: border-box; box-sizing: border-box; }
 .bb .cut-r { position: absolute; left: 397px; top: 0; height: 561px; border-left: 1px dashed #b8bcc4; }
 .bb .cut-b { position: absolute; left: 0; top: 561px; width: 397px; border-top: 1px dashed #b8bcc4; }
