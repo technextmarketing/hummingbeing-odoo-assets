@@ -3,7 +3,7 @@
 <t t-set="wid" t-value="(so and so.website_id.id) or (attendee and attendee.visitor_id and attendee.visitor_id.website_id.id) or 1"/>
 <t t-set="brand" t-value="event.env.context.get('bhdq_brand') or {1:'bhd',2:'hb',3:'tre'}.get(wid,'bhd')"/>
 <t t-set="site" t-value="{'bhd':'bhdasia.com','hb':'hummingbeing.com','tre':'tre-in-singapore.com'}[brand]"/>
-<t t-set="logo_src" t-value="{'bhd':'/web/content/947','hb':'/web/content/1535','tre':'/web/content/1435'}[brand]"/>
+<t t-set="logo_src" t-value="{'bhd':'/web/content/1640','hb':'/web/content/1535','tre':'/web/content/1435'}[brand]"/>
 <t t-set="lw" t-value="{'bhd':118,'hb':170,'tre':150}[brand]"/>
 <t t-set="lh" t-value="{'bhd':92,'hb':46,'tre':82}[brand]"/>
 <t t-set="nm" t-value="(attendee and attendee.name) or 'Attendee Name'"/>

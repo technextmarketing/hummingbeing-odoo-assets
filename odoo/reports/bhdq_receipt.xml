@@ -5,7 +5,7 @@
 <t t-set="wid" t-value="sos[:1].website_id.id or (('website_id' in invs._fields) and invs[:1].website_id.id) or 1"/>
 <t t-set="brand" t-value="o.env.context.get('bhdq_brand') or {1:'bhd',2:'hb',3:'tre'}.get(wid,'bhd')"/>
 <t t-set="site" t-value="{'bhd':'bhdasia.com','hb':'hummingbeing.com','tre':'tre-in-singapore.com'}[brand]"/>
-<t t-set="logo_src" t-value="{'bhd':'/web/content/947','hb':'/web/content/1535','tre':'/web/content/1435'}[brand]"/>
+<t t-set="logo_src" t-value="{'bhd':'/web/content/1640','hb':'/web/content/1535','tre':'/web/content/1435'}[brand]"/>
 <t t-set="lw" t-value="{'bhd':100,'hb':169,'tre':165}[brand]"/>
 <t t-set="lh" t-value="{'bhd':78,'hb':46,'tre':90}[brand]"/>
 <t t-set="is_out" t-value="o.payment_type == 'outbound'"/>
