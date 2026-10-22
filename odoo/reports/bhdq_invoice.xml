@@ -26,8 +26,8 @@
 <t t-set="subtotal" t-value="sum(lines.mapped('price_subtotal'))"/>
 <t t-set="disc" t-value="sum(rewards.mapped('price_subtotal'))"/>
 <t t-set="any_disc" t-value="any(lines.mapped('discount'))"/>
-<t t-set="pw" t-value="o.invoice_payments_widget or {}"/>
-<t t-set="pays" t-value="[p for p in (pw.get('content') or []) if not p.get('is_exchange')] if not is_draft else []"/>
+<t t-set="pay_recs" t-value="((o.sudo().matched_payment_ids if 'matched_payment_ids' in o._fields else o.env['account.payment']) | (o.sudo().reconciled_payment_ids if 'reconciled_payment_ids' in o._fields else o.env['account.payment'])).filtered(lambda p: p.state not in ('draft', 'cancel', 'canceled', 'rejected')).sorted('date')"/>
+<t t-set="pays" t-value="[{'date': p.date, 'amount': p.amount, 'journal_name': p.journal_id.name} for p in pay_recs] if not is_draft else []"/>
 <t t-set="paid_amt" t-value="o.amount_total - o.amount_residual"/>
 <t t-set="show_due" t-value="o.state == 'posted' and not is_refund and paid_amt > 0.005"/>
 <t t-set="can_pay" t-value="o.state == 'posted' and not is_refund and not is_paid and o.amount_residual > 0.005"/>
@@ -742,7 +742,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 </t>
 <t t-if="can_pay and o.partner_bank_id">
 <tr><td class="pk po" colspan="4">Bank transfer</td></tr>
-<tr><td class="pv" colspan="4"><t t-out="o.partner_bank_id.bank_id.name"/><t t-if="o.partner_bank_id.bank_id"> · </t><t t-out="o.partner_bank_id.acc_number"/> · Reference <t t-out="o.payment_reference or o.name"/></td></tr>
+<t t-set="pb" t-value="o.partner_bank_id"/><t t-set="pb_name" t-value="('bank_name' in pb._fields and pb.bank_name) or ('bank_id' in pb._fields and pb.bank_id.name) or ''"/><t t-set="pb_no" t-value="('account_number' in pb._fields and pb.account_number) or ('acc_number' in pb._fields and pb.acc_number) or ''"/><tr><td class="pv" colspan="4"><t t-out="' · '.join([x for x in [pb_name, pb_no] if x])"/> · Reference <t t-out="o.payment_reference or o.name"/></td></tr>
 </t>
 <t t-if="can_pay">
 <tr><td class="pk po" colspan="3">Pay online</td><td class="pq" rowspan="2"><img t-att-src="'/report/barcode/?barcode_type=QR&amp;value=%s&amp;width=360&amp;height=360&amp;quiet=0' % portal_qr" width="64" height="64" style="width:64px;height:64px" alt="QR"/></td></tr>
