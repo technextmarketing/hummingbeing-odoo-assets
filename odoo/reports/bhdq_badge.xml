@@ -48,7 +48,7 @@ body.container, body.o_body_html { padding:0 !important; margin:0 !important; ma
 .bb .ft td.r { text-align: right; }
 /* ---- BHD Asia ---- */
 .bb-bhd .card { background: #ffffff; border: 1px solid #0b2238; font-family: 'DM Sans', 'Segoe UI', Arial, sans-serif; color: #4a5568; }
-.bb-bhd .hd { background: #ffffff; border-bottom: 4px solid #E8B830; padding-top: 22px; height: 106px; }
+.bb-bhd .hd { background: #ffffff; border-bottom: 4px solid #E8B830; padding-top: 20px; height: 136px; }
 .bb-bhd .plate { display: inline-block; background: transparent; padding: 0; }
 .bb-bhd .nm { font-family: 'Sora', 'Segoe UI', Arial, sans-serif; font-weight: 700; color: #0b2238; letter-spacing: -0.5px; margin-top: 40px; }
 .bb-bhd .pill { background: #E8B830; color: #0b2238; margin-top: 16px; }
@@ -98,7 +98,7 @@ body.container, body.o_body_html { padding:0 !important; margin:0 !important; ma
 </div>
 <table class="orn" t-if="brand == 'hb'"><tr><td class="ol"></td><td class="od"><i></i></td><td class="ol"></td></tr></table>
 <div class="body">
-<t t-set="mid_h" t-value="{'bhd':200,'hb':206,'tre':222}[brand]"/>
+<t t-set="mid_h" t-value="{'bhd':166,'hb':206,'tre':222}[brand]"/>
 <table class="mid" t-attf-style="height:#{mid_h}px"><tr><td t-attf-style="height:#{mid_h}px">
 <div t-att-class="'nmbox' if brand == 'tre' else None">
 <div t-attf-class="nm #{nm_cls}"><t t-out="nm"/></div>
