@@ -768,6 +768,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 .bqf-tre td { padding-top: 10px; color: #5f6b7d; font-size: 10px; }
 .bqf-tre td.fr { text-align: right; color: #1c3d7a; font-weight: 600; }
 /* v3.2 footer: reference never wraps, no boxed footer */
+.bqf-tre td, .bqf-bhd td { border: 0 !important; }
 .bqf-hb .hbf { border-top: 1px solid #FCE6C1; padding-top: 8px; text-align: center; color: #5f6472; font-size: 10px; letter-spacing: .3px; line-height: 1.5; }
 .bqf td.fr { white-space: nowrap; width: 1%; }
 .bqf-bhd td { padding: 13px 10px 13px 60px; }
