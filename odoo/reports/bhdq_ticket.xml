@@ -189,8 +189,8 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 .bq-bhd .tk .qr-num { font-size: 9.5px; text-align: center; }
 .bq-bhd .tk .qrw2 { display: inline-block; text-align: center; }
 .bq-bhd .tk .stub .sq { text-align: center; }
-.bq-bhd .tk .void { position: absolute; left: 0; top: 236px; width: 508px; text-align: center; z-index: 5; }
-.bq-bhd .tk .void span { display: inline-block; background: #ffffff; border: 2px solid #c53030; color: #c53030; font-weight: 800; font-size: 15px; letter-spacing: 2px; text-transform: uppercase; padding: 9px 20px; -webkit-transform: rotate(-6deg); transform: rotate(-6deg); }
+.bq-bhd .tk .void { position: absolute; left: 0; top: 248px; width: 508px; text-align: center; z-index: 5; white-space: nowrap; }
+.bq-bhd .tk .void span { display: inline-block; background: #ffffff; border: 2px solid #c53030; color: #c53030; font-weight: 800; font-size: 13px; letter-spacing: 2px; text-transform: uppercase; padding: 8px 18px; white-space: nowrap; -webkit-transform: rotate(-4deg); transform: rotate(-4deg); }
 .bq-bhd .info .ih { font-size: 10px; }
 .bq-bhd .lc { text-transform: lowercase; }
 .bq-bhd .secrow { background: #FAF7F4; color: #1c2b3a; font-size: 11.5px; padding: 8px 10px; border-bottom: 1px solid #E5DDD5; }
@@ -384,8 +384,8 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 .bq-hb .tk .qr-num { font-size: 9.5px; text-align: center; }
 .bq-hb .tk .qrw2 { display: inline-block; text-align: center; }
 .bq-hb .tk .stub .sq { text-align: center; }
-.bq-hb .tk .void { position: absolute; left: 0; top: 236px; width: 508px; text-align: center; z-index: 5; }
-.bq-hb .tk .void span { display: inline-block; background: #ffffff; border: 2px solid #c53030; color: #c53030; font-weight: 800; font-size: 15px; letter-spacing: 2px; text-transform: uppercase; padding: 9px 20px; -webkit-transform: rotate(-6deg); transform: rotate(-6deg); }
+.bq-hb .tk .void { position: absolute; left: 0; top: 248px; width: 508px; text-align: center; z-index: 5; white-space: nowrap; }
+.bq-hb .tk .void span { display: inline-block; background: #ffffff; border: 2px solid #c53030; color: #c53030; font-weight: 800; font-size: 13px; letter-spacing: 2px; text-transform: uppercase; padding: 8px 18px; white-space: nowrap; -webkit-transform: rotate(-4deg); transform: rotate(-4deg); }
 .bq-hb .info .ih { font-size: 10px; }
 .bq-hb .lc { text-transform: lowercase; }
 .bq-hb .secrow { background: #ffffff; color: #242e42; font-size: 11.5px; padding: 8px 10px; border-bottom: 1px solid #FCE6C1; }
@@ -564,8 +564,8 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 .bq-tre .tk .qr-num { font-size: 9.5px; text-align: center; }
 .bq-tre .tk .qrw2 { display: inline-block; text-align: center; }
 .bq-tre .tk .stub .sq { text-align: center; }
-.bq-tre .tk .void { position: absolute; left: 0; top: 236px; width: 508px; text-align: center; z-index: 5; }
-.bq-tre .tk .void span { display: inline-block; background: #ffffff; border: 2px solid #c53030; color: #c53030; font-weight: 800; font-size: 15px; letter-spacing: 2px; text-transform: uppercase; padding: 9px 20px; -webkit-transform: rotate(-6deg); transform: rotate(-6deg); }
+.bq-tre .tk .void { position: absolute; left: 0; top: 248px; width: 508px; text-align: center; z-index: 5; white-space: nowrap; }
+.bq-tre .tk .void span { display: inline-block; background: #ffffff; border: 2px solid #c53030; color: #c53030; font-weight: 800; font-size: 13px; letter-spacing: 2px; text-transform: uppercase; padding: 8px 18px; white-space: nowrap; -webkit-transform: rotate(-4deg); transform: rotate(-4deg); }
 .bq-tre .info .ih { font-size: 10px; }
 .bq-tre .lc { text-transform: lowercase; }
 .bq-tre .secrow { background: #ffffff; color: #0f1f3d; font-size: 11.5px; padding: 8px 10px; border-bottom: 1px solid #e4dfd6; }

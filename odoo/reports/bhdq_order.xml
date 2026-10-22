@@ -31,7 +31,7 @@
 <t t-set="portal_qr" t-value="portal_url.replace('%','%25').replace('&amp;','%26').replace('?','%3F').replace('=','%3D').replace('#','%23').replace('+','%2B')"/>
 <t t-set="pill_html"><span t-attf-class="pill#{' cancel' if is_cancel else ''}"><i></i><t t-out="st_label"/></span></t>
 <div t-attf-class="bq bq-#{brand}"><style t-if="brand == 'bhd'">@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600;700');@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700');</style><style t-if="brand == 'hb'">@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600');@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700');</style><style t-if="brand == 'tre'">@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800');@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600');</style>
-<t t-set="run_txt" t-value="('Pro Forma Invoice' if is_pf else ('Quotation' if is_quote else 'Order')) + ' ' + doc.name + ' · ' + (partner.name or '')"/><div class="header bqh"><style t-if="brand == 'bhd'">@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600;700');@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700');</style><style t-if="brand == 'hb'">@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600');@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700');</style><style t-if="brand == 'tre'">@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800');@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600');</style><t t-set="run_font" t-value="{'bhd':'Sora, Arial, sans-serif','hb':'Lato, Arial, sans-serif','tre':'Inter, Arial, sans-serif'}[brand]"/><t t-set="run_ink" t-value="{'bhd':'#0b2238','hb':'#242e42','tre':'#1c3d7a'}[brand]"/><t t-set="run_acc" t-value="{'bhd':'#E8B830','hb':'#F5A623','tre':'#b89a72'}[brand]"/><div class="not-first-page" t-attf-style="padding:20px 60px 0 60px; font-family:#{run_font}; color:#{run_ink};"><table style="width:674px; border-collapse:collapse; border:0;"><tr><td style="text-align:left; padding:0 0 7px 0; border:0; font-size:10px; font-weight:700; letter-spacing:1.2px; text-transform:uppercase;"><t t-out="{'bhd':'BHD Asia','hb':'HummingBeing','tre':'TRE Singapore'}[brand]"/></td><td style="text-align:right; padding:0 0 7px 0; border:0; font-size:10px;"><t t-out="run_txt"/> <span t-attf-style="color:#{run_acc};">· continued</span></td></tr></table><div t-attf-style="height:2px; background:#{run_acc};"></div></div><script>(function(){var q=document.location.search.substring(1).split('&amp;'),v={};for(var i=0;i&lt;q.length;i++){var z=q[i].split('=',2);v[z[0]]=unescape(z[1]);}if(v.sitepage==='1'){var e=document.getElementsByClassName('not-first-page');for(var j=0;j&lt;e.length;j++){e[j].style.visibility='hidden';}}})();</script></div>
+<t t-set="run_txt" t-value="('Pro Forma Invoice' if is_pf else ('Quotation' if is_quote else 'Order')) + ' ' + doc.name + ' · ' + (partner.name or '')"/><div class="header bqh"></div>
 <style>
 body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !important; margin:0 !important; max-width:none !important; width:auto !important; }
 .bq table, .bq thead, .bq tbody, .bq tfoot, .bq tr, .bq th, .bq td { border-style:none; border-width:0; }
@@ -194,8 +194,8 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 .bq-bhd .tk .qr-num { font-size: 9.5px; text-align: center; }
 .bq-bhd .tk .qrw2 { display: inline-block; text-align: center; }
 .bq-bhd .tk .stub .sq { text-align: center; }
-.bq-bhd .tk .void { position: absolute; left: 0; top: 236px; width: 508px; text-align: center; z-index: 5; }
-.bq-bhd .tk .void span { display: inline-block; background: #ffffff; border: 2px solid #c53030; color: #c53030; font-weight: 800; font-size: 15px; letter-spacing: 2px; text-transform: uppercase; padding: 9px 20px; -webkit-transform: rotate(-6deg); transform: rotate(-6deg); }
+.bq-bhd .tk .void { position: absolute; left: 0; top: 248px; width: 508px; text-align: center; z-index: 5; white-space: nowrap; }
+.bq-bhd .tk .void span { display: inline-block; background: #ffffff; border: 2px solid #c53030; color: #c53030; font-weight: 800; font-size: 13px; letter-spacing: 2px; text-transform: uppercase; padding: 8px 18px; white-space: nowrap; -webkit-transform: rotate(-4deg); transform: rotate(-4deg); }
 .bq-bhd .info .ih { font-size: 10px; }
 .bq-bhd .lc { text-transform: lowercase; }
 .bq-bhd .secrow { background: #FAF7F4; color: #1c2b3a; font-size: 11.5px; padding: 8px 10px; border-bottom: 1px solid #E5DDD5; }
@@ -389,8 +389,8 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 .bq-hb .tk .qr-num { font-size: 9.5px; text-align: center; }
 .bq-hb .tk .qrw2 { display: inline-block; text-align: center; }
 .bq-hb .tk .stub .sq { text-align: center; }
-.bq-hb .tk .void { position: absolute; left: 0; top: 236px; width: 508px; text-align: center; z-index: 5; }
-.bq-hb .tk .void span { display: inline-block; background: #ffffff; border: 2px solid #c53030; color: #c53030; font-weight: 800; font-size: 15px; letter-spacing: 2px; text-transform: uppercase; padding: 9px 20px; -webkit-transform: rotate(-6deg); transform: rotate(-6deg); }
+.bq-hb .tk .void { position: absolute; left: 0; top: 248px; width: 508px; text-align: center; z-index: 5; white-space: nowrap; }
+.bq-hb .tk .void span { display: inline-block; background: #ffffff; border: 2px solid #c53030; color: #c53030; font-weight: 800; font-size: 13px; letter-spacing: 2px; text-transform: uppercase; padding: 8px 18px; white-space: nowrap; -webkit-transform: rotate(-4deg); transform: rotate(-4deg); }
 .bq-hb .info .ih { font-size: 10px; }
 .bq-hb .lc { text-transform: lowercase; }
 .bq-hb .secrow { background: #ffffff; color: #242e42; font-size: 11.5px; padding: 8px 10px; border-bottom: 1px solid #FCE6C1; }
@@ -569,8 +569,8 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 .bq-tre .tk .qr-num { font-size: 9.5px; text-align: center; }
 .bq-tre .tk .qrw2 { display: inline-block; text-align: center; }
 .bq-tre .tk .stub .sq { text-align: center; }
-.bq-tre .tk .void { position: absolute; left: 0; top: 236px; width: 508px; text-align: center; z-index: 5; }
-.bq-tre .tk .void span { display: inline-block; background: #ffffff; border: 2px solid #c53030; color: #c53030; font-weight: 800; font-size: 15px; letter-spacing: 2px; text-transform: uppercase; padding: 9px 20px; -webkit-transform: rotate(-6deg); transform: rotate(-6deg); }
+.bq-tre .tk .void { position: absolute; left: 0; top: 248px; width: 508px; text-align: center; z-index: 5; white-space: nowrap; }
+.bq-tre .tk .void span { display: inline-block; background: #ffffff; border: 2px solid #c53030; color: #c53030; font-weight: 800; font-size: 13px; letter-spacing: 2px; text-transform: uppercase; padding: 8px 18px; white-space: nowrap; -webkit-transform: rotate(-4deg); transform: rotate(-4deg); }
 .bq-tre .info .ih { font-size: 10px; }
 .bq-tre .lc { text-transform: lowercase; }
 .bq-tre .secrow { background: #ffffff; color: #0f1f3d; font-size: 11.5px; padding: 8px 10px; border-bottom: 1px solid #e4dfd6; }
@@ -769,14 +769,14 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 .bqf-tre td.fr { text-align: right; color: #1c3d7a; font-weight: 600; }
 </style>
 <t t-if="fbrand == 'bhd'">
-<table><tr><td><t t-out="fcmp_line"/> · <t t-out="fsite"/></td><td class="fr">Page <span class="page"></span> / <span class="topage"></span></td></tr></table>
+<table><tr><td><t t-out="fcmp_line"/> · <t t-out="fsite"/></td><td class="fr"><t t-out="run_txt"/> · Page <span class="page"></span> / <span class="topage"></span></td></tr></table>
 <div class="foot-rule"></div>
 </t>
 <t t-if="fbrand == 'hb'">
-<table><tr><td class="fl"><t t-out="fcmp_line"/> · <t t-out="fsite"/><br/>Page <span class="page"></span> / <span class="topage"></span></td></tr></table>
+<table><tr><td class="fl"><t t-out="fcmp_line"/> · <t t-out="fsite"/><br/><t t-out="run_txt"/> · Page <span class="page"></span> / <span class="topage"></span></td></tr></table>
 </t>
 <t t-if="fbrand == 'tre'">
-<div class="fwrap"><table><tr><td><t t-out="fcmp_line"/> · <t t-out="fsite"/></td><td class="fr">Page <span class="page"></span> / <span class="topage"></span></td></tr></table></div>
+<div class="fwrap"><table><tr><td><t t-out="fcmp_line"/> · <t t-out="fsite"/></td><td class="fr"><t t-out="run_txt"/> · Page <span class="page"></span> / <span class="topage"></span></td></tr></table></div>
 </t>
 </div>
 </t>
