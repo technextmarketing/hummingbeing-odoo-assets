@@ -1,0 +1,116 @@
+<t t-name="bhdq.badge_a6">
+<t t-set="so" t-value="attendee and attendee.sudo().sale_order_id"/>
+<t t-set="wid" t-value="(so and so.website_id.id) or (attendee and attendee.visitor_id and attendee.visitor_id.website_id.id) or 1"/>
+<t t-set="brand" t-value="event.env.context.get('bhdq_brand') or {1:'bhd',2:'hb',3:'tre'}.get(wid,'bhd')"/>
+<t t-set="site" t-value="{'bhd':'bhdasia.com','hb':'hummingbeing.com','tre':'tre-in-singapore.com'}[brand]"/>
+<t t-set="logo_src" t-value="{'bhd':'/web/content/947','hb':'/web/content/1535','tre':'/web/content/1435'}[brand]"/>
+<t t-set="lw" t-value="{'bhd':58,'hb':170,'tre':150}[brand]"/>
+<t t-set="lh" t-value="{'bhd':45,'hb':46,'tre':82}[brand]"/>
+<t t-set="nm" t-value="(attendee and attendee.name) or 'Attendee Name'"/>
+<t t-set="nm_cls" t-value="'xl' if len(nm) &lt;= 16 else ('l' if len(nm) &lt;= 24 else 'm')"/>
+<t t-set="ttype" t-value="(attendee and attendee.event_ticket_id.name) or (event.event_ticket_ids[:1].name) or 'Attendee'"/>
+<t t-set="org" t-value="event.organizer_id.name or 'BHD Asia'"/>
+<t t-set="multi" t-value="not event.is_one_day"/>
+<t t-set="where_txt" t-value="'Online' if not event.address_id else (event.address_id.city or event.address_id.name)"/>
+<t t-set="code" t-value="attendee and attendee.barcode"/>
+<div t-attf-class="bb bb-#{brand}">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600;700');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600');
+body.container, body.o_body_html { padding:0 !important; margin:0 !important; max-width:none !important; width:auto !important; background:#fff !important; }
+.bb { width: 794px; height: 1122px; position: relative; page-break-after: always; overflow: hidden; }
+.bb table { border-collapse: collapse; border-spacing: 0; width: 100%; }
+.bb td { padding: 0; vertical-align: top; text-align: left; border-style: none; border-width: 0; }
+.bb .card { position: absolute; left: 0; top: 0; width: 397px; height: 561px; overflow: hidden; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.bb .cut-r { position: absolute; left: 397px; top: 0; height: 561px; border-left: 1px dashed #b8bcc4; }
+.bb .cut-b { position: absolute; left: 0; top: 561px; width: 397px; border-top: 1px dashed #b8bcc4; }
+.bb .hd { height: 128px; text-align: center; }
+.bb .hd img { display: inline-block; }
+.bb .body { padding: 0 34px; text-align: center; }
+.bb .nm { line-height: 1.08; word-wrap: break-word; }
+.bb .nm.xl { font-size: 38px; } .bb .nm.l { font-size: 31px; } .bb .nm.m { font-size: 25px; }
+.bb .pill { display: inline-block; font-size: 10.5px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; padding: 4px 14px; border-radius: 20px; white-space: nowrap; }
+.bb .evn { font-size: 13.5px; line-height: 1.35; }
+.bb .evd { font-size: 11px; letter-spacing: .4px; margin-top: 5px; }
+.bb .bottom { position: absolute; left: 0; bottom: 0; width: 397px; }
+.bb .qrw { text-align: center; padding-bottom: 12px; }
+.bb .qrb { display: inline-block; background: #fff; padding: 5px; }
+.bb .qrn { font-size: 8px; letter-spacing: .4px; margin-top: 3px; }
+.bb .ft { font-size: 9.5px; letter-spacing: .5px; padding: 10px 24px; }
+.bb .ft td.r { text-align: right; }
+/* ---- BHD Asia ---- */
+.bb-bhd .card { background: #ffffff; border: 1px solid #0b2238; font-family: 'DM Sans', 'Segoe UI', Arial, sans-serif; color: #4a5568; }
+.bb-bhd .hd { background: #0b2238; border-bottom: 4px solid #E8B830; padding-top: 30px; height: 98px; }
+.bb-bhd .plate { display: inline-block; background: #fff; border-radius: 6px; padding: 7px 10px; }
+.bb-bhd .nm { font-family: 'Sora', 'Segoe UI', Arial, sans-serif; font-weight: 700; color: #0b2238; letter-spacing: -0.5px; margin-top: 40px; }
+.bb-bhd .pill { background: #E8B830; color: #0b2238; margin-top: 16px; }
+.bb-bhd .rule { width: 60px; height: 3px; background: #E8B830; margin: 22px auto 16px auto; }
+.bb-bhd .evn { font-family: 'Sora', 'Segoe UI', Arial, sans-serif; font-weight: 600; color: #0b2238; }
+.bb-bhd .evd { color: #9A6508; text-transform: uppercase; font-weight: 500; }
+.bb-bhd .qrb { border: 1px solid #E5DDD5; }
+.bb-bhd .qrn { color: #5a6b82; }
+.bb-bhd .ft { background: #0b2238; color: #c4d0de; }
+.bb-bhd .ft td.r { color: #E8B830; font-weight: 500; }
+/* ---- HummingBeing ---- */
+.bb-hb .card { background: #fafaf8; border: 1px solid #F5A623; font-family: 'Lato', 'Segoe UI', Arial, sans-serif; color: #3d4250; }
+.bb-hb .inset { position: absolute; left: 7px; top: 7px; width: 381px; height: 545px; border: 1px solid #FCE6C1; }
+.bb-hb .hd { padding-top: 36px; height: 92px; }
+.bb-hb .orn { width: 160px; margin: 0 auto; }
+.bb-hb .orn td { vertical-align: middle; }
+.bb-hb .orn .ol { border-top: 1px solid #F5A623; height: 1px; }
+.bb-hb .orn .od { width: 20px; text-align: center; }
+.bb-hb .orn .od i { display: block; width: 7px; height: 7px; margin: 0 auto; background: #F5A623; -webkit-transform: rotate(45deg); transform: rotate(45deg); }
+.bb-hb .nm { font-family: 'Playfair Display', Georgia, serif; font-weight: 500; color: #242e42; margin-top: 30px; }
+.bb-hb .pill { border: 1px solid #F5A623; background: #FEF4E5; color: #242e42; margin-top: 16px; }
+.bb-hb .evn { font-family: 'Playfair Display', Georgia, serif; font-style: italic; font-size: 16px; color: #c98000; margin-top: 22px; }
+.bb-hb .evd { color: #5f6472; text-transform: uppercase; font-weight: 700; letter-spacing: 1.2px; font-size: 9.5px; margin-top: 7px; }
+.bb-hb .qrb { border: 1px solid #FCE6C1; }
+.bb-hb .qrn { color: #5f6472; }
+.bb-hb .ft { color: #5f6472; text-align: center; padding-bottom: 16px; }
+.bb-hb .ft .fl { border-top: 1px solid #FCE6C1; padding-top: 8px; text-align: center; }
+/* ---- TRE Singapore ---- */
+.bb-tre .card { background: #faf6ef; border: 1px solid #e4dfd6; border-radius: 18px; font-family: 'Inter', 'Segoe UI', Arial, sans-serif; color: #2c3a52; }
+.bb-tre .hd { padding-top: 22px; height: 106px; }
+.bb-tre .nmbox { background: #1c3d7a; border-radius: 16px; border-left: 6px solid #b89a72; margin: 18px 0 0 0; padding: 22px 18px 20px 18px; }
+.bb-tre .nm { font-family: 'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif; font-weight: 800; color: #ffffff; letter-spacing: -0.6px; }
+.bb-tre .pill { background: #f3e8d2; color: #132b56; border: 1px solid #b89a72; margin-top: 13px; font-family: 'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif; }
+.bb-tre .evn { font-family: 'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif; font-weight: 800; color: #1c3d7a; margin-top: 20px; }
+.bb-tre .evd { color: #8b6b45; text-transform: uppercase; font-weight: 600; letter-spacing: 1.1px; font-size: 9.5px; }
+.bb-tre .qrb { border: 1px solid #e4dfd6; border-radius: 8px; }
+.bb-tre .qrn { color: #5f6b7d; }
+.bb-tre .ft { color: #5f6b7d; }
+.bb-tre .ft .fw { border-top: 2px solid #b89a72; padding-top: 8px; }
+.bb-tre .ft td.r { color: #1c3d7a; font-weight: 600; }
+</style>
+<div class="card">
+<div class="inset" t-if="brand == 'hb'"></div>
+<div class="hd">
+<t t-if="brand == 'bhd'"><div class="plate"><img t-att-src="logo_src" t-att-width="lw" t-att-height="lh" t-att-style="'width:%spx;height:%spx' % (lw, lh)" alt="BHD Asia"/></div></t>
+<t t-else=""><img t-att-src="logo_src" t-att-width="lw" t-att-height="lh" t-att-style="'width:%spx;height:%spx' % (lw, lh)" t-att-alt="'HummingBeing' if brand == 'hb' else 'TRE Singapore'"/></t>
+</div>
+<table class="orn" t-if="brand == 'hb'"><tr><td class="ol"></td><td class="od"><i></i></td><td class="ol"></td></tr></table>
+<div class="body">
+<div t-att-class="'nmbox' if brand == 'tre' else None">
+<div t-attf-class="nm #{nm_cls}"><t t-out="nm"/></div>
+<div><span class="pill"><t t-out="ttype"/></span></div>
+</div>
+<div class="rule" t-if="brand == 'bhd'"></div>
+<div class="evn"><t t-out="event.name"/></div>
+<div class="evd"><t t-out="event.date_begin" t-options="{'widget': 'datetime', 'tz_name': event.date_tz, 'format': 'd MMM y'}"/><t t-if="multi"> – <t t-out="event.date_end" t-options="{'widget': 'datetime', 'tz_name': event.date_tz, 'format': 'd MMM y'}"/></t> · <t t-out="where_txt"/></div>
+</div>
+<div class="bottom">
+<div class="qrw" t-if="code"><div class="qrb"><img t-att-src="'/report/barcode/?barcode_type=QR&amp;value=%s&amp;width=240&amp;height=240&amp;quiet=0' % code" width="70" height="70" style="width:70px;height:70px" alt="QR"/></div><div class="qrn"><t t-out="code"/></div></div>
+<div class="ft">
+<t t-if="brand == 'hb'"><div class="fl">Hosted by <t t-out="org"/> · <t t-out="site"/></div></t>
+<t t-elif="brand == 'tre'"><div class="fw"><table><tr><td>Hosted by <t t-out="org"/></td><td class="r"><t t-out="site"/></td></tr></table></div></t>
+<t t-else=""><table><tr><td>Hosted by <t t-out="org"/></td><td class="r"><t t-out="site"/></td></tr></table></t>
+</div>
+</div>
+</div>
+<div class="cut-r"></div><div class="cut-b"></div>
+</div>
+</t>

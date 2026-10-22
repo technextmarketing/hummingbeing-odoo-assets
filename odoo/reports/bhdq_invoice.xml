@@ -1,0 +1,742 @@
+<t t-name="bhdq.invoice_document">
+<div class="article" t-att-data-oe-model="o._name" t-att-data-oe-id="o.id" t-att-data-oe-lang="o.env.context.get('lang')">
+<t t-set="sos" t-value="o.sudo().invoice_line_ids.sale_line_ids.order_id"/>
+<t t-set="wid" t-value="(('website_id' in o._fields) and o.website_id.id) or sos[:1].website_id.id or 1"/>
+<t t-set="brand" t-value="o.env.context.get('bhdq_brand') or {1:'bhd',2:'hb',3:'tre'}.get(wid,'bhd')"/>
+<t t-set="site" t-value="{'bhd':'bhdasia.com','hb':'hummingbeing.com','tre':'tre-in-singapore.com'}[brand]"/>
+<t t-set="logo_src" t-value="{'bhd':'/web/content/947','hb':'/web/content/1535','tre':'/web/content/1435'}[brand]"/>
+<t t-set="lw" t-value="{'bhd':80,'hb':169,'tre':165}[brand]"/>
+<t t-set="lh" t-value="{'bhd':62,'hb':46,'tre':90}[brand]"/>
+<t t-set="is_refund" t-value="o.move_type in ('out_refund','in_refund')"/>
+<t t-set="is_draft" t-value="o.state == 'draft'"/>
+<t t-set="is_cancel" t-value="o.state == 'cancel'"/>
+<t t-set="ps" t-value="o.payment_state"/>
+<t t-set="is_paid" t-value="ps in ('paid','in_payment') or (o.state == 'posted' and not o.amount_total)"/>
+<t t-set="doc_word" t-value="'Credit Note' if is_refund else 'Invoice'"/>
+<t t-set="title" t-value="('Draft ' if is_draft else ('Cancelled ' if is_cancel else '')) + doc_word"/>
+<t t-set="st_label" t-value="'Cancelled' if is_cancel else ('Draft' if is_draft else ('Reversed' if ps == 'reversed' else (('Refunded' if is_paid else 'Issued') if is_refund else ('Paid' if is_paid else ('Partly paid' if ps == 'partial' else 'Awaiting payment')))))"/>
+<t t-set="sub_txt" t-value="'This document has been cancelled.' if is_cancel else ('Draft, not yet issued.' if is_draft else (('Credit note for invoice ' + o.reversed_entry_id.name + '.') if (is_refund and o.reversed_entry_id) else ('Here is your credit note.' if is_refund else ('Thank you, this invoice is paid in full.' if is_paid else 'Here is your invoice.'))))"/>
+<t t-set="partner" t-value="o.partner_id"/>
+<t t-set="all_lines" t-value="o.invoice_line_ids.filtered(lambda l: l.display_type in ('product','line_section','line_note'))"/>
+<t t-set="rewards" t-value="all_lines.filtered(lambda l: l.display_type == 'product' and any(l.sudo().sale_line_ids.mapped('is_reward_line')))"/>
+<t t-set="lines" t-value="all_lines.filtered(lambda l: l.display_type == 'product') - rewards"/>
+<t t-set="show_lines" t-value="all_lines - rewards"/>
+<t t-set="evs" t-value="lines.sudo().sale_line_ids.event_id"/>
+<t t-set="subtotal" t-value="sum(lines.mapped('price_subtotal'))"/>
+<t t-set="disc" t-value="sum(rewards.mapped('price_subtotal'))"/>
+<t t-set="any_disc" t-value="any(lines.mapped('discount'))"/>
+<t t-set="pw" t-value="o.invoice_payments_widget or {}"/>
+<t t-set="pays" t-value="[p for p in (pw.get('content') or []) if not p.get('is_exchange')] if not is_draft else []"/>
+<t t-set="paid_amt" t-value="o.amount_total - o.amount_residual"/>
+<t t-set="show_due" t-value="o.state == 'posted' and not is_refund and paid_amt > 0.005"/>
+<t t-set="can_pay" t-value="o.state == 'posted' and not is_refund and not is_paid and o.amount_residual > 0.005"/>
+<t t-set="portal_url" t-value="(o.get_base_url() + o.get_portal_url()) if can_pay else ''"/>
+<t t-set="portal_qr" t-value="portal_url.replace('%','%25').replace('&amp;','%26').replace('?','%3F').replace('=','%3D').replace('#','%23').replace('+','%2B')"/>
+<t t-set="pill_html"><span t-attf-class="pill#{' cancel' if is_cancel else ''}"><i></i><t t-out="st_label"/></span></t>
+<div t-attf-class="bq bq-#{brand}">
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600;700');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600');
+
+body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !important; margin:0 !important; max-width:none !important; width:auto !important; }
+.bq table, .bq thead, .bq tbody, .bq tfoot, .bq tr, .bq th, .bq td { border-style:none; border-width:0; }
+/* bhd */
+.bq-bhd * { box-sizing: border-box; -webkit-box-sizing: border-box; }
+.bq-bhd { background: #fff; font-size: 12px; line-height: 1.5; color: #4a5568; font-family: 'DM Sans', 'Segoe UI', sans-serif; width: 794px; }
+.bq-bhd table { border-collapse: collapse; border-spacing: 0; width: 100%; }
+.bq-bhd td, .bq-bhd th { padding: 0; vertical-align: top; text-align: left; }
+.bq-bhd p { margin: 0; }
+.bq-bhd img { display: block; }
+.bq-bhd .page { position: relative; width: 794px; background: #ffffff; min-height: 1064px; }
+.bq-bhd .inner { padding: 0 60px; }
+.bq-bhd .num { text-align: right !important; white-space: nowrap; -webkit-font-feature-settings: "tnum" 1; font-feature-settings: "tnum" 1; }
+.bq-bhd .r { text-align: right; }
+.bq-bhd .c { text-align: center; }
+.bq-bhd .gap6 { height: 6px; }
+.bq-bhd .gap10 { height: 10px; }
+.bq-bhd .gap14 { height: 14px; }
+.bq-bhd .gap18 { height: 18px; }
+.bq-bhd .gap22 { height: 22px; }
+.bq-bhd .k { font-size: 9px; letter-spacing: 1.1px; text-transform: uppercase; color: #5a6b82; }
+.bq-bhd .v { color: #1c2b3a; }
+.bq-bhd .strong { color: #1c2b3a; font-weight: 700; }
+.bq-bhd .logo-box img, .bq-bhd .logo-box img { display: block; }
+.bq-bhd .party td { width: 50%; }
+.bq-bhd .party .pc { padding: 12px 16px 12px 16px; }
+.bq-bhd .party .pn { font-size: 13px; color: #1c2b3a; font-weight: 700; margin-bottom: 2px; }
+.bq-bhd .party .pc { min-height: 88px; }
+.bq-bhd .party p { font-size: 11.5px; line-height: 1.55; }
+.bq-bhd .ev .evn { font-size: 15px; line-height: 1.3; color: #0b2238; }
+.bq-bhd .ev .evk { font-size: 9px; letter-spacing: 1.1px; text-transform: uppercase; color: #5a6b82; padding-bottom: 2px; }
+.bq-bhd .ev .evv { font-size: 11.5px; line-height: 1.4; color: #1c2b3a; padding-right: 10px; }
+.bq-bhd .lines th { font-size: 9px; letter-spacing: 1px; text-transform: uppercase; padding: 8px 10px; }
+.bq-bhd .lines td { padding: 11px 10px; font-size: 11.5px; }
+.bq-bhd .lines .desc b { display: block; font-weight: 700; color: #1c2b3a; font-size: 12px; line-height: 1.4; }
+.bq-bhd .lines .att { display: block; font-size: 10.5px; color: #5a6b82; margin-top: 3px; }
+.bq-bhd .lines .idx { width: 30px; }
+.bq-bhd .lines .qty { width: 46px; }
+.bq-bhd .lines .unit { width: 92px; }
+.bq-bhd .lines .amt { width: 100px; }
+.bq-bhd .totals { width: 300px; margin-left: auto; }
+.bq-bhd .totals td { padding: 6px 10px; font-size: 11.5px; }
+.bq-bhd .totals .tl { color: #4a5568; }
+.bq-bhd .totals .tv { text-align: right; white-space: nowrap; color: #1c2b3a; -webkit-font-feature-settings: "tnum" 1; font-feature-settings: "tnum" 1; }
+.bq-bhd .totals .tg td { padding-top: 12px; padding-bottom: 12px; }
+.bq-bhd .pay td.pk { font-size: 9px; letter-spacing: 1.1px; text-transform: uppercase; color: #5a6b82; padding: 11px 16px 1px 16px; }
+.bq-bhd .pay td.pv { font-size: 12px; color: #1c2b3a; padding: 0 16px 11px 16px; font-weight: 700; }
+.bq-bhd .steps td { width: 33.33%; padding-right: 14px; }
+.bq-bhd .steps .sn { display: block; }
+.bq-bhd .steps p { font-size: 11.5px; line-height: 1.5; color: #4a5568; }
+.bq-bhd .steps td.sc { padding-bottom: 0; }
+.bq-bhd .terms { font-size: 10.5px; line-height: 1.5; color: #5a6b82; }
+.bq-bhd .terms b { color: #1c2b3a; font-weight: 700; }
+.bq-bhd .pill { display: inline-block; font-size: 10px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; padding: 3px 12px; border-radius: 20px; white-space: nowrap; line-height: 1.4; }
+.bq-bhd .pill i { display: inline-block; width: 6px; height: 6px; border-radius: 3px; margin-right: 6px; vertical-align: 1px; }
+.bq-bhd .hd { background: #0b2238; padding: 30px 60px 26px 60px; }
+.bq-bhd .hd td { vertical-align: middle; }
+.bq-bhd .logo-plate { display: inline-block; background: #fff; border-radius: 6px; padding: 9px 12px; }
+.bq-bhd .logo-plate img { width: 80px; height: 62px; }
+.bq-bhd .hd .ttl { font-family: 'Sora', 'Segoe UI', sans-serif; font-weight: 700; font-size: 31px; letter-spacing: -0.4px; color: #fff; line-height: 1.1; padding-left: 22px; }
+.bq-bhd .hd .sub { font-size: 12px; color: #c4d0de; padding-left: 22px; padding-top: 6px; }
+.bq-bhd .hd .mk { font-size: 9px; letter-spacing: 1.3px; text-transform: uppercase; color: #E8B830; text-align: right; font-weight: 500; }
+.bq-bhd .hd .mv { font-size: 13px; color: #fff; text-align: right; font-weight: 500; padding-bottom: 7px; }
+.bq-bhd .hd .pill { background: #E8B830; color: #0b2238; }
+.bq-bhd .hd .pill i { background: #0b2238; }
+.bq-bhd .rule-gold { height: 4px; background: #E8B830; }
+.bq-bhd .rule-thin { height: 1px; background: #152d47; }
+.bq-bhd .sec-h { font-family: 'Sora', 'Segoe UI', sans-serif; font-weight: 600; font-size: 10.5px; letter-spacing: 1.3px; text-transform: uppercase; color: #9A6508; border-left: 3px solid #E8B830; padding-left: 8px; margin-bottom: 8px; line-height: 1.2; }
+.bq-bhd .party .pc { background: #FAF7F4; border: 1px solid #E5DDD5; border-radius: 4px; }
+.bq-bhd .party td.gapc { width: 16px; }
+.bq-bhd .party td.pcell { width: 329px; }
+.bq-bhd .ev { background: #FAF7F4; border: 1px solid #E5DDD5; border-left: 4px solid #E8B830; border-radius: 4px; padding: 14px 18px 14px 18px; }
+.bq-bhd .ev .evn { font-family: 'Sora', 'Segoe UI', sans-serif; font-weight: 600; font-size: 15px; margin-bottom: 10px; }
+.bq-bhd .lines { border: 1px solid #E5DDD5; }
+.bq-bhd .lines th { background: #0b2238; color: #fff; font-family: 'Sora', 'Segoe UI', sans-serif; font-weight: 600; }
+.bq-bhd .lines td { border-bottom: 1px solid #E5DDD5; }
+.bq-bhd .totals td { border-bottom: 1px solid #E5DDD5; }
+.bq-bhd .totals .tg td { background: #0b2238; border-bottom: 0; }
+.bq-bhd .totals .tg .tl { color: #fff; font-family: 'Sora', 'Segoe UI', sans-serif; font-weight: 600; font-size: 11px; letter-spacing: 1.3px; text-transform: uppercase; vertical-align: middle; }
+.bq-bhd .totals .tg .tv { color: #E8B830; font-family: 'Sora', 'Segoe UI', sans-serif; font-weight: 700; font-size: 21px; letter-spacing: -0.3px; }
+.bq-bhd .totals .tg { border-top: 3px solid #E8B830; }
+.bq-bhd .pay { border: 1px solid #E5DDD5; border-radius: 4px; background: #FAF7F4; }
+.bq-bhd .pill.ok { background: #E8B830; color: #0b2238; }
+.bq-bhd .pill.ok i { background: #0b2238; }
+.bq-bhd .steps .sn { width: 26px; height: 26px; line-height: 26px; text-align: center; background: #0b2238; color: #E8B830; font-family: 'Sora', 'Segoe UI', sans-serif; font-weight: 700; font-size: 12px; border-radius: 4px; margin-bottom: 8px; }
+.bq-bhd .steps td.sc { border-top: 2px solid #E8B830; padding-top: 12px; }
+.bq-bhd .terms { border-top: 1px solid #E5DDD5; padding-top: 10px; }
+.bq-bhd .cut { padding: 0 60px; }
+.bq-bhd .cut td { vertical-align: middle; font-size: 9.5px; letter-spacing: 1.4px; text-transform: uppercase; color: #5a6b82; }
+.bq-bhd .cut td.cl { border-top: 1.5px dashed #5a6b82; }
+.bq-bhd .cut td.ct { width: 120px; text-align: center; padding: 0 10px; white-space: nowrap; }
+.bq-bhd .tk-wrap { padding: 0 60px; }
+.bq-bhd .tk { position: relative; }
+.bq-bhd .tk table.tkt { height: 548px; }
+.bq-bhd .tk .main { vertical-align: top; width: 508px; }
+.bq-bhd .tk .stub { vertical-align: top; width: 166px; border-left: 2px dashed #5a6b82; }
+.bq-bhd .tk .notch { position: absolute; left: 495px; width: 26px; height: 14px; background: #ffffff; z-index: 3; }
+.bq-bhd .tk .n-top { top: -1px; border-radius: 0 0 14px 14px; }
+.bq-bhd .tk .n-bot { bottom: -1px; border-radius: 14px 14px 0 0; }
+.bq-bhd .tk .main-in { padding: 28px 24px 0 24px; height: 548px; position: relative; }
+.bq-bhd .tk .tkh td { vertical-align: middle; }
+.bq-bhd .tk .tk-lab { text-align: right; font-size: 10px; letter-spacing: 2px; text-transform: uppercase; font-weight: 700; }
+.bq-bhd .tk .tk-title { margin-top: 32px; line-height: 1.12; }
+.bq-bhd .tk .tk-ttype { margin-top: 12px; }
+.bq-bhd .tk .fld .fk { font-size: 8.5px; letter-spacing: 1.3px; text-transform: uppercase; color: #5a6b82; }
+.bq-bhd .tk .fld .fv { font-size: 13px; color: #1c2b3a; font-weight: 700; line-height: 1.3; margin-bottom: 14px; padding-right: 10px; }
+.bq-bhd .tk .fld .fv.fvs { font-weight: 500; }
+.bq-bhd .tk .qr-cell { text-align: right; width: 150px; }
+.bq-bhd .tk .qr-box { display: inline-block; background: #fff; padding: 9px; border: 1px solid #E5DDD5; }
+.bq-bhd .tk .qr-box img { width: 124px; height: 124px; }
+.bq-bhd .tk .qr-num { font-size: 9px; letter-spacing: .4px; color: #1c2b3a; margin-top: 7px; -webkit-font-feature-settings: "tnum" 1; font-feature-settings: "tnum" 1; }
+.bq-bhd .tk .admit { position: absolute; left: 24px; right: 24px; width: 460px; bottom: 24px; }
+.bq-bhd .tk .admit td { vertical-align: middle; font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase; }
+.bq-bhd .tk .stub-in { padding: 28px 18px 0 20px; height: 548px; position: relative; text-align: left; }
+.bq-bhd .tk .stub .sk { font-size: 8px; letter-spacing: 1.2px; text-transform: uppercase; }
+.bq-bhd .tk .stub .sv { font-size: 11.5px; font-weight: 700; line-height: 1.3; margin-bottom: 11px; }
+.bq-bhd .tk .stub .sq { position: absolute; left: 20px; bottom: 24px; width: 126px; }
+.bq-bhd .tk .stub .sq .qr-box { padding: 5px; }
+.bq-bhd .tk .stub .sq img { width: 98px; height: 98px; }
+.bq-bhd .tk .stub .snum { font-size: 7.5px; letter-spacing: 0; margin-top: 5px; text-align: center; }
+.bq-bhd .info-h { margin: 0 0 14px 0; }
+.bq-bhd .info td.ic { width: 50%; padding-right: 26px; padding-bottom: 20px; }
+.bq-bhd .info .ih { font-size: 9.5px; letter-spacing: 1.3px; text-transform: uppercase; font-weight: 700; margin-bottom: 6px; }
+.bq-bhd .info p { font-size: 11.5px; line-height: 1.55; color: #4a5568; }
+.bq-bhd .info p b { color: #1c2b3a; font-weight: 700; }
+.bq-bhd .tk-box { border: 1px solid #0b2238; border-radius: 6px; background: #fff; }
+.bq-bhd .tk .main-top { background: #0b2238; margin: -28px -24px 0 -24px; padding: 20px 24px 18px 24px; border-radius: 5px 0 0 0; border-bottom: 4px solid #E8B830; }
+.bq-bhd .tk .logo-plate { padding: 6px 9px; }
+.bq-bhd .tk .logo-plate img { width: 56px; height: 44px; }
+.bq-bhd .tk .tk-lab { color: #E8B830; font-family: 'Sora', 'Segoe UI', sans-serif; }
+.bq-bhd .tk .tk-title { font-family: 'Sora', 'Segoe UI', sans-serif; font-weight: 700; font-size: 31px; color: #0b2238; letter-spacing: -0.5px; }
+.bq-bhd .tk .fld .fk { color: #9A6508; font-weight: 500; }
+.bq-bhd .tk .admit { border-top: 1px solid #E5DDD5; padding-top: 0; }
+.bq-bhd .tk .admit td { color: #0b2238; font-family: 'Sora', 'Segoe UI', sans-serif; font-weight: 600; padding-top: 14px; }
+.bq-bhd .tk .admit td.ar { text-align: right; color: #5a6b82; font-family: 'DM Sans', 'Segoe UI', sans-serif; font-weight: 400; letter-spacing: .6px; text-transform: none; font-size: 10px; }
+.bq-bhd .tk .stub { background: #0b2238; border-radius: 0 5px 5px 0; border-left-color: #8fa0b5; }
+.bq-bhd .tk .stub .sk { color: #E8B830; }
+.bq-bhd .tk .stub .sv { color: #fff; }
+.bq-bhd .tk .stub .snum { color: #c4d0de; }
+.bq-bhd .tk .stub .stub-top { font-family: 'Sora', 'Segoe UI', sans-serif; font-weight: 700; font-size: 17px; letter-spacing: 1px; color: #E8B830; line-height: 1.15; margin-bottom: 18px; }
+.bq-bhd .tk .notch { border: 1px solid #0b2238; border-top: 0; }
+.bq-bhd .tk .n-bot { border: 1px solid #0b2238; border-bottom: 0; }
+.bq-bhd .info .ih { font-family: 'Sora', 'Segoe UI', sans-serif; color: #9A6508; border-left: 3px solid #E8B830; padding-left: 8px; }
+.bq-bhd .info-title { font-family: 'Sora', 'Segoe UI', sans-serif; font-weight: 700; font-size: 18px; color: #0b2238; border-bottom: 2px solid #E8B830; padding-bottom: 7px; margin-bottom: 16px; }
+.bq-bhd .tk .tk-pill .pill { background: #FAF7F4; border: 1px solid #E5DDD5; color: #0b2238; font-size: 10px; border-radius: 4px; text-transform: none; letter-spacing: .3px; font-weight: 500; padding: 3px 10px; }
+.bq-bhd .tk .tk-pill .pill i { background: #E8B830; }
+.bq-bhd .lc { text-transform: lowercase; }
+.bq-bhd .secrow { background: #FAF7F4; color: #1c2b3a; font-size: 11.5px; padding: 8px 10px; border-bottom: 1px solid #E5DDD5; }
+.bq-bhd .pay td.po { border-top: 1px solid #E5DDD5; }
+.bq-bhd .pay td.pq { text-align: right; vertical-align: middle; padding: 8px 16px; border-top: 1px solid #E5DDD5; }
+.bq-bhd .pay td.pk.po { padding-top: 11px; }
+.bq-bhd .tk .tk-title.long { font-size: 24px; }
+.bq-bhd .pill.cancel { background: #fde8e8 !important; color: #9b1c1c !important; border: 1px solid #c53030 !important; }
+.bq-bhd .pill.cancel i { background: #c53030 !important; }
+/* hb */
+.bq-hb * { box-sizing: border-box; -webkit-box-sizing: border-box; }
+.bq-hb { background: #fff; font-size: 12px; line-height: 1.5; color: #3d4250; font-family: 'Lato', 'Segoe UI', sans-serif; width: 794px; }
+.bq-hb table { border-collapse: collapse; border-spacing: 0; width: 100%; }
+.bq-hb td, .bq-hb th { padding: 0; vertical-align: top; text-align: left; }
+.bq-hb p { margin: 0; }
+.bq-hb img { display: block; }
+.bq-hb .page { position: relative; width: 794px; background: #fafaf8; min-height: 1064px; }
+.bq-hb .inner { padding: 0 60px; }
+.bq-hb .num { text-align: right !important; white-space: nowrap; -webkit-font-feature-settings: "tnum" 1; font-feature-settings: "tnum" 1; }
+.bq-hb .r { text-align: right; }
+.bq-hb .c { text-align: center; }
+.bq-hb .gap6 { height: 6px; }
+.bq-hb .gap10 { height: 10px; }
+.bq-hb .gap14 { height: 14px; }
+.bq-hb .gap18 { height: 18px; }
+.bq-hb .gap22 { height: 22px; }
+.bq-hb .k { font-size: 9px; letter-spacing: 1.1px; text-transform: uppercase; color: #5f6472; }
+.bq-hb .v { color: #242e42; }
+.bq-hb .strong { color: #242e42; font-weight: 700; }
+.bq-hb .logo-box img, .bq-hb .logo-box img { display: block; }
+.bq-hb .party td { width: 50%; }
+.bq-hb .party .pc { padding: 12px 16px 12px 16px; }
+.bq-hb .party .pn { font-size: 13px; color: #242e42; font-weight: 700; margin-bottom: 2px; }
+.bq-hb .party .pc { min-height: 88px; }
+.bq-hb .party p { font-size: 11.5px; line-height: 1.55; }
+.bq-hb .ev .evn { font-size: 15px; line-height: 1.3; color: #242e42; }
+.bq-hb .ev .evk { font-size: 9px; letter-spacing: 1.1px; text-transform: uppercase; color: #5f6472; padding-bottom: 2px; }
+.bq-hb .ev .evv { font-size: 11.5px; line-height: 1.4; color: #242e42; padding-right: 10px; }
+.bq-hb .lines th { font-size: 9px; letter-spacing: 1px; text-transform: uppercase; padding: 8px 10px; }
+.bq-hb .lines td { padding: 11px 10px; font-size: 11.5px; }
+.bq-hb .lines .desc b { display: block; font-weight: 700; color: #242e42; font-size: 12px; line-height: 1.4; }
+.bq-hb .lines .att { display: block; font-size: 10.5px; color: #5f6472; margin-top: 3px; }
+.bq-hb .lines .idx { width: 30px; }
+.bq-hb .lines .qty { width: 46px; }
+.bq-hb .lines .unit { width: 92px; }
+.bq-hb .lines .amt { width: 100px; }
+.bq-hb .totals { width: 300px; margin-left: auto; }
+.bq-hb .totals td { padding: 6px 10px; font-size: 11.5px; }
+.bq-hb .totals .tl { color: #3d4250; }
+.bq-hb .totals .tv { text-align: right; white-space: nowrap; color: #242e42; -webkit-font-feature-settings: "tnum" 1; font-feature-settings: "tnum" 1; }
+.bq-hb .totals .tg td { padding-top: 12px; padding-bottom: 12px; }
+.bq-hb .pay td.pk { font-size: 9px; letter-spacing: 1.1px; text-transform: uppercase; color: #5f6472; padding: 11px 16px 1px 16px; }
+.bq-hb .pay td.pv { font-size: 12px; color: #242e42; padding: 0 16px 11px 16px; font-weight: 700; }
+.bq-hb .steps td { width: 33.33%; padding-right: 14px; }
+.bq-hb .steps .sn { display: block; }
+.bq-hb .steps p { font-size: 11.5px; line-height: 1.5; color: #3d4250; }
+.bq-hb .steps td.sc { padding-bottom: 0; }
+.bq-hb .terms { font-size: 10.5px; line-height: 1.5; color: #5f6472; }
+.bq-hb .terms b { color: #242e42; font-weight: 700; }
+.bq-hb .pill { display: inline-block; font-size: 10px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; padding: 3px 12px; border-radius: 20px; white-space: nowrap; line-height: 1.4; }
+.bq-hb .pill i { display: inline-block; width: 6px; height: 6px; border-radius: 3px; margin-right: 6px; vertical-align: 1px; }
+.bq-hb .hd { text-align: center; padding: 40px 60px 0 60px; }
+.bq-hb .hd .logo-box { display: inline-block; }
+.bq-hb .hd .logo-box img { height: 54px; width: auto; }
+.bq-hb .orn { width: 300px; margin: 16px auto 0 auto; }
+.bq-hb .orn td { vertical-align: middle; }
+.bq-hb .orn .ol { border-top: 1px solid #F5A623; height: 1px; }
+.bq-hb .orn .od { width: 22px; text-align: center; }
+.bq-hb .orn .od i { display: block; width: 7px; height: 7px; margin: 0 auto; background: #F5A623; -webkit-transform: rotate(45deg); transform: rotate(45deg); }
+.bq-hb .hd .ttl { font-family: 'Playfair Display', Georgia, serif; font-weight: 500; font-size: 36px; color: #242e42; letter-spacing: 0; margin-top: 12px; line-height: 1.15; }
+.bq-hb .hd .ttl em { font-style: italic; font-weight: 400; color: #c98000; }
+.bq-hb .hmeta { width: 600px; margin: 18px auto 0 auto; border-top: 1px solid #FCE6C1; border-bottom: 1px solid #FCE6C1; }
+.bq-hb .hmeta td { text-align: center; padding: 10px 6px; vertical-align: middle; }
+.bq-hb .hmeta td.sep { border-left: 1px solid #FCE6C1; }
+.bq-hb .hmeta .mk { font-size: 8.5px; letter-spacing: 1.6px; text-transform: uppercase; color: #5f6472; font-weight: 700; }
+.bq-hb .hmeta .mv { font-family: 'Playfair Display', Georgia, serif; font-size: 15px; color: #242e42; padding-top: 2px; }
+.bq-hb .pill { border: 1px solid #F5A623; background: #FEF4E5; color: #242e42; font-family: 'Lato', 'Segoe UI', sans-serif; }
+.bq-hb .pill i { background: #F5A623; }
+.bq-hb .sec-h { font-family: 'Playfair Display', Georgia, serif; font-style: italic; font-weight: 400; font-size: 16px; color: #242e42; border-bottom: 1px solid #FCE6C1; padding-bottom: 4px; margin-bottom: 9px; line-height: 1.2; }
+.bq-hb .party .pc { padding-left: 0; padding-top: 0; padding-bottom: 0; }
+.bq-hb .party td.gapc { width: 40px; }
+.bq-hb .party td.pcell { width: 317px; }
+.bq-hb .ev { background: #fff; border: 1px solid #FCE6C1; border-top: 2px solid #F5A623; padding: 14px 20px 14px 20px; }
+.bq-hb .ev .evn { font-family: 'Playfair Display', Georgia, serif; font-weight: 500; font-size: 18px; margin-bottom: 11px; color: #242e42; }
+.bq-hb .lines th { font-weight: 700; color: #5f6472; border-bottom: 1px solid #F5A623; padding-left: 6px; padding-right: 6px; }
+.bq-hb .lines td { border-bottom: 1px solid #E9EAEC; padding-left: 6px; padding-right: 6px; padding-top: 13px; padding-bottom: 13px; }
+.bq-hb .lines .desc b { font-family: 'Playfair Display', Georgia, serif; font-weight: 500; font-size: 15px; }
+.bq-hb .totals td { padding-left: 6px; padding-right: 6px; border-bottom: 1px solid #E9EAEC; }
+.bq-hb .totals .tg td { border-bottom: 0; border-top: 1px solid #F5A623; padding-top: 12px; padding-bottom: 12px; vertical-align: middle; }
+.bq-hb .totals .tg { border-bottom: 1px solid #F5A623; }
+.bq-hb .totals .tg .tl { font-family: 'Playfair Display', Georgia, serif; font-style: italic; font-size: 16px; color: #242e42; }
+.bq-hb .totals .tg .tv { font-family: 'Playfair Display', Georgia, serif; font-weight: 500; font-size: 30px; color: #242e42; }
+.bq-hb .pay { background: #fff; border: 1px solid #FCE6C1; }
+.bq-hb .pay td.pk { font-weight: 700; }
+.bq-hb .steps .sn { font-family: 'Playfair Display', Georgia, serif; font-style: italic; font-size: 34px; line-height: 1; color: #F5A623; margin-bottom: 4px; }
+.bq-hb .steps td.sc { padding-top: 0; }
+.bq-hb .terms { border-top: 1px solid #FCE6C1; padding-top: 10px; text-align: center; font-style: italic; font-size: 11px; }
+.bq-hb .cut { padding: 0 60px; }
+.bq-hb .cut td { vertical-align: middle; font-size: 9.5px; letter-spacing: 1.4px; text-transform: uppercase; color: #5f6472; }
+.bq-hb .cut td.cl { border-top: 1.5px dashed #5f6472; }
+.bq-hb .cut td.ct { width: 120px; text-align: center; padding: 0 10px; white-space: nowrap; }
+.bq-hb .tk-wrap { padding: 0 60px; }
+.bq-hb .tk { position: relative; }
+.bq-hb .tk table.tkt { height: 548px; }
+.bq-hb .tk .main { vertical-align: top; width: 508px; }
+.bq-hb .tk .stub { vertical-align: top; width: 166px; border-left: 2px dashed #5f6472; }
+.bq-hb .tk .notch { position: absolute; left: 495px; width: 26px; height: 14px; background: #fafaf8; z-index: 3; }
+.bq-hb .tk .n-top { top: -1px; border-radius: 0 0 14px 14px; }
+.bq-hb .tk .n-bot { bottom: -1px; border-radius: 14px 14px 0 0; }
+.bq-hb .tk .main-in { padding: 28px 24px 0 24px; height: 548px; position: relative; }
+.bq-hb .tk .tkh td { vertical-align: middle; }
+.bq-hb .tk .tk-lab { text-align: right; font-size: 10px; letter-spacing: 2px; text-transform: uppercase; font-weight: 700; }
+.bq-hb .tk .tk-title { margin-top: 32px; line-height: 1.12; }
+.bq-hb .tk .tk-ttype { margin-top: 12px; }
+.bq-hb .tk .fld .fk { font-size: 8.5px; letter-spacing: 1.3px; text-transform: uppercase; color: #5f6472; }
+.bq-hb .tk .fld .fv { font-size: 13px; color: #242e42; font-weight: 700; line-height: 1.3; margin-bottom: 14px; padding-right: 10px; }
+.bq-hb .tk .fld .fv.fvs { font-weight: 500; }
+.bq-hb .tk .qr-cell { text-align: right; width: 150px; }
+.bq-hb .tk .qr-box { display: inline-block; background: #fff; padding: 9px; border: 1px solid #FCE6C1; }
+.bq-hb .tk .qr-box img { width: 124px; height: 124px; }
+.bq-hb .tk .qr-num { font-size: 9px; letter-spacing: .4px; color: #242e42; margin-top: 7px; -webkit-font-feature-settings: "tnum" 1; font-feature-settings: "tnum" 1; }
+.bq-hb .tk .admit { position: absolute; left: 24px; right: 24px; width: 460px; bottom: 24px; }
+.bq-hb .tk .admit td { vertical-align: middle; font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase; }
+.bq-hb .tk .stub-in { padding: 28px 18px 0 20px; height: 548px; position: relative; text-align: left; }
+.bq-hb .tk .stub .sk { font-size: 8px; letter-spacing: 1.2px; text-transform: uppercase; }
+.bq-hb .tk .stub .sv { font-size: 11.5px; font-weight: 700; line-height: 1.3; margin-bottom: 11px; }
+.bq-hb .tk .stub .sq { position: absolute; left: 20px; bottom: 24px; width: 126px; }
+.bq-hb .tk .stub .sq .qr-box { padding: 5px; }
+.bq-hb .tk .stub .sq img { width: 98px; height: 98px; }
+.bq-hb .tk .stub .snum { font-size: 7.5px; letter-spacing: 0; margin-top: 5px; text-align: center; }
+.bq-hb .info-h { margin: 0 0 14px 0; }
+.bq-hb .info td.ic { width: 50%; padding-right: 26px; padding-bottom: 20px; }
+.bq-hb .info .ih { font-size: 9.5px; letter-spacing: 1.3px; text-transform: uppercase; font-weight: 700; margin-bottom: 6px; }
+.bq-hb .info p { font-size: 11.5px; line-height: 1.55; color: #3d4250; }
+.bq-hb .info p b { color: #242e42; font-weight: 700; }
+.bq-hb .tk-box { border: 1px solid #F5A623; background: #fff; border-radius: 2px; }
+.bq-hb .tk .inset { position: absolute; left: 7px; top: 7px; right: 7px; bottom: 7px; border: 1px solid #FCE6C1; z-index: 0; }
+.bq-hb .tk .main-in { text-align: center; }
+.bq-hb .tk .tkh td { text-align: center; }
+.bq-hb .tk .tk-lab { text-align: center; color: #c98000; font-family: 'Playfair Display', Georgia, serif; font-style: italic; letter-spacing: 1px; text-transform: none; font-size: 15px; font-weight: 400; margin-top: 12px; }
+.bq-hb .tk .tk-title { font-family: 'Playfair Display', Georgia, serif; font-weight: 500; font-size: 36px; color: #242e42; letter-spacing: -0.2px; margin-top: 12px; }
+.bq-hb .tk .tk-title em { font-style: italic; color: #c98000; font-weight: 400; }
+.bq-hb .tk .orn { width: 220px; margin: 14px auto 0 auto; }
+.bq-hb .tk .fld { text-align: left; }
+.bq-hb .tk .fld .fk { color: #5f6472; font-weight: 700; }
+.bq-hb .tk .fld .fv { font-family: 'Playfair Display', Georgia, serif; font-weight: 500; font-size: 14px; }
+.bq-hb .tk .fld .fv.fvs { font-weight: 500; }
+.bq-hb .tk .admit { text-align: center; }
+.bq-hb .tk .admit td { text-align: center; font-family: 'Playfair Display', Georgia, serif; font-style: italic; text-transform: none; letter-spacing: .5px; font-size: 14px; color: #c98000; border-top: 1px solid #FCE6C1; padding-top: 11px; }
+.bq-hb .tk .stub { background: #fffdf7; }
+.bq-hb .tk .stub .sk { color: #5f6472; font-weight: 700; }
+.bq-hb .tk .stub .sv { font-family: 'Playfair Display', Georgia, serif; font-weight: 500; font-size: 13px; color: #242e42; }
+.bq-hb .tk .stub .stub-top { font-family: 'Playfair Display', Georgia, serif; font-style: italic; font-size: 20px; color: #c98000; line-height: 1.1; margin-bottom: 18px; }
+.bq-hb .tk .stub .snum { color: #5f6472; }
+.bq-hb .tk .notch { border: 1px solid #F5A623; border-top: 0; }
+.bq-hb .tk .n-bot { border: 1px solid #F5A623; border-bottom: 0; }
+.bq-hb .info .ih { font-family: 'Playfair Display', Georgia, serif; font-style: italic; font-weight: 400; text-transform: none; letter-spacing: 0; font-size: 16px; color: #242e42; border-bottom: 1px solid #FCE6C1; padding-bottom: 3px; margin-bottom: 7px; }
+.bq-hb .info-title { font-family: 'Playfair Display', Georgia, serif; font-weight: 500; font-size: 24px; color: #242e42; text-align: center; margin-bottom: 18px; }
+.bq-hb .info-title em { font-style: italic; color: #c98000; font-weight: 400; }
+.bq-hb .tk .tk-pill .pill { margin-top: 0; }
+.bq-hb .tk .tk-pill { text-align: center; }
+.bq-hb .hd { padding-top: 30px; }
+.bq-hb .hd .logo-box img { height: 46px; }
+.bq-hb .orn { margin-top: 10px; }
+.bq-hb .hd .ttl { font-size: 30px; margin-top: 8px; }
+.bq-hb .hmeta { margin-top: 12px; }
+.bq-hb .hmeta td { padding: 7px 6px; }
+.bq-hb .ev { padding: 11px 20px; }
+.bq-hb .ev .evn { margin-bottom: 8px; }
+.bq-hb .lines td { padding-top: 9px; padding-bottom: 9px; }
+.bq-hb .totals td { padding-top: 4px; padding-bottom: 4px; }
+.bq-hb .totals .tg td { padding-top: 8px; padding-bottom: 8px; }
+.bq-hb .totals .tg .tv { font-size: 26px; }
+.bq-hb .steps .sn { font-size: 26px; margin-bottom: 2px; }
+.bq-hb .sec-h { margin-bottom: 7px; }
+.bq-hb .pay td.pk { padding-top: 8px; }
+.bq-hb .pay td.pv { padding-bottom: 8px; }
+.bq-hb .party p { line-height: 1.45; }
+.bq-hb .tk .admit td.ar { display: none; }
+.bq-hb .lc { text-transform: lowercase; }
+.bq-hb .secrow { background: #ffffff; color: #242e42; font-size: 11.5px; padding: 8px 10px; border-bottom: 1px solid #FCE6C1; }
+.bq-hb .pay td.po { border-top: 1px solid #FCE6C1; }
+.bq-hb .pay td.pq { text-align: right; vertical-align: middle; padding: 8px 16px; border-top: 1px solid #FCE6C1; }
+.bq-hb .pay td.pk.po { padding-top: 11px; }
+.bq-hb .tk .tk-title.long { font-size: 24px; }
+.bq-hb .pill.cancel { background: #fde8e8 !important; color: #9b1c1c !important; border: 1px solid #c53030 !important; }
+.bq-hb .pill.cancel i { background: #c53030 !important; }
+/* tre */
+.bq-tre * { box-sizing: border-box; -webkit-box-sizing: border-box; }
+.bq-tre { background: #fff; font-size: 12px; line-height: 1.5; color: #2c3a52; font-family: 'Inter', 'Segoe UI', sans-serif; width: 794px; }
+.bq-tre table { border-collapse: collapse; border-spacing: 0; width: 100%; }
+.bq-tre td, .bq-tre th { padding: 0; vertical-align: top; text-align: left; }
+.bq-tre p { margin: 0; }
+.bq-tre img { display: block; }
+.bq-tre .page { position: relative; width: 794px; background: #faf6ef; min-height: 1064px; }
+.bq-tre .inner { padding: 0 60px; }
+.bq-tre .num { text-align: right !important; white-space: nowrap; -webkit-font-feature-settings: "tnum" 1; font-feature-settings: "tnum" 1; }
+.bq-tre .r { text-align: right; }
+.bq-tre .c { text-align: center; }
+.bq-tre .gap6 { height: 6px; }
+.bq-tre .gap10 { height: 10px; }
+.bq-tre .gap14 { height: 14px; }
+.bq-tre .gap18 { height: 18px; }
+.bq-tre .gap22 { height: 22px; }
+.bq-tre .k { font-size: 9px; letter-spacing: 1.1px; text-transform: uppercase; color: #5f6b7d; }
+.bq-tre .v { color: #0f1f3d; }
+.bq-tre .strong { color: #0f1f3d; font-weight: 700; }
+.bq-tre .logo-box img, .bq-tre .logo-box img { display: block; }
+.bq-tre .party td { width: 50%; }
+.bq-tre .party .pc { padding: 12px 16px 12px 16px; }
+.bq-tre .party .pn { font-size: 13px; color: #0f1f3d; font-weight: 700; margin-bottom: 2px; }
+.bq-tre .party .pc { min-height: 88px; }
+.bq-tre .party p { font-size: 11.5px; line-height: 1.55; }
+.bq-tre .ev .evn { font-size: 15px; line-height: 1.3; color: #1c3d7a; }
+.bq-tre .ev .evk { font-size: 9px; letter-spacing: 1.1px; text-transform: uppercase; color: #5f6b7d; padding-bottom: 2px; }
+.bq-tre .ev .evv { font-size: 11.5px; line-height: 1.4; color: #0f1f3d; padding-right: 10px; }
+.bq-tre .lines th { font-size: 9px; letter-spacing: 1px; text-transform: uppercase; padding: 8px 10px; }
+.bq-tre .lines td { padding: 11px 10px; font-size: 11.5px; }
+.bq-tre .lines .desc b { display: block; font-weight: 700; color: #0f1f3d; font-size: 12px; line-height: 1.4; }
+.bq-tre .lines .att { display: block; font-size: 10.5px; color: #5f6b7d; margin-top: 3px; }
+.bq-tre .lines .idx { width: 30px; }
+.bq-tre .lines .qty { width: 46px; }
+.bq-tre .lines .unit { width: 92px; }
+.bq-tre .lines .amt { width: 100px; }
+.bq-tre .totals { width: 300px; margin-left: auto; }
+.bq-tre .totals td { padding: 6px 10px; font-size: 11.5px; }
+.bq-tre .totals .tl { color: #2c3a52; }
+.bq-tre .totals .tv { text-align: right; white-space: nowrap; color: #0f1f3d; -webkit-font-feature-settings: "tnum" 1; font-feature-settings: "tnum" 1; }
+.bq-tre .totals .tg td { padding-top: 12px; padding-bottom: 12px; }
+.bq-tre .pay td.pk { font-size: 9px; letter-spacing: 1.1px; text-transform: uppercase; color: #5f6b7d; padding: 11px 16px 1px 16px; }
+.bq-tre .pay td.pv { font-size: 12px; color: #0f1f3d; padding: 0 16px 11px 16px; font-weight: 700; }
+.bq-tre .steps td { width: 33.33%; padding-right: 14px; }
+.bq-tre .steps .sn { display: block; }
+.bq-tre .steps p { font-size: 11.5px; line-height: 1.5; color: #2c3a52; }
+.bq-tre .steps td.sc { padding-bottom: 0; }
+.bq-tre .terms { font-size: 10.5px; line-height: 1.5; color: #5f6b7d; }
+.bq-tre .terms b { color: #0f1f3d; font-weight: 700; }
+.bq-tre .pill { display: inline-block; font-size: 10px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; padding: 3px 12px; border-radius: 20px; white-space: nowrap; line-height: 1.4; }
+.bq-tre .pill i { display: inline-block; width: 6px; height: 6px; border-radius: 3px; margin-right: 6px; vertical-align: 1px; }
+.bq-tre .hd { padding: 36px 60px 0 60px; }
+.bq-tre .hd td { vertical-align: middle; }
+.bq-tre .hd .logo-box img { width: 138px; height: 62px; }
+.bq-tre .hd .ttl { font-family: 'Plus Jakarta Sans', 'Segoe UI', sans-serif; font-weight: 800; font-size: 30px; color: #1c3d7a; text-align: right; letter-spacing: -0.6px; line-height: 1.1; }
+.bq-tre .hd .ttl small { display: block; font-size: 10px; letter-spacing: 1.6px; text-transform: uppercase; color: #8b6b45; font-weight: 700; margin-bottom: 5px; }
+.bq-tre .hmeta { margin: 18px 60px 0 60px; width: 674px; background: #1c3d7a; border-radius: 14px; border-collapse: separate; border-left: 6px solid #b89a72; }
+.bq-tre .hmeta td { padding: 13px 18px; vertical-align: middle; }
+.bq-tre .hmeta .mk { font-size: 8.5px; letter-spacing: 1.3px; text-transform: uppercase; color: #f3e8d2; font-weight: 600; }
+.bq-tre .hmeta .mv { font-family: 'Plus Jakarta Sans', 'Segoe UI', sans-serif; font-size: 13.5px; font-weight: 700; color: #fff; padding-top: 1px; }
+.bq-tre .pill { background: #f3e8d2; color: #132b56; border: 1px solid #b89a72; font-family: 'Plus Jakarta Sans', 'Segoe UI', sans-serif; }
+.bq-tre .pill i { background: #8b6b45; }
+.bq-tre .sec-h { font-family: 'Plus Jakarta Sans', 'Segoe UI', sans-serif; font-weight: 700; font-size: 10.5px; letter-spacing: 1.3px; text-transform: uppercase; color: #8b6b45; margin-bottom: 7px; line-height: 1.2; }
+.bq-tre .sec-h i { display: inline-block; width: 7px; height: 7px; border-radius: 4px; background: #b89a72; margin-right: 7px; vertical-align: 0; }
+.bq-tre .party .pc { background: #fff; border: 1px solid #e4dfd6; border-radius: 14px; padding: 13px 18px; }
+.bq-tre .party td.gapc { width: 14px; }
+.bq-tre .party td.pcell { width: 330px; }
+.bq-tre .ev { background: #f4f7fc; border: 1px solid #dbe5f3; border-radius: 16px; padding: 15px 20px 15px 20px; }
+.bq-tre .ev .evn { font-family: 'Plus Jakarta Sans', 'Segoe UI', sans-serif; font-weight: 800; font-size: 15.5px; margin-bottom: 11px; color: #1c3d7a; letter-spacing: -0.2px; }
+.bq-tre .ev .evk { color: #8b6b45; font-weight: 600; }
+.bq-tre .lines-card { background: #fff; border: 1px solid #e4dfd6; border-radius: 14px; padding: 6px 8px 4px 8px; }
+.bq-tre .lines th { background: #f4f7fc; color: #1c3d7a; font-family: 'Plus Jakarta Sans', 'Segoe UI', sans-serif; font-weight: 700; padding: 9px 10px; }
+.bq-tre .lines th.f { border-radius: 8px 0 0 8px; }
+.bq-tre .lines th.l { border-radius: 0 8px 8px 0; }
+.bq-tre .lines td { border-bottom: 1px solid #e4dfd6; }
+.bq-tre .lines tr.lastrow td { border-bottom: 0; }
+.bq-tre .lines .desc b { font-family: 'Plus Jakarta Sans', 'Segoe UI', sans-serif; font-weight: 700; font-size: 12px; }
+.bq-tre .totals-card { width: 310px; margin-left: auto; background: #fff; border: 1px solid #e4dfd6; border-radius: 14px; padding: 6px 8px 8px 8px; }
+.bq-tre .totals { width: 100%; }
+.bq-tre .totals td { border-bottom: 1px solid #e4dfd6; }
+.bq-tre .totals tr.lastrow td { border-bottom: 0; }
+.bq-tre .totals tr.tg td { background: #1c3d7a; border-bottom: 0; vertical-align: middle; padding-top: 11px; padding-bottom: 11px; }
+.bq-tre .totals tr.tg td.tl { border-radius: 10px 0 0 10px; color: #fff; font-family: 'Plus Jakarta Sans', 'Segoe UI', sans-serif; font-weight: 700; font-size: 11px; letter-spacing: 1.3px; text-transform: uppercase; padding-left: 14px; }
+.bq-tre .totals tr.tg td.tv { border-radius: 0 10px 10px 0; color: #fff; font-family: 'Plus Jakarta Sans', 'Segoe UI', sans-serif; font-weight: 800; font-size: 22px; letter-spacing: -0.4px; padding-right: 14px; }
+.bq-tre .pay { background: #fff; border: 1px solid #e4dfd6; border-radius: 14px; border-collapse: separate; }
+.bq-tre .steps .sn { width: 26px; height: 26px; line-height: 26px; text-align: center; background: #c9a45c; color: #132b56; font-family: 'Plus Jakarta Sans', 'Segoe UI', sans-serif; font-weight: 800; font-size: 12px; border-radius: 13px; margin-bottom: 8px; }
+.bq-tre .steps td.sc { background: #fff; border: 1px solid #e4dfd6; padding: 13px 14px; }
+.bq-tre .terms { background: #f3e8d2; border-radius: 12px; padding: 10px 16px; color: #4b3a24; }
+.bq-tre .terms b { color: #4b3a24; }
+.bq-tre .cut { padding: 0 60px; }
+.bq-tre .cut td { vertical-align: middle; font-size: 9.5px; letter-spacing: 1.4px; text-transform: uppercase; color: #5f6b7d; }
+.bq-tre .cut td.cl { border-top: 1.5px dashed #5f6b7d; }
+.bq-tre .cut td.ct { width: 120px; text-align: center; padding: 0 10px; white-space: nowrap; }
+.bq-tre .tk-wrap { padding: 0 60px; }
+.bq-tre .tk { position: relative; }
+.bq-tre .tk table.tkt { height: 548px; }
+.bq-tre .tk .main { vertical-align: top; width: 508px; }
+.bq-tre .tk .stub { vertical-align: top; width: 166px; border-left: 2px dashed #5f6b7d; }
+.bq-tre .tk .notch { position: absolute; left: 495px; width: 26px; height: 14px; background: #faf6ef; z-index: 3; }
+.bq-tre .tk .n-top { top: -1px; border-radius: 0 0 14px 14px; }
+.bq-tre .tk .n-bot { bottom: -1px; border-radius: 14px 14px 0 0; }
+.bq-tre .tk .main-in { padding: 28px 24px 0 24px; height: 548px; position: relative; }
+.bq-tre .tk .tkh td { vertical-align: middle; }
+.bq-tre .tk .tk-lab { text-align: right; font-size: 10px; letter-spacing: 2px; text-transform: uppercase; font-weight: 700; }
+.bq-tre .tk .tk-title { margin-top: 32px; line-height: 1.12; }
+.bq-tre .tk .tk-ttype { margin-top: 12px; }
+.bq-tre .tk .fld .fk { font-size: 8.5px; letter-spacing: 1.3px; text-transform: uppercase; color: #5f6b7d; }
+.bq-tre .tk .fld .fv { font-size: 13px; color: #0f1f3d; font-weight: 700; line-height: 1.3; margin-bottom: 14px; padding-right: 10px; }
+.bq-tre .tk .fld .fv.fvs { font-weight: 500; }
+.bq-tre .tk .qr-cell { text-align: right; width: 150px; }
+.bq-tre .tk .qr-box { display: inline-block; background: #fff; padding: 9px; border: 1px solid #e4dfd6; }
+.bq-tre .tk .qr-box img { width: 124px; height: 124px; }
+.bq-tre .tk .qr-num { font-size: 9px; letter-spacing: .4px; color: #0f1f3d; margin-top: 7px; -webkit-font-feature-settings: "tnum" 1; font-feature-settings: "tnum" 1; }
+.bq-tre .tk .admit { position: absolute; left: 24px; right: 24px; width: 460px; bottom: 24px; }
+.bq-tre .tk .admit td { vertical-align: middle; font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase; }
+.bq-tre .tk .stub-in { padding: 28px 18px 0 20px; height: 548px; position: relative; text-align: left; }
+.bq-tre .tk .stub .sk { font-size: 8px; letter-spacing: 1.2px; text-transform: uppercase; }
+.bq-tre .tk .stub .sv { font-size: 11.5px; font-weight: 700; line-height: 1.3; margin-bottom: 11px; }
+.bq-tre .tk .stub .sq { position: absolute; left: 20px; bottom: 24px; width: 126px; }
+.bq-tre .tk .stub .sq .qr-box { padding: 5px; }
+.bq-tre .tk .stub .sq img { width: 98px; height: 98px; }
+.bq-tre .tk .stub .snum { font-size: 7.5px; letter-spacing: 0; margin-top: 5px; text-align: center; }
+.bq-tre .info-h { margin: 0 0 14px 0; }
+.bq-tre .info td.ic { width: 50%; padding-right: 26px; padding-bottom: 20px; }
+.bq-tre .info .ih { font-size: 9.5px; letter-spacing: 1.3px; text-transform: uppercase; font-weight: 700; margin-bottom: 6px; }
+.bq-tre .info p { font-size: 11.5px; line-height: 1.55; color: #2c3a52; }
+.bq-tre .info p b { color: #0f1f3d; font-weight: 700; }
+.bq-tre .tk-box { border: 1px solid #e4dfd6; background: #fff; border-radius: 22px; }
+.bq-tre .tk .main-in { padding-top: 26px; }
+.bq-tre .tk .logo-box img { width: 112px; height: 50px; }
+.bq-tre .tk .tk-lab { font-family: 'Plus Jakarta Sans', 'Segoe UI', sans-serif; color: #8b6b45; }
+.bq-tre .tk .tk-title { font-family: 'Plus Jakarta Sans', 'Segoe UI', sans-serif; font-weight: 800; font-size: 30px; color: #1c3d7a; letter-spacing: -0.8px; }
+.bq-tre .tk .fld .fk { color: #8b6b45; font-weight: 600; }
+.bq-tre .tk .fld .fv { font-family: 'Plus Jakarta Sans', 'Segoe UI', sans-serif; font-weight: 700; }
+.bq-tre .tk .fld .fv.fvs { font-family: 'Inter', 'Segoe UI', sans-serif; font-weight: 500; }
+.bq-tre .tk .fldbox { background: #f4f7fc; border-radius: 14px; padding: 12px 12px 0 14px; }
+.bq-tre .tk .admit td { color: #1c3d7a; font-family: 'Plus Jakarta Sans', 'Segoe UI', sans-serif; font-weight: 800; padding: 9px 16px; background: #f3e8d2; }
+.bq-tre .tk .admit td.al { border-radius: 12px 0 0 12px; }
+.bq-tre .tk .admit td.ar { border-radius: 0 12px 12px 0; text-align: right; font-weight: 600; color: #4b3a24; text-transform: none; letter-spacing: .3px; font-family: 'Inter', 'Segoe UI', sans-serif; font-size: 10.5px; }
+.bq-tre .tk .stub { background: #1c3d7a; border-radius: 0 21px 21px 0; border-left-color: #8fa4cb; }
+.bq-tre .tk .stub .sk { color: #f3e8d2; font-weight: 600; }
+.bq-tre .tk .stub .sv { color: #fff; font-family: 'Plus Jakarta Sans', 'Segoe UI', sans-serif; }
+.bq-tre .tk .stub .snum { color: #d6dff0; }
+.bq-tre .tk .stub .stub-top { font-family: 'Plus Jakarta Sans', 'Segoe UI', sans-serif; font-weight: 800; font-size: 17px; color: #c9a45c; line-height: 1.1; margin-bottom: 18px; letter-spacing: -.2px; }
+.bq-tre .tk .notch { border: 1px solid #e4dfd6; border-top: 0; }
+.bq-tre .tk .n-bot { border: 1px solid #e4dfd6; border-bottom: 0; }
+.bq-tre .info .ih { font-family: 'Plus Jakarta Sans', 'Segoe UI', sans-serif; color: #8b6b45; }
+.bq-tre .info-title { font-family: 'Plus Jakarta Sans', 'Segoe UI', sans-serif; font-weight: 800; font-size: 20px; color: #1c3d7a; letter-spacing: -0.4px; margin-bottom: 14px; }
+.bq-tre .info td.ic .ibox { background: #fff; border: 1px solid #e4dfd6; border-radius: 14px; padding: 14px 16px; }
+.bq-tre .info td.ic { padding-right: 12px; }
+.bq-tre .tk .tk-pill .pill { font-size: 10px; }
+.bq-tre .lc { text-transform: lowercase; }
+.bq-tre .secrow { background: #ffffff; color: #0f1f3d; font-size: 11.5px; padding: 8px 10px; border-bottom: 1px solid #e4dfd6; }
+.bq-tre .pay td.po { border-top: 1px solid #e4dfd6; }
+.bq-tre .pay td.pq { text-align: right; vertical-align: middle; padding: 8px 16px; border-top: 1px solid #e4dfd6; }
+.bq-tre .pay td.pk.po { padding-top: 11px; }
+.bq-tre .tk .tk-title.long { font-size: 24px; }
+.bq-tre .pill.cancel { background: #fde8e8 !important; color: #9b1c1c !important; border: 1px solid #c53030 !important; }
+.bq-tre .pill.cancel i { background: #c53030 !important; }
+.bq-tre .hmeta .pill.cancel { font-family: 'Plus Jakarta Sans', 'Segoe UI', sans-serif; }
+</style>
+<style t-if="brand == 'hb'">html, body { background: #fafaf8 !important; }</style><style t-if="brand == 'tre'">html, body { background: #faf6ef !important; }</style><div class="page">
+
+<!-- ============ HEADER ============ -->
+<t t-if="brand == 'bhd'">
+<div class="hd"><table><tr>
+<td style="width:98px"><div class="logo-plate"><img t-att-src="logo_src" t-att-width="lw" t-att-height="lh" t-att-style="'width:%spx;height:%spx' % (lw, lh)" alt="BHD Asia"/></div></td>
+<td><div class="ttl"><t t-out="title"/></div><div class="sub"><t t-out="sub_txt"/></div></td>
+<td style="width:170px">
+<div class="mk"><t t-out="doc_word"/> no.</div><div class="mv"><t t-out="o.name if o.name and o.name != '/' else 'Draft'"/></div>
+<div class="mk">Date</div><div class="mv"><span t-field="o.invoice_date" t-options="{'widget': 'date', 'format': 'd MMM y'}"/><t t-if="not o.invoice_date">—</t></div>
+<t t-if="o.invoice_date_due and not is_refund and not is_paid"><div class="mk">Due date</div><div class="mv"><span t-field="o.invoice_date_due" t-options="{'widget': 'date', 'format': 'd MMM y'}"/></div></t>
+<div class="r"><t t-out="pill_html"/></div></td>
+</tr></table></div><div class="rule-gold"></div><div class="rule-thin"></div>
+</t>
+<t t-if="brand == 'hb'">
+<div class="hd"><div class="logo-box"><img t-att-src="logo_src" t-att-width="lw" t-att-height="lh" t-att-style="'width:%spx;height:%spx' % (lw, lh)" alt="HummingBeing Coaching &amp; Somatics"/></div>
+<table class="orn"><tr><td class="ol"></td><td class="od"><i></i></td><td class="ol"></td></tr></table>
+<div class="ttl"><t t-if="is_draft">Draft </t><t t-if="is_cancel">Cancelled </t><t t-if="is_refund">Credit <em>Note</em></t><t t-else=""><em>Invoice</em></t></div>
+<table class="hmeta"><tr>
+<td><div class="mk"><t t-out="doc_word"/> no.</div><div class="mv"><t t-out="o.name if o.name and o.name != '/' else 'Draft'"/></div></td>
+<td class="sep"><div class="mk">Date</div><div class="mv"><span t-field="o.invoice_date" t-options="{'widget': 'date', 'format': 'd MMM y'}"/><t t-if="not o.invoice_date">—</t></div></td>
+<td t-if="o.invoice_date_due and not is_refund and not is_paid" class="sep"><div class="mk">Due date</div><div class="mv"><span t-field="o.invoice_date_due" t-options="{'widget': 'date', 'format': 'd MMM y'}"/></div></td>
+<td class="sep"><div class="mk">Status</div><div class="mv" style="padding-top:3px"><t t-out="pill_html"/></div></td>
+</tr></table></div>
+</t>
+<t t-if="brand == 'tre'">
+<div class="hd"><table><tr><td><div class="logo-box"><img t-att-src="logo_src" t-att-width="lw" t-att-height="lh" t-att-style="'width:%spx;height:%spx' % (lw, lh)" alt="TRE Singapore"/></div></td>
+<td><div class="ttl"><small>TRE Singapore</small><t t-out="title"/></div></td></tr></table></div>
+<table class="hmeta"><tr>
+<td><div class="mk"><t t-out="doc_word"/> no.</div><div class="mv"><t t-out="o.name if o.name and o.name != '/' else 'Draft'"/></div></td>
+<td><div class="mk">Date</div><div class="mv"><span t-field="o.invoice_date" t-options="{'widget': 'date', 'format': 'd MMM y'}"/><t t-if="not o.invoice_date">—</t></div></td>
+<td t-if="o.invoice_date_due and not is_refund and not is_paid"><div class="mk">Due date</div><div class="mv"><span t-field="o.invoice_date_due" t-options="{'widget': 'date', 'format': 'd MMM y'}"/></div></td>
+<td><div class="mk">Currency</div><div class="mv"><t t-out="o.currency_id.name"/> (<t t-out="o.currency_id.symbol"/>)</div></td>
+<td class="r"><div class="mk" style="padding-bottom:3px">Status</div><t t-out="pill_html"/></td>
+</tr></table>
+</t>
+<t t-set="sp_top" t-value="{'bhd':22,'hb':20,'tre':18}[brand]"/>
+<div t-attf-style="height:#{sp_top}px"></div>
+<div class="inner">
+
+<!-- ============ FROM / BILLED TO ============ -->
+<table class="party"><tr>
+<td class="pcell"><div class="sec-h"><i t-if="brand == 'tre'"></i>From</div><div class="pc"><div class="pn">BHD Asia</div>
+<p>50 Raffles Place, #30-00 Singapore Land Tower<br/>Singapore 048623<br/>bonjour@bhdasia.com · <t t-out="site"/></p></div></td>
+<td class="gapc"></td>
+<td class="pcell"><div class="sec-h"><i t-if="brand == 'tre'"></i><t t-out="'Credited to' if is_refund else 'Billed to'"/></div><div class="pc"><div class="pn"><t t-out="partner.name"/></div>
+<p>
+<t t-if="partner.parent_id and partner.parent_id.name != partner.name"><t t-out="partner.parent_id.name"/><br/></t>
+<t t-if="partner.street"><t t-out="partner.street"/><br/></t>
+<t t-if="partner.street and partner.street2"><t t-out="partner.street2"/><br/></t>
+<t t-if="partner.street and (partner.zip or partner.city)"><t t-out="' '.join([x for x in [partner.zip, partner.city] if x])"/><br/></t>
+<t t-if="partner.street and partner.country_id"><t t-out="partner.country_id.name"/><br/></t>
+<t t-if="partner.vat"><t t-out="partner.vat"/><br/></t>
+<t t-if="partner.email"><t t-out="partner.email"/><br/></t>
+<t t-if="partner.phone"><t t-out="partner.phone"/></t>
+</p></div></td>
+</tr></table>
+<div t-attf-style="height:#{16 if brand != 'hb' else 18}px"></div>
+
+<!-- ============ EVENT ============ -->
+<t t-if="evs">
+<div class="sec-h"><i t-if="brand == 'tre'"></i>Your event</div>
+<t t-foreach="evs" t-as="ev0">
+<t t-set="ev" t-value="ev0.with_context(tz=ev0.date_tz)"/>
+<t t-set="a_b"><t t-out="ev.date_begin" t-options="{'widget': 'datetime', 'tz_name': ev.date_tz, 'format': 'a'}"/></t>
+<t t-set="a_e"><t t-out="ev.date_end" t-options="{'widget': 'datetime', 'tz_name': ev.date_tz, 'format': 'a'}"/></t>
+<t t-set="multi" t-value="not ev.is_one_day"/>
+<t t-set="tzl" t-value="'SGT (UTC+8)' if ev.date_tz == 'Asia/Singapore' else ('Bucharest time' if ev.date_tz == 'Europe/Bucharest' else ev.date_tz)"/>
+<t t-set="tzl_multi" t-value="'SGT, UTC+8' if ev.date_tz == 'Asia/Singapore' else ('Bucharest time' if ev.date_tz == 'Europe/Bucharest' else ev.date_tz)"/>
+<t t-set="where_txt" t-value="((ev.address_id.name or ev.address_id.display_name) + ((', ' + ev.address_id.city) if ev.address_id.city and ev.address_id.city not in (ev.address_id.name or '') else '')) if ev.address_id else 'Online (Zoom) — joining link emailed before the session'"/>
+<div class="ev"><div class="evn"><t t-out="ev.name"/></div><table><tr>
+<td style="width:190px"><div class="evk">Date</div><div class="evv"><t t-out="ev.date_begin" t-options="{'widget': 'datetime', 'tz_name': ev.date_tz, 'format': 'd MMM y'}"/><t t-if="multi"> – <t t-out="ev.date_end" t-options="{'widget': 'datetime', 'tz_name': ev.date_tz, 'format': 'd MMM y'}"/></t></div></td>
+<td style="width:110px"><div class="evk">Time</div><div class="evv">
+<t t-if="multi"><t t-out="tzl_multi"/></t>
+<t t-else=""><span class="lc"><t t-if="a_b == a_e"><t t-out="ev.date_begin" t-options="{'widget': 'datetime', 'tz_name': ev.date_tz, 'format': 'h:mm'}"/></t><t t-else=""><t t-out="ev.date_begin" t-options="{'widget': 'datetime', 'tz_name': ev.date_tz, 'format': 'h:mm a'}"/></t>–<t t-out="ev.date_end" t-options="{'widget': 'datetime', 'tz_name': ev.date_tz, 'format': 'h:mm a'}"/></span> <t t-out="tzl"/></t>
+</div></td>
+<td style="width:200px"><div class="evk">Where</div><div class="evv"><t t-out="where_txt"/></div></td>
+<td><div class="evk">Organiser</div><div class="evv"><t t-out="ev.organizer_id.name or 'BHD Asia'"/></div></td>
+</tr></table></div>
+<div t-if="not ev0_last" style="height:8px"></div>
+</t>
+<div t-attf-style="height:#{16 if brand != 'hb' else 18}px"></div>
+</t>
+
+<!-- ============ LINES ============ -->
+<div class="sec-h"><i t-if="brand == 'tre'"></i><t t-out="'Credited items' if is_refund else 'Items'"/></div>
+<div t-att-class="'lines-card' if brand == 'tre' else None">
+<table class="lines"><thead><tr><th class="idx f">#</th><th>Description</th><th class="num qty">Qty</th><th class="num unit">Unit price</th><th class="num amt l">Amount</th></tr></thead><tbody>
+<t t-set="idx" t-value="0"/>
+<t t-foreach="show_lines" t-as="l">
+<t t-if="l.display_type != 'product'">
+<tr><td class="secrow" colspan="5"><span t-attf-style="font-weight:#{700 if l.display_type == 'line_section' else 400};"><t t-out="l.name"/></span></td></tr>
+</t>
+<t t-else="">
+<t t-set="idx" t-value="idx + 1"/>
+<t t-set="sl" t-value="l.sudo().sale_line_ids[:1]"/>
+<t t-set="nm" t-value="(l.name or l.product_id.display_name or '').split('\n')"/>
+<t t-set="desc" t-value="((sl.event_id.name + ((' — ' + sl.event_ticket_id.name) if sl.event_ticket_id else '')) if sl.event_id else nm[0])"/>
+<t t-set="att_names" t-value="', '.join(sl.registration_ids.mapped('name')) if sl.event_id else ''"/>
+<t t-set="rest" t-value="' · '.join([x.strip() for x in nm[1:] if x.strip()])"/>
+<t t-set="qv" t-value="int(l.quantity) if l.quantity == int(l.quantity) else l.quantity"/>
+<tr t-att-class="'lastrow' if l_last else None">
+<td class="idx"><t t-out="idx"/></td>
+<td class="desc"><b><t t-out="desc"/></b>
+<span class="att" t-if="att_names"><t t-if="brand == 'hb'"><t t-out="'Attendees: ' if len(sl.registration_ids) > 1 else 'Attendee: '"/></t><t t-out="att_names"/></span>
+<span class="att" t-elif="sl.calendar_event_id"><t t-set="ctz" t-value="sl.calendar_event_id.appointment_type_id.appointment_tz or 'Asia/Singapore'"/><t t-out="sl.calendar_event_id.start" t-options="{'widget': 'datetime', 'tz_name': ctz, 'format': 'EEE d MMM y, h:mm a'}"/><t t-out="' SGT' if ctz == 'Asia/Singapore' else ' (' + ctz + ')'"/></span><span class="att" t-elif="rest"><t t-out="rest"/></span>
+<span class="att" t-if="l.discount">Includes <t t-out="('%g' % l.discount)"/>% discount</span></td>
+<td class="num qty"><t t-out="qv"/></td>
+<td class="num unit"><span t-out="l.price_unit" t-options="{'widget': 'monetary', 'display_currency': o.currency_id}"/></td>
+<td class="num amt strong"><span t-out="l.price_subtotal" t-options="{'widget': 'monetary', 'display_currency': o.currency_id}"/></td>
+</tr>
+</t>
+</t>
+</tbody></table>
+</div>
+<div style="height:12px"></div>
+
+<!-- ============ TOTALS ============ -->
+<div t-att-class="'totals-card' if brand == 'tre' else None">
+<table class="totals">
+<tr><td class="tl">Subtotal</td><td class="tv"><span t-out="subtotal" t-options="{'widget': 'monetary', 'display_currency': o.currency_id}"/></td></tr>
+<tr t-if="rewards"><td class="tl">Discount code applied</td><td class="tv">−<span t-out="-disc" t-options="{'widget': 'monetary', 'display_currency': o.currency_id}"/></td></tr>
+<tr><td class="tl">Tax</td><td class="tv"><t t-if="o.amount_tax"><span t-out="o.amount_tax" t-options="{'widget': 'monetary', 'display_currency': o.currency_id}"/></t><t t-else="">—</t></td></tr>
+<t t-if="show_due">
+<tr><td class="tl strong">Total</td><td class="tv strong"><span t-out="o.amount_total" t-options="{'widget': 'monetary', 'display_currency': o.currency_id}"/></td></tr>
+<tr><td class="tl">Paid</td><td class="tv">−<span t-out="paid_amt" t-options="{'widget': 'monetary', 'display_currency': o.currency_id}"/></td></tr>
+<tr class="tg lastrow"><td class="tl">Amount due</td><td class="tv"><span t-out="o.amount_residual" t-options="{'widget': 'monetary', 'display_currency': o.currency_id}"/></td></tr>
+</t>
+<tr t-else="" class="tg lastrow"><td class="tl"><t t-out="'Total credit' if is_refund else 'Total'"/></td><td class="tv"><span t-out="o.amount_total" t-options="{'widget': 'monetary', 'display_currency': o.currency_id}"/></td></tr>
+</table>
+</div>
+<div style="height:16px"></div>
+
+<!-- ============ PAYMENT ============ -->
+<div class="sec-h"><i t-if="brand == 'tre'"></i><t t-out="'Refund' if is_refund else 'Payment'"/></div>
+<table class="pay">
+<tr><td class="pk">Status</td><td class="pk"><t t-out="'Paid on' if (is_paid and pays) else 'Due date'"/></td><td class="pk">Payment terms</td><td class="pk">Reference</td></tr>
+<tr><td class="pv"><t t-out="st_label"/></td>
+<td class="pv"><t t-if="is_paid and pays"><t t-out="pays[-1]['date']" t-options="{'widget': 'date', 'format': 'd MMM y'}"/></t><t t-elif="o.invoice_date_due and not is_refund"><span t-field="o.invoice_date_due" t-options="{'widget': 'date', 'format': 'd MMM y'}"/></t><t t-else="">—</t></td>
+<td class="pv"><t t-out="o.invoice_payment_term_id.name or 'Immediate payment'"/></td>
+<td class="pv"><t t-out="o.payment_reference or o.name"/></td></tr>
+<t t-if="pays">
+<tr><td class="pk po" colspan="4"><t t-out="'Refunds made' if is_refund else 'Payments received'"/></td></tr>
+<tr><td class="pv" colspan="4" style="font-weight:400">
+<t t-foreach="pays" t-as="p"><t t-out="p['date']" t-options="{'widget': 'date', 'format': 'd MMM y'}"/> · <t t-out="p.get('journal_name') or p.get('ref') or 'Payment'"/> · <b class="strong"><span t-out="p['amount']" t-options="{'widget': 'monetary', 'display_currency': o.currency_id}"/></b><br t-if="not p_last"/></t>
+</td></tr>
+</t>
+<t t-if="can_pay and o.partner_bank_id">
+<tr><td class="pk po" colspan="4">Bank transfer</td></tr>
+<tr><td class="pv" colspan="4"><t t-out="o.partner_bank_id.bank_id.name"/><t t-if="o.partner_bank_id.bank_id"> · </t><t t-out="o.partner_bank_id.acc_number"/> · Reference <t t-out="o.payment_reference or o.name"/></td></tr>
+</t>
+<t t-if="can_pay">
+<tr><td class="pk po" colspan="3">Pay online</td><td class="pq" rowspan="2"><img t-att-src="'/report/barcode/?barcode_type=QR&amp;value=%s&amp;width=360&amp;height=360&amp;quiet=0' % portal_qr" width="64" height="64" style="width:64px;height:64px" alt="QR"/></td></tr>
+<tr><td class="pv" colspan="3">Scan the QR code to view and pay this invoice online.</td></tr>
+</t>
+</table>
+<div style="height:16px"></div>
+
+<div class="terms" t-if="not is_html_empty(o.narration)" style="margin-bottom:10px"><t t-out="o.narration"/></div>
+<div class="terms"><b>Terms.</b> Refunds are made in SGD, less card processing fees. Questions about this <t t-out="doc_word.lower()"/>: bonjour@bhdasia.com. Full terms: <t t-out="site"/>/terms</div>
+</div>
+</div>
+</div>
+</div>
+
+<div t-attf-class="footer bqf bqf-#{brand}"><style t-if="brand == 'hb'">html, body { background: #fafaf8 !important; }</style><style t-if="brand == 'tre'">html, body { background: #faf6ef !important; }</style>
+<t t-set="fsos" t-value="o.sudo().invoice_line_ids.sale_line_ids.order_id"/>
+<t t-set="fwid" t-value="(('website_id' in o._fields) and o.website_id.id) or fsos[:1].website_id.id or 1"/>
+<t t-set="fbrand" t-value="o.env.context.get('bhdq_brand') or {1:'bhd',2:'hb',3:'tre'}.get(fwid,'bhd')"/>
+<t t-set="fsite" t-value="{'bhd':'bhdasia.com','hb':'hummingbeing.com','tre':'tre-in-singapore.com'}[fbrand]"/>
+<style>
+body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !important; margin:0 !important; max-width:none !important; width:auto !important; }
+.bq table, .bq thead, .bq tbody, .bq tfoot, .bq tr, .bq th, .bq td { border-style:none; border-width:0; }
+
+
+.bqf table, .bqf tr, .bqf td { border-style:none; border-width:0; }
+body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !important; margin:0 !important; max-width:none !important; }
+.bqf { width: 794px; margin: 0; padding: 0; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.bqf table { width: 100%; border-collapse: collapse; border-spacing: 0; }
+.bqf td { vertical-align: top; text-align: left; padding: 0; line-height: 1.5; }
+.bqf-bhd { background: #0b2238; font-family: 'DM Sans', 'Segoe UI', Arial, sans-serif; }
+.bqf-bhd td { color: #c4d0de; padding: 13px 60px; font-size: 9.5px; }
+.bqf-bhd td.fr { text-align: right; color: #E8B830; font-weight: 500; }
+.bqf-bhd .foot-rule { height: 3px; background: #E8B830; }
+.bqf-hb { background: #fafaf8; padding: 0 60px 8px 60px; text-align: center; font-family: 'Lato', 'Segoe UI', Arial, sans-serif; }
+.bqf-hb td { text-align: center; color: #5f6472; font-size: 9.5px; letter-spacing: .3px; }
+.bqf-hb td.fl { border-top: 1px solid #FCE6C1; padding-top: 8px; }
+.bqf-tre { background: #faf6ef; padding: 0 60px 12px 60px; font-family: 'Inter', 'Segoe UI', Arial, sans-serif; }
+.bqf-tre .fwrap { border-top: 2px solid #b89a72; }
+.bqf-tre td { padding-top: 10px; color: #5f6b7d; font-size: 9.5px; }
+.bqf-tre td.fr { text-align: right; color: #1c3d7a; font-weight: 600; }
+</style>
+<t t-if="fbrand == 'bhd'">
+<table><tr><td>BHD Asia · 50 Raffles Place, #30-00 Singapore Land Tower, Singapore 048623 · <t t-out="fsite"/></td><td class="fr">Page <span class="page"></span> / <span class="topage"></span></td></tr></table>
+<div class="foot-rule"></div>
+</t>
+<t t-if="fbrand == 'hb'">
+<table><tr><td class="fl">BHD Asia · 50 Raffles Place, #30-00 Singapore Land Tower, Singapore 048623 · <t t-out="fsite"/><br/>Page <span class="page"></span> / <span class="topage"></span></td></tr></table>
+</t>
+<t t-if="fbrand == 'tre'">
+<div class="fwrap"><table><tr><td>BHD Asia · 50 Raffles Place, #30-00 Singapore Land Tower, Singapore 048623 · <t t-out="fsite"/></td><td class="fr">Page <span class="page"></span> / <span class="topage"></span></td></tr></table></div>
+</t>
+</div>
+</t>

@@ -1,7 +1,7 @@
 <t t-name="bhdq.order_document">
 <div class="article" t-att-data-oe-model="doc._name" t-att-data-oe-id="doc.id" t-att-data-oe-lang="doc.env.context.get('lang')">
 <t t-set="wid" t-value="doc.website_id.id or 1"/>
-<t t-set="brand" t-value="{1:'bhd',2:'hb',3:'tre'}.get(wid,'bhd')"/>
+<t t-set="brand" t-value="doc.env.context.get('bhdq_brand') or {1:'bhd',2:'hb',3:'tre'}.get(wid,'bhd')"/>
 <t t-set="site" t-value="{'bhd':'bhdasia.com','hb':'hummingbeing.com','tre':'tre-in-singapore.com'}[brand]"/>
 <t t-set="brand_name" t-value="{'bhd':'BHD Asia','hb':'HummingBeing','tre':'TRE Singapore'}[brand]"/>
 <t t-set="logo_src" t-value="{'bhd':'/web/content/947','hb':'/web/content/1535','tre':'/web/content/1435'}[brand]"/>
@@ -9,13 +9,14 @@
 <t t-set="lh" t-value="{'bhd':62,'hb':46,'tre':90}[brand]"/>
 <t t-set="is_quote" t-value="doc.state in ('draft','sent')"/>
 <t t-set="is_cancel" t-value="doc.state == 'cancel'"/>
+<t t-set="is_pf" t-value="bool(is_pro_forma)"/>
 <t t-set="is_conf" t-value="doc.state in ('sale','done')"/>
 <t t-set="paid_amt" t-value="sum(doc.sudo().transaction_ids.filtered(lambda t: t.state in ('done','authorized')).mapped('amount'))"/>
 <t t-set="is_free" t-value="is_conf and not doc.amount_total"/>
 <t t-set="is_paid" t-value="bool(is_conf and doc.amount_total and paid_amt >= doc.amount_total - 0.005)"/>
 <t t-set="st_label" t-value="'Cancelled' if is_cancel else ('Confirmed' if is_free else ('Paid' if is_paid else ('Quotation' if is_quote else 'Awaiting payment')))"/>
 <t t-set="pay_label" t-value="'Cancelled' if is_cancel else ('Not required' if (is_free or not doc.amount_total) else ('Paid in full' if is_paid else 'Awaiting payment'))"/>
-<t t-set="sub_txt" t-value="'This order has been cancelled.' if is_cancel else ('Here is your quotation.' if is_quote else 'Thank you, your order is confirmed.')"/>
+<t t-set="sub_txt" t-value="'Pro forma, not a tax invoice.' if is_pf else 'This order has been cancelled.' if is_cancel else ('Here is your quotation.' if is_quote else 'Thank you, your order is confirmed.')"/>
 <t t-set="partner" t-value="doc.partner_invoice_id"/>
 <t t-set="evs" t-value="doc.order_line.mapped('event_id')"/>
 <t t-set="lines" t-value="doc.order_line.filtered(lambda l: not l.display_type and not l.is_reward_line)"/>
@@ -24,7 +25,8 @@
 <t t-set="subtotal" t-value="sum(lines.mapped('price_subtotal'))"/>
 <t t-set="disc" t-value="sum(rewards.mapped('price_subtotal'))"/>
 <t t-set="pay_tx" t-value="doc.sudo().transaction_ids.filtered(lambda t: t.state in ('done','authorized'))[:1] or doc.sudo().transaction_ids[:1]"/>
-<t t-set="portal_url" t-value="(doc.get_base_url() + doc.get_portal_url()) if is_quote else ''"/>
+<t t-set="show_pay" t-value="is_quote or (is_pf and not is_paid and not is_free and not is_cancel and doc.amount_total)"/>
+<t t-set="portal_url" t-value="(doc.get_base_url() + doc.get_portal_url()) if show_pay else ''"/>
 <t t-set="portal_qr" t-value="portal_url.replace('%','%25').replace('&amp;','%26').replace('?','%3F').replace('=','%3D').replace('#','%23').replace('+','%2B')"/>
 <t t-set="pill_html"><span t-attf-class="pill#{' cancel' if is_cancel else ''}"><i></i><t t-out="st_label"/></span></t>
 <div t-attf-class="bq bq-#{brand}">
@@ -536,7 +538,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 <t t-if="brand == 'bhd'">
 <div class="hd"><table><tr>
 <td style="width:98px"><div class="logo-plate"><img t-att-src="logo_src" t-att-width="lw" t-att-height="lh" t-att-style="'width:%spx;height:%spx' % (lw, lh)" alt="BHD Asia"/></div></td>
-<td><div class="ttl"><t t-out="'Quotation' if is_quote else ('Cancelled Order' if is_cancel else 'Order Confirmation')"/></div><div class="sub"><t t-out="sub_txt"/></div></td>
+<td><div class="ttl"><t t-out="'Pro Forma Invoice' if is_pf else ('Quotation' if is_quote else ('Cancelled Order' if is_cancel else 'Order Confirmation'))"/></div><div class="sub"><t t-out="sub_txt"/></div></td>
 <td style="width:170px">
 <div class="mk">Order no.</div><div class="mv"><t t-out="doc.name"/></div>
 <div class="mk">Order date</div><div class="mv"><span t-field="doc.date_order" t-options="{'widget': 'date', 'format': 'd MMM y'}"/></div>
@@ -547,7 +549,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 <t t-if="brand == 'hb'">
 <div class="hd"><div class="logo-box"><img t-att-src="logo_src" t-att-width="lw" t-att-height="lh" t-att-style="'width:%spx;height:%spx' % (lw, lh)" alt="HummingBeing Coaching &amp; Somatics"/></div>
 <table class="orn"><tr><td class="ol"></td><td class="od"><i></i></td><td class="ol"></td></tr></table>
-<div class="ttl"><t t-if="is_quote"><em>Quotation</em></t><t t-elif="is_cancel">Cancelled <em>Order</em></t><t t-else="">Order <em>Confirmation</em></t></div>
+<div class="ttl"><t t-if="is_pf">Pro Forma <em>Invoice</em></t><t t-elif="is_quote"><em>Quotation</em></t><t t-elif="is_cancel">Cancelled <em>Order</em></t><t t-else="">Order <em>Confirmation</em></t></div>
 <table class="hmeta"><tr>
 <td><div class="mk">Order no.</div><div class="mv"><t t-out="doc.name"/></div></td>
 <td class="sep"><div class="mk">Order date</div><div class="mv"><span t-field="doc.date_order" t-options="{'widget': 'date', 'format': 'd MMM y'}"/></div></td>
@@ -557,7 +559,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 </t>
 <t t-if="brand == 'tre'">
 <div class="hd"><table><tr><td><div class="logo-box"><img t-att-src="logo_src" t-att-width="lw" t-att-height="lh" t-att-style="'width:%spx;height:%spx' % (lw, lh)" alt="TRE Singapore"/></div></td>
-<td><div class="ttl"><small>TRE Singapore</small><t t-out="'Quotation' if is_quote else ('Cancelled Order' if is_cancel else 'Order Confirmation')"/></div></td></tr></table></div>
+<td><div class="ttl"><small>TRE Singapore</small><t t-out="'Pro Forma Invoice' if is_pf else ('Quotation' if is_quote else ('Cancelled Order' if is_cancel else 'Order Confirmation'))"/></div></td></tr></table></div>
 <table class="hmeta"><tr>
 <td><div class="mk">Order no.</div><div class="mv"><t t-out="doc.name"/></div></td>
 <td><div class="mk">Order date</div><div class="mv"><span t-field="doc.date_order" t-options="{'widget': 'date', 'format': 'd MMM y'}"/></div></td>
@@ -662,15 +664,15 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 <table class="pay">
 <tr><td class="pk">Status</td><td class="pk">Method</td><td class="pk">Payment terms</td><td class="pk">Reference</td></tr>
 <tr><td class="pv"><t t-out="pay_label"/></td><td class="pv"><t t-out="pay_tx.provider_id.name or '—'"/></td><td class="pv"><t t-out="doc.payment_term_id.name or 'Immediate payment'"/></td><td class="pv"><t t-out="doc.name"/></td></tr>
-<t t-if="is_quote">
+<t t-if="show_pay">
 <tr><td class="pk po" colspan="3">Pay online</td><td class="pq" rowspan="2"><img t-att-src="'/report/barcode/?barcode_type=QR&amp;value=%s&amp;width=360&amp;height=360&amp;quiet=0' % portal_qr" width="64" height="64" style="width:64px;height:64px" alt="QR"/></td></tr>
-<tr><td class="pv" colspan="3">Scan the QR code to view and pay this quotation online.</td></tr>
+<tr><td class="pv" colspan="3">Scan the QR code to view and pay this <t t-out="'order' if is_pf else 'quotation'"/> online.</td></tr>
 </t>
 </table>
 <div style="height:16px"></div>
 
 <!-- ============ NEXT STEPS ============ -->
-<t t-if="not is_quote and not is_cancel">
+<t t-if="not is_quote and not is_cancel and not is_pf">
 <div class="sec-h"><i t-if="brand == 'tre'"></i>What happens next</div>
 <table class="steps"><tr>
 <t t-if="evs">
@@ -692,7 +694,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 
 <div t-attf-class="footer bqf bqf-#{brand}"><style t-if="brand == 'hb'">html, body { background: #fafaf8 !important; }</style><style t-if="brand == 'tre'">html, body { background: #faf6ef !important; }</style>
 <t t-set="fwid" t-value="doc.website_id.id or 1"/>
-<t t-set="fbrand" t-value="{1:'bhd',2:'hb',3:'tre'}.get(fwid,'bhd')"/>
+<t t-set="fbrand" t-value="doc.env.context.get('bhdq_brand') or {1:'bhd',2:'hb',3:'tre'}.get(fwid,'bhd')"/>
 <t t-set="fsite" t-value="{'bhd':'bhdasia.com','hb':'hummingbeing.com','tre':'tre-in-singapore.com'}[fbrand]"/>
 <style>
 body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !important; margin:0 !important; max-width:none !important; width:auto !important; }
