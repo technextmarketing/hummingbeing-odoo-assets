@@ -26,6 +26,7 @@
 <t t-set="date_html"><t t-out="event.date_begin" t-options="{'widget': 'datetime', 'tz_name': event.date_tz, 'format': 'd MMM y'}"/><t t-if="multi"> – <t t-out="event.date_end" t-options="{'widget': 'datetime', 'tz_name': event.date_tz, 'format': 'd MMM y'}"/></t></t>
 <t t-set="time_html"><t t-if="multi"><t t-out="tz_multi"/></t><t t-else=""><span class="lc"><t t-if="a_b == a_e"><t t-out="event.date_begin" t-options="{'widget': 'datetime', 'tz_name': event.date_tz, 'format': 'h:mm'}"/></t><t t-else=""><t t-out="event.date_begin" t-options="{'widget': 'datetime', 'tz_name': event.date_tz, 'format': 'h:mm a'}"/></t>–<t t-out="event.date_end" t-options="{'widget': 'datetime', 'tz_name': event.date_tz, 'format': 'h:mm a'}"/></span> <t t-out="tz_single"/></t></t>
 <div t-attf-class="bq bq-#{brand}">
+<div class="header bqh"><style t-if="brand == 'hb'">html, body { background: #fafaf8 !important; }</style><style t-if="brand == 'tre'">html, body { background: #faf6ef !important; }</style></div><div t-if="brand in ('hb','tre')" t-attf-style="position:fixed; left:0; top:-40px; width:794px; height:1300px; z-index:-1; background:#{'#fafaf8' if brand == 'hb' else '#faf6ef'};"></div>
 <style>
 
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@600;700');
@@ -44,7 +45,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 .bq-bhd td, .bq-bhd th { padding: 0; vertical-align: top; text-align: left; }
 .bq-bhd p { margin: 0; }
 .bq-bhd img { display: block; }
-.bq-bhd .page { position: relative; width: 794px; background: #ffffff; min-height: 1064px; }
+.bq-bhd .page { position: relative; width: 794px; background: #ffffff; min-height: 1026px; }
 .bq-bhd .inner { padding: 0 60px; }
 .bq-bhd .num { text-align: right !important; white-space: nowrap; -webkit-font-feature-settings: "tnum" 1; font-feature-settings: "tnum" 1; }
 .bq-bhd .r { text-align: right; }
@@ -180,6 +181,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 .bq-bhd .info-title { font-family: 'Sora', 'Segoe UI', sans-serif; font-weight: 700; font-size: 18px; color: #0b2238; border-bottom: 2px solid #E8B830; padding-bottom: 7px; margin-bottom: 16px; }
 .bq-bhd .tk .tk-pill .pill { background: #FAF7F4; border: 1px solid #E5DDD5; color: #0b2238; font-size: 10px; border-radius: 4px; text-transform: none; letter-spacing: .3px; font-weight: 500; padding: 3px 10px; }
 .bq-bhd .tk .tk-pill .pill i { background: #E8B830; }
+.bq-bhd .hd { padding-top: 4px; }
 .bq-bhd .lc { text-transform: lowercase; }
 .bq-bhd .secrow { background: #FAF7F4; color: #1c2b3a; font-size: 11.5px; padding: 8px 10px; border-bottom: 1px solid #E5DDD5; }
 .bq-bhd .pay td.po { border-top: 1px solid #E5DDD5; }
@@ -195,7 +197,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 .bq-hb td, .bq-hb th { padding: 0; vertical-align: top; text-align: left; }
 .bq-hb p { margin: 0; }
 .bq-hb img { display: block; }
-.bq-hb .page { position: relative; width: 794px; background: #fafaf8; min-height: 1064px; }
+.bq-hb .page { position: relative; width: 794px; background: #fafaf8; min-height: 1026px; }
 .bq-hb .inner { padding: 0 60px; }
 .bq-hb .num { text-align: right !important; white-space: nowrap; -webkit-font-feature-settings: "tnum" 1; font-feature-settings: "tnum" 1; }
 .bq-hb .r { text-align: right; }
@@ -358,6 +360,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 .bq-hb .pay td.pv { padding-bottom: 8px; }
 .bq-hb .party p { line-height: 1.45; }
 .bq-hb .tk .admit td.ar { display: none; }
+.bq-hb .hd { padding-top: 6px; }
 .bq-hb .lc { text-transform: lowercase; }
 .bq-hb .secrow { background: #ffffff; color: #242e42; font-size: 11.5px; padding: 8px 10px; border-bottom: 1px solid #FCE6C1; }
 .bq-hb .pay td.po { border-top: 1px solid #FCE6C1; }
@@ -373,7 +376,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 .bq-tre td, .bq-tre th { padding: 0; vertical-align: top; text-align: left; }
 .bq-tre p { margin: 0; }
 .bq-tre img { display: block; }
-.bq-tre .page { position: relative; width: 794px; background: #faf6ef; min-height: 1064px; }
+.bq-tre .page { position: relative; width: 794px; background: #faf6ef; min-height: 1026px; }
 .bq-tre .inner { padding: 0 60px; }
 .bq-tre .num { text-align: right !important; white-space: nowrap; -webkit-font-feature-settings: "tnum" 1; font-feature-settings: "tnum" 1; }
 .bq-tre .r { text-align: right; }
@@ -518,6 +521,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 .bq-tre .info td.ic .ibox { background: #fff; border: 1px solid #e4dfd6; border-radius: 14px; padding: 14px 16px; }
 .bq-tre .info td.ic { padding-right: 12px; }
 .bq-tre .tk .tk-pill .pill { font-size: 10px; }
+.bq-tre .hd { padding-top: 8px; }
 .bq-tre .lc { text-transform: lowercase; }
 .bq-tre .secrow { background: #ffffff; color: #0f1f3d; font-size: 11.5px; padding: 8px 10px; border-bottom: 1px solid #e4dfd6; }
 .bq-tre .pay td.po { border-top: 1px solid #e4dfd6; }
@@ -529,7 +533,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 .bq-tre .hmeta .pill.cancel { font-family: 'Plus Jakarta Sans', 'Segoe UI', sans-serif; }
 </style>
 <style t-if="brand == 'hb'">html, body { background: #fafaf8 !important; }</style><style t-if="brand == 'tre'">html, body { background: #faf6ef !important; }</style><div class="page">
-<div style="height:50px"></div>
+<div style="height:14px"></div>
 <div class="tk-wrap"><div class="tk"><div class="tk-box">
 <div class="inset" t-if="brand == 'hb'"></div>
 <table class="tkt"><tr>
@@ -597,7 +601,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 <p t-else=""><b><t t-out="event.name"/></b><br/><t t-out="date_html"/><br/><t t-out="time_html"/><br/><t t-out="where_txt"/>. Your venue and joining details are sent before the event.<br/>Add it to your calendar: use the calendar link in your confirmation email.</p>
 </div></td>
 <td class="ic"><div t-att-class="'ibox' if brand == 'tre' else None"><div class="ih">Your organiser</div>
-<p><b><t t-out="organiser"/></b><br/><t t-out="cmp.email"/><br/><t t-out="site"/><br/><t t-out="cmp_l1"/>, <t t-out="cmp_l2"/></p></div></td>
+<p><b><t t-out="organiser"/></b><br/><t t-if="organiser != cmp.name">Booked through <t t-out="cmp.name"/><br/></t><t t-out="cmp.email"/><br/><t t-out="site"/><br/><t t-out="cmp_l1"/>, <t t-out="cmp_l2"/></p></div></td>
 </tr>
 <tr>
 <td class="ic"><div t-att-class="'ibox' if brand == 'tre' else None"><div class="ih">Check-in</div>
