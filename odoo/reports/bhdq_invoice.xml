@@ -198,9 +198,11 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 .bq-bhd .tk .qr-num { font-size: 9.5px; text-align: center; }
 .bq-bhd .tk .qrw2 { display: inline-block; text-align: center; }
 .bq-bhd .tk .stub .sq { text-align: center; }
-.bq-bhd .tk .void { position: absolute; left: 0; top: 248px; width: 508px; text-align: center; z-index: 5; white-space: nowrap; }
-.bq-bhd .tk .void span { display: inline-block; background: #ffffff; border: 2px solid #c53030; color: #c53030; font-weight: 800; font-size: 13px; letter-spacing: 2px; text-transform: uppercase; padding: 8px 18px; white-space: nowrap; -webkit-transform: rotate(-4deg); transform: rotate(-4deg); }
 .bq-bhd .info .ih { font-size: 10px; }
+.bq-bhd .tk .qrw2 { position: relative; }
+.bq-bhd .tk .qvoid { position: absolute; left: -14px; top: 44px; width: 172px; text-align: center; z-index: 5; }
+.bq-bhd .tk .qvoid span { display: inline-block; background: #ffffff; border: 2px solid #c53030; color: #c53030; font-weight: 800; font-size: 14px; letter-spacing: 2px; text-transform: uppercase; padding: 6px 12px 5px 12px; line-height: 1.15; -webkit-transform: rotate(-8deg); transform: rotate(-8deg); }
+.bq-bhd .tk .qvoid small { display: block; font-size: 8.5px; letter-spacing: 1px; font-weight: 700; }
 .bq-bhd .lc { text-transform: lowercase; }
 .bq-bhd .secrow { background: #FAF7F4; color: #1c2b3a; font-size: 11.5px; padding: 8px 10px; border-bottom: 1px solid #E5DDD5; }
 .bq-bhd .pay td.po { border-top: 1px solid #E5DDD5; }
@@ -270,7 +272,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 .bq-hb .orn .od { width: 22px; text-align: center; }
 .bq-hb .orn .od i { display: block; width: 7px; height: 7px; margin: 0 auto; background: #F5A623; -webkit-transform: rotate(45deg); transform: rotate(45deg); }
 .bq-hb .hd .ttl { font-family: 'Playfair Display', Georgia, serif; font-weight: 500; font-size: 36px; color: #242e42; letter-spacing: 0; margin-top: 12px; line-height: 1.15; }
-.bq-hb .hd .ttl em { font-style: italic; font-weight: 400; color: #a86a00; }
+.bq-hb .hd .ttl em { font-style: italic; font-weight: 400; color: #9A6508; }
 .bq-hb .hmeta { width: 600px; margin: 18px auto 0 auto; border-top: 1px solid #FCE6C1; border-bottom: 1px solid #FCE6C1; }
 .bq-hb .hmeta td { text-align: center; padding: 10px 6px; vertical-align: middle; }
 .bq-hb .hmeta td.sep { border-left: 1px solid #FCE6C1; }
@@ -339,26 +341,26 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 .bq-hb .tk .inset { position: absolute; left: 7px; top: 7px; right: 7px; bottom: 7px; border: 1px solid #FCE6C1; z-index: 0; }
 .bq-hb .tk .main-in { text-align: center; }
 .bq-hb .tk .tkh td { text-align: center; }
-.bq-hb .tk .tk-lab { text-align: center; color: #a86a00; font-family: 'Playfair Display', Georgia, serif; font-style: italic; letter-spacing: 1px; text-transform: none; font-size: 15px; font-weight: 400; margin-top: 12px; }
+.bq-hb .tk .tk-lab { text-align: center; color: #9A6508; font-family: 'Playfair Display', Georgia, serif; font-style: italic; letter-spacing: 1px; text-transform: none; font-size: 15px; font-weight: 400; margin-top: 12px; }
 .bq-hb .tk .tk-title { font-family: 'Playfair Display', Georgia, serif; font-weight: 500; font-size: 36px; color: #242e42; letter-spacing: -0.2px; margin-top: 12px; }
-.bq-hb .tk .tk-title em { font-style: italic; color: #a86a00; font-weight: 400; }
+.bq-hb .tk .tk-title em { font-style: italic; color: #9A6508; font-weight: 400; }
 .bq-hb .tk .orn { width: 220px; margin: 14px auto 0 auto; }
 .bq-hb .tk .fld { text-align: left; }
 .bq-hb .tk .fld .fk { color: #5f6472; font-weight: 700; }
 .bq-hb .tk .fld .fv { font-family: 'Playfair Display', Georgia, serif; font-weight: 500; font-size: 14px; }
 .bq-hb .tk .fld .fv.fvs { font-weight: 500; }
 .bq-hb .tk .admit { text-align: center; }
-.bq-hb .tk .admit td { text-align: center; font-family: 'Playfair Display', Georgia, serif; font-style: italic; text-transform: none; letter-spacing: .5px; font-size: 14px; color: #a86a00; border-top: 1px solid #FCE6C1; padding-top: 11px; }
+.bq-hb .tk .admit td { text-align: center; font-family: 'Playfair Display', Georgia, serif; font-style: italic; text-transform: none; letter-spacing: .5px; font-size: 14px; color: #9A6508; border-top: 1px solid #FCE6C1; padding-top: 11px; }
 .bq-hb .tk .stub { background: #fffdf7; }
 .bq-hb .tk .stub .sk { color: #5f6472; font-weight: 700; }
 .bq-hb .tk .stub .sv { font-family: 'Playfair Display', Georgia, serif; font-weight: 500; font-size: 13px; color: #242e42; }
-.bq-hb .tk .stub .stub-top { font-family: 'Playfair Display', Georgia, serif; font-style: italic; font-size: 20px; color: #a86a00; line-height: 1.1; margin-bottom: 18px; }
+.bq-hb .tk .stub .stub-top { font-family: 'Playfair Display', Georgia, serif; font-style: italic; font-size: 20px; color: #9A6508; line-height: 1.1; margin-bottom: 18px; }
 .bq-hb .tk .stub .snum { color: #5f6472; }
 .bq-hb .tk .notch { border: 1px solid #F5A623; border-top: 0; }
 .bq-hb .tk .n-bot { border: 1px solid #F5A623; border-bottom: 0; }
 .bq-hb .info .ih { font-family: 'Playfair Display', Georgia, serif; font-style: italic; font-weight: 400; text-transform: none; letter-spacing: 0; font-size: 16px; color: #242e42; border-bottom: 1px solid #FCE6C1; padding-bottom: 3px; margin-bottom: 7px; }
 .bq-hb .info-title { font-family: 'Playfair Display', Georgia, serif; font-weight: 500; font-size: 24px; color: #242e42; text-align: center; margin-bottom: 18px; }
-.bq-hb .info-title em { font-style: italic; color: #a86a00; font-weight: 400; }
+.bq-hb .info-title em { font-style: italic; color: #9A6508; font-weight: 400; }
 .bq-hb .tk .tk-pill .pill { margin-top: 0; }
 .bq-hb .tk .tk-pill { text-align: center; }
 .bq-hb .hd { padding-top: 30px; }
@@ -393,9 +395,11 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 .bq-hb .tk .qr-num { font-size: 9.5px; text-align: center; }
 .bq-hb .tk .qrw2 { display: inline-block; text-align: center; }
 .bq-hb .tk .stub .sq { text-align: center; }
-.bq-hb .tk .void { position: absolute; left: 0; top: 248px; width: 508px; text-align: center; z-index: 5; white-space: nowrap; }
-.bq-hb .tk .void span { display: inline-block; background: #ffffff; border: 2px solid #c53030; color: #c53030; font-weight: 800; font-size: 13px; letter-spacing: 2px; text-transform: uppercase; padding: 8px 18px; white-space: nowrap; -webkit-transform: rotate(-4deg); transform: rotate(-4deg); }
 .bq-hb .info .ih { font-size: 10px; }
+.bq-hb .tk .qrw2 { position: relative; }
+.bq-hb .tk .qvoid { position: absolute; left: -14px; top: 44px; width: 172px; text-align: center; z-index: 5; }
+.bq-hb .tk .qvoid span { display: inline-block; background: #ffffff; border: 2px solid #c53030; color: #c53030; font-weight: 800; font-size: 14px; letter-spacing: 2px; text-transform: uppercase; padding: 6px 12px 5px 12px; line-height: 1.15; -webkit-transform: rotate(-8deg); transform: rotate(-8deg); }
+.bq-hb .tk .qvoid small { display: block; font-size: 8.5px; letter-spacing: 1px; font-weight: 700; }
 .bq-hb .lc { text-transform: lowercase; }
 .bq-hb .secrow { background: #ffffff; color: #242e42; font-size: 11.5px; padding: 8px 10px; border-bottom: 1px solid #FCE6C1; }
 .bq-hb .pay td.po { border-top: 1px solid #FCE6C1; }
@@ -566,16 +570,19 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 .bq-tre .terms { font-size: 11px; }
 .bq-tre .lines-card { background: transparent; border: 0; border-radius: 0; padding: 0; }
 .bq-tre .totals-card { padding: 4px 8px 6px 8px; }
-.bq-tre .hmeta { border-left: 0; box-shadow: inset 6px 0 0 #b89a72; }
+.bq-tre .hmeta { border-left: 0; box-shadow: none; }
+.bq-tre .hmeta td.spine { width: 6px; padding: 0; background: #b89a72; border-radius: 14px 0 0 14px; }
 .bq-tre .tk .fld .fk { font-size: 9.5px; }
 .bq-tre .tk .stub .sk { font-size: 9px; }
 .bq-tre .tk .stub .snum { font-size: 8.5px; }
 .bq-tre .tk .qr-num { font-size: 9.5px; text-align: center; }
 .bq-tre .tk .qrw2 { display: inline-block; text-align: center; }
 .bq-tre .tk .stub .sq { text-align: center; }
-.bq-tre .tk .void { position: absolute; left: 0; top: 248px; width: 508px; text-align: center; z-index: 5; white-space: nowrap; }
-.bq-tre .tk .void span { display: inline-block; background: #ffffff; border: 2px solid #c53030; color: #c53030; font-weight: 800; font-size: 13px; letter-spacing: 2px; text-transform: uppercase; padding: 8px 18px; white-space: nowrap; -webkit-transform: rotate(-4deg); transform: rotate(-4deg); }
 .bq-tre .info .ih { font-size: 10px; }
+.bq-tre .tk .qrw2 { position: relative; }
+.bq-tre .tk .qvoid { position: absolute; left: -14px; top: 44px; width: 172px; text-align: center; z-index: 5; }
+.bq-tre .tk .qvoid span { display: inline-block; background: #ffffff; border: 2px solid #c53030; color: #c53030; font-weight: 800; font-size: 14px; letter-spacing: 2px; text-transform: uppercase; padding: 6px 12px 5px 12px; line-height: 1.15; -webkit-transform: rotate(-8deg); transform: rotate(-8deg); }
+.bq-tre .tk .qvoid small { display: block; font-size: 8.5px; letter-spacing: 1px; font-weight: 700; }
 .bq-tre .lc { text-transform: lowercase; }
 .bq-tre .secrow { background: #ffffff; color: #0f1f3d; font-size: 11.5px; padding: 8px 10px; border-bottom: 1px solid #e4dfd6; }
 .bq-tre .pay td.po { border-top: 1px solid #e4dfd6; }
@@ -614,7 +621,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 <t t-if="brand == 'tre'">
 <div class="hd"><table><tr><td><div class="logo-box"><img t-att-src="logo_src" t-att-width="lw" t-att-height="lh" t-att-style="'width:%spx;height:%spx;max-width:none;min-width:%spx;min-height:%spx' % (lw, lh, lw, lh)" alt="TRE Singapore"/></div></td>
 <td><div class="ttl"><small>TRE Singapore</small><t t-out="title"/></div></td></tr></table></div>
-<table class="hmeta"><tr>
+<table class="hmeta"><tr><td class="spine"></td>
 <td><div class="mk"><t t-out="doc_word"/> no.</div><div class="mv"><t t-out="o.name if o.name and o.name != '/' else 'Draft'"/></div></td>
 <td><div class="mk">Date</div><div class="mv"><span t-field="o.invoice_date" t-options="{'widget': 'date', 'format': 'd MMM y'}"/><t t-if="not o.invoice_date">—</t></div></td>
 <td t-if="o.invoice_date_due and not is_refund and not is_paid"><div class="mk">Due date</div><div class="mv"><span t-field="o.invoice_date_due" t-options="{'widget': 'date', 'format': 'd MMM y'}"/></div></td>
