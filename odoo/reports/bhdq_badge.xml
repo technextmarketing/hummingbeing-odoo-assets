@@ -7,7 +7,7 @@
 <t t-set="lw" t-value="{'bhd':118,'hb':172,'tre':150}[brand]"/>
 <t t-set="lh" t-value="{'bhd':92,'hb':50,'tre':82}[brand]"/>
 <t t-set="nm" t-value="(event.env.context.get('bhdq_test_name') if event.env.user.has_group('base.group_system') else False) or (attendee and attendee.name) or 'Attendee Name'"/>
-<t t-set="nm_cls" t-value="'xl' if len(nm) &lt;= 16 else ('l' if len(nm) &lt;= 24 else ('m' if len(nm) &lt;= 32 else 's'))"/>
+<t t-set="nm_words" t-value="nm.split()"/><t t-set="nm_long" t-value="max([len(w) for w in nm_words] or [0])"/><t t-set="nm_cls" t-value="'s' if (len(nm) &gt; 32 or nm_long &gt; 17) else ('m' if (len(nm) &gt; 24 or nm_long &gt; 13) else ('l' if (len(nm) &gt; 16 or nm_long &gt; 10) else 'xl'))"/>
 <t t-set="ttype" t-value="(attendee and attendee.event_ticket_id.name) or (event.event_ticket_ids[:1].name) or 'Attendee'"/>
 <t t-set="org" t-value="event.organizer_id.name or cmp.name"/>
 <t t-set="multi" t-value="not event.is_one_day"/>
@@ -64,7 +64,7 @@ body.container, body.o_body_html { padding:0 !important; margin:0 !important; ma
 .bb-hb .orn .od i { display: block; width: 7px; height: 7px; margin: 0 auto; background: #F5A623; -webkit-transform: rotate(45deg); transform: rotate(45deg); }
 .bb-hb .nm { font-family: 'Playfair Display', Georgia, serif; font-weight: 500; color: #242e42; margin-top: 30px; }
 .bb-hb .pill { border: 1px solid #F5A623; background: #FEF4E5; color: #242e42; margin-top: 16px; }
-.bb-hb .evn { font-family: 'Playfair Display', Georgia, serif; font-style: italic; font-size: 16px; color: #a86a00; margin-top: 0; }
+.bb-hb .evn { font-family: 'Playfair Display', Georgia, serif; font-style: italic; font-size: 16px; color: #9A6508; margin-top: 0; }
 .bb-hb .evd { color: #5f6472; text-transform: uppercase; font-weight: 700; letter-spacing: 1.2px; font-size: 9.5px; margin-top: 7px; }
 .bb-hb .qrb { border: 1px solid #FCE6C1; }
 .bb-hb .qrn { color: #5f6472; }
@@ -73,7 +73,10 @@ body.container, body.o_body_html { padding:0 !important; margin:0 !important; ma
 /* ---- TRE Singapore ---- */
 .bb-tre .card { background: #faf6ef; border: 1px solid #e4dfd6; border-radius: 18px; font-family: 'Inter', 'Segoe UI', Arial, sans-serif; color: #2c3a52; }
 .bb-tre .hd { padding-top: 22px; height: 106px; }
-.bb-tre .nmbox { background: #1c3d7a; border-radius: 16px; box-shadow: inset 6px 0 0 #b89a72; margin: 0; padding: 26px 18px 24px 18px; }
+.bb-tre .nmtab { width: 100%; border-collapse: collapse; }
+.bb-tre .nmtab td.spine { width: 7px; background: #b89a72 !important; border-radius: 16px 0 0 16px; padding: 0; }
+.bb-tre .nmtab td.nmcell { background: #1c3d7a; border-radius: 0 16px 16px 0; padding: 0; vertical-align: middle; }
+.bb-tre .nmbox { background: transparent; margin: 0; padding: 26px 18px 24px 12px; }
 .bb-tre .nm { font-family: 'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif; font-weight: 800; color: #ffffff; letter-spacing: -0.6px; }
 .bb-tre .pill { background: #f3e8d2; color: #132b56; border: 1px solid #b89a72; margin-top: 13px; font-family: 'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif; }
 .bb-tre .evn { font-family: 'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif; font-weight: 800; color: #1c3d7a; margin-top: 0; }
@@ -94,10 +97,10 @@ body.container, body.o_body_html { padding:0 !important; margin:0 !important; ma
 <div class="body">
 <t t-set="mid_h" t-value="{'bhd':166,'hb':206,'tre':222}[brand]"/>
 <table class="mid" t-attf-style="height:#{mid_h}px"><tr><td t-attf-style="height:#{mid_h}px">
-<div t-att-class="'nmbox' if brand == 'tre' else None">
-<div t-attf-class="nm #{nm_cls}"><t t-out="nm"/></div>
-<div><span class="pill"><t t-out="ttype"/></span></div>
-</div>
+<t t-set="name_html"><div t-attf-class="nm #{nm_cls}"><t t-foreach="nm_words" t-as="w"><span style="white-space:nowrap"><t t-out="w"/></span><t t-if="not w_last"> </t></t></div>
+<div><span class="pill"><t t-out="ttype"/></span></div></t>
+<t t-if="brand == 'tre'"><table class="nmtab"><tr><td class="spine"></td><td class="nmcell"><div class="nmbox"><t t-out="name_html"/></div></td></tr></table></t>
+<t t-else=""><t t-out="name_html"/></t>
 </td></tr></table>
 <div class="rule" t-if="brand == 'bhd'"></div>
 <div class="evn"><t t-out="(event.name.rsplit(' ', 1)[0] + '\u00a0' + event.name.rsplit(' ', 1)[1]) if ' ' in (event.name or '') else event.name"/></div>
