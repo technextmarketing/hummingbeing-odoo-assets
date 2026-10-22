@@ -778,7 +778,8 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 .bqf-tre td { padding-top: 10px; color: #5f6b7d; font-size: 10px; }
 .bqf-tre td.fr { text-align: right; color: #1c3d7a; font-weight: 600; }
 /* v3.2 footer: reference never wraps, no boxed footer */
-.bqf td.fr { white-space: nowrap; width: 250px; }
+.bqf-hb .hbf { border-top: 1px solid #FCE6C1; padding-top: 8px; text-align: center; color: #5f6472; font-size: 10px; letter-spacing: .3px; line-height: 1.5; }
+.bqf td.fr { white-space: nowrap; width: 1%; }
 .bqf-bhd td { padding: 13px 10px 13px 60px; }
 .bqf-bhd td.fr { padding: 13px 60px 13px 10px; }
 .bqf, .bqf table, .bqf-hb table, .bqf-hb tr { border: 0 !important; }
@@ -789,7 +790,7 @@ body.container, body.o_body_html { padding-left:0 !important; padding-right:0 !i
 <div class="foot-rule"></div>
 </t>
 <t t-if="fbrand == 'hb'">
-<table><tr><td class="fl"><t t-out="fcmp_line"/> · <t t-out="fsite"/><br/><t t-out="run_txt"/> · Page <span class="page"></span> / <span class="topage"></span></td></tr></table>
+<div class="hbf"><t t-out="fcmp_line"/> · <t t-out="fsite"/><br/><t t-out="run_txt"/> · Page <span class="page"></span> / <span class="topage"></span></div>
 </t>
 <t t-if="fbrand == 'tre'">
 <div class="fwrap"><table><tr><td><t t-out="fcmp_line"/> · <t t-out="fsite"/></td><td class="fr"><t t-out="run_txt"/> · Page <span class="page"></span> / <span class="topage"></span></td></tr></table></div>
