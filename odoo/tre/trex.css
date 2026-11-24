@@ -555,6 +555,7 @@
 @keyframes tre-sndPulse{0%{transform:scale(.9);opacity:.6}100%{transform:scale(1.35);opacity:0}}
 .trex .snd-fab .tip{position:absolute;right:52px;top:50%;transform:translateY(-50%);background:var(--navy);color:#fff;font-size:.72rem;padding:.35rem .6rem;border-radius:6px;white-space:nowrap;opacity:0;pointer-events:none;transition:opacity var(--d2)}
 .trex .snd-fab:hover .tip{opacity:1}
+@media (max-width:480px){.trex .snd-fab{display:none}}
 @media (max-width:640px){.trex .cb-fab .cb-fab-label{display:none}
 .trex .cb-fab{width:44px;padding:0;justify-content:center;border-radius:50%}}
 .trex .cb-panel{position:fixed;right:22px;bottom:144px;z-index:65;width:min(380px,calc(100vw - 32px));max-height:min(640px,calc(100vh - 170px));background:#fff;border:1px solid var(--line-2);border-radius:var(--radius);box-shadow:var(--shadow-2);display:flex;flex-direction:column;overflow:hidden;animation:tre-rise .3s var(--ease-out) both}
@@ -602,6 +603,9 @@
 .trex .page-hero h1,.trex .page-hero p{color:#000!important}
 .trex section{padding:1rem 0!important;break-inside:avoid}}
 .trex .cb-panel[hidden],.trex .tre-pop[hidden]{display:none!important}
+.trex .event-desc{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.trex .event-meta .m-time,.trex .event-meta .m-who{display:none}
+.trex .event-meta li span{display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
 .trex{--ease-breath:cubic-bezier(.45,.05,.35,1);
   --ink-wash:15,31,61;             
   --deep-wash:19,43,86;            
@@ -630,7 +634,9 @@
   min-height:calc(clamp(500px,68vh,720px) + var(--head-room,0px));display:flex;align-items:center;
   padding:calc(var(--s8) + 8px + var(--head-room,0px)) 0 calc(var(--s8) + 24px);}
 .trex .hx::before,.trex .hx::after{content:none!important}
-.trex .hx-media{position:absolute;inset:-3%;left:calc(-3% + var(--shift,0%));z-index:-3;overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 var(--feather,0%));mask-image:linear-gradient(90deg,transparent 0,#000 var(--feather,0%))}
+.trex .hx-media{position:absolute;inset:-3%;left:calc(-3% + var(--shift,0%));z-index:-3;overflow:hidden}
+.trex .hx[style*="--feather"] .hx-media{-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 var(--feather,0%));mask-image:linear-gradient(90deg,transparent 0,#000 var(--feather,0%))}
+.trex .hx.is-off .hx-photo{animation-play-state:paused}
 .trex .hx-photo{width:100%;height:100%;max-width:none;object-fit:cover;
   object-position:var(--fx,62%) var(--fy,45%);
   translate:var(--px,0px) var(--py,0px);scale:1.05;
@@ -664,7 +670,7 @@
 .trex .hx .hx-inner > :nth-child(5){animation-delay:.36s}
 .trex .hx .hx-inner > :nth-child(n/**/+6){animation-delay:.45s}
 .trex .hx .hx-credit{animation:tre-hx-in 1.2s .6s var(--ease-out) both}
-@keyframes tre-hx-in{from{opacity:0;translate:0 14px;filter:blur(6px)}to{opacity:1;translate:0 0;filter:blur(0)}}
+@keyframes tre-hx-in{from{opacity:0;translate:0 14px}to{opacity:1;translate:0 0}}
 .trex .page-hero.hx > .tre-container > *{opacity:1;transform:none}
 .trex .hx-split{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:clamp(28px,5vw,72px);align-items:center}
 .trex .hx-window{position:relative;margin:0;border-radius:var(--radius);overflow:hidden;background:var(--navy-ink);
@@ -739,8 +745,7 @@ html.menu-open .trex .brand-logo{filter:brightness(0) invert(1)}
 html.menu-open{overflow:hidden}}
 @media (min-width:981px){.trex .nav-extra{display:none}}
 @keyframes tre-mm-in{to{opacity:1;transform:none}}
-.trex .js .reveal{transition-property:opacity,transform,filter}
-.trex .js .reveal:not(.in){filter:blur(4px)}
+.trex .js .reveal{transition-property:opacity,transform}
 .trex .lx-media{position:relative;margin:0;border-radius:var(--radius);overflow:hidden;background:var(--navy-ink);box-shadow:var(--shadow-2)}
 .trex .lx-media img{display:block;width:100%;height:100%;object-fit:cover;scale:1.06;translate:0 var(--par,0px);transition:scale 1.2s var(--ease-out)}
 .trex .lx-media:hover img{scale:1.09}
@@ -855,6 +860,37 @@ html:not(.js) .trex .hx-photo,html:not(.js) .trex .marquee-track{animation:none}
 .trex .bl-events{margin-top:var(--s8)}
 .trex .bl-events-h{margin:0 0 var(--s5)}
 .trex .tre-btn-primary,.trex .tre-btn-primary:hover,.trex .tre-btn-primary:focus-visible,.trex .site-header .tre-nav .tre-btn-primary:not(.is-quiet){color: #fff !important;}
+.trex .hx.hx-live{background:#0c1a35}
+.trex .hx-live[data-theme="gold"]{--o1:201,164,92;--o2:58,98,170;--o3:232,150,70}
+.trex .hx-live[data-theme="blue"]{--o1:88,140,230;--o2:201,164,92;--o3:60,190,210}
+.trex .hx-live[data-theme="bronze"]{--o1:214,140,100;--o2:70,100,170;--o3:201,164,92}
+.trex .hx-live[data-theme="mist"]{--o1:150,190,230;--o2:201,164,92;--o3:120,110,200}
+.trex .hx-aura{position:absolute;inset:0;z-index:-3;overflow:hidden;pointer-events:none;
+  background:
+    radial-gradient(120% 80% at 100% 0%,rgba(var(--o2),.22) 0%,rgba(var(--o2),0) 60%),
+    radial-gradient(90% 70% at 0% 100%,rgba(var(--o1),.14) 0%,rgba(var(--o1),0) 60%),
+    linear-gradient(160deg,#0b1730 0%,#122a52 52%,#0a1630 100%)}
+.trex .hx-aura::after{content:"";position:absolute;inset:0;opacity:.07;mix-blend-mode:overlay;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(/assets/%23n)'/%3E%3C/svg%3E")}
+.trex .hx-aura i{position:absolute;display:block;border-radius:50%;will-change:transform}
+.trex .hx-aura .o1{width:62vmax;height:62vmax;right:-16vmax;top:-22vmax;background:radial-gradient(circle,rgba(var(--o1),.34) 0%,rgba(var(--o1),.12) 38%,rgba(var(--o1),0) 68%);
+  translate:calc(var(--mx,0) * 60px) calc(var(--my,0) * 40px);animation:tre-hx-orb1 22s var(--ease-breath,ease-in-out) infinite alternate}
+.trex .hx-aura .o2{width:48vmax;height:48vmax;left:-14vmax;bottom:-26vmax;background:radial-gradient(circle,rgba(var(--o2),.28) 0%,rgba(var(--o2),.08) 42%,rgba(var(--o2),0) 70%);
+  translate:calc(var(--mx,0) * -40px) calc(var(--my,0) * -30px);animation:tre-hx-orb2 28s ease-in-out infinite alternate}
+.trex .hx-aura .o3{width:26vmax;height:26vmax;right:22%;bottom:-8vmax;background:radial-gradient(circle,rgba(var(--o3),.22) 0%,rgba(var(--o3),0) 66%);
+  translate:calc(var(--mx,0) * 90px) calc(var(--my,0) * 70px);animation:tre-hx-orb3 17s ease-in-out infinite alternate}
+@keyframes tre-hx-orb1{from{transform:translate(0,0) scale(1)}to{transform:translate(-6vmax,5vmax) scale(1.12)}}
+@keyframes tre-hx-orb2{from{transform:translate(0,0) scale(1.05)}to{transform:translate(7vmax,-4vmax) scale(.92)}}
+@keyframes tre-hx-orb3{from{transform:translate(0,0) scale(.9)}to{transform:translate(-9vmax,-6vmax) scale(1.15)}}
+.trex .hx-live.is-off .hx-aura i,.trex .motion-paused .hx-live .hx-aura i{animation-play-state:paused}
+.trex .hx-live .hx-field{z-index:-1;cursor:crosshair}
+.trex .hx-live{cursor:crosshair}
+.trex .hx-live a,.trex .hx-live button{cursor:pointer}
+.trex .hx-live .hx-wash{-webkit-mask-image:none;mask-image:none;
+  background:linear-gradient(90deg,rgba(9,19,40,.62) 0%,rgba(9,19,40,.34) 40%,rgba(9,19,40,0) 68%)}
+@media (max-width:760px){.trex .hx-live .hx-wash{background:linear-gradient(180deg,rgba(9,19,40,.2) 0%,rgba(9,19,40,.45) 100%)}}
+@media (prefers-reduced-motion:reduce){.trex .hx-aura i{animation:none!important}}
+@media print{.trex .hx-aura{display:none!important}}
 
 /* ===== Odoo bridge for TRE in Singapore (website 3) ===== */
 :root{--o-color-1:#e08a2e;--primary:#e08a2e;--link-color:#1c3d7a;--link-hover-color:#0f1f3d}
