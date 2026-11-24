@@ -77,7 +77,8 @@ window.XD = async function (base, opts) {
   const pre = P.replace(/[.*+?^${}()|[\]\\\/]/g, '\\$&');
   const PATH_RE = new RegExp(pre + "[A-Za-z0-9_.\\-/]+?\\.(?:css|js|webp|png|jpe?g|gif|svg|ico|mp4|webm|mp3|pdf|woff2?|avif)(?:\\?v=[0-9A-Za-z._-]+)?(?=[\"')\\s,;&<]|$)", 'g');
   const CONT_RE = /\/web\/content\/(\d+)\/[A-Za-z0-9_.\-]+\?unique=[0-9a-f]+/g;
-  const atts = async () => { const rows = await sr('ir.attachment', [['type', '=', 'binary'], ['url', '=like', P + '%']], ['id', 'url', 'checksum']);
+  /* 25 Nov 2026: this website's files only - the root-path ports (hbs/bhds) share paths like /styles.css */
+  const atts = async () => { const rows = await sr('ir.attachment', [['type', '=', 'binary'], ['url', '=like', P + '%'], ['website_id', '=', W]], ['id', 'url', 'checksum']);
     const u = {}, i = {}; rows.filter(r => r.checksum).forEach(r => { u[r.url] = r; i[r.id] = r; }); return [u, i]; };
   const curl = a => '/web/content/' + a.id + '/' + a.url.split('/').pop().replace(/[^A-Za-z0-9_.\-]/g, '-') + '?unique=' + a.checksum.slice(0, 12);
   const rewrite = (s, u, i) => { let n = 0;
