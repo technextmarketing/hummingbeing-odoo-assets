@@ -831,24 +831,6 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
       </li>
       <li class="sx-res" data-tags="isabelle" data-sx-reveal="">
         <span class="sx-res__num" aria-hidden="true">05</span>
-        <span class="sx-res__icon" aria-hidden="true"><i class="fa-solid fa-book-open"/></span>
-        <div class="sx-res__body">
-          <h3>Magic Somatic (Book)</h3>
-          <p>Isabelle's book on somatic healing — a practical and philosophical guide to working with the body for personal transformation and resilience.</p>
-        </div>
-        <a href="https://www.amazon.com/Magic-Somatic-Isabelle-Mullesch/dp/B0CYXRHYGD" target="_blank" rel="noopener noreferrer" class="sx-res__link">Find on Amazon <span class="sx-res__arrow" aria-hidden="true"><i class="fa-solid fa-arrow-right"/></span></a>
-      </li>
-      <li class="sx-res" data-tags="org" data-sx-reveal="">
-        <span class="sx-res__num" aria-hidden="true">06</span>
-        <span class="sx-res__icon" aria-hidden="true"><i class="fa-solid fa-earth-asia"/></span>
-        <div class="sx-res__body">
-          <h3>Somatic Asia</h3>
-          <p>A growing community of somatic practitioners across Asia — supporting the spread of body-based healing modalities in a region where access has historically been limited.</p>
-        </div>
-        <a href="https://www.facebook.com/SomaticAsiaTherapy/" target="_blank" rel="noopener noreferrer" class="sx-res__link">Somatic Asia <span class="sx-res__arrow" aria-hidden="true"><i class="fa-solid fa-arrow-right"/></span></a>
-      </li>
-      <li class="sx-res" data-tags="isabelle" data-sx-reveal="">
-        <span class="sx-res__num" aria-hidden="true">07</span>
         <span class="sx-res__icon" aria-hidden="true"><i class="fa-solid fa-graduation-cap"/></span>
         <div class="sx-res__body">
           <h3>Noomii — Isabelle's Profile</h3>
