@@ -1,0 +1,1438 @@
+{
+ "site": "bhds",
+ "website": 1,
+ "prefix": "/",
+ "source": "TechNextSG/BHDasia@6701a763cb8e7fdf58d6ebc95358a92626d67474",
+ "files": [
+  {
+   "url": "/.claude/launch.json",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/.claude/launch.json",
+   "sha1": "8a4d97b38c0784a4730dcb050f69d3b75b2231cf",
+   "mimetype": "application/json",
+   "size": 196
+  },
+  {
+   "url": "/8e2a66c8d2500e24470659b08610692d.txt",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/8e2a66c8d2500e24470659b08610692d.txt",
+   "sha1": "207315a40c1f1b4bc5bc76794554fed9948603d3",
+   "mimetype": "text/plain",
+   "size": 32
+  },
+  {
+   "url": "/ania-zielinska-400.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/ania-zielinska-400.webp",
+   "sha1": "5acc01045cc900d8255cac88831d803d54ba0b14",
+   "mimetype": "application/octet-stream",
+   "size": 21502
+  },
+  {
+   "url": "/apple-touch-icon.png",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/apple-touch-icon.png",
+   "sha1": "54e383645dfd193ec78bb9742be0237ca38b623e",
+   "mimetype": "image/png",
+   "size": 6495
+  },
+  {
+   "url": "/aun-ali.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/aun-ali.webp",
+   "sha1": "92d5fd6135ce8aa8f3caf704a7ccf95a4ca7ce10",
+   "mimetype": "application/octet-stream",
+   "size": 9264
+  },
+  {
+   "url": "/bhd-logo.svg",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/bhd-logo.svg",
+   "sha1": "50cbaeaa5bb153fcf69b9ce4ab8d7ab40b26b80e",
+   "mimetype": "image/svg+xml",
+   "size": 24294
+  },
+  {
+   "url": "/bhd-logo.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/bhd-logo.webp",
+   "sha1": "7552f3348be5348bc80977ed9e990ca1ec3f1da2",
+   "mimetype": "application/octet-stream",
+   "size": 45860
+  },
+  {
+   "url": "/card-art-of-conscious-rest-960.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/card-art-of-conscious-rest-960.webp",
+   "sha1": "9395642b498d41bbe1754eec4322bb5f8f565282",
+   "mimetype": "application/octet-stream",
+   "size": 47558
+  },
+  {
+   "url": "/card-art-of-conscious-rest.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/card-art-of-conscious-rest.webp",
+   "sha1": "dfbf0b62069648a246c41b562fb1f53330d3b690",
+   "mimetype": "application/octet-stream",
+   "size": 121696
+  },
+  {
+   "url": "/card-body-in-the-room-960.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/card-body-in-the-room-960.webp",
+   "sha1": "e35f1fc34101ccbf9679b33d963a6c2ac7832315",
+   "mimetype": "application/octet-stream",
+   "size": 59294
+  },
+  {
+   "url": "/card-body-in-the-room.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/card-body-in-the-room.webp",
+   "sha1": "059eb23cd5ed03047ecb4f8746369c373b2575c9",
+   "mimetype": "application/octet-stream",
+   "size": 217180
+  },
+  {
+   "url": "/card-breath-as-medicine-960.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/card-breath-as-medicine-960.webp",
+   "sha1": "05a433da74840a4b4a9cf34e644af9fb4872e2f7",
+   "mimetype": "application/octet-stream",
+   "size": 47564
+  },
+  {
+   "url": "/card-breath-as-medicine.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/card-breath-as-medicine.webp",
+   "sha1": "98a719a8daf81050a47ec4835c62c043cd22ccf5",
+   "mimetype": "application/octet-stream",
+   "size": 162984
+  },
+  {
+   "url": "/card-bucharest-module1-960.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/card-bucharest-module1-960.webp",
+   "sha1": "69091e5de8c1ce6372185613bb842bd9d10a613b",
+   "mimetype": "application/octet-stream",
+   "size": 50466
+  },
+  {
+   "url": "/card-bucharest-module1.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/card-bucharest-module1.webp",
+   "sha1": "a0697b457be71b00c17ec90d54ac09f8eda84ef9",
+   "mimetype": "application/octet-stream",
+   "size": 170450
+  },
+  {
+   "url": "/card-certification-2027-960.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/card-certification-2027-960.webp",
+   "sha1": "9c0fc39dee08cff02fff56c7e7009f7651abc52d",
+   "mimetype": "application/octet-stream",
+   "size": 46630
+  },
+  {
+   "url": "/card-certification-2027.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/card-certification-2027.webp",
+   "sha1": "67daca7cf7052c429f6c5da12135e6e85885c413",
+   "mimetype": "application/octet-stream",
+   "size": 122978
+  },
+  {
+   "url": "/card-event-lisbon-module1-960.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/card-event-lisbon-module1-960.webp",
+   "sha1": "b66b6154cfc9a7c17d392ed32e48c65cd8c05e34",
+   "mimetype": "application/octet-stream",
+   "size": 49434
+  },
+  {
+   "url": "/card-event-lisbon-module1.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/card-event-lisbon-module1.webp",
+   "sha1": "6b51fffa00ac74cbb789f0122f3adaafd3b654f7",
+   "mimetype": "application/octet-stream",
+   "size": 152428
+  },
+  {
+   "url": "/card-feminine-masculine-960.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/card-feminine-masculine-960.webp",
+   "sha1": "0b356e932725d5843ec076d6ecc1e547dddac5bc",
+   "mimetype": "application/octet-stream",
+   "size": 49746
+  },
+  {
+   "url": "/card-feminine-masculine.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/card-feminine-masculine.webp",
+   "sha1": "f43be76a9b957fc518d4b4961fad1774b49e113b",
+   "mimetype": "application/octet-stream",
+   "size": 159898
+  },
+  {
+   "url": "/card-internal-alchemy-960.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/card-internal-alchemy-960.webp",
+   "sha1": "63e65b230374c9f430abab594fe4c84e5e0512ee",
+   "mimetype": "application/octet-stream",
+   "size": 37542
+  },
+  {
+   "url": "/card-internal-alchemy.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/card-internal-alchemy.webp",
+   "sha1": "02a5d09dcff98065391806de1aabcdad51197476",
+   "mimetype": "application/octet-stream",
+   "size": 130982
+  },
+  {
+   "url": "/card-nervous-system-960.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/card-nervous-system-960.webp",
+   "sha1": "569576e49f950ba558af0f263e18ccc640b998e7",
+   "mimetype": "application/octet-stream",
+   "size": 51314
+  },
+  {
+   "url": "/card-nervous-system.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/card-nervous-system.webp",
+   "sha1": "b4ee45cc2499b4f3bfd16008cb14e4b0df8e5176",
+   "mimetype": "application/octet-stream",
+   "size": 183116
+  },
+  {
+   "url": "/card-shaking-online-960.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/card-shaking-online-960.webp",
+   "sha1": "7992db139eb66d288b7f6b34e0d1971c9e7e595d",
+   "mimetype": "application/octet-stream",
+   "size": 56934
+  },
+  {
+   "url": "/card-shaking-online.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/card-shaking-online.webp",
+   "sha1": "87878293ff197449834faa34a5b905a5c51a0c33",
+   "mimetype": "application/octet-stream",
+   "size": 198468
+  },
+  {
+   "url": "/card-shaking-to-shaping-960.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/card-shaking-to-shaping-960.webp",
+   "sha1": "7f57b34a48fbf79fdca001aafc145bb75acdb626",
+   "mimetype": "application/octet-stream",
+   "size": 55300
+  },
+  {
+   "url": "/card-shaking-to-shaping-sep3-960.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/card-shaking-to-shaping-sep3-960.webp",
+   "sha1": "7e7ea37927a1392bc1ddb266b35fd730207ed262",
+   "mimetype": "application/octet-stream",
+   "size": 56174
+  },
+  {
+   "url": "/card-shaking-to-shaping-sep3.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/card-shaking-to-shaping-sep3.webp",
+   "sha1": "639f530703c52760e1debcc58be2e40c73253776",
+   "mimetype": "application/octet-stream",
+   "size": 188258
+  },
+  {
+   "url": "/card-shaking-to-shaping.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/card-shaking-to-shaping.webp",
+   "sha1": "2979bfeb2095546977ed034f9721ca7b9ad19a7e",
+   "mimetype": "application/octet-stream",
+   "size": 189874
+  },
+  {
+   "url": "/card-transform-practice-960.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/card-transform-practice-960.webp",
+   "sha1": "d11c6e75f7c51294c4c16b6d61348e4b72ac4e48",
+   "mimetype": "application/octet-stream",
+   "size": 43874
+  },
+  {
+   "url": "/card-transform-practice.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/card-transform-practice.webp",
+   "sha1": "8318da22c067edd4c66cceb73296a957c2a60763",
+   "mimetype": "application/octet-stream",
+   "size": 140942
+  },
+  {
+   "url": "/cert2027-photo1.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/cert2027-photo1.webp",
+   "sha1": "d69e2c284fffbe3096a1c118d27caea432d34e2f",
+   "mimetype": "application/octet-stream",
+   "size": 30172
+  },
+  {
+   "url": "/cert2027-photo2.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/cert2027-photo2.webp",
+   "sha1": "d00913a7e4e7ef098091ad85f320b2011739f61f",
+   "mimetype": "application/octet-stream",
+   "size": 49822
+  },
+  {
+   "url": "/event-art-of-conscious-rest-960.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-art-of-conscious-rest-960.webp",
+   "sha1": "9395642b498d41bbe1754eec4322bb5f8f565282",
+   "mimetype": "application/octet-stream",
+   "size": 47558
+  },
+  {
+   "url": "/event-art-of-conscious-rest-portrait.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-art-of-conscious-rest-portrait.webp",
+   "sha1": "261ca65f6cffd1cb1e88ba954d5984176101ba0a",
+   "mimetype": "application/octet-stream",
+   "size": 78818
+  },
+  {
+   "url": "/event-art-of-conscious-rest.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-art-of-conscious-rest.webp",
+   "sha1": "dfbf0b62069648a246c41b562fb1f53330d3b690",
+   "mimetype": "application/octet-stream",
+   "size": 121696
+  },
+  {
+   "url": "/event-body-in-the-room-960.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-body-in-the-room-960.webp",
+   "sha1": "142c5aa96f2fe6727b531f42af405876f54b651a",
+   "mimetype": "application/octet-stream",
+   "size": 74880
+  },
+  {
+   "url": "/event-body-in-the-room-portrait.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-body-in-the-room-portrait.webp",
+   "sha1": "9b288898131259e5e1fff2600ca315f665978002",
+   "mimetype": "application/octet-stream",
+   "size": 190226
+  },
+  {
+   "url": "/event-body-in-the-room.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-body-in-the-room.webp",
+   "sha1": "6612aa212ddb199e0757ceef7657556b715714a3",
+   "mimetype": "application/octet-stream",
+   "size": 294866
+  },
+  {
+   "url": "/event-breath-as-medicine-portrait.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-breath-as-medicine-portrait.webp",
+   "sha1": "58a146198a2d2466b341c0b95a9dfd8e0c74ea62",
+   "mimetype": "application/octet-stream",
+   "size": 148058
+  },
+  {
+   "url": "/event-breath-as-medicine.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-breath-as-medicine.webp",
+   "sha1": "31b9f536bd0cebd999124bf73c2bf0b1191d1765",
+   "mimetype": "application/octet-stream",
+   "size": 46720
+  },
+  {
+   "url": "/event-bucharest-module1-960.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-bucharest-module1-960.webp",
+   "sha1": "a94f99b289495e50039fb5b8eb2d64d0849e104d",
+   "mimetype": "application/octet-stream",
+   "size": 62772
+  },
+  {
+   "url": "/event-bucharest-module1.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-bucharest-module1.webp",
+   "sha1": "971bb216cfc7db58256b5833c83a3b696fe291c7",
+   "mimetype": "application/octet-stream",
+   "size": 219862
+  },
+  {
+   "url": "/event-cert-2027-960.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-cert-2027-960.webp",
+   "sha1": "c96afc5e0ab44000b71fdf511967ab4dc107eb82",
+   "mimetype": "application/octet-stream",
+   "size": 67316
+  },
+  {
+   "url": "/event-cert-2027-foundational-960.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-cert-2027-foundational-960.webp",
+   "sha1": "9d1b28f58ea781f6e93dbd18eec9f4c71422a1b4",
+   "mimetype": "application/octet-stream",
+   "size": 46780
+  },
+  {
+   "url": "/event-cert-2027-foundational-poster.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-cert-2027-foundational-poster.webp",
+   "sha1": "533dcad3fc3bfd83eab957b7e3f2c31085d6e366",
+   "mimetype": "application/octet-stream",
+   "size": 131612
+  },
+  {
+   "url": "/event-cert-2027-foundational.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-cert-2027-foundational.webp",
+   "sha1": "214cecbf58fd289272918c15a801e21c58ae4108",
+   "mimetype": "application/octet-stream",
+   "size": 125332
+  },
+  {
+   "url": "/event-cert-2027-growth-960.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-cert-2027-growth-960.webp",
+   "sha1": "ff21dd3908d22f06d8bfbfcd48997a6b5d269f39",
+   "mimetype": "application/octet-stream",
+   "size": 46756
+  },
+  {
+   "url": "/event-cert-2027-growth-poster.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-cert-2027-growth-poster.webp",
+   "sha1": "ca8c3bd3db8b8d0e6bbdd5a7514658c6c64a78f0",
+   "mimetype": "application/octet-stream",
+   "size": 132546
+  },
+  {
+   "url": "/event-cert-2027-growth.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-cert-2027-growth.webp",
+   "sha1": "2619b576619ff8a0f4f9f51da120cf9dcc8d8f0b",
+   "mimetype": "application/octet-stream",
+   "size": 125352
+  },
+  {
+   "url": "/event-cert-2027-poster-v3.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-cert-2027-poster-v3.webp",
+   "sha1": "bed241884e4c51c433785d3d68f52b40205203f1",
+   "mimetype": "application/octet-stream",
+   "size": 134572
+  },
+  {
+   "url": "/event-cert-2027-refresher-960.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-cert-2027-refresher-960.webp",
+   "sha1": "3b23cec844f143135bc05b8ae27104cf1006c421",
+   "mimetype": "application/octet-stream",
+   "size": 47068
+  },
+  {
+   "url": "/event-cert-2027-refresher-poster.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-cert-2027-refresher-poster.webp",
+   "sha1": "61c50a4b89f29dd05180235a7a63044d4410ce13",
+   "mimetype": "application/octet-stream",
+   "size": 132986
+  },
+  {
+   "url": "/event-cert-2027-refresher.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-cert-2027-refresher.webp",
+   "sha1": "ec68139fa6623df214854253195fe256b9a82be5",
+   "mimetype": "application/octet-stream",
+   "size": 126294
+  },
+  {
+   "url": "/event-cert-2027.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-cert-2027.webp",
+   "sha1": "66c0383ece83ae00df43979f635a7aeb1ce9d7d0",
+   "mimetype": "application/octet-stream",
+   "size": 194106
+  },
+  {
+   "url": "/event-detail.css",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-detail.css",
+   "sha1": "100a1201053182c153d4608c64d8040d4be8261e",
+   "mimetype": "text/css",
+   "size": 19614
+  },
+  {
+   "url": "/event-feminine-masculine-960.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-feminine-masculine-960.webp",
+   "sha1": "9481b98e34b05b4c670d46310eff31dc0e2fedfb",
+   "mimetype": "application/octet-stream",
+   "size": 69308
+  },
+  {
+   "url": "/event-feminine-masculine-portrait.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-feminine-masculine-portrait.webp",
+   "sha1": "7504bfa0647b03dcb24a339fd5e48dc8b2087f73",
+   "mimetype": "application/octet-stream",
+   "size": 165800
+  },
+  {
+   "url": "/event-feminine-masculine.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-feminine-masculine.webp",
+   "sha1": "15e0bec29cf045528dc5454aa41bb72c8143c079",
+   "mimetype": "application/octet-stream",
+   "size": 234808
+  },
+  {
+   "url": "/event-internal-alchemy-960.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-internal-alchemy-960.webp",
+   "sha1": "b530f9e2a1a17e21f92815bb47866d0115dfeb55",
+   "mimetype": "application/octet-stream",
+   "size": 62738
+  },
+  {
+   "url": "/event-internal-alchemy.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-internal-alchemy.webp",
+   "sha1": "0829861da5e8a908654d98313d8727ac8c2c8d59",
+   "mimetype": "application/octet-stream",
+   "size": 235732
+  },
+  {
+   "url": "/event-intro-tre-singapore-2027-960.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-intro-tre-singapore-2027-960.webp",
+   "sha1": "6d41bb37866ddcd9fcfdbf7d01773dab7363a3ca",
+   "mimetype": "application/octet-stream",
+   "size": 41574
+  },
+  {
+   "url": "/event-intro-tre-singapore-2027-poster.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-intro-tre-singapore-2027-poster.webp",
+   "sha1": "5f7ae70320d7c96a484bdb8b59c4ae4d2db99e32",
+   "mimetype": "application/octet-stream",
+   "size": 163996
+  },
+  {
+   "url": "/event-intro-tre-singapore-2027.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-intro-tre-singapore-2027.webp",
+   "sha1": "c235132cc0c245d5515d438c611a3dbe96017997",
+   "mimetype": "application/octet-stream",
+   "size": 137378
+  },
+  {
+   "url": "/event-lisbon-certification-960.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-lisbon-certification-960.webp",
+   "sha1": "1ee1aa952260c021523f3cadb58f850b869af66f",
+   "mimetype": "application/octet-stream",
+   "size": 48484
+  },
+  {
+   "url": "/event-lisbon-certification-poster.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-lisbon-certification-poster.webp",
+   "sha1": "8f833b3d2c1b57daa28bfd5b18c394d3a69f2a1d",
+   "mimetype": "application/octet-stream",
+   "size": 180976
+  },
+  {
+   "url": "/event-lisbon-certification.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-lisbon-certification.webp",
+   "sha1": "7f27ec1dd98e136b470cdcab269c11ccf4827634",
+   "mimetype": "application/octet-stream",
+   "size": 159248
+  },
+  {
+   "url": "/event-lisbon-module1-960.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-lisbon-module1-960.webp",
+   "sha1": "f5aca67482ed647f2a7d317ae31ef93a77262913",
+   "mimetype": "application/octet-stream",
+   "size": 62924
+  },
+  {
+   "url": "/event-lisbon-module1-poster.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-lisbon-module1-poster.webp",
+   "sha1": "cbff814f63e90e4f012eb84a47306d1406b80c25",
+   "mimetype": "application/octet-stream",
+   "size": 174244
+  },
+  {
+   "url": "/event-lisbon-module1.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-lisbon-module1.webp",
+   "sha1": "d07c24672b9ac4d819ec415ca7d25679d7a61b19",
+   "mimetype": "application/octet-stream",
+   "size": 231412
+  },
+  {
+   "url": "/event-module1-960.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-module1-960.webp",
+   "sha1": "da779938745e3e364c3b13eb7c882e14c95295e4",
+   "mimetype": "application/octet-stream",
+   "size": 46942
+  },
+  {
+   "url": "/event-module1.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-module1.webp",
+   "sha1": "94fd31af9d4f05bb758c9d1b3a0b9588c2ea5c63",
+   "mimetype": "application/octet-stream",
+   "size": 210770
+  },
+  {
+   "url": "/event-module2-960.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-module2-960.webp",
+   "sha1": "58c229e34026b1cfd19338ef4261228bf448af4c",
+   "mimetype": "application/octet-stream",
+   "size": 43404
+  },
+  {
+   "url": "/event-module2.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-module2.webp",
+   "sha1": "41fbf46a4e422663a753b5f8337c15752a13e70c",
+   "mimetype": "application/octet-stream",
+   "size": 185600
+  },
+  {
+   "url": "/event-shaking-oct8-960.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-shaking-oct8-960.webp",
+   "sha1": "22ffe2bcf20639537fe2744fe6c362d8165d6aff",
+   "mimetype": "application/octet-stream",
+   "size": 62276
+  },
+  {
+   "url": "/event-shaking-oct8.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-shaking-oct8.webp",
+   "sha1": "11645627f4e47c046d3fba5b8b518306abf9ad90",
+   "mimetype": "application/octet-stream",
+   "size": 227264
+  },
+  {
+   "url": "/event-shaking-shaping-960.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-shaking-shaping-960.webp",
+   "sha1": "d10aa8c18484feba944a592a58ff9e1dcf846f31",
+   "mimetype": "application/octet-stream",
+   "size": 61958
+  },
+  {
+   "url": "/event-shaking-shaping.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-shaking-shaping.webp",
+   "sha1": "a137fa53c97240d111a53f9794147976c527201e",
+   "mimetype": "application/octet-stream",
+   "size": 228500
+  },
+  {
+   "url": "/event-shaking-to-shaping-singapore-960.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-shaking-to-shaping-singapore-960.webp",
+   "sha1": "3bda0f2416d590bc5cff412f785d462076c6bbd4",
+   "mimetype": "application/octet-stream",
+   "size": 42398
+  },
+  {
+   "url": "/event-shaking-to-shaping-singapore-poster.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-shaking-to-shaping-singapore-poster.webp",
+   "sha1": "b5877b31370b04b1a766ffdc9be3baa01940656c",
+   "mimetype": "application/octet-stream",
+   "size": 166698
+  },
+  {
+   "url": "/event-shaking-to-shaping-singapore.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-shaking-to-shaping-singapore.webp",
+   "sha1": "ac0af753e87f5c1f4d11f6df742b14a0fea9e9e5",
+   "mimetype": "application/octet-stream",
+   "size": 136420
+  },
+  {
+   "url": "/event-tre-scotland-online-960.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-tre-scotland-online-960.webp",
+   "sha1": "4263f200e0b7e4c9d937fcb4e578c7b768732a82",
+   "mimetype": "application/octet-stream",
+   "size": 44874
+  },
+  {
+   "url": "/event-tre-scotland-online-poster.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-tre-scotland-online-poster.webp",
+   "sha1": "cbfabf53c5eeeb761db9306e463cb240bb067edc",
+   "mimetype": "application/octet-stream",
+   "size": 167398
+  },
+  {
+   "url": "/event-tre-scotland-online.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/event-tre-scotland-online.webp",
+   "sha1": "4f15eaa2afc745f947b9d4e54a66200463af2652",
+   "mimetype": "application/octet-stream",
+   "size": 151210
+  },
+  {
+   "url": "/favicon-192.png",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/favicon-192.png",
+   "sha1": "6410ba98851378b527c70191faa4c2e9aabebc10",
+   "mimetype": "image/png",
+   "size": 9354
+  },
+  {
+   "url": "/favicon.ico",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/favicon.ico",
+   "sha1": "72ba390fff03cf023a38d09ee0dadc6ca0c6bcdd",
+   "mimetype": "image/x-icon",
+   "size": 7859
+  },
+  {
+   "url": "/flyer-module1.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/flyer-module1.webp",
+   "sha1": "9b9b850090d2185468d6cb60af714cdcab24f260",
+   "mimetype": "application/octet-stream",
+   "size": 361186
+  },
+  {
+   "url": "/flyer-shaking.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/flyer-shaking.webp",
+   "sha1": "14a696363bd11ea630199f9d2c6a27e54d599cac",
+   "mimetype": "application/octet-stream",
+   "size": 394012
+  },
+  {
+   "url": "/fonts/tn/inter-latin-ext.woff2",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/fonts/tn/inter-latin-ext.woff2",
+   "sha1": "a7ebfa55f8363f35f76302ec9e8e783de2053797",
+   "mimetype": "application/octet-stream",
+   "size": 9952
+  },
+  {
+   "url": "/fonts/tn/inter-latin.woff2",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/fonts/tn/inter-latin.woff2",
+   "sha1": "f11d729bb0a4d8350d2ea3d0fc062cf6ef2d5298",
+   "mimetype": "application/octet-stream",
+   "size": 48256
+  },
+  {
+   "url": "/fonts/tn/plus-jakarta-sans-latin-ext.woff2",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/fonts/tn/plus-jakarta-sans-latin-ext.woff2",
+   "sha1": "88c2e02064e6977d61b16ebfdb661113a8d7d2ef",
+   "mimetype": "application/octet-stream",
+   "size": 7268
+  },
+  {
+   "url": "/fonts/tn/plus-jakarta-sans-latin.woff2",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/fonts/tn/plus-jakarta-sans-latin.woff2",
+   "sha1": "a389d97de580a2d6a3723112234bd2b3839ce0db",
+   "mimetype": "application/octet-stream",
+   "size": 27348
+  },
+  {
+   "url": "/gdpr-consent.js",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/gdpr-consent.js",
+   "sha1": "d892c9790067120dd35a298f19efcba5392eea1b",
+   "mimetype": "text/javascript",
+   "size": 13221
+  },
+  {
+   "url": "/googlee4a95ab68dd774c1.html",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/googlee4a95ab68dd774c1.html",
+   "sha1": "d018ce80f1fe77537e75391873d0c82950409fb1",
+   "mimetype": "text/html",
+   "size": 53
+  },
+  {
+   "url": "/hero-about.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/hero-about.webp",
+   "sha1": "4badfc59226f374ecf0f638a9c90671ef2f8aa75",
+   "mimetype": "application/octet-stream",
+   "size": 48556
+  },
+  {
+   "url": "/hero-art.js",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/hero-art.js",
+   "sha1": "3ea7b89af1b8e3f5a7a52083d670b3f6ffc4c9c6",
+   "mimetype": "text/javascript",
+   "size": 9819
+  },
+  {
+   "url": "/hero-events.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/hero-events.webp",
+   "sha1": "02b294e0abc2c03e9c62d898a5f355576235ea2d",
+   "mimetype": "application/octet-stream",
+   "size": 94056
+  },
+  {
+   "url": "/hero-home.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/hero-home.webp",
+   "sha1": "c0c538b4f9635ef6236550374fcdf6c6f98adf65",
+   "mimetype": "application/octet-stream",
+   "size": 43516
+  },
+  {
+   "url": "/hero-services.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/hero-services.webp",
+   "sha1": "fb0c599236112a16bb2c69c89d64dc23241b1f81",
+   "mimetype": "application/octet-stream",
+   "size": 146424
+  },
+  {
+   "url": "/home-tn.css",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/home-tn.css",
+   "sha1": "b61dee8f253f2fcdf617d09ed98663eb547c699a",
+   "mimetype": "text/css",
+   "size": 39541
+  },
+  {
+   "url": "/isa-hero-640.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/isa-hero-640.webp",
+   "sha1": "4e759c9f84c24756304f45c876d33e74946a7172",
+   "mimetype": "application/octet-stream",
+   "size": 33650
+  },
+  {
+   "url": "/isa-hero-a-640.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/isa-hero-a-640.webp",
+   "sha1": "f9b21f9dba46eaef832f7fb6e37e50208ca4b64c",
+   "mimetype": "application/octet-stream",
+   "size": 30194
+  },
+  {
+   "url": "/isa-hero-a.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/isa-hero-a.webp",
+   "sha1": "6f20c6224d5816c16d3771acc2ab47f34460b0b3",
+   "mimetype": "application/octet-stream",
+   "size": 62654
+  },
+  {
+   "url": "/isa-hero-b-640.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/isa-hero-b-640.webp",
+   "sha1": "5a092171577326aafb1f6b18a26be2e8a0c6478a",
+   "mimetype": "application/octet-stream",
+   "size": 35168
+  },
+  {
+   "url": "/isa-hero-b.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/isa-hero-b.webp",
+   "sha1": "717dc5ab59134afa06b409e1baaf9993b10b8950",
+   "mimetype": "application/octet-stream",
+   "size": 73036
+  },
+  {
+   "url": "/isa-hero-c-640.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/isa-hero-c-640.webp",
+   "sha1": "e8d1cf7a242c6c712af410616764b3a31cbb3bf3",
+   "mimetype": "application/octet-stream",
+   "size": 19066
+  },
+  {
+   "url": "/isa-hero-c.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/isa-hero-c.webp",
+   "sha1": "e2f1a49ea01b6651634c899e7474722ab0a6573c",
+   "mimetype": "application/octet-stream",
+   "size": 36898
+  },
+  {
+   "url": "/isa-hero.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/isa-hero.webp",
+   "sha1": "f4e6076ea7b4d4a89b59ec6bdbc1677e9d8dc16a",
+   "mimetype": "application/octet-stream",
+   "size": 70112
+  },
+  {
+   "url": "/isa-photo.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/isa-photo.webp",
+   "sha1": "b5eb97b731a314501782326ba0c1f52234c88a3e",
+   "mimetype": "application/octet-stream",
+   "size": 29984
+  },
+  {
+   "url": "/isa-portrait.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/isa-portrait.webp",
+   "sha1": "758cc4d9d34102b08d0dc6fbe59fe52849fa6eec",
+   "mimetype": "application/octet-stream",
+   "size": 25342
+  },
+  {
+   "url": "/isabelle-interview.mp3",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/isabelle-interview.mp3",
+   "sha1": "b8027d05ee77a70ab86c9827a5f57b796a003119",
+   "mimetype": "audio/mpeg",
+   "size": 4848579
+  },
+  {
+   "url": "/isagrey.jpg",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/isagrey.jpg",
+   "sha1": "676878a1355ffcbe59b0445150f400abfe5ca46a",
+   "mimetype": "image/jpeg",
+   "size": 67171
+  },
+  {
+   "url": "/isagrey.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/isagrey.webp",
+   "sha1": "1fec80e8a07add9a44081f26fa57d6980d767499",
+   "mimetype": "application/octet-stream",
+   "size": 35092
+  },
+  {
+   "url": "/jasmine-photo.jpg",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/jasmine-photo.jpg",
+   "sha1": "4b7feb4cfb3f85a3540db260978dcdac1e5d4a3e",
+   "mimetype": "image/jpeg",
+   "size": 59869
+  },
+  {
+   "url": "/jasmine-photo.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/jasmine-photo.webp",
+   "sha1": "e73ba438d2a0ba84ea8408114096b7cab4cad265",
+   "mimetype": "application/octet-stream",
+   "size": 30858
+  },
+  {
+   "url": "/llms.txt",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/llms.txt",
+   "sha1": "ffaf8bbd2aa871c21a5e165209cd410e753cab49",
+   "mimetype": "text/plain",
+   "size": 9190
+  },
+  {
+   "url": "/logo-lwts.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/logo-lwts.webp",
+   "sha1": "b7530328db25f087b5e9cb53b064460f4354afda",
+   "mimetype": "application/octet-stream",
+   "size": 12444
+  },
+  {
+   "url": "/olga-titkova-400.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/olga-titkova-400.webp",
+   "sha1": "0004fea893f735e8087c83f2fb4c2195f6cc7303",
+   "mimetype": "application/octet-stream",
+   "size": 12082
+  },
+  {
+   "url": "/online-session-tre-guide.pdf",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/online-session-tre-guide.pdf",
+   "sha1": "a8cdeed6894acc710773715732c9f11606313417",
+   "mimetype": "application/pdf",
+   "size": 1878303
+  },
+  {
+   "url": "/pillar-1.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/pillar-1.webp",
+   "sha1": "27972194460d2fe9bd3487a80a5adcedfea16202",
+   "mimetype": "application/octet-stream",
+   "size": 89902
+  },
+  {
+   "url": "/pillar-2.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/pillar-2.webp",
+   "sha1": "0be293410ba3b0e609875a543ddc3ef0797d827c",
+   "mimetype": "application/octet-stream",
+   "size": 31126
+  },
+  {
+   "url": "/pillar-3.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/pillar-3.webp",
+   "sha1": "4c805a95f9643b127c979688288f266286f75ed2",
+   "mimetype": "application/octet-stream",
+   "size": 31492
+  },
+  {
+   "url": "/poster-certification.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/poster-certification.webp",
+   "sha1": "4c59da06fcebf89dc94573121fd01007f2ab0ee6",
+   "mimetype": "application/octet-stream",
+   "size": 184306
+  },
+  {
+   "url": "/poster-module1.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/poster-module1.webp",
+   "sha1": "2841343ca21e43455c52c8476d5394e696fa68de",
+   "mimetype": "application/octet-stream",
+   "size": 158518
+  },
+  {
+   "url": "/poster-shaking.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/poster-shaking.webp",
+   "sha1": "41d52f1122dfc4a9589d5f32ed03658ecbb4e477",
+   "mimetype": "application/octet-stream",
+   "size": 150654
+  },
+  {
+   "url": "/rina-photo.jpg",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/rina-photo.jpg",
+   "sha1": "380580052b4bd25a7f1ceeebe1d445f191751903",
+   "mimetype": "image/jpeg",
+   "size": 62204
+  },
+  {
+   "url": "/rina-photo.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/rina-photo.webp",
+   "sha1": "89d3650767b316f32166ae7fd21d61c0aabac7ed",
+   "mimetype": "application/octet-stream",
+   "size": 32986
+  },
+  {
+   "url": "/sara-marie.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/sara-marie.webp",
+   "sha1": "0ae8144c897d8590d70e1398869862270ad2d58d",
+   "mimetype": "application/octet-stream",
+   "size": 17046
+  },
+  {
+   "url": "/saymara-ryon.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/saymara-ryon.webp",
+   "sha1": "f51319169dbd7370e4342777620245369684f524",
+   "mimetype": "application/octet-stream",
+   "size": 100024
+  },
+  {
+   "url": "/shared.js",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/shared.js",
+   "sha1": "53474c6338ca3b44b1599026c1acc99eb06c85c0",
+   "mimetype": "text/javascript",
+   "size": 101232
+  },
+  {
+   "url": "/simba-pc-1.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/simba-pc-1.webp",
+   "sha1": "b84ada4681aca5560faf9a50926732fa9bdca654",
+   "mimetype": "application/octet-stream",
+   "size": 58736
+  },
+  {
+   "url": "/simba-pc-2.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/simba-pc-2.webp",
+   "sha1": "316c41fb971a00525daa98698cabe71b781fb84f",
+   "mimetype": "application/octet-stream",
+   "size": 130522
+  },
+  {
+   "url": "/simba-pc-3.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/simba-pc-3.webp",
+   "sha1": "4df3ff27834b4644a062a7af8613624dd783c22f",
+   "mimetype": "application/octet-stream",
+   "size": 108040
+  },
+  {
+   "url": "/simba-photo.jpg",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/simba-photo.jpg",
+   "sha1": "e62710c2a64485ea83c5a91afaa4ee7788dace57",
+   "mimetype": "image/jpeg",
+   "size": 69441
+  },
+  {
+   "url": "/simba-photo.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/simba-photo.webp",
+   "sha1": "594db28086c7514e048a0775d5be451f57f20be9",
+   "mimetype": "application/octet-stream",
+   "size": 37768
+  },
+  {
+   "url": "/simba-portrait.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/simba-portrait.webp",
+   "sha1": "852ed87d9e23bf9da67e62492ad03bd803286eea",
+   "mimetype": "application/octet-stream",
+   "size": 35030
+  },
+  {
+   "url": "/style.css",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/style.css",
+   "sha1": "a28bddd7013621e8c813177816f2e0b684a59953",
+   "mimetype": "text/css",
+   "size": 98356
+  },
+  {
+   "url": "/svc-coaching.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/svc-coaching.webp",
+   "sha1": "c4b928c2c975bfd9ea56ba02a079123dcb441b51",
+   "mimetype": "application/octet-stream",
+   "size": 40628
+  },
+  {
+   "url": "/technext-style.css",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/technext-style.css",
+   "sha1": "77dd98572adadd4ac9a49adbf2b95eda6ad43387",
+   "mimetype": "text/css",
+   "size": 62821
+  },
+  {
+   "url": "/trwc-logo.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/trwc-logo.webp",
+   "sha1": "9230a82ae854cff0218145f83cdf94841bcbac2c",
+   "mimetype": "application/octet-stream",
+   "size": 25346
+  },
+  {
+   "url": "/vicki-cook.webp",
+   "src": "https://raw.githubusercontent.com/TechNextSG/BHDasia/6701a763cb8e7fdf58d6ebc95358a92626d67474/vicki-cook.webp",
+   "sha1": "a62b07819f2d589e50fef08fd4ebd21dddf4c051",
+   "mimetype": "application/octet-stream",
+   "size": 18130
+  }
+ ],
+ "pages": [
+  {
+   "slug": "about",
+   "url": "/about",
+   "key": "bhds.page_about",
+   "name": "About BHD Asia",
+   "title": "About BHD Asia | Leadership Coaching Consultancy, Singapore",
+   "description": "Boutique leadership coaching and HR consultancy founded in Singapore in 2012: executive coaches, an organisational psychologist and TRE™ practitioners.",
+   "og": "",
+   "arch": "pages/about.xml",
+   "indexed": true
+  },
+  {
+   "slug": "contact",
+   "url": "/contact",
+   "key": "bhds.page_contact",
+   "name": "Contact BHD Asia",
+   "title": "Contact BHD Asia | Book a Free Discovery Call in Singapore",
+   "description": "Start the conversation with BHD Asia. Book a free 30-minute discovery call or send us a message — all engagements begin with a no-commitment conversation.",
+   "og": "",
+   "arch": "pages/contact.xml",
+   "indexed": true
+  },
+  {
+   "slug": "event-art-of-conscious-rest",
+   "url": "/event-art-of-conscious-rest",
+   "key": "bhds.page_event_art_of_conscious_rest",
+   "name": "The Art of Conscious Rest",
+   "title": "The Art of Conscious Rest | Olga Titkova | BHD Asia",
+   "description": "Online Yoga Nidra workshop with Olga Titkova: deep relaxation, no previous experience needed. 24 January 2027, 8–10PM Singapore time. S$88.",
+   "og": "",
+   "arch": "pages/event-art-of-conscious-rest.xml",
+   "indexed": true
+  },
+  {
+   "slug": "event-body-in-the-room",
+   "url": "/event-body-in-the-room",
+   "key": "bhds.page_event_body_in_the_room",
+   "name": "The Body in the Room",
+   "title": "The Body in the Room | Aun Ali | BHD Asia",
+   "description": "Online workshop with Aun Ali for psychologists, counsellors and therapists: TRE™ and somatic practice in psychotherapy. 25 Nov 2026, 7–9PM SGT. S$88.",
+   "og": "",
+   "arch": "pages/event-body-in-the-room.xml",
+   "indexed": true
+  },
+  {
+   "slug": "event-breath-as-medicine",
+   "url": "/event-breath-as-medicine",
+   "key": "bhds.page_event_breath_as_medicine",
+   "name": "Breath as a medicine",
+   "title": "Breath as a medicine | Ania Zielińska | BHD Asia",
+   "description": "Online pranayama workshop with Ania Zielińska: how conscious breathing supports body and mind. Beginners welcome. 15 Dec 2026, 7–9PM SGT. S$88.",
+   "og": "",
+   "arch": "pages/event-breath-as-medicine.xml",
+   "indexed": true
+  },
+  {
+   "slug": "event-certification-2027-foundational",
+   "url": "/event-certification-2027-foundational",
+   "key": "bhds.page_event_certification_2027_foundational",
+   "name": "Foundational Package",
+   "title": "Foundational Package | TRE™ Certification 2027 | BHD Asia",
+   "description": "The complete Global TRE™ Provider Certification pathway in Singapore, without ICF credits or bonus programmes. Early bird S$4,888 to 31 Mar 2027.",
+   "og": "",
+   "arch": "pages/event-certification-2027-foundational.xml",
+   "indexed": true
+  },
+  {
+   "slug": "event-certification-2027-growth",
+   "url": "/event-certification-2027-growth",
+   "key": "bhds.page_event_certification_2027_growth",
+   "name": "Growth Package",
+   "title": "Growth Package | TRE™ Provider Certification 2027 | BHD Asia",
+   "description": "The full Global TRE™ Provider Certification 2027 in Singapore with ICF credits and three bonus programmes. Early bird S$5,888 to 31 Mar 2027.",
+   "og": "",
+   "arch": "pages/event-certification-2027-growth.xml",
+   "indexed": true
+  },
+  {
+   "slug": "event-certification-2027-refresher",
+   "url": "/event-certification-2027-refresher",
+   "key": "bhds.page_event_certification_2027_refresher",
+   "name": "Refresher Packages",
+   "title": "Refresher Packages | TRE™ Certification 2027 | BHD Asia",
+   "description": "For accredited TRE™ Providers and trainees: four options for the 2027 Singapore modules, from S$2,200 early bird until 31 March 2027.",
+   "og": "",
+   "arch": "pages/event-certification-2027-refresher.xml",
+   "indexed": true
+  },
+  {
+   "slug": "event-certification-2027",
+   "url": "/event-certification-2027",
+   "key": "bhds.page_event_certification_2027",
+   "name": "TRE™ Provider Certification 2027",
+   "title": "TRE™ Provider Certification 2027 | Singapore | BHD Asia",
+   "description": "Become a Certified Global TRE™ Provider in Singapore in 2027. Three packages from S$2,200, early bird to 31 March. Modules in April, July and October.",
+   "og": "",
+   "arch": "pages/event-certification-2027.xml",
+   "indexed": true
+  },
+  {
+   "slug": "event-certification",
+   "url": "/event-certification",
+   "key": "bhds.page_event_certification",
+   "name": "Global TRE™ Provider Certification",
+   "title": "Global TRE™ Provider Certification | Singapore 2026–2027 | BHD Asia",
+   "description": "Global TRE™ Provider Certification — 3 modules in Singapore, Aug 2026 to Feb 2027. Led by Isabelle Claus Teixeira, Global TRE™ Certifying Trainer.",
+   "og": "",
+   "arch": "pages/event-certification.xml",
+   "indexed": false
+  },
+  {
+   "slug": "event-feminine-masculine",
+   "url": "/event-feminine-masculine",
+   "key": "bhds.page_event_feminine_masculine",
+   "name": "Feminine & Masculine Energetics",
+   "title": "Feminine & Masculine Energetics | Sara Marie | BHD Asia",
+   "description": "Live online workshop with Sara Marie (The Alchemist): feminine and masculine energetics inside corporate structures. 28 October 2026, 7–9:30PM SGT, Zoom.",
+   "og": "",
+   "arch": "pages/event-feminine-masculine.xml",
+   "indexed": true
+  },
+  {
+   "slug": "event-internal-alchemy",
+   "url": "/event-internal-alchemy",
+   "key": "bhds.page_event_internal_alchemy",
+   "name": "Internal Alchemy Workshop",
+   "title": "Internal Alchemy Workshop | Singapore 2026 | BHD Asia",
+   "description": "First time in Singapore — the Internal Alchemy introductory workshop with Simba Stenqvist. 1 September 2026, 7–9PM at Nilayam Ashtanga Studio. S$79.",
+   "og": "",
+   "arch": "pages/event-internal-alchemy.xml",
+   "indexed": true
+  },
+  {
+   "slug": "event-intro-tre-singapore-2027",
+   "url": "/event-intro-tre-singapore-2027",
+   "key": "bhds.page_event_intro_tre_singapore_2027",
+   "name": "Introduction to TRE™",
+   "title": "Introduction to TRE™ | In Person in Singapore 2027 | BHD Asia",
+   "description": "A 2-hour in-person Introduction to TRE™ in Singapore with Global TRE™ Certifying Trainers Isabelle Claus Teixeira and Simba Stenqvist. 2027. S$88.",
+   "og": "",
+   "arch": "pages/event-intro-tre-singapore-2027.xml",
+   "indexed": true
+  },
+  {
+   "slug": "event-module1-bucharest",
+   "url": "/event-module1-bucharest",
+   "key": "bhds.page_event_module1_bucharest",
+   "name": "TRE™ Module 1 Bucharest",
+   "title": "TRE™ Module 1 Bucharest — Oct 15–17 2026 | BHD Asia",
+   "description": "TRE™ Module 1 Certification, Bucharest, Oct 15–17 2026. 3-day immersive, 21 ICF CCEUs — the first English-language TRE™ Module 1 in Europe.",
+   "og": "",
+   "arch": "pages/event-module1-bucharest.xml",
+   "indexed": true
+  },
+  {
+   "slug": "event-module1-singapore",
+   "url": "/event-module1-singapore",
+   "key": "bhds.page_event_module1_singapore",
+   "name": "Nervous System Regulation",
+   "title": "Nervous System Regulation | Singapore Aug 2026 | BHD Asia",
+   "description": "A 2-day in-person TRE™ workshop for coaches in Singapore, 29–30 August 2026. 21 ICF CCEUs. Valid as Module 1 of the Global TRE™ Provider Certification.",
+   "og": "",
+   "arch": "pages/event-module1-singapore.xml",
+   "indexed": true
+  },
+  {
+   "slug": "event-shaking-shaping-oct8",
+   "url": "/event-shaking-shaping-oct8",
+   "key": "bhds.page_event_shaking_shaping_oct8",
+   "name": "From Shaking to Shaping",
+   "title": "From Shaking to Shaping — Online | 8 October 2026 | BHD Asia",
+   "description": "Use of TRE™ in a coaching context — live online session with Isabelle Claus Teixeira & Saymara Ryon, 8 October 2026, 7–9PM SGT. Register via Neurogenic Integration.",
+   "og": "",
+   "arch": "pages/event-shaking-shaping-oct8.xml",
+   "indexed": true
+  },
+  {
+   "slug": "event-shaking-shaping-sep3",
+   "url": "/event-shaking-shaping-sep3",
+   "key": "bhds.page_event_shaking_shaping_sep3",
+   "name": "From Shaking to Shaping",
+   "title": "From Shaking to Shaping — Online (3 Sep 2026) | Past Event | BHD Asia",
+   "description": "From Shaking to Shaping — the 3 September 2026 online TRE™ coaching session with Isabelle Claus Teixeira and Saymara Ryon. This session was fully booked and has now taken place.",
+   "og": "",
+   "arch": "pages/event-shaking-shaping-sep3.xml",
+   "indexed": false
+  },
+  {
+   "slug": "event-shaking-shaping",
+   "url": "/event-shaking-shaping",
+   "key": "bhds.page_event_shaking_shaping",
+   "name": "From Shaking to Shaping",
+   "title": "From Shaking to Shaping — TRE™ Workshop | Romania 2026 | BHD Asia",
+   "description": "Use of TRE™ in a coaching context — a half-day intensive in Romania and online. Sep–Oct 2026. Co-facilitated by Isabelle Claus Teixeira and Saymara Ryon. From €89.",
+   "og": "",
+   "arch": "pages/event-shaking-shaping.xml",
+   "indexed": true
+  },
+  {
+   "slug": "event-shaking-to-shaping-singapore",
+   "url": "/event-shaking-to-shaping-singapore",
+   "key": "bhds.page_event_shaking_to_shaping_singapore",
+   "name": "Shaking to Shaping",
+   "title": "Shaking to Shaping — TRE™ for Coaches | Singapore 2027 | BHD Asia",
+   "description": "Shaking to Shaping, TRE™ for Coaches: an ICF-accredited 3-hour in-person workshop in Singapore with Isabelle Claus Teixeira and Simba Stenqvist. 3 ICF CCEs. S$149.",
+   "og": "",
+   "arch": "pages/event-shaking-to-shaping-singapore.xml",
+   "indexed": true
+  },
+  {
+   "slug": "event-tre-certification-lisbon",
+   "url": "/event-tre-certification-lisbon",
+   "key": "bhds.page_event_tre_certification_lisbon",
+   "name": "TRE™ Certification in Lisboa, Portugal",
+   "title": "TRE™ Certification in Lisboa, Portugal | 2027 Cohort | BHD Asia",
+   "description": "Full TRE™ Provider Certification in Lisboa, Portugal: Modules 1–3, May–October 2027, 21 ICF CCEs for Module 1. Early bird €2,949 until 31 March 2027.",
+   "og": "",
+   "arch": "pages/event-tre-certification-lisbon.xml",
+   "indexed": true
+  },
+  {
+   "slug": "event-tre-module1-lisbon",
+   "url": "/event-tre-module1-lisbon",
+   "key": "bhds.page_event_tre_module1_lisbon",
+   "name": "TRE™ Module 1 in Lisboa, Portugal",
+   "title": "TRE™ Module 1 in Lisboa, Portugal | 28–30 May 2027 | BHD Asia",
+   "description": "ICF-accredited TRE™ Module 1 in Lisboa, Portugal, 28–30 May 2027, led by Isabelle Claus Teixeira. 21 ICF CCEUs. Early bird €739 until 31 March 2027.",
+   "og": "",
+   "arch": "pages/event-tre-module1-lisbon.xml",
+   "indexed": true
+  },
+  {
+   "slug": "event-tre-module1-online-scotland",
+   "url": "/event-tre-module1-online-scotland",
+   "key": "bhds.page_event_tre_module1_online_scotland",
+   "name": "TRE™ Module 1 Online with TRE Scotland",
+   "title": "TRE™ Module 1 Online with TRE Scotland | June 2027 | BHD Asia",
+   "description": "ICF-accredited TRE™ Module 1 online with Isabelle Claus Teixeira and TRE Scotland, 18–20 June 2027 (UK time). 21 ICF CCEUs. Early bird £488.",
+   "og": "",
+   "arch": "pages/event-tre-module1-online-scotland.xml",
+   "indexed": true
+  },
+  {
+   "slug": "events",
+   "url": "/events",
+   "key": "bhds.page_events",
+   "name": "TRE™ Workshops & Certification Events 2026–2027",
+   "title": "TRE™ Workshops & Certification Events 2026–2027 | BHD Asia",
+   "description": "TRE™ workshops and certification trainings led by Isabelle Claus Teixeira in Singapore, Romania and online, 2026–2027, with ICF CCEUs.",
+   "og": "",
+   "arch": "pages/events.xml",
+   "indexed": true
+  },
+  {
+   "slug": "inclusivity",
+   "url": "/inclusivity",
+   "key": "bhds.page_inclusivity",
+   "name": "Inclusivity Statement",
+   "title": "Inclusivity Statement | BHD Asia",
+   "description": "BHD Asia's commitment to inclusive, accessible coaching and workshops for people of all backgrounds, identities and abilities.",
+   "og": "",
+   "arch": "pages/inclusivity.xml",
+   "indexed": true
+  },
+  {
+   "slug": "index",
+   "url": "/",
+   "key": "website.homepage",
+   "name": "Executive Coaching & HR Consulting in Singapore",
+   "title": "Executive Coaching & HR Consulting in Singapore | BHD Asia",
+   "description": "Executive coaching, HR consulting and TRE™ resilience programmes from Singapore since 2012. Co-designed leadership development for organisations worldwide.",
+   "og": "",
+   "arch": "pages/index.xml",
+   "indexed": true
+  },
+  {
+   "slug": "isabelle",
+   "url": "/isabelle",
+   "key": "bhds.page_isabelle",
+   "name": "Isabelle Claus Teixeira",
+   "title": "Isabelle Claus Teixeira | Executive Coach Singapore | BHD Asia",
+   "description": "Meet Isabelle Claus Teixeira — executive coach, TRE™ provider and Brainz Magazine contributor with 30+ years of HR leadership across 9 countries.",
+   "og": "",
+   "arch": "pages/isabelle.xml",
+   "indexed": true
+  },
+  {
+   "slug": "jasmine",
+   "url": "/jasmine",
+   "key": "bhds.page_jasmine",
+   "name": "Dr. Jasmine Low",
+   "title": "Dr. Jasmine Low | Organisational Psychologist | BHD Asia",
+   "description": "Dr. Jasmine Low — organisational psychologist and ORSC systems coach with 15+ years developing leaders, teams and psychological safety across 100+ organisations.",
+   "og": "",
+   "arch": "pages/jasmine.xml",
+   "indexed": true
+  },
+  {
+   "slug": "online-session-preparation",
+   "url": "/online-session-preparation",
+   "key": "bhds.page_online_session_preparation",
+   "name": "Preparing for Your Online TRE™ Session",
+   "title": "Preparing for Your Online TRE™ Session | BHD Asia",
+   "description": "How to prepare for an online TRE™ session with BHD Asia — camera positioning, what to bring, lighting, dress code, your support person and joining on Zoom.",
+   "og": "",
+   "arch": "pages/online-session-preparation.xml",
+   "indexed": true
+  },
+  {
+   "slug": "privacy",
+   "url": "/privacy",
+   "key": "bhds.page_privacy",
+   "name": "Privacy Statement",
+   "title": "Privacy Statement | BHD Asia",
+   "description": "How BHD Asia (Business & Human Development Consulting Pte Ltd) collects, uses and protects your personal data, in line with Singapore's PDPA.",
+   "og": "",
+   "arch": "pages/privacy.xml",
+   "indexed": true
+  },
+  {
+   "slug": "rina",
+   "url": "/rina",
+   "key": "bhds.page_rina",
+   "name": "Rina Ho",
+   "title": "Rina Ho | Executive Coach & TRE™ Practitioner | BHD Asia",
+   "description": "Rina Ho — executive coach and TRE™ practitioner with 25+ years at Sony, Reebok and adidas, including VP of adidas's largest regional business unit. ICF ACC.",
+   "og": "",
+   "arch": "pages/rina.xml",
+   "indexed": true
+  },
+  {
+   "slug": "services",
+   "url": "/services",
+   "key": "bhds.page_services",
+   "name": "Executive Coaching & Leadership Development Services",
+   "title": "Executive Coaching & Leadership Development Services | BHD Asia",
+   "description": "Executive coaching, leadership development, psychological safety and TRE™ resilience programmes in Singapore and worldwide. Corporate coaching from SGD 6,000.",
+   "og": "",
+   "arch": "pages/services.xml",
+   "indexed": true
+  },
+  {
+   "slug": "simba",
+   "url": "/simba",
+   "key": "bhds.page_simba",
+   "name": "Simba Stenqvist",
+   "title": "Simba Stenqvist | Somatic Practitioner & TRE™ | BHD Asia",
+   "description": "Simba Stenqvist — somatic practitioner and TRE™ specialist with 25+ years in bodywork, developed in close collaboration with TRE™ founder Dr. David Berceli.",
+   "og": "",
+   "arch": "pages/simba.xml",
+   "indexed": true
+  },
+  {
+   "slug": "terms",
+   "url": "/terms",
+   "key": "bhds.page_terms",
+   "name": "Terms & Conditions",
+   "title": "Terms & Conditions | BHD Asia",
+   "description": "The terms and conditions governing BHD Asia's coaching, consulting and TRE™ workshop services, including booking, payment and cancellation policy.",
+   "og": "",
+   "arch": "pages/terms.xml",
+   "indexed": true
+  }
+ ],
+ "views": [],
+ "redirects": {
+  "/index": "/",
+  "/contactus": "/contact",
+  "/terms-and-conditions": "/terms",
+  "/about-us/": "/about",
+  "/about-us/index.html": "/about",
+  "/about-us": "/about",
+  "/about.html": "/about",
+  "/bhd-asia-partners/": "/about#partners",
+  "/bhd-asia-partners": "/about#partners",
+  "/bhd-asia-partners/index.html": "/about#partners",
+  "/code": "/about",
+  "/code.html": "/about",
+  "/code/": "/about",
+  "/contact.html": "/contact",
+  "/event-art-of-conscious-rest.html": "/event-art-of-conscious-rest",
+  "/event-body-in-the-room.html": "/event-body-in-the-room",
+  "/event-breath-as-medicine.html": "/event-breath-as-medicine",
+  "/event-certification-2027-foundational.html": "/event-certification-2027-foundational",
+  "/event-certification-2027-growth.html": "/event-certification-2027-growth",
+  "/event-certification-2027-refresher.html": "/event-certification-2027-refresher",
+  "/event-certification-2027.html": "/event-certification-2027",
+  "/event-certification.html": "/event-certification",
+  "/event-feminine-masculine.html": "/event-feminine-masculine",
+  "/event-internal-alchemy.html": "/event-internal-alchemy",
+  "/event-intro-tre-singapore-2027.html": "/event-intro-tre-singapore-2027",
+  "/event-module1-bucharest.html": "/event-module1-bucharest",
+  "/event-module1-singapore.html": "/event-module1-singapore",
+  "/event-shaking-shaping-oct8.html": "/event-shaking-shaping-oct8",
+  "/event-shaking-shaping-sep3.html": "/event-shaking-shaping-sep3",
+  "/event-shaking-shaping.html": "/event-shaking-shaping",
+  "/event-shaking-to-shaping-singapore.html": "/event-shaking-to-shaping-singapore",
+  "/event-tre-certification-lisbon.html": "/event-tre-certification-lisbon",
+  "/event-tre-module1-lisbon.html": "/event-tre-module1-lisbon",
+  "/event-tre-module1-online-scotland.html": "/event-tre-module1-online-scotland",
+  "/events.html": "/events",
+  "/inclusivity.html": "/inclusivity",
+  "/index.html": "/",
+  "/isabelle-claus-teixeira": "/isabelle",
+  "/isabelle-claus-teixeira/": "/isabelle",
+  "/isabelle-claus-teixeira/index.html": "/isabelle",
+  "/isabelle.html": "/isabelle",
+  "/jasmine.html": "/jasmine",
+  "/online-session-preparation.html": "/online-session-preparation",
+  "/partners/": "/about#partners",
+  "/partners.html": "/about#partners",
+  "/partners": "/about#partners",
+  "/privacy.html": "/privacy",
+  "/project": "/services",
+  "/project/index.html": "/services",
+  "/project/": "/services",
+  "/rina.html": "/rina",
+  "/services.html": "/services",
+  "/simba.html": "/simba",
+  "/terms.html": "/terms",
+  "/testimonials": "/about",
+  "/testimonials/": "/about",
+  "/testimonials/index.html": "/about",
+  "/tre/": "/services#resilience",
+  "/tre/index.html": "/services#resilience",
+  "/tre": "/services#resilience"
+ },
+ "cache": false
+}

@@ -1,0 +1,343 @@
+<t t-name="bhds.page_event_tre_certification_lisbon"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en-US&quot;}"/><t t-set="title">TRE™ Certification in Lisboa, Portugal | 2027 Cohort | BHD Asia</t><t t-set="body_classname" t-value="&quot;page et_fixed_nav et_divi_theme evt2&quot;"/><t t-set="head"><script>try{if(!sessionStorage.getItem("bhdIntro")&amp;&amp;!matchMedia("(prefers-reduced-motion: reduce)").matches){var d=document.documentElement;d.classList.add("intro-on");setTimeout(function(){d.classList.remove("intro-on")},5000)}}catch(e){}</script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W9B95BT7');</script><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-Y6JMM9VCW2"/><script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Y6JMM9VCW2');
+</script><link rel="icon" href="/favicon.ico?v=3"/><link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png?v=3"/><link rel="apple-touch-icon" href="/apple-touch-icon.png?v=3"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/><meta name="robots" content="index, follow"/><meta name="description" content="Full TRE&#x2122; Provider Certification in Lisboa, Portugal: Modules 1&#x2013;3, May&#x2013;October 2027, 21 ICF CCEs for Module 1. Early bird &#x20AC;2,949 until 31 March 2027."/><meta property="og:type" content="website"/><meta property="og:site_name" content="BHD Asia"/><meta property="og:title" content="TRE&#x2122; Certification in Lisboa, Portugal &#x2014; 2027 Cohort | BHD Asia"/><meta property="og:description" content="Three in-person modules in Lisboa (28&#x2013;30 May, 1&#x2013;4 June, 22&#x2013;24 October 2027) with online sessions and supervisions. Limited to 25 participants. Early bird &#x20AC;2,949 until 31 March 2027, regular &#x20AC;3,499."/><meta property="og:url" content="https://www.bhdasia.com/event-tre-certification-lisbon"/><meta property="og:image" content="https://www.bhdasia.com/event-lisbon-certification.webp?v=2"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="TRE&#x2122; Certification in Lisboa, Portugal &#x2014; 2027 Cohort | BHD Asia"/><meta name="twitter:description" content="Three in-person modules in Lisboa (28&#x2013;30 May, 1&#x2013;4 June, 22&#x2013;24 October 2027) with online sessions and supervisions. Limited to 25 participants. Early bird &#x20AC;2,949 until 31 March 2027, regular &#x20AC;3,499."/><link rel="canonical" href="https://www.bhdasia.com/event-tre-certification-lisbon"/><link rel="stylesheet" href="/style.css?v=14"/><link rel="stylesheet" href="/event-detail.css?v=20261108a"/><script type="application/ld+json">
+{"@context":"https://schema.org","@type":"EducationEvent","name":"TRE™ Certification — Portugal 2027 Cohort (Lisboa)","description":"The complete Global TRE™ Provider Certification in Lisboa, Portugal: Module 1 (28-30 May 2027, plus 4 online personal sessions), Module 2 (1-4 June 2027, plus 4 online individual supervisions) and Module 3 (22-24 October 2027, plus 4 online individual supervisions). 21 ICF CCEs for Module 1. Led by Isabelle Claus Teixeira, Global TRE™ Certifying Trainer, assisted by Saymara Ryon. Limited to 25 participants, in English. Early bird 2,949 EUR paid in full until 31 March 2027 (2,999 EUR in three instalments); regular 3,499 EUR (3,549 EUR in three instalments). Credit card only; card charges are added on top.","startDate":"2027-05-28T10:00:00+01:00","endDate":"2027-10-24T18:00:00+01:00","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/MixedEventAttendanceMode","location":{"@type":"Place","name":"Lisboa, Portugal (venue shared with registered participants)","address":{"@type":"PostalAddress","addressLocality":"Lisboa","addressCountry":"PT"}},"maximumAttendeeCapacity":25,"inLanguage":"en","isAccessibleForFree":false,"offers":[{"@type":"Offer","name":"Early bird, paid in full (until 31 March 2027)","price":"2949","priceCurrency":"EUR","url":"https://www.bhdasia.com/event-tre-certification-lisbon#register","availability":"https://schema.org/InStock","validThrough":"2027-03-31T23:59:00+01:00"},{"@type":"Offer","name":"Early bird, three instalments (739 + 1,400 + 860 EUR)","price":"2999","priceCurrency":"EUR","url":"https://www.bhdasia.com/event-tre-certification-lisbon#register","availability":"https://schema.org/InStock","validThrough":"2027-03-31T23:59:00+01:00"},{"@type":"Offer","name":"Regular price, paid in full","price":"3499","priceCurrency":"EUR","url":"https://www.bhdasia.com/event-tre-certification-lisbon#register","availability":"https://schema.org/InStock"},{"@type":"Offer","name":"Regular price, three instalments (799 + 1,700 + 1,050 EUR)","price":"3549","priceCurrency":"EUR","url":"https://www.bhdasia.com/event-tre-certification-lisbon#register","availability":"https://schema.org/InStock"}],"image":"https://www.bhdasia.com/event-lisbon-certification.webp?v=2","organizer":{"@type":"Organization","name":"BHD Asia","url":"https://www.bhdasia.com/"},"performer":[{"@type":"Person","name":"Isabelle Claus Teixeira","jobTitle":"Global TRE™ Certifying Trainer"},{"@type":"Person","name":"Saymara Ryon","url":"https://www.atelierdesuflet.ro/"}],"url":"https://www.bhdasia.com/event-tre-certification-lisbon"}
+</script><style>
+.pk-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:20px}
+.pk-card{border:1.5px solid var(--border);border-radius:var(--r-md);padding:22px 20px;display:flex;flex-direction:column;gap:8px;background:#fff}
+.pk-card.featured{border-color:var(--blue-text);background:linear-gradient(135deg,rgba(212,146,26,.06) 0%,rgba(212,146,26,.02) 100%)}
+.pk-card .pk-tag{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--blue-text)}
+.pk-card h3{font-size:18px;margin:0;color:var(--text)}
+.pk-card p{font-size:14px;line-height:1.6;margin:0;color:var(--body)}
+.pk-card .pk-price{font-size:26px;font-weight:700;color:var(--text);letter-spacing:-.02em;margin-top:4px}
+.pk-card .pk-price small{font-size:13px;font-weight:500;color:var(--muted)}
+.pk-card .pk-sub{font-size:12.5px;color:var(--muted);line-height:1.5}
+.pk-card .et_pb_button{margin-top:auto;text-align:center}
+.pk-tbl-wrap{overflow-x:auto;margin-top:14px;-webkit-overflow-scrolling:touch}
+.pk-tbl{width:100%;border-collapse:collapse;font-size:14px;line-height:1.5;min-width:420px}
+.pk-tbl th,.pk-tbl td{padding:10px 12px;border-bottom:1px solid var(--border);text-align:left;vertical-align:top}
+.pk-tbl th{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--blue-text);font-weight:700}
+.pk-tbl tr.pk-total td{font-weight:700;color:var(--text);border-bottom:0}
+.pk-note{margin-top:16px;padding:12px 16px;background:rgba(212,146,26,.08);border-left:3px solid var(--blue-text);font-size:14px;line-height:1.65;color:var(--text);border-radius:0 var(--r-md) var(--r-md) 0}
+.pk-list{margin:12px 0 0;padding-left:20px;font-size:14.5px;line-height:1.75;color:var(--body)}
+.pk-h3{font-size:15px;font-weight:700;color:var(--text);margin:26px 0 8px}
+@media(max-width:900px){.pk-grid,.pk-grid.two{grid-template-columns:1fr!important}}
+</style><style>
+.evt-reg-form select{width:100%}
+.reg-fine{font-size:12.5px;color:var(--muted);line-height:1.6;margin:14px 0 0}
+.reg-fine strong{color:var(--text)}
+.reg-error{margin:12px 0 0;font-size:13px;line-height:1.6;color:#7a2e24}
+.reg-error a{color:var(--blue-text);text-decoration:underline}
+.mod-body p a,.pk-list a,.pk-note a{color:var(--blue-text);font-weight:700}
+.pk-tbl td.n,.pk-tbl th.n{text-align:right;white-space:nowrap}
+.pk-grid.one{grid-template-columns:minmax(0,520px)}
+</style><script type="application/ld+json" id="bhd-ld">{"@context":"https://schema.org","@graph":[{"@type":["Organization","ProfessionalService"],"@id":"https://www.bhdasia.com/#organization","name":"BHD Asia","legalName":"Business &amp; Human Development Consulting Pte Ltd","alternateName":["BHD Asia Singapore","Business and Human Development Consulting"],"url":"https://www.bhdasia.com/","logo":{"@type":"ImageObject","url":"https://www.bhdasia.com/favicon-192.png","width":192,"height":192},"image":"https://www.bhdasia.com/isagrey.webp","description":"Boutique HR consulting, executive coaching and resilience-building consultancy founded in Singapore in 2012. BHD Asia co-designs leadership development, organisation development and TRE™ programmes for organisations across Europe, the US, Asia, Japan and Russia.","slogan":"Highlight, Enhance and Appreciate Human in Business.","foundingDate":"2012","foundingLocation":"Singapore","founder":{"@id":"https://www.bhdasia.com/isabelle#person"},"employee":[{"@id":"https://www.bhdasia.com/isabelle#person"},{"@id":"https://www.bhdasia.com/jasmine#person"},{"@id":"https://www.bhdasia.com/simba#person"},{"@id":"https://www.bhdasia.com/rina#person"}],"address":{"@type":"PostalAddress","streetAddress":"50 Raffles Place, Singapore Land Tower #30-00","addressLocality":"Singapore","postalCode":"048623","addressCountry":"SG"},"telephone":"+81 80 6515 1778","identifier":{"@type":"PropertyValue","propertyID":"UEN (ACRA)","value":"201201974K"},"areaServed":["Singapore","Asia","Japan","Europe","United States","Middle East"],"knowsLanguage":["en","fr","es"],"knowsAbout":["Executive coaching","Leadership development","Organisation development","HR consulting","Talent management","Psychological safety","Resilience building","Burnout prevention","Somatic coaching","TRE™ (Tension &amp; Trauma Releasing Exercises)","Global TRE™ Provider Certification","Change management","Conflict resolution"],"sameAs":["https://www.facebook.com/bhdasia/","https://www.instagram.com/isabelleclausteixeira_bhd/","https://www.youtube.com/@IsabelleClausTeixeira","https://www.linkedin.com/in/isabelleclausteixeira/"],"contactPoint":{"@type":"ContactPoint","contactType":"customer service","telephone":"+81 80 6515 1778","availableLanguage":["English","French","Spanish"],"url":"https://www.bhdasia.com/contact"}},{"@type":"WebSite","@id":"https://www.bhdasia.com/#website","url":"https://www.bhdasia.com/","name":"BHD Asia","inLanguage":"en","publisher":{"@id":"https://www.bhdasia.com/#organization"}},{"@type":"WebPage","@id":"https://www.bhdasia.com/event-tre-certification-lisbon#webpage","url":"https://www.bhdasia.com/event-tre-certification-lisbon","name":"TRE™ Certification in Lisboa, Portugal | 2027 Cohort | BHD Asia","description":"Full TRE™ Provider Certification in Lisboa, Portugal: Modules 1–3, May–October 2027, 21 ICF CCEs for Module 1. Early bird €2,949 until 31 March 2027.","inLanguage":"en","isPartOf":{"@id":"https://www.bhdasia.com/#website"},"about":{"@id":"https://www.bhdasia.com/#organization"},"publisher":{"@id":"https://www.bhdasia.com/#organization"},"dateModified":"2026-11-05","primaryImageOfPage":{"@type":"ImageObject","url":"https://www.bhdasia.com/event-lisbon-certification.webp?v=2"},"breadcrumb":{"@id":"https://www.bhdasia.com/event-tre-certification-lisbon#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://www.bhdasia.com/event-tre-certification-lisbon#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.bhdasia.com/"},{"@type":"ListItem","position":2,"name":"Events","item":"https://www.bhdasia.com/events"},{"@type":"ListItem","position":3,"name":"TRE™ Certification — Lisboa 2027","item":"https://www.bhdasia.com/event-tre-certification-lisbon"}]}]}</script><link rel="preload" href="/fonts/tn/inter-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/tn/plus-jakarta-sans-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/technext-style.css?v=36"/></t><t t-call="web.layout"><link rel="stylesheet" href="/style.css?v=14"/><link rel="stylesheet" href="/event-detail.css?v=20261108a"/><link rel="stylesheet" href="/technext-style.css?v=36"/><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W9B95BT7" height="0" width="0" style="display:none;visibility:hidden"/></noscript><div id="page-container">
+<header id="main-header">
+  <div class="et_menu_container container clearfix">
+    <div class="logo_container">
+      <a href="/">
+        <img src="/bhd-logo.svg?v=1" alt="BHD Asia" width="51" height="34" onerror="this.style.display='none';document.querySelector('.logo-text').style.display='block'"/>
+        <span class="logo-text">BHD Asia</span>
+      </a>
+    </div>
+    <div id="et-top-navigation">
+      <nav id="top-menu-nav">
+        <ul id="top-menu" class="nav">
+          <li class="menu-item"><a href="/">Home</a></li>
+          <li class="menu-item"><a href="/services">Services</a></li>
+          <li class="menu-item"><a href="/about">About</a></li>
+          <li class="menu-item current-menu-item"><a href="/events">Events</a></li>
+          <li class="menu-item"><a href="/contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="/#book" class="header-contact-btn" data-cta="header-book">Book a call</a>
+      <div id="et_top_search"><span id="et_search_icon"/></div>
+      <div id="et_mobile_nav_menu"><button class="mobile_menu_bar" id="mobile-menu-btn" aria-expanded="false" aria-controls="top-menu-nav" aria-label="Open navigation"/></div>
+    </div>
+  </div>
+</header>
+<div id="et-main-area" tabindex="-1">
+<div class="evt-hero">
+  <img fetchpriority="high" class="evt-hero-img" src="/event-lisbon-certification.webp?v=2" srcset="/event-lisbon-certification-960.webp?v=2 960w, /event-lisbon-certification.webp?v=2 1920w" sizes="(max-width:900px) 100vw, 60vw" alt="Become a Certified TRE™ Provider: TRE™ Certification, Portugal 2027 cohort, in person in Lisboa, with Isabelle Claus Teixeira and Saymara Ryon. Module 1 28–30 May, Module 2 1–4 June, Module 3 22–24 October 2027" width="1920" height="1080" loading="eager"/>
+  <div class="evt-hero-overlay"/>
+  <div class="evt-hero-inner">
+    <div class="container">
+      <p class="evt-crumbs"><a href="/events">Events</a> <span aria-hidden="true">›</span> <span>Lisboa, Portugal</span></p>
+      <div class="evt-hero-top">
+        <span class="evt-badge evt-badge-loc">Lisboa, Portugal</span>
+        <span class="evt-badge evt-badge-type">In Person + Online Sessions</span>
+        <span class="evt-badge evt-badge-type">Certification · 2027 Cohort</span>
+        <span class="evt-badge evt-badge-type">21 ICF CCEs for Module 1</span>
+      </div>
+      <h1>TRE™ Certification<br/><span style="font-weight:300">Lisboa, Portugal · 2027 Cohort</span></h1>
+      <p class="evt-hero-sub">The complete Global TRE™ Provider Certification: three in-person modules in Lisboa from May to October 2027, each with online TRE™ personal sessions or supervisions, and 21 ICF CCEs for Module 1. Led by Isabelle Claus Teixeira, Global TRE™ Certifying Trainer, assisted by Saymara Ryon. Early bird €2,949 until 31 March 2027.</p>
+      <div class="evt-hero-ctas">
+        <a class="et_pb_button btn-white" href="#register">Reserve Your Place →</a>
+        <a class="et_pb_button btn-white-outline" href="/events">All Events</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="evt-facts">
+  <div class="container">
+    <div class="evt-facts-grid">
+      <div class="evt-fact"><svg class="evt-fact-ico" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3v3M17 3v3M4 9h16M5 5h14a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z"/></svg><div class="evt-fact-txt"><span class="evt-fact-label">Module 1</span><span class="evt-fact-val">28–30 May 2027</span></div></div>
+      <div class="evt-fact"><svg class="evt-fact-ico" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3v3M17 3v3M4 9h16M5 5h14a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z"/></svg><div class="evt-fact-txt"><span class="evt-fact-label">Module 2</span><span class="evt-fact-val">1–4 June 2027</span></div></div>
+      <div class="evt-fact"><svg class="evt-fact-ico" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3v3M17 3v3M4 9h16M5 5h14a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z"/></svg><div class="evt-fact-txt"><span class="evt-fact-label">Module 3</span><span class="evt-fact-val">22–24 Oct 2027</span></div></div>
+      <div class="evt-fact"><svg class="evt-fact-ico" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12.5V4a1 1 0 0 1 1-1h8.5l8.5 8.5a1 1 0 0 1 0 1.4l-8.1 8.1a1 1 0 0 1-1.4 0z"/><circle cx="8" cy="8" r="1.2"/></svg><div class="evt-fact-txt"><span class="evt-fact-label">Early bird</span><span class="evt-fact-val">€2,949 to 31 Mar 2027</span></div></div>
+    </div>
+  </div>
+</div>
+
+<style>
+.online-prep-strip{background:var(--navy-mid);padding:28px 0}
+.online-prep-strip .ops-inner{display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+.online-prep-strip .ops-ico{width:44px;height:44px;border-radius:50%;background:rgba(212,146,26,.18);color:var(--gold);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.online-prep-strip .ops-ico svg{width:20px;height:20px}
+.online-prep-strip .ops-text{flex:1;min-width:250px}
+.online-prep-strip .ops-text strong{display:block;font-family:'Sora',sans-serif;font-size:16px;font-weight:600;color:#fff;margin-bottom:3px}
+.online-prep-strip .ops-text span{font-size:14px;line-height:1.65;color:rgba(255,255,255,.7)}
+</style>
+
+
+<div class="container">
+<div class="evt-layout">
+  <div class="evt-main">
+
+<div class="evt-section evt-poster-sec">
+      <span class="evt-section-label">Event Poster</span>
+      <h2>Save &amp; Share the Poster</h2>
+      <figure style="margin:0">
+        <a href="/event-lisbon-certification-poster.webp?v=2" target="_blank" rel="noopener" aria-label="Open the full-size event poster" style="display:block;border-radius:16px;overflow:hidden;box-shadow:0 18px 50px -24px rgba(17,24,39,.45)"><img src="/event-lisbon-certification-poster.webp?v=2" alt="TRE™ Certification, Portugal 2027 cohort in Lisboa, led by Isabelle Claus Teixeira and Saymara Ryon: Module 1 28–30 May, Module 2 1–4 June, Module 3 22–24 October 2027. Early bird 2,949 EUR paid in full by 31 March 2027, regular 3,499 EUR; 3 instalments available." width="1080" height="1350" loading="lazy" decoding="async" style="display:block;width:100%;height:auto"/></a>
+        <figcaption style="font-size:13px;color:var(--muted);margin-top:10px">Tap to open the full-size poster to save or share it.</figcaption>
+      </figure>
+    </div>
+
+<div class="evt-section">
+      <span class="evt-section-label">About the Certification</span>
+      <h2>Become a Certified Global TRE™ Provider in Lisboa</h2>
+      <p>The complete Global TRE™ Provider Certification in Lisboa, Portugal: three in-person modules from May to October 2027, each with online TRE™ personal sessions or supervisions, and <strong>21 ICF CCEs (16 Resource Development + 5 Core Competencies) for Module 1</strong>.</p>
+      <p>TRE™ was developed by Dr. David Berceli and is designed to engage the body's own neurogenic tremoring reflex, which many people find helps them let go of held stress, build resilience and regulate more deeply. Module 1 qualifies you to use TRE™ in your own personal practice; with Modules 2 and 3 you become a Certified Global TRE™ Provider, accredited to offer TRE™ to individuals and groups.</p>
+      <p style="font-weight:700;color:var(--blue-text)">A small group, limited to 25 participants, led by a Global TRE™ Certifying Trainer with an assisting provider, in English.</p>
+    </div>
+
+<div class="evt-section" id="programme">
+      <span class="evt-section-label">Your Certification Journey</span>
+      <h2>Three Modules in Lisboa, Lisbon Time</h2>
+      <p style="font-size:14px;color:var(--muted)">Three in-person modules in Lisboa, Portugal, each including online TRE™ personal sessions or supervisions. Times are local Lisbon time.</p>
+      <div class="module-path">
+        <div class="mod-step"><div class="mod-num">1</div><div class="mod-body"><strong>Module 1 — Your Personal TRE™ Practice  ·  <span style="color:var(--blue-text)">28–30 May 2027 · Lisboa</span></strong><p>A 3-day in-person workshop plus 4 online personal sessions. Day 1 and Day 2 10:00–18:00, Day 3 10:00–13:00. The ICF-accredited Module 1 includes an additional 4 hours, Self-Care &amp; Presence for Coaches (30 May, 14:00–18:00), mandatory to attend for the 21 ICF CCEs. <a href="/event-tre-module1-lisbon">Can be purchased alone →</a></p></div></div>
+        <div class="mod-step"><div class="mod-num">2</div><div class="mod-body"><strong>Module 2 — Teaching TRE™ to One Person  ·  <span style="color:var(--blue-text)">1–4 June 2027 · Lisboa</span></strong><p>ICF accreditation pending. A 2.5-day in-person workshop plus 4 online individual supervisions, building your skills to guide one person safely through TRE™. 1 June 10:00–18:00; 2, 3 and 4 June 9:30–13:30.</p></div></div>
+        <div class="mod-step"><div class="mod-num">3</div><div class="mod-body"><strong>Module 3 — Teaching TRE™ to Groups  ·  <span style="color:var(--blue-text)">22–24 October 2027 · Lisboa</span></strong><p>A 3-day in-person workshop (9:00–18:00 each day) plus 4 online individual supervisions. Completes your Global TRE™ Provider certification.</p></div></div>
+      </div>
+    </div>
+
+<div class="evt-section">
+      <span class="evt-section-label">Who it is for</span>
+      <h2>Who this Certification is for</h2>
+      <ul class="pk-list">
+        <li>Coaches (in training, or at ACC, PCC or MCC level) looking for an ICF-accredited somatic tool</li>
+        <li>Therapists, psychologists or healthcare professionals expanding a trauma-informed practice</li>
+        <li>Yoga teachers, Pilates teachers, bodyworkers or somatic practitioners</li>
+        <li>Anyone experiencing chronic stress or burnout and ready for a body-led approach</li>
+      </ul>
+    </div>
+
+<div class="evt-section">
+      <span class="evt-section-label">What is Included</span>
+      <h2>Your Certification Package</h2>
+      <ul class="included-list">
+        <li>Full certification: Modules 1, 2 and 3, with 4 online personal sessions (Module 1) and 4 online individual supervisions each for Modules 2 and 3</li>
+        <li>21 ICF CCEs (16 Resource Development + 5 Core Competencies, ICF-accredited) for Module 1</li>
+        <li>8.5 training days, including the Day 3 afternoon workshop for coaches in Module 1</li>
+        <li>Global recognition: the Global TRE™ Certification Program is recognised worldwide</li>
+        <li>Small group, limited to 25 participants, led by a Global TRE™ Certifying Trainer with an assisting provider, in English</li>
+      </ul>
+      <h3 class="pk-h3">Not included</h3>
+      <p style="font-size:14.5px">Travel costs, accommodation and meals.</p>
+      <h3 class="pk-h3">What to bring</h3>
+      <ul class="pk-list">
+        <li>A yoga mat</li>
+        <li>A pillow or cushion</li>
+        <li>Blankets and socks</li>
+        <li>A couple of towels</li>
+      </ul>
+    </div>
+
+<div class="evt-section" id="pricing">
+      <span class="evt-section-label">Investment</span>
+      <h2>Price and Instalments</h2>
+      <p style="font-size:14px;color:var(--muted)">All prices in euros (EUR). Early-bird pricing applies until 31 March 2027.</p>
+      <div class="pricing-cards">
+        <div class="price-card featured"><span class="price-card-label">Early Bird · Pay in Full</span><div class="price-card-amount">€2,949</div><div class="price-card-until">until 31 March 2027</div></div>
+        <div class="price-card"><span class="price-card-label">Regular · Pay in Full</span><div class="price-card-amount">€3,499</div><div class="price-card-until">regular price</div></div>
+      </div>
+      <h3 class="pk-h3">Or pay in three instalments</h3>
+      <div class="pk-tbl-wrap">
+        <table class="pk-tbl">
+          <thead><tr><th>Instalment</th><th>Due</th><th class="n">Early bird</th><th class="n">Regular</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Instalment 1</strong></td><td>On registration (early bird: no later than 1 Apr 2027)</td><td class="n">€739</td><td class="n">€799</td></tr>
+            <tr><td><strong>Instalment 2</strong></td><td>Before Module 2: by 15 May 2027 (early bird) or 30 May 2027 (regular)</td><td class="n">€1,400</td><td class="n">€1,700</td></tr>
+            <tr><td><strong>Instalment 3</strong></td><td>Before Module 3: by 1 Oct 2027 (early bird) or 15 Oct 2027 (regular)</td><td class="n">€860</td><td class="n">€1,050</td></tr>
+            <tr class="pk-total"><td>Total</td><td>Three instalments</td><td class="n">€2,999</td><td class="n">€3,549</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="pk-note"><strong>Card charges are added on top of every payment.</strong> Payment is by credit card only, through Stripe.</div>
+      <h3 class="pk-h3">Payment terms</h3>
+      <ul class="pk-list">
+        <li><strong>Credit card only</strong>, through Stripe. <strong>Card charges are added on top.</strong></li>
+        <li><strong>Early-bird pricing applies until 31 March 2027.</strong> All prices are in euros (EUR).</li>
+        <li><strong>Module 1 can be purchased alone:</strong> <a href="/event-tre-module1-lisbon">see TRE™ Module 1 in Lisboa</a> (from €739).</li>
+        <li><strong>All ticket sales are final:</strong> tickets are non-refundable and non-cancellable.</li>
+      </ul>
+      <div style="margin-top:18px"><a class="et_pb_button" href="#register">Reserve Your Place →</a></div>
+    </div>
+
+<div class="evt-section">
+      <span class="evt-section-label">Module 1 Only</span>
+      <h2>Only Want Module 1?</h2>
+      <div class="pk-grid one">
+        <div class="pk-card featured">
+          <span class="pk-tag">Lisboa · 28–30 May 2027</span>
+          <h3>TRE™ Module 1 — Lisboa</h3>
+          <div class="pk-price">From €739</div>
+          <div class="pk-sub">Early bird, first 10 tickets until 31 March 2027 · then €799</div>
+          <p>Your Personal TRE™ Practice, with 21 ICF CCEUs for participants who join the Day 3 afternoon workshop for coaches.</p>
+          <a class="et_pb_button" href="/event-tre-module1-lisbon">See Module 1 →</a>
+        </div>
+      </div>
+    </div>
+
+<div class="evt-section">
+      <span class="evt-section-label">Your Trainers</span>
+      <h2>Led by Isabelle Claus Teixeira, assisted by Saymara Ryon</h2>
+      <div class="facilitator-card">
+        <img class="fac-photo" src="/isa-portrait.webp" alt="Isabelle Claus Teixeira" width="90" height="90" loading="lazy"/>
+        <div class="fac-body">
+          <h4>Isabelle Claus Teixeira</h4>
+          <span class="fac-role">Global TRE™ Certifying Trainer · ICF PCC</span>
+          <p>Somatic and Trauma-informed Executive Coach (ICF PCC), Global TRE™ Certifying Trainer and Mindfulness Teacher, trained directly under Dr. David Berceli, founder of TRE™. Over 30 years of experience across 9 countries and 40+ nationalities, in person and online.</p>
+          <div class="fac-links">
+            <a href="/isabelle">Meet Isabelle →</a>
+            <a href="https://www.linkedin.com/in/isabelleclausteixeira/" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+      <div class="facilitator-card" style="margin-top:16px">
+        <img class="fac-photo" src="/saymara-ryon.webp" alt="Saymara Ryon" width="90" height="90" loading="lazy"/>
+        <div class="fac-body">
+          <h4>Saymara Ryon</h4>
+          <span class="fac-role">Assisting · Certified TRE™ Provider</span>
+          <p>Founder &amp; President, Asociația TRE™ România. Holistic Coach, Trainer &amp; Mentor. Founder of Învață să Zbori SRL. Pioneer of TRE™ in Romania, building the practitioner community across Eastern Europe.</p>
+          <div class="fac-links">
+            <a href="https://www.atelierdesuflet.ro/" target="_blank" rel="noopener">Website →</a>
+            <a href="https://treromania.org/" target="_blank" rel="noopener">TRE™ Romania</a>
+          </div>
+        </div>
+      </div>
+      <p style="font-size:14px;color:var(--muted);margin-top:14px">Times are local Lisbon time. Venue details are shared with registered participants.</p>
+    </div>
+
+  </div>
+
+  <div class="evt-sidebar" id="register">
+    <div class="evt-reg-card">
+      <div class="evt-reg-head">
+        <h3>Reserve Your Place</h3>
+        <p>Portugal 2027 cohort, in person in Lisboa. Only 25 places. Choose your option and share your details; Isabelle will confirm your place and send your payment link.</p>
+      </div>
+      <div class="evt-reg-body">
+        <div style="border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:12px 0;margin-bottom:16px;display:flex;flex-direction:column;gap:8px">
+          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:14px;font-size:14px"><span style="color:var(--muted)">Early bird · pay in full (until 31 March 2027)</span><strong>€2,949</strong></div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:14px;font-size:14px"><span style="color:var(--muted)">Early bird · 3 instalments (€739 + €1,400 + €860)</span><strong>€2,999</strong></div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:14px;font-size:14px"><span style="color:var(--muted)">Regular · pay in full</span><strong>€3,499</strong></div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:14px;font-size:14px"><span style="color:var(--muted)">Regular · 3 instalments (€799 + €1,700 + €1,050)</span><strong>€3,549</strong></div>
+        </div>
+        <form class="evt-reg-form" id="evt-reg-form" onsubmit="submitReg(event)">
+          <select name="event" aria-label="Option" required="" style="color:var(--body)">
+            <option value="">— What are you interested in? *</option>
+            <option selected="selected">Full certification (Modules 1–3) — Lisboa 2027</option>
+            <option>Module 1 only (28–30 May 2027)</option>
+            <option>Not sure yet — send me the details</option>
+          </select>
+          <select name="payment_plan" aria-label="Payment plan" required="" style="color:var(--body)">
+            <option value="">— Payment plan? *</option>
+            <option>Pay in full</option>
+            <option>3 instalments</option>
+          </select>
+          <input type="text" name="name" placeholder="Full Name *" aria-label="Full Name" autocomplete="name" required=""/>
+          <input type="email" name="email" placeholder="Email Address *" aria-label="Email Address" autocomplete="email" required=""/>
+          <input type="tel" name="phone" placeholder="Phone / WhatsApp *" aria-label="Phone / WhatsApp (required)" autocomplete="tel" required=""/>
+          <textarea name="message" rows="3" placeholder="Questions, prior TRE™ experience, or special requirements? (optional)" aria-label="Questions, prior TRE™ experience, or special requirements? (optional)"/>
+          <button type="submit">Reserve My Place →</button>
+        </form>
+        <div class="reg-success-box" id="reg-success" style="display:none">
+          <svg width="44" height="44" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          <h4>Interest registered!</h4>
+          <p>Isabelle will be in touch shortly to confirm your place and the payment details — early-bird pricing applies until 31 March 2027.</p>
+        </div>
+        <p class="reg-error" id="reg-error" hidden="">Sorry, your details could not be sent. Please try again, or use the <a href="/contact#ct-formcard">contact form</a>.</p>
+        <p class="reg-fine"><strong>Only 25 places.</strong> All prices in EUR; early-bird pricing applies until 31 March 2027. Card charges are added on top (credit card only, via Stripe).</p>
+        <p class="evt-refund-note" style="margin-top:14px;padding:10px 14px;background:rgba(192,57,43,.08);border-left:3px solid #c0392b;font-size:13px;font-weight:600;color:#7a2e24;line-height:1.6;border-radius:0 var(--r-md) var(--r-md) 0">Please note: tickets are non-refundable and non-cancellable.</p>
+        <p class="evt-reg-alt"><span>bonjour@bhd<span style="display:none">-no-spam</span>asia.com</span></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<section class="evt-join" id="join"><div class="container"><div class="evt-join-box">
+<div class="evt-join-head"><span class="evt-join-ico"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5a7 7 0 0 0-14 0C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></span><div class="evt-join-text"><strong>Three in-person modules in Lisboa, Portugal.</strong>
+        <span>Each module includes online TRE™ personal sessions or individual supervisions. Delivered in English, limited to 25 participants. Times are local Lisbon time. Venue details are shared with registered participants.</span></div></div>
+<div class="evt-join-actions"><a class="et_pb_button btn-white" href="#register">Reserve Your Place →</a></div>
+</div></div></section>
+<section class="evt-related"><div class="container">
+<div class="evt-section"><span class="evt-section-label">More Events</span><h2>Other upcoming events</h2><div class="related-grid" hidden=""/><div class="ev-rel-empty"><p style="margin:0 0 6px"><strong>More events coming in 2027</strong></p><p style="margin:0 0 14px;font-size:14.5px">New workshops and retreats with Isabelle are being scheduled across Asia and Europe.</p><a class="et_pb_button btn-outline" href="/events">See all events →</a></div></div>
+</div></section>
+
+
+</div>
+<div class="cta-strip">
+  <div class="container">
+    <h2>Ready to Become a Certified TRE™ Provider?</h2>
+    <p>Three in-person modules in Lisboa, Portugal, May to October 2027, with Isabelle Claus Teixeira. Early bird €2,949 until 31 March 2027; regular €3,499. Three instalments available.</p>
+    <a class="et_pb_button" href="#register">Reserve Your Place</a>
+    <a class="et_pb_button btn-outline" href="/events">View All Events</a>
+  </div>
+</div>
+<footer id="main-footer">
+  <div id="footer-widgets"><div class="container">
+    <div class="footer-widget">
+      <span class="footer-brand-name">BHD <span>Asia</span></span>
+      <p>Highlight, Enhance and Appreciate Human in Business.</p>
+      <p>Business &amp; Human Development Consulting Pte Ltd</p>
+      <div class="footer-social">
+        <a href="https://www.facebook.com/bhdasia/" target="_blank" rel="noopener" class="footer-soc-btn" aria-label="Facebook"><svg viewbox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+        <a href="https://www.instagram.com/isabelleclausteixeira_bhd/" target="_blank" rel="noopener" class="footer-soc-btn" aria-label="Instagram"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+        <a href="https://www.youtube.com/@IsabelleClausTeixeira" target="_blank" rel="noopener" class="footer-soc-btn" aria-label="YouTube"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.95C18.88 4 12 4 12 4s-6.88 0-8.59.47A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.95C5.12 20 12 20 12 20s6.88 0 8.59-.47a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="currentColor" stroke="none"/></svg></a>
+        <a href="https://www.linkedin.com/in/isabelleclausteixeira/" target="_blank" rel="noopener" class="footer-soc-btn" aria-label="LinkedIn"><svg viewbox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+      </div>
+    </div>
+    <div class="footer-widget"><h4>Navigate</h4><ul><li><a href="/">Home</a></li><li><a href="/services">Services</a></li><li><a href="/about">About</a></li><li><a href="/events">Events</a></li><li><a href="/contact">Contact</a></li><li><a href="https://www.hummingbeing.com/" target="_blank" rel="noopener">HummingBeing</a></li></ul></div>
+    <div class="footer-widget"><h4>Legal</h4><ul><li><a href="/privacy">Privacy Statement</a></li><li><a href="/terms">Terms &amp; Conditions</a></li><li><a href="/inclusivity">Inclusivity Statement</a></li></ul></div>
+    <div class="footer-widget"><h4>Contact</h4><p class="ft-addr">Singapore Land Tower, #30-00<br/>50 Raffles Place<br/>Singapore 048623</p><p><a href="tel:+818065151778">+81 80 6515 1778</a></p><p><span>bonjour@bhd<span style="display:none">-no-spam</span>asia.com</span></p><p><a href="/#book" data-cta="page-book">Book a Discovery Call →</a></p></div>
+  </div></div>
+  <div id="footer-bottom"><div class="container">
+    <div id="footer-info"><span>© 2026 BHD Asia. All rights reserved.</span></div>
+    
+    <div id="footer-credit">Powered by <a href="https://technext.asia" target="_blank" rel="noopener">TechNext</a></div>
+  </div></div>
+</footer>
+</div><script src="/shared.js?v=43"/><script src="/gdpr-consent.js?v=4"/><script>
+function submitReg(e){e.preventDefault();var form=document.getElementById('evt-reg-form');var btn=form.querySelector('button[type="submit"]');var err=document.getElementById('reg-error');if(err)err.hidden=true;btn.disabled=true;btn.textContent='Sending…';var data={source:'BHDasia Event — TRE Certification Lisboa 2027 (Portugal cohort)',event:form.event.value,inquiry:'Event registration enquiry',name:form.name.value,email:form.email.value,phone:form.phone.value,message:'Payment plan: '+form.payment_plan.value+(form.message.value?'\n'+form.message.value:'')};bhdEmailLead(data);fetch('https://script.google.com/macros/s/AKfycbxkv934L8ffTxU1TPUiw3jn9Hu6KmdE0Ol1CcJRB_vWstls2xiZHHb-LErG5qHXdTuX/exec',{method:'POST',mode:'no-cors',body:new URLSearchParams(data)}).then(function(){form.style.display='none';document.getElementById('reg-success').style.display='block'}).catch(function(){btn.disabled=false;btn.textContent='Reserve My Place →';if(err)err.hidden=false});}
+</script></t></t>

@@ -1,0 +1,203 @@
+<t t-name="hbs.page_tre_faq"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en&quot;}"/><t t-set="title">TRE™ FAQ: Your Questions Answered | HummingBeing</t><t t-set="head"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
+new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
+"https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,"script","dataLayer","GTM-TXLR5LGG");</script><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="description" content="Answers to common questions about TRE&#x2122; (Tension and Trauma Releasing Exercises): what it is, safety, online sessions, training, certification and ICF CCEs."/><meta name="robots" content="index, follow"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/><link rel="stylesheet" href="/styles.css?v=98"/><link rel="preconnect" href="https://cdnjs.cloudflare.com"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png?v=3"/><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png?v=3"/><link rel="icon" href="/favicon.ico?v=3" sizes="any"/><link rel="apple-touch-icon" href="/apple-touch-icon.png?v=3"/><link rel="canonical" href="https://www.hummingbeing.com/tre-faq"/><meta property="og:type" content="article"/><meta property="og:title" content="TRE&#x2122; FAQ: Your Questions Answered | HummingBeing"/><meta property="og:description" content="Answers to common questions about TRE&#x2122; (Tension and Trauma Releasing Exercises): what it is, safety, online sessions, training, certification and ICF CCEs."/><meta name="twitter:title" content="TRE&#x2122; FAQ: Your Questions Answered | HummingBeing"/><meta name="twitter:description" content="Answers to common questions about TRE&#x2122; (Tension and Trauma Releasing Exercises): what it is, safety, online sessions, training, certification and ICF CCEs."/><meta property="og:url" content="https://www.hummingbeing.com/tre-faq"/><meta property="og:image" content="https://www.hummingbeing.com/og-hummingbeing.jpg"/><meta name="twitter:card" content="summary_large_image"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "TRE™ FAQ: Your Questions Answered", "description": "Answers to common questions about TRE™ (Tension and Trauma Releasing Exercises): what it is, safety, online sessions, training, certification and ICF CCEs.", "url": "https://www.hummingbeing.com/tre-faq", "inLanguage": "en", "datePublished": "2026-10-18", "author": {"@type": "Person", "@id": "https://www.hummingbeing.com/isabelle#person", "name": "Isabelle Claus Teixeira", "url": "https://www.hummingbeing.com/isabelle"}, "publisher": {"@type": "Organization", "name": "HummingBeing", "url": "https://www.hummingbeing.com/"}, "image": "https://www.hummingbeing.com/og-hummingbeing.jpg"}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is TRE™?", "acceptedAnswer": {"@type": "Answer", "text": "TRE™ (Tension and Trauma Releasing Exercises) is a short sequence of simple exercises that activates the body’s natural tremor reflex to release stress and tension. It was developed by Dr. David Berceli. For a full introduction, read What is TRE™?"}}, {"@type": "Question", "name": "Why does the body shake?", "acceptedAnswer": {"@type": "Answer", "text": "Tremoring is a natural way for the nervous system to settle after stress, seen in many mammals. TRE™ gently invites this reflex in a safe, controlled way. Read more about the science of neurogenic tremors."}}, {"@type": "Question", "name": "Who is TRE™ for?", "acceptedAnswer": {"@type": "Answer", "text": "Anyone who wants a simple, body-based way to manage stress: busy professionals, leaders, coaches, therapists, carers and people recovering from burnout. No fitness level or experience is needed."}}, {"@type": "Question", "name": "Do I need to talk about my trauma or past experiences?", "acceptedAnswer": {"@type": "Answer", "text": "No. You never need to talk about what happened. The body releases in its own way — no narrative required."}}, {"@type": "Question", "name": "How is TRE™ different from therapy?", "acceptedAnswer": {"@type": "Answer", "text": "TRE™ is a self-help practice, not a therapy. It works with the body rather than with conversation, and many people use it alongside therapy or coaching."}}, {"@type": "Question", "name": "Is TRE™ safe?", "acceptedAnswer": {"@type": "Answer", "text": "For most healthy adults it is a gentle, low-risk practice, and you can stop the tremors at any time. Some people should speak to a doctor or therapist first. Read Is TRE™ safe? for the full guide."}}, {"@type": "Question", "name": "How do I stop the tremors?", "acceptedAnswer": {"@type": "Answer", "text": "Straighten your legs and lie flat, or roll onto your side. The tremors settle within moments."}}, {"@type": "Question", "name": "Will I feel anything afterwards?", "acceptedAnswer": {"@type": "Answer", "text": "Most people feel calmer and more grounded. Some feel tired, slightly sore or emotional for a day. Drink water, rest, and keep your next practice shorter."}}, {"@type": "Question", "name": "Do I need any previous experience?", "acceptedAnswer": {"@type": "Answer", "text": "None at all. Every practice is designed to meet you where you are — no prior experience needed."}}, {"@type": "Question", "name": "How many sessions will I need?", "acceptedAnswer": {"@type": "Answer", "text": "It varies. Most people can practise TRE™ on their own after 3–4 guided sessions. Coaching typically runs 6–12 sessions. Isabelle will be upfront about what she thinks you need."}}, {"@type": "Question", "name": "Can sessions be done online?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. All sessions are available online via Zoom. In-person sessions are available in Singapore and Japan. Here is how to prepare for an online session."}}, {"@type": "Question", "name": "What should I wear and bring?", "acceptedAnswer": {"@type": "Answer", "text": "Loose, comfortable clothing, a yoga mat, and a pillow or blanket. Online, you also need a camera that can see your whole body."}}, {"@type": "Question", "name": "Is TRE™ available for corporate teams?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — group TRE™ and team resilience programmes are available. See retreats and workshops or contact us to explore options."}}, {"@type": "Question", "name": "What is the cancellation policy?", "acceptedAnswer": {"@type": "Answer", "text": "24 hours’ notice to cancel or reschedule. Life happens — just let Isabelle know."}}, {"@type": "Question", "name": "How do I become a certified TRE™ provider?", "acceptedAnswer": {"@type": "Answer", "text": "Complete Modules 1, 2 and 3 of the Global TRE™ Provider Certification, each a 2-day workshop with online sessions and supervision, plus the practice requirements. See TRE™ certification."}}, {"@type": "Question", "name": "Can I take Module 1 just for myself?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Module 1 can be booked on its own and qualifies you to use TRE™ for your personal practice."}}, {"@type": "Question", "name": "Do the trainings carry ICF CCEs?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. TRE™ Module 1 carries 21 ICF CCEs for coaches (16 Resource Development + 5 Core Competencies). Read TRE™ training with ICF CCEs."}}, {"@type": "Question", "name": "Where are the next trainings?", "acceptedAnswer": {"@type": "Answer", "text": "Singapore from April 2027, and Lisboa, Portugal from May 2027: Module 1 on 28-30 May, or the full certification (Modules 1-3, May to October 2027). See all upcoming events."}}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.hummingbeing.com/"}, {"@type": "ListItem", "position": 2, "name": "TRE™ FAQ", "item": "https://www.hummingbeing.com/tre-faq"}]}</script><style>
+    .page-hero.guide-hero { min-height: 56vh; padding: 7rem 8% 4rem; }
+    .page-hero.guide-hero h1 { font-size: clamp(2.1rem, 4.4vw, 3.9rem); }
+    .draft-bar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 2000; border-top: 2px solid #e0b100; background: #fff4c2; color: #5b4300; font: 700 .82rem/1.45 'Lato', sans-serif; text-align: center; padding: .55rem 1rem; }
+    .draft-bar span { font-weight: 400; }
+    .rv-note { max-width: 780px; margin: 1rem auto; background: #fff8d6; border: 1px dashed #d4a600; border-radius: 8px; padding: .75rem 1rem; font: 400 .86rem/1.6 'Lato', sans-serif; color: #5b4300; }
+    .rv-note b { font-weight: 800; }
+    .gd { max-width: 780px; margin: 0 auto; }
+    .gd p, .gd li { font-size: 1.02rem; line-height: 1.85; color: var(--body-text); }
+    .gd p { margin: 0 0 1.05rem; }
+    .gd ul { margin: 0 0 1.2rem; padding-left: 1.2rem; }
+    .gd li { margin-bottom: .45rem; }
+    .gd li::marker { color: var(--gold-dark); }
+    .gd h3 { font-size: 1.12rem; color: var(--navy); margin: 1.6rem 0 .5rem; }
+    .gd a { color: var(--gold-dark); font-weight: 700; }
+    .answer-box { max-width: 820px; margin: 0 auto; background: var(--navy-deep); color: #fff; border-left: 5px solid var(--gold); border-radius: 12px; padding: 1.6rem 1.9rem; }
+    .answer-box .k { font: 800 .7rem/1 'Lato', sans-serif; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); display: block; margin-bottom: .6rem; }
+    .answer-box p { margin: 0; font-size: 1.04rem; line-height: 1.8; color: rgba(255,255,255,.93); }
+    .tile-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.1rem; max-width: 1060px; margin: 2.2rem auto 0; }
+    .tile { background: var(--white); border: 1px solid rgba(36,46,66,.08); border-radius: 14px; padding: 1.5rem 1.4rem; }
+    .tile i { width: 44px; height: 44px; border-radius: 50%; background: rgba(245,166,35,.14); color: var(--gold-dark); display: flex; align-items: center; justify-content: center; font-size: 1.05rem; margin-bottom: .9rem; }
+    .tile h3 { font-size: 1.02rem; color: var(--navy); margin: 0 0 .4rem; }
+    .tile p { font-size: .9rem; line-height: 1.7; color: var(--text-mid); margin: 0; }
+    @media (max-width: 900px) { .tile-grid { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 600px) { .tile-grid { grid-template-columns: 1fr; } }
+    .faq { max-width: 820px; margin: 2rem auto 0; }
+    .faq-group { font: 800 .72rem/1 'Lato', sans-serif; letter-spacing: .16em; text-transform: uppercase; color: var(--gold-dark); margin: 2.2rem 0 .8rem; }
+    .faq details { background: var(--white); border: 1px solid rgba(36,46,66,.09); border-radius: 12px; margin-bottom: .65rem; }
+    .faq summary { cursor: pointer; list-style: none; padding: 1.05rem 3rem 1.05rem 1.25rem; position: relative; font: 700 1rem/1.5 'Lato', sans-serif; color: var(--navy); }
+    .faq summary::-webkit-details-marker { display: none; }
+    .faq summary::after { content: "+"; position: absolute; right: 1.2rem; top: .85rem; font-size: 1.4rem; color: var(--gold-dark); transition: transform .25s; }
+    .faq details[open] summary::after { transform: rotate(45deg); }
+    .faq summary:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; border-radius: 12px; }
+    .faq .a { padding: 0 1.25rem 1.15rem; }
+    .faq .a p { margin: 0 0 .6rem; font-size: .96rem; line-height: 1.75; color: var(--body-text); }
+    .faq .a a { color: var(--gold-dark); font-weight: 700; }
+    .faq-nav { display: flex; gap: .5rem; flex-wrap: wrap; justify-content: center; max-width: 900px; margin: 1.6rem auto 0; }
+    .faq-nav a { font: 700 .8rem/1 'Lato', sans-serif; color: var(--navy); text-decoration: none; border: 1px solid rgba(36,46,66,.16); border-radius: 50px; padding: .55rem 1rem; background: #fff; }
+    .faq-nav a:hover { border-color: var(--gold); color: var(--gold-dark); }
+    .byline { max-width: 780px; margin: 2.4rem auto 0; display: flex; gap: 1rem; align-items: center; padding-top: 1.4rem; border-top: 1px solid rgba(36,46,66,.1); }
+    .byline img { width: 64px; height: 64px; border-radius: 50%; object-fit: cover; object-position: top; }
+    .byline p { margin: 0; font-size: .88rem; line-height: 1.6; color: var(--text-mid); }
+    .byline b { color: var(--navy); }
+    .gd-actions { display: flex; gap: .8rem; justify-content: center; flex-wrap: wrap; margin-top: 2.2rem; }
+  </style><link rel="preload" href="/fonts/hb/lato-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/hb/playfair-display-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/></t><t t-call="web.layout"><link rel="stylesheet" href="/styles.css?v=98"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXLR5LGG" height="0" width="0" style="display:none;visibility:hidden"/></noscript><nav>
+  <a href="/" class="logo"><img src="/images/logo-dark.webp" class="logo-on-dark" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/><img src="/images/logo-light.webp" class="logo-on-light" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/></a>
+  <ul class="nav-links">
+    <li><a href="/">Home</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/isabelle">Isabelle</a></li>
+    <li class="nav-dropdown">
+      <a href="javascript:void(0)" class="nav-dropdown-toggle">Work with Isabelle <i class="fa-solid fa-chevron-down nav-arrow"/></a>
+      <ul class="nav-dropdown-menu">
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™<small>Private sessions, online or in person</small></a></li>
+        <li><a href="/tre-certification">TRE™ Certification<small>Become a certified TRE™ provider</small></a></li>
+        <li><a href="/retreats-workshops">Retreats &amp; Workshops<small>Groups, teams and executives</small></a></li>
+      </ul>
+    </li>
+    <li><a href="/events">Events</a></li>
+    <li class="nav-book-mobile"><a href="/book">Book a free call</a></li>
+  </ul>
+  <div class="nav-actions">
+    <a href="/book" class="nav-cta">Book a free call</a>
+    <button class="hamburger" onclick="toggleMenu()"><span/><span/><span/></button>
+  </div>
+</nav><div class="page-hero guide-hero">
+  <span class="eyebrow">Questions &amp; Answers</span>
+  <h1>TRE™ <em>Questions</em>, Answered</h1>
+  <p>Everything people ask before trying TRE™, in one place.</p>
+</div><section class="section-cream">
+  <div class="gd" style="text-align:center">
+    <p>Short, honest answers to the questions people ask most before trying TRE™ — from what it is and whether it is safe, to sessions, training and certification.</p>
+  </div>
+  <div class="faq-nav" role="navigation" aria-label="FAQ topics"><a href="#about">About TRE™</a><a href="#safety">Safety</a><a href="#sessions">Sessions</a><a href="#training">Training &amp; Certification</a></div>
+  <div class="faq">
+<h3 class="faq-group" id="about">About TRE™</h3>
+<details><summary>What is TRE™?</summary><div class="a"><p>TRE™ (Tension and Trauma Releasing Exercises) is a short sequence of simple exercises that activates the body’s natural tremor reflex to release stress and tension. It was developed by Dr. David Berceli. For a full introduction, read <a href="https://www.tre-in-singapore.com/blog/what-is-tre" target="_blank" rel="noopener">What is TRE™?</a></p></div></details>
+<details><summary>Why does the body shake?</summary><div class="a"><p>Tremoring is a natural way for the nervous system to settle after stress, seen in many mammals. TRE™ gently invites this reflex in a safe, controlled way. Read more about <a href="https://www.tre-in-singapore.com/blog/science-of-neurogenic-tremors" target="_blank" rel="noopener">the science of neurogenic tremors</a>.</p></div></details>
+<details><summary>Who is TRE™ for?</summary><div class="a"><p>Anyone who wants a simple, body-based way to manage stress: busy professionals, leaders, coaches, therapists, carers and people recovering from burnout. No fitness level or experience is needed.</p></div></details>
+<details><summary>Do I need to talk about my trauma or past experiences?</summary><div class="a"><p>No. You never need to talk about what happened. The body releases in its own way — no narrative required.</p></div></details>
+<details><summary>How is TRE™ different from therapy?</summary><div class="a"><p>TRE™ is a self-help practice, not a therapy. It works with the body rather than with conversation, and many people use it alongside therapy or coaching.</p></div></details>
+<h3 class="faq-group" id="safety">Safety</h3>
+<details><summary>Is TRE™ safe?</summary><div class="a"><p>For most healthy adults it is a gentle, low-risk practice, and you can stop the tremors at any time. Some people should speak to a doctor or therapist first. Read <a href="/is-tre-safe">Is TRE™ safe?</a> for the full guide.</p></div></details>
+<details><summary>How do I stop the tremors?</summary><div class="a"><p>Straighten your legs and lie flat, or roll onto your side. The tremors settle within moments.</p></div></details>
+<details><summary>Will I feel anything afterwards?</summary><div class="a"><p>Most people feel calmer and more grounded. Some feel tired, slightly sore or emotional for a day. Drink water, rest, and keep your next practice shorter.</p></div></details>
+<h3 class="faq-group" id="sessions">Sessions</h3>
+<details><summary>Do I need any previous experience?</summary><div class="a"><p>None at all. Every practice is designed to meet you where you are — no prior experience needed.</p></div></details>
+<details><summary>How many sessions will I need?</summary><div class="a"><p>It varies. Most people can practise TRE™ on their own after 3–4 guided sessions. Coaching typically runs 6–12 sessions. Isabelle will be upfront about what she thinks you need.</p></div></details>
+<details><summary>Can sessions be done online?</summary><div class="a"><p>Yes. All sessions are available online via Zoom. In-person sessions are available in Singapore and Japan. Here is <a href="/online-session-preparation">how to prepare for an online session</a>.</p></div></details>
+<details><summary>What should I wear and bring?</summary><div class="a"><p>Loose, comfortable clothing, a yoga mat, and a pillow or blanket. Online, you also need a camera that can see your whole body.</p></div></details>
+<details><summary>Is TRE™ available for corporate teams?</summary><div class="a"><p>Yes — group TRE™ and team resilience programmes are available. See <a href="/retreats-workshops">retreats and workshops</a> or contact us to explore options.</p></div></details>
+<details><summary>What is the cancellation policy?</summary><div class="a"><p>24 hours’ notice to cancel or reschedule. Life happens — just let Isabelle know.</p></div></details>
+<h3 class="faq-group" id="training">Training &amp; Certification</h3>
+<details><summary>How do I become a certified TRE™ provider?</summary><div class="a"><p>Complete Modules 1, 2 and 3 of the Global TRE™ Provider Certification, each a 2-day workshop with online sessions and supervision, plus the practice requirements. See <a href="/tre-certification">TRE™ certification</a>.</p></div></details>
+<details><summary>Can I take Module 1 just for myself?</summary><div class="a"><p>Yes. Module 1 can be booked on its own and qualifies you to use TRE™ for your personal practice.</p></div></details>
+<details><summary>Do the trainings carry ICF CCEs?</summary><div class="a"><p>Yes. TRE™ Module 1 carries 21 ICF CCEs for coaches (16 Resource Development + 5 Core Competencies). Read <a href="/tre-icf-cceu">TRE™ training with ICF CCEs</a>.</p></div></details>
+<details><summary>Where are the next trainings?</summary><div class="a"><p>Singapore from April 2027, and Lisboa, Portugal from May 2027: <a href="/event-tre-module1-lisbon">Module 1 on 28–30 May</a>, or the <a href="/event-tre-certification-lisbon">full certification</a> (Modules 1–3, May to October 2027). See all <a href="/events">upcoming events</a>.</p></div></details>
+</div>
+  <div class="gd"><p style="font-size:.86rem;color:var(--text-mid)"><em>This guide is general information, not medical advice. TRE™ is a self-help practice and is not a substitute for diagnosis or treatment by a doctor or mental health professional.</em></p></div>
+  <div class="byline"><img src="/images/isabelle-your-trainer.webp" alt="Isabelle Claus Teixeira" width="64" height="64" loading="lazy"/><p>Written by <b>Isabelle Claus Teixeira</b>, Global TRE™ Certifying Trainer and ICF PCC executive coach, trained directly under Dr. David Berceli. <a href="/about" style="color:var(--gold-dark);font-weight:700">About Isabelle →</a></p></div>
+</section><section class="guides-strip" style="max-width:860px;margin:0 auto;padding:8px 5% 48px;text-align:center"><p style="margin:0;font-size:.95rem;line-height:1.7"><a href="/tre-nervous-system-guide">A complete guide to somatic nervous system regulation &amp; TRE™</a><a href="/what-happens-during-neurogenic-tremoring">What happens during neurogenic tremoring?</a><a href="/neurogenic-tremors-stress-anxiety">Tremors for stress and anxiety</a><a href="/tre-vs-somatic-experiencing">TRE™ vs Somatic Experiencing</a><a href="/somatic-coaching-burnout-singapore">Somatic coaching for executive burnout</a></p></section><section class="tn-sec tn-warm tn-lead" id="start" aria-labelledby="tn-lead-h" data-funnel="book">
+  <div class="tn-wrap tn-lead-grid">
+    <div>
+      <span class="tn-eyebrow">Free discovery call</span>
+      <h2 class="tn-h2" id="tn-lead-h">Start with a free 30-minute call.</h2>
+      <p class="tn-lede">No agenda and no pressure. Tell Isabelle what you are carrying and she will suggest what fits, if anything does.</p>
+      <ol class="tn-next">
+        <li><span>1</span><div><b>Send your details</b>One minute, right here.</div></li>
+        <li><span>2</span><div><b>Pick a time</b>Choose a slot straight away, or we reply within one business day.</div></li>
+        <li><span>3</span><div><b>Talk with Isabelle</b>Online, wherever you are, or in person in Singapore.</div></li>
+      </ol>
+    </div>
+    <div class="tn-card tn-formcard">
+      <div class="tn-form-head"><h3>Book your free call</h3><p>Fields marked * are required.</p></div>
+      <form class="tn-form tn-lead-form" data-source="Free call form" action="#" method="post" novalidate="">
+        <input type="text" name="_honey" tabindex="-1" autocomplete="off" class="tn-hp" aria-hidden="true"/>
+        <div class="tn-fr">
+          <label class="tn-f"><span>Your name <i>*</i></span><input type="text" name="fullname" autocomplete="name" required=""/></label>
+          <label class="tn-f"><span>Email <i>*</i></span><input type="email" name="email" autocomplete="email" required=""/></label>
+        </div>
+        <div class="tn-fr">
+          <label class="tn-f"><span>Phone / WhatsApp <i>*</i></span><input type="tel" name="phone" autocomplete="tel" inputmode="tel" required="" placeholder="+65"/></label>
+          <label class="tn-f"><span>I'm interested in</span>
+            <select name="interest">
+              <option value="">Not sure yet</option>
+              <option>1:1 TRE™ sessions</option>
+              <option>Somatic coaching</option>
+              <option>Mindfulness programme</option>
+              <option>TRE™ certification</option>
+              <option>Retreat or team workshop</option>
+            </select></label>
+        </div>
+        <button type="submit" class="tn-btn">Request my free call <svg viewbox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <p class="tn-form-err" role="alert" hidden="">Please add your name, a valid email and a phone number.</p>
+      </form>
+      <div class="tn-form-ok" hidden="" role="status" tabindex="-1">
+        <svg class="tn-ok-ic" viewbox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M7.5 12.5l3 3 6-6.5"/></svg>
+        <h3>Thank you, your request is in.</h3>
+        <p>Pick a time for your call now, or wait for our reply within one business day.</p>
+        <a class="tn-btn" href="https://calendly.com/bhdasia/30min" target="_blank" rel="noopener" data-cta="thanks-calendly">Pick a time now</a>
+      </div>
+      <p class="tn-alt-contact">Prefer to message? <a href="https://wa.me/818065151778" target="_blank" rel="noopener">WhatsApp Isabelle</a></p>
+    </div>
+  </div>
+</section><footer>
+  <div class="foot-grid">
+    <div>
+      <a href="/" class="foot-logo"><img src="/images/logo-dark.webp" alt="HummingBeing — Coaching &amp; Somatics" style="height:48px;width:auto;display:block" width="144" height="48"/></a>
+      <p class="foot-desc">Science backed processes with TRE™, Coaching and Somatic Practices — a space to release, renew and restore.</p>
+      <p class="foot-desc">Part of <strong>Business and Human Development Consulting Pte Ltd</strong></p>
+      <div class="foot-socials">
+        <a href="https://www.instagram.com/isabelleclausteixeira_bhd/" target="_blank" class="soc" aria-label="Instagram" rel="noopener noreferrer"><i class="fa-brands fa-instagram"/></a>
+        <a href="https://www.linkedin.com/in/isabelleclausteixeira/" target="_blank" class="soc" aria-label="LinkedIn" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"/></a>
+        <a href="https://www.youtube.com/@IsabelleClausTeixeira" target="_blank" class="soc" aria-label="YouTube" rel="noopener noreferrer"><i class="fa-brands fa-youtube"/></a>
+        <a href="https://wa.me/818065151778" target="_blank" class="soc" aria-label="WhatsApp" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"/></a>
+      </div>
+    </div>
+    <div>
+      <div class="foot-h">Work with Isabelle</div>
+      <ul class="foot-links">
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™</a></li>
+        <li><a href="/tre-certification">TRE™ Certification</a></li>
+        <li><a href="/retreats-workshops">Retreats &amp; Workshops</a></li>
+        <li><a href="/events">Events</a></li>
+        <li><a href="/book">Book a free call</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="foot-h">HummingBeing</div>
+      <ul class="foot-links">
+        <li><a href="/about">About HummingBeing</a></li>
+        <li><a href="/isabelle">Meet Isabelle</a></li>
+        <li><a href="/gallery">Gallery</a></li>
+        <li><a href="/socials">Socials</a></li>
+        <li><a href="/tre-faq">TRE™ FAQ</a></li>
+        <li><a href="/is-tre-safe">Is TRE™ Safe?</a></li>
+        <li><a href="/tre-icf-cceu">TRE™ with ICF CCEs</a></li>
+        <li><a href="https://www.bhdasia.com" target="_blank" rel="noopener">BHD Asia</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="foot-h">Contact</div>
+      <ul class="foot-links">
+        <li><span>bonjour@bhd<span style="display:none">-no-spam</span>asia.com</span></li>
+        <li><a href="https://wa.me/818065151778" target="_blank" rel="noopener noreferrer">WhatsApp Us</a></li>
+        <li><span>Global</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <div class="foot-copy">© 2026 HummingBeing — Business and Human Development Consulting Pte Ltd</div>
+    <div class="foot-legal">
+      <span>Privacy Policy</span>
+      <span>Terms of Service</span>
+      <span class="foot-sep">·</span>
+      <a href="https://technext.asia" target="_blank" rel="noopener noreferrer">Powered by <span class="tn-brand">TechNext</span></a>
+    </div>
+  </div>
+</footer><a href="https://wa.me/818065151778" class="wa-float" target="_blank" aria-label="Chat on WhatsApp" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"/></a><button class="top-float" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top"><i class="fa-solid fa-chevron-up"/></button><script src="/scripts.js?v=20261109e" defer="defer"/><script src="/gdpr-consent.js?v=4"/><script src="/hb-tn.js?v=39" defer="defer"/></t></t>

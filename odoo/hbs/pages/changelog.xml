@@ -1,0 +1,3023 @@
+<t t-name="hbs.page_changelog"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en&quot;}"/><t t-set="title">Changelog — HummingBeing</t><t t-set="head"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
+new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
+"https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,"script","dataLayer","GTM-TXLR5LGG");</script><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="description" content="Full development history of the HummingBeing website &#x2014; every update, fix and improvement documented."/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/><link rel="stylesheet" href="/styles.css?v=98"/><link rel="preconnect" href="https://cdnjs.cloudflare.com"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/><meta name="robots" content="noindex, nofollow"/><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png?v=3"/><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png?v=3"/><link rel="icon" href="/favicon.ico?v=3" sizes="any"/><link rel="apple-touch-icon" href="/apple-touch-icon.png?v=3"/><style>
+    .cl-timeline { max-width: 860px; margin: 0 auto; display: flex; flex-direction: column; gap: 0; }
+    .cl-entry {
+      display: grid; grid-template-columns: 150px 1fr; gap: 2.5rem;
+      padding: 2rem 0; border-bottom: 1px solid rgba(245,166,35,.28);
+    }
+    .cl-entry:last-child { border-bottom: none; }
+    .cl-meta { padding-top: .2rem; }
+    .cl-badge {
+      display: inline-block; background: var(--navy); color: var(--gold);
+      font-weight: 700; font-size: .82rem; letter-spacing: 1.5px;
+      padding: .35rem .9rem; border-radius: 2px; border: 1.5px solid var(--gold);
+      font-family: 'Lato', sans-serif;
+    }
+    .cl-date { display: block; font-size: .82rem; color: var(--text-mid); margin-top: .55rem; }
+    .cl-tags { display: flex; gap: .4rem; flex-wrap: wrap; margin-bottom: .85rem; }
+    .cl-tag {
+      font-size: .67rem; font-weight: 700; letter-spacing: 1.1px;
+      text-transform: uppercase; padding: .2rem .6rem; border-radius: 2px;
+      font-family: 'Lato', sans-serif;
+    }
+    .cl-tag-added   { background: rgba(37,211,102,.12); color: #1a9e4e; }
+    .cl-tag-changed { background: rgba(245,166,35,.15); color: var(--gold-dark); }
+    .cl-tag-fixed   { background: rgba(46,163,242,.15); color: #1a7fc1; }
+    .cl-body ul { list-style: none; padding: 0; display: flex; flex-direction: column; gap: .55rem; }
+    .cl-body li { font-size: .92rem; padding-left: 1.4rem; position: relative; line-height: 1.6; }
+    .cl-body li::before { content: '\2192'; position: absolute; left: 0; color: var(--gold); font-weight: 700; }
+    .cl-body strong { color: var(--navy); font-weight: 700; }
+    .cl-body code {
+      background: rgba(36,46,66,.07); color: var(--navy);
+      padding: .1em .4em; border-radius: 3px; font-size: .85em;
+      font-family: 'Courier New', monospace;
+    }
+    @media (max-width: 640px) {
+      .cl-entry { grid-template-columns: 1fr; gap: .75rem; }
+    }
+  </style><link rel="preload" href="/fonts/hb/lato-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/hb/playfair-display-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/></t><t t-call="web.layout"><link rel="stylesheet" href="/styles.css?v=98"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXLR5LGG" height="0" width="0" style="display:none;visibility:hidden"/></noscript><nav>
+  <a href="/" class="logo"><img src="/images/logo-dark.webp" class="logo-on-dark" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/><img src="/images/logo-light.webp" class="logo-on-light" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/></a>
+  <ul class="nav-links">
+    <li><a href="/">Home</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/isabelle">Isabelle</a></li>
+    <li class="nav-dropdown">
+      <a href="javascript:void(0)" class="nav-dropdown-toggle">Work with Isabelle <i class="fa-solid fa-chevron-down nav-arrow"/></a>
+      <ul class="nav-dropdown-menu">
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™<small>Private sessions, online or in person</small></a></li>
+        <li><a href="/tre-certification">TRE™ Certification<small>Become a certified TRE™ provider</small></a></li>
+        <li><a href="/retreats-workshops">Retreats &amp; Workshops<small>Groups, teams and executives</small></a></li>
+      </ul>
+    </li>
+    <li><a href="/events">Events</a></li>
+    <li class="nav-book-mobile"><a href="/book">Book a free call</a></li>
+  </ul>
+  <div class="nav-actions">
+    <a href="/book" class="nav-cta">Book a free call</a>
+    <button class="hamburger" onclick="toggleMenu()"><span/><span/><span/></button>
+  </div>
+</nav><section style="padding:5rem 0 3rem;text-align:center;background:var(--navy)">
+  <div style="max-width:800px;margin:0 auto;padding:0 1.5rem">
+    <h1 style="color:#fff;font-size:2rem">Website changelog</h1>
+    <p style="color:rgba(255,255,255,.6);margin-top:.5rem"><a href="/" style="color:var(--gold)">← Back to HummingBeing</a></p>
+  </div>
+</section><section>
+  <div class="cl-timeline">
+
+    <!-- v65.8 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v65.8</span>
+        <span class="cl-date">2026-06-25</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-fixed">Fixed</span><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Chatbot — Bug fix: “What is TRE™?” button</strong> — Quick-reply returned generic “What would you like to explore?” due to keyword tie-break. Added <code>what is tre</code>, <code>tell me about tre</code> and related phrases to TRE™ entry (multi-word keys outscore the single-word catch-all).</li>
+          <li><strong>Chatbot — Bug fix: “How do I book?” button</strong> — Returned generic “Happy to help!” instead of booking info. Added <code>how do i book</code>, <code>how can i book</code> to booking entry.</li>
+          <li><strong>Chatbot — Bug fix: “What is included?” button</strong> — No matching KB entry; now maps to Starter Package info. Added <code>what is included</code>, <code>included</code>, <code>whats included</code> to starter entry.</li>
+          <li><strong>Chatbot — Events knowledge base updated</strong> — Events reply now lists both upcoming events: Singapore 29–30 Aug 2026 (21 ICF CCEUs, S$1,290) and Bucharest TRE™ Module 1 15–17 Oct 2026. Added <code>romania</code>, <code>bucharest</code>, <code>certification</code>, <code>icf</code>, <code>cceu</code> as trigger keywords.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v65.7 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v65.7</span>
+        <span class="cl-date">2026-06-25</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>All 3 landing pages — Hero column order swapped</strong> — Title/subtitle/buttons now on the left; booking form on the right.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v65.6 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v65.6</span>
+        <span class="cl-date">2026-06-25</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>All 3 landing pages — Hero 2-column layout</strong> — Redesigned hero section: booking form (left) + title/subtitle/pills/CTA buttons (right). Form fields: Full Name, Email, Phone (optional), Send Enquiry button. Success state shows Calendly link. Responsive: stacks to single column on mobile ≤ 860px (content first, form below).</li>
+          <li><strong>event-shaking-to-shaping.html, event-tre-module1-bucharest.html, event-selfcare-coaches-singapore.html</strong> — Applied identical glassmorphism form card (backdrop blur, gold border, dark background) and CSS grid layout.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v65.5 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v65.5</span>
+        <span class="cl-date">2026-06-25</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span><span class="cl-tag cl-tag-fixed">Fixed</span></div>
+        <ul>
+          <li><strong>Sitewide — Footer contact location</strong> — “Singapore &amp; Japan” updated to “Global” across all pages.</li>
+          <li><strong>index.html + isabelle.html + tre-certification.html — Dead link redirects</strong> — <code>tre.html</code> → <code>tre-certification.html</code>; <code>somatic-coaching.html</code> → <code>holistic-mastermind.html</code>; <code>somatic-bodywork.html</code> → <code>holistic-mastermind.html</code>.</li>
+          <li><strong>Deleted 6 unused pages</strong> — <code>somatic-bodywork.html</code>, <code>somatic-coaching.html</code>, <code>somatic-healing.html</code>, <code>tre.html</code>, <code>image-audit.html</code>, <code>seo-audit.html</code>. All internal links updated before removal.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v65.4 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v65.4</span>
+        <span class="cl-date">2026-06-25</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-fixed">Fixed</span><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Sitewide (16 pages) — Footer contact</strong> — “Japan &amp; Worldwide” corrected to “Singapore &amp; Japan” in the Contact footer column.</li>
+          <li><strong>Sitewide (14 pages) — Footer Company column</strong> — Removed stale “Retreats and Workshops” extra link left over from a previous nav restructure. Correct Services footer entry “Resilience Retreats” retained.</li>
+          <li><strong>event-selfcare-coaches-singapore.html — Pricing</strong> — Added missing Early Bird (S$1,500 until 31 Jul 2026) and Normal Price (S$1,800) tiers below the ICF Special Price display.</li>
+          <li><strong>events.html — Romania TRE™ Module 1 Bucharest card</strong> — Added “Contact for Pricing” pricing block (price not yet published).</li>
+          <li><strong>event-tre-module1-bucharest.html — Day 1 label</strong> — Renamed “Workshop: Self-Care and Presence for Coaches” → “Introductory Evening: Self-Care and Presence for Coaches” to distinguish it from the standalone Singapore 2-day workshop.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v65.3 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v65.3</span>
+        <span class="cl-date">2026-06-25</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>index.html + events.html — Countdown timers</strong> — Updated to next upcoming event: Singapore “Nervous System Regulation &amp; Neurogenic Tremoring” workshop, 29 August 2026 (<code>2026-08-29T09:00:00+08:00</code> SGT). Previously pointed to Romania Sep 3. Labels, date line and “View Event →” link updated accordingly.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v65.2 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v65.2</span>
+        <span class="cl-date">2026-06-25</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>events.html</strong> — Removed “Book a Private Session Instead” button below Singapore event cards. Removed “Prefer Something Personal?” CTA banner above the footer.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v65.1 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v65.1</span>
+        <span class="cl-date">2026-06-25</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-added">Added</span></div>
+        <ul>
+          <li><strong>events.html — Singapore For Certification card</strong> — Added “View &amp; Register →” button (<code>btn-dark</code>) linking to <code>tre-certification.html</code>. Both Singapore cards now match the Romania cards pattern: “View &amp; Register →” + “Book a Call via Calendly →” stacked buttons.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v65.0 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v65.0</span>
+        <span class="cl-date">2026-06-25</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-added">Added</span><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>event-selfcare-coaches-singapore.html — New landing page</strong> — “Nervous System Regulation &amp; Self-Induced Neurogenic Tremoring: Self-Care and Presence for Coaches.” 2-day in-person Singapore workshop, 29 &amp; 30 August 2026. 21 ICF CCEUs (16 Resource Development + 5 Core Competencies). Valid as Module 1 of the Global TRE™ Provider Certification Program. Countdown timer targeting <code>2026-08-29T09:00:00+08:00</code> (SGT). Structured data, Calendly CTA, facilitator section (Isabelle), “Continue Your Journey” section linking to full certification path.</li>
+          <li><strong>events.html — Singapore Coaches card</strong> — Added “View &amp; Register →” link pointing to the new landing page, matching the pattern of Romania event cards.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v64.4 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v64.4</span>
+        <span class="cl-date">2026-06-25</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-added">Added</span></div>
+        <ul>
+          <li><strong>events.html — Calendly buttons on Romania cards</strong> — Added “Book a Call via Calendly →” button (gold <code>btn-primary</code>) to “From Shaking to Shaping” card with <code><span>bonjour@bhd<span style="display:none">-no-spam</span>asia.com</span></code> email link. Added same Calendly button (dark <code>btn-dark</code>) to TRE™ Module 1 Bucharest card.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v64.3 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v64.3</span>
+        <span class="cl-date">2026-06-25</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-added">Added</span></div>
+        <ul>
+          <li><strong>events.html — TRE™ Module 1 Bucharest card</strong> — Added “Book a Call via Calendly →” button (<code>btn-dark</code>) to the Romania TRE™ Module 1 Bucharest event card.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v64.2 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v64.2</span>
+        <span class="cl-date">2026-06-25</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>events.html — Singapore certification card</strong> — Removed “Hosted by Nilayam ·” prefix from the Singapore TRE™ Provider Certification section meta line.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v64.1 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v64.1</span>
+        <span class="cl-date">2026-06-25</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-fixed">Fixed</span></div>
+        <ul>
+          <li><strong>index.html + events.html</strong> — Day label corrected: “Wednesday, 3 September 2026” → “Thursday, 3 September 2026”. Sep 3, 2026 is a Thursday. JS timer targets were already correct.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v64.0 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v64.0</span>
+        <span class="cl-date">2026-06-25</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-fixed">Fixed</span></div>
+        <ul>
+          <li><strong>event-shaking-to-shaping.html</strong> — Footer corrected: <code>foot-copy</code> moved out of Contact column into <code>foot-bottom</code>; <code>foot-bottom</code> restructured with <code>foot-copy</code> + <code>foot-legal</code> divs to match site template. Inline two-column grid replaced with responsive <code>.evtl-two-col</code> class (collapses to 1 column on mobile).</li>
+          <li><strong>event-tre-module1-bucharest.html</strong> — Same footer fix. Two inline grids replaced with responsive <code>.evtl-two-col</code> and <code>.evtl-reg-grid</code> classes. <code>btn-outline</code> (white text, invisible on white background) corrected to <code>btn-dark</code> in the “Also Available” section.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v63.0 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v63.0</span>
+        <span class="cl-date">2026-06-25</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-added">Added</span><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>events.html — Romania 2026 section</strong> — New event cards added for “From Shaking to Shaping” (3 sessions: Sep 3 online €89, Oct 20 in-person €97, Oct 24 in-person €97) and TRE™ Module 1 Bucharest (Oct 15–17, 21 ICF CCEUs). First in Europe in English.</li>
+          <li><strong>events.html + index.html — Countdown timers updated</strong> — Both countdown targets updated to 3 September 2026 10:00 EET (<code>2026-09-03T10:00:00+03:00</code>) for the “From Shaking to Shaping” online workshop.</li>
+          <li><strong>event-shaking-to-shaping.html — New landing page</strong> — Full event page for the 3-session TRE™ workshop series. Includes live session countdown, pricing (€89 / €97), facilitator bios (Isabelle Claus Teixeira + Saymara Ryon), structured data, collaboration strip (Învață să Zbori SRL + TRE™ România).</li>
+          <li><strong>event-tre-module1-bucharest.html — New landing page</strong> — Full event page for TRE™ Module 1 Bucharest, Oct 15–17 2026. 3-day schedule, 21 ICF CCEUs callout, registration section (HummingBeing + TRE™ Romania), facilitator bios, cross-link to intro workshop.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v62.0 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v62.0</span>
+        <span class="cl-date">2026-06-25</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>All 9 hero sections updated</strong> — New designated images and videos sourced from per-page hero folders: index (cinematic woman), about (impressionistic / contemplative hands), gallery (hummingbird — brand-aligned), socials (arms / two individuals), events (five professionals group), retreats-workshops (natural light woman — was wrongly using events assets), tre-certification (modern office / naturalistic woman), holistic-mastermind (professional office woman), book (office man / woman cinematic).</li>
+          <li><strong>Preload tags corrected</strong> — Added missing hero preloads on retreats-workshops.html and tre-certification.html; fixed wrong preload on holistic-mastermind.html (was pointing to about page image).</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v61.0 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v61.0</span>
+        <span class="cl-date">2026-06-25</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-added">Added</span></div>
+        <ul>
+          <li><strong>gallery.html — 15 new images added</strong> — Da Nang TRE™ Conference Nov 2025, Dinner with David Berceli, Indoor skydiving with TRE™ colleagues, 4× Isabelle &amp; Saymara, TRE™ Module 1 May 2026, Isabelle with David Berceli &amp; Simba Stenqvist &amp; Nikki Tay, INSEAD campus visit, UK TRE™ students at Singapore airport, 2× UK TRE™ provider students, Asia TRE™ trainers with David Berceli, Chris Balsley Master Coach. All images copy from source and renamed to web-friendly slugs.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v60.0 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v60.0</span>
+        <span class="cl-date">2026-06-25</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-fixed">Fixed</span>
+        </div>
+        <ul>
+          <li><strong>retreats-workshops.html — Retreat cards grid</strong> — Executive Retreat Programmes card grid fixed to 2 columns (overrides the default 3-column <code>cards-grid</code> layout).</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v59.0 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v59.0</span>
+        <span class="cl-date">2026-06-25</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-changed">Changed</span>
+        </div>
+        <ul>
+          <li><strong>All 15 pages — Services nav: 5 items → 3 items</strong> — Per the original brief (3 service categories): removed TRE™ Exercises, Coaching, Somatic Healing from nav (pages remain accessible). Kept Holistic Mastermind Ecosystem; renamed “Global TRE™ Certification” → “Global Certifications”; added “Resilience Retreats” (retreats-workshops.html, moved from Events).</li>
+          <li><strong>All 15 pages — Events dropdown removed</strong> — Events is now a single direct link to events.html. Retreats &amp; Workshops moved to Services.</li>
+          <li><strong>All 15 pages — Footer Services list updated</strong> — Now lists Holistic Mastermind Ecosystem, Global Certifications, Resilience Retreats and Book a Session.</li>
+          <li><strong>retreats-workshops.html — Active state</strong> — Now correctly shows Services toggle active with “Resilience Retreats” highlighted.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v58.0 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v58.0</span>
+        <span class="cl-date">2026-06-25</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-fixed">Fixed</span>
+          <span class="cl-tag cl-tag-changed">Changed</span>
+        </div>
+        <ul>
+          <li><strong>somatic-healing.html + retreats-workshops.html — Ticker</strong> — “BHD Asia &amp; BHD Japan” still present in both pages; corrected to “Business &amp; Human Development”.</li>
+          <li><strong>gallery.html — Wrong YouTube video removed</strong> — ID <code>1PT1crBhhUE</code> (TRE™ FOR AFRICA Foundation video) appeared twice: podcast card link and embedded video card. Both replaced with channel links to <a href="https://www.youtube.com/@IsabelleClausTeixeira" target="_blank" rel="noopener">@IsabelleClausTeixeira</a>.</li>
+          <li><strong>somatic-coaching.html — “Eastern Wisdom + Neuroscience” tag removed</strong> — Replaced with “Neuroscience + Somatics”. Title, meta, OG, Twitter, JSON-LD service name all updated from “Somatic Coaching Singapore” to “Coaching | Somatic, Trauma &amp; Neuroscience-Informed”. CTA button updated.</li>
+          <li><strong>about.html — Stale service names</strong> — “Somatic Coaching” → “Coaching” and “Bodywork” → “Mindfulness” across meta description, OG, Twitter, JSON-LD and body text.</li>
+          <li><strong>All 15 pages — Ticker</strong> — “Somatic Coaching” → “Coaching”; “Strozzi Bodywork Method” → “Mindfulness” across every page.</li>
+          <li><strong>All 15 pages — Nav Coaching label</strong> — “Coaching, somatic, trauma and neuroscience informed.” shortened to “Coaching”.</li>
+          <li><strong>index.html — Title/OG/Twitter/JSON-LD</strong> — “Somatic Coaching in Singapore &amp; Japan” → “Coaching in Japan &amp; Worldwide”; JSON-LD description updated.</li>
+          <li><strong>tre.html — Meta/OG/Twitter</strong> — “certified TRE™ Provider” → “Global TRE™ Certifying Trainer” in all three tags. OG image alt updated.</li>
+          <li><strong>holistic-mastermind.html — Ticker position</strong> — Ticker was rendering above the hero; moved to after the hero, matching all other pages.</li>
+          <li><strong>socials.html — Stale ticker item removed</strong> — Removed “Certified TRE™ Provider” ticker items (stale alongside correct “Global TRE™ Certifying Trainer”).</li>
+          <li><strong>isabelle.html — JSON-LD + keywords</strong> — <code>knowsAbout</code> updated (added Breathwork, Reiki; removed Somatic Bodywork). <code>workLocation</code> Singapore entry removed. Keywords updated to Japan.</li>
+          <li><strong>book.html — Title, FAQ, keywords</strong> — “HummingBeing Singapore” → “HummingBeing”; FAQ in-person location updated to Japan only; keywords updated.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v57.0 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v57.0</span>
+        <span class="cl-date">2026-06-25</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-fixed">Fixed</span>
+        </div>
+        <ul>
+          <li><strong>All 15 pages — Footer copyright separator</strong> — Changed middle dot (<code>·</code>) to em dash (<code>—</code>) between brand and company name. Now reads: “© 2026 HummingBeing — Business and Human Development Consulting Pte Ltd”.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v56.0 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v56.0</span>
+        <span class="cl-date">2026-06-25</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-fixed">Fixed</span>
+        </div>
+        <ul>
+          <li><strong>tre.html — Wrong YouTube embed removed</strong> — The embedded video (ID <code>1PT1crBhhUE</code>) was a TRE™ FOR AFRICA Foundation video, not Isabelle’s content. Replaced with a CTA linking to Isabelle’s YouTube channel (<a href="https://www.youtube.com/@IsabelleClausTeixeira" target="_blank" rel="noopener">@IsabelleClausTeixeira</a>). Caption “Watch a real TRE™ group session led by Isabelle” was factually incorrect and is removed. A specific video can be embedded once Isabelle supplies the URL.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v55.0 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v55.0</span>
+        <span class="cl-date">2026-06-25</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-fixed">Fixed</span>
+        </div>
+        <ul>
+          <li><strong>isabelle.html — Continuously Studying card</strong> — Added missing sentence from original feedback doc: “Isabelle is passionate and dedicated to her own development so she can best serve her clients and ensure her practice reflects the latest developments.”</li>
+          <li><strong>book.html — “Somatic Coaching” → “Coaching”</strong> — Replaced in 3 visible-text locations: service form dropdown, FAQ answer, and Session Lengths sidebar. Meta/OG/Twitter descriptions also updated (Somatic Coaching → Coaching, Somatic Bodywork → Mindfulness, Singapore &amp; Japan → Japan).</li>
+          <li><strong>All 15 pages — Ticker</strong> — “BHD Asia &amp; BHD Japan” → “Business &amp; Human Development” in scrolling ticker across every page.</li>
+          <li><strong>events.html — Title &amp; meta</strong> — “TRE™ Events &amp; Workshops Singapore &amp; Japan” → “TRE™ Events &amp; Workshops | Japan &amp; Worldwide”. Meta description updated to “in Japan and worldwide”.</li>
+          <li><strong>Blocked (pending Isabelle)</strong> — Hero image on index.html still uses original image. Feedback doc provides 5 reference stock images showing business-professional direction (mid/senior level, stress management context). Will swap once actual file is supplied.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v54.0 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v54.0</span>
+        <span class="cl-date">2026-06-25</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-fixed">Fixed</span>
+          <span class="cl-tag cl-tag-changed">Changed</span>
+        </div>
+        <ul>
+          <li><strong>All 15 pages — TRE™ Trainer Trainee → Global TRE™ Certifying Trainer</strong> — Bulk replacement across all tickers, meta descriptions, OG tags, Twitter cards, and JSON-LD structured data. Zero remaining “Trainer Trainee” references sitewide.</li>
+          <li><strong>isabelle.html — Full meta overhaul</strong> — Title, meta description, OG, Twitter, JSON-LD <code>jobTitle</code>, <code>description</code>, and <code>hasCredential</code> all updated to Global TRE™ Certifying Trainer. “25+ years” → “30 years”. Keywords updated.</li>
+          <li><strong>isabelle.html — Credential card body text</strong> — Visible card copy updated: “Accredited as a Global TRE™ Certifying Trainer and Certified Provider under Dr. David Berceli’s methodology — the highest level of TRE™ qualification worldwide.”</li>
+          <li><strong>index.html — Meta/schema</strong> — Meta description, OG, Twitter, JSON-LD description and <code>serviceType</code>: “Somatic Bodywork” → “Mindfulness” throughout.</li>
+          <li><strong>somatic-healing.html — Nav fixed</strong> — Services dropdown was missing Holistic Mastermind Ecosystem and Global TRE™ Certification items; now shows all 5.</li>
+          <li><strong>holistic-mastermind.html — Structural fix</strong> — Removed erroneous <code>&lt;header&gt;</code> wrapper around <code>&lt;nav&gt;</code>.</li>
+          <li><strong>somatic-bodywork.html — Nav active class</strong> — Services dropdown toggle now has <code>active</code> class, matching all other service pages.</li>
+          <li><strong>book.html — Service names</strong> — Form dropdown and session lengths sidebar: “Somatic Bodywork” → “Mindfulness”.</li>
+          <li><strong>tre-certification.html — Footer order</strong> — “Holistic Mastermind Ecosystem” moved to first position in Services list.</li>
+          <li><strong>socials.html — Title tag</strong> — “Podcast &amp; Resources” → “Follow &amp; Connect | Social Media &amp; Resources”.</li>
+          <li><strong>All 14 ticker pages — Ticker item</strong> — “Somatic Bodywork” ticker item replaced with “Mindfulness”.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v53.0 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v53.0</span>
+        <span class="cl-date">2026-06-25</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-changed">Changed</span>
+          <span class="cl-tag cl-tag-added">Added</span>
+        </div>
+        <ul>
+          <li><strong>somatic-bodywork.html — Full page rewrite as Mindfulness</strong> — Page completely rebuilt around the Mindfulness service (6 or 8-session personalised journey to bring neuroscience-backed mindfulness practices to daily life). New sections: What Is This Programme, Six Pillars of Your Daily Practice (6 cards), Changes You Might Start to Notice, Programme Journey (4 steps), Who This Serves, Client Voices testimonials. Title, meta, schema, OG all updated to reflect Mindfulness positioning.</li>
+          <li><strong>Nav — All 13 existing pages updated</strong> — Services dropdown now includes <code>Holistic Mastermind Ecosystem</code> and <code>Global TRE™ Certification</code> after Somatic Healing across all 13 existing HTML pages.</li>
+          <li><strong>Footer — All 13 existing pages updated</strong> — Services footer list now includes <code>Holistic Mastermind Ecosystem</code> (first) and <code>Global TRE™ Certification</code> (before Book a Session) across all 13 existing pages.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v52.0 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v52.0</span>
+        <span class="cl-date">2026-06-25</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-added">Added</span>
+        </div>
+        <ul>
+          <li><strong>New page — holistic-mastermind.html</strong> — Full service overview page for The Holistic Mastermind Ecosystem: the overarching four-pillar leadership framework.</li>
+          <li><strong>Hero</strong> — Video hero (poster-coaching / hero-coaching.mp4); eyebrow “The Framework”; H1 “The Holistic Mastermind Ecosystem”; dual CTA: Book a Free Discovery Call + Meet Isabelle.</li>
+          <li><strong>Section 1 — Why Holistic?</strong> — Two-col layout (about-why-exists.jpg left); 3 paragraphs on physiological performance premise; four tags: Cognitive Optimization, Somatic Decompression, Energetic Mastery, Expressive Vision.</li>
+          <li><strong>Section 2 — The Four Pillars</strong> — <code>section-sage</code>; 4-card grid (gold-top/sage-top/green-top/gold-top): I. The Tactical Mind, II. The Somatic Vessel, III. The Energetic Matrix, IV. The Expressive Vision — each with icon, tagline, description and service tags.</li>
+          <li><strong>Section 3 — Your Journey</strong> — <code>section-white</code>; 4-step pathway: Discovery → Foundation Work → Pillar Integration → Sustained Transformation.</li>
+          <li><strong>Section 4 — The Right Guide</strong> — <code>section-cream</code>; two-col reverse (isabelle-her-story.jpg); credentials narrative + 6-item feature list (ICF PCC, Global TRE™ Certifying Trainer, Strozzi, Reiki, Breathwork, NLP &amp; Mindfulness); inline CTA to isabelle.html.</li>
+          <li><strong>CTA banner</strong> — “Ready to Work at Every Level?” with Book a Free Discovery Call.</li>
+          <li><strong>Nav</strong> — Services dropdown active state on Holistic Mastermind Ecosystem.</li>
+          <li><strong>Footer</strong> — Full updated Services list including Holistic Mastermind Ecosystem and Global TRE™ Certification.</li>
+          <li><strong>Ticker</strong> — Extended with Holistic Mastermind Ecosystem, Four Pillars of Leadership, The Tactical Mind, The Somatic Vessel, The Energetic Matrix, The Expressive Vision, Cognitive Optimization, Energetic Mastery entries.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v51.0 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v51.0</span>
+        <span class="cl-date">2026-06-25</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-added">Added</span>
+        </div>
+        <ul>
+          <li><strong>New page — tre-certification.html</strong> — Full certification service page for Isabelle’s Global TRE™ Provider Certification training. Hero with dual CTA (Enquire / Learn About TRE™), custom ticker, and 6 content sections.</li>
+          <li><strong>Section 1 — Your Trainer</strong> — Two-col with image: Isabelle as Global TRE™ Certifying Trainer accredited by TRE™ for All under Dr. David Berceli’s methodology. Tags: Global TRE™ Certifying Trainer, Dr. David Berceli Methodology, 30 Years Experience, Asia Pacific &amp; Global.</li>
+          <li><strong>Section 2 — Why TRE™ Is Worth Certifying In</strong> — 6-card grid (Evidence-Based, Teachable, Physiologically Grounded, Versatile, Globally Recognised, Fast to See Results).</li>
+          <li><strong>Section 3 — How the Certification Works</strong> — 4-step pathway: Module 1 (in-person) → Supervised Practice → Module 2 (in-person or online) → Certification (TRE™ for All certificate).</li>
+          <li><strong>Section 4 — Who This Is For</strong> — Two-col with feature list: coaches, therapists, HR/OD, physios/yoga teachers, trauma support workers, practitioners with personal TRE™ experience.</li>
+          <li><strong>Section 5 — Upcoming Trainings</strong> — 3 cards: Module 1 Singapore (29–30 Aug 2026), Module 1 Japan (TBC), Online Option.</li>
+          <li><strong>Section 6 — What’s Included</strong> — Two-col with feature list covering all training inclusions; note on variable pricing; Enquire CTA.</li>
+          <li><strong>CTA banner</strong> — “Ready to Add TRE™ to Your Practice?” with Enquire Now button.</li>
+          <li><strong>Nav</strong> — Services dropdown includes Holistic Mastermind Ecosystem and Global TRE™ Certification entries.</li>
+          <li><strong>Footer</strong> — Services list includes Global TRE™ Certification and Holistic Mastermind Ecosystem; BHD full name; Japan &amp; Worldwide.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v50.0 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v50.0</span>
+        <span class="cl-date">2026-06-25</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-changed">Changed</span>
+          <span class="cl-tag cl-tag-added">Added</span>
+        </div>
+        <ul>
+          <li><strong>index.html</strong> — Hero eyebrow updated to "Holistic Mastermind Ecosystem" (removed location); hero tagline updated to "Cognitive optimization, somatic decompression, neuroscience, and energetic mastery."; "Start with a Free Chat" button now links to Calendly.</li>
+          <li><strong>index.html</strong> — Service cards: "Somatic Coaching" → "Coaching" and "Somatic Bodywork" → "Mindfulness" with updated descriptions.</li>
+          <li><strong>about.html</strong> — Hero updated: "A Safe Space to" → "Science Backed Processes to"; subtitle updated to 30 years + trauma-informed + mindfulness + somatics.</li>
+          <li><strong>about.html</strong> — Mission section: "rooted in neuroscience and Eastern wisdom" → "trauma-informed, mindfulness and neuroscience backed practices".</li>
+          <li><strong>about.html</strong> — BHD section: "BHD Asia &amp; BHD Japan" → "Business and Human Development Consulting Pte Ltd".</li>
+          <li><strong>isabelle.html</strong> — Hero subtitle replaced with full credentials list (PCC, Resilience Coach, Mindfulness Teacher, Somatic Coach, Somatic Bodyworker, Global TRE™ Certifying Trainer, Provider, Breathwork Facilitator, Reiki &amp; Core Shamanism Healer).</li>
+          <li><strong>isabelle.html</strong> — Credentials cards: TRE™ card → "Global TRE™ Certifying Trainer &amp; Certified TRE™ Provider"; Executive Coach card → "ICF PCC Level Certified Executive Coach"; Reiki card → "Certified Accredited Usui/Holy Fire III Reiki Healer" and moved up to position 4; Ongoing Studies → "Continuously Studying &amp; Growing" with updated text.</li>
+          <li><strong>isabelle.html</strong> — Info strip: location → "Currently living in Japan and working globally"; languages → "English, Spanish and French"; experience → "global, European and Asia Pacific"; BHD name updated.</li>
+          <li><strong>isabelle.html</strong> — "Three Ways to Begin": "Somatic Coaching" → "Coaching"; "Somatic Bodywork" → "Mindfulness".</li>
+          <li><strong>somatic-coaching.html</strong> — Hero updated to reflect coaching positioning (somatic, trauma and neuroscience informed).</li>
+          <li><strong>retreats-workshops.html</strong> — Added "Resilience Retreats for Professionals" section with The Corporate Detox (5 days/4 nights) and The Quick Reset (3 days/2 nights) programme descriptions.</li>
+          <li><strong>All 13 pages — Footer</strong> — "BHD Asia &amp; BHD Japan" → "Business and Human Development Consulting Pte Ltd" (footer description, BHD name, copyright); "A safe space to learn" → "Science backed processes"; footer Services "Somatic Coaching" → "Coaching"; contact location "Singapore &amp; Japan" → "Japan &amp; Worldwide".</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v49.0 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v49.0</span>
+        <span class="cl-date">2026-06-24</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-added">Added</span>
+          <span class="cl-tag cl-tag-changed">Changed</span>
+        </div>
+        <ul>
+          <li><strong>Nav — Services dropdown restructured (all 13 pages)</strong> — "Somatic Coaching" renamed to "Coaching, somatic, trauma and neuroscience informed."; "Somatic Bodywork" removed from nav (page still accessible); new "Somatic Healing" item added linking to new page.</li>
+          <li><strong>Nav — Events converted to dropdown (all 13 pages)</strong> — Plain "Events" link replaced with a dropdown containing "Upcoming Events" (existing page) and "Retreats and Workshops" (new page).</li>
+          <li><strong>New page — somatic-healing.html</strong> — Full service page for Somatic Healing covering the four modalities: Reiki, Somatic Bodywork, Breathwork and EFT. Includes benefits, who it serves, and Isabelle credentials sections.</li>
+          <li><strong>New page — retreats-workshops.html</strong> — Page covering group retreat and workshop offerings: day workshops, weekend immersions, corporate wellness, TRE™ group sessions, somatic healing circles and professional training.</li>
+          <li><strong>about.html — Hummingbird Metaphor text expanded</strong> — Added two new paragraphs describing the hummingbird’s symbolism (joy, resilience, adaptability, perseverance, presence, lightness of being) and positive energy as a reminder to take care of physical and mental health.</li>
+          <li><strong>Footer — Services links updated (all 13 pages)</strong> — Replaced "Somatic Bodywork" with "Somatic Healing"; added "Retreats and Workshops" link.</li>
+          <li><strong>Footer — Company links updated (all 13 pages)</strong> — Added "Retreats and Workshops" link after Events.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v48.4 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v48.4</span>
+        <span class="cl-date">2026-06-20</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-fixed">Fix</span>
+          <span class="cl-tag cl-tag-changed">Mobile</span>
+        </div>
+        <ul>
+          <li><strong>Mobile nav dropdown — card border removed</strong> — Desktop <code>.nav-dropdown-menu</code> had <code>border: 1px solid</code> on all sides; mobile override only removed <code>border-top</code>, leaving a visible card effect. Rewrote mobile block: all borders cleared with <code>border: none !important</code>, cream background, no margin, items indented 2rem with lighter weight.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v48.3 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v48.3</span>
+        <span class="cl-date">2026-06-20</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-fixed">Fix</span>
+          <span class="cl-tag cl-tag-changed">Mobile</span>
+        </div>
+        <ul>
+          <li><strong>Mobile nav dropdown — uppercase removed</strong> — Services sub-items rendered in ALL CAPS on mobile due to <code>text-transform: uppercase</code> not being overridden at 900px. Fixed with <code>text-transform: none</code>, tighter letter-spacing, and font-weight 600 to match surrounding nav links.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v48.2 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v48.2</span>
+        <span class="cl-date">2026-06-20</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-fixed">Fix</span>
+          <span class="cl-tag cl-tag-changed">Mobile</span>
+        </div>
+        <ul>
+          <li><strong>isabelle.html — info strip mobile alignment</strong> — Fixed <code>.info-item + .info-item</code> keeping its <code>2rem</code> left padding on mobile (specificity override). Items 2–4 were indented relative to item 1 on narrow screens. Added explicit <code>padding-left: 0</code> reset at 820px breakpoint and <code>column-gap: 1.5rem</code> for the 2-column tablet view.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v48.1 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v48.1</span>
+        <span class="cl-date">2026-06-20</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-fixed">Fix</span>
+          <span class="cl-tag cl-tag-changed">Performance</span>
+        </div>
+        <ul>
+          <li><strong>CSS — will-change completed</strong> — Added <code>will-change: transform</code> to <code>.ticker-track</code> and <code>.wa-float</code>; <code>will-change: opacity, transform</code> to <code>.anim-up</code> (missed in v48.0 deploy).</li>
+          <li><strong>CSS — utility classes completed</strong> — Added <code>.section-cta-center</code>, <code>.foot-logo img</code>, <code>.foot-sep</code>, and <code>.g-hidden { display: none !important }</code> (missed in v48.0 deploy).</li>
+          <li><strong>CSS — tablet two-col fix</strong> — Added <code>.two-col-image { min-height: 280px }</code> inside <code>@media (max-width: 900px)</code> block (missed in v48.0 deploy).</li>
+          <li><strong>somatic-coaching.html — section background</strong> — Changed Pricing section from <code>section-white</code> to <code>section-cream</code> to prevent consecutive same-background sections.</li>
+          <li><strong>All pages — CSS version bump</strong> — Bumped <code>styles.css</code> cache-bust to <code>v87</code> to ensure browsers pick up corrected stylesheet.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v48.0 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v48.0</span>
+        <span class="cl-date">2026-06-20</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-changed">Performance</span>
+          <span class="cl-tag cl-tag-fixed">Accessibility</span>
+          <span class="cl-tag cl-tag-added">SEO</span>
+          <span class="cl-tag cl-tag-changed">Mobile</span>
+        </div>
+        <ul>
+          <li><strong>Google Fonts — render-blocking eliminated</strong> — Replaced CSS <code>@import</code> with <code>&lt;link rel="preconnect"&gt;</code> + stylesheet link in HTML on all pages.</li>
+          <li><strong>Font Awesome — CDN preconnect</strong> — Added <code>rel="preconnect"</code> hint for <code>cdnjs.cloudflare.com</code> on all pages.</li>
+          <li><strong>CSS — will-change added to animated elements</strong> — Added <code>will-change</code> to <code>.ticker-track</code>, <code>.wa-float</code>, and <code>.anim-*</code> for smoother GPU-composited animation.</li>
+          <li><strong>CSS — dead code removed</strong> — Removed unused <code>@keyframes btn-pulse-gold</code> and unused CSS variables.</li>
+          <li><strong>CSS — utility classes added</strong> — Added <code>.section-cta-center</code>, <code>.logo img</code>, <code>.foot-logo img</code>, <code>.foot-sep</code>, and <code>.g-hidden</code>.</li>
+          <li><strong>CSS — tablet layout fix</strong> — Added <code>.two-col-image</code> <code>min-height: 280px</code> at 900px breakpoint.</li>
+          <li><strong>All pages — GA4 placeholder scripts removed</strong> — Deleted <code>G-XXXXXXXXXX</code> Analytics blocks from all 11 pages.</li>
+          <li><strong>All pages — image lazy-loading</strong> — Added <code>loading="lazy" decoding="async"</code> and explicit <code>width</code>/<code>height</code> attributes to all below-fold images (CLS improvement).</li>
+          <li><strong>All pages — hero video accessibility</strong> — Added <code>title</code> attributes to all hero video elements (WCAG 1.1.1).</li>
+          <li><strong>All pages — scripts.js defer</strong> — Added <code>defer</code> attribute to <code>scripts.js</code> on all pages.</li>
+          <li><strong>All pages — nav dropdown href fixed</strong> — Changed Services toggle from <code>href="#"</code> to <code>href="javascript:void(0)"</code>.</li>
+          <li><strong>All pages — copyright year updated</strong> — Updated footer copyright from 2024 to 2026 across all pages.</li>
+          <li><strong>All pages — dead policy links</strong> — Converted non-existent Privacy Policy and Terms of Service links to plain text <code>&lt;span&gt;</code> elements.</li>
+          <li><strong>index.html — CTA after steps section</strong> — Added Book a Free Chat CTA button after the How It Works steps; alternated section backgrounds for visual separation.</li>
+          <li><strong>isabelle.html — Global Journey padding</strong> — Moved <code>#global-journey</code> inline padding to a CSS rule.</li>
+          <li><strong>tre.html — inline min-height removed</strong> — Removed inline <code>min-height</code> from <code>.two-col-image</code>.</li>
+          <li><strong>somatic-coaching.html — heading hierarchy fixed</strong> — Changed <code>&lt;h4&gt;</code> to <code>&lt;h3&gt;</code> for correct heading structure; alternated section backgrounds.</li>
+          <li><strong>somatic-bodywork.html — heading hierarchy fixed</strong> — Changed <code>&lt;h4&gt;</code> to <code>&lt;h3&gt;</code> for correct heading structure.</li>
+          <li><strong>about.html — inline min-height removed</strong> — Removed inline <code>min-height</code> from <code>.two-col-image</code>.</li>
+          <li><strong>events.html — countdown ring max fixed; dead CSS removed</strong> — Fixed countdown ring max value; removed dead CSS classes.</li>
+          <li><strong>gallery.html — filter class-based toggle</strong> — Fixed <code>galleryFilter</code> to use class-based toggle instead of direct style manipulation.</li>
+          <li><strong>socials.html — external link security</strong> — Added <code>rel="noopener noreferrer"</code> to all external blank-target links.</li>
+          <li><strong>changelog.html — SEO &amp; structure</strong> — Added <code>noindex</code> meta; replaced marketing hero with minimal header; removed ticker.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v47.12 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v47.12</span>
+        <span class="cl-date">2026-06-20</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-changed">Changed</span>
+        </div>
+        <ul>
+          <li><strong>index.html — GA4 placeholder removed</strong> — Deleted the <code>G-XXXXXXXXXX</code> Google Analytics script block (comment + two script tags).</li>
+          <li><strong>index.html — Google Fonts added (CSS v86)</strong> — Added preconnect hints for <code>fonts.googleapis.com</code> and <code>fonts.gstatic.com</code>, plus stylesheet for Playfair Display, PT Serif, Lato, and Raleway. Bumped stylesheet version to v86.</li>
+          <li><strong>index.html — FA preconnect</strong> — Added <code>rel="preconnect"</code> hint for <code>cdnjs.cloudflare.com</code> before the Font Awesome stylesheet.</li>
+          <li><strong>index.html — scripts.js defer</strong> — Added <code>defer</code> attribute to the scripts.js script tag to improve page load performance.</li>
+          <li><strong>index.html — Nav dropdown href fixed</strong> — Changed Services toggle from <code>href="#"</code> to <code>href="javascript:void(0)"</code> to prevent unwanted scroll-to-top on click.</li>
+          <li><strong>index.html — Copyright year updated</strong> — Footer copyright changed from 2024 to 2026.</li>
+          <li><strong>index.html — Dead links replaced</strong> — Privacy Policy and Terms of Service changed from <code>&lt;a href="#"&gt;</code> to <code>&lt;span&gt;</code> since no destination pages exist yet.</li>
+          <li><strong>index.html — Footer separator class</strong> — Replaced inline <code>style="opacity:.4"</code> on the footer <code>·</code> separator with <code>class="foot-sep"</code>.</li>
+          <li><strong>index.html — Hero video title</strong> — Added <code>title="Somatic wellness — HummingBeing background video"</code> for accessibility.</li>
+          <li><strong>index.html — Image attributes</strong> — Nav logos get <code>width="168" height="56"</code>; footer logo gets <code>width="144" height="48"</code>; all body images get <code>loading="lazy" decoding="async"</code> and <code>width="800" height="600"</code>.</li>
+          <li><strong>index.html — Steps CTA added</strong> — Inserted <code>.section-cta-center</code> "Book a Free Chat" button after the How It Works steps.</li>
+          <li><strong>index.html — Who It's For section</strong> — Changed second consecutive <code>section-cream</code> (Who It's For) to <code>section-white</code> for visual separation.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v47.11 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v47.11</span>
+        <span class="cl-date">2026-06-20</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-fixed">Fixed</span>
+        </div>
+        <ul>
+          <li><strong>isabelle.html — Global Journey section stacking</strong> — The <code>#global-journey .two-col</code> inline style (<code>1.05fr 0.95fr</code>) had higher CSS specificity than the responsive rule, preventing it from stacking to single column on mobile. Fixed by adding an explicit <code>@media (max-width: 900px)</code> override with <code>!important</code> inside the page's own <code>&lt;style&gt;</code> block.</li>
+          <li><strong>somatic-coaching.html — Pricing grid responsive</strong> — Replaced the inline <code>grid-template-columns: repeat(3,1fr)</code> style attribute (which cannot be overridden by media queries) with the existing <code>.pricing-grid</code> CSS class, which already collapses to 1 column at 900px.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v47.10 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v47.10</span>
+        <span class="cl-date">2026-06-20</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-fixed">Fixed</span>
+        </div>
+        <ul>
+          <li><strong>iOS Safari — CTA button centering (CSS v85)</strong> — Added <code>-webkit-fit-content</code> vendor prefix alongside <code>fit-content</code> so CTA buttons centre correctly on iPhone and older Safari browsers.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v47.9 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v47.9</span>
+        <span class="cl-date">2026-06-20</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-fixed">Fixed</span>
+        </div>
+        <ul>
+          <li><strong>Mobile — Horizontal overflow eliminated (CSS v84)</strong> — Added <code>overflow-x: hidden</code> to <code>html</code> and <code>body</code>. This prevents any element (ticker animation, translated elements, fixed-width components) from creating extra horizontal space or a scroll gutter on mobile devices.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v47.8 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v47.8</span>
+        <span class="cl-date">2026-06-20</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-fixed">Fixed</span>
+        </div>
+        <ul>
+          <li><strong>Mobile footer — 2-column layout restored (CSS v83)</strong> — Removed the 480px override that collapsed the footer to a single column. Footer now keeps the 2-column grid (Services | Company, Contact below) on all mobile screen sizes, matching the 600px layout.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v47.7 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v47.7</span>
+        <span class="cl-date">2026-06-20</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-fixed">Fixed</span>
+        </div>
+        <ul>
+          <li><strong>Mobile — CTA buttons centred in text columns (CSS v82)</strong> — Added responsive CSS so all call-to-action buttons inside two-column text sections centre automatically when the layout stacks to single column on mobile (≤900px). Previously buttons were left-aligned after stacking.</li>
+          <li><strong>Button+subtext rows centred</strong> — Flex-row button/caption combos (e.g. "Book a Free Chat · Free 30-min discovery call") now also centre on mobile via <code>justify-content: center</code>.</li>
+          <li><strong>CSS v82</strong> — Cache version bumped across all 11 pages.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v47.6 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v47.6</span>
+        <span class="cl-date">2026-06-20</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-fixed">Fixed</span>
+          <span class="cl-tag cl-tag-changed">Changed</span>
+        </div>
+        <ul>
+          <li><strong>Mobile — Full responsive overhaul (CSS v81)</strong> — Comprehensive pass across all 11 pages targeting every known mobile layout issue:</li>
+          <li><strong>Two-col images</strong> — Added <code>!important</code> override on <code>min-height: 240px</code> so inline styles (about.html 572px, isabelle.html 520px) no longer make images taller than the viewport on mobile.</li>
+          <li><strong>Isabelle — Global Journey padding</strong> — Overrode the inline <code>padding-top/bottom: 7rem</code> to <code>3rem</code> on screens ≤600px.</li>
+          <li><strong>Platforms grid</strong> — Added missing 1-column breakpoint at 480px (was 2-col even on 375px screens).</li>
+          <li><strong>Footer</strong> — Goes to single column at 480px.</li>
+          <li><strong>Testimonials</strong> — Reduced oversized 5rem quote mark to 3rem on mobile; tightened padding.</li>
+          <li><strong>Countdown bar (homepage)</strong> — Hidden colon separators when stacked; reduced digit size from clamp(2.6rem) to 2rem.</li>
+          <li><strong>Ticker</strong> — Reduced edge fade gradient (80px → 35px at 600px, 18px at 480px) so less content is obscured on narrow screens.</li>
+          <li><strong>Resource list</strong> — Fixed 3-column layout squeeze at 481–599px by applying the 2-col fix at 600px (not just 480px).</li>
+          <li><strong>Section subtitles</strong> — Slightly smaller on mobile; max-width: 100% prevents overflow.</li>
+          <li><strong>CTA banner</strong> — Tighter padding and title size on mobile; buttons stack to column at 480px.</li>
+          <li><strong>Contact form</strong> — Padding reduced from 3rem to 1.8rem × 1.2rem on mobile.</li>
+          <li><strong>Hero buttons</strong> — Wrap cleanly and stack to full-width on very small screens.</li>
+          <li><strong>Page hero text</strong> — Title and subtitle sizes tuned for 375–480px viewports.</li>
+          <li><strong>Step circles</strong> — Slightly smaller (48px) at 480px.</li>
+          <li><strong>CSS v81</strong> — Cache version bumped across all 11 pages.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v47.5 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v47.5</span>
+        <span class="cl-date">2026-06-20</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-fixed">Fixed</span>
+          <span class="cl-tag cl-tag-changed">Changed</span>
+        </div>
+        <ul>
+          <li><strong>events.html — Event photo frame corners</strong> — Removed <code>border-radius: 12px</code> from <code>.evt-card-img</code>; corners now flush with the card edge.</li>
+          <li><strong>All pages — Changelog removed from footer</strong> — Removed the Changelog link from the Company section in the footer across all 11 pages.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v47.4 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v47.4</span>
+        <span class="cl-date">2026-06-20</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-fixed">Fixed</span>
+        </div>
+        <ul>
+          <li><strong>events.html — Browse All Events button</strong> — Added <code>border-radius: 6px</code> to <code>.btn-ghost-light</code> so it matches the rounded corners of the adjacent Register Now button.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v47.3 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v47.3</span>
+        <span class="cl-date">2026-06-20</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-fixed">Fixed</span>
+        </div>
+        <ul>
+          <li><strong>tre.html — Video section description position</strong> — Moved the subtitle text from above the video to below it. The heading now flows directly into the embed; description reads as a caption beneath.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v47.2 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v47.2</span>
+        <span class="cl-date">2026-06-19</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-added">Added</span>
+          <span class="cl-tag cl-tag-changed">Changed</span>
+        </div>
+        <ul>
+          <li><strong>SEO — Page titles</strong> — All 10 HTML pages now have keyword-rich, location-targeted titles (e.g. <em>"TRE™ Exercises Singapore | Tension &amp; Trauma Release | HummingBeing"</em>) replacing generic placeholders.</li>
+          <li><strong>SEO — Meta descriptions</strong> — All 10 pages updated with concise, keyword-optimised descriptions covering TRE™, somatic coaching, Isabelle's credentials and geo locations (Singapore, Japan, online).</li>
+          <li><strong>SEO — Meta keywords</strong> — Keyword tags added to all 10 pages covering primary and secondary terms: TRE™ Singapore, somatic coaching Singapore, Isabelle Claus Teixeira, nervous system reset, burnout recovery, etc.</li>
+          <li><strong>SEO — Canonical URLs</strong> — <code>&lt;link rel="canonical"&gt;</code> added to all 10 pages pointing to their full GitHub Pages URL.</li>
+          <li><strong>SEO — Robots meta</strong> — <code>index, follow</code> directive added to all 10 pages.</li>
+          <li><strong>AEO/GEO — Open Graph tags</strong> — Full OG set (type, site_name, title, description, url, image, image:alt, locale) added to all 10 pages for rich link previews on LinkedIn, Facebook, WhatsApp, etc.</li>
+          <li><strong>AEO/GEO — Twitter / X Cards</strong> — <code>summary_large_image</code> card tags added to all 10 pages.</li>
+          <li><strong>Structured Data — Organization + WebSite</strong> — JSON-LD schema on index.html with founder, areaServed (Singapore, Japan), serviceType and contactPoint.</li>
+          <li><strong>Structured Data — Person</strong> — JSON-LD schema on isabelle.html with credentials (TRE™ Provider, ICF PCC, Strozzi Practitioner, Reiki II, NLI Coach), knowsAbout and workLocation.</li>
+          <li><strong>Structured Data — Service ×3</strong> — Schema.org Service schemas on tre.html, somatic-coaching.html and somatic-bodywork.html with provider, areaServed and pricing offers.</li>
+          <li><strong>Structured Data — FAQPage</strong> — JSON-LD schema on book.html with all 6 actual FAQ accordion questions and answers.</li>
+          <li><strong>Structured Data — Event ×4</strong> — JSON-LD Event schemas on events.html for the 4 upcoming workshops/certification modules (Aug 2026 – Feb 2027) with dates, location, organizer and pricing.</li>
+          <li><strong>Google Tag (GA4 placeholder)</strong> — Async GA4 snippet added to all 10 pages with placeholder <code>G-XXXXXXXXXX</code> — replace with real Measurement ID to activate analytics.</li>
+          <li><strong>sitemap.xml</strong> — New file listing all 10 pages with change frequencies and priorities.</li>
+          <li><strong>robots.txt</strong> — New file allowing all crawlers and referencing the sitemap.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v47.1 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v47.1</span>
+        <span class="cl-date">2026-06-19</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-added">Added</span>
+          <span class="cl-tag cl-tag-changed">Changed</span>
+        </div>
+        <ul>
+          <li><strong>Chatbot — smarter single-word matching</strong> — Enhanced match engine now handles single-word queries like <code>how</code>, <code>when</code>, <code>pricing</code>, <code>booking</code> with dedicated disambiguation replies and substring lookup. New KB entries added for <em>how / when / what / why / info</em>. Extra synonyms added throughout (booking, reserve, free, invest, sg, jp, etc.).</li>
+          <li><strong>Chatbot — typing indicator</strong> — Three animated gold dots now appear before every bot response for a more natural conversation feel. Input placeholder updated to hint at single-word usage.</li>
+          <li><strong>Chatbot — input auto-focus</strong> — Keyboard focus moves to the text input automatically when the chat window opens.</li>
+          <li><strong>Scroll progress bar</strong> — Thin gold gradient bar at the very top of the page fills as the user scrolls, visible on all pages.</li>
+          <li><strong>Animations — new classes</strong> — Added <code>anim-scale</code> (scale-bounce for step number circles), <code>anim-fade</code> (opacity-only), and <code>anim-line</code> (dividers draw in from left).</li>
+          <li><strong>Animations — expanded targets</strong> — Section center headers, standalone cards, CTA banners, feature list items, info strip items, divider lines, resource rows, and changelog entries now all animate on scroll.</li>
+          <li><strong>Image hover zoom</strong> — Two-col section images scale up 5% on hover for depth and interactivity.</li>
+          <li><strong>Card hover lift + glow</strong> — All <code>.card</code> elements now lift and show a gold border glow on hover.</li>
+          <li><strong>CSS v80</strong> — Styles cache version bumped across all 11 pages.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v47.0 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v47.0</span>
+        <span class="cl-date">2026-06-19</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-added">Added</span>
+          <span class="cl-tag cl-tag-changed">Changed</span>
+        </div>
+        <ul>
+          <li><strong>book.html — Isabelle card portrait</strong> — Replaced generic <code>fa-user</code> icon with Isabelle's real portrait photo (<code>isabelle-her-story.jpg</code>), displayed as a circular 90px avatar with gold border using the existing <code>.isa-avatar</code> class.</li>
+          <li><strong>about.html — Hummingbird Metaphor image frame</strong> — Converted plain <code>&lt;img&gt;</code> to a <code>.two-col-image</code> wrapper with <code>min-height:572px</code> (10% taller than the standard 520px), so the image fills its column consistently with other sections.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v46.9 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v46.9</span>
+        <span class="cl-date">2026-06-19</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-fixed">Fixed</span>
+        </div>
+        <ul>
+          <li><strong>tre.html — TRE™ in Asia heading</strong> — Changed <code>font-weight:300</code> to <code>700</code> so heading matches the bold weight used across all other page sections.</li>
+          <li><strong>somatic-bodywork.html — Soma heading</strong> — Fixed wrong HTML entity: <code>&amp;#7766;</code> (Latin Ṗ) corrected to <code>&amp;#8182;</code> (Greek ῶ — omega with perispomeni). Now renders correctly as Soma (σῶμα). Also changed <code>font-weight:300</code> to <code>700</code>.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v46.8 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v46.8</span>
+        <span class="cl-date">2026-06-19</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-fixed">Fixed</span>
+        </div>
+        <ul>
+          <li><strong>isabelle.html — Global Journey image</strong> — Replaced remaining external WordPress URL (<code>isatall.jpg</code>) with local <code>isabelle-her-story.jpg</code>. No more dependencies on old WordPress host.</li>
+          <li><strong>gallery.html — 2 image cards</strong> — Replaced last 2 external WordPress image URLs with local images: "Isabelle Claus Teixeira" → <code>gallery/gallery-isabelle-oct-2023.jpg</code>; "Isabelle at Work" → <code>isabelle-her-story.jpg</code>. All gallery images now self-hosted.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v46.7 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v46.7</span>
+        <span class="cl-date">2026-06-19</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-fixed">Fixed</span>
+          <span class="cl-tag cl-tag-added">Added</span>
+          <span class="cl-tag cl-tag-changed">Changed</span>
+        </div>
+        <ul>
+          <li><strong>isabelle.html — info strip</strong> — Fixed critical CSS parse bug: orphaned <code>.card-img</code> properties (leftover from v46.4) caused the parser to swallow the <code>.info-strip</code> rule entirely, leaving the strip as <code>display:block</code> instead of the intended 4-column grid. Removed orphaned declarations.</li>
+          <li><strong>isabelle.html — Her Story image</strong> — Replaced external WordPress URL with local <code>isabelle-her-story.jpg</code> (Isabelle October 2023 portrait).</li>
+          <li><strong>isabelle.html — Global Journey frame</strong> — Image frame made 5% narrower (<code>grid-template-columns: 1.05fr 0.95fr</code>) and 10% taller (<code>min-height: 572px</code>) via scoped <code>#global-journey</code> CSS.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v46.6 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v46.6</span>
+        <span class="cl-date">2026-06-19</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-added">Added</span>
+        </div>
+        <ul>
+          <li><strong>about.html — Part of the BHD Family</strong> — Replaced "Photo Coming Soon" placeholder with <code>about-bhd-family.jpg</code> — group somatic healing session on yoga mats (converted from 18.7 MB PNG to 1.2 MB JPG).</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v46.5 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v46.5</span>
+        <span class="cl-date">2026-06-19</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-added">Added</span>
+          <span class="cl-tag cl-tag-changed">Changed</span>
+          <span class="cl-tag cl-tag-fixed">Fixed</span>
+        </div>
+        <ul>
+          <li><strong>scripts.js — chatbot rewrite</strong> — Removed <code>NAV</code> dictionary (no more direct page redirects from suggestion buttons). All suggestion buttons now trigger <code>respond()</code> inline. Page links rendered as styled <code>.hb-link-btn</code> anchor only when answer genuinely requires navigation (Book, Gallery, Events).</li>
+          <li><strong>scripts.js — chatbot KB</strong> — Expanded from 22 to 27 entries with richer keyword lists, input tolerance, and contextual 3–4 suggestion buttons on every response covering all common visitor journeys.</li>
+          <li><strong>scripts.js — match()</strong> — Improved input tolerance: phrase-level exact match, word-level starts-with partial matching, and minimum-overlap threshold — near-miss inputs ("booking", "prices", "tré") now resolve correctly.</li>
+          <li><strong>somatic-coaching.html — Honest About Commitment</strong> — Replaced hourglass icon placeholder with real image (<code>sc-honest-commitment.jpg</code>) — woman stretching in golden sunlight.</li>
+          <li><strong>All pages — nav logo</strong> — Increased from 44 px to 56 px height.</li>
+          <li><strong>All pages — footer logo</strong> — Increased from 38 px to 48 px height.</li>
+          <li><strong>styles.css — .hb-link-btn</strong> — New styled anchor class for chatbot page-link buttons; gold bordered, non-redirecting button aesthetic.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v46.4</span>
+        <span class="cl-date">2026-06-19</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-fixed">Fixed</span><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>gallery.html</strong> — removed 2 remaining "Photo Coming Soon" placeholder cards ("Healing Touch", "Somatic Practice")</li>
+          <li><strong>isabelle.html — Reiki card</strong> — removed image frame from Reiki Practitioner Level II credential card</li>
+          <li><strong>isabelle.html — info strip</strong> — fixed icon + text layout: icon now sits inline beside text (flex row) instead of stacking above it</li>
+          <li><strong>styles.css — logo</strong> — added <code>!important</code> to logo swap rules to prevent both logos showing simultaneously on mobile</li>
+          <li><strong>styles.css — hamburger menu</strong> — reduced mobile nav link padding for a more compact, less space-consuming dropdown</li>
+          <li><strong>styles.css — mobile CTAs</strong> — hero-actions always centered on mobile; events countdown bar stacks vertically and centers on small screens</li>
+          <li><strong>styles.css — feature list</strong> — added <code>padding-left: .75rem</code> container indent for bulleted lists on all pages</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v46.3 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v46.3</span>
+        <span class="cl-date">2026-06-19</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-added">Added</span><span class="cl-tag cl-tag-fixed">Fixed</span></div>
+        <ul>
+          <li><strong>styles.css</strong> — fixed <code>object-fit: contain</code> → <code>cover</code> on <code>.two-col-image img</code> so all section images fill their frames perfectly</li>
+          <li><strong>index.html — Philosophy</strong> — replaced "Photo Coming Soon" placeholder with hummingbird near pink flowers (<code>home-philosophy.jpg</code>)</li>
+          <li><strong>tre.html — What Is TRE™?</strong> — replaced placeholder with woman in quiet awareness (<code>tre-what-is.jpg</code>)</li>
+          <li><strong>tre.html — Benefits</strong> — replaced placeholder with smiling woman post-session (<code>tre-benefits.jpg</code>)</li>
+          <li><strong>somatic-coaching.html — What Is Somatic Coaching?</strong> — corrected misassigned image; now uses proper group coaching scene (<code>sc-what-is.jpg</code>)</li>
+          <li><strong>somatic-coaching.html — What You Can Expect</strong> — replaced placeholder with serene yoga studio scene (<code>sc-what-expect.jpg</code>)</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v46.2 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v46.2</span>
+        <span class="cl-date">2026-06-19</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-fixed">Fixed</span></div>
+        <ul>
+          <li><strong>Nav logo</strong> — CSS specificity bug caused both dark and light logos to display simultaneously; now only the correct version shows per scroll state</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v46.1 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v46.1</span>
+        <span class="cl-date">2026-06-19</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-fixed">Fixed</span></div>
+        <ul>
+          <li><strong>isabelle.html — credentials grid</strong> — removed 9 "Photo Coming Soon" placeholder frames; credential cards now show cleanly with icon and text only</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v46.0 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v46.0</span>
+        <span class="cl-date">2026-06-19</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-added">Added</span></div>
+        <ul>
+          <li><strong>Logo — all 11 pages</strong> — replaced text logo with real HummingBeing hummingbird + wordmark image in nav and footer</li>
+          <li>Nav: auto-swaps between dark logo (on transparent hero) and light logo (on white scrolled nav)</li>
+          <li>Footer: dark logo always (footer background is always navy)</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v45.9 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v45.9</span>
+        <span class="cl-date">2026-06-19</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-added">Added</span></div>
+        <ul>
+          <li><strong>somatic-bodywork.html — all 3 placeholders replaced</strong> with real images: hands-on neck bodywork, practitioner with floor client, one-on-one session</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v45.8 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v45.8</span>
+        <span class="cl-date">2026-06-19</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-added">Added</span></div>
+        <ul>
+          <li><strong>somatic-coaching.html — "What Is Somatic Coaching?" section</strong> — replaced placeholder with woman stretching in golden light</li>
+          <li>"What You Can Expect" placeholder remains — source subfolder was empty</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v45.7 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v45.7</span>
+        <span class="cl-date">2026-06-19</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-added">Added</span></div>
+        <ul>
+          <li><strong>tre.html — Safety &amp; Suitability section</strong> — replaced placeholder with group meditation image (3 people in calm seated practice)</li>
+          <li>"What Is TRE™?" and "Benefits" placeholders remain — source subfolders were empty</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v45.6 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v45.6</span>
+        <span class="cl-date">2026-06-19</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-added">Added</span></div>
+        <ul>
+          <li><strong>about.html — images</strong> — replaced 2 placeholders with hummingbird images: "Why HummingBeing Exists" (golden sunlight) and "The Hummingbird Metaphor" (red flowers)</li>
+          <li>"Part of the BHD Family" placeholder remains — source file is 18.7 MB, too large to deploy</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v45.5 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v45.5</span>
+        <span class="cl-date">2026-06-19</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-added">Added</span></div>
+        <ul>
+          <li><strong>index.html — "Is This for You" section</strong> — replaced placeholder with real image (hands/somatic healing scene)</li>
+          <li>"The HummingBeing Philosophy" placeholder remains — no image was provided in that source folder</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v45.4 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v45.4</span>
+        <span class="cl-date">2026-06-19</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-fixed">Fixed</span></div>
+        <ul>
+          <li><strong>gallery.html — image captions</strong> — corrected 6 captions that didn't match the actual photo content: Somatic Bodywork Session, TRE™ Module 1 Training, At the Esplanade Singapore, Retreat at Leebong Island, TRE™ Certification, TRE™ Asia Conference Vietnam</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v45.3 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v45.3</span>
+        <span class="cl-date">2026-06-19</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-added">Added</span></div>
+        <ul>
+          <li><strong>gallery.html — real images</strong> — replaced 10 placeholder "Photo Coming Soon" cards with Isabelle's actual photos; images copied to <code>images/gallery/</code> with clean filenames</li>
+          <li>Photos added: Isabelle Oct 2023, Kyoto Station Oct 2023, TRE™ in Vietnam, Teaching TRE™ Module 1, TRE™ Module 1 January 2026, TRE™ Group Practice, Somatic Session, Somatic Bodywork, Working with the Body, Body Release Work</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v45.2 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v45.2</span>
+        <span class="cl-date">2026-06-19</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-fixed">Fixed</span></div>
+        <ul>
+          <li><strong>somatic-coaching.html — pricing grid</strong> — 3 cards now always display in a single row; was wrapping to 2+1 due to <code>auto-fit,minmax(280px)</code> with a narrow container</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v45.1 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v45.1</span>
+        <span class="cl-date">2026-06-19</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Philosophy tone pass — all pages</strong> — removed marketing superlatives, credential-signaling and image-building language sitewide</li>
+          <li><strong>index.html</strong> — Services subtitle: removed "deep, lasting change" promise; copy now describes what the practices do, not what they'll guarantee</li>
+          <li><strong>tre.html</strong> — "How It Works" subtitle: "profound results" removed; factual description of the exercises</li>
+          <li><strong>somatic-coaching.html</strong> — Process subtitle softened; Testimonials heading: "The Somatic Difference" → "Client Voices"</li>
+          <li><strong>somatic-bodywork.html</strong> — Benefits subtitle: "transformation that touches every dimension" → honest description; Testimonials: "Transformations Through Bodywork" → "Client Voices"; fixed broken encoding (middle dot)</li>
+          <li><strong>isabelle.html</strong> — Global Journey heading: "One Mission" brand tagline removed; facts speak for themselves</li>
+          <li><strong>book.html</strong> — Trust bar: credential/award icons replaced with service-oriented items (personal reply, no pressure, you set the pace); Pricing eyebrow: "Investment" → "Sessions &amp; Pricing"</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v45.0 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v45.0</span>
+        <span class="cl-date">2026-06-19</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Philosophy rewrite — isabelle.html + about.html</strong> — applied Isabelle's core philosophy: humility over self-promotion, service over image, ongoing inner work as the real credential</li>
+          <li><strong>isabelle.html — Bio</strong> — rewritten to include her personal healing journey: healed herself from toxic work environments, comes to this work as someone who has walked through it and continues their own inner work</li>
+          <li><strong>isabelle.html — Credentials header</strong> — changed "Expertise You Can Trust" to "Her Training &amp; Formation"</li>
+          <li><strong>isabelle.html — Personal Note</strong> — quote and body rewritten: "I don't do this work from a distance. I've walked through it myself." Names the toxic environment experience and the goal: empowered, respected, as healthy mentally and physically as possible</li>
+          <li><strong>about.html — Mission</strong> — origin updated: born from Isabelle's own healing journey, not a career plan; outcome language now mirrors the philosophy</li>
+          <li><strong>about.html — Philosophy section</strong> — added closing note on humility, service and ongoing practitioner inner work</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v44.9 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v44.9</span>
+        <span class="cl-date">2026-06-19</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Button copy variations — 6 pages</strong> — replaced repetitive "Book a Free Discovery Call" in-section footer buttons with contextual text matching each section's purpose</li>
+          <li><strong>index.html</strong> — Services → "Find Your Practice"; Testimonials → "Start Your Journey"</li>
+          <li><strong>about.html</strong> — Mission → "Come Back to Yourself"; Philosophy → "Explore the Practices"; Hummingbird → "Find Your Way Back"</li>
+          <li><strong>isabelle.html</strong> — Bio → "Work With Isabelle"; Credentials → "See If We're a Fit"; Global Journey → "Connect With Isabelle"; Personal Note → "Start the Conversation"</li>
+          <li><strong>tre.html</strong> — 8 section buttons updated from "Try TRE™ for Yourself" through to "Experience It Yourself"</li>
+          <li><strong>somatic-coaching.html</strong> — 7 section buttons updated from "Explore Somatic Coaching" through to "Start My Somatic Journey"</li>
+          <li><strong>somatic-bodywork.html</strong> — 5 section buttons updated from "Try Somatic Bodywork" through to "Rediscover Your Aliveness"</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v44.8 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v44.8</span>
+        <span class="cl-date">2026-06-19</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <h3 class="cl-title">Content simplification — 7 pages</h3>
+        <ul class="cl-list">
+          <li><strong>index.html</strong> — philosophy section 3→2 paragraphs; all 3 service card descriptions shortened</li>
+          <li><strong>about.html</strong> — mission 3→2 paragraphs; hummingbird 3→2 paragraphs; BHD section 3→2 paragraphs; pillars 01 &amp; 04 differentiated</li>
+          <li><strong>isabelle.html</strong> — bio paragraphs 2 &amp; 3 merged into one</li>
+          <li><strong>tre.html</strong> — "What is TRE™?" paragraphs simplified; jargon reduced</li>
+          <li><strong>somatic-coaching.html</strong> — P3 rewritten; Commitment 3→2 paragraphs; benefits list trimmed 10→7 items</li>
+          <li><strong>somatic-bodywork.html</strong> — SB P3 simplified; Strozzi Method 3→2 paragraphs; Soma Etymology 2→1 paragraph</li>
+          <li><strong>book.html</strong> — all 6 FAQ answers trimmed to 1–2 sentences</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v44.7 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v44.7</span>
+        <span class="cl-date">2026-06-19</span>
+      </div>
+      <div class="cl-body">
+        <h3 class="cl-title">Full mobile responsive overhaul</h3>
+        <ul class="cl-list">
+          <li><strong>All pages — Nav/header</strong> — reduced side padding; hamburger sits at right edge; mobile menu scroll-safe</li>
+          <li><strong>All pages — Section padding</strong> — 12% side gaps reduced to 5–6% on mobile, eliminating excess white space around cards</li>
+          <li><strong>All pages — Footer</strong> — compact 2-column layout with reduced padding at 600px/480px</li>
+          <li><strong>All pages — Cards</strong> — tighter gap and padding at 600px and 480px</li>
+          <li><strong>about.html</strong> — philosophy grid: 3→2 col at 700px, 1 col at 480px</li>
+          <li><strong>tre.html</strong> — steps: 4→2→1 col; science: 3→2→1 col; connecting line hidden on mobile</li>
+          <li><strong>events.html</strong> — countdown gaps tighter; animated rings shrink at 480px; audience card padding reduced</li>
+          <li><strong>CSS version</strong> — bumped to v76</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v44.6 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v44.6</span>
+        <span class="cl-date">2026-06-19</span>
+      </div>
+      <div class="cl-body">
+        <h3 class="cl-title">Index hero — video background added</h3>
+        <ul class="cl-list">
+          <li><strong>index.html — Hero section</strong> — replaced static CSS background image with looping video and JPG poster; gradient overlay moved to <code>::after</code> pseudo-element; preload hint updated</li>
+          <li><strong>CSS version</strong> — bumped to v75</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v44.5 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v44.5</span>
+        <span class="cl-date">2026-06-19</span>
+      </div>
+      <div class="cl-body">
+        <h3 class="cl-title">Isabelle hero — video background added</h3>
+        <ul class="cl-list">
+          <li><strong>isabelle.html — Hero section</strong> — added looping video background with static image poster; video autoplay, muted, loop, playsinline</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v44.4 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v44.4</span>
+        <span class="cl-date">2026-06-19</span>
+      </div>
+      <div class="cl-body">
+        <h3 class="cl-title">Two-column images fit to frame</h3>
+        <ul class="cl-list">
+          <li><strong>All pages — Two-column image sections</strong> — changed <code>object-fit</code> from <code>cover</code> to <code>contain</code> so photos scale down to fit the full frame without cropping</li>
+          <li><strong>CSS version</strong> — bumped to v74</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v44.3 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v44.3</span>
+        <span class="cl-date">2026-06-19</span>
+      </div>
+      <div class="cl-body">
+        <h3 class="cl-title">Footer contact email updated</h3>
+        <ul class="cl-list">
+          <li><strong>All pages — Footer contact</strong> — updated email from <code>hello@hummingbeing.com</code> to <code><span>bonjour@bhd<span style="display:none">-no-spam</span>asia.com</span></code></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v44.2 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v44.2</span>
+        <span class="cl-date">2026-06-18</span>
+      </div>
+      <div class="cl-body">
+        <h3 class="cl-title">Taller two-column images across all pages</h3>
+        <ul class="cl-list">
+          <li><strong>All pages — Two-column image sections</strong> — changed from fixed height to <code>min-height: 520px</code> with <code>align-self: stretch</code> so images grow to fill the full height of the content column beside them; image uses <code>position: absolute; inset: 0</code> to fill the container reliably</li>
+          <li><strong>CSS version</strong> — bumped to v73</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v44.1 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v44.1</span>
+        <span class="cl-date">2026-06-18</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>about.html — Philosophy section</strong> — replaced 6-item card grid with numbered open column layout: gold eyebrow numbers (01–06), icon, title, description; vertical + horizontal dividers</li>
+          <li><strong>All pages — Footer</strong> — dark charcoal background (<code>#1e2028</code>); text, links and social icons updated for legibility on dark; gold hover on all links</li>
+          <li><strong>CSS version</strong> — bumped to v72</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v44.0 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v44.0</span>
+        <span class="cl-date">2026-06-18</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>tre.html — Process steps</strong> — replaced card boxes with a horizontal numbered flow: gold circles connected by a subtle gold line, text below each number</li>
+          <li><strong>tre.html — Science section</strong> — replaced card grid with open 3-column layout: numbered gold eyebrows (01–03), icons, vertical dividers; no card background or shadow</li>
+          <li><strong>tre.html — Safety section</strong> — image placeholder set to <code>min-height: 520px</code> for taller visual</li>
+          <li><strong>events.html</strong> — removed standalone dark event banner placeholder above audience cards</li>
+          <li><strong>events.html</strong> — added compact dark image placeholder at top of each audience card</li>
+          <li><strong>events.html</strong> — removed "Never Miss an Event" notification strip</li>
+          <li><strong>socials.html — Resources</strong> — replaced card grid with horizontal directory-list layout: icon · title + description · link, thin border rows</li>
+          <li><strong>All pages — Ticker</strong> — smaller size (.63rem font, reduced padding), slower animation (140s), 8 new items added</li>
+          <li><strong>CSS version</strong> — bumped to v71</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v43.3 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v43.3</span>
+        <span class="cl-date">2026-06-18</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>isabelle.html — Global Journey section</strong> — increased vertical padding to 7rem top/bottom</li>
+          <li><strong>isabelle.html — Info items</strong> — replaced card boxes with connected line strip: gold top border, vertical dividers, no background or shadow</li>
+          <li><strong>isabelle.html — Services section</strong> — replaced card grid with open column layout: vertical dividers, icon badges, no card styling</li>
+          <li><strong>CSS version</strong> — bumped to v70</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v43.2 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v43.2</span>
+        <span class="cl-date">2026-06-18</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Process steps</strong> — removed card box style (background, border, box-shadow, border-radius); steps now display as a clean open layout with no container</li>
+          <li><strong>CSS version</strong> — bumped to v69</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v43.1 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v43.1</span>
+        <span class="cl-date">2026-06-17</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Nav layout</strong> — switched from CSS grid to flexbox; logo flex-1 left, links centered, actions flex-1 right for clean balanced alignment</li>
+          <li><strong>Nav CTA button</strong> — now Raleway 500 .82rem matching nav links; removed uppercase and heavy letter-spacing for visual cohesion</li>
+          <li><strong>CSS version</strong> — bumped to v68</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v43.0 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v43.0</span>
+        <span class="cl-date">2026-06-17</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>CTA banner</strong> â€” dark navy overlay + background image removed; cream background with thin border; all 10 pages</li>
+          <li><strong>CTA banner buttons</strong> â€” white-on-dark inline styles replaced with standard <code>btn-primary</code></li>
+          <li>CSS bumped to v67</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v42.9 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v42.9</span>
+        <span class="cl-date">2026-06-17</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>book.html</strong> â€” trust bar and Isabelle card dark navy backgrounds â†’ cream/white</li>
+          <li><strong>events.html</strong> â€” notify strip dark background â†’ cream; form inputs updated</li>
+          <li><strong>socials.html</strong> â€” newsletter left panel dark background â†’ cream</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v42.8 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v42.8</span>
+        <span class="cl-date">2026-06-17</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Nav active state</strong> â€” active page link now bold (font-weight 700) for clear current-page indication</li>
+          <li>CSS bumped to v66</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v42.7 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v42.7</span>
+        <span class="cl-date">2026-06-17</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Feature list bullets</strong> â€” tightened vertical spacing (.65rem â†’ .3rem per item) for a more compact, readable list</li>
+          <li>CSS bumped to v65</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v42.6 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v42.6</span>
+        <span class="cl-date">2026-06-17</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Nav links</strong> â€” removed uppercase; font-size and weight adjusted for natural mixed-case display</li>
+          <li>CSS bumped to v64</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v42.5 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v42.5</span>
+        <span class="cl-date">2026-06-17</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Buttons</strong> â€” <code>border-radius</code> 50px â†’ 6px; less pill-shaped across all buttons</li>
+          <li><strong>Cards, steps, testimonials, pricing, contact form</strong> â€” <code>border-radius</code> 24px â†’ 10px</li>
+          <li><strong>Tags</strong> â€” 50px â†’ 4px; <strong>Inputs</strong> â€” 12px â†’ 6px; <strong>Nav dropdown</strong> â€” 16px â†’ 8px</li>
+          <li>CSS bumped to v63</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v42.4 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v42.4</span>
+        <span class="cl-date">2026-06-17</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Sitewide â€” no more dark sections</strong> â€” all <code>section-dark</code> navy backgrounds converted to <code>section-cream</code>; white inline text overrides removed; testimonial cards switched to <code>testimonial-light</code></li>
+          <li><strong>Sitewide â€” CTAs added to all content sections</strong> â€” "Book a Free Discovery Call" added to every content section across all pages</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v42.3 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v42.3</span>
+        <span class="cl-date">2026-06-17</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Testimonials section</strong> â€” changed background from <code>section-dark</code> to <code>section-cream</code>; removed white colour override on h2; testimonial card class updated to <code>testimonial-light</code></li>
+          <li><strong>CTA buttons</strong> â€” added "Book a Free Discovery Call" button after the testimonials grid and after the services cards grid on homepage</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v42.2 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v42.2</span>
+        <span class="cl-date">2026-06-17</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Nav font</strong> â€” switched from Lato to Raleway 300 for a lighter, more elegant header</li>
+          <li>CSS bumped to v62</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v42.1 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v42.1</span>
+        <span class="cl-date">2026-06-17</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Nav links</strong> â€” font-weight 700 â†’ 400 for lighter, less bulky appearance</li>
+          <li>CSS bumped to v61</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v42.0 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v42.0</span>
+        <span class="cl-date">2026-06-17</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Image placeholders</strong> â€” all placeholders changed from dark gradient to light gray, consistent format sitewide; no rounded corners</li>
+          <li><strong>Two-col image containers</strong> â€” removed <code>border-radius: 32px</code> from <code>.two-col-image</code></li>
+          <li>CSS bumped to v60</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v41.9 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v41.9</span>
+        <span class="cl-date">2026-06-17</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Sitewide layout</strong> â€” increased horizontal padding 9% â†’ 12% for wider side margins</li>
+          <li>CSS bumped to v59</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v41.8 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v41.8</span>
+        <span class="cl-date">2026-06-17</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Sitewide layout</strong> ï¿½ increased horizontal padding 7% ? 9% across all sections (nav, hero, page-hero, sections, footer, CTA banner, mobile breakpoints)</li>
+          <li>CSS bumped to v58</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v41.7 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v41.7</span>
+        <span class="cl-date">2026-06-17</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Footer ï¿½ full redesign</strong> ï¿½ light cream background, thin border top, 4-column grid, gold uppercase section headers, compact link list, circle social icon buttons, bottom bar with Privacy Policy / Terms / Powered by TechNext; all 11 pages</li>
+          <li>CSS bumped to v57</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v41.6 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v41.6</span>
+        <span class="cl-date">2026-06-17</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-changed">Changed</span>
+        </div>
+        <ul>
+          <li><strong>Sitewide</strong> ï¿½ removed 35+ floating "Book a Free Consultation" centred divs from all pages; sections now clean without redundant CTAs below every two-col block</li>
+          <li><strong>somatic-bodywork.html</strong> ï¿½ "Book a Session" updated to btn-primary with descriptor note inline</li>
+          <li>CSS bumped to v56</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v41.5 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v41.5</span>
+        <span class="cl-date">2026-06-17</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-changed">Changed</span>
+        </div>
+        <ul>
+          <li><strong>Footer text</strong> ï¿½ links .85rem ? .75rem, brand text .84rem ? .74rem, logo 1.3rem ? 1.1rem, section headings .7rem ? .63rem</li>
+          <li>CSS bumped to v55</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v41.4 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v41.4</span>
+        <span class="cl-date">2026-06-17</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-changed">Changed</span>
+        </div>
+        <ul>
+          <li><strong>Buttons</strong> ï¿½ letter-spacing reduced 3.5px ? 1px; padding reduced; hover no longer widens text; hero buttons re-scaled</li>
+          <li><strong>"Is This for You?" section</strong> ï¿½ removed duplicate floating CTA; single compact button with soft descriptor note</li>
+          <li>CSS bumped to v54</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v41.3 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v41.3</span>
+        <span class="cl-date">2026-06-17</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-changed">Changed</span>
+        </div>
+        <ul>
+          <li><strong>Horizontal padding</strong> ï¿½ increased from 5% to 7% sitewide (nav, sections, hero, footer, mobile menu)</li>
+          <li><strong>Section transitions removed</strong> ï¿½ curved overlap effect between sections deleted; flat layout restored</li>
+          <li><strong>Two-col image</strong> ï¿½ fixed narrow rendering caused by conflicting aspect-ratio + max-height; now fills full column width at 400px height</li>
+          <li><strong>Cards</strong> ï¿½ padding reduced 1.8rem ? 1.4rem; grid gap 1.5rem ? 1.2rem; icon size 48px ? 40px</li>
+          <li><strong>Footer</strong> ï¿½ more compact: padding, grid gap, list margins and section padding all reduced</li>
+          <li><strong>isabelle.html</strong> ï¿½ credential placeholder bleed margins updated to match new card padding</li>
+          <li>CSS bumped to v53</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v41.2 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v41.2</span>
+        <span class="cl-date">2026-06-17</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-added">Added</span>
+          <span class="cl-tag cl-tag-changed">Changed</span>
+        </div>
+        <ul>
+          <li><strong>events.html</strong> ï¿½ full-width event banner image placeholder (320px, dark, rounded 24px) above event cards</li>
+          <li><strong>Hero text &amp; buttons</strong> ï¿½ h1 and paragraph font sizes reduced 10% on <code>.hero</code> and <code>.page-hero</code> (all pages); hero buttons also 10% smaller</li>
+          <li><strong>Testimonials</strong> ï¿½ fixed to 3 columns; 4th+ entries hidden</li>
+          <li>CSS bumped to v52</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v41.1 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v41.1</span>
+        <span class="cl-date">2026-06-17</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-fixed">Fixed</span></div>
+        <ul>
+          <li><strong>Cards grid</strong> ï¿½ capped at 3 columns on desktop (<code>repeat(3, 1fr)</code>); 2 on tablet, 1 on mobile</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v41.0 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v41.0</span>
+        <span class="cl-date">2026-06-17</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-changed">Changed</span>
+        </div>
+        <ul>
+          <li><strong>Sitewide redesign — less boxy aesthetic:</strong> Buttons are now pill-shaped (<code>border-radius: 50px</code>); all cards rounded to 24px; rigid coloured top-bar accent on cards replaced with colour-coded icon backgrounds; two-col images rounded to 32px; testimonials get a decorative gold quote mark instead of a left border; step cards and pricing cards fully rounded; contact form 28px, inputs 12px; social &amp; platform cards 24px; nav dropdown 16px with subtle grey border; tags and platform buttons pill-shaped; video embeds 24px</li>
+          <li><strong>Section transitions:</strong> Sections after sections now have curved tops (<code>border-radius: 40px 40px 0 0</code>) with a 40px overlap, creating an organic layered-card flow between sections</li>
+          <li><strong>isabelle.html:</strong> Credential placeholder areas made full-bleed to match card image behaviour; info-cards rounded to 16px</li>
+          <li><strong>CSS v51</strong> across all pages</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v40.9 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v40.9</span>
+        <span class="cl-date">2026-06-17</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-fixed">Fixed</span>
+          <span class="cl-tag cl-tag-changed">Changed</span>
+        </div>
+        <ul>
+          <li><strong>Two-col image placeholders</strong> — <code>max-height: 400px</code> added to <code>.two-col-image</code> so placeholder areas no longer stretch to full column height; applies sitewide</li>
+          <li><strong>Credential card placeholders</strong> — <code>.cred-placeholder</code> reduced from 200px to 150px; Reiki card image area matched</li>
+          <li><strong>Homepage countdown bar</strong> — “View Event” button moved inside the text column; layout is now clean two-column (text + button | countdown) without wrapping</li>
+          <li><strong>Homepage “What We Offer”</strong> — section eyebrow, title and subtitle now centred</li>
+          <li><strong>Isabelle “9 Countries” section</strong> — plain bullet list replaced with 4 compact icon + text info cards</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v40.8 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v40.8</span>
+        <span class="cl-date">2026-06-16</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-added">Added</span></div>
+        <ul>
+          <li><strong>Credential cards ï¿½ image placeholders</strong> — all 6 text-only credential cards on the Isabelle page now have a consistent 200px placeholder area (soft gradient, centred icon, “Photo Coming Soon”); Reiki card image area standardised to match</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v40.7 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v40.7</span>
+        <span class="cl-date">2026-06-16</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-added">Added</span>
+          <span class="cl-tag cl-tag-changed">Changed</span>
+        </div>
+        <ul>
+          <li><strong>Reiki Practitioner Level II</strong> — certificate image added to Isabelle’s Credentials section</li>
+          <li><strong>Restored TRE™ &amp; Somatic Bodywork pages</strong> — <code>tre.html</code> and <code>somatic-bodywork.html</code> restored; nav dropdowns, footer links, service cards and isabelle.html Work With Me section all reverted</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v40.6 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v40.6</span>
+        <span class="cl-date">2026-06-16</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Events page ï¿½ real event content</strong> — replaced placeholder cards with two real upcoming events: “Self-care and Presence for Coaches” (ICF CCE, 21 CCEUs, 1,290 SGD special price) and “Become a Certified TRE™ Provider” (3-module certification with full pricing tiers) — both on 29–30 August 2026, Singapore</li>
+          <li><strong>Events countdown</strong> — target updated to 29 August 2026 (Module 1 start date)</li>
+          <li><strong>Homepage countdown bar</strong> — updated title and date to TRE™ Provider Certification Module 1, 29–30 August 2026</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v40.4 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v40.4</span>
+        <span class="cl-date">2026-06-13</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-fixed">Fixed</span></div>
+        <ul>
+          <li><strong>Countdown rings ï¿½ glow no longer clipped</strong> — <code>overflow: visible</code> added to SVG so the gold <code>drop-shadow</code> renders fully outside the element boundary</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v40.3 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v40.3</span>
+        <span class="cl-date">2026-06-13</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-fixed">Fixed</span></div>
+        <ul>
+          <li><strong>Events countdown not activating</strong> — stale JS referencing removed elements (<code>#cd-days</code> etc.) threw a silent <code>TypeError</code> that killed the script block; removed the dead code so the ring countdown now runs correctly</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v40.2 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v40.2</span>
+        <span class="cl-date">2026-06-13</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags">
+          <span class="cl-tag cl-tag-added">Added</span>
+          <span class="cl-tag cl-tag-fixed">Fixed</span>
+          <span class="cl-tag cl-tag-changed">Changed</span>
+        </div>
+        <ul>
+          <li><strong>Events page ï¿½ animated countdown</strong> — dark section with SVG progress rings, digit flip animation, pulsing background, and CTA; between ticker and Featured Event</li>
+          <li><strong>Homepage ï¿½ event countdown bar</strong> — replaces stats bar; cream background, large animated digits, event title &amp; date, "View Event" CTA counting down to 5 Jul 2026</li>
+          <li><strong>Service cards ï¿½ real photos</strong> — TRE™, Somatic Coaching and Somatic Bodywork cards now show actual images</li>
+          <li><strong>Homepage hero centering fixed</strong> — buttons and paragraph now correctly centred</li>
+          <li><strong>CSS v50</strong> — cache-busted across all pages</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v40.1 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v40.1</span>
+        <span class="cl-date">2026-06-13</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-added">Added</span></div>
+        <ul>
+          <li><strong>Ticker â€” 8 new items on all pages</strong> — Breathwork, Online &amp; In-Person, Group Sessions, Burnout Recovery, Deep Rest &amp; Renewal, Body Intelligence, Somatic Intelligence, Self-Regulation; applied to all 10 pages</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v40.0 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v40.0</span>
+        <span class="cl-date">2026-06-13</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-fixed">Fixed</span></div>
+        <ul>
+          <li><strong>Socials page â€” icon circles no longer clipped</strong> — removed <code>overflow: hidden</code> from <code>.soc-row</code>; circles were being cut on the left edge</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v39.9 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v39.9</span>
+        <span class="cl-date">2026-06-13</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-fixed">Fixed</span></div>
+        <ul>
+          <li><strong>Homepage hero â€” full-width content</strong> — removed narrow <code>max-width: 680px</code> constraint so the h1 no longer wraps to three lines and the content centres properly in the viewport</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v39.8 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v39.8</span>
+        <span class="cl-date">2026-06-13</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Events hero â€” countdown removed</strong> — countdown timer section removed from the events hero</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v39.7 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v39.7</span>
+        <span class="cl-date">2026-06-13</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Homepage hero â€” aligned to page-hero pattern</strong> — switched to <code>flex-direction: column</code>, uniform dark overlay gradient replacing asymmetric right-fade, padding standardised to <code>6rem 5%</code></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v39.6 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v39.6</span>
+        <span class="cl-date">2026-06-13</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-fixed">Fixed</span></div>
+        <ul>
+          <li><strong>Events hero h1 â€” centred</strong> — explicit <code>text-align: center</code> added to ensure the title renders centred</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v39.5 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v39.5</span>
+        <span class="cl-date">2026-06-13</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Homepage hero â€” centred</strong> — hero content moved to horizontal and vertical centre of the viewport</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v39.4 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v39.4</span>
+        <span class="cl-date">2026-06-13</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Section titles â€” full revert</strong> — <code>.section-title</code>, <code>.two-col-text h2</code>, and <code>.cta-banner h2</code> restored to original PT Serif font, original sizes, and no text-shadow across all pages</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v39.3 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v39.3</span>
+        <span class="cl-date">2026-06-13</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Section title glow â€” strengthened</strong> — gold glow opacity raised to visible levels, wide gold bloom added, navy drop shadow deepened so the hero-style effect is clearly visible on all section titles sitewide</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v39.2 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v39.2</span>
+        <span class="cl-date">2026-06-13</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Section titles â€” 15% larger + hero glow sitewide</strong> — <code>.section-title</code> and <code>.two-col-text h2</code> font size increased 15%, hero-style text-shadow applied (gold ambient glow + soft navy depth shadow) across all pages</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v39.1 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v39.1</span>
+        <span class="cl-date">2026-06-13</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Isabelle hero h1</strong> — font 15% larger, colour changed from white to brand navy, hero-style glow effects adapted (gold + blue ambient glow, faint white separation halo, deep drop shadow)</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v39.0 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v39.0</span>
+        <span class="cl-date">2026-06-13</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Section titles â€” Playfair Display sitewide</strong> — all <code>.section-title</code>, <code>.two-col-text h2</code>, and <code>.cta-banner h2</code> now use Playfair Display to match the hero h1 font; <code>em</code> italic-gold support added to all three for consistent italic-gold accents across every page</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v38.9 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v38.9</span>
+        <span class="cl-date">2026-06-13</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Events hero â€” countdown repositioned</strong> — countdown timer moved above the CTA buttons so it sits at the vertical centre of the hero, consistent with all other page heroes</li>
+          <li><strong>Cards â€” compact sitewide</strong> — reduced padding and spacing on <code>.card</code>, <code>.pricing-card</code>, and <code>.social-card</code>; tightened icon sizes, heading margins, grid gap, and feature-list margin for a denser, more professional look</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v38.8 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v38.8</span>
+        <span class="cl-date">2026-06-13</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Socials â€” Platforms section</strong> — replaced dark card grid with clean animated link rows: icon circle fills gold + rotates on hover, platform name turns gold, gold underline sweeps across, row slides right, arrow animates forward</li>
+          <li><strong>Socials â€” Content Themes section</strong> — enhanced hover interactivity: card lifts 8px, left border thickens to 5px, subtle gold tint overlay fades in, platform icon bounces + rotates, heading transitions to gold-dark</li>
+          <li><strong>Socials â€” Newsletter section</strong> — replaced centered navy box with a two-column split card: navy left panel with eyebrow, headline and bullet perks; cream right panel with heading, animated email input (gold focus ring + glow) and full-width subscribe button</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v38.7 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v38.7</span>
+        <span class="cl-date">2026-06-13</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Button design â€” flat block style</strong> — all buttons redesigned to match reference: <code>border-radius: 0</code> (square corners), letter-spacing <code>3.5px</code>, padding <code>1rem 2.6rem</code>, pulse animation removed from primary buttons for a clean solid appearance</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v38.6 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v38.6</span>
+        <span class="cl-date">2026-06-13</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Process steps â€” interactive hover</strong> — each step now renders as a card with border and shadow; hovering lifts the card up, scales the gold number circle with a pulsing gold glow ring, and transitions the heading colour to gold. Applies to all 4 pages using <code>.steps</code> (Home, TRE™, Somatic Coaching, Somatic Bodywork)</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v38.5 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v38.5</span>
+        <span class="cl-date">2026-06-13</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Text contrast &amp; readability â€” site-wide</strong> — <code>--body-text</code> darkened to <code>#3d4250</code>; <code>--text-mid</code> darkened to <code>#5f6472</code> (was failing WCAG AA at 3.5:1 contrast, now ~5.5:1)</li>
+          <li><strong>Font weight</strong> — removed <code>font-weight: 300</code> from all hero and section descriptions; now renders at normal weight for crisper legibility</li>
+          <li><strong>Dark-background text</strong> — raised white-text opacity on hero paragraphs, CTA banner, pricing cards, step descriptions, footer, stats bar, and platform cards</li>
+          <li><strong>Card &amp; component text sizes</strong> — bumped font size on card descriptions, step text, social card descriptions, and podcast meta (+5â€“10%)</li>
+          <li><strong>Inline style fixes</strong> — corrected low-opacity text in <code>events.html</code> (countdown, featured event, notify strip), <code>gallery.html</code> (video info, channel card, podcast meta, lightbox caption), <code>book.html</code> (trust items, blockquote), <code>socials.html</code> (newsletter description)</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v38.4 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v38.4</span>
+        <span class="cl-date">2026-06-13</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Events hero countdown timer</strong> — moved countdown lower in the hero section by increasing <code>margin-top</code> to <code>2.5rem</code></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v38.3 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v38.3</span>
+        <span class="cl-date">2026-06-13</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-fixed">Fixed</span></div>
+        <ul>
+          <li><strong>Somatic Bodywork hero video</strong> — replaced incorrect coaching clip (3.8 MB) with the correct bodywork video (8.2 MB) from GDrive; poster image was already correct</li>
+          <li><strong>Somatic Coaching hero</strong> — verified correct video and poster already in place</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v38.2 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v38.2</span>
+        <span class="cl-date">2026-06-13</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-fixed">Fixed</span></div>
+        <ul>
+          <li><strong>Hero image priority loading</strong> — added <code>&lt;link rel="preload" fetchpriority="high"&gt;</code> in <code>&lt;head&gt;</code> for every hero poster image across all 9 pages; changed <code>preload="auto"</code> to <code>preload="none"</code> on all hero videos so poster loads instantly before video data begins downloading</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v38.1 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v38.1</span>
+        <span class="cl-date">2026-06-13</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-fixed">Fixed</span></div>
+        <ul>
+          <li><strong>Lazy loading audit</strong> — all <code>&lt;img&gt;</code> tags already had <code>loading="lazy" decoding="async"</code>; added missing attribute to YouTube <code>&lt;iframe&gt;</code> embed on the TRE™ page</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v38 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v38.0</span>
+        <span class="cl-date">2026-06-13</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-added">Added</span></div>
+        <ul>
+          <li><strong>Animated CTA buttons</strong> — all buttons across every page: persistent pulsing gold glow on primary buttons, spring-eased lift + scale on hover, letter-spacing expansion, stronger outer glow ring, wider shimmer sweep, and click ripple burst from tap point</li>
+          <li><strong>Nav CTA animated</strong> — "Book a Session" nav button now lifts + adds shadow on hover; gold glow when scrolled</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v37.5 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v37.5</span>
+        <span class="cl-date">2026-06-13</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-fixed">Fixed</span></div>
+        <ul>
+          <li><strong>Somatic Coaching hero video</strong> — restored <code>hero-coaching.mp4</code> with <code>poster-coaching.webp</code> placeholder; hero now plays looping video background on load</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v37.4 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v37.4</span>
+        <span class="cl-date">2026-06-13</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Somatic Coaching hero</strong> — removed incorrect bodywork background image; hero shows clean dark navy placeholder until correct coaching image is available</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v37.3 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v37.3</span>
+        <span class="cl-date">2026-06-13</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-fixed">Fixed</span></div>
+        <ul>
+          <li><strong>HTML audit â€” malformed attribute quotes</strong> — full desktop audit found <code>?</code> characters replacing <code>"</code> in HTML attributes across 4 pages; all corrected: <code>index.html</code> (7 broken attributes), <code>about.html</code> (section-eyebrow &amp; divider classes), <code>isabelle.html</code> (em style, blockquote curly quotes, img alt text), <code>tre.html</code> (paragraph style attribute)</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v37.2 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v37.2</span>
+        <span class="cl-date">2026-06-13</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-fixed">Fixed</span></div>
+        <ul>
+          <li><strong>Book page hero framing</strong> — shifted video <code>object-position</code> to <code>center 20%</code> so both models are fully visible in the hero</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v37.1 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v37.1</span>
+        <span class="cl-date">2026-06-13</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-fixed">Fixed</span></div>
+        <ul>
+          <li><strong>Bodywork video restored</strong> — reverted <code>hero-bodywork.mp4</code> to the original correct file (3.8 MB); wrong AI-generated version removed</li>
+          <li><strong>Coaching page reverted</strong> — removed incorrect AI video (lying-down scene); page uses static <code>poster-coaching.webp</code> image background</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v37 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v37.0</span>
+        <span class="cl-date">2026-06-13</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-added">Added</span></div>
+        <ul>
+          <li><strong>Hero poster images</strong> — all 8 hero sections show a still image instantly while video loads (<code>poster-*</code> files for about, book, events, gallery, socials, bodywork, coaching, TRE™)</li>
+          <li><strong>Hero videos added</strong> — <code>about.html</code> and <code>somatic-coaching.html</code> now have looping background videos replacing static image backgrounds</li>
+          <li><strong>Fast video playback</strong> — <code>preload="none"</code> added to all hero <code>&lt;video&gt;</code> tags for immediate downloading on page load</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v36.1 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v36.1</span>
+        <span class="cl-date">2026-06-13</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-fixed">Fixed</span></div>
+        <ul>
+          <li><strong>Events hero spacing</strong> — removed extra <code>margin-bottom: 2.5rem</code> on event description paragraph; gap between title and buttons now matches other pages</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v36 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v36.0</span>
+        <span class="cl-date">2026-06-13</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Nav links centered</strong> — logo left, page links centered in viewport, <code>BOOK A SESSION</code> anchored right via new <code>.nav-actions</code> wrapper; all 11 pages restructured</li>
+          <li><strong>CSS version</strong> bumped to <code>v36</code></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v35 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v35.0</span>
+        <span class="cl-date">2026-06-13</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Hero title smaller</strong> — index.html <code>.hero h1</code> reduced to <code>clamp(2.6rem, 5vw, 5.5rem)</code></li>
+          <li><strong>Countdown box removed</strong> — background and border stripped from <code>.countdown-wrap</code>; timer floats freely over hero</li>
+          <li><strong>CSS version</strong> bumped to <code>v35</code></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v34 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v34.0</span>
+        <span class="cl-date">2026-06-13</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Nav layout reverted</strong> — back to <code>flex / space-between</code>; logo left, nav links right</li>
+          <li><strong>Hero title centered</strong> — explicit <code>text-align: center</code> on <code>.page-hero h1</code> for all inner pages</li>
+          <li><strong>CSS version</strong> bumped to <code>v34</code></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v33 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v33.0</span>
+        <span class="cl-date">2026-06-12</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-fixed">Fixed</span></div>
+        <ul>
+          <li><strong>Nav links centered</strong> — nav switched to CSS grid (<code>1fr auto 1fr</code>); logo anchored left, links truly centered in viewport, hamburger right-aligned on mobile</li>
+          <li><strong>CSS version</strong> bumped to <code>v33</code></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v32 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v32.0</span>
+        <span class="cl-date">2026-06-12</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Ticker strip</strong> — expanded from 9 to 18 unique tags; added Nervous System Reset, Strozzi Bodywork, Embodied Leadership, Corporate Wellness, Polyvagal Theory, Executive Coaching and more; animation slowed to <code>80s</code></li>
+          <li><strong>CSS version</strong> bumped to <code>v32</code></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v31 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v31.0</span>
+        <span class="cl-date">2026-06-12</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Hero title size</strong> — font size increased to <code>clamp(3.5rem, 7vw, 7.5rem)</code> on homepage and <code>clamp(3rem, 6.5vw, 6.5rem)</code> on inner pages; all hero h1s now single-row (removed <code>&lt;br&gt;</code> breaks)</li>
+          <li><strong>CSS version</strong> bumped to <code>v31</code></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v30 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v30.0</span>
+        <span class="cl-date">2026-06-12</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Hero title font</strong> — all hero h1s switched to <strong>Playfair Display</strong> (italic + bold weights); added to Google Fonts import alongside PT Serif</li>
+          <li><strong>CSS version</strong> bumped to <code>v30</code></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v29 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v29.0</span>
+        <span class="cl-date">2026-06-12</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-fixed">Fixed</span></div>
+        <ul>
+          <li><strong>Transparent nav over hero</strong> — removed <code>body { padding-top: 76px }</code> and changed hero <code>min-height</code> to <code>100vh</code>; nav now overlays the hero with no white gap</li>
+          <li><strong>CSS version</strong> bumped to <code>v29</code></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v28 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v28.0</span>
+        <span class="cl-date">2026-06-12</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Two-tone hero headings</strong> — all hero h1s split into white bold line + gold italic second line; e.g. “Somatic / <em>Coaching</em>”, “Let’s Begin / <em>Together</em>”</li>
+          <li><strong>Hero text glow</strong> — white <code>text-shadow</code> glow on all hero h1s; gold shimmer glow on all italic <code>&lt;em&gt;</code> lines</li>
+          <li><strong>CSS version</strong> bumped to <code>v28</code></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v27 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v27.0</span>
+        <span class="cl-date">2026-06-12</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Transparent nav</strong> — header is fully transparent over hero sections; transitions to solid white on scroll past 60px; logo and nav links are white over dark heroes</li>
+          <li><strong>Light nav text over dark backgrounds</strong> — nav CTA is white-outline when transparent, switches to navy fill on scroll; hamburger bars white over hero, navy when scrolled or open</li>
+          <li><strong>CSS version</strong> bumped to <code>v27</code></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v26 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v26.0</span>
+        <span class="cl-date">2026-06-12</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Hero sections full viewport height</strong> ï¿½ <code>.page-hero</code> and <code>.event-hero</code> now use <code>min-height: calc(100vh - 76px)</code> with flex column centering; video fills the entire screen on all inner pages</li>
+          <li><strong>CSS version</strong> bumped to <code>v26</code></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v25 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v25.0</span>
+        <span class="cl-date">2026-06-12</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Looping video hero backgrounds</strong> ï¿½ 6 inner pages now use autoplay muted looping MP4 videos as hero backgrounds (TRE™ï¿½, Somatic Bodywork, Book, Gallery, Socials, Events); overlay gradient and gold shimmer sit above video via <code>z-index</code> layering; text content raised to <code>z-index: 3</code>; Somatic Coaching retains static photo; About / Isabelle retain navy gradient fallback</li>
+          <li><strong>CSS version</strong> bumped to <code>v25</code></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v24 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v24.0</span>
+        <span class="cl-date">2026-06-12</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-added">Added</span></div>
+        <ul>
+          <li><strong>Hero CTA buttons</strong> ï¿½ 2 animated buttons added to every page's hero section (10 inner pages + homepage already had them); primary gold button links to booking; secondary outline button is page-contextual (e.g. "Meet Isabelle", "Browse Gallery", "Browse Events", "Explore Services")</li>
+          <li><strong>CSS version</strong> bumped to <code>v24</code></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v23 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v23.0</span>
+        <span class="cl-date">2026-06-12</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Hero overlay opacity lowered</strong> ? all 8 hero sections (homepage + 7 inner pages) now show more of the background photo; gradient reduced from <code>.88/.94</code> to <code>.55/.68</code> on inner pages and from <code>.97/.62</code> to <code>.65/.38</code> on the homepage</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v22 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v22.0</span>
+        <span class="cl-date">2026-06-12</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-added">Added</span></div>
+        <ul>
+          <li><strong>Hero images</strong> — real photos applied to all 7 inner-page hero sections (TRE™, Somatic Coaching, Somatic Bodywork, Book, Gallery, Socials, Events); sourced from <code>G:\Shared drives\Marketing\?\HummingBeing\Images</code>; dark gradient overlay preserves text readability</li>
+          <li><strong>CSS version</strong> bumped to <code>v22</code></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v21 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v21.0</span>
+        <span class="cl-date">2026-06-12</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-added">Added</span><span class="cl-tag cl-tag-changed">Changed</span><span class="cl-tag cl-tag-fixed">Fixed</span></div>
+        <ul>
+          <li><strong>Chatbot</strong> — floating navy assistant button above WhatsApp; opens a chat window with 22-topic knowledge base covering TRE™, Somatic Coaching, Bodywork, Isabelle, pricing, booking and more; keyword-scored matching for tolerance; quick-reply buttons; navigation buttons route to relevant pages</li>
+          <li><strong>Ticker strip</strong> — vertical padding reduced from <code>.95rem</code> to <code>.38rem</code> for a slimmer marquee bar</li>
+          <li><strong>Footer compacted</strong> — padding, gap and font sizes reduced; applied site-wide to all 11 pages</li>
+          <li><strong>Pricing cards fixed</strong> — removed scroll-animation delay; cards now render immediately on page load</li>
+          <li><strong>Service card placeholders</strong> — dark gradient image placeholder added to all 3 homepage service cards</li>
+          <li><strong>CSS version</strong> bumped to <code>v21</code></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v19 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v19.0</span>
+        <span class="cl-date">2026-06-11</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-added">Added</span><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Events page</strong> — new <code>events.html</code> with countdown timer to next event (2026-07-05), filter tabs (All / TRE™ Sessions / Coaching / Workshops / Online), featured event card, 6 upcoming + 3 past event cards, email notify strip</li>
+          <li><strong>Countdown timer</strong> — live tick every 1s (days / hours / mins / secs) in the events hero; switches to “happening now” message when target time passes</li>
+          <li><strong>Book page redesign</strong> — full personal-branding audit; pricing cards forced to single row at all desktop sizes; trust bar with 4 credentials; sidebar with Isabelle quote, WhatsApp card, locations and session lengths; accordion FAQ</li>
+          <li><strong>Button animations</strong> — shimmer sweep via <code>::after</code> pseudo-element, <code>translateY(-3px)</code> lift on hover, gold / navy / outline box-shadow glow per variant, press-down on active</li>
+          <li><strong>Image placeholders</strong> — all non-Isabelle images across all pages replaced with dark gradient <code>.img-placeholder</code> blocks (“Photo Coming Soon”); Isabelle’s two photos kept; gallery image cards without a real photo lose hover/lightbox behaviour via <code>:not([onclick])</code> CSS</li>
+          <li><strong>Events nav &amp; footer link</strong> — added to all pages; CSS version bumped to <code>v19</code></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v18 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v18.0</span>
+        <span class="cl-date">2026-06-11</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-added">Added</span></div>
+        <ul>
+          <li><strong>Gallery page</strong> — new <code>gallery.html</code> with 3 clickable category filters: Podcast, Video and Images</li>
+          <li><strong>Podcast section</strong> — 3 podcast cards (video podcast format) linking to YouTube channel content</li>
+          <li><strong>Video section</strong> — embedded YouTube player card for TRE™ Star Groups video + YouTube channel browse card; click-to-play modal with autoplay</li>
+          <li><strong>Images section</strong> — 14 photo cards with hover zoom-overlay and click-to-expand lightbox (ESC to close)</li>
+          <li><strong>Gallery nav link</strong> — added to primary navigation on all 10 pages (after Socials, before Book a Session)</li>
+          <li><strong>Gallery footer link</strong> — added to Company section in footer on all 10 pages</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v17 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v17.0</span>
+        <span class="cl-date">2026-06-11</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Platform cards — descriptions removed</strong> — socials page cards now show icon, platform name, handle and CTA button only; no description text</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v16 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v16.0</span>
+        <span class="cl-date">2026-06-11</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-fixed">Fixed</span></div>
+        <ul>
+          <li><strong>Hero fills full viewport</strong> — <code>min-height</code> changed from <code>90vh</code> to <code>calc(100vh - 76px)</code> so the hero occupies exactly the screen below the fixed nav bar on all screen sizes</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v15 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v15.0</span>
+        <span class="cl-date">2026-06-11</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-fixed">Fixed</span><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Platform cards equalised</strong> — description text clamped to 4 lines so all 6 cards have consistent height regardless of content length</li>
+          <li><strong>Scroll-to-top button</strong> — resized to match WhatsApp button (58px), changed to gold fill with white icon, repositioned beside WA horizontally instead of stacked above</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v14 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v14.0</span>
+        <span class="cl-date">2026-06-11</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Light metallic gold divider lines</strong> — <code>--border</code> token changed from <code>#e5e5e5</code> to <code>rgba(245,166,35,.28)</code>; applies across mobile nav separators, form input borders and changelog entry dividers</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v13 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v13.0</span>
+        <span class="cl-date">2026-06-11</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-fixed">Fixed</span></div>
+        <ul>
+          <li><strong>Dropdown disappears when selecting</strong> — scroll handler was hiding the nav (sliding it off-screen) even while a dropdown was open; any tiny trackpad/touchpad drift triggered it, collapsing the menu before an item could be clicked</li>
+          <li><strong>Scroll guard</strong> — nav-hide is now skipped whenever <code>.nav-dropdown.dropdown-open</code> exists; opening a dropdown also force-clears <code>nav-hidden</code></li>
+          <li><strong>Sub-link click</strong> — clicking a dropdown item explicitly closes the dropdown before navigation; toggle now fully closes before re-opening (no double-toggle edge case)</li>
+          <li><strong>scripts.js v4</strong></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v12 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v12.0</span>
+        <span class="cl-date">2026-06-11</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-added">Added</span></div>
+        <ul>
+          <li><strong>changelog.html</strong> — live HTML changelog page matching full site design; timeline layout with version badges and colour-coded Added / Changed / Fixed tags</li>
+          <li><strong>Footer Changelog link</strong> — added to Company section on all 8 pages</li>
+          <li><strong>CHANGELOG.md</strong> — backfilled v9, v10, v11 entries</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v11 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v11.0</span>
+        <span class="cl-date">2026-06-11</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-added">Added</span><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Auto-hide header</strong> — nav switches to <code>position: fixed</code>; slides off-screen when scrolling down past 80 px, returns on scroll-up; <code>body</code> gains <code>padding-top: 76px</code> to compensate</li>
+          <li><strong>Scroll-to-top button</strong> — navy circle with gold chevron floats above the WhatsApp button; appears after 400 px of scroll, smooth-scrolls to top on click; repositions on mobile</li>
+          <li><strong>scripts.js v3</strong> — passive scroll listener handles nav hide/show and top-float visibility</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v10 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v10.0</span>
+        <span class="cl-date">2026-06-11</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Platform cards — one row</strong> — socials page grid changed to <code>repeat(6, 1fr)</code> so all six platform cards display in a single row on desktop; card padding, icon and text sizes reduced</li>
+          <li><strong>Responsive breakpoints</strong> — 3-column layout on tablet (≤900 px), 2-column on mobile (≤600 px)</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v9 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v9.0</span>
+        <span class="cl-date">2026-06-11</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-fixed">Fixed</span></div>
+        <ul>
+          <li><strong>Dropdown not clickable</strong> — CSS hover had a gap between the nav link and dropdown panel; moving through the gap collapsed the menu before items could be clicked; replaced <code>:hover</code> trigger with JS click-toggle (<code>.dropdown-open</code> class) on all screen sizes</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v8 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v8.0</span>
+        <span class="cl-date">2026-06-11</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span><span class="cl-tag cl-tag-fixed">Fixed</span></div>
+        <ul>
+          <li><strong>Services nav dropdown</strong> — consolidated TRE™, Somatic Coaching and Somatic Bodywork into a single dropdown across all 8 pages; desktop hover panel with gold border; mobile tap-to-expand</li>
+          <li><strong>Active state</strong> — service pages mark both the Services toggle and matching sub-link as active</li>
+          <li><strong>socials.html rewrite</strong> — removed broken inline <code>&lt;style&gt;</code> referencing undefined CSS variables; platform cards and content-theme section redesigned with valid global styles</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v7 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v7.0</span>
+        <span class="cl-date">2026-06-11</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-added">Added</span></div>
+        <ul>
+          <li><strong>Scrolling ticker strip</strong> — infinite-looping marquee below the hero on all 8 pages; dark navy background with credentials; left/right edge fade; pauses on hover</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v6 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v6.0</span>
+        <span class="cl-date">2026-06-11</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-added">Added</span><span class="cl-tag cl-tag-changed">Changed</span><span class="cl-tag cl-tag-fixed">Fixed</span></div>
+        <ul>
+          <li><strong>WhatsApp floating button</strong> — fixed-position green button with pulse animation on all pages</li>
+          <li><strong>Scroll animations</strong> — IntersectionObserver fade-up/left/right on cards, steps, testimonials and stats; staggered entry; <code>prefers-reduced-motion</code> respected</li>
+          <li><strong>Hero &amp; page-hero entrance animations</strong> — eyebrow, h1, paragraph and CTA buttons cascade in on load</li>
+          <li><strong>“Powered by TechNext”</strong> — added to footer across all 8 pages</li>
+          <li><strong>Footer compacted</strong> — padding and gap reduced across all pages</li>
+          <li><strong>Mobile nav</strong> — class-based toggle with hamburger ✕ animation and outside-click-to-close</li>
+          <li><strong>Arrow encoding fix</strong> — corrected <code>â†‘</code> mojibake → <code>&amp;#8594;</code> across all pages</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v5 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v5.0</span>
+        <span class="cl-date">2026-06-11</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-added">Added</span><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>36 CTA buttons</strong> — “Book a Free Consultation” added to every section across all 7 public pages</li>
+          <li><strong>Hero &amp; CTA banner background photos</strong> — real lifestyle photography from hummingbeing.com with dark gradient overlays</li>
+          <li><strong>Fonts</strong> — switched to PT Serif (headings) + Lato (body), matching hummingbeing.com editorial style</li>
+          <li><strong>All images replaced</strong> — Unsplash stock photos removed; real photos from hummingbeing.com across all pages</li>
+          <li><strong>Card icons</strong> — redesigned as navy circle with gold Font Awesome icon</li>
+          <li><strong>Colour variables</strong> — primary dark updated to <code>#242e42</code>; added <code>--navy-deep</code>, <code>--navy-light</code></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v4 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v4.0</span>
+        <span class="cl-date">2026-06-11</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-added">Added</span><span class="cl-tag cl-tag-fixed">Fixed</span></div>
+        <ul>
+          <li><strong>Font Awesome 6.5.0</strong> — CDN added to all pages</li>
+          <li><strong>Favicon</strong> — custom <code>favicon.svg</code> (navy circle, orange “H”)</li>
+          <li><strong>YouTube embed</strong> — responsive 16:9 container on TRE™ page</li>
+          <li><strong>Tags &amp; card icons</strong> — <code>.tag</code> pill components and Font Awesome icons on service pages</li>
+          <li><strong>Footer social icons</strong> — Instagram, LinkedIn, YouTube, WhatsApp icon links in footer</li>
+          <li><strong>UTF-8 mojibake fix</strong> — corrected broken encoding (em dashes, trademark symbol, curly quotes) across all 8 pages</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v3 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v3.0</span>
+        <span class="cl-date">2026-06-11</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-fixed">Fixed</span></div>
+        <ul>
+          <li><strong>CSS cache bust</strong> — added <code>?v=3</code> query string to stylesheet link after browsers served stale styles from prior rebrand</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v2 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v2.0</span>
+        <span class="cl-date">2026-06-11</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Copy tone</strong> — rewrote all page copy from corporate/formal to personal and warm throughout; hero, CTAs and service descriptions now speak to the individual reader</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v1 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v1.0</span>
+        <span class="cl-date">2026-06-11</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
+        <ul>
+          <li><strong>Brand colours</strong> — updated to logo colour scheme: navy <code>#2D3E6B</code> and gold <code>#F5A623</code></li>
+          <li><strong>Font</strong> — switched from Playfair Display to Nunito (800 weight headings)</li>
+          <li><strong>CSS variables</strong> — introduced <code>--navy</code>, <code>--gold</code>, <code>--gold-accent</code>, <code>--green-primary</code> as design tokens</li>
+          <li><strong>Nav CTA</strong> — “Book a Session” styled with brand navy background</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- v0.1 -->
+    <div class="cl-entry">
+      <div class="cl-meta">
+        <span class="cl-badge">v0.1</span>
+        <span class="cl-date">2026-06-11</span>
+      </div>
+      <div class="cl-body">
+        <div class="cl-tags"><span class="cl-tag cl-tag-added">Added</span></div>
+        <ul>
+          <li><strong>Initial release</strong> — 8 HTML pages: <code>index</code>, <code>about</code>, <code>isabelle</code>, <code>tre</code>, <code>somatic-coaching</code>, <code>somatic-bodywork</code>, <code>book</code>, <code>socials</code></li>
+          <li><strong>styles.css</strong> — full stylesheet with CSS custom properties, responsive grid, card components, two-column layout, testimonials, footer</li>
+          <li><strong>Responsive navigation</strong> — hamburger menu for mobile</li>
+          <li><strong>GitHub Pages deployment</strong> — via <code>TechNextSG/hummingbeing-website</code> (main branch)</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section><footer>
+  <div class="foot-grid">
+    <div>
+      <a href="/" class="foot-logo"><img src="/images/logo-dark.webp" alt="HummingBeing — Coaching &amp; Somatics" width="144" height="48" style="height:48px;width:auto;display:block"/></a>
+      <p class="foot-desc">Science backed processes with TRE™, Coaching and Somatic Practices — a space to release, renew and restore.</p>
+      <p class="foot-desc">Part of <strong>Business and Human Development Consulting Pte Ltd</strong></p>
+      <div class="foot-socials">
+        <a href="https://www.instagram.com/isabelleclausteixeira_bhd/" target="_blank" class="soc" aria-label="Instagram" rel="noopener noreferrer"><i class="fa-brands fa-instagram"/></a>
+        <a href="https://www.linkedin.com/in/isabelleclausteixeira/" target="_blank" class="soc" aria-label="LinkedIn" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"/></a>
+        <a href="https://www.youtube.com/@IsabelleClausTeixeira" target="_blank" class="soc" aria-label="YouTube" rel="noopener noreferrer"><i class="fa-brands fa-youtube"/></a>
+        <a href="https://wa.me/818065151778" target="_blank" class="soc" aria-label="WhatsApp" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"/></a>
+      </div>
+    </div>
+    <div>
+      <div class="foot-h">Work with Isabelle</div>
+      <ul class="foot-links">
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™</a></li>
+        <li><a href="/tre-certification">TRE™ Certification</a></li>
+        <li><a href="/retreats-workshops">Retreats &amp; Workshops</a></li>
+        <li><a href="/events">Events</a></li>
+        <li><a href="/book">Book a free call</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="foot-h">HummingBeing</div>
+      <ul class="foot-links">
+        <li><a href="/about">About HummingBeing</a></li>
+        <li><a href="/isabelle">Meet Isabelle</a></li>
+        <li><a href="/gallery">Gallery</a></li>
+        <li><a href="/socials">Socials</a></li>
+        <li><a href="/tre-faq">TRE™ FAQ</a></li>
+        <li><a href="/is-tre-safe">Is TRE™ Safe?</a></li>
+        <li><a href="/tre-icf-cceu">TRE™ with ICF CCEs</a></li>
+        <li><a href="https://www.bhdasia.com" target="_blank" rel="noopener">BHD Asia</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="foot-h">Contact</div>
+      <ul class="foot-links">
+        <li><span>bonjour@bhd<span style="display:none">-no-spam</span>asia.com</span></li>
+        <li><a href="https://wa.me/818065151778" target="_blank" rel="noopener noreferrer">WhatsApp Us</a></li>
+        <li><span>Japan &amp; Worldwide</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <div class="foot-copy">© 2026 HummingBeing — Business and Human Development Consulting Pte Ltd</div>
+    <div class="foot-legal">
+      <span>Privacy Policy</span>
+      <span>Terms of Service</span>
+      <span class="foot-sep">·</span>
+      <a href="https://technext.asia" target="_blank" rel="noopener noreferrer">Powered by <span class="tn-brand">TechNext</span></a>
+    </div>
+  </div>
+</footer><a href="https://wa.me/818065151778" class="wa-float" target="_blank" aria-label="Chat on WhatsApp" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"/></a><button class="top-float" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top"><i class="fa-solid fa-chevron-up"/></button><script src="/scripts.js?v=20261109e" defer="defer"/><script src="/hb-tn.js?v=39" defer="defer"/></t></t>

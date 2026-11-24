@@ -1,0 +1,260 @@
+<t t-name="bhds.page_event_certification_2027_refresher"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en-US&quot;}"/><t t-set="title">Refresher Packages | TRE™ Certification 2027 | BHD Asia</t><t t-set="body_classname" t-value="&quot;page et_fixed_nav et_divi_theme evt2&quot;"/><t t-set="head"><script>try{if(!sessionStorage.getItem("bhdIntro")&amp;&amp;!matchMedia("(prefers-reduced-motion: reduce)").matches){var d=document.documentElement;d.classList.add("intro-on");setTimeout(function(){d.classList.remove("intro-on")},5000)}}catch(e){}</script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W9B95BT7');</script><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-Y6JMM9VCW2"/><script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Y6JMM9VCW2');
+</script><link rel="icon" href="/favicon.ico?v=3"/><link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png?v=3"/><link rel="apple-touch-icon" href="/apple-touch-icon.png?v=3"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/><meta name="robots" content="index, follow"/><meta name="description" content="For accredited TRE&#x2122; Providers and trainees: four options for the 2027 Singapore modules, from S$2,200 early bird until 31 March 2027."/><meta property="og:type" content="website"/><meta property="og:site_name" content="BHD Asia"/><meta property="og:title" content="Refresher Packages &#x2014; TRE&#x2122; Provider Certification 2027 | BHD Asia"/><meta property="og:description" content="Four refresher options for accredited TRE&#x2122; Providers and trainees, from S$2,200 early bird until 31 March 2027. Modules 24&#x2013;25 Apr, 3&#x2013;4 Jul, 30&#x2013;31 Oct 2027."/><meta property="og:url" content="https://www.bhdasia.com/event-certification-2027-refresher"/><meta property="og:image" content="https://www.bhdasia.com/event-cert-2027-refresher.webp?v=20261107b"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Refresher Packages &#x2014; TRE&#x2122; Provider Certification 2027 | BHD Asia"/><meta name="twitter:description" content="Four refresher options for accredited TRE&#x2122; Providers and trainees, from S$2,200 early bird until 31 March 2027. Modules 24&#x2013;25 Apr, 3&#x2013;4 Jul, 30&#x2013;31 Oct 2027."/><link rel="canonical" href="https://www.bhdasia.com/event-certification-2027-refresher"/><link rel="stylesheet" href="/style.css?v=14"/><link rel="stylesheet" href="/event-detail.css?v=20261108a"/><script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Course","name":"Global TRE™ Provider Certification 2027 — Refresher Packages","description":"Refresher Packages for accredited TRE™ Providers and TRE™ Provider trainees: four options from S$2,200 early bird (until 31 March 2027) for the 2027 Singapore modules. Co-taught by Global TRE™ Certifying Trainers Isabelle Claus Teixeira and Simba Stenqvist.","provider":{"@type":"Organization","name":"BHD Asia","url":"https://www.bhdasia.com/"},"url":"https://www.bhdasia.com/event-certification-2027-refresher","image":"https://www.bhdasia.com/event-cert-2027-refresher.webp?v=20261107b","offers":[{"@type":"Offer","name":"Refresher 1 — Refresher — Early bird","price":"2200","priceCurrency":"SGD","validThrough":"2027-03-31","availability":"https://schema.org/InStock","url":"https://www.bhdasia.com/event-certification-2027-refresher"},{"@type":"Offer","name":"Refresher 1 — Refresher — Regular","price":"2900","priceCurrency":"SGD","validThrough":"2027-02-25","availability":"https://schema.org/InStock","url":"https://www.bhdasia.com/event-certification-2027-refresher"},{"@type":"Offer","name":"Refresher 2 — Supervised Refresher — Early bird","price":"2990","priceCurrency":"SGD","validThrough":"2027-03-31","availability":"https://schema.org/InStock","url":"https://www.bhdasia.com/event-certification-2027-refresher"},{"@type":"Offer","name":"Refresher 2 — Supervised Refresher — Regular","price":"3600","priceCurrency":"SGD","validThrough":"2027-02-25","availability":"https://schema.org/InStock","url":"https://www.bhdasia.com/event-certification-2027-refresher"},{"@type":"Offer","name":"Refresher 3 — Boosted Refresher — Early bird","price":"3200","priceCurrency":"SGD","validThrough":"2027-03-31","availability":"https://schema.org/InStock","url":"https://www.bhdasia.com/event-certification-2027-refresher"},{"@type":"Offer","name":"Refresher 3 — Boosted Refresher — Regular","price":"3900","priceCurrency":"SGD","validThrough":"2027-02-25","availability":"https://schema.org/InStock","url":"https://www.bhdasia.com/event-certification-2027-refresher"},{"@type":"Offer","name":"Refresher 4 — Boosted Supervised Refresher — Early bird","price":"3990","priceCurrency":"SGD","validThrough":"2027-03-31","availability":"https://schema.org/InStock","url":"https://www.bhdasia.com/event-certification-2027-refresher"},{"@type":"Offer","name":"Refresher 4 — Boosted Supervised Refresher — Regular","price":"4600","priceCurrency":"SGD","validThrough":"2027-02-25","availability":"https://schema.org/InStock","url":"https://www.bhdasia.com/event-certification-2027-refresher"}],"hasCourseInstance":[{"@type":"CourseInstance","name":"Global TRE™ Provider Certification 2027 — Singapore cohort (Modules 1–3)","courseMode":"Blended","startDate":"2027-04-24","endDate":"2027-10-31","eventStatus":"https://schema.org/EventScheduled","location":{"@type":"Place","name":"Singapore","address":{"@type":"PostalAddress","addressLocality":"Singapore","addressCountry":"SG"}},"organizer":{"@type":"Organization","name":"BHD Asia","url":"https://www.bhdasia.com/"},"performer":[{"@type":"Person","name":"Isabelle Claus Teixeira","jobTitle":"Global TRE™ Certifying Trainer","url":"https://www.bhdasia.com/isabelle"},{"@type":"Person","name":"Simba Stenqvist","jobTitle":"Global TRE™ Certifying Trainer","url":"https://www.bhdasia.com/simba"}],"instructor":[{"@type":"Person","name":"Isabelle Claus Teixeira","jobTitle":"Global TRE™ Certifying Trainer","url":"https://www.bhdasia.com/isabelle"},{"@type":"Person","name":"Simba Stenqvist","jobTitle":"Global TRE™ Certifying Trainer","url":"https://www.bhdasia.com/simba"}],"url":"https://www.bhdasia.com/event-certification-2027-refresher"},{"@type":"CourseInstance","name":"Module 1 — Your Personal TRE™ Practice","courseMode":"Blended","startDate":"2027-04-24","endDate":"2027-04-25","location":{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":"Singapore","addressCountry":"SG"}}},{"@type":"CourseInstance","name":"Module 2 — Teaching TRE™ to One Person","courseMode":"Blended","startDate":"2027-07-03","endDate":"2027-07-04","location":{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":"Singapore","addressCountry":"SG"}}},{"@type":"CourseInstance","name":"Module 3 — Teaching TRE™ to Groups","courseMode":"Blended","startDate":"2027-10-30","endDate":"2027-10-31","location":{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":"Singapore","addressCountry":"SG"}}}]}
+</script><style>
+.cs-photos{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:8px}
+.cs-photos figure{margin:0;border-radius:var(--r-md);overflow:hidden;box-shadow:0 4px 18px rgba(0,0,0,.1);background:#eef1f4}
+.cs-photos img{width:100%;height:100%;object-fit:cover;display:block;aspect-ratio:4/5}
+.cs-photos figcaption{font-size:12px;color:var(--muted);padding:10px 12px;background:#fff}
+@media(max-width:640px){.cs-photos{grid-template-columns:1fr}}
+</style><style>
+.pk-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:20px}
+.pk-card{border:1.5px solid var(--border);border-radius:var(--r-md);padding:22px 20px;display:flex;flex-direction:column;gap:8px;background:#fff}
+.pk-card.featured{border-color:var(--blue-text);background:linear-gradient(135deg,rgba(212,146,26,.06) 0%,rgba(212,146,26,.02) 100%)}
+.pk-card .pk-tag{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--blue-text)}
+.pk-card h3{font-size:18px;margin:0;color:var(--text)}
+.pk-card p{font-size:14px;line-height:1.6;margin:0;color:var(--body)}
+.pk-card .pk-price{font-size:26px;font-weight:700;color:var(--text);letter-spacing:-.02em;margin-top:4px}
+.pk-card .pk-price small{font-size:13px;font-weight:500;color:var(--muted)}
+.pk-card .pk-sub{font-size:12.5px;color:var(--muted);line-height:1.5}
+.pk-card .et_pb_button{margin-top:auto;text-align:center}
+.pk-tbl-wrap{overflow-x:auto;margin-top:14px;-webkit-overflow-scrolling:touch}
+.pk-tbl{width:100%;border-collapse:collapse;font-size:14px;line-height:1.5;min-width:420px}
+.pk-tbl th,.pk-tbl td{padding:10px 12px;border-bottom:1px solid var(--border);text-align:left;vertical-align:top}
+.pk-tbl th{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--blue-text);font-weight:700}
+.pk-tbl tr.pk-total td{font-weight:700;color:var(--text);border-bottom:0}
+.pk-note{margin-top:16px;padding:12px 16px;background:rgba(212,146,26,.08);border-left:3px solid var(--blue-text);font-size:14px;line-height:1.65;color:var(--text);border-radius:0 var(--r-md) var(--r-md) 0}
+.pk-list{margin:12px 0 0;padding-left:20px;font-size:14.5px;line-height:1.75;color:var(--body)}
+.related-grid[hidden]{display:none}
+.pk-h3{font-size:15px;font-weight:700;color:var(--text);margin:26px 0 8px}
+@media(max-width:900px){.pk-grid,.pk-grid.two{grid-template-columns:1fr!important}}
+</style><script type="application/ld+json" id="bhd-ld">{"@context":"https://schema.org","@graph":[{"@type":["Organization","ProfessionalService"],"@id":"https://www.bhdasia.com/#organization","name":"BHD Asia","legalName":"Business &amp; Human Development Consulting Pte Ltd","alternateName":["BHD Asia Singapore","Business and Human Development Consulting"],"url":"https://www.bhdasia.com/","logo":{"@type":"ImageObject","url":"https://www.bhdasia.com/favicon-192.png","width":192,"height":192},"image":"https://www.bhdasia.com/isagrey.webp","description":"Boutique HR consulting, executive coaching and resilience-building consultancy founded in Singapore in 2012. BHD Asia co-designs leadership development, organisation development and TRE™ programmes for organisations across Europe, the US, Asia, Japan and Russia.","slogan":"Highlight, Enhance and Appreciate Human in Business.","foundingDate":"2012","foundingLocation":"Singapore","founder":{"@id":"https://www.bhdasia.com/isabelle#person"},"employee":[{"@id":"https://www.bhdasia.com/isabelle#person"},{"@id":"https://www.bhdasia.com/jasmine#person"},{"@id":"https://www.bhdasia.com/simba#person"},{"@id":"https://www.bhdasia.com/rina#person"}],"address":{"@type":"PostalAddress","streetAddress":"50 Raffles Place, Singapore Land Tower #30-00","addressLocality":"Singapore","postalCode":"048623","addressCountry":"SG"},"telephone":"+81 80 6515 1778","identifier":{"@type":"PropertyValue","propertyID":"UEN (ACRA)","value":"201201974K"},"areaServed":["Singapore","Asia","Japan","Europe","United States","Middle East"],"knowsLanguage":["en","fr","es"],"knowsAbout":["Executive coaching","Leadership development","Organisation development","HR consulting","Talent management","Psychological safety","Resilience building","Burnout prevention","Somatic coaching","TRE™ (Tension &amp; Trauma Releasing Exercises)","Global TRE™ Provider Certification","Change management","Conflict resolution"],"sameAs":["https://www.facebook.com/bhdasia/","https://www.instagram.com/isabelleclausteixeira_bhd/","https://www.youtube.com/@IsabelleClausTeixeira","https://www.linkedin.com/in/isabelleclausteixeira/"],"contactPoint":{"@type":"ContactPoint","contactType":"customer service","telephone":"+81 80 6515 1778","availableLanguage":["English","French","Spanish"],"url":"https://www.bhdasia.com/contact"}},{"@type":"WebSite","@id":"https://www.bhdasia.com/#website","url":"https://www.bhdasia.com/","name":"BHD Asia","inLanguage":"en","publisher":{"@id":"https://www.bhdasia.com/#organization"}},{"@type":"WebPage","@id":"https://www.bhdasia.com/event-certification-2027-refresher#webpage","url":"https://www.bhdasia.com/event-certification-2027-refresher","name":"Refresher Packages | TRE™ Provider Certification 2027 | BHD Asia","description":"Refresher Packages for accredited TRE™ Providers and TRE™ Provider trainees: four options from S$2,200 early bird (until 31 March 2027) for the 2027 Singapore modules.","inLanguage":"en","isPartOf":{"@id":"https://www.bhdasia.com/#website"},"about":{"@id":"https://www.bhdasia.com/#organization"},"publisher":{"@id":"https://www.bhdasia.com/#organization"},"dateModified":"2026-10-31","primaryImageOfPage":{"@type":"ImageObject","url":"https://www.bhdasia.com/event-cert-2027-refresher.webp?v=20261107b"},"breadcrumb":{"@id":"https://www.bhdasia.com/event-certification-2027-refresher#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://www.bhdasia.com/event-certification-2027-refresher#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.bhdasia.com/"},{"@type":"ListItem","position":2,"name":"Events","item":"https://www.bhdasia.com/events"},{"@type":"ListItem","position":3,"name":"TRE™ Provider Certification 2027","item":"https://www.bhdasia.com/event-certification-2027"},{"@type":"ListItem","position":4,"name":"Refresher Packages","item":"https://www.bhdasia.com/event-certification-2027-refresher"}]}]}</script><link rel="preload" href="/fonts/tn/inter-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/tn/plus-jakarta-sans-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/technext-style.css?v=36"/></t><t t-call="web.layout"><link rel="stylesheet" href="/style.css?v=14"/><link rel="stylesheet" href="/event-detail.css?v=20261108a"/><link rel="stylesheet" href="/technext-style.css?v=36"/><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W9B95BT7" height="0" width="0" style="display:none;visibility:hidden"/></noscript><div id="page-container">
+<header id="main-header">
+  <div class="et_menu_container container clearfix">
+    <div class="logo_container">
+      <a href="/">
+        <img src="/bhd-logo.svg?v=1" alt="BHD Asia" width="51" height="34" onerror="this.style.display='none';document.querySelector('.logo-text').style.display='block'"/>
+        <span class="logo-text">BHD Asia</span>
+      </a>
+    </div>
+    <div id="et-top-navigation">
+      <nav id="top-menu-nav">
+        <ul id="top-menu" class="nav">
+          <li class="menu-item"><a href="/">Home</a></li>
+          <li class="menu-item"><a href="/services">Services</a></li>
+          <li class="menu-item"><a href="/about">About</a></li>
+          <li class="menu-item current-menu-item"><a href="/events">Events</a></li>
+          <li class="menu-item"><a href="/contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="/#book" class="header-contact-btn" data-cta="header-book">Book a call</a>
+      <div id="et_top_search"><span id="et_search_icon"/></div>
+      <div id="et_mobile_nav_menu"><button class="mobile_menu_bar" id="mobile-menu-btn" aria-expanded="false" aria-controls="top-menu-nav" aria-label="Open navigation"/></div>
+    </div>
+  </div>
+</header>
+<div id="et-main-area" tabindex="-1">
+<div class="evt-hero">
+  <img fetchpriority="high" class="evt-hero-img" src="/event-cert-2027-refresher.webp?v=20261107b" srcset="/event-cert-2027-refresher-960.webp?v=20261107b 960w, /event-cert-2027-refresher.webp?v=20261107b 1920w" sizes="(max-width:900px) 100vw, 60vw" alt="TRE™ Provider Certification 2027 — Intake Open" width="1400" height="700" loading="eager"/>
+  <div class="evt-hero-overlay"/>
+  <div class="evt-hero-inner">
+    <div class="container">
+      <p class="evt-crumbs"><a href="/events">Events</a> <span aria-hidden="true">›</span> <span>Singapore</span></p>
+      <div class="evt-hero-top">
+        <span class="evt-badge evt-badge-loc">Singapore</span>
+        <span class="evt-badge evt-badge-type">Certification Training</span>
+        <span class="evt-badge evt-badge-type">Providers &amp; trainees · 2027</span>
+      </div>
+      <h1>Refresher Packages</h1>
+      <p class="evt-hero-sub">For accredited TRE™ Providers and TRE™ Provider trainees who want to complete their training. Four options, from S$2,200 early bird until 31 March 2027.</p>
+      <div class="evt-hero-ctas">
+        <a class="et_pb_button btn-white" href="#register">Reserve your place →</a>
+        <a class="et_pb_button btn-white-outline" href="https://calendly.com/bhdasia/tre-certification-intake-call" target="_blank" rel="noopener">Book a Call via Calendly</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="evt-facts">
+  <div class="container">
+    <div class="evt-facts-grid">
+      <div class="evt-fact"><svg class="evt-fact-ico" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3v3M17 3v3M4 9h16M5 5h14a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z"/></svg><div class="evt-fact-txt"><span class="evt-fact-label">Module 1</span><span class="evt-fact-val">24–25 Apr 2027</span></div></div>
+      <div class="evt-fact"><svg class="evt-fact-ico" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3v3M17 3v3M4 9h16M5 5h14a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z"/></svg><div class="evt-fact-txt"><span class="evt-fact-label">Module 2</span><span class="evt-fact-val">3–4 Jul 2027</span></div></div>
+      <div class="evt-fact"><svg class="evt-fact-ico" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3v3M17 3v3M4 9h16M5 5h14a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z"/></svg><div class="evt-fact-txt"><span class="evt-fact-label">Module 3</span><span class="evt-fact-val">30–31 Oct 2027</span></div></div>
+      <div class="evt-fact"><svg class="evt-fact-ico" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12.5V4a1 1 0 0 1 1-1h8.5l8.5 8.5a1 1 0 0 1 0 1.4l-8.1 8.1a1 1 0 0 1-1.4 0z"/><circle cx="8" cy="8" r="1.2"/></svg><div class="evt-fact-txt"><span class="evt-fact-label">Refresher</span><span class="evt-fact-val">from S$2,200</span></div></div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+<div class="evt-layout">
+  <div class="evt-main">
+
+<div class="evt-section evt-poster-sec">
+      <span class="evt-section-label">Event Poster</span>
+      <h2>Save &amp; Share the Poster</h2>
+      <figure style="margin:0">
+        <a href="/event-cert-2027-refresher-poster.webp?v=20261107b" target="_blank" rel="noopener" aria-label="Open the full-size event poster" style="display:block;border-radius:16px;overflow:hidden;box-shadow:0 18px 50px -24px rgba(17,24,39,.45)"><img src="/event-cert-2027-refresher-poster.webp?v=20261107b" alt="TRE™ Provider Certification 2027 Singapore with Isabelle Claus Teixeira and Simba Stenqvist: Refresher Packages, Module 1 24–25 Apr, Module 2 3–4 Jul, Module 3 30–31 Oct 2027" width="1080" height="1350" loading="lazy" decoding="async" style="display:block;width:100%;height:auto"/></a>
+        <figcaption style="font-size:13px;color:var(--muted);margin-top:10px">Tap to open the full-size poster to save or share it.</figcaption>
+      </figure>
+    </div>
+
+<div class="evt-section"><span class="evt-section-label">About TRE™</span><h2>Become a Certified TRE™ Provider</h2><p>TRE™ is a body-led series of simple, powerful exercises to release stress, tension and trauma and build resilience. It safely activates the body's natural reflex of shaking or vibrating, which helps calm the nervous system and release muscular tension — allowing the body to naturally return to a balanced state.</p><p>The Global TRE™ Provider Certification program allows certificate holders to offer TRE™ to the general public in both individual and group settings. The 2027 cohort is co-taught by Isabelle Claus Teixeira and Simba Stenqvist.</p><p style="font-weight:700;color:var(--blue-text)">Only one cohort per year in Singapore — dates for 2027 are confirmed below.</p></div>
+
+<div class="evt-section"><span class="evt-section-label">Who it is for</span><h2>For Providers and Trainees</h2><p>The Refresher Packages are for accredited TRE™ Providers and TRE™ Provider trainees who want to complete their training in the 2027 Singapore cohort. Choose from four options.</p></div>
+
+<div class="evt-section"><span class="evt-section-label">Four Options</span><h2>Choose Your Refresher</h2><p style="font-size:14px;color:var(--muted)">All prices in SGD. Early bird until 31 March 2027. “50% supervisions” means Module 2: 1 online group and 1 online individual supervision; Module 3: 1 online individual and 1 online group supervision.</p><div class="pk-tbl-wrap"><table class="pk-tbl" style="min-width:560px"><thead><tr><th>Option</th><th>Includes</th><th>Early bird (to 31 Mar 2027)</th><th>Regular</th></tr></thead><tbody><tr><td><strong>1. Refresher</strong></td><td>Participation in the 3 modules at a special refresher price.</td><td>S$2,200</td><td>S$2,900</td></tr><tr><td><strong>2. Supervised Refresher</strong></td><td>3 modules + 50% supervisions (no personal sessions).</td><td>S$2,990</td><td>S$3,600</td></tr><tr><td><strong>3. Boosted Refresher</strong></td><td>3 modules + the 3 bonus programmes (value S$1,290): Grounding, Verbal Interventions, Internal Alchemy.</td><td>S$3,200</td><td>S$3,900</td></tr><tr><td><strong>4. Boosted Supervised Refresher</strong></td><td>3 modules + 50% supervisions (no personal sessions) + the 3 bonus programmes (value S$1,290).</td><td>S$3,990</td><td>S$4,600</td></tr></tbody></table></div><div class="pk-note"><strong>Card charges are added on top of every instalment.</strong> Payment is by credit card only, via Stripe. All prices are in Singapore Dollars (SGD) and shown before card charges.</div></div>
+
+<div id="option-1"><div class="evt-section"><span class="evt-section-label">Option 1</span><h2>Refresher</h2><div class="pricing-cards"><div class="price-card featured"><span class="price-card-label">Early Bird</span><div class="price-card-amount">S$2,200</div><div class="price-card-until">until 31 March 2027</div></div><div class="price-card"><span class="price-card-label">Regular Price</span><div class="price-card-amount">S$2,900</div><div class="price-card-until">Standard registration</div></div></div><p style="margin-top:14px;font-size:14.5px">Participation in the 3 modules at a special refresher price.</p><h3 class="pk-h3">Early-bird instalments — S$2,200</h3><div class="pk-tbl-wrap"><table class="pk-tbl"><thead><tr><th>Instalment</th><th>Due</th><th>Amount</th></tr></thead><tbody><tr><td>1 — on registration</td><td>by 31 Mar 2027</td><td>S$1,000</td></tr><tr><td>2 — issued after Module 1</td><td>by 3 Jun 2027</td><td>S$600</td></tr><tr><td>3 — issued after Module 2</td><td>by 30 Sep 2027</td><td>S$600</td></tr><tr class="pk-total"><td colspan="2">Total (excluding card charges)</td><td>S$2,200</td></tr></tbody></table></div><p class="pk-fullpay" style="margin:10px 0 0;font-size:14px">Or pay in full: <strong>S$2,200</strong> at registration. Card charges still apply.</p><h3 class="pk-h3">Regular-price instalments — S$2,900</h3><div class="pk-tbl-wrap"><table class="pk-tbl"><thead><tr><th>Instalment</th><th>Due</th><th>Amount</th></tr></thead><tbody><tr><td>1 — on registration</td><td>by 22 Apr 2027</td><td>S$1,500</td></tr><tr><td>2 — issued after Module 1</td><td>by 3 Jun 2027</td><td>S$700</td></tr><tr><td>3 — issued after Module 2</td><td>by 30 Sep 2027</td><td>S$700</td></tr><tr class="pk-total"><td colspan="2">Total (excluding card charges)</td><td>S$2,900</td></tr></tbody></table></div><p class="pk-fullpay" style="margin:10px 0 0;font-size:14px">Or pay in full: <strong>S$2,900</strong> at registration. Card charges still apply.</p><div style="margin-top:18px"><a class="et_pb_button" href="#register" data-opt="1">Reserve Option 1 →</a></div></div></div>
+
+<div id="option-2"><div class="evt-section"><span class="evt-section-label">Option 2</span><h2>Supervised Refresher</h2><div class="pricing-cards"><div class="price-card featured"><span class="price-card-label">Early Bird</span><div class="price-card-amount">S$2,990</div><div class="price-card-until">until 31 March 2027</div></div><div class="price-card"><span class="price-card-label">Regular Price</span><div class="price-card-amount">S$3,600</div><div class="price-card-until">Standard registration</div></div></div><p style="margin-top:14px;font-size:14.5px">3 modules + 50% supervisions (no personal sessions).</p><h3 class="pk-h3">Early-bird instalments — S$2,990</h3><div class="pk-tbl-wrap"><table class="pk-tbl"><thead><tr><th>Instalment</th><th>Due</th><th>Amount</th></tr></thead><tbody><tr><td>1 — on registration</td><td>by 31 Mar 2027</td><td>S$1,000</td></tr><tr><td>2 — issued after Module 1</td><td>by 3 Jun 2027</td><td>S$995</td></tr><tr><td>3 — issued after Module 2</td><td>by 30 Sep 2027</td><td>S$995</td></tr><tr class="pk-total"><td colspan="2">Total (excluding card charges)</td><td>S$2,990</td></tr></tbody></table></div><p class="pk-fullpay" style="margin:10px 0 0;font-size:14px">Or pay in full: <strong>S$2,990</strong> at registration. Card charges still apply.</p><h3 class="pk-h3">Regular-price instalments — S$3,600</h3><div class="pk-tbl-wrap"><table class="pk-tbl"><thead><tr><th>Instalment</th><th>Due</th><th>Amount</th></tr></thead><tbody><tr><td>1 — on registration</td><td>by 22 Apr 2027</td><td>S$1,500</td></tr><tr><td>2 — issued after Module 1</td><td>by 3 Jun 2027</td><td>S$1,050</td></tr><tr><td>3 — issued after Module 2</td><td>by 30 Sep 2027</td><td>S$1,050</td></tr><tr class="pk-total"><td colspan="2">Total (excluding card charges)</td><td>S$3,600</td></tr></tbody></table></div><p class="pk-fullpay" style="margin:10px 0 0;font-size:14px">Or pay in full: <strong>S$3,600</strong> at registration. Card charges still apply.</p><div style="margin-top:18px"><a class="et_pb_button" href="#register" data-opt="2">Reserve Option 2 →</a></div></div></div>
+
+<div id="option-3"><div class="evt-section"><span class="evt-section-label">Option 3</span><h2>Boosted Refresher</h2><div class="pricing-cards"><div class="price-card featured"><span class="price-card-label">Early Bird</span><div class="price-card-amount">S$3,200</div><div class="price-card-until">until 31 March 2027</div></div><div class="price-card"><span class="price-card-label">Regular Price</span><div class="price-card-amount">S$3,900</div><div class="price-card-until">Standard registration</div></div></div><p style="margin-top:14px;font-size:14.5px">3 modules + the 3 bonus programmes (value S$1,290): Grounding, Verbal Interventions, Internal Alchemy.</p><h3 class="pk-h3">Early-bird instalments — S$3,200</h3><div class="pk-tbl-wrap"><table class="pk-tbl"><thead><tr><th>Instalment</th><th>Due</th><th>Amount</th></tr></thead><tbody><tr><td>1 — on registration</td><td>by 31 Mar 2027</td><td>S$1,000</td></tr><tr><td>2 — issued after Module 1</td><td>by 3 Jun 2027</td><td>S$1,100</td></tr><tr><td>3 — issued after Module 2</td><td>by 30 Sep 2027</td><td>S$1,100</td></tr><tr class="pk-total"><td colspan="2">Total (excluding card charges)</td><td>S$3,200</td></tr></tbody></table></div><p class="pk-fullpay" style="margin:10px 0 0;font-size:14px">Or pay in full: <strong>S$3,200</strong> at registration. Card charges still apply.</p><h3 class="pk-h3">Regular-price instalments — S$3,900</h3><div class="pk-tbl-wrap"><table class="pk-tbl"><thead><tr><th>Instalment</th><th>Due</th><th>Amount</th></tr></thead><tbody><tr><td>1 — on registration</td><td>by 22 Apr 2027</td><td>S$1,500</td></tr><tr><td>2 — issued after Module 1</td><td>by 3 Jun 2027</td><td>S$1,200</td></tr><tr><td>3 — issued after Module 2</td><td>by 30 Sep 2027</td><td>S$1,200</td></tr><tr class="pk-total"><td colspan="2">Total (excluding card charges)</td><td>S$3,900</td></tr></tbody></table></div><p class="pk-fullpay" style="margin:10px 0 0;font-size:14px">Or pay in full: <strong>S$3,900</strong> at registration. Card charges still apply.</p><div style="margin-top:18px"><a class="et_pb_button" href="#register" data-opt="3">Reserve Option 3 →</a></div><h3 class="pk-h3">Bonus programmes</h3><p style="font-size:14.5px">Three self-paced online programmes, together valued at S$1,290, come with Options 3 and 4. Grounding unlocks once Instalment 2 is received (due by 3 June 2027). Verbal Interventions and Internal Alchemy unlock once Instalment 3 is received (due by 30 September 2027). If you pay the full package price at registration, all three unlock after Module 2 (3–4 July 2027).</p></div></div>
+
+<div id="option-4"><div class="evt-section"><span class="evt-section-label">Option 4</span><h2>Boosted Supervised Refresher</h2><div class="pricing-cards"><div class="price-card featured"><span class="price-card-label">Early Bird</span><div class="price-card-amount">S$3,990</div><div class="price-card-until">until 31 March 2027</div></div><div class="price-card"><span class="price-card-label">Regular Price</span><div class="price-card-amount">S$4,600</div><div class="price-card-until">Standard registration</div></div></div><p style="margin-top:14px;font-size:14.5px">3 modules + 50% supervisions (no personal sessions) + the 3 bonus programmes (value S$1,290).</p><h3 class="pk-h3">Early-bird instalments — S$3,990</h3><div class="pk-tbl-wrap"><table class="pk-tbl"><thead><tr><th>Instalment</th><th>Due</th><th>Amount</th></tr></thead><tbody><tr><td>1 — on registration</td><td>by 31 Mar 2027</td><td>S$1,000</td></tr><tr><td>2 — issued after Module 1</td><td>by 3 Jun 2027</td><td>S$1,495</td></tr><tr><td>3 — issued after Module 2</td><td>by 30 Sep 2027</td><td>S$1,495</td></tr><tr class="pk-total"><td colspan="2">Total (excluding card charges)</td><td>S$3,990</td></tr></tbody></table></div><p class="pk-fullpay" style="margin:10px 0 0;font-size:14px">Or pay in full: <strong>S$3,990</strong> at registration. Card charges still apply.</p><h3 class="pk-h3">Regular-price instalments — S$4,600</h3><div class="pk-tbl-wrap"><table class="pk-tbl"><thead><tr><th>Instalment</th><th>Due</th><th>Amount</th></tr></thead><tbody><tr><td>1 — on registration</td><td>by 22 Apr 2027</td><td>S$1,500</td></tr><tr><td>2 — issued after Module 1</td><td>by 3 Jun 2027</td><td>S$1,550</td></tr><tr><td>3 — issued after Module 2</td><td>by 30 Sep 2027</td><td>S$1,550</td></tr><tr class="pk-total"><td colspan="2">Total (excluding card charges)</td><td>S$4,600</td></tr></tbody></table></div><p class="pk-fullpay" style="margin:10px 0 0;font-size:14px">Or pay in full: <strong>S$4,600</strong> at registration. Card charges still apply.</p><div style="margin-top:18px"><a class="et_pb_button" href="#register" data-opt="4">Reserve Option 4 →</a></div><h3 class="pk-h3">Bonus programmes</h3><p style="font-size:14.5px">Three self-paced online programmes, together valued at S$1,290, come with Options 3 and 4. Grounding unlocks once Instalment 2 is received (due by 3 June 2027). Verbal Interventions and Internal Alchemy unlock once Instalment 3 is received (due by 30 September 2027). If you pay the full package price at registration, all three unlock after Module 2 (3–4 July 2027).</p></div></div>
+
+<div class="evt-section"><span class="evt-section-label">Module Dates</span><h2>Three Modules in Singapore</h2><p style="font-size:14px;color:var(--muted)">The refresher modules in Singapore.</p><div class="module-path"><div class="mod-step"><div class="mod-num">1</div><div class="mod-body"><strong>Module 1  ·  <span style="color:var(--blue-text)">24 &amp; 25 April 2027 · Singapore</span></strong><p>Participation in Module 1 at the refresher price.</p></div></div><div class="mod-step"><div class="mod-num">2</div><div class="mod-body"><strong>Module 2  ·  <span style="color:var(--blue-text)">3 &amp; 4 July 2027 · Singapore</span></strong><p>Participation in Module 2; supervised options include 1 online group and 1 online individual supervision.</p></div></div><div class="mod-step"><div class="mod-num">3</div><div class="mod-body"><strong>Module 3  ·  <span style="color:var(--blue-text)">30 &amp; 31 October 2027 · Singapore</span></strong><p>Participation in Module 3; supervised options include 1 online individual and 1 online group supervision. The final module: complete it, its supervisions and the remaining certification requirements to become a Global TRE™ Provider.</p></div></div></div></div>
+
+<div class="evt-section"><span class="evt-section-label">Add-ons</span><h2>Optional Extras</h2><ul class="pk-list"><li>Extra online personal session or supervision: <strong>S$190</strong> per 60-minute online session.</li><li>ICF CCEs for Module 1: <strong>S$500</strong> early bird / <strong>S$900</strong> regular.</li></ul></div>
+
+<div class="evt-section" id="payment"><span class="evt-section-label">Payment Terms</span><h2>How Payment Works</h2><ul class="pk-list"><li>Payment is by <strong>credit card only</strong>, via Stripe (Odoo checkout). <strong>Card charges are added on top of every instalment.</strong></li><li>The <strong>full package price is owed once the first instalment is paid.</strong></li><li>Prefer to pay in full? You can pay the full package price at registration instead of three instalments. Card charges still apply.</li><li>Instalment 1 is due on registration — by 31 Mar 2027 at the early-bird price, by 22 Apr 2027 at the regular price.</li><li>Instalment 2 is issued after Module 1 and due by 3 June 2027. Instalment 3 is issued after Module 2 and due by 30 September 2027.</li><li>Extra online personal sessions or supervisions (any package): <strong>S$190 per 60-minute online session</strong>.</li><li>All ticket sales are final — tickets are non-refundable and non-cancellable.</li></ul></div>
+
+<div class="evt-section"><span class="evt-section-label">Other Packages</span><h2>Compare the 2027 Packages</h2><div class="pk-grid two" style="grid-template-columns:repeat(2,1fr)"><div class="pk-card"><span class="pk-tag">New students</span><h3>Growth Package</h3><p>The full certification: Modules 1–3, all online personal sessions and supervisions, ICF CCEs (21 for Module 1; Module 2 pending confirmation) and three self-paced bonus programmes (value S$1,290).</p><div class="pk-price">S$5,888 <small>early bird</small></div><div class="pk-sub">Regular S$6,888 · early bird until 31 Mar 2027</div><a class="et_pb_button btn-outline" href="/event-certification-2027-growth">View the package →</a></div><div class="pk-card"><span class="pk-tag">New students</span><h3>Foundational Package</h3><p>The complete certification pathway, without ICF credits and without the bonus programmes.</p><div class="pk-price">S$4,888 <small>early bird</small></div><div class="pk-sub">Regular S$5,888 · early bird until 31 Mar 2027</div><a class="et_pb_button btn-outline" href="/event-certification-2027-foundational">View the package →</a></div></div><p style="margin-top:16px"><a href="/event-certification-2027">← Back to the 2027 certification overview</a></p></div>
+
+<div class="evt-section">
+      <span class="evt-section-label">Your Trainers</span>
+      <h2>Taught by Two Global TRE™ Certifying Trainers</h2>
+      <div class="facilitator-card">
+        <img class="fac-photo" src="/isa-portrait.webp" alt="Isabelle Claus Teixeira" width="90" height="90" loading="lazy"/>
+        <div class="fac-body">
+          <h4>Isabelle Claus Teixeira</h4>
+          <span class="fac-role">Global TRE™ Certifying Trainer · ICF PCC</span>
+          <p>Accredited by TRE™ for All under Dr. David Berceli's methodology — the highest level of qualification to certify new TRE™ Providers worldwide. Over 30 years of human development experience and somatic practice, training practitioners across Europe, Asia, the US and beyond.</p>
+          <div class="fac-links">
+            <a href="/isabelle">Meet Isabelle →</a>
+            <a href="https://www.linkedin.com/in/isabelleclausteixeira/" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+      <div class="facilitator-card" style="margin-top:16px">
+        <img class="fac-photo" src="/simba-portrait.webp" alt="Simba Stenqvist" width="90" height="90" loading="lazy"/>
+        <div class="fac-body">
+          <h4>Simba Stenqvist</h4>
+          <span class="fac-role">Global TRE™ Certifying Trainer · Creator of Internal Alchemy</span>
+          <p>Somatic practitioner with more than 25 years of hands-on practice in bodywork, nervous system regulation and energetic healing — developed in close collaboration with Dr. David Berceli, founder of TRE™. Simba leads the Grounding and Introduction to Internal Alchemy bonus programs included in this certification.</p>
+          <div class="fac-links">
+            <a href="/simba">Meet Simba →</a>
+            <a href="https://livingwiththespirit.com/" target="_blank" rel="noopener">Official Website — livingwiththespirit.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="evt-sidebar" id="register">
+    <div class="evt-reg-card">
+      <div class="evt-reg-head">
+        <h3>Reserve your place</h3>
+        <p>One cohort per year. Choose your package and share your details — Isabelle will confirm your place and send your first instalment link.</p>
+      </div>
+      <div class="evt-reg-body">
+        <form class="evt-reg-form" id="evt-reg-form" onsubmit="submitReg(event)">
+          <select name="event" id="evt-select" aria-label="Package" required="" style="color:var(--body)">
+            <option value="">— Which package are you interested in? *</option>
+            <option>Growth Package — early bird S$5,888 (new students)</option>
+            <option>Foundational Package — early bird S$4,888 (new students)</option>
+            <option>Refresher 1 — Refresher — early bird S$2,200</option>
+            <option>Refresher 2 — Supervised Refresher — early bird S$2,990</option>
+            <option>Refresher 3 — Boosted Refresher — early bird S$3,200</option>
+            <option>Refresher 4 — Boosted Supervised Refresher — early bird S$3,990</option>
+            <option>Not sure yet — send me the details</option>
+          </select>
+          <select name="plan" aria-label="Payment plan" required="" style="color:var(--body)"><option value="">— Payment plan *</option><option>3 instalments</option><option>Pay in full at registration</option></select>
+          <input type="text" name="name" placeholder="Full Name *" aria-label="Full Name" required=""/>
+          <input type="email" name="email" placeholder="Email Address *" aria-label="Email Address" required=""/>
+          <input type="tel" name="phone" placeholder="Phone / WhatsApp *" aria-label="Phone / WhatsApp (required)" autocomplete="tel" required=""/>
+          <textarea name="message" rows="3" placeholder="Questions, prior TRE™ experience, or special requirements? (optional)" aria-label="Questions, prior TRE™ experience, or special requirements? (optional)"/>
+          <button type="submit">Reserve my place →</button>
+        </form>
+        <div class="reg-success-box" id="reg-success" style="display:none">
+          <svg width="44" height="44" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          <h4>Interest registered!</h4>
+          <p>Isabelle will be in touch shortly to confirm your place — early-bird pricing applies until 31 March 2027. Card charges are added on top of every instalment.</p>
+        </div>
+        <p class="evt-refund-note" style="margin-top:14px;padding:10px 14px;background:rgba(192,57,43,.08);border-left:3px solid #c0392b;font-size:13px;font-weight:600;color:#7a2e24;line-height:1.6;border-radius:0 var(--r-md) var(--r-md) 0">Please note: tickets are non-refundable and non-cancellable. Payment is by credit card only; card charges are added on top of every instalment.</p>
+        <p class="evt-reg-alt">Or book via <a href="https://calendly.com/bhdasia/tre-certification-intake-call" target="_blank" rel="noopener">Calendly</a>  ·  <span>bonjour@bhd<span style="display:none">-no-spam</span>asia.com</span></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<section class="evt-join" id="join"><div class="container"><div class="evt-join-box">
+<div class="evt-join-head"><span class="evt-join-ico"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="6" width="12" height="12" rx="2"/><path d="M15 10.5l6-3.5v10l-6-3.5"/></svg></span><div class="evt-join-text"><strong>Joining online? Prepare your space first.</strong>
+        <span>Camera positioning, what to bring, lighting, dress code and joining on Zoom — everything to set up before your online TRE™ session.</span></div></div>
+<div class="evt-join-actions"><a class="et_pb_button btn-white" href="#register">Reserve your place →</a> <a class="et_pb_button btn-white" href="/online-session-preparation">Preparation Guide →</a> <a class="et_pb_button btn-white-outline" href="/online-session-tre-guide.pdf?v=2" download="Online-Session-TRE-Guide.pdf">Download PDF Guide (1.9 MB)</a> <a class="et_pb_button btn-white-outline" href="/event-certification-2027">All 2027 Packages</a></div>
+</div></div></section>
+<section class="evt-related"><div class="container">
+<div class="evt-section"><span class="evt-section-label">More Events</span><h2>Other upcoming events</h2><div class="related-grid" hidden=""/><div class="ev-rel-empty"><p style="margin:0 0 6px"><strong>More events coming in 2027</strong></p><p style="margin:0 0 14px;font-size:14.5px">New workshops and retreats with Isabelle and Simba are being scheduled across Asia and Europe.</p><a class="et_pb_button btn-outline" href="/events">See all events →</a></div></div>
+</div></section>
+
+
+</div>
+<!-- ONLINE SESSION PREP STRIP -->
+<style>
+.online-prep-strip{background:var(--navy);padding:28px 0}
+.online-prep-strip .ops-inner{display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+.online-prep-strip .ops-ico{width:44px;height:44px;border-radius:50%;background:rgba(212,146,26,.18);color:var(--gold);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.online-prep-strip .ops-ico svg{width:20px;height:20px}
+.online-prep-strip .ops-text{flex:1;min-width:250px}
+.online-prep-strip .ops-text strong{display:block;font-family:'Sora',sans-serif;font-size:16px;font-weight:600;color:#fff;margin-bottom:3px}
+.online-prep-strip .ops-text span{font-size:14px;line-height:1.65;color:rgba(255,255,255,.7)}
+</style>
+
+
+<div class="cta-strip">
+  <div class="container">
+    <h2>Transform Your Practice. Empower Others.</h2>
+    <p>Only one certification cohort per year in Singapore. The 2027 intake is open now.</p>
+    <a class="et_pb_button" href="https://calendly.com/bhdasia/tre-certification-intake-call" target="_blank" rel="noopener">Book a Certification Intake Call</a>
+    <a class="et_pb_button btn-outline" href="/events">View All Events</a>
+  </div>
+</div>
+<footer id="main-footer">
+  <div id="footer-widgets"><div class="container">
+    <div class="footer-widget">
+      <span class="footer-brand-name">BHD <span>Asia</span></span>
+      <p>Highlight, Enhance and Appreciate Human in Business.</p>
+      <p>Business &amp; Human Development Consulting Pte Ltd</p>
+      <div class="footer-social">
+        <a href="https://www.facebook.com/bhdasia/" target="_blank" rel="noopener" class="footer-soc-btn" aria-label="Facebook"><svg viewbox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+        <a href="https://www.instagram.com/isabelleclausteixeira_bhd/" target="_blank" rel="noopener" class="footer-soc-btn" aria-label="Instagram"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+        <a href="https://www.youtube.com/@IsabelleClausTeixeira" target="_blank" rel="noopener" class="footer-soc-btn" aria-label="YouTube"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.95C18.88 4 12 4 12 4s-6.88 0-8.59.47A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.95C5.12 20 12 20 12 20s6.88 0 8.59-.47a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="currentColor" stroke="none"/></svg></a>
+        <a href="https://www.linkedin.com/in/isabelleclausteixeira/" target="_blank" rel="noopener" class="footer-soc-btn" aria-label="LinkedIn"><svg viewbox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+      </div>
+    </div>
+    <div class="footer-widget"><h4>Navigate</h4><ul><li><a href="/">Home</a></li><li><a href="/services">Services</a></li><li><a href="/about">About</a></li><li><a href="/events">Events</a></li><li><a href="/contact">Contact</a></li><li><a href="https://www.hummingbeing.com/" target="_blank" rel="noopener">HummingBeing</a></li></ul></div>
+    <div class="footer-widget"><h4>Legal</h4><ul><li><a href="/privacy">Privacy Statement</a></li><li><a href="/terms">Terms &amp; Conditions</a></li><li><a href="/inclusivity">Inclusivity Statement</a></li></ul></div>
+    <div class="footer-widget"><h4>Contact</h4><p class="ft-addr">Singapore Land Tower, #30-00<br/>50 Raffles Place<br/>Singapore 048623</p><p><a href="tel:+818065151778">+81 80 6515 1778</a></p><p><span>bonjour@bhd<span style="display:none">-no-spam</span>asia.com</span></p><p><a href="/#book" data-cta="page-book">Book a Discovery Call →</a></p></div>
+  </div></div>
+  <div id="footer-bottom"><div class="container">
+    <div id="footer-info"><span>© 2026 BHD Asia. All rights reserved.</span></div>
+    
+    <div id="footer-credit">Powered by <a href="https://technext.asia" target="_blank" rel="noopener">TechNext</a></div>
+  </div></div>
+</footer>
+</div><script src="/shared.js?v=43"/><script src="/gdpr-consent.js?v=4"/><script>
+function submitReg(e){e.preventDefault();var form=document.getElementById('evt-reg-form');var btn=form.querySelector('button[type="submit"]');btn.disabled=true;btn.textContent='Sending…';var data={source:'BHDasia Event — TRE Certification 2027 Refresher Packages',event:form.event.value,inquiry:'Event registration enquiry — Payment plan: '+form.plan.value,payment_plan:form.plan.value,name:form.name.value,email:form.email.value,phone:form.phone.value,message:form.message.value};bhdEmailLead(data);fetch('https://script.google.com/macros/s/AKfycbxkv934L8ffTxU1TPUiw3jn9Hu6KmdE0Ol1CcJRB_vWstls2xiZHHb-LErG5qHXdTuX/exec',{method:'POST',mode:'no-cors',body:new URLSearchParams(data)}).then(function(){form.style.display='none';document.getElementById('reg-success').style.display='block'}).catch(function(){window.location.href='mailto:'+'bonjour'+'@'+'bhdasia.com'+'?subject='+encodeURIComponent('TRE Certification 2027 Enquiry: '+data.event)+'&amp;body='+encodeURIComponent('Name: '+data.name+'\nEmail: '+data.email+'\nEvent: '+data.event+'\nPayment plan: '+data.payment_plan+'\nMessage: '+(data.message||'—'))});}
+(function(){var s=document.getElementById('evt-select');if(!s)return;function pick(n){var t='Refresher '+n+' ';for(var i=0;i&lt;s.options.length;i++){if(s.options[i].text.indexOf(t)===0){s.selectedIndex=i;return}}}
+document.querySelectorAll('[data-opt]').forEach(function(a){a.addEventListener('click',function(){pick(a.getAttribute('data-opt'))})});
+var m=/^#option-(\d)$/.exec(location.hash);if(m)pick(m[1]);})();
+</script></t></t>

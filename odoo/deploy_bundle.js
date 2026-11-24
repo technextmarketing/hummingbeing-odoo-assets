@@ -25,7 +25,8 @@ window.XD = async function (base, opts) {
   L('manifest', man.source, man.files.length, 'files');
 
   // 1) files
-  const ex = await sr('ir.attachment', [['url', 'in', man.files.map(f => f.url)], ['type', '=', 'binary']], ['id', 'url', 'checksum', 'website_id']);
+  // 24 Nov 2026: only THIS website's files - the root-path ports (hbs/bhds) share paths like /style.css and /fonts/...
+  const ex = await sr('ir.attachment', [['url', 'in', man.files.map(f => f.url)], ['type', '=', 'binary'], ['website_id', '=', W]], ['id', 'url', 'checksum', 'website_id']);
   const byUrl = {}; ex.forEach(a => byUrl[a.url] = a);
   for (const f of man.files) {
     const a = byUrl[f.url];

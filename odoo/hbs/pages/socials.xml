@@ -1,0 +1,1322 @@
+<t t-name="hbs.page_socials"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en&quot;}"/><t t-set="title">Follow HummingBeing | Isabelle Claus Teixeira</t><t t-set="head"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
+new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
+"https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,"script","dataLayer","GTM-TXLR5LGG");</script><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="description" content="Follow Isabelle Claus Teixeira across Instagram, LinkedIn, YouTube and more for somatic wellness, TRE&#x2122; practices and leadership insights."/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/><link rel="stylesheet" href="/styles.css?v=98"/><link rel="preconnect" href="https://cdnjs.cloudflare.com"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png?v=3"/><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png?v=3"/><link rel="icon" href="/favicon.ico?v=3" sizes="any"/><link rel="apple-touch-icon" href="/apple-touch-icon.png?v=3"/><style>
+    /* ==== SOCIALS PAGE BODY (everything scoped under .sx) ==== */
+    .sx {
+      --sx-navy: #242e42; --sx-navy-d: #1a2030; --sx-navy-l: #3a4a66;
+      --sx-gold: #F5A623; --sx-gold-d: #c98000; --sx-cream: #fafaf8;
+      --sx-text: #3d4250; --sx-mid: #5f6472; --sx-line: rgba(36,46,66,.1);
+      --sx-ease: cubic-bezier(.23,1,.32,1); --sx-spring: cubic-bezier(.34,1.56,.64,1);
+      display: block; font-family: 'Lato', sans-serif; color: var(--sx-text);
+    }
+    .sx [hidden] { display: none !important; }
+    .sx .sx-wrap { max-width: 1180px; margin: 0 auto; padding: 0 clamp(16px, 4vw, 40px); }
+    .sx .sx-sec { position: relative; padding: clamp(4rem, 8vw, 6.5rem) 0; background: #fff; }
+    .sx .sx-sec--cream { background: var(--sx-cream); }
+    .sx p { margin: 0; }
+    .sx ul { list-style: none; margin: 0; padding: 0; }
+    .sx button { font: inherit; }
+
+    /* focus ring */
+    .sx :focus { outline: none; }
+    .sx :focus-visible { outline: 3px solid var(--sx-gold); outline-offset: 3px; }
+
+    .sx .sx-sr { position: absolute !important; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+
+    /* type */
+    .sx .sx-eyebrow {
+      display: inline-flex; align-items: center; gap: .75rem;
+      font: 700 .72rem/1.2 'Lato', sans-serif; letter-spacing: 3.5px; text-transform: uppercase;
+      color: var(--sx-gold-d); margin-bottom: 1.1rem;
+    }
+    .sx .sx-eyebrow::before { content: ''; width: 28px; height: 2px; border-radius: 2px; background: var(--sx-gold); flex: none; }
+    .sx .sx-title {
+      font-family: 'Playfair Display', Georgia, serif; font-weight: 700;
+      font-size: clamp(2rem, 4.2vw, 3.1rem); line-height: 1.1; letter-spacing: -.01em;
+      color: var(--sx-navy); margin: 0;
+    }
+    .sx .sx-title em { font-style: italic; color: var(--sx-gold-d); }
+    .sx .sx-sub { font-size: 1.05rem; line-height: 1.75; color: var(--sx-mid); max-width: 46ch; }
+    .sx .sx-head {
+      display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+      gap: 1.25rem 4rem; align-items: end; margin-bottom: clamp(2.5rem, 5vw, 3.5rem);
+    }
+
+    /* reveal (only once JS is running) */
+    .sx-js [data-sx-reveal] {
+      opacity: 0; transform: translateY(26px);
+      transition: opacity .7s var(--sx-ease), transform .8s var(--sx-ease);
+      transition-delay: var(--d, 0ms);
+    }
+    .sx-js [data-sx-reveal].is-in { opacity: 1; transform: none; }
+
+    /* ---------- INTRO STRIP ---------- */
+    .sx .sx-intro { background: #fff; padding: clamp(2.25rem, 5vw, 3.25rem) 0; border-bottom: 1px solid var(--sx-line); }
+    .sx .sx-intro__in { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem 3rem; flex-wrap: wrap; }
+    .sx .sx-intro__line {
+      font-family: 'Playfair Display', Georgia, serif; font-size: clamp(1.25rem, 2.3vw, 1.7rem);
+      line-height: 1.4; color: var(--sx-navy); max-width: 34ch;
+    }
+    .sx .sx-intro__line em { color: var(--sx-gold-d); }
+    .sx .sx-jump { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; }
+    .sx .sx-jump__lbl { font: 700 .68rem/1 'Lato', sans-serif; letter-spacing: 2.5px; text-transform: uppercase; color: var(--sx-mid); margin-right: .35rem; }
+    .sx .sx-jump__btn {
+      width: 48px; height: 48px; border-radius: 50%; display: grid; place-items: center;
+      background: #fff; color: var(--sx-navy); font-size: 1.15rem; cursor: pointer;
+      border: 1.5px solid rgba(36,46,66,.16);
+      transition: transform .4s var(--sx-spring), border-color .25s ease, color .25s ease, box-shadow .3s ease;
+    }
+    .sx .sx-jump__btn:active { transform: scale(.94); }
+
+    /* ---------- PLATFORM SWITCHER ---------- */
+    .sx .sx-switch {
+      display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+      gap: clamp(1.25rem, 3vw, 2.5rem); align-items: stretch; scroll-margin-top: 110px;
+    }
+    .sx .sx-tabs { position: relative; display: flex; flex-direction: column; gap: .55rem; }
+    .sx .sx-tabs__ind {
+      position: absolute; left: 0; top: 0; width: 0; height: 0; z-index: 0; pointer-events: none;
+      border-radius: 16px; background: var(--sx-navy);
+      box-shadow: 0 18px 40px -18px rgba(26,32,48,.7);
+      transition: transform .55s var(--sx-ease), width .55s var(--sx-ease), height .55s var(--sx-ease);
+    }
+    .sx .sx-tab {
+      position: relative; z-index: 1; width: 100%; min-height: 74px;
+      display: flex; align-items: center; gap: 1rem; padding: .85rem 1.1rem;
+      text-align: left; cursor: pointer; color: var(--sx-navy);
+      background: #fff; border: 1px solid var(--sx-line); border-radius: 16px;
+      transition: transform .45s var(--sx-spring), background .25s ease, border-color .25s ease, color .25s ease;
+    }
+    .sx .sx-tab__icon {
+      width: 46px; height: 46px; flex: none; border-radius: 50%; display: grid; place-items: center;
+      font-size: 1.25rem; color: var(--sx-navy); background: rgba(36,46,66,.06);
+      transition: background .3s ease, color .3s ease, transform .45s var(--sx-spring);
+    }
+    .sx .sx-tab__txt { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: .1rem; }
+    .sx .sx-tab__name { font-family: 'Playfair Display', Georgia, serif; font-weight: 700; font-size: 1.15rem; line-height: 1.2; }
+    .sx .sx-tab__handle { font-size: .8rem; line-height: 1.4; color: var(--sx-mid); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; transition: color .25s ease; }
+    .sx .sx-tab__num { font-family: 'Playfair Display', Georgia, serif; font-style: italic; font-size: .95rem; color: rgba(36,46,66,.4); transition: color .25s ease, transform .45s var(--sx-spring); }
+    .sx .sx-tab[aria-selected="true"] { background: var(--sx-navy); border-color: var(--sx-navy); color: #fff; }
+    .sx-js .sx-tab[aria-selected="true"] { background: transparent; border-color: transparent; }
+    .sx .sx-tab[aria-selected="true"] .sx-tab__icon { background: #fff; color: var(--brand, var(--sx-navy)); transform: scale(1.06); }
+    .sx .sx-tab[aria-selected="true"] .sx-tab__handle { color: rgba(255,255,255,.75); }
+    .sx .sx-tab[aria-selected="true"] .sx-tab__num { color: var(--sx-gold); transform: translateX(-4px); }
+    .sx .sx-tab:active { transform: scale(.985); }
+
+    .sx .sx-stage {
+      position: relative; isolation: isolate; overflow: hidden; border-radius: 24px;
+      background: linear-gradient(150deg, #3a4a66 0%, #242e42 45%, #1a2030 100%);
+      color: #fff; padding: clamp(1.75rem, 4vw, 3rem);
+      box-shadow: 0 40px 90px -40px rgba(26,32,48,.75);
+      transform: perspective(1200px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg));
+      transition: transform .6s var(--sx-ease);
+    }
+    .sx .sx-glow {
+      position: absolute; left: 0; top: 0; width: 560px; height: 560px; z-index: -1; pointer-events: none;
+      border-radius: 50%; background: radial-gradient(circle, rgba(245,166,35,.22) 0%, rgba(245,166,35,0) 62%);
+      transform: translate(calc(var(--gx, 80%) - 50%), calc(var(--gy, 10%) - 50%));
+      transition: transform .5s var(--sx-ease);
+    }
+    .sx .sx-orbit { position: absolute; right: -150px; top: -150px; width: 420px; height: 420px; z-index: -1; pointer-events: none; opacity: .55; }
+    .sx .sx-orbit svg { width: 100%; height: 100%; animation: sx-spin 60s linear infinite; }
+    .sx .sx-orbit .sx-orbit__b { animation-duration: 38s; animation-direction: reverse; position: absolute; inset: 0; }
+    @keyframes sx-spin { to { transform: rotate(360deg); } }
+
+    .sx .sx-panel + .sx-panel { margin-top: 3rem; padding-top: 3rem; border-top: 1px solid rgba(255,255,255,.12); }
+    .sx-js .sx-panels { display: grid; }
+    .sx-js .sx-panel { grid-area: 1 / 1; margin: 0 !important; padding-top: 0 !important; border: 0 !important; visibility: hidden; transition: visibility 0s linear .45s; }
+    .sx-js .sx-panel.is-active { visibility: visible; transition-delay: 0s; }
+    .sx-js .sx-panel &gt; * { opacity: 0; transform: translateY(14px); transition: opacity .3s ease, transform .3s ease; }
+    .sx-js .sx-panel.is-active &gt; * {
+      opacity: 1; transform: none;
+      transition: opacity .55s var(--sx-ease), transform .7s var(--sx-ease);
+      transition-delay: calc(var(--i, 0) * 60ms + 80ms);
+    }
+    .sx .sx-panel { display: flex; flex-direction: column; min-height: 100%; }
+    .sx .sx-panel__top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.6rem; }
+    .sx .sx-panel__icon {
+      position: relative; width: 84px; height: 84px; border-radius: 50%; display: grid; place-items: center;
+      background: #fff; color: var(--brand, var(--sx-navy)); font-size: 2.2rem;
+      box-shadow: 0 16px 40px -12px rgba(0,0,0,.5);
+    }
+    .sx .sx-panel__icon::before, .sx .sx-panel__icon::after {
+      content: ''; position: absolute; inset: -1px; border-radius: 50%; border: 1.5px solid rgba(245,166,35,.55);
+      animation: sx-pulse 2.8s var(--sx-ease) infinite; pointer-events: none;
+    }
+    .sx .sx-panel__icon::after { animation-delay: 1.4s; }
+    @keyframes sx-pulse { 0% { transform: scale(1); opacity: .9; } 100% { transform: scale(1.7); opacity: 0; } }
+    .sx .sx-panel__count { font-family: 'Playfair Display', Georgia, serif; font-style: italic; font-size: 1.05rem; color: rgba(255,255,255,.55); }
+    .sx .sx-panel__count b { color: var(--sx-gold); font-weight: 700; }
+    .sx .sx-panel__name {
+      font-family: 'Playfair Display', Georgia, serif; font-weight: 800; color: #fff;
+      font-size: clamp(2.2rem, 4.6vw, 3.4rem); line-height: 1.02; letter-spacing: -.015em; margin: 0 0 .9rem;
+    }
+    .sx .sx-handle { display: flex; align-items: center; flex-wrap: wrap; gap: .6rem .9rem; margin-bottom: 1.8rem; }
+    .sx .sx-handle__txt { font-size: 1.05rem; color: rgba(255,255,255,.88); overflow-wrap: anywhere; }
+    .sx .sx-copy {
+      display: inline-flex; align-items: center; gap: .5rem; min-height: 44px; padding: 0 1rem;
+      border-radius: 100px; cursor: pointer; font: 700 .72rem/1 'Lato', sans-serif; letter-spacing: 1.5px; text-transform: uppercase;
+      color: #fff; background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.22);
+      transition: background .25s ease, border-color .25s ease, color .25s ease, transform .35s var(--sx-spring);
+    }
+    .sx .sx-copy i { font-size: .9rem; transition: transform .45s var(--sx-spring); }
+    .sx .sx-copy.is-copied { background: var(--sx-gold); border-color: var(--sx-gold); color: var(--sx-navy-d); }
+    .sx .sx-copy.is-copied i { transform: scale(1.2) rotate(-8deg); }
+    .sx .sx-copy:active { transform: scale(.95); }
+    .sx .sx-copy--light { color: var(--sx-navy); background: #fff; border-color: rgba(36,46,66,.16); }
+
+    .sx .sx-panel__label { font: 700 .7rem/1.2 'Lato', sans-serif; letter-spacing: 3px; text-transform: uppercase; color: var(--sx-gold); margin-bottom: .9rem; }
+    .sx .sx-panel__list { display: grid; gap: .1rem; margin-bottom: 2rem; }
+    .sx .sx-panel__list li {
+      display: flex; align-items: center; gap: .85rem; padding: .7rem 0;
+      font-family: 'Playfair Display', Georgia, serif; font-size: 1.2rem; line-height: 1.3; color: #fff;
+      border-bottom: 1px solid rgba(255,255,255,.1);
+    }
+    .sx .sx-panel__list li::before { content: ''; width: 8px; height: 8px; flex: none; transform: rotate(45deg); background: var(--sx-gold); }
+    .sx .sx-panel__desc { font-size: 1rem; line-height: 1.75; color: rgba(255,255,255,.82); max-width: 44ch; margin-bottom: 2rem; }
+    .sx .sx-panel__foot { margin-top: auto; display: flex; flex-wrap: wrap; align-items: center; gap: 1rem 1.5rem; }
+    .sx .sx-magnet { display: inline-block; transition: transform .5s var(--sx-ease); will-change: transform; }
+    .sx .sx-magnet .btn i { margin-left: .55rem; transition: transform .35s var(--sx-spring); }
+    .sx .sx-textbtn {
+      display: inline-flex; align-items: center; gap: .55rem; min-height: 44px; padding: 0 .25rem;
+      background: none; border: 0; cursor: pointer; color: rgba(255,255,255,.85);
+      font: 700 .74rem/1 'Lato', sans-serif; letter-spacing: 1.5px; text-transform: uppercase;
+      border-bottom: 1px solid rgba(245,166,35,.5); border-radius: 0;
+      transition: color .25s ease, border-color .25s ease;
+    }
+    .sx .sx-textbtn i { color: var(--sx-gold); transition: transform .4s var(--sx-spring); }
+
+    /* ---------- THEMES ---------- */
+    .sx .sx-chips { display: flex; flex-wrap: wrap; gap: .55rem; margin-bottom: 2rem; }
+    .sx .sx-chip {
+      display: inline-flex; align-items: center; gap: .55rem; min-height: 44px; padding: 0 1.15rem;
+      border-radius: 100px; cursor: pointer; background: #fff; color: var(--sx-navy);
+      border: 1.5px solid rgba(36,46,66,.16);
+      font: 700 .74rem/1 'Lato', sans-serif; letter-spacing: 1.4px; text-transform: uppercase;
+      transition: background .25s ease, color .25s ease, border-color .25s ease, transform .35s var(--sx-spring);
+    }
+    .sx .sx-chip i { color: var(--sx-gold-d); font-size: .95rem; transition: color .25s ease; }
+    .sx .sx-chip[aria-pressed="true"] { background: var(--sx-navy); border-color: var(--sx-navy); color: #fff; }
+    .sx .sx-chip[aria-pressed="true"] i { color: var(--sx-gold); }
+    .sx .sx-chip:active { transform: scale(.95); }
+    .sx .sx-sec--cream .sx-chip:not([aria-pressed="true"]) { background: #fff; }
+
+    .sx .sx-themes { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 255px), 1fr)); gap: 1.25rem; }
+    .sx .sx-theme {
+      position: relative; isolation: isolate; overflow: hidden; height: 100%;
+      background: #fff; border: 1px solid var(--sx-line); border-radius: 18px;
+      padding: 1.75rem 1.6rem 1.7rem; box-shadow: 0 2px 14px rgba(36,46,66,.04);
+      transform: perspective(900px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)) translateY(var(--ty, 0px));
+      transition: transform .5s var(--sx-ease), box-shadow .4s ease, border-color .3s ease;
+    }
+    .sx .sx-theme::before {
+      content: ''; position: absolute; inset: 0; z-index: -1; opacity: 0; transition: opacity .4s ease;
+      background: radial-gradient(420px circle at var(--mx, 50%) var(--my, 0%), rgba(245,166,35,.13), transparent 55%);
+    }
+    .sx .sx-theme::after {
+      content: ''; position: absolute; left: 0; top: 0; right: 0; height: 3px; background: var(--sx-gold);
+      transform: scaleX(.18); transform-origin: left; transition: transform .6s var(--sx-ease);
+    }
+    .sx .sx-theme__plat {
+      display: inline-flex; align-items: center; gap: .55rem; margin-bottom: 1.1rem;
+      font: 700 .68rem/1 'Lato', sans-serif; letter-spacing: 2px; text-transform: uppercase; color: var(--sx-gold-d);
+    }
+    .sx .sx-theme__plat i {
+      width: 36px; height: 36px; border-radius: 50%; display: grid; place-items: center;
+      font-size: 1rem; color: var(--sx-navy); background: rgba(36,46,66,.06);
+      transition: color .3s ease, background .3s ease, transform .5s var(--sx-spring);
+    }
+    .sx .sx-theme h3 {
+      font-family: 'Playfair Display', Georgia, serif; font-weight: 700; font-size: 1.32rem; line-height: 1.25;
+      color: var(--sx-navy); margin: 0 0 .65rem; transition: color .25s ease;
+    }
+    .sx .sx-theme p { font-size: .95rem; line-height: 1.75; color: var(--sx-text); }
+
+    /* ---------- RESOURCES ---------- */
+    .sx .sx-res-list { border-top: 2px solid var(--sx-gold); }
+    .sx .sx-res {
+      position: relative; isolation: isolate;
+      display: grid; grid-template-columns: 48px 56px minmax(0, 1fr) auto; gap: 1.4rem; align-items: center;
+      padding: 1.6rem 1.25rem; border-bottom: 1px solid var(--sx-line);
+    }
+    .sx .sx-res::before {
+      content: ''; position: absolute; inset: 6px 0; z-index: -1; border-radius: 14px; background: #fff;
+      box-shadow: 0 18px 44px -26px rgba(26,32,48,.45);
+      transform: scaleX(0); transform-origin: left; transition: transform .55s var(--sx-ease);
+    }
+    .sx .sx-res__num { font-family: 'Playfair Display', Georgia, serif; font-style: italic; font-size: 1.1rem; color: var(--sx-gold-d); }
+    .sx .sx-res__icon {
+      width: 56px; height: 56px; border-radius: 50%; display: grid; place-items: center;
+      font-size: 1.2rem; color: var(--sx-gold-d); border: 1.5px solid rgba(36,46,66,.14); background: #fff;
+      transition: background .3s ease, color .3s ease, border-color .3s ease, transform .5s var(--sx-spring);
+    }
+    .sx .sx-res__body h3 {
+      font-family: 'Playfair Display', Georgia, serif; font-weight: 700; font-size: 1.28rem; line-height: 1.25;
+      color: var(--sx-navy); margin: 0 0 .35rem;
+    }
+    .sx .sx-res__body p { font-size: .94rem; line-height: 1.7; color: var(--sx-text); max-width: 68ch; }
+    .sx .sx-res__link {
+      position: static; display: inline-flex; align-items: center; gap: .75rem; min-height: 44px;
+      font: 700 .74rem/1.2 'Lato', sans-serif; letter-spacing: 1.3px; text-transform: uppercase;
+      color: var(--sx-navy); text-decoration: none; white-space: nowrap; transition: color .25s ease;
+    }
+    .sx .sx-res__link::after { content: ''; position: absolute; inset: 0; z-index: 1; border-radius: 14px; }
+    .sx .sx-res__link:focus-visible { outline: none; }
+    .sx .sx-res__link:focus-visible::after { outline: 3px solid var(--sx-gold); outline-offset: -3px; }
+    .sx .sx-res__arrow {
+      width: 42px; height: 42px; border-radius: 50%; flex: none; display: grid; place-items: center;
+      border: 1.5px solid rgba(36,46,66,.18); color: var(--sx-navy); font-size: .85rem;
+      transition: background .3s ease, border-color .3s ease, color .3s ease, transform .5s var(--sx-spring);
+    }
+    .sx .sx-res__arrow i { transform: rotate(-45deg); transition: transform .5s var(--sx-spring); }
+    .sx .sx-res__link:hover { color: var(--sx-gold-d); }
+
+    /* ---------- NEWSLETTER ---------- */
+    .sx .sx-nl {
+      display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); max-width: 1000px; margin: 0 auto;
+      border-radius: 24px; overflow: hidden; box-shadow: 0 40px 90px -50px rgba(26,32,48,.6);
+    }
+    .sx .sx-nl__l {
+      position: relative; isolation: isolate; overflow: hidden; color: #fff;
+      background: linear-gradient(160deg, #3a4a66 0%, #242e42 55%, #1a2030 100%);
+      padding: clamp(2rem, 5vw, 3.5rem);
+    }
+    .sx .sx-nl__l::after {
+      content: ''; position: absolute; right: -90px; bottom: -90px; width: 260px; height: 260px; z-index: -1;
+      border-radius: 50%; border: 1px solid rgba(245,166,35,.3); box-shadow: 0 0 0 40px rgba(245,166,35,.04), 0 0 0 80px rgba(245,166,35,.03);
+    }
+    .sx .sx-nl__l .sx-eyebrow { color: var(--sx-gold); }
+    .sx .sx-nl__l h2 { font-family: 'Playfair Display', Georgia, serif; font-weight: 700; font-size: clamp(1.7rem, 3vw, 2.3rem); line-height: 1.15; color: #fff; margin: 0 0 1rem; }
+    .sx .sx-nl__l &gt; p { color: rgba(255,255,255,.82); font-size: .98rem; line-height: 1.75; margin-bottom: 1.8rem; }
+    .sx .sx-perks { display: grid; gap: .8rem; }
+    .sx .sx-perks li { display: flex; align-items: center; gap: .8rem; font-size: .95rem; color: rgba(255,255,255,.92); }
+    .sx .sx-perks i {
+      width: 28px; height: 28px; flex: none; border-radius: 50%; display: grid; place-items: center;
+      background: rgba(245,166,35,.16); color: var(--sx-gold); font-size: .72rem;
+    }
+    .sx .sx-nl__r { background: var(--sx-cream); padding: clamp(2rem, 5vw, 3.5rem); display: flex; flex-direction: column; justify-content: center; gap: 1.4rem; }
+    .sx .sx-nl__r h3 { font-family: 'Playfair Display', Georgia, serif; font-weight: 700; font-size: 1.45rem; color: var(--sx-navy); margin: 0 0 .3rem; }
+    .sx .sx-nl__r .sx-nl__note { font-size: .9rem; color: var(--sx-mid); }
+    .sx .sx-nl__form { display: flex; flex-direction: column; gap: .75rem; }
+    .sx .sx-nl__form label { font: 700 .7rem/1 'Lato', sans-serif; letter-spacing: 2px; text-transform: uppercase; color: var(--sx-navy); }
+    .sx .sx-nl__form input {
+      width: 100%; min-height: 52px; padding: .9rem 1.1rem; border-radius: 10px;
+      border: 1.5px solid rgba(36,46,66,.18); background: #fff; color: var(--sx-navy);
+      font: 400 1rem 'Lato', sans-serif; transition: border-color .25s ease, box-shadow .25s ease;
+    }
+    .sx .sx-nl__form input::placeholder { color: var(--sx-mid); }
+    .sx .sx-nl__form input:focus { outline: none; border-color: var(--sx-gold); box-shadow: 0 0 0 4px rgba(245,166,35,.2); }
+    .sx .sx-nl__form input[aria-invalid="true"] { border-color: var(--sx-gold-d); }
+    .sx .sx-nl__msg { min-height: 1.3em; font-size: .85rem; color: var(--sx-gold-d); font-weight: 700; }
+    .sx .sx-nl__privacy { display: flex; align-items: center; gap: .5rem; font-size: .78rem; color: var(--sx-mid); }
+    .sx .sx-nl__privacy i { color: var(--sx-gold-d); }
+
+    /* ---------- STAY IN TOUCH ---------- */
+    .sx .sx-close { position: relative; isolation: isolate; overflow: hidden; background: var(--sx-navy); color: #fff; padding: clamp(4rem, 8vw, 6.5rem) 0; }
+    .sx .sx-close__orb {
+      position: absolute; z-index: -1; border-radius: 50%; pointer-events: none; filter: blur(10px);
+      background: radial-gradient(circle, rgba(245,166,35,.28), rgba(245,166,35,0) 65%);
+      animation: sx-drift 16s ease-in-out infinite alternate;
+    }
+    .sx .sx-close__orb--a { width: 520px; height: 520px; left: -160px; top: -200px; }
+    .sx .sx-close__orb--b { width: 420px; height: 420px; right: -140px; bottom: -220px; animation-duration: 21s; animation-delay: -6s; }
+    @keyframes sx-drift { 0% { transform: translate(0, 0) scale(1); } 100% { transform: translate(60px, 40px) scale(1.12); } }
+    .sx .sx-close__in { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); gap: clamp(2rem, 5vw, 4.5rem); align-items: center; }
+    .sx .sx-close .sx-eyebrow { color: var(--sx-gold); }
+    .sx .sx-close .sx-title { color: #fff; margin-bottom: 1.1rem; }
+    .sx .sx-close .sx-title em { color: var(--sx-gold); }
+    .sx .sx-close__copy &gt; p { color: rgba(255,255,255,.82); font-size: 1.05rem; line-height: 1.75; max-width: 42ch; margin-bottom: 2rem; }
+    .sx .sx-contacts { display: grid; gap: 1rem; }
+    .sx .sx-contact {
+      display: grid; grid-template-columns: 58px minmax(0, 1fr); gap: 1rem 1.1rem; align-items: center;
+      padding: 1.4rem; border-radius: 20px; background: rgba(255,255,255,.05); border: 1px solid rgba(255,255,255,.12);
+      transition: background .3s ease, border-color .3s ease, transform .5s var(--sx-ease);
+    }
+    .sx .sx-contact__icon {
+      width: 58px; height: 58px; border-radius: 50%; display: grid; place-items: center;
+      background: var(--sx-gold); color: var(--sx-navy-d); font-size: 1.5rem;
+      transition: transform .5s var(--sx-spring), background .3s ease, color .3s ease;
+    }
+    .sx .sx-contact__lbl { display: block; font: 700 .68rem/1.2 'Lato', sans-serif; letter-spacing: 2.5px; text-transform: uppercase; color: var(--sx-gold); margin-bottom: .3rem; }
+    .sx .sx-contact__val { display: block; font-family: 'Playfair Display', Georgia, serif; font-size: 1.3rem; line-height: 1.25; color: #fff; overflow-wrap: anywhere; }
+    .sx .sx-contact__acts { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: .7rem; align-items: center; }
+
+    /* ---------- TOAST ---------- */
+    .sx .sx-toast {
+      position: fixed; left: 50%; bottom: calc(1.5rem + env(safe-area-inset-bottom, 0px)); z-index: 10060;
+      display: flex; align-items: center; gap: .65rem; max-width: calc(100vw - 32px);
+      padding: .85rem 1.25rem; border-radius: 100px; background: var(--sx-navy-d); color: #fff;
+      font: 700 .85rem/1.3 'Lato', sans-serif; box-shadow: 0 18px 50px -12px rgba(0,0,0,.55); border: 1px solid rgba(245,166,35,.35);
+      opacity: 0; transform: translate(-50%, 24px) scale(.96); pointer-events: none;
+      transition: opacity .3s ease, transform .5s var(--sx-spring);
+    }
+    .sx .sx-toast i { color: var(--sx-gold); }
+    .sx .sx-toast.is-on { opacity: 1; transform: translate(-50%, 0) scale(1); }
+    .sx .sx-toast__msg { overflow-wrap: anywhere; }
+
+    /* ---------- HOVER (fine pointers only) ---------- */
+    @media (hover: hover) and (pointer: fine) {
+      .sx .sx-jump__btn:hover { transform: translateY(-4px); border-color: var(--sx-gold); color: var(--brand, var(--sx-navy)); box-shadow: 0 12px 26px -12px rgba(36,46,66,.45); }
+      .sx .sx-tab:hover { transform: translateX(6px); }
+      .sx .sx-tab:not([aria-selected="true"]):hover { border-color: rgba(245,166,35,.6); }
+      .sx .sx-tab:not([aria-selected="true"]):hover .sx-tab__icon { color: var(--brand, var(--sx-navy)); background: #fff; transform: rotate(-8deg) scale(1.08); box-shadow: 0 0 0 1px rgba(36,46,66,.08); }
+      .sx .sx-tab:hover .sx-tab__num { color: var(--sx-gold-d); }
+      .sx .sx-tab[aria-selected="true"]:hover .sx-tab__num { color: var(--sx-gold); }
+      .sx .sx-copy:hover { background: rgba(255,255,255,.14); border-color: rgba(255,255,255,.4); }
+      .sx .sx-copy--light:hover { background: #fff; border-color: var(--sx-gold); color: var(--sx-navy); }
+      .sx .sx-copy:hover i { transform: translateY(-2px); }
+      .sx .sx-magnet .btn:hover i { transform: translateX(5px); }
+      .sx .sx-textbtn:hover { color: #fff; border-color: var(--sx-gold); }
+      .sx .sx-textbtn:hover i { transform: translateY(3px); }
+      .sx .sx-chip:not([aria-pressed="true"]):hover { border-color: var(--sx-gold); transform: translateY(-2px); }
+      .sx .sx-theme:hover { --ty: -6px; box-shadow: 0 30px 60px -30px rgba(26,32,48,.35); border-color: rgba(245,166,35,.35); }
+      .sx .sx-theme:hover::before { opacity: 1; }
+      .sx .sx-theme:hover::after { transform: scaleX(1); }
+      .sx .sx-theme:hover .sx-theme__plat i { color: var(--brand, var(--sx-navy)); background: #fff; box-shadow: 0 6px 16px -6px rgba(36,46,66,.35); transform: rotate(-10deg) scale(1.12); }
+      .sx .sx-theme:hover h3 { color: var(--sx-gold-d); }
+      .sx .sx-res:hover::before { transform: scaleX(1); }
+      .sx .sx-res:hover .sx-res__icon { background: var(--sx-navy); border-color: var(--sx-navy); color: var(--sx-gold); transform: rotate(-10deg) scale(1.06); }
+      .sx .sx-res:hover .sx-res__arrow { background: var(--sx-gold); border-color: var(--sx-gold); color: #fff; transform: translateX(4px); }
+      .sx .sx-res:hover .sx-res__arrow i { transform: rotate(0deg); }
+      .sx .sx-res:hover .sx-res__link { color: var(--sx-gold-d); }
+      .sx .sx-contact:hover { background: rgba(255,255,255,.08); border-color: rgba(245,166,35,.4); transform: translateY(-4px); }
+      .sx .sx-contact:hover .sx-contact__icon { transform: rotate(-10deg) scale(1.06); background: #fff; color: var(--brand, var(--sx-navy-d)); }
+    }
+    .sx .sx-res:focus-within::before { transform: scaleX(1); }
+    .sx .sx-res:focus-within .sx-res__arrow { background: var(--sx-gold); border-color: var(--sx-gold); color: #fff; }
+    .sx .sx-res:focus-within .sx-res__arrow i { transform: rotate(0deg); }
+
+    /* ---------- RESPONSIVE ---------- */
+    @media (max-width: 960px) {
+      .sx .sx-head { grid-template-columns: 1fr; align-items: start; }
+      .sx .sx-switch { grid-template-columns: 1fr; }
+      .sx .sx-tabs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .5rem; }
+      .sx .sx-tab { flex-direction: column; justify-content: center; text-align: center; gap: .45rem; min-height: 96px; padding: .8rem .4rem; }
+      .sx .sx-tab__txt { align-items: center; flex: none; max-width: 100%; }
+      .sx .sx-tab__name { font-size: 1rem; }
+      .sx .sx-tab__handle, .sx .sx-tab__num { display: none; }
+      .sx .sx-tab:hover { transform: none; }
+      .sx .sx-close__in { grid-template-columns: 1fr; }
+      .sx .sx-nl { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 720px) {
+      .sx .sx-res { grid-template-columns: 48px minmax(0, 1fr); gap: .35rem 1rem; padding: 1.4rem .25rem; align-items: start; }
+      .sx .sx-res__num { display: none; }
+      .sx .sx-res__icon { width: 48px; height: 48px; font-size: 1.05rem; grid-row: 1 / span 2; }
+      .sx .sx-res__link { grid-column: 2; white-space: normal; }
+      .sx .sx-res__arrow { width: 36px; height: 36px; }
+      .sx .sx-intro__in { flex-direction: column; align-items: flex-start; }
+    }
+    @media (max-width: 480px) {
+      .sx .sx-tab__icon { width: 42px; height: 42px; font-size: 1.15rem; }
+      .sx .sx-tab__name { font-size: .92rem; }
+      .sx .sx-panel__icon { width: 70px; height: 70px; font-size: 1.85rem; }
+      .sx .sx-panel__list li { font-size: 1.08rem; }
+      .sx .sx-contact { grid-template-columns: 48px minmax(0, 1fr); padding: 1.15rem; }
+      .sx .sx-contact__icon { width: 48px; height: 48px; font-size: 1.25rem; }
+      .sx .sx-contact__val { font-size: 1.12rem; }
+      .sx .sx-jump__lbl { width: 100%; margin-bottom: .25rem; }
+    }
+
+    /* ---------- REDUCED MOTION ---------- */
+    @media (prefers-reduced-motion: reduce) {
+      .sx *, .sx *::before, .sx *::after { animation: none !important; transition-duration: .01ms !important; transition-delay: 0s !important; }
+      .sx-js [data-sx-reveal], .sx-js .sx-panel &gt; * { transform: none !important; }
+      .sx-js [data-sx-reveal] { opacity: 1; }
+      .sx .sx-stage, .sx .sx-theme { transform: none !important; }
+      .sx .sx-magnet { transform: none !important; }
+    }
+  </style><meta name="keywords" content="HummingBeing social media, Isabelle Claus Teixeira, TRE&#x2122; videos, somatic wellness content, coaching resources, nervous system wellness"/><link rel="canonical" href="https://www.hummingbeing.com/socials"/><meta name="robots" content="index, follow"/><meta property="og:type" content="website"/><meta property="og:site_name" content="HummingBeing"/><meta property="og:title" content="Follow HummingBeing | Isabelle Claus Teixeira"/><meta property="og:description" content="Follow Isabelle Claus Teixeira across Instagram, LinkedIn, YouTube and more for somatic wellness, TRE&#x2122; practices and leadership insights."/><meta property="og:url" content="https://www.hummingbeing.com/socials"/><meta property="og:image" content="https://www.hummingbeing.com/images/isabelle-her-story.webp"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image:alt" content="Isabelle Claus Teixeira podcast and somatic wellness resources"/><meta property="og:locale" content="en_SG"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Follow HummingBeing | Isabelle Claus Teixeira"/><meta name="twitter:description" content="Follow Isabelle Claus Teixeira across Instagram, LinkedIn, YouTube and more for somatic wellness, TRE&#x2122; practices and leadership insights."/><meta name="twitter:image" content="https://www.hummingbeing.com/images/isabelle-her-story.webp"/><script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Podcast &amp; Resources",
+    "url": "https://www.hummingbeing.com/socials",
+    "description": "Follow HummingBeing — podcast episodes, social channels and somatic wellness resources from Isabelle Claus Teixeira.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "HummingBeing",
+      "url": "https://www.hummingbeing.com/"
+    }
+  }
+  </script><script type="application/ld+json" data-seo="breadcrumb">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.hummingbeing.com/"}, {"@type": "ListItem", "position": 2, "name": "Socials", "item": "https://www.hummingbeing.com/socials"}]}</script><link rel="preload" href="/fonts/hb/lato-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/hb/playfair-display-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/></t><t t-call="web.layout"><link rel="stylesheet" href="/styles.css?v=98"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXLR5LGG" height="0" width="0" style="display:none;visibility:hidden"/></noscript><nav>
+  <a href="/" class="logo"><img src="/images/logo-dark.webp" class="logo-on-dark" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/><img src="/images/logo-light.webp" class="logo-on-light" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/></a>
+  <ul class="nav-links">
+    <li><a href="/">Home</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/isabelle">Isabelle</a></li>
+    <li class="nav-dropdown">
+      <a href="javascript:void(0)" class="nav-dropdown-toggle">Work with Isabelle <i class="fa-solid fa-chevron-down nav-arrow"/></a>
+      <ul class="nav-dropdown-menu">
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™<small>Private sessions, online or in person</small></a></li>
+        <li><a href="/tre-certification">TRE™ Certification<small>Become a certified TRE™ provider</small></a></li>
+        <li><a href="/retreats-workshops">Retreats &amp; Workshops<small>Groups, teams and executives</small></a></li>
+      </ul>
+    </li>
+    <li><a href="/events">Events</a></li>
+    <li class="nav-book-mobile"><a href="/book">Book a free call</a></li>
+  </ul>
+  <div class="nav-actions">
+    <a href="/book" class="nav-cta">Book a free call</a>
+    <button class="hamburger" onclick="toggleMenu()"><span/><span/><span/></button>
+  </div>
+</nav><div class="page-hero">
+  <span class="eyebrow">Stay Connected</span>
+  <h1>Follow <em>the Journey</em></h1>
+  <p>Insights, practices and inspiration from Isabelle — across all platforms.</p>
+  <div class="hero-actions">
+    <a href="#start" class="btn btn-primary">Book a free call</a>
+    <a href="https://www.instagram.com/isabelleclausteixeira_bhd/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Follow Isabelle</a>
+  </div>
+</div><div class="ticker-wrap" aria-hidden="true">
+  <div class="ticker-track">
+    <span class="t-item"><span class="t-star">★</span> Somatic Wellness</span><span class="t-sep">·</span>
+    <span class="t-item">In-Person &amp; Online Worldwide</span><span class="t-sep">·</span>
+        <span class="t-item">30 Years of Experience</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Coaching</span><span class="t-sep">·</span>
+    <span class="t-item">Mindfulness</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> 9 Countries · 40+ Nationalities</span><span class="t-sep">·</span>
+    <span class="t-item">Release · Renew · Restore</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Business &amp; Human Development</span><span class="t-sep">·</span>
+    <span class="t-item">Nervous System Reset</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Mindfulness</span><span class="t-sep">·</span>
+    <span class="t-item">Embodied Leadership</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Trauma &amp; Tension Release</span><span class="t-sep">·</span>
+    <span class="t-item">Mind · Body · Soul</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Corporate Wellness</span><span class="t-sep">·</span>
+    <span class="t-item">Polyvagal Theory</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Global TRE™ Certifying Trainer</span><span class="t-sep">·</span>
+    <span class="t-item">Executive Coaching</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Breathwork</span><span class="t-sep">·</span>
+    <span class="t-item">Online &amp; In-Person</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Group Sessions</span><span class="t-sep">·</span>
+    <span class="t-item">Burnout Recovery</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Deep Rest &amp; Renewal</span><span class="t-sep">·</span>
+    <span class="t-item">Body Intelligence</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Somatic Intelligence</span><span class="t-sep">·</span>
+    <span class="t-item">Self-Regulation</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Dr. David Berceli Method</span><span class="t-sep">·</span><span class="t-item">Neurogenic Tremors</span><span class="t-sep">·</span><span class="t-item">Vagal Tone</span><span class="t-sep">·</span><span class="t-item">Psoas Release</span><span class="t-sep">·</span><span class="t-item">Europe · US · Asia · Worldwide</span><span class="t-sep">·</span><span class="t-item">Free Discovery Call</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Certified Reiki Level II</span><span class="t-sep">·</span><span class="t-item">Nervous System Literacy</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Somatic Wellness</span><span class="t-sep">·</span>
+    <span class="t-item">In-Person &amp; Online Worldwide</span><span class="t-sep">·</span>
+        <span class="t-item">30 Years of Experience</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Coaching</span><span class="t-sep">·</span>
+    <span class="t-item">Mindfulness</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> 9 Countries · 40+ Nationalities</span><span class="t-sep">·</span>
+    <span class="t-item">Release · Renew · Restore</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Business &amp; Human Development</span><span class="t-sep">·</span>
+    <span class="t-item">Nervous System Reset</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Mindfulness</span><span class="t-sep">·</span>
+    <span class="t-item">Embodied Leadership</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Trauma &amp; Tension Release</span><span class="t-sep">·</span>
+    <span class="t-item">Mind · Body · Soul</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Corporate Wellness</span><span class="t-sep">·</span>
+    <span class="t-item">Polyvagal Theory</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Global TRE™ Certifying Trainer</span><span class="t-sep">·</span>
+    <span class="t-item">Executive Coaching</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Breathwork</span><span class="t-sep">·</span>
+    <span class="t-item">Online &amp; In-Person</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Group Sessions</span><span class="t-sep">·</span>
+    <span class="t-item">Burnout Recovery</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Deep Rest &amp; Renewal</span><span class="t-sep">·</span>
+    <span class="t-item">Body Intelligence</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Somatic Intelligence</span><span class="t-sep">·</span>
+    <span class="t-item">Self-Regulation</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Dr. David Berceli Method</span><span class="t-sep">·</span><span class="t-item">Neurogenic Tremors</span><span class="t-sep">·</span><span class="t-item">Vagal Tone</span><span class="t-sep">·</span><span class="t-item">Psoas Release</span><span class="t-sep">·</span><span class="t-item">Europe · US · Asia · Worldwide</span><span class="t-sep">·</span><span class="t-item">Free Discovery Call</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Certified Reiki Level II</span><span class="t-sep">·</span><span class="t-item">Nervous System Literacy</span><span class="t-sep">·</span>  </div>
+</div><main class="sx" id="sx">
+<!-- INTRO STRIP -->
+<section class="sx-intro" aria-label="Why follow along">
+  <div class="sx-wrap sx-intro__in">
+    <p class="sx-intro__line" data-sx-reveal="">Short practices, honest reflections and conversations on the nervous system — <em>shared where you already spend your time.</em></p>
+    <div class="sx-jump" data-sx-reveal="" style="--d:120ms">
+      <span class="sx-jump__lbl" aria-hidden="true">Jump to</span>
+      <button type="button" class="sx-jump__btn" data-sx-jump="0" style="--brand:#E1306C" aria-label="Show Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"/></button>
+      <button type="button" class="sx-jump__btn" data-sx-jump="1" style="--brand:#0A66C2" aria-label="Show LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"/></button>
+      <button type="button" class="sx-jump__btn" data-sx-jump="2" style="--brand:#FF0000" aria-label="Show YouTube"><i class="fa-brands fa-youtube" aria-hidden="true"/></button>
+      <button type="button" class="sx-jump__btn" data-sx-jump="3" style="--brand:#E60023" aria-label="Show Pinterest"><i class="fa-brands fa-pinterest" aria-hidden="true"/></button>
+      <button type="button" class="sx-jump__btn" data-sx-jump="4" style="--brand:#25D366" aria-label="Show WhatsApp"><i class="fa-brands fa-whatsapp" aria-hidden="true"/></button>
+      <button type="button" class="sx-jump__btn" data-sx-jump="5" style="--brand:#c98000" aria-label="Show BHD Asia"><i class="fa-solid fa-globe" aria-hidden="true"/></button>
+    </div>
+  </div>
+</section>
+
+<!-- MAIN PLATFORMS -->
+<section class="sx-sec sx-sec--cream" id="sx-platforms" aria-labelledby="sx-platforms-h">
+  <div class="sx-wrap">
+    <header class="sx-head">
+      <div data-sx-reveal="">
+        <span class="sx-eyebrow">Our Platforms</span>
+        <h2 class="sx-title" id="sx-platforms-h">Find Us <em>Where You Are</em></h2>
+      </div>
+      <p class="sx-sub" data-sx-reveal="" style="--d:100ms">Follow Isabelle and HummingBeing for somatic wellness content, leadership insights and community.</p>
+    </header>
+
+    <div class="sx-switch" data-sx-switch="">
+      <div class="sx-tabs" role="tablist" aria-label="Platforms" data-sx-stagger="">
+        <span class="sx-tabs__ind" aria-hidden="true"/>
+        <button type="button" class="sx-tab" role="tab" id="sx-tab-ig" aria-controls="sx-panel-ig" aria-selected="true" style="--brand:#E1306C" data-sx-reveal="">
+          <span class="sx-tab__icon"><i class="fa-brands fa-instagram" aria-hidden="true"/></span>
+          <span class="sx-tab__txt"><span class="sx-tab__name">Instagram</span><span class="sx-tab__handle">@isabelleclausteixeira_bhd</span></span>
+          <span class="sx-tab__num" aria-hidden="true">01</span>
+        </button>
+        <button type="button" class="sx-tab" role="tab" id="sx-tab-li" aria-controls="sx-panel-li" aria-selected="false" style="--brand:#0A66C2" data-sx-reveal="">
+          <span class="sx-tab__icon"><i class="fa-brands fa-linkedin" aria-hidden="true"/></span>
+          <span class="sx-tab__txt"><span class="sx-tab__name">LinkedIn</span><span class="sx-tab__handle">Isabelle Claus Teixeira</span></span>
+          <span class="sx-tab__num" aria-hidden="true">02</span>
+        </button>
+        <button type="button" class="sx-tab" role="tab" id="sx-tab-yt" aria-controls="sx-panel-yt" aria-selected="false" style="--brand:#FF0000" data-sx-reveal="">
+          <span class="sx-tab__icon"><i class="fa-brands fa-youtube" aria-hidden="true"/></span>
+          <span class="sx-tab__txt"><span class="sx-tab__name">YouTube</span><span class="sx-tab__handle">@IsabelleClausTeixeira</span></span>
+          <span class="sx-tab__num" aria-hidden="true">03</span>
+        </button>
+        <button type="button" class="sx-tab" role="tab" id="sx-tab-pin" aria-controls="sx-panel-pin" aria-selected="false" style="--brand:#E60023" data-sx-reveal="">
+          <span class="sx-tab__icon"><i class="fa-brands fa-pinterest" aria-hidden="true"/></span>
+          <span class="sx-tab__txt"><span class="sx-tab__name">Pinterest</span><span class="sx-tab__handle">isabelleclausteixeira</span></span>
+          <span class="sx-tab__num" aria-hidden="true">04</span>
+        </button>
+        <button type="button" class="sx-tab" role="tab" id="sx-tab-wa" aria-controls="sx-panel-wa" aria-selected="false" style="--brand:#25D366" data-sx-reveal="">
+          <span class="sx-tab__icon"><i class="fa-brands fa-whatsapp" aria-hidden="true"/></span>
+          <span class="sx-tab__txt"><span class="sx-tab__name">WhatsApp</span><span class="sx-tab__handle">+81 806515 1778</span></span>
+          <span class="sx-tab__num" aria-hidden="true">05</span>
+        </button>
+        <button type="button" class="sx-tab" role="tab" id="sx-tab-bhd" aria-controls="sx-panel-bhd" aria-selected="false" style="--brand:#c98000" data-sx-reveal="">
+          <span class="sx-tab__icon"><i class="fa-solid fa-globe" aria-hidden="true"/></span>
+          <span class="sx-tab__txt"><span class="sx-tab__name">BHD Asia</span><span class="sx-tab__handle">bhdasia.com</span></span>
+          <span class="sx-tab__num" aria-hidden="true">06</span>
+        </button>
+      </div>
+
+      <div class="sx-stage" data-sx-tilt="2.2" data-sx-reveal="" style="--d:120ms">
+        <span class="sx-glow" aria-hidden="true"/>
+        <span class="sx-orbit" aria-hidden="true">
+          <svg viewbox="0 0 420 420" fill="none"><circle cx="210" cy="210" r="200" stroke="rgba(245,166,35,.35)" stroke-width="1" stroke-dasharray="2 10"/><circle cx="210" cy="210" r="140" stroke="rgba(255,255,255,.14)" stroke-width="1"/><circle cx="210" cy="10" r="5" fill="#F5A623"/></svg>
+          <svg class="sx-orbit__b" viewbox="0 0 420 420" fill="none"><circle cx="210" cy="210" r="85" stroke="rgba(245,166,35,.3)" stroke-width="1" stroke-dasharray="1 7"/><circle cx="210" cy="350" r="3.5" fill="#fff" fill-opacity=".7"/></svg>
+        </span>
+        <div class="sx-panels">
+          <article class="sx-panel is-active" role="tabpanel" id="sx-panel-ig" aria-labelledby="sx-tab-ig" style="--brand:#E1306C">
+            <div class="sx-panel__top">
+              <span class="sx-panel__icon"><i class="fa-brands fa-instagram" aria-hidden="true"/></span>
+              <span class="sx-panel__count" aria-hidden="true"><b>01</b> / 06</span>
+            </div>
+            <h3 class="sx-panel__name">Instagram</h3>
+            <div class="sx-handle">
+              <span class="sx-handle__txt">@isabelleclausteixeira_bhd</span>
+              <button type="button" class="sx-copy" data-copy="@isabelleclausteixeira_bhd" aria-label="Copy Instagram handle"><i class="fa-regular fa-copy" aria-hidden="true"/><span class="sx-copy__lbl" aria-hidden="true">Copy</span></button>
+            </div>
+            <p class="sx-panel__label">What Isabelle shares here</p>
+            <ul class="sx-panel__list"><li>Somatic Micro-Practices</li><li>The Hummingbird Journal</li><li>Client Transformations</li></ul>
+            <div class="sx-panel__foot">
+              <span class="sx-magnet"><a class="btn btn-primary" href="https://www.instagram.com/isabelleclausteixeira_bhd/" target="_blank" rel="noopener noreferrer">Follow on Instagram<i class="fa-solid fa-arrow-right" aria-hidden="true"/></a></span>
+              <button type="button" class="sx-textbtn" data-sx-show="instagram">See Instagram themes <i class="fa-solid fa-arrow-down" aria-hidden="true"/></button>
+            </div>
+          </article>
+          <article class="sx-panel" role="tabpanel" id="sx-panel-li" aria-labelledby="sx-tab-li" style="--brand:#0A66C2">
+            <div class="sx-panel__top">
+              <span class="sx-panel__icon"><i class="fa-brands fa-linkedin" aria-hidden="true"/></span>
+              <span class="sx-panel__count" aria-hidden="true"><b>02</b> / 06</span>
+            </div>
+            <h3 class="sx-panel__name">LinkedIn</h3>
+            <div class="sx-handle">
+              <span class="sx-handle__txt">Isabelle Claus Teixeira</span>
+              <button type="button" class="sx-copy" data-copy="Isabelle Claus Teixeira" aria-label="Copy LinkedIn name"><i class="fa-regular fa-copy" aria-hidden="true"/><span class="sx-copy__lbl" aria-hidden="true">Copy</span></button>
+            </div>
+            <p class="sx-panel__label">What Isabelle shares here</p>
+            <ul class="sx-panel__list"><li>Leadership &amp; Resilience</li><li>Neuroscience &amp; Wellbeing</li></ul>
+            <div class="sx-panel__foot">
+              <span class="sx-magnet"><a class="btn btn-primary" href="https://www.linkedin.com/in/isabelleclausteixeira/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn<i class="fa-solid fa-arrow-right" aria-hidden="true"/></a></span>
+              <button type="button" class="sx-textbtn" data-sx-show="linkedin">See LinkedIn themes <i class="fa-solid fa-arrow-down" aria-hidden="true"/></button>
+            </div>
+          </article>
+          <article class="sx-panel" role="tabpanel" id="sx-panel-yt" aria-labelledby="sx-tab-yt" style="--brand:#FF0000">
+            <div class="sx-panel__top">
+              <span class="sx-panel__icon"><i class="fa-brands fa-youtube" aria-hidden="true"/></span>
+              <span class="sx-panel__count" aria-hidden="true"><b>03</b> / 06</span>
+            </div>
+            <h3 class="sx-panel__name">YouTube</h3>
+            <div class="sx-handle">
+              <span class="sx-handle__txt">@IsabelleClausTeixeira</span>
+              <button type="button" class="sx-copy" data-copy="@IsabelleClausTeixeira" aria-label="Copy YouTube handle"><i class="fa-regular fa-copy" aria-hidden="true"/><span class="sx-copy__lbl" aria-hidden="true">Copy</span></button>
+            </div>
+            <p class="sx-panel__label">What Isabelle shares here</p>
+            <ul class="sx-panel__list"><li>Guided Somatic Sessions</li><li>Expert Conversations</li></ul>
+            <div class="sx-panel__foot">
+              <span class="sx-magnet"><a class="btn btn-primary" href="https://www.youtube.com/@IsabelleClausTeixeira" target="_blank" rel="noopener noreferrer">Watch on YouTube<i class="fa-solid fa-arrow-right" aria-hidden="true"/></a></span>
+              <button type="button" class="sx-textbtn" data-sx-show="youtube">See YouTube themes <i class="fa-solid fa-arrow-down" aria-hidden="true"/></button>
+            </div>
+          </article>
+          <article class="sx-panel" role="tabpanel" id="sx-panel-pin" aria-labelledby="sx-tab-pin" style="--brand:#E60023">
+            <div class="sx-panel__top">
+              <span class="sx-panel__icon"><i class="fa-brands fa-pinterest" aria-hidden="true"/></span>
+              <span class="sx-panel__count" aria-hidden="true"><b>04</b> / 06</span>
+            </div>
+            <h3 class="sx-panel__name">Pinterest</h3>
+            <div class="sx-handle">
+              <span class="sx-handle__txt">isabelleclausteixeira</span>
+              <button type="button" class="sx-copy" data-copy="isabelleclausteixeira" aria-label="Copy Pinterest handle"><i class="fa-regular fa-copy" aria-hidden="true"/><span class="sx-copy__lbl" aria-hidden="true">Copy</span></button>
+            </div>
+            <p class="sx-panel__label">What Isabelle shares here</p>
+            <ul class="sx-panel__list"><li>Wellness Inspiration Boards</li></ul>
+            <div class="sx-panel__foot">
+              <span class="sx-magnet"><a class="btn btn-primary" href="https://www.pinterest.com/isabelleclausteixeira/" target="_blank" rel="noopener noreferrer">Follow on Pinterest<i class="fa-solid fa-arrow-right" aria-hidden="true"/></a></span>
+              <button type="button" class="sx-textbtn" data-sx-show="pinterest">See Pinterest themes <i class="fa-solid fa-arrow-down" aria-hidden="true"/></button>
+            </div>
+          </article>
+          <article class="sx-panel" role="tabpanel" id="sx-panel-wa" aria-labelledby="sx-tab-wa" style="--brand:#25D366">
+            <div class="sx-panel__top">
+              <span class="sx-panel__icon"><i class="fa-brands fa-whatsapp" aria-hidden="true"/></span>
+              <span class="sx-panel__count" aria-hidden="true"><b>05</b> / 06</span>
+            </div>
+            <h3 class="sx-panel__name">WhatsApp</h3>
+            <div class="sx-handle">
+              <span class="sx-handle__txt">+81 806515 1778</span>
+              <button type="button" class="sx-copy" data-copy="+818065151778" aria-label="Copy WhatsApp number"><i class="fa-regular fa-copy" aria-hidden="true"/><span class="sx-copy__lbl" aria-hidden="true">Copy</span></button>
+            </div>
+            <p class="sx-panel__label">Direct line</p>
+            <p class="sx-panel__desc">Send Isabelle a message directly on WhatsApp.</p>
+            <div class="sx-panel__foot">
+              <span class="sx-magnet"><a class="btn btn-primary" href="https://wa.me/818065151778" target="_blank" rel="noopener noreferrer">Message on WhatsApp<i class="fa-solid fa-arrow-right" aria-hidden="true"/></a></span>
+            </div>
+          </article>
+          <article class="sx-panel" role="tabpanel" id="sx-panel-bhd" aria-labelledby="sx-tab-bhd" style="--brand:#c98000">
+            <div class="sx-panel__top">
+              <span class="sx-panel__icon"><i class="fa-solid fa-globe" aria-hidden="true"/></span>
+              <span class="sx-panel__count" aria-hidden="true"><b>06</b> / 06</span>
+            </div>
+            <h3 class="sx-panel__name">BHD Asia</h3>
+            <div class="sx-handle">
+              <span class="sx-handle__txt">bhdasia.com</span>
+              <button type="button" class="sx-copy" data-copy="bhdasia.com" aria-label="Copy BHD Asia address"><i class="fa-regular fa-copy" aria-hidden="true"/><span class="sx-copy__lbl" aria-hidden="true">Copy</span></button>
+            </div>
+            <p class="sx-panel__label">About</p>
+            <p class="sx-panel__desc">The parent organisation offering executive coaching, leadership development, organisational consulting and TRE™ services worldwide.</p>
+            <div class="sx-panel__foot">
+              <span class="sx-magnet"><a class="btn btn-primary" href="https://www.bhdasia.com" target="_blank" rel="noopener noreferrer">Visit bhdasia.com<i class="fa-solid fa-arrow-right" aria-hidden="true"/></a></span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTENT THEMES -->
+<section class="sx-sec" id="sx-themes" aria-labelledby="sx-themes-h" style="scroll-margin-top:90px">
+  <div class="sx-wrap">
+    <header class="sx-head">
+      <div data-sx-reveal="">
+        <span class="sx-eyebrow">What to Expect</span>
+        <h2 class="sx-title" id="sx-themes-h">Content That <em>Nourishes</em></h2>
+      </div>
+      <p class="sx-sub" data-sx-reveal="" style="--d:100ms">Isabelle's social content spans the full landscape of somatic wellness and human development.</p>
+    </header>
+    <div class="sx-chips" role="group" aria-label="Filter themes by platform" data-sx-filter="sx-theme-grid" data-noun="themes" data-sx-reveal="">
+      <button type="button" class="sx-chip" data-f="all" aria-pressed="true">All</button>
+      <button type="button" class="sx-chip" data-f="instagram" aria-pressed="false"><i class="fa-brands fa-instagram" aria-hidden="true"/>Instagram</button>
+      <button type="button" class="sx-chip" data-f="linkedin" aria-pressed="false"><i class="fa-brands fa-linkedin" aria-hidden="true"/>LinkedIn</button>
+      <button type="button" class="sx-chip" data-f="youtube" aria-pressed="false"><i class="fa-brands fa-youtube" aria-hidden="true"/>YouTube</button>
+      <button type="button" class="sx-chip" data-f="pinterest" aria-pressed="false"><i class="fa-brands fa-pinterest" aria-hidden="true"/>Pinterest</button>
+    </div>
+    <div class="sx-themes" id="sx-theme-grid" data-sx-stagger="">
+      <div class="sx-theme-cell" data-tags="instagram" data-sx-reveal="">
+        <article class="sx-theme" data-sx-tilt="5" style="--brand:#E1306C">
+          <div class="sx-theme__plat"><i class="fa-brands fa-instagram" aria-hidden="true"/> Instagram</div>
+          <h3>Somatic Micro-Practices</h3>
+          <p>Short, accessible exercises you can do anywhere to regulate your nervous system, release tension and return to presence.</p>
+        </article>
+      </div>
+      <div class="sx-theme-cell" data-tags="linkedin" data-sx-reveal="">
+        <article class="sx-theme" data-sx-tilt="5" style="--brand:#0A66C2">
+          <div class="sx-theme__plat"><i class="fa-brands fa-linkedin" aria-hidden="true"/> LinkedIn</div>
+          <h3>Leadership &amp; Resilience</h3>
+          <p>Evidence-based insights on how somatic awareness makes better leaders — with practical applications for high-performance professionals.</p>
+        </article>
+      </div>
+      <div class="sx-theme-cell" data-tags="youtube" data-sx-reveal="">
+        <article class="sx-theme" data-sx-tilt="5" style="--brand:#FF0000">
+          <div class="sx-theme__plat"><i class="fa-brands fa-youtube" aria-hidden="true"/> YouTube</div>
+          <h3>Guided Somatic Sessions</h3>
+          <p>Full-length guided TRE™ practice sessions, somatic movement sequences and educational deep-dives on nervous system health.</p>
+        </article>
+      </div>
+      <div class="sx-theme-cell" data-tags="instagram" data-sx-reveal="">
+        <article class="sx-theme" data-sx-tilt="5" style="--brand:#E1306C">
+          <div class="sx-theme__plat"><i class="fa-brands fa-instagram" aria-hidden="true"/> Instagram</div>
+          <h3>The Hummingbird Journal</h3>
+          <p>Personal reflections on the path from corporate high-achiever to somatic practitioner — honest, warm and thought-provoking.</p>
+        </article>
+      </div>
+      <div class="sx-theme-cell" data-tags="linkedin" data-sx-reveal="">
+        <article class="sx-theme" data-sx-tilt="5" style="--brand:#0A66C2">
+          <div class="sx-theme__plat"><i class="fa-brands fa-linkedin" aria-hidden="true"/> LinkedIn</div>
+          <h3>Neuroscience &amp; Wellbeing</h3>
+          <p>Accessible breakdowns of the latest research in polyvagal theory, trauma neuroscience and embodied leadership for professional audiences.</p>
+        </article>
+      </div>
+      <div class="sx-theme-cell" data-tags="pinterest" data-sx-reveal="">
+        <article class="sx-theme" data-sx-tilt="5" style="--brand:#E60023">
+          <div class="sx-theme__plat"><i class="fa-brands fa-pinterest" aria-hidden="true"/> Pinterest</div>
+          <h3>Wellness Inspiration Boards</h3>
+          <p>Curated visual collections on somatic practices, breathwork, mindful movement, nature-based healing and holistic lifestyle.</p>
+        </article>
+      </div>
+      <div class="sx-theme-cell" data-tags="instagram" data-sx-reveal="">
+        <article class="sx-theme" data-sx-tilt="5" style="--brand:#E1306C">
+          <div class="sx-theme__plat"><i class="fa-brands fa-instagram" aria-hidden="true"/> Instagram</div>
+          <h3>Client Transformations</h3>
+          <p>With permission, sharing the journeys of clients who have found their way back to resilience, energy and joy through somatic practices.</p>
+        </article>
+      </div>
+      <div class="sx-theme-cell" data-tags="youtube" data-sx-reveal="">
+        <article class="sx-theme" data-sx-tilt="5" style="--brand:#FF0000">
+          <div class="sx-theme__plat"><i class="fa-brands fa-youtube" aria-hidden="true"/> YouTube</div>
+          <h3>Expert Conversations</h3>
+          <p>Interviews with leading voices in somatics, trauma therapy, neuroscience and conscious leadership from around the world.</p>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RELATED RESOURCES -->
+<section class="sx-sec sx-sec--cream" aria-labelledby="sx-res-h">
+  <div class="sx-wrap">
+    <header class="sx-head">
+      <div data-sx-reveal="">
+        <span class="sx-eyebrow">Further Reading</span>
+        <h2 class="sx-title" id="sx-res-h">Resources &amp; <em>Related Organisations</em></h2>
+      </div>
+      <p class="sx-sub" data-sx-reveal="" style="--d:100ms">Expand your understanding of somatic wellness with these trusted resources.</p>
+    </header>
+    <div class="sx-chips" role="group" aria-label="Filter resources" data-sx-filter="sx-res-list" data-noun="resources" data-sx-reveal="">
+      <button type="button" class="sx-chip" data-f="all" aria-pressed="true">All</button>
+      <button type="button" class="sx-chip" data-f="org" aria-pressed="false"><i class="fa-solid fa-building-columns" aria-hidden="true"/>Organisations</button>
+      <button type="button" class="sx-chip" data-f="partner" aria-pressed="false"><i class="fa-solid fa-handshake" aria-hidden="true"/>Partners</button>
+      <button type="button" class="sx-chip" data-f="isabelle" aria-pressed="false"><i class="fa-solid fa-feather" aria-hidden="true"/>Isabelle’s Work</button>
+    </div>
+    <ul class="sx-res-list" id="sx-res-list" data-sx-stagger="">
+      <li class="sx-res" data-tags="org" data-sx-reveal="">
+        <span class="sx-res__num" aria-hidden="true">01</span>
+        <span class="sx-res__icon" aria-hidden="true"><i class="fa-solid fa-globe"/></span>
+        <div class="sx-res__body">
+          <h3>TRE™ Global</h3>
+          <p>The official global organisation for Tension &amp; Trauma Release Exercises, founded by Dr. David Berceli. Find certified practitioners, research and resources worldwide.</p>
+        </div>
+        <a href="https://traumaprevention.com" target="_blank" rel="noopener noreferrer" class="sx-res__link">traumaprevention.com <span class="sx-res__arrow" aria-hidden="true"><i class="fa-solid fa-arrow-right"/></span></a>
+      </li>
+      <li class="sx-res" data-tags="org" data-sx-reveal="">
+        <span class="sx-res__num" aria-hidden="true">02</span>
+        <span class="sx-res__icon" aria-hidden="true"><i class="fa-solid fa-building-columns"/></span>
+        <div class="sx-res__body">
+          <h3>Strozzi Institute</h3>
+          <p>The home of Strozzi Somatic Bodywork and Leadership — the methodology behind Isabelle's bodywork practice. A global leader in somatics and leadership development.</p>
+        </div>
+        <a href="https://strozziinstitute.com" target="_blank" rel="noopener noreferrer" class="sx-res__link">strozziinstitute.com <span class="sx-res__arrow" aria-hidden="true"><i class="fa-solid fa-arrow-right"/></span></a>
+      </li>
+      <li class="sx-res" data-tags="partner" data-sx-reveal="">
+        <span class="sx-res__num" aria-hidden="true">03</span>
+        <span class="sx-res__icon" aria-hidden="true"><i class="fa-solid fa-spa"/></span>
+        <div class="sx-res__body">
+          <h3>Living with the Spirit</h3>
+          <p>The practice of Simba Stenqvist — Global TRE™ Certifying Trainer and creator of Internal Alchemy, a partner facilitator for HummingBeing’s TRE™ certifications and workshops.</p>
+        </div>
+        <a href="https://livingwiththespirit.com/" target="_blank" rel="noopener noreferrer" class="sx-res__link">livingwiththespirit.com <span class="sx-res__arrow" aria-hidden="true"><i class="fa-solid fa-arrow-right"/></span></a>
+      </li>
+      <li class="sx-res" data-tags="partner" data-sx-reveal="">
+        <span class="sx-res__num" aria-hidden="true">04</span>
+        <span class="sx-res__icon" aria-hidden="true"><i class="fa-solid fa-brain"/></span>
+        <div class="sx-res__body">
+          <h3>BHD Asia</h3>
+          <p>The parent organisation offering executive coaching, leadership development, organisational consulting and TRE™ services worldwide.</p>
+        </div>
+        <a href="https://www.bhdasia.com" target="_blank" rel="noopener noreferrer" class="sx-res__link">bhdasia.com <span class="sx-res__arrow" aria-hidden="true"><i class="fa-solid fa-arrow-right"/></span></a>
+      </li>
+      <li class="sx-res" data-tags="isabelle" data-sx-reveal="">
+        <span class="sx-res__num" aria-hidden="true">05</span>
+        <span class="sx-res__icon" aria-hidden="true"><i class="fa-solid fa-book-open"/></span>
+        <div class="sx-res__body">
+          <h3>Magic Somatic (Book)</h3>
+          <p>Isabelle's book on somatic healing — a practical and philosophical guide to working with the body for personal transformation and resilience.</p>
+        </div>
+        <a href="https://www.amazon.com/Magic-Somatic-Isabelle-Mullesch/dp/B0CYXRHYGD" target="_blank" rel="noopener noreferrer" class="sx-res__link">Find on Amazon <span class="sx-res__arrow" aria-hidden="true"><i class="fa-solid fa-arrow-right"/></span></a>
+      </li>
+      <li class="sx-res" data-tags="org" data-sx-reveal="">
+        <span class="sx-res__num" aria-hidden="true">06</span>
+        <span class="sx-res__icon" aria-hidden="true"><i class="fa-solid fa-earth-asia"/></span>
+        <div class="sx-res__body">
+          <h3>Somatic Asia</h3>
+          <p>A growing community of somatic practitioners across Asia — supporting the spread of body-based healing modalities in a region where access has historically been limited.</p>
+        </div>
+        <a href="https://www.facebook.com/SomaticAsiaTherapy/" target="_blank" rel="noopener noreferrer" class="sx-res__link">Somatic Asia <span class="sx-res__arrow" aria-hidden="true"><i class="fa-solid fa-arrow-right"/></span></a>
+      </li>
+      <li class="sx-res" data-tags="isabelle" data-sx-reveal="">
+        <span class="sx-res__num" aria-hidden="true">07</span>
+        <span class="sx-res__icon" aria-hidden="true"><i class="fa-solid fa-graduation-cap"/></span>
+        <div class="sx-res__body">
+          <h3>Noomii — Isabelle's Profile</h3>
+          <p>View Isabelle's coaching profile on Noomii — the world's largest directory of life coaches and executive coaches — including client testimonials and focus areas.</p>
+        </div>
+        <a href="https://www.noomii.com/users/isabelle-claus_teixeira" target="_blank" rel="noopener noreferrer" class="sx-res__link">View Profile <span class="sx-res__arrow" aria-hidden="true"><i class="fa-solid fa-arrow-right"/></span></a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="sx-sec" aria-labelledby="sx-nl-h">
+  <div class="sx-wrap">
+    <div class="sx-nl" data-sx-reveal="">
+      <div class="sx-nl__l">
+        <span class="sx-eyebrow">Stay in the Loop</span>
+        <h2 id="sx-nl-h">The HummingBeing Letter</h2>
+        <p>Monthly somatic insights, practices you can use immediately and stories from the field of human transformation.</p>
+        <ul class="sx-perks">
+          <li><i class="fa-solid fa-check" aria-hidden="true"/>Monthly somatic micro-practices</li>
+          <li><i class="fa-solid fa-check" aria-hidden="true"/>Nervous system research, made simple</li>
+          <li><i class="fa-solid fa-check" aria-hidden="true"/>Stories of transformation &amp; healing</li>
+        </ul>
+      </div>
+      <div class="sx-nl__r">
+        <div>
+          <h3>Join the community</h3>
+          <p class="sx-nl__note">No spam — ever. Unsubscribe anytime.</p>
+        </div>
+        <form class="sx-nl__form" novalidate="">
+          <label for="sx-nl-email">Email address</label>
+          <input id="sx-nl-email" type="email" name="email" autocomplete="email" placeholder="Your email address" required=""/>
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+          <p class="sx-nl__msg" role="status" aria-live="polite"/>
+        </form>
+        <p class="sx-nl__privacy"><i class="fa-solid fa-lock" aria-hidden="true"/> Your privacy is protected. No spam, ever.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STAY IN TOUCH / CTA -->
+<section class="sx-close" aria-labelledby="sx-close-h">
+  <span class="sx-close__orb sx-close__orb--a" aria-hidden="true"/>
+  <span class="sx-close__orb sx-close__orb--b" aria-hidden="true"/>
+  <div class="sx-wrap sx-close__in">
+    <div class="sx-close__copy" data-sx-reveal="">
+      <span class="sx-eyebrow">Stay in Touch</span>
+      <h2 class="sx-title" id="sx-close-h">Ready to Start <em>Your Journey?</em></h2>
+      <p>Follow along on social — or take the next step and book a free discovery call.</p>
+      <span class="sx-magnet"><a href="/book" class="btn btn-primary">Book a Free Call<i class="fa-solid fa-arrow-right" aria-hidden="true"/></a></span>
+    </div>
+    <div class="sx-contacts" data-sx-stagger="">
+      <div class="sx-contact" style="--brand:#25D366" data-sx-reveal="">
+        <span class="sx-contact__icon" aria-hidden="true"><i class="fa-brands fa-whatsapp"/></span>
+        <div>
+          <span class="sx-contact__lbl">WhatsApp</span>
+          <span class="sx-contact__val">+81 806515 1778</span>
+        </div>
+        <div class="sx-contact__acts">
+          <a href="https://wa.me/818065151778" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Message on WhatsApp</a>
+          <button type="button" class="sx-copy" data-copy="+818065151778" aria-label="Copy WhatsApp number"><i class="fa-regular fa-copy" aria-hidden="true"/><span class="sx-copy__lbl" aria-hidden="true">Copy</span></button>
+        </div>
+      </div>
+      <div class="sx-contact" data-sx-reveal="">
+        <span class="sx-contact__icon" aria-hidden="true"><i class="fa-solid fa-envelope"/></span>
+        <div>
+          <span class="sx-contact__lbl">Email</span>
+          <span class="sx-contact__val"><span>bonjour@bhd<span style="display:none">-no-spam</span>asia.com</span></span>
+        </div>
+        <div class="sx-contact__acts">
+          <a href="/book#contact-form" class="btn btn-outline">Send a Message</a>
+          <button type="button" class="sx-copy" data-copy="email" aria-label="Copy email address"><i class="fa-regular fa-copy" aria-hidden="true"/><span class="sx-copy__lbl" aria-hidden="true">Copy</span></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<p class="sx-sr sx-status" role="status" aria-live="polite"/>
+<div class="sx-toast" role="status" aria-live="polite" aria-atomic="true"><i class="fa-solid fa-circle-check" aria-hidden="true"/><span class="sx-toast__msg"/></div>
+</main><section class="tn-sec tn-warm tn-lead" id="start" aria-labelledby="tn-lead-h" data-funnel="book">
+  <div class="tn-wrap tn-lead-grid">
+    <div>
+      <span class="tn-eyebrow">Free discovery call</span>
+      <h2 class="tn-h2" id="tn-lead-h">Start with a free 30-minute call.</h2>
+      <p class="tn-lede">No agenda and no pressure. Tell Isabelle what you are carrying and she will suggest what fits, if anything does.</p>
+      <ol class="tn-next">
+        <li><span>1</span><div><b>Send your details</b>One minute, right here.</div></li>
+        <li><span>2</span><div><b>Pick a time</b>Choose a slot straight away, or we reply within one business day.</div></li>
+        <li><span>3</span><div><b>Talk with Isabelle</b>Online, wherever you are, or in person in Singapore.</div></li>
+      </ol>
+    </div>
+    <div class="tn-card tn-formcard">
+      <div class="tn-form-head"><h3>Book your free call</h3><p>Fields marked * are required.</p></div>
+      <form class="tn-form tn-lead-form" data-source="Free call form" action="#" method="post" novalidate="">
+        <input type="text" name="_honey" tabindex="-1" autocomplete="off" class="tn-hp" aria-hidden="true"/>
+        <div class="tn-fr">
+          <label class="tn-f"><span>Your name <i>*</i></span><input type="text" name="fullname" autocomplete="name" required=""/></label>
+          <label class="tn-f"><span>Email <i>*</i></span><input type="email" name="email" autocomplete="email" required=""/></label>
+        </div>
+        <div class="tn-fr">
+          <label class="tn-f"><span>Phone / WhatsApp <i>*</i></span><input type="tel" name="phone" autocomplete="tel" inputmode="tel" required="" placeholder="+65"/></label>
+          <label class="tn-f"><span>I'm interested in</span>
+            <select name="interest">
+              <option value="">Not sure yet</option>
+              <option>1:1 TRE™ sessions</option>
+              <option>Somatic coaching</option>
+              <option>Mindfulness programme</option>
+              <option>TRE™ certification</option>
+              <option>Retreat or team workshop</option>
+            </select></label>
+        </div>
+        <button type="submit" class="tn-btn">Request my free call <svg viewbox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <p class="tn-form-err" role="alert" hidden="">Please add your name, a valid email and a phone number.</p>
+      </form>
+      <div class="tn-form-ok" hidden="" role="status" tabindex="-1">
+        <svg class="tn-ok-ic" viewbox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M7.5 12.5l3 3 6-6.5"/></svg>
+        <h3>Thank you, your request is in.</h3>
+        <p>Pick a time for your call now, or wait for our reply within one business day.</p>
+        <a class="tn-btn" href="https://calendly.com/bhdasia/30min" target="_blank" rel="noopener" data-cta="thanks-calendly">Pick a time now</a>
+      </div>
+      <p class="tn-alt-contact">Prefer to message? <a href="https://wa.me/818065151778" target="_blank" rel="noopener">WhatsApp Isabelle</a></p>
+    </div>
+  </div>
+</section><footer>
+  <div class="foot-grid">
+    <div>
+      <a href="/" class="foot-logo"><img src="/images/logo-dark.webp" alt="HummingBeing — Coaching &amp; Somatics" width="144" height="48" style="height:48px;width:auto;display:block"/></a>
+      <p class="foot-desc">Science backed processes with TRE™, Coaching and Somatic Practices — a space to release, renew and restore.</p>
+      <p class="foot-desc">Part of <strong>Business and Human Development Consulting Pte Ltd</strong></p>
+      <div class="foot-socials">
+        <a href="https://www.instagram.com/isabelleclausteixeira_bhd/" target="_blank" rel="noopener noreferrer" class="soc" aria-label="Instagram"><i class="fa-brands fa-instagram"/></a>
+        <a href="https://www.linkedin.com/in/isabelleclausteixeira/" target="_blank" rel="noopener noreferrer" class="soc" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"/></a>
+        <a href="https://www.youtube.com/@IsabelleClausTeixeira" target="_blank" rel="noopener noreferrer" class="soc" aria-label="YouTube"><i class="fa-brands fa-youtube"/></a>
+        <a href="https://wa.me/818065151778" target="_blank" rel="noopener noreferrer" class="soc" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"/></a>
+      </div>
+    </div>
+    <div>
+      <div class="foot-h">Work with Isabelle</div>
+      <ul class="foot-links">
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™</a></li>
+        <li><a href="/tre-certification">TRE™ Certification</a></li>
+        <li><a href="/retreats-workshops">Retreats &amp; Workshops</a></li>
+        <li><a href="/events">Events</a></li>
+        <li><a href="/book">Book a free call</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="foot-h">HummingBeing</div>
+      <ul class="foot-links">
+        <li><a href="/about">About HummingBeing</a></li>
+        <li><a href="/isabelle">Meet Isabelle</a></li>
+        <li><a href="/gallery">Gallery</a></li>
+        <li><a href="/socials">Socials</a></li>
+        <li><a href="/tre-faq">TRE™ FAQ</a></li>
+        <li><a href="/is-tre-safe">Is TRE™ Safe?</a></li>
+        <li><a href="/tre-icf-cceu">TRE™ with ICF CCEs</a></li>
+        <li><a href="https://www.bhdasia.com" target="_blank" rel="noopener">BHD Asia</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="foot-h">Contact</div>
+      <ul class="foot-links">
+        <li><span>bonjour@bhd<span style="display:none">-no-spam</span>asia.com</span></li>
+        <li><a href="https://wa.me/818065151778" target="_blank" rel="noopener noreferrer">WhatsApp Us</a></li>
+        <li><span>Global</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <div class="foot-copy">© 2026 HummingBeing — Business and Human Development Consulting Pte Ltd</div>
+    <div class="foot-legal">
+      <span>Privacy Policy</span>
+      <span>Terms of Service</span>
+      <span class="foot-sep">·</span>
+      <a href="https://technext.asia" target="_blank" rel="noopener noreferrer">Powered by <span class="tn-brand">TechNext</span></a>
+    </div>
+  </div>
+</footer><a href="https://wa.me/818065151778" class="wa-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"/></a><button class="top-float" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top"><i class="fa-solid fa-chevron-up"/></button><script src="/scripts.js?v=20261109e" defer="defer"/><script>
+/* Socials page interactions (scoped to .sx) */
+(function () {
+  var root = document.querySelector('.sx');
+  if (!root) return;
+  root.classList.add('sx-js');
+
+  var mqFine = window.matchMedia('(hover: hover) and (pointer: fine)');
+  var mqReduce = window.matchMedia('(prefers-reduced-motion: reduce)');
+  function rich() { return mqFine.matches &amp;&amp; !mqReduce.matches; }
+  function each(list, fn) { Array.prototype.forEach.call(list, fn); }
+
+  /* ---- staggered scroll reveals ---- */
+  each(root.querySelectorAll('[data-sx-stagger]'), function (g) {
+    var i = 0;
+    each(g.children, function (c) {
+      if (c.hasAttribute('data-sx-reveal')) { c.style.setProperty('--d', Math.min(i, 8) * 70 + 'ms'); i++; }
+    });
+  });
+  var revealEls = root.querySelectorAll('[data-sx-reveal]');
+  /* once revealed, drop the reveal hooks so each element's own hover/tilt transitions take over */
+  function settle(el) {
+    var d = parseFloat(el.style.getPropertyValue('--d')) || 0;
+    setTimeout(function () {
+      el.removeAttribute('data-sx-reveal');
+      el.classList.remove('is-in');
+      el.style.removeProperty('--d');
+    }, 950 + d);
+  }
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { e.target.classList.add('is-in'); io.unobserve(e.target); settle(e.target); }
+      });
+    }, { rootMargin: '0px 0px -6% 0px', threshold: 0.08 });
+    each(revealEls, function (el) { io.observe(el); });
+  } else {
+    each(revealEls, function (el) { el.classList.add('is-in'); });
+  }
+
+  /* ---- toast + copy to clipboard ---- */
+  var toast = root.querySelector('.sx-toast');
+  var toastMsg = toast ? toast.querySelector('.sx-toast__msg') : null;
+  var toastTimer;
+  function say(msg) {
+    if (!toast) return;
+    toastMsg.textContent = '';
+    setTimeout(function () {
+      toastMsg.textContent = msg;
+      toast.classList.add('is-on');
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(function () { toast.classList.remove('is-on'); }, 2600);
+    }, 40);
+  }
+  function copyText(text) {
+    if (navigator.clipboard &amp;&amp; window.isSecureContext) {
+      return navigator.clipboard.writeText(text).catch(function () { return legacyCopy(text); });
+    }
+    return legacyCopy(text);
+  }
+  function legacyCopy(text) {
+    return new Promise(function (resolve, reject) {
+      var ta = document.createElement('textarea');
+      ta.value = text; ta.setAttribute('readonly', '');
+      ta.style.position = 'fixed'; ta.style.top = '0'; ta.style.left = '0'; ta.style.opacity = '0';
+      document.body.appendChild(ta); ta.select();
+      var ok = false;
+      try { ok = document.execCommand('copy'); } catch (err) { ok = false; }
+      document.body.removeChild(ta);
+      if (ok) resolve(); else reject();
+    });
+  }
+  root.addEventListener('click', function (e) {
+    var b = e.target.closest ? e.target.closest('[data-copy]') : null;
+    if (!b || !root.contains(b)) return;
+    var val = b.getAttribute('data-copy');
+    if (val === 'email') val = 'bonjour' + '@' + 'bhdasia.com';
+    var lbl = b.querySelector('.sx-copy__lbl');
+    var icon = b.querySelector('i');
+    copyText(val).then(function () {
+      say('Copied ' + val);
+      b.classList.add('is-copied');
+      if (lbl) lbl.textContent = 'Copied';
+      if (icon) icon.className = 'fa-solid fa-check';
+      clearTimeout(b._sxT);
+      b._sxT = setTimeout(function () {
+        b.classList.remove('is-copied');
+        if (lbl) lbl.textContent = 'Copy';
+        if (icon) icon.className = 'fa-regular fa-copy';
+      }, 1900);
+    }, function () {
+      say('Copy not available here — ' + val);
+    });
+  });
+
+  /* ---- platform switcher (tabs) ---- */
+  var sw = root.querySelector('[data-sx-switch]');
+  var selectPlatform = function () {};
+  if (sw) {
+    var tabs = Array.prototype.slice.call(sw.querySelectorAll('[role="tab"]'));
+    var panels = tabs.map(function (t) { return document.getElementById(t.getAttribute('aria-controls')); });
+    var ind = sw.querySelector('.sx-tabs__ind');
+    var cur = -1;
+    var place = function (instant) {
+      if (!ind || cur &lt; 0) return;
+      var t = tabs[cur];
+      if (instant) ind.style.transition = 'none';
+      ind.style.width = t.offsetWidth + 'px';
+      ind.style.height = t.offsetHeight + 'px';
+      ind.style.transform = 'translate(' + t.offsetLeft + 'px,' + t.offsetTop + 'px)';
+      if (instant) { void ind.offsetWidth; ind.style.transition = ''; }
+    };
+    selectPlatform = function (i, focus) {
+      if (i &lt; 0 || i &gt;= tabs.length) return;
+      var first = cur &lt; 0;
+      tabs.forEach(function (t, j) {
+        var on = j === i;
+        t.setAttribute('aria-selected', on ? 'true' : 'false');
+        t.tabIndex = on ? 0 : -1;
+        var p = panels[j];
+        if (!p) return;
+        p.classList.toggle('is-active', on);
+        if (on) p.removeAttribute('inert'); else p.setAttribute('inert', '');
+      });
+      cur = i;
+      place(first);
+      if (focus) tabs[i].focus();
+    };
+    tabs.forEach(function (t, j) {
+      var p = panels[j];
+      if (p) each(p.children, function (c, k) { c.style.setProperty('--i', k); });
+      t.addEventListener('click', function () { selectPlatform(j); });
+      var dwell;
+      t.addEventListener('mouseenter', function () {
+        if (!mqFine.matches) return;
+        clearTimeout(dwell);
+        dwell = setTimeout(function () { selectPlatform(j); }, 130);
+      });
+      t.addEventListener('mouseleave', function () { clearTimeout(dwell); });
+    });
+    sw.querySelector('[role="tablist"]').addEventListener('keydown', function (e) {
+      var k = e.key, n = tabs.length, to = null;
+      if (k === 'ArrowDown' || k === 'ArrowRight') to = (cur + 1) % n;
+      else if (k === 'ArrowUp' || k === 'ArrowLeft') to = (cur - 1 + n) % n;
+      else if (k === 'Home') to = 0;
+      else if (k === 'End') to = n - 1;
+      if (to === null) return;
+      e.preventDefault();
+      selectPlatform(to, true);
+    });
+    selectPlatform(0);
+    window.addEventListener('resize', function () { place(true); });
+    if ('ResizeObserver' in window) new ResizeObserver(function () { place(true); }).observe(sw.querySelector('[role="tablist"]'));
+    if (document.fonts &amp;&amp; document.fonts.ready) document.fonts.ready.then(function () { place(true); });
+  }
+
+  function scrollToEl(el) {
+    if (!el) return;
+    el.scrollIntoView({ behavior: mqReduce.matches ? 'auto' : 'smooth', block: 'start' });
+  }
+  each(root.querySelectorAll('[data-sx-jump]'), function (b) {
+    b.addEventListener('click', function () {
+      selectPlatform(parseInt(b.getAttribute('data-sx-jump'), 10));
+      scrollToEl(sw);
+    });
+  });
+
+  /* ---- filterable grids/lists (FLIP animated) ---- */
+  var status = root.querySelector('.sx-status');
+  var filters = {};
+  each(root.querySelectorAll('[data-sx-filter]'), function (chipsEl) {
+    var list = document.getElementById(chipsEl.getAttribute('data-sx-filter'));
+    if (!list) return;
+    var chips = Array.prototype.slice.call(chipsEl.querySelectorAll('[data-f]'));
+    var items = Array.prototype.slice.call(list.children);
+    var noun = chipsEl.getAttribute('data-noun') || 'items';
+    function apply(f) {
+      chips.forEach(function (c) { c.setAttribute('aria-pressed', c.getAttribute('data-f') === f ? 'true' : 'false'); });
+      var before = new Map();
+      items.forEach(function (el) { if (!el.hidden) before.set(el, el.getBoundingClientRect()); });
+      var shown = 0;
+      items.forEach(function (el) {
+        var tags = (el.getAttribute('data-tags') || '').split(' ');
+        var on = f === 'all' || tags.indexOf(f) &gt; -1;
+        el.hidden = !on;
+        el.classList.add('is-in');
+        if (on) shown++;
+      });
+      if (!mqReduce.matches &amp;&amp; window.Map) {
+        items.forEach(function (el) {
+          if (el.hidden) return;
+          var a = before.get(el), r = el.getBoundingClientRect();
+          el.style.transition = 'none';
+          if (a) {
+            var dx = a.left - r.left, dy = a.top - r.top;
+            el.style.transform = (dx || dy) ? 'translate(' + dx + 'px,' + dy + 'px)' : '';
+          } else {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(18px) scale(.96)';
+          }
+        });
+        void list.offsetWidth;
+        items.forEach(function (el) {
+          if (el.hidden) return;
+          el.style.transition = 'transform .6s cubic-bezier(.23,1,.32,1), opacity .45s ease';
+          el.style.transform = '';
+          el.style.opacity = '';
+        });
+        clearTimeout(list._sxT);
+        list._sxT = setTimeout(function () { items.forEach(function (el) { el.style.transition = ''; }); }, 650);
+      }
+      if (status) {
+        var chip = chips.filter(function (c) { return c.getAttribute('data-f') === f; })[0];
+        var name = chip ? chip.textContent.replace(/\s+/g, ' ').trim() : f;
+        status.textContent = 'Showing ' + shown + ' ' + noun + (f === 'all' ? '' : ': ' + name);
+      }
+    }
+    chips.forEach(function (c) { c.addEventListener('click', function () { apply(c.getAttribute('data-f')); }); });
+    filters[list.id] = apply;
+  });
+  each(root.querySelectorAll('[data-sx-show]'), function (b) {
+    b.addEventListener('click', function () {
+      var target = document.getElementById('sx-themes');
+      if (filters['sx-theme-grid']) filters['sx-theme-grid'](b.getAttribute('data-sx-show'));
+      scrollToEl(target);
+    });
+  });
+
+  /* ---- pointer tilt + spotlight (fine pointers, motion allowed) ---- */
+  each(root.querySelectorAll('[data-sx-tilt]'), function (el) {
+    var max = parseFloat(el.getAttribute('data-sx-tilt')) || 5;
+    var raf = 0, px = 0.5, py = 0.5, w = 0, h = 0;
+    el.addEventListener('pointermove', function (e) {
+      if (e.pointerType !== 'mouse' || !rich()) return;
+      var r = el.getBoundingClientRect();
+      w = r.width; h = r.height;
+      px = (e.clientX - r.left) / w; py = (e.clientY - r.top) / h;
+      if (raf) return;
+      raf = requestAnimationFrame(function () {
+        raf = 0;
+        el.style.setProperty('--ry', ((px - 0.5) * 2 * max).toFixed(2) + 'deg');
+        el.style.setProperty('--rx', ((0.5 - py) * 2 * max).toFixed(2) + 'deg');
+        el.style.setProperty('--mx', (px * 100).toFixed(1) + '%');
+        el.style.setProperty('--my', (py * 100).toFixed(1) + '%');
+        el.style.setProperty('--gx', (px * w).toFixed(0) + 'px');
+        el.style.setProperty('--gy', (py * h).toFixed(0) + 'px');
+      });
+    });
+    el.addEventListener('pointerleave', function () {
+      el.style.setProperty('--rx', '0deg');
+      el.style.setProperty('--ry', '0deg');
+    });
+  });
+
+  /* ---- magnetic CTAs ---- */
+  each(root.querySelectorAll('.sx-magnet'), function (m) {
+    m.addEventListener('pointermove', function (e) {
+      if (e.pointerType !== 'mouse' || !rich()) return;
+      var r = m.getBoundingClientRect();
+      var x = e.clientX - (r.left + r.width / 2), y = e.clientY - (r.top + r.height / 2);
+      m.style.transform = 'translate(' + (x * 0.16).toFixed(1) + 'px,' + (y * 0.3).toFixed(1) + 'px)';
+    });
+    m.addEventListener('pointerleave', function () { m.style.transform = ''; });
+  });
+
+  /* ---- newsletter: sends the signup to Isabelle (email + Google Sheet) via sendLead() ---- */
+  var form = root.querySelector('.sx-nl__form');
+  if (form) {
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var input = form.querySelector('input[type="email"]');
+      var msg = form.querySelector('.sx-nl__msg');
+      var btn = form.querySelector('button[type="submit"]');
+      if (!input.value.trim() || !input.checkValidity()) {
+        input.setAttribute('aria-invalid', 'true');
+        msg.textContent = 'Please enter a valid email address.';
+        input.focus();
+        return;
+      }
+      input.removeAttribute('aria-invalid');
+      if (typeof sendLead === 'function') {
+        sendLead({ name: '', email: input.value.trim(), phone: '', event: '', inquiry: 'Newsletter signup', source: 'Socials page — newsletter', message: 'Please add me to the HummingBeing newsletter.' });
+      }
+      msg.textContent = 'Thank you — you are on the list.';
+      btn.textContent = 'Subscribed';
+      btn.classList.remove('btn-primary');
+      btn.classList.add('btn-dark');
+    });
+  }
+})();
+</script><script src="/gdpr-consent.js?v=4"/><script src="/hb-tn.js?v=39" defer="defer"/></t></t>

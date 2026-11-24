@@ -1,0 +1,767 @@
+<t t-name="hbs.page_about"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en&quot;}"/><t t-set="title">About HummingBeing | Science-Backed Somatic Practice</t><t t-set="head"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
+new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
+"https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,"script","dataLayer","GTM-TXLR5LGG");</script><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="description" content="HummingBeing brings together TRE&#x2122;, somatic practice, coaching and mindfulness, built on 30 years of human development work. Book a free discovery call."/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/><link rel="stylesheet" href="/styles.css?v=98"/><link rel="preconnect" href="https://cdnjs.cloudflare.com"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png?v=3"/><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png?v=3"/><link rel="icon" href="/favicon.ico?v=3" sizes="any"/><link rel="apple-touch-icon" href="/apple-touch-icon.png?v=3"/><style>
+/* Our Philosophy — numbered open column layout */
+.philo-row {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin-top: 3rem;
+}
+.philo-item {
+  padding: 2.2rem 2.5rem 2.2rem 0;
+  border-right: 1px solid rgba(36,46,66,.09);
+  display: flex; flex-direction: column; gap: .5rem;
+}
+.philo-item + .philo-item { padding-left: 2.5rem; }
+.philo-item:last-child { border-right: none; padding-right: 0; }
+.philo-row-2 { border-top: 1px solid rgba(36,46,66,.09); }
+.philo-row-2 .philo-item { padding-top: 2.2rem; }
+.philo-eyebrow {
+  font-family: 'Lato',sans-serif;
+  font-size: .62rem; font-weight: 700; letter-spacing: 2.5px;
+  text-transform: uppercase; color: var(--gold);
+}
+.philo-icon { font-size: 1.4rem; color: var(--navy); margin: .3rem 0; }
+.philo-item h3 { font-family: 'PT Serif',Georgia,serif; font-size: 1.1rem; color: var(--navy); margin-bottom: .2rem; }
+.philo-item p { font-size: .93rem; color: var(--body-text); line-height: 1.7; }
+@media (max-width: 700px) {
+  .philo-row { grid-template-columns: 1fr 1fr; }
+  .philo-item { padding: 1.5rem 1.5rem 1.5rem 0; border-right: none; border-bottom: 1px solid rgba(36,46,66,.09); }
+  .philo-item + .philo-item { padding-left: 1.5rem; }
+  .philo-item:nth-child(even) { border-right: none; padding-right: 0; }
+  .philo-item:nth-child(odd):not(:last-child) { border-right: 1px solid rgba(36,46,66,.09); }
+  .philo-row-2 { border-top: none; }
+}
+@media (max-width: 480px) {
+  .philo-row { grid-template-columns: 1fr; }
+  .philo-item,
+  .philo-item + .philo-item { padding: 1.2rem 0; border-right: none; }
+  .philo-item:nth-child(odd):not(:last-child) { border-right: none; }
+  .philo-item:last-child { border-bottom: none; }
+}
+</style><style>
+/* ==========================================================================
+   ABOUT (.ab-) - page-scoped redesign of the mission, hummingbird metaphor
+   and BHD family sections. Every selector lives under .ab-; buttons (.btn)
+   are not restyled. The philosophy section (.philo-*) is left alone.
+   ========================================================================== */
+.ab-sec {
+  --ab-navy: #242e42; --ab-deep: #1a2030; --ab-mid: #3a4a66;
+  --ab-gold: #F5A623; --ab-gold-d: #c98000; --ab-cream: #fafaf8; --ab-text: #3d4250;
+  --ab-ease: cubic-bezier(.23, 1, .32, 1);
+  --ab-off: 18px;
+}
+section.ab-sec { position: relative; overflow: clip; padding: clamp(4rem, 8vw, 7rem) clamp(16px, 5vw, 64px); }
+.ab-wrap { position: relative; z-index: 1; max-width: 1180px; margin: 0 auto; }
+.ab-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(2.5rem, 6vw, 5.5rem); align-items: center; }
+.ab-bird-grid { grid-template-columns: minmax(0, 1.08fr) minmax(0, .92fr); }
+.ab-bhd-grid .ab-frame { order: 2; }
+.ab-sec :focus-visible:not(.btn) { outline: 3px solid var(--ab-gold); outline-offset: 3px; border-radius: 4px; }
+
+/* -- Type ------------------------------------------------------------------ */
+.ab-eyebrow {
+  display: inline-flex; align-items: center; gap: .75rem; margin-bottom: 1rem;
+  font-family: 'Lato', sans-serif; font-size: .72rem; font-weight: 700;
+  letter-spacing: 3px; text-transform: uppercase; color: var(--ab-mid);
+}
+.ab-eyebrow::before { content: ""; width: 28px; height: 2px; border-radius: 2px; background: var(--ab-gold); }
+.ab-title {
+  font-family: 'Playfair Display', Georgia, serif; font-weight: 700; color: var(--ab-navy);
+  font-size: clamp(2rem, 3.8vw, 3rem); line-height: 1.1; letter-spacing: -.01em; margin: 0;
+}
+.ab-title em { font-style: italic; color: var(--ab-gold-d); }
+.ab-num { display: inline-block; font-variant-numeric: tabular-nums lining-nums; color: var(--ab-gold-d); }
+.ab-rule { display: block; width: 56px; height: 3px; border-radius: 2px; background: var(--ab-gold); margin: 1.5rem 0 1.7rem; transform-origin: left center; }
+.ab-copy p { font-family: 'Lato', sans-serif; font-size: 1.02rem; line-height: 1.85; color: var(--ab-text); margin: 0 0 1.15rem; max-width: 38rem; }
+.ab-copy p strong { color: var(--ab-navy); }
+.ab-mark {
+  color: var(--ab-navy); padding: 0 .08em;
+  background-image: linear-gradient(rgba(245, 166, 35, .34), rgba(245, 166, 35, .34));
+  background-repeat: no-repeat; background-position: 0 90%; background-size: 100% .45em;
+  -webkit-box-decoration-break: clone; box-decoration-break: clone;
+}
+.ab-cta { margin-top: 2rem; }
+
+/* -- Photo frames (tilt, glow, parallax, offset line) ---------------------- */
+.ab-frame { position: relative; margin: 0; padding: 0 var(--ab-off) var(--ab-off) 0; perspective: 1100px; }
+.ab-frame-line {
+  position: absolute; inset: var(--ab-off) 0 0 var(--ab-off); border: 1.5px solid rgba(245, 166, 35, .6);
+  border-radius: 20px; pointer-events: none;
+  transform: translate3d(var(--ab-lx, 0px), var(--ab-ly, 0px), 0); transition: transform .8s var(--ab-ease);
+}
+.ab-frame-in {
+  position: relative; z-index: 1; overflow: hidden; border-radius: 20px; aspect-ratio: 4 / 3;
+  background: #e8e4da; box-shadow: 0 34px 70px -34px rgba(26, 32, 48, .5);
+  transform: rotateX(var(--ab-rx, 0deg)) rotateY(var(--ab-ry, 0deg)); transition: transform .7s var(--ab-ease);
+}
+.ab-frame-in img {
+  width: 100%; height: 100%; object-fit: cover;
+  transform: translate3d(var(--ab-tx, 0%), calc(var(--ab-ty, 0%) + var(--ab-py, 0px)), 0) scale(calc(var(--ab-s, 1.12) * var(--ab-hz, 1)));
+  transition: transform .9s var(--ab-ease);
+}
+.ab-glow {
+  position: absolute; inset: 0; z-index: 2; pointer-events: none; opacity: 0; mix-blend-mode: screen;
+  background: radial-gradient(420px circle at var(--ab-gx, 50%) var(--ab-gy, 40%), rgba(255, 214, 140, .34), transparent 62%);
+  transition: opacity .5s var(--ab-ease);
+}
+.ab-scrim { position: absolute; inset: 0; z-index: 1; pointer-events: none; background: linear-gradient(to top, rgba(26, 32, 48, .55), rgba(26, 32, 48, 0) 42%); }
+@media (hover: hover) and (pointer: fine) {
+  .ab-frame:hover { --ab-hz: 1.04; }
+  .ab-frame:hover .ab-glow { opacity: 1; }
+}
+.ab-curtain { display: none; }
+.ab-js .ab-curtain {
+  display: block; position: absolute; inset: 0; z-index: 4; background: var(--ab-deep);
+  transform-origin: right center; transition: transform 1.1s var(--ab-ease) calc(var(--ab-d, 0ms) + 150ms);
+}
+.ab-js .ab-frame.ab-in .ab-curtain { transform: scaleX(0); }
+
+/* -- Reveal (only when the script has run) ---------------------------------- */
+.ab-js .ab-rv { opacity: 0; transform: translate3d(0, 26px, 0); transition: opacity .8s var(--ab-ease) var(--ab-d, 0ms), transform 1s var(--ab-ease) var(--ab-d, 0ms); }
+.ab-js .ab-frame.ab-rv { transform: translate3d(0, 40px, 0) scale(.97); }
+.ab-js .ab-rv.ab-in, .ab-js .ab-frame.ab-rv.ab-in { opacity: 1; transform: none; }
+.ab-js .ab-split .ab-w { display: inline-block; opacity: 0; transform: translate3d(0, .5em, 0); transition: opacity .7s var(--ab-ease) var(--ab-d, 0ms), transform .9s var(--ab-ease) var(--ab-d, 0ms); }
+.ab-js .ab-split.ab-in .ab-w { opacity: 1; transform: none; }
+.ab-js .ab-rule { transform: scaleX(0); transition: transform 1s var(--ab-ease) .35s; }
+.ab-js .ab-rule.ab-in { transform: scaleX(1); }
+.ab-js .ab-mark { background-size: 0% .45em; transition: background-size 1.1s var(--ab-ease) calc(var(--ab-d, 0ms) + var(--ab-md, 400ms)); }
+.ab-js .ab-in .ab-mark { background-size: 100% .45em; }
+
+/* -- Hummingbird: tabs + stacked panels + view-linked photo ----------------- */
+.ab-bird::before {
+  content: ""; position: absolute; z-index: 0; width: min(560px, 90vw); aspect-ratio: 1; right: -12%; top: -18%;
+  border-radius: 50%; pointer-events: none;
+  background: radial-gradient(circle, rgba(245, 166, 35, .16), rgba(245, 166, 35, 0) 65%);
+  animation: ab-drift 16s ease-in-out infinite alternate;
+}
+@keyframes ab-drift { to { transform: translate3d(-8%, 10%, 0) scale(1.08); } }
+.ab-tabs { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0 .4rem; margin: 0 0 1.6rem; }
+.ab-tabs[hidden] { display: none; }
+.ab-tab {
+  position: relative; display: flex; flex-direction: column; align-items: flex-start; gap: .45rem;
+  min-height: 64px; padding: 1rem .25rem .6rem 0; margin: 0; background: none; border: 0;
+  border-top: 1px solid rgba(36, 46, 66, .16); border-radius: 0; cursor: pointer; text-align: left;
+  font: inherit; color: var(--ab-mid); transition: color .3s var(--ab-ease);
+  -webkit-tap-highlight-color: transparent;
+}
+.ab-tab::before {
+  content: ""; position: absolute; left: 0; top: -1px; width: 100%; height: 2px; background: var(--ab-gold);
+  transform: scaleX(0); transform-origin: left center; transition: transform .6s var(--ab-ease);
+}
+.ab-tab i { font-size: 1rem; color: var(--ab-gold-d); transition: transform .5s var(--ab-ease); }
+.ab-tab-l { font-family: 'Lato', sans-serif; font-size: .7rem; font-weight: 700; letter-spacing: 1.4px; text-transform: uppercase; line-height: 1.3; }
+.ab-tab[aria-selected="true"] { color: var(--ab-navy); }
+.ab-tab[aria-selected="true"]::before { transform: scaleX(1); }
+.ab-tab[aria-selected="true"] i { transform: scale(1.18); }
+@media (hover: hover) and (pointer: fine) {
+  .ab-tab:hover { color: var(--ab-navy); }
+  .ab-tab:hover::before { transform: scaleX(.35); }
+  .ab-tab[aria-selected="true"]:hover::before { transform: scaleX(1); }
+  .ab-tab:hover i { transform: translate3d(0, -2px, 0); }
+}
+.ab-tab:active i { transform: scale(.9); }
+.ab-tab:focus-visible { outline-offset: -2px; }
+.ab-panels { touch-action: pan-y; }
+.ab-panel p { position: relative; z-index: 0; font-size: 1.05rem; }
+.ab-panel p:last-child { margin-bottom: 0; }
+.ab-panel + .ab-panel { margin-top: 1.15rem; }
+.ab-js .ab-panels { display: grid; }
+.ab-js .ab-panel {
+  grid-area: 1 / 1; margin: 0; opacity: 0; visibility: hidden; transform: translate3d(14px, 0, 0);
+  transition: opacity .35s var(--ab-ease), transform .6s var(--ab-ease), visibility 0s linear .35s;
+}
+.ab-js .ab-panel.ab-cur {
+  opacity: 1; visibility: visible; transform: none;
+  transition: opacity .55s var(--ab-ease) .08s, transform .7s var(--ab-ease) .08s, visibility 0s;
+}
+.ab-panel:focus-visible { outline-offset: 6px; }
+.ab-trait { position: relative; white-space: nowrap; color: var(--ab-navy); font-weight: 700; }
+.ab-trait::after {
+  content: ""; position: absolute; left: 0; right: 0; bottom: .1em; height: .4em; z-index: -1;
+  border-radius: 2px; background: rgba(245, 166, 35, .34); transform-origin: left center;
+}
+.ab-js .ab-trait::after { transform: scaleX(0); transition: transform .8s var(--ab-ease) calc(var(--ab-i, 0) * 110ms + 250ms); }
+.ab-js .ab-cur .ab-trait::after { transform: scaleX(1); }
+.ab-bird-fig .ab-frame-in { aspect-ratio: 1 / 1; }
+.ab-bird-fig[data-ab-v="2"] { --ab-s: 1.3; --ab-tx: -4%; --ab-ty: 3%; }
+.ab-bird-fig[data-ab-v="3"] { --ab-s: 1.2; --ab-tx: 4%; --ab-ty: -2%; }
+.ab-bird-fig[data-ab-v="4"] { --ab-s: 1.16; --ab-tx: -3%; --ab-ty: -3%; }
+.ab-chip, .ab-scrim { display: none; }
+.ab-js .ab-scrim { display: block; }
+.ab-js .ab-chip {
+  position: absolute; left: 1rem; bottom: 1rem; z-index: 3; display: flex; align-items: center; gap: .7rem;
+  max-width: calc(100% - 2rem); padding: .5rem .95rem .5rem .5rem; border-radius: 999px;
+  background: rgba(26, 32, 48, .74); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, .14); color: #fff; font-family: 'Lato', sans-serif;
+}
+.ab-chip-i { flex: none; width: 32px; height: 32px; border-radius: 50%; display: grid; place-items: center; background: var(--ab-gold); color: var(--ab-deep); font-size: .85rem; }
+.ab-chip-l { min-width: 0; font-size: .72rem; font-weight: 700; letter-spacing: 1.4px; text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.ab-chip-n { font-size: .72rem; color: #c9d2e3; font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+/* -- BHD: company-to-practice link ------------------------------------------ */
+.ab-link {
+  display: flex; align-items: center; gap: .9rem; max-width: 38rem; margin: 1.8rem 0 1.8rem; padding: 1rem 1.1rem;
+  border: 1px solid rgba(36, 46, 66, .1); border-radius: 16px; background: linear-gradient(135deg, #fff, var(--ab-cream));
+  box-shadow: 0 18px 40px -28px rgba(36, 46, 66, .35);
+}
+.ab-node { flex: none; display: flex; align-items: center; gap: .7rem; min-width: 0; }
+.ab-node-i {
+  flex: none; width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center;
+  background: rgba(245, 166, 35, .14); color: var(--ab-gold-d); font-size: 1rem;
+  transition: transform .6s var(--ab-ease);
+}
+.ab-node:last-child .ab-node-i { background: var(--ab-navy); color: var(--ab-gold); }
+.ab-node-t { display: flex; flex-direction: column; min-width: 0; line-height: 1.25; }
+.ab-node-t b { font-family: 'Playfair Display', Georgia, serif; font-size: .98rem; color: var(--ab-navy); }
+.ab-node-t small { margin-top: .2rem; font-size: .66rem; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--ab-mid); }
+.ab-wire { position: relative; flex: 1 1 auto; min-width: 36px; height: 12px; overflow: hidden; }
+.ab-wire-line {
+  position: absolute; left: 0; right: 0; top: 5px; height: 2px; transform-origin: left center;
+  background: repeating-linear-gradient(90deg, rgba(36, 46, 66, .3) 0 6px, transparent 6px 11px);
+}
+.ab-wire-run { position: absolute; inset: 0; opacity: 0; }
+.ab-wire-dot { position: absolute; left: 0; top: 50%; width: 8px; height: 8px; margin: -4px 0 0 -4px; border-radius: 50%; background: var(--ab-gold); box-shadow: 0 0 0 3px rgba(245, 166, 35, .22); }
+.ab-js .ab-wire-line { transform: scaleX(0); transition: transform 1.2s var(--ab-ease) .5s; }
+.ab-js .ab-link.ab-in .ab-wire-line { transform: scaleX(1); }
+.ab-js .ab-link.ab-in .ab-wire-run { animation: ab-flow 2.8s var(--ab-ease) 1.6s infinite; }
+@keyframes ab-flow { 0% { transform: translate3d(0, 0, 0); opacity: 0; } 15%, 85% { opacity: 1; } 100% { transform: translate3d(100%, 0, 0); opacity: 0; } }
+@keyframes ab-flow-y { 0% { transform: translate3d(0, 0, 0); opacity: 0; } 15%, 85% { opacity: 1; } 100% { transform: translate3d(0, 100%, 0); opacity: 0; } }
+@media (hover: hover) and (pointer: fine) { .ab-node:hover .ab-node-i { transform: rotate(-10deg) scale(1.08); } }
+
+/* -- Responsive ------------------------------------------------------------- */
+@media (max-width: 900px) {
+  .ab-grid, .ab-bird-grid { grid-template-columns: minmax(0, 1fr); gap: 2.5rem; }
+  .ab-bhd-grid .ab-frame { order: 0; }
+  .ab-bird-grid .ab-frame { order: -1; }
+  .ab-frame { width: 100%; max-width: 580px; margin: 0 auto; }
+  .ab-bird-fig .ab-frame-in { aspect-ratio: 4 / 3; }
+  .ab-copy p, .ab-link { max-width: none; }
+}
+@media (max-width: 560px) {
+  .ab-sec { --ab-off: 12px; }
+  .ab-frame-in, .ab-frame-line { border-radius: 16px; }
+  .ab-tabs { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 .9rem; }
+  .ab-tab { flex-direction: row; align-items: center; gap: .6rem; min-height: 54px; padding: .85rem 0 .7rem; }
+  .ab-js .ab-chip { left: .75rem; bottom: .75rem; max-width: calc(100% - 1.5rem); }
+}
+@media (max-width: 480px) {
+  .ab-link { flex-direction: column; align-items: flex-start; gap: .3rem; }
+  .ab-wire { flex: none; width: 12px; height: 30px; min-width: 0; margin-left: 16px; }
+  .ab-wire-line { left: 5px; right: auto; top: 0; bottom: 0; width: 2px; height: auto; transform-origin: center top; background: repeating-linear-gradient(180deg, rgba(36, 46, 66, .3) 0 6px, transparent 6px 11px); }
+  .ab-js .ab-wire-line { transform: scaleY(0); }
+  .ab-js .ab-link.ab-in .ab-wire-line { transform: scaleY(1); }
+  .ab-wire-dot { left: 50%; top: 0; }
+  .ab-js .ab-link.ab-in .ab-wire-run { animation-name: ab-flow-y; }
+}
+
+/* -- Reduced motion: no movement, everything shown ---------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  .ab-sec *, .ab-sec *::before, .ab-sec *::after, .ab-sec::before { transition: none !important; animation: none !important; }
+  .ab-js .ab-rv, .ab-js .ab-frame.ab-rv, .ab-js .ab-split .ab-w { opacity: 1 !important; transform: none !important; }
+  .ab-js .ab-rule, .ab-js .ab-wire-line, .ab-js .ab-trait::after, .ab-js .ab-panel { transform: none !important; }
+  .ab-js .ab-mark { background-size: 100% .45em !important; }
+  .ab-js .ab-curtain, .ab-wire-run { display: none !important; }
+  .ab-frame-in, .ab-frame-line { transform: none !important; }
+}
+</style><meta name="keywords" content="about HummingBeing, somatic wellness, Isabelle Claus Teixeira, TRE&#x2122;, coaching, mindfulness, burnout recovery, nervous system regulation"/><link rel="canonical" href="https://www.hummingbeing.com/about"/><meta name="robots" content="index, follow"/><meta property="og:type" content="website"/><meta property="og:site_name" content="HummingBeing"/><meta property="og:title" content="About HummingBeing | Science-Backed Somatic Practice"/><meta property="og:description" content="HummingBeing brings together TRE&#x2122;, somatic practice, coaching and mindfulness, built on 30 years of human development work. Book a free discovery call."/><meta property="og:url" content="https://www.hummingbeing.com/about"/><meta property="og:image" content="https://www.hummingbeing.com/images/about-hummingbird-metaphor.webp"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image:alt" content="Hummingbird &#x2014; the metaphor for HummingBeing somatic wellness"/><meta property="og:locale" content="en_SG"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="About HummingBeing | Science-Backed Somatic Practice"/><meta name="twitter:description" content="HummingBeing brings together TRE&#x2122;, somatic practice, coaching and mindfulness, built on 30 years of human development work. Book a free discovery call."/><meta name="twitter:image" content="https://www.hummingbeing.com/images/about-hummingbird-metaphor.webp"/><script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "name": "About HummingBeing",
+    "url": "https://www.hummingbeing.com/about",
+    "description": "HummingBeing is a somatic wellness practice led by Isabelle Claus Teixeira. We help people release chronic stress, burnout and stored tension through TRE™, Coaching and Mindfulness &amp;#8212; in person and online worldwide.",
+    "mainEntity": {
+      "@type": "Organization",
+      "@id": "https://www.hummingbeing.com/#organization",
+      "name": "HummingBeing"
+    }
+  }
+  </script><script type="application/ld+json" data-seo="breadcrumb">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.hummingbeing.com/"}, {"@type": "ListItem", "position": 2, "name": "About", "item": "https://www.hummingbeing.com/about"}]}</script><link rel="preload" href="/fonts/hb/lato-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/hb/playfair-display-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/></t><t t-call="web.layout"><link rel="stylesheet" href="/styles.css?v=98"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXLR5LGG" height="0" width="0" style="display:none;visibility:hidden"/></noscript><nav>
+  <a href="/" class="logo"><img src="/images/logo-dark.webp" class="logo-on-dark" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/><img src="/images/logo-light.webp" class="logo-on-light" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/></a>
+  <ul class="nav-links">
+    <li><a href="/">Home</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/isabelle">Isabelle</a></li>
+    <li class="nav-dropdown">
+      <a href="javascript:void(0)" class="nav-dropdown-toggle">Work with Isabelle <i class="fa-solid fa-chevron-down nav-arrow"/></a>
+      <ul class="nav-dropdown-menu">
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™<small>Private sessions, online or in person</small></a></li>
+        <li><a href="/tre-certification">TRE™ Certification<small>Become a certified TRE™ provider</small></a></li>
+        <li><a href="/retreats-workshops">Retreats &amp; Workshops<small>Groups, teams and executives</small></a></li>
+      </ul>
+    </li>
+    <li><a href="/events">Events</a></li>
+    <li class="nav-book-mobile"><a href="/book">Book a free call</a></li>
+  </ul>
+  <div class="nav-actions">
+    <a href="/book" class="nav-cta">Book a free call</a>
+    <button class="hamburger" onclick="toggleMenu()"><span/><span/><span/></button>
+  </div>
+</nav><div class="page-hero">
+  <span class="eyebrow">About HummingBeing</span>
+  <h1>Science Backed Processes to<br/><em>Release, Renew &amp; Restore</em></h1>
+  <p>Rooted in neuroscience, trauma informed, integrating mindfulness and somatics, and 30 years of human development experience.</p>
+  <div class="hero-actions">
+    <a href="/book" class="btn btn-primary">Book a Free Discovery Call</a>
+    <a href="/isabelle" class="btn btn-outline">Meet Isabelle</a>
+  </div>
+</div><div class="ticker-wrap" aria-hidden="true">
+  <div class="ticker-track">
+    <span class="t-item"><span class="t-star">★</span> Somatic Wellness</span><span class="t-sep">·</span>
+    <span class="t-item">In-Person &amp; Online Worldwide</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Certified TRE™ Provider</span><span class="t-sep">·</span>
+    <span class="t-item">30 Years of Experience</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Coaching</span><span class="t-sep">·</span>
+    <span class="t-item">Mindfulness</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> 9 Countries · 40+ Nationalities</span><span class="t-sep">·</span>
+    <span class="t-item">Release · Renew · Restore</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Business &amp; Human Development</span><span class="t-sep">·</span>
+    <span class="t-item">Nervous System Reset</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Mindfulness</span><span class="t-sep">·</span>
+    <span class="t-item">Embodied Leadership</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Trauma &amp; Tension Release</span><span class="t-sep">·</span>
+    <span class="t-item">Mind · Body · Soul</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Corporate Wellness</span><span class="t-sep">·</span>
+    <span class="t-item">Polyvagal Theory</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Global TRE™ Certifying Trainer</span><span class="t-sep">·</span>
+    <span class="t-item">Executive Coaching</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Breathwork</span><span class="t-sep">·</span>
+    <span class="t-item">Online &amp; In-Person</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Group Sessions</span><span class="t-sep">·</span>
+    <span class="t-item">Burnout Recovery</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Deep Rest &amp; Renewal</span><span class="t-sep">·</span>
+    <span class="t-item">Body Intelligence</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Somatic Intelligence</span><span class="t-sep">·</span>
+    <span class="t-item">Self-Regulation</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Dr. David Berceli Method</span><span class="t-sep">·</span><span class="t-item">Neurogenic Tremors</span><span class="t-sep">·</span><span class="t-item">Vagal Tone</span><span class="t-sep">·</span><span class="t-item">Psoas Release</span><span class="t-sep">·</span><span class="t-item">Europe · US · Asia · Worldwide</span><span class="t-sep">·</span><span class="t-item">Free Discovery Call</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Certified Reiki Level II</span><span class="t-sep">·</span><span class="t-item">Nervous System Literacy</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Somatic Wellness</span><span class="t-sep">·</span>
+    <span class="t-item">In-Person &amp; Online Worldwide</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Certified TRE™ Provider</span><span class="t-sep">·</span>
+    <span class="t-item">30 Years of Experience</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Coaching</span><span class="t-sep">·</span>
+    <span class="t-item">Mindfulness</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> 9 Countries · 40+ Nationalities</span><span class="t-sep">·</span>
+    <span class="t-item">Release · Renew · Restore</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Business &amp; Human Development</span><span class="t-sep">·</span>
+    <span class="t-item">Nervous System Reset</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Mindfulness</span><span class="t-sep">·</span>
+    <span class="t-item">Embodied Leadership</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Trauma &amp; Tension Release</span><span class="t-sep">·</span>
+    <span class="t-item">Mind · Body · Soul</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Corporate Wellness</span><span class="t-sep">·</span>
+    <span class="t-item">Polyvagal Theory</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Global TRE™ Certifying Trainer</span><span class="t-sep">·</span>
+    <span class="t-item">Executive Coaching</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Breathwork</span><span class="t-sep">·</span>
+    <span class="t-item">Online &amp; In-Person</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Group Sessions</span><span class="t-sep">·</span>
+    <span class="t-item">Burnout Recovery</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Deep Rest &amp; Renewal</span><span class="t-sep">·</span>
+    <span class="t-item">Body Intelligence</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Somatic Intelligence</span><span class="t-sep">·</span>
+    <span class="t-item">Self-Regulation</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Dr. David Berceli Method</span><span class="t-sep">·</span><span class="t-item">Neurogenic Tremors</span><span class="t-sep">·</span><span class="t-item">Vagal Tone</span><span class="t-sep">·</span><span class="t-item">Psoas Release</span><span class="t-sep">·</span><span class="t-item">Europe · US · Asia · Worldwide</span><span class="t-sep">·</span><span class="t-item">Free Discovery Call</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Certified Reiki Level II</span><span class="t-sep">·</span><span class="t-item">Nervous System Literacy</span><span class="t-sep">·</span>  </div>
+</div><section class="section-cream ab-sec ab-mission">
+  <div class="ab-wrap ab-grid">
+    <figure class="ab-frame ab-rv" data-ab-tilt="">
+      <span class="ab-frame-line" aria-hidden="true"/>
+      <div class="ab-frame-in">
+        <img src="/images/gallery/gallery-module2-sep2026-6.webp" alt="The Module 2 group with Isabelle, September 2026" loading="lazy" decoding="async" width="1600" height="1200"/>
+        <span class="ab-curtain" aria-hidden="true"/>
+        <span class="ab-glow" aria-hidden="true"/>
+      </div>
+    </figure>
+    <div class="ab-copy">
+      <span class="ab-eyebrow ab-rv">Why HummingBeing Exists</span>
+      <h2 class="ab-title ab-split">A Place to Come Back to Yourself</h2>
+      <span class="ab-rule" aria-hidden="true"/>
+      <p class="ab-rv">HummingBeing started with a personal realisation: that <span class="ab-mark">real transformation lives in the body</span> — not in another strategy or framework. It was born from Isabelle’s own healing journey — through and out of the kind of environments that quietly deplete us.</p>
+      <p class="ab-rv">Through trauma-informed, mindfulness and neuroscience backed practices, we help people release what they’ve been carrying — and find themselves back: <span class="ab-mark">empowered</span>, <span class="ab-mark">respected</span> and <span class="ab-mark">as healthy as possible</span>.</p>
+      <div class="ab-cta ab-rv">
+        <a href="/book" class="btn btn-primary">Come Back to Yourself</a>
+      </div>
+    </div>
+  </div>
+</section><section class="section-sage">
+  <div class="section-header-center">
+    <span class="section-eyebrow">Our Philosophy</span>
+    <h2 class="section-title">The Body Knows the Way</h2>
+    <div class="divider divider-center"/>
+    <p class="section-subtitle">Most personal development works from the neck up. We start in the body — where real change lives.</p>
+  </div>
+  <div class="philo-row">
+    <div class="philo-item">
+      <span class="philo-eyebrow">01</span>
+      <i class="fa-solid fa-brain philo-icon"/>
+      <h3>Neuroscience-Backed</h3>
+      <p>Rooted in polyvagal theory and somatic neuroscience. Change isn’t just possible — it’s built into your physiology.</p>
+    </div>
+    <div class="philo-item">
+      <span class="philo-eyebrow">02</span>
+      <i class="fa-solid fa-hands philo-icon"/>
+      <h3>Whole-Person Approach</h3>
+      <p>We address mind, body, emotions and spirit together. True resilience isn't compartmentalised — it emerges when all dimensions are engaged and integrated.</p>
+    </div>
+    <div class="philo-item">
+      <span class="philo-eyebrow">03</span>
+      <i class="fa-solid fa-earth-americas philo-icon"/>
+      <h3>Culturally Inclusive</h3>
+      <p>Having worked with 40+ nationalities across Asia, Europe, the Americas and Russia, we create safe, respectful spaces where every background and identity is honoured.</p>
+    </div>
+  </div>
+  <div class="philo-row philo-row-2">
+    <div class="philo-item">
+      <span class="philo-eyebrow">04</span>
+      <i class="fa-solid fa-microscope philo-icon"/>
+      <h3>Grounded in Research</h3>
+      <p>Every practice we offer — TRE™, Coaching and Mindfulness — has a solid evidence base. We let results speak for themselves.</p>
+    </div>
+    <div class="philo-item">
+      <span class="philo-eyebrow">05</span>
+      <i class="fa-solid fa-seedling philo-icon"/>
+      <h3>Change That Lasts</h3>
+      <p>Quick fixes aren't what we're here for. We invest time in you — because the practices you build here are yours to keep for the rest of your life.</p>
+    </div>
+    <div class="philo-item">
+      <span class="philo-eyebrow">06</span>
+      <i class="fa-solid fa-dove philo-icon"/>
+      <h3>Safe &amp; Compassionate</h3>
+      <p>You will never be asked to relive or narrate anything difficult here. The body finds its own way — gently, quietly, at exactly the pace that feels right for you.</p>
+    </div>
+  </div>
+  <p style="max-width:680px;margin:2.5rem auto 0;text-align:center;font-size:1rem;color:var(--text-mid);font-style:italic;line-height:1.85">These traditions — TRE™, somatic coaching, mindfulness, Reiki — ask the same thing of every practitioner: humility, service, and a commitment to one’s own ongoing inner work. This is what Isabelle brings to every session — not an image, but a practice she lives herself.</p>
+  <div style="margin-top:2rem;display:flex;justify-content:center">
+    <a href="/holistic-mastermind" class="btn btn-primary">Explore the Practices</a>
+  </div>
+</section><section class="section-cream hb-bird" aria-labelledby="hb-bird-h">
+  <div class="hb-bird-wrap">
+    <div class="hb-bird-top">
+      <div class="hb-bird-copy">
+        <span class="section-eyebrow">The Hummingbird Metaphor</span>
+        <h2 id="hb-bird-h">200 Beats Per Minute.<br/><em>Never Depleted.</em></h2>
+        <p class="hb-bird-lede">The hummingbird beats its wings up to 200 times per minute — yet is never burned out. It hovers with precision, navigates with grace, and lives with a vibrancy that seems impossible given the energy it expends.</p>
+        <a href="/book" class="btn btn-primary">Find Your Way Back</a>
+      </div>
+      <figure class="hb-bird-media">
+        <video class="hb-vid" muted="" loop="" playsinline="" preload="none" poster="/images/video/hummingbird.webp" aria-label="A hummingbird hovering among flowers" data-hb-vid=""><source src="/images/video/hummingbird.mp4" type="video/mp4"/></video>
+      </figure>
+    </div>
+    <div class="hb-bird-facts">
+      <article class="hb-bird-fact">
+        <h3><i class="fa-solid fa-heart-pulse" aria-hidden="true"/>Regulated</h3>
+        <p>This is possible because its entire system is optimally regulated. It doesn't carry the residue of yesterday. Each moment, it's fully present and fully resourced — and that's the natural state your nervous system is designed for, before years of chronic stress layer over it.</p>
+      </article>
+      <article class="hb-bird-fact">
+        <h3><i class="fa-solid fa-sun" aria-hidden="true"/>Symbolism</h3>
+        <ul class="hb-bird-traits" aria-label="What the hummingbird symbolises"><li>Joy</li><li>Resilience</li><li>Adaptability</li><li>Perseverance</li><li>Presence</li><li>Lightness of being</li></ul>
+        <p>This little bird also symbolises the ability to find beauty in the little things in life and to appreciate every moment. Remember to have fun and enjoy your surroundings and the moments that make you happy.</p>
+      </article>
+      <article class="hb-bird-fact">
+        <h3><i class="fa-solid fa-route" aria-hidden="true"/>On the Move</h3>
+        <p>The hummingbird’s positive energy is omnipresent; they are always on the move and never seem to tire. They can cover impressive distances during their migrations. This reminds us how important it is to take care of our physical and mental health, while having a positive attitude in our lives.</p>
+      </article>
+    </div>
+  </div>
+</section><section class="section-white ab-sec ab-bhd">
+  <div class="ab-wrap ab-grid ab-bhd-grid">
+    <figure class="ab-frame ab-rv" data-ab-tilt="">
+      <span class="ab-frame-line" aria-hidden="true"/>
+      <div class="ab-frame-in">
+        <img src="/images/about-bhd-family.webp" alt="Group somatic healing session — the BHD Asia community in practice" loading="lazy" decoding="async" width="800" height="600"/>
+        <span class="ab-curtain" aria-hidden="true"/>
+        <span class="ab-glow" aria-hidden="true"/>
+      </div>
+    </figure>
+    <div class="ab-copy">
+      <span class="ab-eyebrow ab-rv">Part of the BHD Family</span>
+      <h2 class="ab-title ab-split">Business &amp; Human Development</h2>
+      <span class="ab-rule" aria-hidden="true"/>
+      <p class="ab-rv">HummingBeing is part of <strong>Business and Human Development Consulting Pte Ltd</strong> — a boutique Leadership Coaching and Human Development consultancy established in Singapore in 2012.</p>
+      <p class="ab-rv">Our work extends BHD's mission into the body — offering somatic practices that complement leadership coaching and support anyone ready to access more of who they already are.</p>
+      
+      <div class="ab-rv">
+        <a href="https://www.bhdasia.com" target="_blank" class="btn btn-dark" rel="noopener noreferrer">Explore BHD Asia</a>
+      </div>
+    </div>
+  </div>
+</section><section class="tn-sec tn-warm tn-lead" id="start" aria-labelledby="tn-lead-h" data-funnel="book">
+  <div class="tn-wrap tn-lead-grid">
+    <div>
+      <span class="tn-eyebrow">Free discovery call</span>
+      <h2 class="tn-h2" id="tn-lead-h">Start with a free 30-minute call.</h2>
+      <p class="tn-lede">No agenda and no pressure. Tell Isabelle what you are carrying and she will suggest what fits, if anything does.</p>
+      <ol class="tn-next">
+        <li><span>1</span><div><b>Send your details</b>One minute, right here.</div></li>
+        <li><span>2</span><div><b>Pick a time</b>Choose a slot straight away, or we reply within one business day.</div></li>
+        <li><span>3</span><div><b>Talk with Isabelle</b>Online, wherever you are, or in person in Singapore.</div></li>
+      </ol>
+    </div>
+    <div class="tn-card tn-formcard">
+      <div class="tn-form-head"><h3>Book your free call</h3><p>Fields marked * are required.</p></div>
+      <form class="tn-form tn-lead-form" data-source="Free call form" action="#" method="post" novalidate="">
+        <input type="text" name="_honey" tabindex="-1" autocomplete="off" class="tn-hp" aria-hidden="true"/>
+        <div class="tn-fr">
+          <label class="tn-f"><span>Your name <i>*</i></span><input type="text" name="fullname" autocomplete="name" required=""/></label>
+          <label class="tn-f"><span>Email <i>*</i></span><input type="email" name="email" autocomplete="email" required=""/></label>
+        </div>
+        <div class="tn-fr">
+          <label class="tn-f"><span>Phone / WhatsApp <i>*</i></span><input type="tel" name="phone" autocomplete="tel" inputmode="tel" required="" placeholder="+65"/></label>
+          <label class="tn-f"><span>I'm interested in</span>
+            <select name="interest">
+              <option value="">Not sure yet</option>
+              <option>1:1 TRE™ sessions</option>
+              <option>Somatic coaching</option>
+              <option>Mindfulness programme</option>
+              <option>TRE™ certification</option>
+              <option>Retreat or team workshop</option>
+            </select></label>
+        </div>
+        <button type="submit" class="tn-btn">Request my free call <svg viewbox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <p class="tn-form-err" role="alert" hidden="">Please add your name, a valid email and a phone number.</p>
+      </form>
+      <div class="tn-form-ok" hidden="" role="status" tabindex="-1">
+        <svg class="tn-ok-ic" viewbox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M7.5 12.5l3 3 6-6.5"/></svg>
+        <h3>Thank you, your request is in.</h3>
+        <p>Pick a time for your call now, or wait for our reply within one business day.</p>
+        <a class="tn-btn" href="https://calendly.com/bhdasia/30min" target="_blank" rel="noopener" data-cta="thanks-calendly">Pick a time now</a>
+      </div>
+      <p class="tn-alt-contact">Prefer to message? <a href="https://wa.me/818065151778" target="_blank" rel="noopener">WhatsApp Isabelle</a></p>
+    </div>
+  </div>
+</section><footer>
+  <div class="foot-grid">
+    <div>
+      <a href="/" class="foot-logo"><img src="/images/logo-dark.webp" alt="HummingBeing — Coaching &amp; Somatics" width="144" height="48" style="height:48px;width:auto;display:block"/></a>
+      <p class="foot-desc">Science backed processes with TRE™, Coaching and Somatic Practices — a space to release, renew and restore.</p>
+      <p class="foot-desc">Part of <strong>Business and Human Development Consulting Pte Ltd</strong></p>
+      <div class="foot-socials">
+        <a href="https://www.instagram.com/isabelleclausteixeira_bhd/" target="_blank" class="soc" aria-label="Instagram" rel="noopener noreferrer"><i class="fa-brands fa-instagram"/></a>
+        <a href="https://www.linkedin.com/in/isabelleclausteixeira/" target="_blank" class="soc" aria-label="LinkedIn" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"/></a>
+        <a href="https://www.youtube.com/@IsabelleClausTeixeira" target="_blank" class="soc" aria-label="YouTube" rel="noopener noreferrer"><i class="fa-brands fa-youtube"/></a>
+        <a href="https://wa.me/818065151778" target="_blank" class="soc" aria-label="WhatsApp" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"/></a>
+      </div>
+    </div>
+    <div>
+      <div class="foot-h">Work with Isabelle</div>
+      <ul class="foot-links">
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™</a></li>
+        <li><a href="/tre-certification">TRE™ Certification</a></li>
+        <li><a href="/retreats-workshops">Retreats &amp; Workshops</a></li>
+        <li><a href="/events">Events</a></li>
+        <li><a href="/book">Book a free call</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="foot-h">HummingBeing</div>
+      <ul class="foot-links">
+        <li><a href="/about">About HummingBeing</a></li>
+        <li><a href="/isabelle">Meet Isabelle</a></li>
+        <li><a href="/gallery">Gallery</a></li>
+        <li><a href="/socials">Socials</a></li>
+        <li><a href="/tre-faq">TRE™ FAQ</a></li>
+        <li><a href="/is-tre-safe">Is TRE™ Safe?</a></li>
+        <li><a href="/tre-icf-cceu">TRE™ with ICF CCEs</a></li>
+        <li><a href="https://www.bhdasia.com" target="_blank" rel="noopener">BHD Asia</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="foot-h">Contact</div>
+      <ul class="foot-links">
+        <li><span>bonjour@bhd<span style="display:none">-no-spam</span>asia.com</span></li>
+        <li><a href="https://wa.me/818065151778" target="_blank" rel="noopener noreferrer">WhatsApp Us</a></li>
+        <li><span>Global</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <div class="foot-copy">© 2026 HummingBeing — Business and Human Development Consulting Pte Ltd</div>
+    <div class="foot-legal">
+      <span>Privacy Policy</span>
+      <span>Terms of Service</span>
+      <span class="foot-sep">·</span>
+      <a href="https://technext.asia" target="_blank" rel="noopener noreferrer">Powered by <span class="tn-brand">TechNext</span></a>
+    </div>
+  </div>
+</footer><a href="https://wa.me/818065151778" class="wa-float" target="_blank" aria-label="Chat on WhatsApp" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"/></a><button class="top-float" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top"><i class="fa-solid fa-chevron-up"/></button><script src="/scripts.js?v=20261109e" defer="defer"/><script>
+/* ==========================================================================
+   ABOUT (.ab-) - word-by-word titles, staggered scroll reveal, marker sweep,
+   count-up (200, already on the page), pointer tilt + glow + scroll parallax
+   on the photos, hummingbird tabs (click, arrow keys, swipe) that re-frame
+   the photo, and the BHD link line. Scoped to section.ab-sec.
+   ========================================================================== */
+(function () {
+  'use strict';
+  var secs = Array.prototype.slice.call(document.querySelectorAll('section.ab-sec'));
+  if (!secs.length) return;
+  var mqReduce = window.matchMedia('(prefers-reduced-motion: reduce)');
+  var mqFine = window.matchMedia('(hover: hover) and (pointer: fine)');
+  function still() { return mqReduce.matches; }
+  function $$(s, c) { return Array.prototype.slice.call((c || document).querySelectorAll(s)); }
+  secs.forEach(function (s) { s.classList.add('ab-js'); });
+
+  /* ---- Titles: wrap each word (text stays identical) --------------------- */
+  $$('.ab-split').forEach(function (h) {
+    var k = 0;
+    function tag(el) { el.classList.add('ab-w'); el.style.setProperty('--ab-d', (k++ * 70) + 'ms'); }
+    (function walk(el) {
+      Array.prototype.slice.call(el.childNodes).forEach(function (n) {
+        if (n.nodeType === 3) {
+          var frag = document.createDocumentFragment();
+          n.textContent.split(/(\s+)/).forEach(function (p) {
+            if (!p) return;
+            if (/^\s+$/.test(p)) { frag.appendChild(document.createTextNode(p)); return; }
+            var w = document.createElement('span'); w.textContent = p; tag(w); frag.appendChild(w);
+          });
+          n.parentNode.replaceChild(frag, n);
+        } else if (n.nodeType === 1 &amp;&amp; n.tagName !== 'BR') {
+          if (n.classList.contains('ab-num')) tag(n); else walk(n);
+        }
+      });
+    })(h);
+  });
+
+  /* ---- Marker sweeps: stagger within each paragraph ----------------------- */
+  $$('.ab-copy p').forEach(function (p) {
+    $$('.ab-mark', p).forEach(function (m, i) { m.style.setProperty('--ab-md', (400 + i * 260) + 'ms'); });
+  });
+  $$('.ab-trait').forEach(function (t, i) { t.style.setProperty('--ab-i', i); });
+
+  /* ---- Count-up ------------------------------------------------------------ */
+  function countUp(el) {
+    var end = parseInt(el.getAttribute('data-ab-to'), 10);
+    if (!end || still()) { el.textContent = end; return; }
+    var t0 = null, dur = 1600;
+    el.style.minWidth = el.getBoundingClientRect().width + 'px'; /* no reflow of the title while counting */
+    el.textContent = '0';
+    function step(ts) {
+      if (t0 === null) t0 = ts;
+      var p = Math.min(1, (ts - t0) / dur), e = p === 1 ? 1 : 1 - Math.pow(2, -10 * p);
+      el.textContent = Math.round(end * e);
+      if (p &lt; 1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  }
+
+  /* ---- Scroll reveal ------------------------------------------------------- */
+  function show(el) {
+    el.classList.add('ab-in');
+    $$('[data-ab-to]', el).forEach(countUp);
+  }
+  var targets = $$('.ab-rv, .ab-split, .ab-rule');
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.filter(function (e) { return e.isIntersecting; })
+        .sort(function (a, b) { return a.boundingClientRect.top - b.boundingClientRect.top || a.boundingClientRect.left - b.boundingClientRect.left; })
+        .forEach(function (e, i) {
+          var el = e.target;
+          if (el.classList.contains('ab-rv')) {
+            el.style.setProperty('--ab-d', Math.min(i, 6) * 90 + 'ms');
+            setTimeout(function () { el.style.removeProperty('--ab-d'); }, 2600);
+          }
+          show(el); io.unobserve(el);
+        });
+    }, { threshold: 0.15, rootMargin: '0px 0px -8% 0px' });
+    targets.forEach(function (el) { io.observe(el); });
+  } else targets.forEach(show);
+
+  /* ---- Photos: pointer tilt + glow, offset line drifts the other way ------- */
+  var frames = $$('[data-ab-tilt]');
+  frames.forEach(function (f) {
+    var inner = f.querySelector('.ab-frame-in');
+    f.addEventListener('pointermove', function (e) {
+      if (!mqFine.matches || still()) return;
+      var r = inner.getBoundingClientRect(), x = (e.clientX - r.left) / r.width, y = (e.clientY - r.top) / r.height;
+      f.style.setProperty('--ab-rx', ((.5 - y) * 6).toFixed(2) + 'deg');
+      f.style.setProperty('--ab-ry', ((x - .5) * 8).toFixed(2) + 'deg');
+      f.style.setProperty('--ab-gx', (x * 100).toFixed(1) + '%');
+      f.style.setProperty('--ab-gy', (y * 100).toFixed(1) + '%');
+      f.style.setProperty('--ab-lx', ((.5 - x) * 14).toFixed(1) + 'px');
+      f.style.setProperty('--ab-ly', ((.5 - y) * 14).toFixed(1) + 'px');
+    });
+    f.addEventListener('pointerleave', function () {
+      ['--ab-rx', '--ab-ry', '--ab-lx', '--ab-ly'].forEach(function (p) { f.style.removeProperty(p); });
+    });
+  });
+
+  /* ---- Photos: gentle scroll parallax -------------------------------------- */
+  var ticking = false;
+  function parallax() {
+    ticking = false;
+    if (still()) return;
+    var vh = window.innerHeight;
+    frames.forEach(function (f) {
+      var r = f.getBoundingClientRect();
+      if (r.bottom &lt; 0 || r.top &gt; vh) return;
+      var p = (r.top + r.height / 2 - vh / 2) / vh;
+      f.style.setProperty('--ab-py', (Math.max(-1, Math.min(1, p)) * -26).toFixed(1) + 'px');
+    });
+  }
+  window.addEventListener('scroll', function () { if (!ticking) { ticking = true; requestAnimationFrame(parallax); } }, { passive: true });
+  parallax();
+
+  /* ---- Hummingbird tabs ------------------------------------------------------ */
+  var box = document.querySelector('.ab-tabs');
+  if (box) {
+    var tabs = $$('.ab-tab', box);
+    var pans = tabs.map(function (t) { return document.getElementById(t.getAttribute('aria-controls')); });
+    var fig = document.querySelector('.ab-bird-fig');
+    var chip = fig &amp;&amp; fig.querySelector('.ab-chip');
+    var chipI = chip &amp;&amp; chip.querySelector('.ab-chip-i i');
+    var chipL = chip &amp;&amp; chip.querySelector('.ab-chip-l');
+    var chipN = chip &amp;&amp; chip.querySelector('.ab-chip-n');
+    var cur = 0;
+    box.hidden = false;
+    box.setAttribute('role', 'tablist');
+    tabs.forEach(function (t, i) {
+      t.setAttribute('role', 'tab');
+      pans[i].setAttribute('role', 'tabpanel');
+      pans[i].setAttribute('aria-labelledby', t.id);
+      pans[i].tabIndex = 0;
+      t.addEventListener('click', function () { select(i, false); });
+      t.addEventListener('keydown', function (e) {
+        var n = null;
+        if (e.key === 'ArrowRight' || e.key === 'ArrowDown') n = (i + 1) % tabs.length;
+        else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') n = (i - 1 + tabs.length) % tabs.length;
+        else if (e.key === 'Home') n = 0;
+        else if (e.key === 'End') n = tabs.length - 1;
+        if (n === null) return;
+        e.preventDefault(); select(n, true);
+      });
+    });
+    function select(i, focus) {
+      var changed = i !== cur; cur = i;
+      tabs.forEach(function (t, j) {
+        var on = j === i;
+        t.setAttribute('aria-selected', on ? 'true' : 'false');
+        t.tabIndex = on ? 0 : -1;
+        pans[j].classList.toggle('ab-cur', on);
+      });
+      if (focus) tabs[i].focus();
+      if (fig) fig.setAttribute('data-ab-v', String(i + 1));
+      if (chip) {
+        var icon = tabs[i].querySelector('i');
+        if (chipI &amp;&amp; icon) chipI.className = icon.className.replace(/\s*\bab-\S+/g, '');
+        if (chipL) chipL.textContent = tabs[i].querySelector('.ab-tab-l').textContent;
+        if (chipN) chipN.textContent = '0' + (i + 1) + ' / 0' + tabs.length;
+        if (changed &amp;&amp; !still() &amp;&amp; chip.animate) {
+          chip.animate([{ opacity: 0, transform: 'translate3d(0,8px,0)' }, { opacity: 1, transform: 'none' }],
+            { duration: 450, easing: 'cubic-bezier(.23,1,.32,1)' });
+        }
+      }
+    }
+    select(0, false);
+
+    /* swipe the text panel left/right on touch */
+    var panels = document.querySelector('.ab-panels'), sx = 0, sy = 0, down = false;
+    if (panels) {
+      panels.addEventListener('pointerdown', function (e) { if (e.pointerType === 'mouse') return; down = true; sx = e.clientX; sy = e.clientY; });
+      panels.addEventListener('pointerup', function (e) {
+        if (!down) return; down = false;
+        var dx = e.clientX - sx, dy = e.clientY - sy;
+        if (Math.abs(dx) &gt; 50 &amp;&amp; Math.abs(dx) &gt; Math.abs(dy) * 1.4) select((cur + (dx &lt; 0 ? 1 : -1) + tabs.length) % tabs.length, false);
+      });
+      panels.addEventListener('pointercancel', function () { down = false; });
+    }
+  }
+})();
+</script><script src="/gdpr-consent.js?v=4"/><script src="/hb-tn.js?v=39" defer="defer"/></t></t>

@@ -1,0 +1,1364 @@
+<t t-name="hbs.page_book"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en&quot;}"/><t t-set="title">Book a TRE™ or Coaching Session | Free Discovery Call</t><t t-set="head"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
+new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
+"https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,"script","dataLayer","GTM-TXLR5LGG");</script><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="description" content="Book a free 30-minute discovery call with Isabelle Claus Teixeira, or the 8-week coaching package (S$2,300). TRE&#x2122; and coaching in Singapore, Japan and online."/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/><link rel="stylesheet" href="/styles.css?v=98"/><link rel="preconnect" href="https://cdnjs.cloudflare.com"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png?v=3"/><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png?v=3"/><link rel="icon" href="/favicon.ico?v=3" sizes="any"/><link rel="apple-touch-icon" href="/apple-touch-icon.png?v=3"/><style>
+    /* -- TRUST BAR -------------------------------------------------------- */
+    .trust-bar {
+      display: flex; justify-content: center; flex-wrap: wrap; gap: 2.5rem;
+      padding: 2.5rem 5%;
+      background: var(--cream); text-align: center; border-top: 1px solid rgba(36,46,66,.08); border-bottom: 1px solid rgba(36,46,66,.08);
+    }
+    .trust-item {
+      display: flex; flex-direction: column; align-items: center; gap: .4rem;
+    }
+    .trust-item i { color: var(--gold); font-size: 1.3rem; }
+    .trust-item strong { color: var(--navy); font-size: .95rem; font-family: 'PT Serif', Georgia, serif; }
+    .trust-item span { color: var(--text-mid); font-size: .75rem; letter-spacing: 1px; text-transform: uppercase; }
+
+    /* -- CONTACT FORM SECTION --------------------------------------------- */
+    .book-layout {
+      display: grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap: 4rem;
+      align-items: flex-start;
+    }
+    .contact-form h2 {
+      font-family: 'PT Serif', Georgia, serif;
+      font-size: clamp(1.8rem, 3vw, 2.4rem);
+      color: var(--navy); margin-bottom: .4rem;
+    }
+    .contact-form &gt; p { color: var(--text-mid); margin-bottom: 2rem; }
+
+    /* -- ISABELLE CARD ---------------------------------------------------- */
+    .isa-card {
+      background: var(--white); border-radius: 3px; border: 1px solid rgba(36,46,66,.09); box-shadow: 0 4px 20px rgba(36,46,66,.08);
+      padding: 2.2rem; text-align: center; margin-bottom: 1.5rem;
+    }
+    .isa-avatar {
+      width: 90px; height: 90px; border-radius: 50%;
+      object-fit: cover; object-position: top;
+      border: 3px solid var(--gold); margin: 0 auto 1.1rem;
+      display: block;
+    }
+    .isa-avatar-placeholder {
+      width: 90px; height: 90px; border-radius: 50%;
+      background: linear-gradient(135deg, #0c1018 0%, #1c2234 100%);
+      border: 3px solid var(--gold); margin: 0 auto 1.1rem;
+      display: flex; align-items: center; justify-content: center;
+      color: rgba(255,255,255,.2); font-size: 2.2rem;
+    }
+    .isa-card h3 {
+      font-family: 'PT Serif', Georgia, serif;
+      color: var(--navy); font-size: 1.15rem; margin-bottom: .2rem;
+    }
+    .isa-card .isa-title { color: var(--gold); font-size: .72rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; }
+    .isa-card blockquote {
+      font-family: 'PT Serif', Georgia, serif;
+      font-style: italic; font-size: .97rem;
+      color: var(--text-mid); line-height: 1.65;
+      margin: 1.2rem 0 0; padding: 0;
+      border: none;
+    }
+
+    /* -- FAQ ACCORDION ---------------------------------------------------- */
+    .faq-item {
+      border-bottom: 1px solid var(--border);
+      overflow: hidden;
+    }
+    .faq-item:first-child { border-top: 1px solid var(--border); }
+    .faq-q {
+      width: 100%; background: none; border: none; cursor: pointer;
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 1.3rem 0; text-align: left;
+      font-family: 'PT Serif', Georgia, serif;
+      font-size: 1.06rem; color: var(--navy); font-weight: 700;
+      transition: color .2s;
+    }
+    .faq-q:hover { color: var(--gold-dark); }
+    .faq-q i { font-size: .75rem; color: var(--gold); flex-shrink: 0; margin-left: 1rem; transition: transform .3s; }
+    .faq-item.open .faq-q i { transform: rotate(180deg); }
+    .faq-a {
+      max-height: 0; overflow: hidden;
+      transition: max-height .4s ease, padding .3s ease;
+      padding-bottom: 0;
+    }
+    .faq-item.open .faq-a { max-height: 300px; padding-bottom: 1.4rem; }
+    .faq-a p { color: var(--body-text); font-size: .97rem; line-height: 1.75; margin: 0; }
+
+    @media (max-width: 900px) {
+      .book-layout { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 600px) {
+      .trust-bar { gap: 1.5rem; }
+    }
+  </style><style>
+    /* ==========================================================================
+       BOOK A SESSION (.bk-) - page-scoped redesign of the sections below the hero.
+       Every selector is prefixed. Buttons (.btn) are NOT restyled here.
+       ========================================================================== */
+    .bk-trust, .bk-sec { font-variant-numeric: lining-nums; }
+    .bk-trust, .bk-sec {
+      --bk-navy: #242e42; --bk-deep: #1a2030; --bk-mid: #3a4a66;
+      --bk-gold: #F5A623; --bk-gold-d: #c98000; --bk-cream: #fafaf8; --bk-text: #3d4250;
+      --bk-bad: #c0392b;
+      --bk-ease: cubic-bezier(.23, 1, .32, 1);
+      --bk-pad: clamp(16px, 5vw, 64px);
+      --bk-max: 1200px;
+      --bk-r: 14px;
+    }
+    section.bk-sec {
+      padding: clamp(3.5rem, 7vw, 6rem) var(--bk-pad) clamp(4rem, 8vw, 6.5rem);
+      position: relative; overflow: clip; color: var(--bk-text);
+    }
+    .bk-wrap { max-width: var(--bk-max); margin: 0 auto; }
+    .bk-trust :focus-visible, .bk-sec :focus-visible { outline: 3px solid var(--bk-gold); outline-offset: 3px; }
+    .bk-sec [hidden] { display: none !important; }
+
+    /* -- shared type ---------------------------------------------------------- */
+    .bk-eyebrow {
+      display: inline-flex; align-items: center; gap: .75rem; margin-bottom: 1rem;
+      font-family: 'Lato', sans-serif; font-size: .72rem; font-weight: 700;
+      letter-spacing: 3px; text-transform: uppercase; color: var(--bk-mid);
+    }
+    .bk-eyebrow::before { content: ""; width: 28px; height: 2px; background: var(--bk-gold); }
+    .bk-h2 {
+      font-family: 'Playfair Display', Georgia, serif; font-weight: 700;
+      color: var(--bk-navy); font-size: clamp(2rem, 4.2vw, 3rem);
+      line-height: 1.1; letter-spacing: -.01em; margin: 0 0 1rem;
+    }
+    .bk-lede { font-family: 'Lato', sans-serif; font-size: 1.02rem; line-height: 1.75; color: var(--bk-text); max-width: 38rem; margin: 0; }
+    .bk-head { margin-bottom: clamp(2rem, 4vw, 3rem); }
+    .bk-head-c { text-align: center; }
+    .bk-head-c .bk-lede { margin: 0 auto; }
+    .bk-head-c .bk-eyebrow::after { content: ""; width: 28px; height: 2px; background: var(--bk-gold); }
+
+    /* -- trust strip ---------------------------------------------------------- */
+    .bk-trust {
+      background: var(--bk-cream); padding: clamp(1.6rem, 3.2vw, 2.4rem) var(--bk-pad);
+      border-top: 1px solid rgba(36, 46, 66, .08); border-bottom: 1px solid rgba(36, 46, 66, .08);
+    }
+    .bk-trust-row { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .75rem 1.25rem; }
+    .bk-trust-i {
+      display: flex; align-items: flex-start; gap: .9rem; padding: .9rem 1rem; border-radius: 12px;
+      transition: background-color .4s var(--bk-ease), box-shadow .5s var(--bk-ease), transform .5s var(--bk-ease);
+    }
+    .bk-trust-ic {
+      flex: 0 0 44px; width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center;
+      background: rgba(245, 166, 35, .14); color: var(--bk-gold-d); font-size: 1.05rem;
+      transition: transform .6s var(--bk-ease), background-color .4s var(--bk-ease), color .4s;
+    }
+    .bk-trust-tx { min-width: 0; }
+    .bk-trust-tx strong { display: block; font-family: 'Playfair Display', Georgia, serif; font-weight: 700; font-size: 1rem; line-height: 1.3; color: var(--bk-navy); }
+    .bk-trust-tx span { display: block; margin-top: .3rem; font-size: .7rem; font-weight: 700; letter-spacing: 1.2px; line-height: 1.5; text-transform: uppercase; color: #5f6472; }
+    @media (hover: hover) and (pointer: fine) {
+      .bk-trust-i:hover { background: #fff; box-shadow: 0 14px 34px -18px rgba(26, 32, 48, .35); transform: translateY(-3px); }
+      .bk-trust-i:hover .bk-trust-ic { background: var(--bk-gold); color: var(--bk-deep); transform: rotate(-8deg) scale(1.08); }
+    }
+
+    /* -- pricing -------------------------------------------------------------- */
+    .bk-plans { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(1rem, 2vw, 1.5rem); align-items: stretch; padding-top: 14px; }
+    .bk-plan-cell { min-width: 0; display: flex; }
+    .bk-plan {
+      position: relative; isolation: isolate; overflow: hidden; flex: 1; min-width: 0;
+      display: flex; flex-direction: column; cursor: pointer;
+      padding: clamp(1.6rem, 2.6vw, 2.25rem);
+      background: #fff; color: var(--bk-text);
+      border: 1px solid rgba(36, 46, 66, .11); border-radius: var(--bk-r);
+      box-shadow: 0 1px 2px rgba(26, 32, 48, .05);
+      transform: translateY(var(--lift, 0px)) perspective(1000px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg));
+      transition: transform .6s var(--bk-ease), box-shadow .5s var(--bk-ease), border-color .4s var(--bk-ease);
+    }
+    .bk-plan::before {
+      content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none;
+      background: radial-gradient(380px circle at var(--mx, 50%) var(--my, 0%), rgba(245, 166, 35, .13), transparent 60%);
+      opacity: 0; transition: opacity .45s var(--bk-ease);
+    }
+    .bk-plan::after {
+      content: ""; position: absolute; left: 0; right: 0; top: 0; height: 3px; background: var(--bk-gold);
+      transform: scaleX(0); transform-origin: left; transition: transform .6s var(--bk-ease);
+    }
+    .bk-plan-feat {
+      --lift: -14px;
+      background: linear-gradient(160deg, #3a4a66 0%, #242e42 48%, #1a2030 100%);
+      color: rgba(255, 255, 255, .88); border-color: transparent;
+      box-shadow: 0 30px 70px -30px rgba(26, 32, 48, .6);
+    }
+    .bk-plan-feat::before { background: radial-gradient(380px circle at var(--mx, 50%) var(--my, 0%), rgba(245, 166, 35, .22), transparent 60%); opacity: .55; }
+    .bk-plan-feat::after { transform: scaleX(1); }
+    .bk-plan-head { display: flex; align-items: center; gap: .85rem; min-height: 3.4rem; margin-bottom: 1.1rem; padding-right: 2.2rem; }
+    .bk-plan-ic {
+      flex: 0 0 46px; width: 46px; height: 46px; border-radius: 12px; display: grid; place-items: center;
+      background: rgba(245, 166, 35, .13); color: var(--bk-gold-d); font-size: 1.15rem;
+      transition: transform .6s var(--bk-ease);
+    }
+    .bk-plan-feat .bk-plan-ic { background: rgba(245, 166, 35, .18); color: var(--bk-gold); }
+    .bk-plan-name { font-family: 'Playfair Display', Georgia, serif; font-weight: 700; font-size: clamp(1.15rem, 1.7vw, 1.35rem); line-height: 1.2; color: var(--bk-navy); margin: 0; }
+    .bk-plan-feat .bk-plan-name { color: #fff; }
+    .bk-plan-price {
+      font-family: 'Playfair Display', Georgia, serif; font-weight: 700; font-size: clamp(2.3rem, 4vw, 3rem);
+      line-height: 1; color: var(--bk-navy); margin: 0 0 .9rem; font-variant-numeric: lining-nums tabular-nums; letter-spacing: -.01em;
+    }
+    .bk-plan-feat .bk-plan-price { color: var(--bk-gold); }
+    .bk-plan-tag { font-size: .93rem; line-height: 1.65; margin: 0 0 1.25rem; color: #5f6472; }
+    .bk-plan-feat .bk-plan-tag { color: rgba(255, 255, 255, .84); }
+    .bk-plan-list { list-style: none; margin: 0 0 1.6rem; padding: 0; flex: 1; }
+    .bk-plan-list li {
+      position: relative; padding: .55rem 0 .55rem 1.85rem; font-size: .92rem; line-height: 1.5;
+      border-bottom: 1px solid rgba(36, 46, 66, .08); color: var(--bk-text);
+      transition: opacity .5s var(--bk-ease), transform .6s var(--bk-ease);
+    }
+    .bk-plan-list li:last-child { border-bottom: 0; }
+    .bk-plan-list li::before {
+      content: ""; position: absolute; left: 0; top: .72rem; width: 18px; height: 18px; border-radius: 50%;
+      background: rgba(245, 166, 35, .16) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M6 12.5l4 4 8-9' fill='none' stroke='%23c98000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / 11px no-repeat;
+    }
+    .bk-plan-feat .bk-plan-list li { color: rgba(255, 255, 255, .9); border-bottom-color: rgba(255, 255, 255, .1); }
+    .bk-plan-feat .bk-plan-list li::before { background-color: rgba(245, 166, 35, .22); background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M6 12.5l4 4 8-9' fill='none' stroke='%23F5A623' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E"); }
+    .bk-plan .bk-plan-cta { width: 100%; text-align: center; margin-top: auto; }
+    .bk-plan-pick {
+      position: absolute; top: 1.1rem; right: 1.1rem; width: 30px; height: 30px; border-radius: 50%;
+      display: grid; place-items: center; font-size: .8rem;
+      background: var(--bk-gold); color: var(--bk-deep);
+      opacity: 0; transform: scale(.4) rotate(-40deg);
+      transition: opacity .35s var(--bk-ease), transform .55s var(--bk-ease);
+    }
+    .bk-plan.bk-picked { border-color: var(--bk-gold); box-shadow: 0 0 0 2px var(--bk-gold), 0 26px 60px -28px rgba(245, 166, 35, .6); }
+    .bk-plan.bk-picked::after { transform: scaleX(1); }
+    .bk-plan.bk-picked .bk-plan-pick { opacity: 1; transform: none; }
+    @media (hover: hover) and (pointer: fine) {
+      .bk-plan:hover { box-shadow: 0 30px 60px -30px rgba(26, 32, 48, .4); --lift: -6px; }
+      .bk-plan-feat:hover { --lift: -18px; box-shadow: 0 40px 80px -30px rgba(26, 32, 48, .7); }
+      .bk-plan:hover::before { opacity: 1; }
+      .bk-plan:hover::after { transform: scaleX(1); }
+      .bk-plan:hover .bk-plan-ic { transform: rotate(-8deg) scale(1.08); }
+      .bk-plan.bk-tilting { transition: transform .14s linear, box-shadow .5s var(--bk-ease), border-color .4s; }
+    }
+    /* mobile plan switcher (price pills + swipe track) */
+    .bk-switch { display: none; }
+
+    /* -- contact: layout ------------------------------------------------------ */
+    .bk-book { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr); gap: clamp(2rem, 4.5vw, 4.5rem); align-items: start; }
+    .bk-formcol, .bk-side { min-width: 0; }
+    .bk-panel {
+      background: #fff; border: 1px solid rgba(36, 46, 66, .07); border-radius: 18px;
+      padding: clamp(1.15rem, 3.4vw, 2.5rem);
+      box-shadow: 0 34px 80px -46px rgba(26, 32, 48, .45), 0 1px 2px rgba(26, 32, 48, .05);
+      scroll-margin-top: 96px;
+    }
+
+    /* progress + chosen path (injected by JS) */
+    .bk-prog { margin-bottom: 1.4rem; }
+    .bk-prog-top { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; margin-bottom: .55rem; font-size: .8rem; color: #5f6472; }
+    .bk-prog-top b { color: var(--bk-navy); font-variant-numeric: tabular-nums; }
+    .bk-prog-pct { font-weight: 700; color: var(--bk-navy); font-variant-numeric: tabular-nums; }
+    .bk-prog-bar { position: relative; height: 6px; border-radius: 99px; background: rgba(36, 46, 66, .08); overflow: hidden; }
+    .bk-prog-bar i { position: absolute; inset: 0; border-radius: 99px; background: linear-gradient(90deg, var(--bk-gold), var(--bk-gold-d)); transform-origin: left; transform: scaleX(var(--p, 0)); transition: transform .7s var(--bk-ease); }
+    .bk-prog.bk-full .bk-prog-pct { color: var(--bk-gold-d); }
+    .bk-chosen {
+      display: flex; align-items: center; gap: .85rem; margin-bottom: 1.4rem; padding: .8rem .9rem;
+      border-radius: 12px; background: rgba(245, 166, 35, .1); border: 1px solid rgba(245, 166, 35, .45);
+      animation: bk-slide .6s var(--bk-ease) both;
+    }
+    .bk-chosen:focus { outline: none; }
+    .bk-chosen:focus-visible { outline: 3px solid var(--bk-gold); outline-offset: 3px; }
+    .bk-chosen-ic { flex: 0 0 40px; width: 40px; height: 40px; border-radius: 10px; display: grid; place-items: center; background: var(--bk-gold); color: var(--bk-deep); }
+    .bk-chosen-tx { flex: 1; min-width: 0; line-height: 1.35; }
+    .bk-chosen-k { display: block; font-size: .64rem; font-weight: 700; letter-spacing: 1.6px; text-transform: uppercase; color: var(--bk-mid); }
+    .bk-chosen-tx strong { font-family: 'Playfair Display', Georgia, serif; font-size: 1.02rem; color: var(--bk-navy); }
+    .bk-chosen-p { color: var(--bk-mid); font-weight: 700; font-size: .88rem; white-space: nowrap; }
+    .bk-chosen-tip { display: block; font-size: .78rem; color: #5f6472; margin-top: .15rem; }
+    .bk-chosen-x {
+      flex: 0 0 auto; min-height: 44px; padding: 0 .6rem; border: 0; background: none; cursor: pointer;
+      font: 700 .68rem 'Lato', sans-serif; letter-spacing: 1.3px; text-transform: uppercase; color: var(--bk-navy);
+      text-decoration: underline; text-decoration-color: rgba(245, 166, 35, .8); text-underline-offset: 4px;
+    }
+    .bk-panel.bk-sent .bk-prog, .bk-panel.bk-sent .bk-chosen { display: none; }
+
+    /* -- contact: form -------------------------------------------------------- */
+    .bk-grp { border: 0; margin: 0 0 .6rem; padding: 0; min-width: 0; }
+    .bk-grp-h {
+      float: left; width: 100%; padding: 0; margin: 0 0 1rem;
+      display: flex; align-items: center; gap: .7rem;
+      font-family: 'Playfair Display', Georgia, serif; font-weight: 700; font-size: 1.12rem; color: var(--bk-navy);
+    }
+    .bk-grp-h + * { clear: both; }
+    .bk-grp-n {
+      position: relative; flex: 0 0 34px; width: 34px; height: 34px; border-radius: 50%;
+      display: grid; place-items: center; border: 1.5px solid rgba(245, 166, 35, .6);
+      font: 700 .7rem 'Lato', sans-serif; letter-spacing: .5px; color: var(--bk-navy);
+      transition: background-color .4s var(--bk-ease), border-color .4s;
+    }
+    .bk-grp-n &gt; * { grid-area: 1 / 1; transition: opacity .35s var(--bk-ease), transform .5s var(--bk-ease); }
+    .bk-grp-n i { opacity: 0; transform: scale(.3) rotate(-45deg); font-size: .78rem; }
+    .bk-grp.bk-done .bk-grp-n { background: var(--bk-gold); border-color: var(--bk-gold); }
+    .bk-grp.bk-done .bk-grp-n span { opacity: 0; transform: scale(.3); }
+    .bk-grp.bk-done .bk-grp-n i { opacity: 1; transform: none; }
+    .bk-form .form-row { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 1rem; }
+    .bk-form .form-group { position: relative; margin-bottom: 1rem; min-width: 0; }
+    .bk-form .bk-fld::before {
+      content: ""; position: absolute; left: 0; top: 12px; height: calc(3.7rem - 24px); width: 3px; border-radius: 0 3px 3px 0; z-index: 2;
+      background: var(--bk-gold); transform: scaleY(0); transition: transform .45s var(--bk-ease); pointer-events: none;
+    }
+    .bk-form .bk-fld:has(textarea)::before { height: calc(100% - 24px - 1.5rem); }
+    .bk-form .bk-fld:focus-within::before { transform: scaleY(1); }
+    .bk-form .bk-fld label {
+      position: absolute; left: 1rem; right: 2.6rem; top: .72rem; z-index: 1; margin: 0; pointer-events: none;
+      font-size: .64rem; font-weight: 700; letter-spacing: 1.3px; line-height: 1.2; text-transform: uppercase;
+      color: var(--bk-mid); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+      transition: color .3s, transform .45s var(--bk-ease);
+    }
+    .bk-form .bk-fld:focus-within label { color: var(--bk-navy); transform: translateX(3px); }
+    .bk-form .bk-fld input, .bk-form .bk-fld select, .bk-form .bk-fld textarea {
+      display: block; width: 100%; min-height: 3.7rem; margin: 0;
+      padding: 1.72rem 2.4rem .62rem 1rem;
+      font: 400 .97rem/1.4 'Lato', sans-serif; color: var(--bk-navy);
+      background-color: var(--bk-cream); border: 1.5px solid rgba(36, 46, 66, .14); border-radius: 10px;
+      transition: border-color .3s, background-color .3s, box-shadow .4s var(--bk-ease);
+    }
+    .bk-form .bk-fld textarea { min-height: 150px; padding-right: 1rem; resize: vertical; }
+    .bk-form .bk-fld input::placeholder, .bk-form .bk-fld textarea::placeholder { color: #7a7f8c; opacity: 1; }
+    .bk-form .bk-fld select {
+      -webkit-appearance: none; appearance: none; cursor: pointer; padding-right: 3.6rem;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M6 9l6 6 6-6' fill='none' stroke='%233a4a66' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+      background-repeat: no-repeat; background-position: right 1rem center; background-size: 16px;
+    }
+    .bk-form .bk-fld input:hover, .bk-form .bk-fld select:hover, .bk-form .bk-fld textarea:hover { border-color: rgba(36, 46, 66, .28); }
+    .bk-form .bk-fld input:focus, .bk-form .bk-fld select:focus, .bk-form .bk-fld textarea:focus {
+      outline: none; border-color: var(--bk-gold); background-color: #fff; box-shadow: 0 0 0 4px rgba(245, 166, 35, .2);
+    }
+    .bk-st {
+      position: absolute; right: .95rem; top: calc(3.7rem / 2); margin-top: -10px; width: 20px; height: 20px; border-radius: 50%;
+      display: grid; place-items: center; font-size: .62rem; pointer-events: none; z-index: 1;
+      opacity: 0; transform: scale(.4); transition: opacity .3s var(--bk-ease), transform .5s var(--bk-ease);
+    }
+    .bk-sel .bk-st { right: 2.6rem; }
+    .bk-fld:has(textarea) .bk-st { top: .95rem; margin-top: 0; }
+    .bk-ok .bk-st { opacity: 1; transform: none; background: var(--bk-gold); color: var(--bk-deep); }
+    .bk-bad .bk-st { opacity: 1; transform: none; background: var(--bk-bad); color: #fff; }
+    .bk-form .bk-bad input, .bk-form .bk-bad select, .bk-form .bk-bad textarea { border-color: var(--bk-bad); }
+    .bk-err { display: block; min-height: 0; margin-top: .35rem; font-size: .8rem; line-height: 1.4; color: var(--bk-bad); }
+    .bk-err:empty { display: none; }
+    .bk-bad .bk-err { animation: bk-nudge .45s var(--bk-ease); }
+
+    /* service pills (JS) */
+    .bk-svc.bk-pilled label { position: static; display: block; margin: 0 0 .65rem; font-size: .7rem; white-space: normal; transform: none; }
+    .bk-svc.bk-pilled::before { display: none; }
+    .bk-svc.bk-pilled select { position: absolute; left: 0; bottom: 0; width: 100%; height: 1px; min-height: 0; padding: 0; border: 0; opacity: 0; pointer-events: none; }
+    .bk-svc.bk-pilled .bk-st { display: none; }
+    .bk-pills { display: flex; flex-wrap: wrap; gap: .5rem; }
+    .bk-pill {
+      position: relative; display: inline-flex; align-items: center; gap: .55rem; min-height: 44px; max-width: 100%;
+      padding: .55rem 1rem; margin: 0; cursor: pointer; text-align: left;
+      font: 700 .84rem/1.3 'Lato', sans-serif; color: var(--bk-navy);
+      background: var(--bk-cream); border: 1.5px solid rgba(36, 46, 66, .14); border-radius: 999px;
+      transition: background-color .3s, border-color .3s, color .3s, transform .45s var(--bk-ease), box-shadow .45s var(--bk-ease);
+    }
+    .bk-pill i { color: var(--bk-gold-d); font-size: .9rem; transition: color .3s, transform .5s var(--bk-ease); }
+    .bk-pill:active { transform: scale(.97); }
+    .bk-pill[aria-pressed="true"] { background: var(--bk-navy); border-color: var(--bk-navy); color: #fff; box-shadow: 0 12px 26px -14px rgba(26, 32, 48, .7); }
+    .bk-pill[aria-pressed="true"] i { color: var(--bk-gold); transform: scale(1.12); }
+    .bk-bad .bk-pill { border-color: rgba(192, 57, 43, .55); }
+    @media (hover: hover) and (pointer: fine) {
+      .bk-pill:hover { border-color: var(--bk-gold); transform: translateY(-2px); }
+      .bk-pill:hover i { transform: rotate(-10deg) scale(1.12); }
+    }
+
+    /* success message entrance (display toggled by the existing handler) */
+    .bk-success { animation: bk-pop .8s var(--bk-ease) both; }
+    .bk-success i { animation: bk-pop-ic .9s var(--bk-ease) .15s both; }
+
+    /* -- contact: sidebar ----------------------------------------------------- */
+    .bk-side { display: grid; gap: 1.25rem; }
+    .bk-isa {
+      position: relative; text-align: center; padding: 2.1rem 1.8rem 1.9rem; border-radius: var(--bk-r);
+      background: #fff; border: 1px solid rgba(36, 46, 66, .08); box-shadow: 0 20px 50px -34px rgba(26, 32, 48, .4);
+    }
+    .bk-isa-ph { position: relative; width: 104px; height: 104px; margin: 0 auto 1.1rem; display: grid; place-items: center; }
+    .bk-isa-ph::before {
+      content: ""; position: absolute; inset: 0; border-radius: 50%; border: 1.5px dashed rgba(245, 166, 35, .8);
+      animation: bk-spin 18s linear infinite;
+    }
+    .bk-isa-img { width: 88px; height: 88px; border-radius: 50%; object-fit: cover; object-position: top; border: 3px solid var(--bk-gold); display: block; transition: transform .7s var(--bk-ease); }
+    .bk-isa h3 { font-family: 'Playfair Display', Georgia, serif; font-weight: 700; font-size: 1.2rem; color: var(--bk-navy); margin: 0 0 .25rem; }
+    .bk-isa-t { font-size: .68rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--bk-mid); }
+    .bk-isa blockquote {
+      position: relative; margin: 1.2rem 0 0; padding: 1.1rem 0 0; border: 0;
+      font-family: 'Playfair Display', Georgia, serif; font-style: italic; font-size: 1rem; line-height: 1.65; color: var(--bk-text);
+    }
+    .bk-isa blockquote::before { content: ""; position: absolute; top: 0; left: 50%; width: 36px; height: 2px; margin-left: -18px; background: var(--bk-gold); }
+    @media (hover: hover) and (pointer: fine) { .bk-isa:hover .bk-isa-img { transform: scale(1.06); } }
+
+    .bk-wa {
+      position: relative; overflow: hidden; isolation: isolate; padding: 1.8rem; border-radius: var(--bk-r);
+      background: linear-gradient(150deg, #3a4a66 0%, #242e42 50%, #1a2030 100%); color: rgba(255, 255, 255, .86);
+    }
+    .bk-wa::before {
+      content: ""; position: absolute; right: -30%; top: -45%; width: 80%; aspect-ratio: 1; border-radius: 50%; z-index: -1;
+      background: radial-gradient(circle, rgba(245, 166, 35, .26), transparent 65%); transition: transform .9s var(--bk-ease);
+    }
+    .bk-wa-ic {
+      position: relative; width: 48px; height: 48px; border-radius: 50%; display: grid; place-items: center; margin-bottom: 1rem;
+      background: var(--bk-gold); color: var(--bk-deep); font-size: 1.4rem;
+    }
+    .bk-wa-ic::after { content: ""; position: absolute; inset: 0; border-radius: 50%; animation: bk-pulse 2.6s ease-out infinite; }
+    .bk-wa h3 { font-family: 'Playfair Display', Georgia, serif; font-weight: 700; font-size: 1.25rem; color: #fff; margin: 0 0 .4rem; }
+    .bk-wa p { font-size: .93rem; line-height: 1.65; margin: 0 0 1.2rem; color: rgba(255, 255, 255, .86); }
+    @media (hover: hover) and (pointer: fine) { .bk-wa:hover::before { transform: scale(1.3) translate(-10%, 10%); } }
+
+    .bk-info { padding: 1.4rem 1.5rem 1.2rem; border-radius: var(--bk-r); background: #fff; border: 1px solid rgba(36, 46, 66, .08); }
+    .bk-tabs { position: relative; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); padding: 4px; margin-bottom: 1rem; border-radius: 999px; background: #f0f4f8; }
+    .bk-tabbtn {
+      position: relative; z-index: 1; display: inline-flex; align-items: center; justify-content: center; gap: .45rem;
+      min-height: 44px; padding: 0 .6rem; margin: 0; border: 0; border-radius: 999px; background: none; cursor: pointer;
+      font: 700 .68rem/1.2 'Lato', sans-serif; letter-spacing: 1.1px; text-transform: uppercase; color: var(--bk-mid);
+      transition: color .35s var(--bk-ease);
+    }
+    .bk-tabbtn i { color: var(--bk-gold-d); transition: color .35s; }
+    .bk-tabbtn[aria-selected="true"] { color: var(--bk-deep); }
+    .bk-tabbtn[aria-selected="true"] i { color: var(--bk-deep); }
+    .bk-tabbtn:focus-visible { outline-offset: -3px; }
+    .bk-tabind {
+      position: absolute; top: 4px; bottom: 4px; left: 4px; width: calc(50% - 4px); border-radius: 999px; background: var(--bk-gold);
+      box-shadow: 0 6px 16px rgba(245, 166, 35, .35); transform: translateX(calc(var(--i, 0) * 100%)); transition: transform .5s var(--bk-ease);
+    }
+    .bk-pane + .bk-pane { margin-top: 1.4rem; }
+    .bk-tabbed .bk-pane + .bk-pane { margin-top: 0; }
+    .bk-tabbed .bk-pane { animation: bk-fade .5s var(--bk-ease) both; }
+    .bk-pane-h { display: flex; align-items: center; gap: .6rem; font-family: 'Playfair Display', Georgia, serif; font-weight: 700; font-size: 1.12rem; color: var(--bk-navy); margin: 0 0 .6rem; }
+    .bk-pane-h i { color: var(--bk-gold-d); font-size: .95rem; }
+    .bk-tabbed .bk-pane-h { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+    .bk-locs, .bk-lens { list-style: none; margin: 0; padding: 0; }
+    .bk-loc { display: flex; align-items: center; gap: .85rem; padding: .7rem .4rem; border-radius: 10px; font-size: .93rem; line-height: 1.45; transition: background-color .35s; }
+    .bk-loc + .bk-loc { border-top: 1px solid rgba(36, 46, 66, .08); }
+    .bk-loc strong { color: var(--bk-navy); }
+    .bk-loc-pin { flex: 0 0 36px; width: 36px; height: 36px; border-radius: 50%; display: grid; place-items: center; background: rgba(245, 166, 35, .13); color: var(--bk-gold-d); font-size: .9rem; transition: transform .55s var(--bk-ease); }
+    .bk-len { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: baseline; gap: .15rem 1rem; padding: .7rem .4rem; border-radius: 10px; transition: background-color .35s; }
+    .bk-len + .bk-len { border-top: 1px solid rgba(36, 46, 66, .08); }
+    .bk-len-k { font-weight: 700; color: var(--bk-navy); font-size: .93rem; }
+    .bk-len-v { font-size: .86rem; color: var(--bk-text); text-align: right; font-variant-numeric: tabular-nums; }
+    .bk-len-pkg .bk-len-v { font-family: 'Playfair Display', Georgia, serif; font-weight: 700; font-size: 1rem; color: var(--bk-navy); }
+    .bk-len-bar { grid-column: 1 / -1; position: relative; height: 6px; margin-top: .45rem; border-radius: 99px; background: rgba(36, 46, 66, .07); overflow: hidden; }
+    .bk-len-bar b, .bk-len-bar i { position: absolute; inset: 0; border-radius: 99px; transform-origin: left; transition: transform 1s var(--bk-ease); }
+    .bk-len-bar b { background: rgba(245, 166, 35, .38); transform: scaleX(var(--b)); }
+    .bk-len-bar i { background: var(--bk-gold); transform: scaleX(var(--a)); }
+    .bk-len:nth-child(2) .bk-len-bar b, .bk-len:nth-child(2) .bk-len-bar i { transition-delay: 80ms; }
+    .bk-len:nth-child(3) .bk-len-bar b, .bk-len:nth-child(3) .bk-len-bar i { transition-delay: 160ms; }
+    .bk-len:nth-child(5) .bk-len-bar b, .bk-len:nth-child(5) .bk-len-bar i { transition-delay: 240ms; }
+    .bk-js .bk-pane:not(.bk-grow) .bk-len-bar b, .bk-js .bk-pane:not(.bk-grow) .bk-len-bar i { transform: scaleX(0); transition: none; }
+    @media (hover: hover) and (pointer: fine) {
+      .bk-loc:hover, .bk-len:hover { background: var(--bk-cream); }
+      .bk-loc:hover .bk-loc-pin { transform: translateY(-3px) scale(1.08); }
+    }
+
+    /* -- FAQ ------------------------------------------------------------------ */
+    .bk-faq-grid { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: clamp(2rem, 5vw, 5rem); align-items: start; }
+    .bk-faq-intro .bk-lede { margin-bottom: 1.8rem; }
+    .bk-faq-list { min-width: 0; }
+    .bk-q { position: relative; border-bottom: 1px solid rgba(36, 46, 66, .14); }
+    .bk-q:first-child { border-top: 1px solid rgba(36, 46, 66, .14); }
+    .bk-q::before {
+      content: ""; position: absolute; left: 0; top: -1px; bottom: -1px; width: 3px; background: var(--bk-gold);
+      transform: scaleY(0); transform-origin: top; transition: transform .55s var(--bk-ease);
+    }
+    .bk-q.bk-open::before { transform: scaleY(1); }
+    .bk-q-h { margin: 0; font-size: inherit; }
+    .bk-q-btn {
+      display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 1rem;
+      width: 100%; min-height: 44px; margin: 0; padding: 1.3rem .35rem 1.3rem 1.1rem; cursor: pointer; text-align: left;
+      background: none; border: 0; color: var(--bk-navy);
+      font-family: 'Playfair Display', Georgia, serif; font-weight: 700; font-size: clamp(1.02rem, 1.6vw, 1.16rem); line-height: 1.35;
+    }
+    .bk-q-btn:focus-visible { outline-offset: -3px; }
+    .bk-q-n { font: 700 .72rem 'Lato', sans-serif; letter-spacing: 1.5px; color: var(--bk-mid); font-variant-numeric: tabular-nums; min-width: 1.6rem; transition: color .35s; }
+    .bk-q-t { transition: transform .5s var(--bk-ease); }
+    .bk-q-ic { position: relative; width: 34px; height: 34px; border-radius: 50%; border: 1.5px solid rgba(36, 46, 66, .22); transition: background-color .35s, border-color .35s, transform .55s var(--bk-ease); }
+    .bk-q-ic::before, .bk-q-ic::after { content: ""; position: absolute; left: 50%; top: 50%; width: 12px; height: 2px; margin: -1px 0 0 -6px; border-radius: 2px; background: var(--bk-navy); transition: transform .45s var(--bk-ease), background-color .35s; }
+    .bk-q-ic::after { transform: rotate(90deg); }
+    .bk-q.bk-open .bk-q-ic { background: var(--bk-gold); border-color: var(--bk-gold); transform: rotate(180deg); }
+    .bk-q.bk-open .bk-q-ic::after { transform: rotate(0deg); }
+    .bk-q.bk-open .bk-q-n { color: var(--bk-gold-d); }
+    .bk-a { display: grid; grid-template-rows: 1fr; }
+    .bk-a-in { min-height: 0; overflow: hidden; }
+    .bk-a p { margin: 0; padding: 0 3.2rem 1.45rem 3.7rem; font-size: .98rem; line-height: 1.75; color: var(--bk-text); }
+    .bk-js .bk-a { grid-template-rows: 0fr; transition: grid-template-rows .55s var(--bk-ease); }
+    .bk-js .bk-a-in { visibility: hidden; transition: visibility 0s linear .55s; }
+    .bk-js .bk-a p { opacity: 0; transform: translateY(-8px); transition: opacity .35s var(--bk-ease), transform .5s var(--bk-ease); }
+    .bk-js .bk-q.bk-open .bk-a { grid-template-rows: 1fr; }
+    .bk-js .bk-q.bk-open .bk-a-in { visibility: visible; transition-delay: 0s; }
+    .bk-js .bk-q.bk-open .bk-a p { opacity: 1; transform: none; transition-delay: .12s; }
+    @media (hover: hover) and (pointer: fine) {
+      .bk-q-btn:hover .bk-q-t { transform: translateX(5px); }
+      .bk-q-btn:hover .bk-q-ic { border-color: var(--bk-gold); }
+    }
+
+    /* -- scroll reveal (only when this page's script runs) --------------------- */
+    .bk-js .bk-rv { opacity: 0; transform: translateY(26px); }
+    .bk-js .bk-rv.bk-in { opacity: 1; transform: none; transition: opacity .7s var(--bk-ease) var(--d, 0ms), transform .9s var(--bk-ease) var(--d, 0ms); }
+    .bk-js .bk-plan-cell:not(.bk-in) .bk-plan-list li { opacity: 0; transform: translateX(-10px); }
+    .bk-plan-cell.bk-in .bk-plan-list li:nth-child(2) { transition-delay: 60ms; }
+    .bk-plan-cell.bk-in .bk-plan-list li:nth-child(3) { transition-delay: 120ms; }
+    .bk-plan-cell.bk-in .bk-plan-list li:nth-child(4) { transition-delay: 180ms; }
+    .bk-plan-cell.bk-in .bk-plan-list li:nth-child(5) { transition-delay: 240ms; }
+    .bk-plan-cell.bk-in .bk-plan-list li { transition-duration: .6s, .7s; }
+
+    @keyframes bk-spin { to { transform: rotate(360deg); } }
+    @keyframes bk-pulse { 0% { box-shadow: 0 0 0 0 rgba(245, 166, 35, .55); } 70%, 100% { box-shadow: 0 0 0 14px rgba(245, 166, 35, 0); } }
+    @keyframes bk-fade { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+    @keyframes bk-slide { from { opacity: 0; transform: translateY(-8px) scale(.98); } to { opacity: 1; transform: none; } }
+    @keyframes bk-pop { from { opacity: 0; transform: translateY(14px) scale(.97); } to { opacity: 1; transform: none; } }
+    @keyframes bk-pop-ic { 0% { opacity: 0; transform: scale(.3) rotate(-30deg); } 60% { opacity: 1; transform: scale(1.12); } 100% { opacity: 1; transform: none; } }
+    @keyframes bk-nudge { 0%, 100% { transform: none; } 30% { transform: translateX(-4px); } 60% { transform: translateX(3px); } }
+
+    /* -- responsive ----------------------------------------------------------- */
+    @media (max-width: 1080px) {
+      .bk-trust-row { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+    @media (max-width: 980px) {
+      .bk-book { grid-template-columns: minmax(0, 1fr); }
+      .bk-side { grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; }
+      .bk-side .bk-info { grid-column: 1 / -1; }
+      .bk-faq-grid { grid-template-columns: minmax(0, 1fr); gap: 2rem; }
+    }
+    @media (max-width: 860px) {
+      .bk-plans { grid-template-columns: minmax(0, 1fr); max-width: 520px; margin: 0 auto; padding-top: 0; }
+      .bk-plan-feat { --lift: 0px; }
+      .bk-live .bk-switch {
+        position: relative; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); max-width: 420px; margin: 0 auto 1.25rem;
+        padding: 4px; border-radius: 999px; background: #f0f4f8;
+      }
+      .bk-sw {
+        position: relative; z-index: 1; min-height: 44px; margin: 0; padding: 0 .4rem; border: 0; border-radius: 999px; background: none; cursor: pointer;
+        font: 700 .95rem/1 'Playfair Display', Georgia, serif; color: var(--bk-mid); transition: color .35s var(--bk-ease); font-variant-numeric: lining-nums;
+      }
+      .bk-sw[aria-pressed="true"] { color: var(--bk-deep); }
+      .bk-sw:focus-visible { outline-offset: -3px; }
+      .bk-sw-ind {
+        position: absolute; top: 4px; bottom: 4px; left: 4px; width: calc((100% - 8px) / 3); border-radius: 999px; background: var(--bk-gold);
+        box-shadow: 0 6px 16px rgba(245, 166, 35, .35); transform: translateX(calc(var(--i, 0) * 100%)); transition: transform .5s var(--bk-ease);
+      }
+      .bk-live .bk-plans {
+        display: grid; grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: min(84%, 420px);
+        gap: 14px; max-width: none; margin: 0 calc(var(--bk-pad) * -1); padding: 6px var(--bk-pad) 14px;
+        overflow-x: auto; scroll-snap-type: x mandatory; scroll-padding: 0 var(--bk-pad); scrollbar-width: none; overscroll-behavior-x: contain;
+      }
+      .bk-live .bk-plans::-webkit-scrollbar { display: none; }
+      .bk-live .bk-plan-cell { scroll-snap-align: center; }
+      .bk-live .bk-plan-cell:first-child { scroll-snap-align: start; }
+      .bk-live .bk-plan-cell:last-child { scroll-snap-align: end; }
+    }
+    @media (max-width: 600px) {
+      .bk-trust-i { flex-direction: column; align-items: center; text-align: center; gap: .6rem; padding: .75rem .35rem; }
+      .bk-trust-tx strong { font-size: .92rem; }
+      .bk-trust-tx span { font-size: .62rem; letter-spacing: .8px; }
+      .bk-form .form-row { grid-template-columns: minmax(0, 1fr); }
+      .bk-side { grid-template-columns: minmax(0, 1fr); }
+      .bk-a p { padding: 0 .5rem 1.3rem 3.2rem; }
+      .bk-q-btn { gap: .75rem; padding-left: .9rem; }
+      .bk-chosen { flex-wrap: wrap; }
+      .bk-tabbtn { font-size: .62rem; letter-spacing: .6px; gap: .35rem; }
+    }
+    @media (max-width: 360px) {
+      .bk-tabbtn i { display: none; }
+      .bk-a p { padding-left: .9rem; }
+      .bk-q-n { display: none; }
+      .bk-q-btn { grid-template-columns: minmax(0, 1fr) auto; }
+    }
+
+    /* -- reduced motion: no movement, everything visible ----------------------- */
+    @media (prefers-reduced-motion: reduce) {
+      .bk-trust *, .bk-trust *::before, .bk-trust *::after,
+      .bk-sec *, .bk-sec *::before, .bk-sec *::after { animation: none !important; transition-duration: .01ms !important; transition-delay: 0ms !important; }
+      .bk-js .bk-rv, .bk-js .bk-plan-cell:not(.bk-in) .bk-plan-list li { opacity: 1; transform: none; }
+      .bk-plan, .bk-plan:hover, .bk-trust-i:hover, .bk-trust-i:hover .bk-trust-ic, .bk-plan:hover .bk-plan-ic,
+      .bk-pill:hover, .bk-q-btn:hover .bk-q-t, .bk-isa:hover .bk-isa-img, .bk-loc:hover .bk-loc-pin { transform: none !important; }
+      .bk-live .bk-plans { scroll-behavior: auto; }
+    }
+  </style><meta name="keywords" content="book coaching session, book TRE&#x2122; session, free discovery call, Isabelle Claus Teixeira appointment, somatic session pricing, coaching packages"/><link rel="canonical" href="https://www.hummingbeing.com/book"/><meta name="robots" content="index, follow"/><meta property="og:type" content="website"/><meta property="og:site_name" content="HummingBeing"/><meta property="og:title" content="Book a TRE&#x2122; or Coaching Session | Free Discovery Call"/><meta property="og:description" content="Book a free 30-minute discovery call with Isabelle Claus Teixeira, or the 8-week coaching package (S$2,300). TRE&#x2122; and coaching in Singapore, Japan and online."/><meta property="og:url" content="https://www.hummingbeing.com/book"/><meta property="og:image" content="https://www.hummingbeing.com/images/isabelle-her-story.webp"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image:alt" content="Book a somatic session with Isabelle Claus Teixeira at HummingBeing"/><meta property="og:locale" content="en_SG"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Book a TRE&#x2122; or Coaching Session | Free Discovery Call"/><meta name="twitter:description" content="Book a free 30-minute discovery call with Isabelle Claus Teixeira, or the 8-week coaching package (S$2,300). TRE&#x2122; and coaching in Singapore, Japan and online."/><meta name="twitter:image" content="https://www.hummingbeing.com/images/isabelle-her-story.webp"/><script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Do I need any previous experience with somatic practices?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "None at all. Every practice is designed to meet you where you are — no prior experience needed."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do I need to talk about my trauma or past experiences?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. You never need to talk about what happened. The body releases in its own way — no narrative required."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How many sessions will I need?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It varies. TRE™ is self-sufficient after 3–4 sessions. Coaching typically runs 6–12 sessions. Isabelle will be upfront about what she thinks you need."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can sessions be done online?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. All sessions are available online via Zoom. In-person is available in Singapore and Japan."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is this available for corporate teams?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes — group TRE™ and team resilience programmes are available. Contact us to explore options."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the cancellation policy?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "24 hours' notice to cancel or reschedule. Life happens — just let Isabelle know."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does the free discovery call work?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The free 30-minute discovery call is a relaxed video or phone conversation with Isabelle, with no agenda and no sales pressure. You talk about how you are feeling and what you are carrying, and she explains which path might suit you: TRE™, somatic coaching or mindfulness. Send the form or a WhatsApp message and she will arrange a time."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What happens in a first TRE™ session?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Isabelle guides you through a short sequence of simple exercises designed to invite the body’s natural tremor reflex. Sessions run 60–90 minutes. Wear loose, comfortable clothing and bring a yoga mat. You never need to talk about your history, you can stop the tremors at any time, and most people can practise alone after 3–4 guided sessions."
+        }
+      }
+    ]
+  }
+  </script><script type="application/ld+json" data-seo="breadcrumb">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.hummingbeing.com/"}, {"@type": "ListItem", "position": 2, "name": "Book a Session", "item": "https://www.hummingbeing.com/book"}]}</script><script type="application/ld+json" data-seo="services">{"@context": "https://schema.org", "@type": "Service", "name": "TRE™, Coaching &amp; Somatic Sessions with Isabelle Claus Teixeira", "provider": {"@id": "https://www.hummingbeing.com/#organization", "@type": "Organization", "name": "HummingBeing"}, "areaServed": ["Singapore", "Japan", "Worldwide"], "url": "https://www.hummingbeing.com/book", "hasOfferCatalog": {"@type": "OfferCatalog", "name": "Sessions &amp; Pricing", "itemListElement": [{"@type": "Offer", "name": "Free Discovery Call", "price": "0", "priceCurrency": "SGD", "description": "A free 30-minute video or phone call with Isabelle. No commitment. Available globally via Zoom."}, {"@type": "Offer", "name": "8-Week Coaching Package", "price": "2300", "priceCurrency": "SGD", "description": "Initial diagnostic session, 8 weekly one-on-one coaching sessions, targeted exercises between sessions and a follow-up session at 3 months."}, {"@type": "Offer", "name": "Deep Dive Package", "description": "12–24 personalised sessions combining TRE™, coaching and bodywork. Price on request."}]}}</script><link rel="preload" href="/fonts/hb/lato-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/hb/playfair-display-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/></t><t t-call="web.layout"><link rel="stylesheet" href="/styles.css?v=98"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXLR5LGG" height="0" width="0" style="display:none;visibility:hidden"/></noscript><nav>
+  <a href="/" class="logo"><img src="/images/logo-dark.webp" class="logo-on-dark" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/><img src="/images/logo-light.webp" class="logo-on-light" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/></a>
+  <ul class="nav-links">
+    <li><a href="/">Home</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/isabelle">Isabelle</a></li>
+    <li class="nav-dropdown">
+      <a href="javascript:void(0)" class="nav-dropdown-toggle">Work with Isabelle <i class="fa-solid fa-chevron-down nav-arrow"/></a>
+      <ul class="nav-dropdown-menu">
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™<small>Private sessions, online or in person</small></a></li>
+        <li><a href="/tre-certification">TRE™ Certification<small>Become a certified TRE™ provider</small></a></li>
+        <li><a href="/retreats-workshops">Retreats &amp; Workshops<small>Groups, teams and executives</small></a></li>
+      </ul>
+    </li>
+    <li><a href="/events">Events</a></li>
+    <li class="nav-book-mobile"><a href="/book">Book a free call</a></li>
+  </ul>
+  <div class="nav-actions">
+    <a href="/book" class="nav-cta active">Book a free call</a>
+    <button class="hamburger" onclick="toggleMenu()"><span/><span/><span/></button>
+  </div>
+</nav><div class="page-hero">
+  <span class="eyebrow">Your First Step</span>
+  <h1>Let's Begin <em>Together</em></h1>
+  <p>Every journey starts with a single honest conversation. No pressure — just a space to explore what's possible for you.</p>
+  <div class="hero-actions">
+    <a href="#pricing" class="btn btn-primary">View Session Pricing</a>
+    <a href="https://wa.me/818065151778" class="btn btn-outline" target="_blank" rel="noopener noreferrer">WhatsApp Isabelle</a>
+  </div>
+</div><div class="ticker-wrap" aria-hidden="true">
+  <div class="ticker-track">
+    <span class="t-item"><span class="t-star">★</span> Somatic Wellness</span><span class="t-sep">·</span>
+    <span class="t-item">In-Person &amp; Online Worldwide</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Certified TRE™ Provider</span><span class="t-sep">·</span>
+    <span class="t-item">30 Years of Experience</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Coaching</span><span class="t-sep">·</span>
+    <span class="t-item">Mindfulness</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> 9 Countries · 40+ Nationalities</span><span class="t-sep">·</span>
+    <span class="t-item">Release · Renew · Restore</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Business &amp; Human Development</span><span class="t-sep">·</span>
+    <span class="t-item">Nervous System Reset</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Mindfulness</span><span class="t-sep">·</span>
+    <span class="t-item">Embodied Leadership</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Trauma &amp; Tension Release</span><span class="t-sep">·</span>
+    <span class="t-item">Mind · Body · Soul</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Corporate Wellness</span><span class="t-sep">·</span>
+    <span class="t-item">Polyvagal Theory</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Global TRE™ Certifying Trainer</span><span class="t-sep">·</span>
+    <span class="t-item">Executive Coaching</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Breathwork</span><span class="t-sep">·</span>
+    <span class="t-item">Online &amp; In-Person</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Group Sessions</span><span class="t-sep">·</span>
+    <span class="t-item">Burnout Recovery</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Deep Rest &amp; Renewal</span><span class="t-sep">·</span>
+    <span class="t-item">Body Intelligence</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Somatic Intelligence</span><span class="t-sep">·</span>
+    <span class="t-item">Self-Regulation</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Dr. David Berceli Method</span><span class="t-sep">·</span><span class="t-item">Neurogenic Tremors</span><span class="t-sep">·</span><span class="t-item">Vagal Tone</span><span class="t-sep">·</span><span class="t-item">Psoas Release</span><span class="t-sep">·</span><span class="t-item">Europe · US · Asia · Worldwide</span><span class="t-sep">·</span><span class="t-item">Free Discovery Call</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Certified Reiki Level II</span><span class="t-sep">·</span><span class="t-item">Nervous System Literacy</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Somatic Wellness</span><span class="t-sep">·</span>
+    <span class="t-item">In-Person &amp; Online Worldwide</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Certified TRE™ Provider</span><span class="t-sep">·</span>
+    <span class="t-item">30 Years of Experience</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Coaching</span><span class="t-sep">·</span>
+    <span class="t-item">Mindfulness</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> 9 Countries · 40+ Nationalities</span><span class="t-sep">·</span>
+    <span class="t-item">Release · Renew · Restore</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Business &amp; Human Development</span><span class="t-sep">·</span>
+    <span class="t-item">Nervous System Reset</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Mindfulness</span><span class="t-sep">·</span>
+    <span class="t-item">Embodied Leadership</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Trauma &amp; Tension Release</span><span class="t-sep">·</span>
+    <span class="t-item">Mind · Body · Soul</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Corporate Wellness</span><span class="t-sep">·</span>
+    <span class="t-item">Polyvagal Theory</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Global TRE™ Certifying Trainer</span><span class="t-sep">·</span>
+    <span class="t-item">Executive Coaching</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Breathwork</span><span class="t-sep">·</span>
+    <span class="t-item">Online &amp; In-Person</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Group Sessions</span><span class="t-sep">·</span>
+    <span class="t-item">Burnout Recovery</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Deep Rest &amp; Renewal</span><span class="t-sep">·</span>
+    <span class="t-item">Body Intelligence</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Somatic Intelligence</span><span class="t-sep">·</span>
+    <span class="t-item">Self-Regulation</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Dr. David Berceli Method</span><span class="t-sep">·</span><span class="t-item">Neurogenic Tremors</span><span class="t-sep">·</span><span class="t-item">Vagal Tone</span><span class="t-sep">·</span><span class="t-item">Psoas Release</span><span class="t-sep">·</span><span class="t-item">Europe · US · Asia · Worldwide</span><span class="t-sep">·</span><span class="t-item">Free Discovery Call</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Certified Reiki Level II</span><span class="t-sep">·</span><span class="t-item">Nervous System Literacy</span><span class="t-sep">·</span>  </div>
+</div><div class="bk-trust">
+  <div class="bk-wrap bk-trust-row">
+    <div class="bk-trust-i bk-rv" style="--d:0ms">
+      <span class="bk-trust-ic" aria-hidden="true"><i class="fa-solid fa-envelope-open-text"/></span>
+      <div class="bk-trust-tx">
+        <strong>Isabelle reads every message</strong>
+        <span>Personal reply within 1–2 days</span>
+      </div>
+    </div>
+    <div class="bk-trust-i bk-rv" style="--d:90ms">
+      <span class="bk-trust-ic" aria-hidden="true"><i class="fa-solid fa-heart"/></span>
+      <div class="bk-trust-tx">
+        <strong>No sales pressure — ever</strong>
+        <span>We find what’s right for you</span>
+      </div>
+    </div>
+    <div class="bk-trust-i bk-rv" style="--d:180ms">
+      <span class="bk-trust-ic" aria-hidden="true"><i class="fa-solid fa-video"/></span>
+      <div class="bk-trust-tx">
+        <strong>In-Person &amp; Online</strong>
+        <span>Singapore, Japan &amp; globally via Zoom</span>
+      </div>
+    </div>
+    <div class="bk-trust-i bk-rv" style="--d:270ms">
+      <span class="bk-trust-ic" aria-hidden="true"><i class="fa-solid fa-shield-halved"/></span>
+      <div class="bk-trust-tx">
+        <strong>You set the pace</strong>
+        <span>No commitment beyond the free call</span>
+      </div>
+    </div>
+  </div>
+</div><section class="section-white bk-sec bk-price" id="pricing">
+  <div class="bk-wrap">
+    <div class="bk-head bk-head-c bk-rv">
+      <span class="bk-eyebrow">Sessions &amp; Pricing</span>
+      <h2 class="bk-h2">Choose Your Path</h2>
+      <p class="bk-lede">Start with a free discovery call. From there, we find the programme that fits your life, your goals and your pace.</p>
+    </div>
+
+    <div class="bk-plans" id="bk-plans">
+
+      <!-- Starter -->
+      <div class="bk-plan-cell bk-rv" style="--d:0ms">
+        <article class="bk-plan" data-bk-service="Coaching" data-bk-icon="fa-seedling">
+          <span class="bk-plan-pick" aria-hidden="true"><i class="fa-solid fa-check"/></span>
+          <div class="bk-plan-head">
+            <span class="bk-plan-ic" aria-hidden="true"><i class="fa-solid fa-seedling"/></span>
+            <h3 class="bk-plan-name">8-Week Coaching Package</h3>
+          </div>
+          <div class="bk-plan-price"><span class="bk-count" data-bk-to="2300" data-bk-pre="S$">S$2,300</span></div>
+          <p class="bk-plan-tag">Our signature 8-week individual coaching programme — designed to create meaningful, lasting change, fully customised to your goals.</p>
+          <ul class="bk-plan-list">
+            <li>Initial diagnostic session</li>
+            <li>8 weekly one-on-one coaching sessions</li>
+            <li>Targeted exercises between sessions</li>
+            <li>Follow-up session at 3 months</li>
+            <li>Leadership, career, stress resilience or personal growth focus</li>
+          </ul>
+          <a href="#contact-form" class="btn btn-dark bk-plan-cta">Get Started</a>
+        </article>
+      </div>
+
+      <!-- Deep Dive (featured) -->
+      <div class="bk-plan-cell bk-plan-cell-feat bk-rv" style="--d:110ms">
+        <article class="bk-plan bk-plan-feat" data-bk-icon="fa-layer-group" data-bk-tip="1">
+          <span class="bk-plan-pick" aria-hidden="true"><i class="fa-solid fa-check"/></span>
+          <div class="bk-plan-head">
+            <span class="bk-plan-ic" aria-hidden="true"><i class="fa-solid fa-layer-group"/></span>
+            <h3 class="bk-plan-name">Deep Dive Package</h3>
+          </div>
+          <div class="bk-plan-price">Custom</div>
+          <p class="bk-plan-tag">A longer, more personal journey shaped entirely around you — for those ready to go deeper and stay with the process.</p>
+          <ul class="bk-plan-list">
+            <li>12–24 personalised sessions</li>
+            <li>Combined TRE™, Coaching &amp; Bodywork</li>
+            <li>Corporate &amp; leadership programmes</li>
+            <li>Priority scheduling &amp; direct access</li>
+            <li>Ongoing integration support</li>
+          </ul>
+          <a href="#contact-form" class="btn btn-primary bk-plan-cta">Enquire Now</a>
+        </article>
+      </div>
+
+      <!-- Free Call -->
+      <div class="bk-plan-cell bk-rv" style="--d:220ms">
+        <article class="bk-plan" data-bk-icon="fa-mug-hot">
+          <span class="bk-plan-pick" aria-hidden="true"><i class="fa-solid fa-check"/></span>
+          <div class="bk-plan-head">
+            <span class="bk-plan-ic" aria-hidden="true"><i class="fa-solid fa-mug-hot"/></span>
+            <h3 class="bk-plan-name">Free Discovery Call</h3>
+          </div>
+          <div class="bk-plan-price">$0</div>
+          <p class="bk-plan-tag">Not sure which path is right? Start with a free 30-minute call with Isabelle. No commitment, just clarity.</p>
+          <ul class="bk-plan-list">
+            <li>30-minute video or phone call</li>
+            <li>Understand your options</li>
+            <li>No sales pressure — ever</li>
+            <li>Available globally via Zoom</li>
+            <li>Book via form or WhatsApp</li>
+          </ul>
+          <a href="#contact-form" class="btn btn-primary bk-plan-cta">Book Now — It’s Free</a>
+        </article>
+      </div>
+
+    </div>
+  </div>
+</section><section class="section-cream bk-sec bk-contact" id="contact-form">
+  <div class="bk-wrap bk-book">
+
+    <!-- FORM -->
+    <div class="bk-formcol">
+      <div class="bk-head bk-rv">
+        <span class="bk-eyebrow">Send a Message</span>
+        <h2 class="bk-h2">Get in Touch with Isabelle</h2>
+        <p class="bk-lede">Fill in the form below and Isabelle will personally get back to you within one or two days to arrange your free discovery call.</p>
+      </div>
+      <div class="bk-panel bk-rv" id="bk-panel">
+        <form onsubmit="handleBookSubmit(event)" class="bk-form">
+          <fieldset class="bk-grp">
+            <legend class="bk-grp-h"><span class="bk-grp-n" aria-hidden="true"><span>01</span><i class="fa-solid fa-check"/></span>About you</legend>
+            <div class="form-row">
+              <div class="form-group bk-fld">
+                <label for="fname">First Name *</label>
+                <input type="text" id="fname" placeholder="Your first name" required=""/>
+              </div>
+              <div class="form-group bk-fld">
+                <label for="lname">Last Name *</label>
+                <input type="text" id="lname" placeholder="Your last name" required=""/>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group bk-fld">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" placeholder="your@email.com" required=""/>
+              </div>
+              <div class="form-group bk-fld">
+                <label for="phone">WhatsApp / Phone</label>
+                <input type="tel" id="phone" placeholder="+65 or +81 number"/>
+              </div>
+            </div>
+            <div class="form-group bk-fld bk-sel">
+              <label for="location">Where are you based? *</label>
+              <select id="location" required="">
+                <option value="">Select your location</option>
+                <option>Singapore</option>
+                <option>Japan (Tokyo)</option>
+                <option>Japan (Other)</option>
+                <option>Hong Kong</option>
+                <option>Other Asia</option>
+                <option>Europe</option>
+                <option>Other</option>
+              </select>
+            </div>
+          </fieldset>
+          <fieldset class="bk-grp">
+            <legend class="bk-grp-h"><span class="bk-grp-n" aria-hidden="true"><span>02</span><i class="fa-solid fa-check"/></span>Your interest</legend>
+            <div class="form-group bk-fld bk-sel bk-svc">
+              <label for="service">Which service interests you most? *</label>
+              <select id="service" required="">
+                <option value="">Choose a service</option>
+                <option>TRE™ (Tension &amp; Trauma Release Exercises)</option>
+                <option>Coaching</option>
+                <option>Mindfulness</option>
+                <option>Not sure — help me decide</option>
+                <option>Corporate / Team Programme</option>
+              </select>
+            </div>
+            <div class="form-group bk-fld bk-sel">
+              <label for="hear">How did you hear about us?</label>
+              <select id="hear">
+                <option value="">Select an option</option>
+                <option>Instagram</option>
+                <option>LinkedIn</option>
+                <option>YouTube</option>
+                <option>Google Search</option>
+                <option>Referral from a friend or colleague</option>
+                <option>BHD Asia</option>
+                <option>Other</option>
+              </select>
+            </div>
+          </fieldset>
+          <fieldset class="bk-grp">
+            <legend class="bk-grp-h"><span class="bk-grp-n" aria-hidden="true"><span>03</span><i class="fa-solid fa-check"/></span>Your message</legend>
+            <div class="form-group bk-fld">
+              <label for="message">What brings you here? *</label>
+              <textarea id="message" placeholder="Briefly share what you're experiencing or hoping to address. No detail is too small — I read every message personally." required=""/>
+            </div>
+          </fieldset>
+          <button type="submit" class="btn btn-dark" style="width:100%;font-size:1rem;padding:1.1rem">Send My Enquiry</button>
+        </form>
+        <div id="success-msg" class="bk-success" style="display:none;background:var(--cream);border:1.5px solid var(--border);border-radius:3px;padding:2rem;margin-top:1.5rem;text-align:center">
+          <i class="fa-solid fa-circle-check" style="color:var(--gold);font-size:2rem;display:block;margin-bottom:.8rem"/>
+          <p style="font-family:'PT Serif',Georgia,serif;font-size:1.35rem;color:var(--navy);margin-bottom:.4rem">Thank You!</p>
+          <p style="color:var(--text-mid);font-size:.93rem;margin:0">Isabelle will be in touch within 1–2 business days to arrange your free discovery call.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SIDEBAR -->
+    <div class="bk-side">
+
+      <!-- ISABELLE CARD -->
+      <div class="bk-isa bk-rv">
+        <div class="bk-isa-ph"><img class="bk-isa-img" src="/images/isabelle-her-story.webp" alt="Isabelle Claus Teixeira" loading="lazy" decoding="async" width="90" height="90"/></div>
+        <h3>Isabelle Claus Teixeira</h3>
+        <span class="bk-isa-t">Somatic Practitioner &amp; Coach</span>
+        <blockquote>“I believe every body holds the wisdom it needs to heal. My role is simply to create the conditions for that wisdom to emerge.”</blockquote>
+      </div>
+
+      <!-- WHATSAPP -->
+      <div class="bk-wa bk-rv" style="--d:90ms">
+        <span class="bk-wa-ic" aria-hidden="true"><i class="fa-brands fa-whatsapp"/></span>
+        <h3>Prefer WhatsApp?</h3>
+        <p>Many clients find it easier to reach out directly. Message Isabelle on WhatsApp anytime.</p>
+        <a href="https://wa.me/818065151778" target="_blank" class="btn btn-primary" rel="noopener noreferrer">WhatsApp Isabelle</a>
+      </div>
+
+      <!-- LOCATIONS + SESSION OVERVIEW -->
+      <div class="bk-info bk-rv" style="--d:180ms">
+        <div class="bk-tabs" hidden="">
+          <button type="button" class="bk-tabbtn" id="bk-tab-where"><i class="fa-solid fa-location-dot" aria-hidden="true"/>Where We Work</button>
+          <button type="button" class="bk-tabbtn" id="bk-tab-len"><i class="fa-solid fa-clipboard-list" aria-hidden="true"/>Session Lengths</button>
+          <span class="bk-tabind" aria-hidden="true"/>
+        </div>
+
+        <div class="bk-pane" id="bk-p-where">
+          <h3 class="bk-pane-h"><i class="fa-solid fa-location-dot" aria-hidden="true"/>Where We Work</h3>
+          <ul class="bk-locs">
+            <li class="bk-loc"><span class="bk-loc-pin" aria-hidden="true"><i class="fa-solid fa-location-dot"/></span><span><strong>Singapore</strong> — in-person &amp; online</span></li>
+            <li class="bk-loc"><span class="bk-loc-pin" aria-hidden="true"><i class="fa-solid fa-location-dot"/></span><span><strong>Japan</strong> (Tokyo &amp; beyond) — in-person &amp; online</span></li>
+            <li class="bk-loc"><span class="bk-loc-pin" aria-hidden="true"><i class="fa-solid fa-globe"/></span><span><strong>International</strong> — online globally via Zoom</span></li>
+          </ul>
+        </div>
+
+        <div class="bk-pane" id="bk-p-len">
+          <h3 class="bk-pane-h"><i class="fa-solid fa-clipboard-list" aria-hidden="true"/>Session Lengths</h3>
+          <ul class="bk-lens">
+            <li class="bk-len" style="--a:.667;--b:1"><span class="bk-len-k">TRE™</span><span class="bk-len-v">60–90 min per session</span><span class="bk-len-bar" aria-hidden="true"><b/><i/></span></li>
+            <li class="bk-len" style="--a:.667;--b:.833"><span class="bk-len-k">Coaching</span><span class="bk-len-v">60–75 min</span><span class="bk-len-bar" aria-hidden="true"><b/><i/></span></li>
+            <li class="bk-len" style="--a:.667;--b:.833"><span class="bk-len-k">Mindfulness</span><span class="bk-len-v">60–75 min</span><span class="bk-len-bar" aria-hidden="true"><b/><i/></span></li>
+            <li class="bk-len bk-len-pkg"><span class="bk-len-k">8-Week Coaching Package</span><span class="bk-len-v">S$2,300</span></li>
+            <li class="bk-len" style="--a:.333;--b:.333"><span class="bk-len-k">Free discovery call</span><span class="bk-len-v">30 min</span><span class="bk-len-bar" aria-hidden="true"><b/><i/></span></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section><section class="section-sage bk-sec bk-faq">
+  <div class="bk-wrap bk-faq-grid">
+    <div class="bk-faq-intro bk-rv">
+      <span class="bk-eyebrow">Common Questions</span>
+      <h2 class="bk-h2">Before You Book</h2>
+      <p class="bk-lede">Questions Isabelle hears most often — answered honestly. More in the <a href="/tre-faq" style="color:var(--gold-dark);font-weight:700">full TRE™ FAQ</a> and <a href="/is-tre-safe" style="color:var(--gold-dark);font-weight:700">Is TRE™ safe?</a></p>
+      <div class="bk-faq-cta">
+        <a href="https://wa.me/818065151778" target="_blank" class="btn btn-primary" rel="noopener noreferrer">Still have questions? Message on WhatsApp</a>
+      </div>
+    </div>
+    <div class="bk-faq-list">
+
+      <div class="bk-q bk-rv" style="--d:0ms">
+        <h3 class="bk-q-h"><button type="button" class="bk-q-btn" id="bk-q1" aria-controls="bk-a1"><span class="bk-q-n" aria-hidden="true">01</span><span class="bk-q-t">Do I need any previous experience with somatic practices?</span><span class="bk-q-ic" aria-hidden="true"/></button></h3>
+        <div class="bk-a" id="bk-a1" role="region" aria-labelledby="bk-q1"><div class="bk-a-in"><p>None at all. Every practice is designed to meet you where you are — no prior experience needed.</p></div></div>
+      </div>
+
+      <div class="bk-q bk-rv" style="--d:60ms">
+        <h3 class="bk-q-h"><button type="button" class="bk-q-btn" id="bk-q2" aria-controls="bk-a2"><span class="bk-q-n" aria-hidden="true">02</span><span class="bk-q-t">Do I need to talk about my trauma or past experiences?</span><span class="bk-q-ic" aria-hidden="true"/></button></h3>
+        <div class="bk-a" id="bk-a2" role="region" aria-labelledby="bk-q2"><div class="bk-a-in"><p>No. You never need to talk about what happened. The body releases in its own way — no narrative required.</p></div></div>
+      </div>
+
+      <div class="bk-q bk-rv" style="--d:120ms">
+        <h3 class="bk-q-h"><button type="button" class="bk-q-btn" id="bk-q3" aria-controls="bk-a3"><span class="bk-q-n" aria-hidden="true">03</span><span class="bk-q-t">How many sessions will I need?</span><span class="bk-q-ic" aria-hidden="true"/></button></h3>
+        <div class="bk-a" id="bk-a3" role="region" aria-labelledby="bk-q3"><div class="bk-a-in"><p>It varies. TRE™ is self-sufficient after 3–4 sessions. Coaching typically runs 6–12 sessions. Isabelle will be upfront about what she thinks you need.</p></div></div>
+      </div>
+
+      <div class="bk-q bk-rv" style="--d:180ms">
+        <h3 class="bk-q-h"><button type="button" class="bk-q-btn" id="bk-q4" aria-controls="bk-a4"><span class="bk-q-n" aria-hidden="true">04</span><span class="bk-q-t">Can sessions be done online?</span><span class="bk-q-ic" aria-hidden="true"/></button></h3>
+        <div class="bk-a" id="bk-a4" role="region" aria-labelledby="bk-q4"><div class="bk-a-in"><p>Yes. All sessions are available online via Zoom. In-person is available in Singapore and Japan.</p></div></div>
+      </div>
+
+      <div class="bk-q bk-rv" style="--d:240ms">
+        <h3 class="bk-q-h"><button type="button" class="bk-q-btn" id="bk-q5" aria-controls="bk-a5"><span class="bk-q-n" aria-hidden="true">05</span><span class="bk-q-t">Is this available for corporate teams?</span><span class="bk-q-ic" aria-hidden="true"/></button></h3>
+        <div class="bk-a" id="bk-a5" role="region" aria-labelledby="bk-q5"><div class="bk-a-in"><p>Yes — group TRE™ and team resilience programmes are available. Contact us to explore options.</p></div></div>
+      </div>
+
+      <div class="bk-q bk-rv" style="--d:300ms">
+        <h3 class="bk-q-h"><button type="button" class="bk-q-btn" id="bk-q6" aria-controls="bk-a6"><span class="bk-q-n" aria-hidden="true">06</span><span class="bk-q-t">What is the cancellation policy?</span><span class="bk-q-ic" aria-hidden="true"/></button></h3>
+        <div class="bk-a" id="bk-a6" role="region" aria-labelledby="bk-q6"><div class="bk-a-in"><p>24 hours’ notice to cancel or reschedule. Life happens — just let Isabelle know.</p></div></div>
+      </div>
+
+      <div class="bk-q bk-rv" style="--d:300ms">
+        <h3 class="bk-q-h"><button type="button" class="bk-q-btn" id="bk-q7" aria-controls="bk-a7"><span class="bk-q-n" aria-hidden="true">07</span><span class="bk-q-t">How does the free discovery call work?</span><span class="bk-q-ic" aria-hidden="true"/></button></h3>
+        <div class="bk-a" id="bk-a7" role="region" aria-labelledby="bk-q7"><div class="bk-a-in"><p>The free 30-minute discovery call is a relaxed video or phone conversation with Isabelle, with no agenda and no sales pressure. You talk about how you are feeling and what you are carrying, and she explains which path might suit you: TRE™, somatic coaching or mindfulness. Send the form or a WhatsApp message and she will arrange a time.</p></div></div>
+      </div>
+
+      <div class="bk-q bk-rv" style="--d:360ms">
+        <h3 class="bk-q-h"><button type="button" class="bk-q-btn" id="bk-q8" aria-controls="bk-a8"><span class="bk-q-n" aria-hidden="true">08</span><span class="bk-q-t">What happens in a first TRE™ session?</span><span class="bk-q-ic" aria-hidden="true"/></button></h3>
+        <div class="bk-a" id="bk-a8" role="region" aria-labelledby="bk-q8"><div class="bk-a-in"><p>Isabelle guides you through a short sequence of simple exercises designed to invite the body’s natural tremor reflex. Sessions run 60–90 minutes. Wear loose, comfortable clothing and bring a yoga mat. You never need to talk about your history, you can stop the tremors at any time, and most people can practise alone after 3–4 guided sessions.</p></div></div>
+      </div>
+
+    </div>
+  </div>
+</section><div class="cta-banner">
+  <h2>Ready When You Are</h2>
+  <p>The first step is free. Book your 30-minute discovery call and let’s have an honest conversation about what’s possible.</p>
+  <a href="#contact-form" class="btn btn-primary">Book My Free Call</a>
+</div><footer>
+  <div class="foot-grid">
+    <div>
+      <a href="/" class="foot-logo"><img src="/images/logo-dark.webp" alt="HummingBeing — Coaching &amp; Somatics" width="144" height="48" style="height:48px;width:auto;display:block"/></a>
+      <p class="foot-desc">Science backed processes with TRE™, Coaching and Somatic Practices — a space to release, renew and restore.</p>
+      <p class="foot-desc">Part of <strong>Business and Human Development Consulting Pte Ltd</strong></p>
+      <div class="foot-socials">
+        <a href="https://www.instagram.com/isabelleclausteixeira_bhd/" target="_blank" class="soc" aria-label="Instagram" rel="noopener noreferrer"><i class="fa-brands fa-instagram"/></a>
+        <a href="https://www.linkedin.com/in/isabelleclausteixeira/" target="_blank" class="soc" aria-label="LinkedIn" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"/></a>
+        <a href="https://www.youtube.com/@IsabelleClausTeixeira" target="_blank" class="soc" aria-label="YouTube" rel="noopener noreferrer"><i class="fa-brands fa-youtube"/></a>
+        <a href="https://wa.me/818065151778" target="_blank" class="soc" aria-label="WhatsApp" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"/></a>
+      </div>
+    </div>
+    <div>
+      <div class="foot-h">Work with Isabelle</div>
+      <ul class="foot-links">
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™</a></li>
+        <li><a href="/tre-certification">TRE™ Certification</a></li>
+        <li><a href="/retreats-workshops">Retreats &amp; Workshops</a></li>
+        <li><a href="/events">Events</a></li>
+        <li><a href="/book">Book a free call</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="foot-h">HummingBeing</div>
+      <ul class="foot-links">
+        <li><a href="/about">About HummingBeing</a></li>
+        <li><a href="/isabelle">Meet Isabelle</a></li>
+        <li><a href="/gallery">Gallery</a></li>
+        <li><a href="/socials">Socials</a></li>
+        <li><a href="/tre-faq">TRE™ FAQ</a></li>
+        <li><a href="/is-tre-safe">Is TRE™ Safe?</a></li>
+        <li><a href="/tre-icf-cceu">TRE™ with ICF CCEs</a></li>
+        <li><a href="https://www.bhdasia.com" target="_blank" rel="noopener">BHD Asia</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="foot-h">Contact</div>
+      <ul class="foot-links">
+        <li><span>bonjour@bhd<span style="display:none">-no-spam</span>asia.com</span></li>
+        <li><a href="https://wa.me/818065151778" target="_blank" rel="noopener noreferrer">WhatsApp Us</a></li>
+        <li><span>Global</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <div class="foot-copy">© 2026 HummingBeing — Business and Human Development Consulting Pte Ltd</div>
+    <div class="foot-legal">
+      <span>Privacy Policy</span>
+      <span>Terms of Service</span>
+      <span class="foot-sep">·</span>
+      <a href="https://technext.asia" target="_blank" rel="noopener noreferrer">Powered by <span class="tn-brand">TechNext</span></a>
+    </div>
+  </div>
+</footer><a href="https://wa.me/818065151778" class="wa-float" target="_blank" aria-label="Chat on WhatsApp" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"/></a><button class="top-float" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top"><i class="fa-solid fa-chevron-up"/></button><script src="/scripts.js?v=20261109e" defer="defer"/><script>
+function handleBookSubmit(e) {
+  e.preventDefault();
+  var g = function(id){ var el = document.getElementById(id); return el ? el.value : ''; };
+  sendLead({
+    name: (g('fname') + ' ' + g('lname')).trim(),
+    email: g('email'),
+    phone: g('phone'),
+    event: g('location'),
+    inquiry: g('service'),
+    source: 'Book a Session page',
+    message: 'Heard via: ' + (g('hear') || '—') + ' | ' + g('message')
+  });
+  document.querySelector('form').style.display = 'none';
+  document.getElementById('success-msg').style.display = 'block';
+}
+function toggleFaq(btn) {
+  var item = btn.closest('.faq-item');
+  var wasOpen = item.classList.contains('open');
+  document.querySelectorAll('.faq-item.open').forEach(function(i) { i.classList.remove('open'); });
+  if (!wasOpen) item.classList.add('open');
+}
+</script><script>
+/* BOOK A SESSION (.bk-) interactions: reveals, plan picker -&gt; form, form feel, sidebar tabs, FAQ.
+   Never changes what the form sends: handleBookSubmit / sendLead above are untouched. */
+(function () {
+  var doc = document, root = doc.documentElement;
+  root.classList.add('bk-js');
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var fine = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+  function $(s, c) { return (c || doc).querySelector(s); }
+  function $$(s, c) { return [].slice.call((c || doc).querySelectorAll(s)); }
+  function el(tag, cls, html) { var e = doc.createElement(tag); if (cls) e.className = cls; if (html) e.innerHTML = html; return e; }
+
+  /* ---------- count-up (only the S$2,300 already on the page) ---------- */
+  function countUp(n) {
+    if (!n || n.getAttribute('data-bk-done')) return;
+    n.setAttribute('data-bk-done', '1');
+    if (reduce) return;
+    var to = +n.getAttribute('data-bk-to'), pre = n.getAttribute('data-bk-pre') || '', t0 = performance.now(), d = 1300;
+    function fmt(v) { return pre + String(v).replace(/\B(?=(\d{3})+(?!\d))/g, ','); }
+    (function tick(now) {
+      var p = Math.min(1, (now - t0) / d);
+      n.textContent = fmt(Math.round(to * (1 - Math.pow(1 - p, 3))));
+      if (p &lt; 1) requestAnimationFrame(tick); else n.textContent = fmt(to);
+    })(t0);
+  }
+
+  /* ---------- scroll reveal ---------- */
+  function shown(t) { t.classList.add('bk-in'); countUp($('.bk-count', t)); }
+  var rvs = $$('.bk-rv');
+  if ('IntersectionObserver' in window &amp;&amp; !reduce) {
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (en) { if (en.isIntersecting) { shown(en.target); io.unobserve(en.target); } });
+    }, { threshold: 0, rootMargin: '0px 0px -40px 0px' });
+    rvs.forEach(function (r) { io.observe(r); });
+  } else rvs.forEach(shown);
+
+  /* ---------- form: progress, inline validation, service pills ---------- */
+  var panel = $('#bk-panel'), form = panel &amp;&amp; $('form', panel);
+  var chosen = null, setService = function () {};
+  if (form) {
+    var fields = $$('input, select, textarea', form), req = fields.filter(function (f) { return f.required; });
+    var groups = $$('.bk-grp', form);
+
+    var prog = el('div', 'bk-prog',
+      '&lt;div class="bk-prog-top"&gt;&lt;span&gt;&lt;b&gt;0&lt;/b&gt; of ' + req.length + ' required fields complete&lt;/span&gt;&lt;span class="bk-prog-pct"&gt;0%&lt;/span&gt;&lt;/div&gt;' +
+      '&lt;div class="bk-prog-bar"&gt;&lt;i&gt;&lt;/i&gt;&lt;/div&gt;');
+    prog.setAttribute('aria-hidden', 'true');
+    panel.insertBefore(prog, panel.firstChild);
+    var progN = $('b', prog), progP = $('.bk-prog-pct', prog), progBar = $('.bk-prog-bar', prog);
+
+    function progress() {
+      var n = req.filter(function (f) { return f.validity.valid; }).length, p = req.length ? n / req.length : 0;
+      progN.textContent = n; progP.textContent = Math.round(p * 100) + '%';
+      progBar.style.setProperty('--p', p.toFixed(3));
+      prog.classList.toggle('bk-full', n === req.length);
+      groups.forEach(function (g) {
+        var r = $$('[required]', g);
+        g.classList.toggle('bk-done', r.length &gt; 0 &amp;&amp; r.every(function (f) { return f.validity.valid; }));
+      });
+    }
+
+    fields.forEach(function (f) {
+      var g = f.closest('.form-group'); if (!g) return;
+      var st = el('span', 'bk-st', '&lt;i class="fa-solid fa-check" aria-hidden="true"&gt;&lt;/i&gt;');
+      st.setAttribute('aria-hidden', 'true');
+      var err = el('span', 'bk-err'); err.id = 'bk-err-' + f.id;
+      g.appendChild(st); g.appendChild(err);
+      f.setAttribute('aria-describedby', err.id);
+      var touched = false;
+      function check(force) {
+        if (force) touched = true;
+        var ok = f.validity.valid, has = String(f.value).trim() !== '';
+        if (!touched &amp;&amp; !(ok &amp;&amp; has)) { g.classList.remove('bk-ok', 'bk-bad'); err.textContent = ''; f.removeAttribute('aria-invalid'); return; }
+        g.classList.toggle('bk-ok', ok &amp;&amp; has);
+        g.classList.toggle('bk-bad', !ok);
+        st.innerHTML = ok ? '&lt;i class="fa-solid fa-check"&gt;&lt;/i&gt;' : '&lt;i class="fa-solid fa-exclamation"&gt;&lt;/i&gt;';
+        err.textContent = ok ? '' : f.validationMessage;
+        if (ok) f.removeAttribute('aria-invalid'); else f.setAttribute('aria-invalid', 'true');
+      }
+      f.addEventListener('blur', function () { if (String(f.value).trim() !== '') touched = true; check(); });
+      f.addEventListener('input', function () { check(); progress(); });
+      f.addEventListener('change', function () { check(true); progress(); });
+      f.addEventListener('invalid', function () { check(true); });
+    });
+
+    /* service: selectable cards that fill the existing #service select */
+    var sel = $('#service');
+    if (sel) {
+      var sg = sel.closest('.form-group'), lab = $('label[for="service"]', sg);
+      var ICONS = ['fa-wave-square', 'fa-compass', 'fa-spa', 'fa-circle-question', 'fa-people-group'];
+      var pills = el('div', 'bk-pills');
+      pills.setAttribute('role', 'group');
+      if (lab) { lab.id = 'bk-svc-l'; pills.setAttribute('aria-labelledby', 'bk-svc-l'); }
+      var k = 0;
+      [].slice.call(sel.options).forEach(function (o) {
+        if (!o.value) return;
+        var b = el('button', 'bk-pill', '&lt;i class="fa-solid ' + (ICONS[k++] || 'fa-circle') + '" aria-hidden="true"&gt;&lt;/i&gt;&lt;span&gt;&lt;/span&gt;');
+        b.type = 'button'; b.setAttribute('aria-pressed', 'false'); b.setAttribute('data-v', o.value);
+        b.querySelector('span').textContent = o.text;
+        b.addEventListener('click', function () { setService(o.value); });
+        pills.appendChild(b);
+      });
+      sg.insertBefore(pills, sel);
+      sg.classList.add('bk-pilled');
+      sel.tabIndex = -1;
+      if (lab) lab.addEventListener('click', function (e) { e.preventDefault(); var f = $('.bk-pill', pills); if (f) f.focus(); });
+      function syncPills() { $$('.bk-pill', pills).forEach(function (b) { b.setAttribute('aria-pressed', b.getAttribute('data-v') === sel.value ? 'true' : 'false'); }); }
+      sel.addEventListener('change', syncPills);
+      setService = function (v) {
+        if (!v || sel.value === v) { syncPills(); return; }
+        sel.value = v;
+        sel.dispatchEvent(new Event('change', { bubbles: true }));
+      };
+      syncPills();
+    }
+    progress();
+
+    /* after the existing handler hides the form, show the thank-you in view */
+    form.addEventListener('submit', function () {
+      if (form.style.display !== 'none') return;
+      panel.classList.add('bk-sent');
+      var ok = $('#success-msg');
+      if (ok) ok.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'center' });
+    });
+
+    /* chosen-path strip (filled when a plan is picked) */
+    chosen = el('div', 'bk-chosen');
+    chosen.hidden = true; chosen.tabIndex = -1;
+    chosen.setAttribute('role', 'status');
+    chosen.innerHTML = '&lt;span class="bk-chosen-ic" aria-hidden="true"&gt;&lt;i class="fa-solid"&gt;&lt;/i&gt;&lt;/span&gt;' +
+      '&lt;span class="bk-chosen-tx"&gt;&lt;span class="bk-chosen-k"&gt;Your path&lt;/span&gt;&lt;strong&gt;&lt;/strong&gt; &lt;span class="bk-chosen-p"&gt;&lt;/span&gt;' +
+      '&lt;span class="bk-chosen-tip" hidden&gt;Tip: mention it in your message.&lt;/span&gt;&lt;/span&gt;' +
+      '&lt;button type="button" class="bk-chosen-x"&gt;Change&lt;/button&gt;';
+    panel.insertBefore(chosen, form);
+  }
+
+  /* ---------- pricing: pick a plan -&gt; pre-fill + scroll to the form ---------- */
+  var price = $('.bk-price'), plans = $$('.bk-plan');
+  function pick(p, go) {
+    plans.forEach(function (q) { q.classList.toggle('bk-picked', q === p); });
+    if (p.getAttribute('data-bk-service')) setService(p.getAttribute('data-bk-service'));
+    if (chosen) {
+      var name = $('.bk-plan-name', p).textContent, pr = $('.bk-plan-price', p);
+      var cnt = $('.bk-count', pr);
+      $('strong', chosen).textContent = name;
+      $('.bk-chosen-p', chosen).textContent = '\u00b7 ' + (cnt ? (cnt.getAttribute('data-bk-pre') || '') + (+cnt.getAttribute('data-bk-to')).toLocaleString('en-US') : pr.textContent.trim());
+      $('.bk-chosen-ic i', chosen).className = 'fa-solid ' + (p.getAttribute('data-bk-icon') || 'fa-check');
+      $('.bk-chosen-tip', chosen).hidden = !p.getAttribute('data-bk-tip');
+      chosen.hidden = false;
+      chosen.style.animation = 'none'; void chosen.offsetWidth; chosen.style.animation = '';
+    }
+    if (go &amp;&amp; panel) {
+      panel.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
+      if (chosen) chosen.focus({ preventScroll: true });
+    }
+  }
+  plans.forEach(function (p) {
+    var cta = $('.bk-plan-cta', p);
+    if (cta) cta.addEventListener('click', function (e) { if (!panel) return; e.preventDefault(); pick(p, true); });
+    p.addEventListener('click', function (e) { if (e.target.closest('a, button') || !panel) return; pick(p, true); });
+    if (!fine) return;
+    p.addEventListener('pointermove', function (e) {
+      var r = p.getBoundingClientRect(), x = (e.clientX - r.left) / r.width, y = (e.clientY - r.top) / r.height;
+      p.style.setProperty('--mx', (x * 100).toFixed(1) + '%'); p.style.setProperty('--my', (y * 100).toFixed(1) + '%');
+      if (reduce) return;
+      p.classList.add('bk-tilting');
+      p.style.setProperty('--rx', ((.5 - y) * 5).toFixed(2) + 'deg'); p.style.setProperty('--ry', ((x - .5) * 6).toFixed(2) + 'deg');
+    });
+    p.addEventListener('pointerleave', function () {
+      p.classList.remove('bk-tilting'); p.style.setProperty('--rx', '0deg'); p.style.setProperty('--ry', '0deg');
+    });
+  });
+  if (chosen) $('.bk-chosen-x', chosen).addEventListener('click', function () {
+    price.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
+    var p = $('.bk-plan.bk-picked .bk-plan-cta') || $('.bk-plan-cta'); if (p) p.focus({ preventScroll: true });
+  });
+
+  /* mobile: price switcher synced with a swipeable track */
+  if (price &amp;&amp; plans.length) {
+    var track = $('#bk-plans'), cells = $$('.bk-plan-cell', track);
+    var sw = el('div', 'bk-switch'); sw.setAttribute('role', 'group'); sw.setAttribute('aria-label', 'Choose a session option');
+    sw.appendChild(el('span', 'bk-sw-ind')).setAttribute('aria-hidden', 'true');
+    var sws = cells.map(function (c, i) {
+      var b = el('button', 'bk-sw'); b.type = 'button';
+      b.textContent = $('.bk-plan-price', c).textContent.trim();
+      b.setAttribute('aria-label', $('.bk-plan-name', c).textContent + ', ' + b.textContent);
+      b.setAttribute('aria-pressed', i ? 'false' : 'true');
+      b.addEventListener('click', function () {
+        track.scrollTo({ left: c.offsetLeft - track.offsetLeft - (track.clientWidth - c.offsetWidth) / 2, behavior: reduce ? 'auto' : 'smooth' });
+        mark(i);
+      });
+      sw.appendChild(b); return b;
+    });
+    /* the S$2,300 pill should read the final value even before the count-up */
+    var cnt0 = $('.bk-count', track);
+    if (cnt0) sws[0].textContent = cnt0.getAttribute('data-bk-pre') + (+cnt0.getAttribute('data-bk-to')).toLocaleString('en-US');
+    track.parentNode.insertBefore(sw, track);
+    price.classList.add('bk-live');
+    function mark(i) { sw.style.setProperty('--i', i); sws.forEach(function (b, j) { b.setAttribute('aria-pressed', i === j ? 'true' : 'false'); }); }
+    var raf = 0;
+    track.addEventListener('scroll', function () {
+      cancelAnimationFrame(raf);
+      raf = requestAnimationFrame(function () {
+        var mid = track.scrollLeft + track.clientWidth / 2, best = 0, bd = 1e9;
+        cells.forEach(function (c, i) { var d = Math.abs(c.offsetLeft - track.offsetLeft + c.offsetWidth / 2 - mid); if (d &lt; bd) { bd = d; best = i; } });
+        mark(best);
+      });
+    }, { passive: true });
+  }
+
+  /* ---------- sidebar: Where We Work / Session Lengths tabs ---------- */
+  var info = $('.bk-info');
+  if (info) {
+    var tl = $('.bk-tabs', info), tabs = $$('.bk-tabbtn', info), panes = $$('.bk-pane', info);
+    tl.hidden = false; tl.setAttribute('role', 'tablist'); tl.setAttribute('aria-label', 'Session details');
+    info.classList.add('bk-tabbed');
+    tabs.forEach(function (t, i) {
+      t.setAttribute('role', 'tab'); t.setAttribute('aria-controls', panes[i].id);
+      panes[i].setAttribute('role', 'tabpanel'); panes[i].setAttribute('aria-labelledby', t.id); panes[i].tabIndex = 0;
+      t.addEventListener('click', function () { tab(i); });
+      t.addEventListener('keydown', function (e) {
+        var n = { ArrowRight: i + 1, ArrowLeft: i - 1, Home: 0, End: tabs.length - 1 }[e.key];
+        if (n === undefined) return; e.preventDefault(); n = (n + tabs.length) % tabs.length; tab(n); tabs[n].focus();
+      });
+    });
+    function tab(i) {
+      info.style.setProperty('--i', i);
+      tabs.forEach(function (t, j) { t.setAttribute('aria-selected', i === j ? 'true' : 'false'); t.tabIndex = i === j ? 0 : -1; });
+      panes.forEach(function (p, j) { p.hidden = i !== j; p.classList.remove('bk-grow'); });
+      var p = panes[i]; void p.offsetWidth;
+      requestAnimationFrame(function () { p.classList.add('bk-grow'); });
+    }
+    tab(0);
+  }
+
+  /* ---------- FAQ accordion ---------- */
+  var qs = $$('.bk-q'), qb = qs.map(function (q) { return $('.bk-q-btn', q); });
+  function setQ(q, open) { q.classList.toggle('bk-open', open); $('.bk-q-btn', q).setAttribute('aria-expanded', open ? 'true' : 'false'); }
+  qs.forEach(function (q, i) {
+    setQ(q, i === 0);
+    qb[i].addEventListener('click', function () {
+      var open = !q.classList.contains('bk-open');
+      qs.forEach(function (x) { setQ(x, false); });
+      if (open) setQ(q, true);
+    });
+    qb[i].addEventListener('keydown', function (e) {
+      var n = { ArrowDown: i + 1, ArrowUp: i - 1, Home: 0, End: qs.length - 1 }[e.key];
+      if (n === undefined) return; e.preventDefault(); qb[(n + qs.length) % qs.length].focus();
+    });
+  });
+})();
+</script><script src="/gdpr-consent.js?v=4"/><script src="/hb-tn.js?v=39" defer="defer"/></t></t>

@@ -1,0 +1,583 @@
+<t t-name="hbs.page_event_intro_tre_singapore_2027"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en&quot;}"/><t t-set="title">Introduction to TRE™ in Singapore 2027 | HummingBeing</t><t t-set="head"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
+new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
+"https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,"script","dataLayer","GTM-TXLR5LGG");</script><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="description" content="A 2-hour in-person introduction to TRE&#x2122; in Singapore on 23 Feb, 29 Jun or 3 Nov 2027, with Isabelle Claus Teixeira and Simba Stenqvist. S$88. Register now."/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/><link rel="stylesheet" href="/styles.css?v=98"/><link rel="preconnect" href="https://cdnjs.cloudflare.com"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png?v=3"/><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png?v=3"/><link rel="icon" href="/favicon.ico?v=3" sizes="any"/><link rel="apple-touch-icon" href="/apple-touch-icon.png?v=3"/><link rel="preload" as="image" href="/images/event-intro-tre-singapore-2027-poster.webp?v=1" fetchpriority="high"/><meta name="keywords" content="Introduction to TRE Singapore, TRE workshop Singapore, TRE in person Singapore 2027, tension and trauma releasing exercises, Isabelle Claus Teixeira, Simba Stenqvist, TRE Thailand, Global TRE Certifying Trainer"/><link rel="canonical" href="https://www.hummingbeing.com/event-intro-tre-singapore-2027"/><meta name="robots" content="index, follow"/><meta property="og:type" content="website"/><meta property="og:title" content="Introduction to TRE&#x2122; &#x2014; in person in Singapore, 2027"/><meta property="og:description" content="A 2-hour in-person introduction to TRE&#x2122; in Singapore on 23 Feb, 29 Jun or 3 Nov 2027, with Isabelle Claus Teixeira and Simba Stenqvist. S$88. Register now."/><meta property="og:image" content="https://www.hummingbeing.com/images/event-intro-tre-singapore-2027.webp?v=1"/><meta property="og:url" content="https://www.hummingbeing.com/event-intro-tre-singapore-2027"/><meta name="twitter:card" content="summary_large_image"/><script type="application/ld+json">
+    [
+      {
+        "@context": "https://schema.org",
+        "@type": "EducationEvent",
+        "name": "Introduction to TRE™ — in person in Singapore (23 Feb 2027)",
+        "description": "An Introduction to TRE™ for the general public: a 2-hour in-person workshop in Singapore, led by Global TRE™ Certifying Trainers Isabelle Claus Teixeira and Simba Stenqvist, in collaboration with TRE Thailand. Does not include TRE™ personal sessions. Venue details are shared with registered participants.",
+        "startDate": "2027-02-23T19:00:00+08:00",
+        "endDate": "2027-02-23T21:00:00+08:00",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": {
+          "@type": "Place",
+          "name": "Singapore (venue shared with registered participants)",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Singapore",
+            "addressCountry": "SG"
+          }
+        },
+        "isAccessibleForFree": false,
+        "offers": {
+          "@type": "Offer",
+          "name": "Public price",
+          "price": "88",
+          "priceCurrency": "SGD",
+          "url": "https://www.hummingbeing.com/event-intro-tre-singapore-2027#register",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2026-11-05T00:00:00+08:00"
+        },
+        "organizer": [
+          {
+            "@type": "Organization",
+            "name": "HummingBeing",
+            "url": "https://www.hummingbeing.com/"
+          }
+        ],
+        "performer": [
+          {
+            "@type": "Person",
+            "name": "Isabelle Claus Teixeira",
+            "jobTitle": "Global TRE™ Certifying Trainer"
+          },
+          {
+            "@type": "Person",
+            "name": "Simba Stenqvist",
+            "jobTitle": "Global TRE™ Certifying Trainer"
+          }
+        ],
+        "image": "https://www.hummingbeing.com/images/event-intro-tre-singapore-2027.webp?v=1",
+        "url": "https://www.hummingbeing.com/event-intro-tre-singapore-2027"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "EducationEvent",
+        "name": "Introduction to TRE™ — in person in Singapore (29 Jun 2027)",
+        "description": "An Introduction to TRE™ for the general public: a 2-hour in-person workshop in Singapore, led by Global TRE™ Certifying Trainers Isabelle Claus Teixeira and Simba Stenqvist, in collaboration with TRE Thailand. Does not include TRE™ personal sessions. Venue details are shared with registered participants.",
+        "startDate": "2027-06-29T19:00:00+08:00",
+        "endDate": "2027-06-29T21:00:00+08:00",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": {
+          "@type": "Place",
+          "name": "Singapore (venue shared with registered participants)",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Singapore",
+            "addressCountry": "SG"
+          }
+        },
+        "isAccessibleForFree": false,
+        "offers": {
+          "@type": "Offer",
+          "name": "Public price",
+          "price": "88",
+          "priceCurrency": "SGD",
+          "url": "https://www.hummingbeing.com/event-intro-tre-singapore-2027#register",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2026-11-05T00:00:00+08:00"
+        },
+        "organizer": [
+          {
+            "@type": "Organization",
+            "name": "HummingBeing",
+            "url": "https://www.hummingbeing.com/"
+          }
+        ],
+        "performer": [
+          {
+            "@type": "Person",
+            "name": "Isabelle Claus Teixeira",
+            "jobTitle": "Global TRE™ Certifying Trainer"
+          },
+          {
+            "@type": "Person",
+            "name": "Simba Stenqvist",
+            "jobTitle": "Global TRE™ Certifying Trainer"
+          }
+        ],
+        "image": "https://www.hummingbeing.com/images/event-intro-tre-singapore-2027.webp?v=1",
+        "url": "https://www.hummingbeing.com/event-intro-tre-singapore-2027"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "EducationEvent",
+        "name": "Introduction to TRE™ — in person in Singapore (3 Nov 2027)",
+        "description": "An Introduction to TRE™ for the general public: a 2-hour in-person workshop in Singapore, led by Global TRE™ Certifying Trainers Isabelle Claus Teixeira and Simba Stenqvist, in collaboration with TRE Thailand. Does not include TRE™ personal sessions. Venue details are shared with registered participants.",
+        "startDate": "2027-11-03T19:00:00+08:00",
+        "endDate": "2027-11-03T21:00:00+08:00",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": {
+          "@type": "Place",
+          "name": "Singapore (venue shared with registered participants)",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Singapore",
+            "addressCountry": "SG"
+          }
+        },
+        "isAccessibleForFree": false,
+        "offers": {
+          "@type": "Offer",
+          "name": "Public price",
+          "price": "88",
+          "priceCurrency": "SGD",
+          "url": "https://www.hummingbeing.com/event-intro-tre-singapore-2027#register",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2026-11-05T00:00:00+08:00"
+        },
+        "organizer": [
+          {
+            "@type": "Organization",
+            "name": "HummingBeing",
+            "url": "https://www.hummingbeing.com/"
+          }
+        ],
+        "performer": [
+          {
+            "@type": "Person",
+            "name": "Isabelle Claus Teixeira",
+            "jobTitle": "Global TRE™ Certifying Trainer"
+          },
+          {
+            "@type": "Person",
+            "name": "Simba Stenqvist",
+            "jobTitle": "Global TRE™ Certifying Trainer"
+          }
+        ],
+        "image": "https://www.hummingbeing.com/images/event-intro-tre-singapore-2027.webp?v=1",
+        "url": "https://www.hummingbeing.com/event-intro-tre-singapore-2027"
+      }
+    ]
+  </script><style>
+    /* ============ COMPACT EVENT LAYOUT (ce-*) ============ */
+    .ce-hero{position:relative;color:#fff;overflow:hidden;background:var(--navy-deep)}
+    .ce-hero .ce-bg{position:absolute;inset:0;background-size:cover;background-position:center;opacity:.20;filter:saturate(.7) blur(6px);transform:scale(1.06)}
+    .ce-hero::after{content:"";position:absolute;inset:0;background:linear-gradient(120deg,rgba(26,32,48,.94),rgba(36,46,66,.80) 60%,rgba(26,32,48,.92))}
+    .ce-hero-inner{position:relative;z-index:1;max-width:1160px;margin:0 auto;padding:96px 5% 40px;display:grid;grid-template-columns:1fr;gap:3rem;align-items:center}
+    .ce-crumbs{font-family:'Lato',sans-serif;font-size:.82rem;color:#c7d2e6;margin-bottom:1rem}
+    .ce-crumbs a{color:#fff;opacity:.85;text-decoration:none}.ce-crumbs a:hover{color:var(--gold)}
+    .ce-badges{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1.1rem}
+    .ce-badge{font-family:'Lato',sans-serif;font-size:.68rem;font-weight:800;letter-spacing:.09em;text-transform:uppercase;padding:.4rem .8rem;border-radius:50px;background:rgba(255,255,255,.14);color:#fff;border:1px solid rgba(255,255,255,.24)}
+    .ce-badge.cat{background:var(--gold);color:var(--navy);border-color:var(--gold)}
+    .ce-hero h1{font-family:'Playfair Display',Georgia,serif;font-size:clamp(2.1rem,4.4vw,3.3rem);font-weight:800;color:#fff;line-height:1.08;margin:0 0 .9rem}
+    .ce-hero h1 em{font-style:italic;color:var(--gold)}
+    .ce-lead{font-size:1.05rem;color:#dbe3f1;line-height:1.7;max-width:660px;margin:0 0 1.5rem}
+    .ce-lead strong{color:#fff;font-weight:700}
+    .ce-hero-actions{display:flex;gap:.8rem;flex-wrap:wrap}
+    .ce-poster{margin:0;border-radius:14px;overflow:hidden}
+    .ce-main &gt; .ce-poster{max-width:100%;margin:0 0 1.8rem;order:0}
+    .ce-poster img{width:100%;height:auto;display:block}
+    @media(max-width:900px){.ce-hero-inner{grid-template-columns:1fr;gap:2rem}.ce-poster{max-width:460px;margin:0 auto;order:-1}}
+    .ce-facts{position:relative;z-index:2;margin-top:-38px}
+    .ce-facts-grid{max-width:1160px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);background:#fff;border:1px solid rgba(36,46,66,.1);border-radius:14px;box-shadow:0 14px 42px rgba(36,46,66,.15);overflow:hidden}
+    .ce-fact{padding:18px 20px;border-right:1px solid rgba(36,46,66,.1);display:flex;gap:.7rem;align-items:flex-start}
+    .ce-fact:last-child{border-right:0}
+    .ce-fact i{color:var(--gold-dark);font-size:1rem;margin-top:3px;width:18px;text-align:center}
+    .ce-fact b{display:block;font-family:'Lato',sans-serif;font-size:.64rem;letter-spacing:.1em;text-transform:uppercase;color:var(--text-mid);font-weight:800;margin-bottom:.2rem}
+    .ce-fact span{color:var(--navy);font-weight:700;font-size:.88rem;line-height:1.35;font-family:'Lato',sans-serif}
+    @media(max-width:820px){.ce-facts-grid{grid-template-columns:1fr 1fr}.ce-fact:nth-child(2){border-right:0}.ce-fact:nth-child(-n+2){border-bottom:1px solid rgba(36,46,66,.1)}}
+    @media(max-width:480px){.ce-facts-grid{grid-template-columns:1fr}.ce-fact{border-right:0;border-bottom:1px solid rgba(36,46,66,.1)}.ce-fact:last-child{border-bottom:0}}
+    .ce-layout{max-width:1160px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:3rem;align-items:start;padding:3.4rem 5% 4rem}
+    @media(max-width:900px){.ce-layout{grid-template-columns:1fr;gap:2.2rem;padding:2.4rem 5% 3rem}}
+    .ce-main h2{font-family:'Playfair Display',Georgia,serif;font-size:1.5rem;color:var(--navy);margin:2.4rem 0 1rem;line-height:1.2}
+    .ce-main h2:first-child{margin-top:0}
+    .ce-main p{font-size:1rem;line-height:1.8;color:var(--body-text);margin:0 0 1rem}
+    .ce-list{list-style:none;padding:0;margin:0 0 1rem}
+    .ce-list li{position:relative;padding-left:1.7rem;margin-bottom:.6rem;font-size:.97rem;line-height:1.6;color:var(--body-text)}
+    .ce-list li::before{content:"\2713";position:absolute;left:0;top:0;color:var(--gold-dark);font-weight:800}
+    .ce-people{display:grid;grid-template-columns:1fr;gap:1.1rem;margin-top:.4rem}
+    @media(max-width:640px){.ce-people{grid-template-columns:1fr}}
+    .ce-person{background:var(--navy-deep);color:#fff;border-radius:12px;padding:1.7rem;display:flex;gap:1.3rem;align-items:flex-start}
+    .ce-main &gt; .ce-person + .ce-person{margin-top:1.1rem}
+    .ce-person .ce-avatar{flex:0 0 auto;width:104px;height:104px;border-radius:50%;object-fit:cover;object-position:top center;border:3px solid rgba(245,166,35,.55);box-shadow:0 8px 22px rgba(0,0,0,.28)}
+    .ce-person .ce-person-body{flex:1;min-width:0}
+    @media(max-width:520px){.ce-person{flex-direction:column;align-items:center;text-align:center}.ce-person .links{justify-content:center}}
+    .ce-person .role{font-family:'Lato',sans-serif;font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);font-weight:800}
+    .ce-person h4{font-family:'Playfair Display',serif;margin:.35rem 0 .55rem;font-size:1.35rem;color:#fff}
+    .ce-person p{color:rgba(255,255,255,.82);font-size:.92rem;line-height:1.7;margin:0 0 .9rem}
+    .ce-person .links{display:flex;gap:.6rem;flex-wrap:wrap}
+    .ce-person .links a{font-family:'Lato',sans-serif;font-size:.78rem;font-weight:700;color:var(--gold);text-decoration:none;border:1px solid rgba(245,166,35,.4);padding:.32rem .8rem;border-radius:5px}
+    .ce-person .links a:hover{background:rgba(245,166,35,.15)}
+    .ce-prep{background:var(--navy);color:#fff;border-radius:12px;padding:1.6rem 1.8rem;border-left:5px solid var(--gold);margin-top:2.2rem}
+    .ce-prep h2{color:#fff;margin:0 0 .6rem;font-size:1.25rem}
+    .ce-prep p{color:#dbe3f1;font-size:.93rem;margin:0 0 1rem;line-height:1.7}
+    .ce-prep .ce-list li{color:#dbe3f1}.ce-prep .ce-list li::before{color:var(--gold)}
+    .ce-prep .btn-row{display:flex;gap:.7rem;flex-wrap:wrap;margin-top:.4rem}
+    .ce-prep-section{background:#fff;padding:0 5% 3.5rem}
+    .ce-prep-section .ce-prep{max-width:1160px;margin:0 auto}
+    .ce-prep-section .ce-prep-list{columns:2;column-gap:2.2rem}
+    @media(max-width:640px){.ce-prep-section .ce-prep-list{columns:1}}
+    /* sticky-safe: clip instead of hidden so .ce-side can stick */
+    html,body{overflow-x:hidden;overflow-x:clip}
+    .ce-side{position:sticky;top:90px;align-self:start;display:grid;gap:1.2rem;max-height:calc(100vh - 106px);overflow-y:auto;overscroll-behavior:contain;scrollbar-width:none;-ms-overflow-style:none}
+    .ce-side::-webkit-scrollbar{display:none}
+    @media(max-width:900px){.ce-side{position:static;max-height:none;overflow:visible}}
+    .ce-box{background:#fff;border:1px solid rgba(36,46,66,.1);border-radius:14px;padding:1.5rem;box-shadow:0 4px 22px rgba(36,46,66,.08)}
+    .ce-box h3{font-family:'Playfair Display',serif;font-size:1.18rem;color:var(--navy);margin:0 0 .3rem}
+    .ce-box .sub{font-size:.85rem;color:var(--text-mid);margin:0 0 1rem;line-height:1.5}
+    .ce-box .btn{width:100%;text-align:center;display:block;margin-top:.5rem}
+    .ce-box .fine{font-size:.76rem;color:var(--text-mid);margin:.9rem 0 0;line-height:1.55}
+    .ce-box .fine .warn{color:#b23a2c;font-weight:700}
+    .ce-or{text-align:center;font-family:'Lato',sans-serif;font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--text-mid);margin:1rem 0 .6rem;position:relative}
+    .ce-box .evtl-field{display:flex;flex-direction:column;gap:.3rem;margin-bottom:.7rem}
+    .ce-box .evtl-field label{font-family:'Lato',sans-serif;font-size:.68rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--text-mid)}
+    .ce-box .evtl-field input{width:100%;padding:.6rem .75rem;border:1.5px solid rgba(36,46,66,.14);border-radius:8px;font-size:.9rem;font-family:'Lato',sans-serif;color:var(--navy);background:#fff;box-sizing:border-box}
+    .ce-box .evtl-field input:focus{outline:none;border-color:var(--gold)}
+    .ce-box .evtl-form-success{text-align:center;padding:.8rem 0}
+    .ce-box .evtl-form-success i{font-size:2rem;color:var(--gold);margin-bottom:.5rem}
+    .ce-box .evtl-form-success p{font-size:.9rem;color:var(--body-text);line-height:1.6;margin:0 0 .6rem}
+    .ce-qa p{font-size:.9rem;color:var(--body-text);line-height:1.7;margin:0 0 .4rem}.ce-qa a{color:var(--gold-dark);font-weight:600}
+    .ce-related{background:var(--cream);padding:3rem 5%}
+    .ce-related-inner{max-width:1160px;margin:0 auto}
+    .ce-related h2{font-family:'Playfair Display',serif;font-size:1.5rem;color:var(--navy);text-align:center;margin:0 0 1.6rem}
+    .ce-rel-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem}
+    @media(max-width:760px){.ce-rel-grid{grid-template-columns:1fr}}
+    .ce-rel{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 3px 16px rgba(36,46,66,.08);text-decoration:none;display:block;transition:transform .2s,box-shadow .2s}
+    .ce-rel:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(36,46,66,.15)}
+    .ce-rel img{width:100%;height:150px;object-fit:cover;display:block}
+    .ce-rel .b{padding:.9rem 1.1rem}
+    .ce-rel strong{display:block;font-family:'Playfair Display',serif;color:var(--navy);font-size:1rem;margin-bottom:.25rem;line-height:1.3}
+    .ce-rel span{font-family:'Lato',sans-serif;font-size:.8rem;color:var(--text-mid)}
+  
+    /* poster lightbox (generic) */
+    .ce-poster{cursor:zoom-in}
+    .ce-zoom-hint{position:absolute;bottom:10px;right:10px;background:rgba(15,21,36,.72);color:#fff;font-family:'Lato',sans-serif;font-size:.62rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:.3rem .6rem;border-radius:50px;pointer-events:none}
+    .ce-lightbox{position:fixed;inset:0;z-index:9999;background:rgba(10,14,24,.93);display:none;align-items:center;justify-content:center;padding:4vmin;cursor:zoom-out}
+    .ce-lightbox.open{display:flex}
+    .ce-lightbox img{max-width:100%;max-height:100%;border-radius:10px;box-shadow:0 30px 90px rgba(0,0,0,.6)}
+    .ce-lightbox-close{position:absolute;top:16px;right:22px;width:44px;height:44px;border:0;border-radius:50%;background:rgba(255,255,255,.12);color:#fff;font-size:1.6rem;line-height:1;cursor:pointer}
+    .ce-lightbox-close:hover{background:rgba(255,255,255,.22)}
+      .ce-poster-portrait .ce-zoom-hint{top:14px !important;bottom:auto !important}
+    /* intro-tre-singapore-2027 additions */
+    .ce-box .evtl-field select{width:100%;padding:.6rem .75rem;border:1.5px solid rgba(36,46,66,.14);border-radius:8px;font-size:.9rem;font-family:'Lato',sans-serif;color:var(--navy);background:#fff;box-sizing:border-box}
+    .ce-box .evtl-field select:focus{outline:none;border-color:var(--gold)}
+    .ce-health{background:#fdf3f1;border:1px solid rgba(178,58,44,.35);border-left:5px solid #b23a2c;border-radius:10px;padding:1rem 1.1rem;margin:0 0 1rem}
+    .ce-health h4{margin:0 0 .4rem;font-family:'Lato',sans-serif;font-size:.74rem;letter-spacing:.09em;text-transform:uppercase;color:#b23a2c;font-weight:800}
+    .ce-health p{font-size:.84rem!important;line-height:1.55!important;margin:0 0 .4rem!important;color:var(--body-text)}
+    .ce-health ul{margin:.2rem 0 .5rem;padding-left:1.1rem}.ce-health li{font-size:.84rem;line-height:1.55;color:var(--body-text);margin-bottom:.15rem}
+    .ce-main .ce-health{padding:1.3rem 1.5rem}.ce-main .ce-health p,.ce-main .ce-health li{font-size:.95rem!important}
+    .ce-sessions{list-style:none;padding:0;margin:0 0 1rem;display:grid;gap:.6rem}
+    .ce-sessions li{background:#fff;border:1px solid rgba(36,46,66,.12);border-radius:10px;padding:.8rem 1rem;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;font-family:'Lato',sans-serif;color:var(--navy)}
+    .ce-sessions li strong{font-weight:800}.ce-sessions li span{color:var(--text-mid);font-size:.9rem}
+  </style><script type="application/ld+json" data-seo="breadcrumb">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.hummingbeing.com/"}, {"@type": "ListItem", "position": 2, "name": "Events", "item": "https://www.hummingbeing.com/events"}, {"@type": "ListItem", "position": 3, "name": "Introduction to TRE™", "item": "https://www.hummingbeing.com/event-intro-tre-singapore-2027"}]}</script><link rel="preload" href="/fonts/hb/lato-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/hb/playfair-display-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/></t><t t-call="web.layout"><link rel="stylesheet" href="/styles.css?v=98"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXLR5LGG" height="0" width="0" style="display:none;visibility:hidden"/></noscript><nav>
+  <a href="/" class="logo"><img src="/images/logo-dark.webp" class="logo-on-dark" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/><img src="/images/logo-light.webp" class="logo-on-light" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/></a>
+  <ul class="nav-links">
+    <li><a href="/">Home</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/isabelle">Isabelle</a></li>
+    <li class="nav-dropdown">
+      <a href="javascript:void(0)" class="nav-dropdown-toggle">Work with Isabelle <i class="fa-solid fa-chevron-down nav-arrow"/></a>
+      <ul class="nav-dropdown-menu">
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™<small>Private sessions, online or in person</small></a></li>
+        <li><a href="/tre-certification">TRE™ Certification<small>Become a certified TRE™ provider</small></a></li>
+        <li><a href="/retreats-workshops">Retreats &amp; Workshops<small>Groups, teams and executives</small></a></li>
+      </ul>
+    </li>
+    <li><a href="/events">Events</a></li>
+    <li class="nav-book-mobile"><a href="/book">Book a free call</a></li>
+  </ul>
+  <div class="nav-actions">
+    <a href="/book" class="nav-cta">Book a free call</a>
+    <button class="hamburger" onclick="toggleMenu()"><span/><span/><span/></button>
+  </div>
+</nav><section class="ce-hero">
+  <div class="ce-bg" style="background-image:url('/images/event-intro-tre-singapore-2027.webp?v=1')"/>
+  <div class="ce-hero-inner">
+    <div>
+      <p class="ce-crumbs"><a href="/events">Events</a> › In-person workshop, Singapore</p>
+      <div class="ce-badges">
+        <span class="ce-badge cat">In person · Singapore</span>
+        <span class="ce-badge">Introduction to TRE™</span>
+        <span class="ce-badge">3 dates in 2027 · 7–9pm</span>
+        <span class="ce-badge">S$88</span>
+      </div>
+      <h1>Introduction <em>to TRE™</em></h1>
+      <p class="ce-lead">A first, hands-on meeting with TRE™ for anyone curious about calming a tired nervous system. In person in Singapore, in collaboration with TRE Thailand and Simba Stenqvist: two hours, including a full TRE™ session guided by two Global TRE™ Certifying Trainers, <strong>Isabelle Claus Teixeira</strong> and <strong>Simba Stenqvist</strong>.</p>
+      <div class="ce-hero-actions">
+        <a href="#register" class="btn btn-primary">Choose a session</a>
+        <a href="#reserve" class="btn btn-outline">Details &amp; questions</a>
+      </div>
+    </div>
+  </div>
+</section><div class="ce-facts">
+  <div class="ce-facts-grid">
+    <div class="ce-fact"><i class="fa-regular fa-calendar"/><div><b>Three sessions</b><span>Tue 23 Feb · Tue 29 Jun · Wed 3 Nov 2027</span></div></div>
+    <div class="ce-fact"><i class="fa-regular fa-clock"/><div><b>Time</b><span>7:00–9:00pm Singapore time</span></div></div>
+    <div class="ce-fact"><i class="fa-solid fa-location-dot"/><div><b>Format</b><span>In person, Singapore</span></div></div>
+    <div class="ce-fact"><i class="fa-solid fa-tag"/><div><b>Investment</b><span>S$88 per session · discounted S$66</span></div></div>
+  </div>
+</div><div class="ce-layout">
+  <div class="ce-main">
+    <figure class="ce-poster ce-poster-portrait" style="max-width:540px;margin-left:auto;margin-right:auto">
+      <img src="/images/event-intro-tre-singapore-2027-poster.webp?v=1" alt="Introduction to TRE, in person workshop in Singapore in collaboration with TRE Thailand, led by Isabelle Claus Teixeira and Simba Stenqvist, Global TRE Certifying Trainers. Dates 23 February, 29 June and 3 November 2027, 7 to 9 PM, in person. Public price 88 SGD, 66 SGD with a discount code." width="1080" height="1350" decoding="async"/>
+    </figure>
+
+    <h2>An Introduction to TRE™ for the general public</h2>
+    <p>Open to the general public and lasting two hours, this in-person workshop is the easiest way into TRE™. It does not include TRE™ personal sessions.</p>
+    <p>TRE™ (Tension, Stress &amp; Trauma Releasing Exercises) is the work of Dr. David Berceli. It is designed to switch on the body’s own neurogenic tremoring reflex, which many people find helps them let go of held stress, build resilience and settle into deeper regulation.</p>
+    <p>Along the way you will find out what TRE™ is and whether it could be a useful body-based practice for you, one you can keep using in daily life.</p>
+    <p>Should you want to go deeper, you can then continue your training with TRE™ <a href="/event-certification-2027" style="color:var(--gold-dark);font-weight:600">Module 1, Module 2 and Module 3</a> to become a Certified Global TRE™ Provider — accredited to offer TRE™ to individuals and groups.</p>
+
+    <h2>What will be covered</h2>
+    <ul class="ce-list">
+      <li><strong>A full TRE™ session experience</strong>, guided by Global TRE™ Certifying Trainers.</li>
+      <li><strong>What TRE™ is</strong> and how it can be beneficial for you as a body-based practice.</li>
+    </ul>
+
+    <h2>Dates &amp; place</h2>
+    <p>Three sessions are offered, each a separate date with the same content. Choose the one that suits you when you register.</p>
+    <ul class="ce-sessions"><li><strong>Tuesday 23 February 2027</strong><span>7:00–9:00pm Singapore time</span></li><li><strong>Tuesday 29 June 2027</strong><span>7:00–9:00pm Singapore time</span></li><li><strong>Wednesday 3 November 2027</strong><span>7:00–9:00pm Singapore time</span></li></ul>
+    <p>In person in Singapore. The venue details are shared with registered participants.</p>
+
+    <h2>Who this is for</h2>
+    <p>The general public: anybody interested to discover TRE™.</p>
+
+    <h2>Price</h2>
+    <p>Public price S$88 per session. With a discount code: S$66 per session. TRE™ personal sessions are not included; they can be purchased in addition for S$180 per session.</p>
+
+    <div class="ce-health" id="health">
+      <h4>Health restrictions</h4>
+      <p>This workshop is not suitable if any of the following applies to you:</p>
+      <ul>
+        <li>Pregnancy</li>
+        <li>Surgery or severe injury less than 8 weeks ago</li>
+        <li>Diagnosed psychiatric conditions</li>
+        <li>PTSD and C-PTSD (we recommend private sessions instead)</li>
+      </ul>
+    </div>
+
+    <h2>Your trainers</h2>
+    <div class="ce-people">
+      <div class="ce-person">
+        <img class="ce-avatar" src="/images/isabelle-your-trainer.webp" alt="Isabelle Claus Teixeira" width="104" height="104" loading="lazy" decoding="async"/>
+        <div class="ce-person-body">
+          <span class="role">Global TRE™ Certifying Trainer · ICF PCC</span>
+          <h4>Isabelle Claus Teixeira</h4>
+          <p>Somatic and Trauma-informed Executive Coach (ICF PCC), Global TRE™ Certifying Trainer and Mindfulness Teacher, trained directly under Dr. David Berceli, founder of TRE™. Over 30 years of experience across 9 countries and 40+ nationalities — in person and online.</p>
+          <div class="links">
+            <a href="/about">Meet Isabelle →</a>
+            <a href="https://www.linkedin.com/in/isabelleclausteixeira/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"/> LinkedIn</a>
+          </div>
+        </div>
+      </div>
+      <div class="ce-person">
+        <img class="ce-avatar" src="/images/simba-stenqvist.webp" alt="Simba Stenqvist" width="104" height="104" loading="lazy" decoding="async"/>
+        <div class="ce-person-body">
+          <span class="role">Global TRE™ Certifying Trainer · Creator of Internal Alchemy</span>
+          <h4>Simba Stenqvist</h4>
+          <p>Global TRE™ Certifying Trainer. Simba created Internal Alchemy, which brings breathwork, fascial release, grounding and tremor work together, building on more than 25 years of hands-on work in bodywork, nervous-system regulation and energetic healing, developed in close collaboration with Dr. David Berceli.</p>
+          <div class="links">
+            <a href="/event-internal-alchemy">About Internal Alchemy →</a>
+            <a href="https://livingwiththespirit.com/" target="_blank" rel="noopener"><i class="fa-solid fa-globe"/> livingwiththespirit.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SIDEBAR -->
+  <aside class="ce-side" id="reserve">
+    <div class="ce-box evtl-form-card" id="register">
+      <div class="reg-step1">
+      <h3>Register for a session</h3>
+      <p class="sub">In person in Singapore, 7:00–9:00pm Singapore time. Choose your session and fill in your details; Isabelle will confirm your place and send the payment link.</p>
+      <div class="ce-tiers" style="border-top:1px solid rgba(36,46,66,.1);border-bottom:1px solid rgba(36,46,66,.1);padding:.9rem 0;margin:0 0 1rem;display:flex;flex-direction:column;gap:.55rem">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;gap:.9rem;font-size:.9rem"><span style="color:var(--text-mid)">Public price <small style="display:block;font-size:.74rem">per session</small></span><strong style="color:var(--navy)">S$88</strong></div>
+        <div style="display:flex;justify-content:space-between;align-items:baseline;gap:.9rem;font-size:.9rem"><span style="color:var(--text-mid)">Discounted price <small style="display:block;font-size:.74rem">with a discount code</small></span><strong style="color:var(--navy)">S$66</strong></div>
+        <div style="display:flex;justify-content:space-between;align-items:baseline;gap:.9rem;font-size:.9rem"><span style="color:var(--text-mid)">Venue</span><strong style="color:var(--navy);text-align:right">Singapore<small style="display:block;font-size:.74rem;font-weight:400;color:var(--text-mid)">shared once registered</small></strong></div>
+      </div>
+      <div class="ce-health">
+        <h4>Health restrictions</h4>
+        <p>Please do not register if you have or have had:</p>
+        <ul>
+        <li>Pregnancy</li>
+        <li>Surgery or severe injury less than 8 weeks ago</li>
+        <li>Diagnosed psychiatric conditions</li>
+        <li>PTSD and C-PTSD (we recommend private sessions instead)</li>
+      </ul>
+      </div>
+      <form class="evtl-form reg-form">
+        <input type="hidden" name="event" value="Introduction to TRE™ — in person, Singapore 2027 (session not chosen)"/>
+        <input type="hidden" name="source" value="HummingBeing Event — Introduction to TRE™ Singapore 2027"/>
+        <div class="evtl-field"><label for="r-session">Session</label><select id="r-session" name="session" required="">
+          <option value="">Choose your session…</option>
+          <option value="23 Feb 2027">Tuesday 23 February 2027, 7:00–9:00 PM</option><option value="29 Jun 2027">Tuesday 29 June 2027, 7:00–9:00 PM</option><option value="3 Nov 2027">Wednesday 3 November 2027, 7:00–9:00 PM</option>
+        </select></div>
+        <div class="evtl-field"><label for="r-name">Full name</label><input id="r-name" name="name" type="text" required="" autocomplete="name"/></div>
+        <div class="evtl-field"><label for="r-email">Email</label><input id="r-email" name="email" type="email" required="" autocomplete="email" placeholder="your@email.com"/></div>
+        <div class="evtl-field"><label for="r-phone">Phone / WhatsApp</label><input id="r-phone" name="phone" type="tel" required="" autocomplete="tel"/></div>
+        <div class="evtl-field"><label for="r-country">Country (optional)</label><input id="r-country" name="country" type="text" autocomplete="country-name"/></div>
+        <div class="evtl-field"><label for="r-code">Discount code (optional)</label><input id="r-code" name="code" type="text" autocomplete="off" autocapitalize="characters"/></div>
+        <div class="evtl-field"><label for="r-msg">Your question (optional)</label><input id="r-msg" name="message" type="text"/></div>
+        <button type="submit" class="btn btn-primary">Register &amp; continue →</button>
+      </form>
+      <p class="fine">Have a discount code? Enter it above and Isabelle will send you the discounted payment link. TRE™ personal sessions are not included and can be added for S$180 per session.</p>
+      </div>
+      <div class="reg-step2" hidden="" aria-live="polite"/>
+      <p class="fine">Questions before the session? <span>bonjour@bhd<span style="display:none">-no-spam</span>asia.com</span></p>
+    </div>
+    <div class="ce-box ce-qa">
+      <h3>Questions?</h3>
+      <p>Ask before the session rather than on the day — we’re glad to help.</p>
+      <p><span>bonjour@bhd<span style="display:none">-no-spam</span>asia.com</span><br/><a href="https://wa.me/818065151778" target="_blank" rel="noopener">WhatsApp +81 80 6515 1778</a></p>
+    </div>
+  </aside>
+</div><section class="ce-prep-section">
+  <div class="ce-prep" id="prepare">
+      <h2>An in-person workshop in Singapore</h2>
+      <p>Each session is a standalone 2-hour workshop with the same content, so you only need to choose one date. The venue details are shared with registered participants.</p>
+      <ul class="ce-list ce-prep-list">
+        <li>Tuesday 23 February 2027, 7:00–9:00pm</li>
+        <li>Tuesday 29 June 2027, 7:00–9:00pm</li>
+        <li>Wednesday 3 November 2027, 7:00–9:00pm</li>
+        <li>TRE™ personal sessions are not included (S$180 per session, if added)</li>
+      </ul>
+      <div class="btn-row">
+        <a href="#register" class="btn btn-primary">Choose a session</a>
+      </div>
+    </div>
+</section><section class="ce-related">
+  <div class="ce-related-inner">
+    <h2>Other upcoming events</h2>
+    <div class="ce-rel-grid">
+      <a class="ce-rel" href="/event-body-in-the-room">
+        <img src="/images/card-event-body-in-the-room.webp?v=1" alt="The Body in the Room, online workshop with Aun Ali" loading="lazy" decoding="async"/>
+        <div class="b"><strong>The Body in the Room</strong><span>Online · 25 Nov 2026</span></div>
+      </a>
+      <a class="ce-rel" href="/event-breath-as-medicine">
+        <img src="/images/card-event-breath-as-medicine.webp?v=1" alt="Breath as a medicine, online workshop with Ania Zielińska" loading="lazy" decoding="async"/>
+        <div class="b"><strong>Breath as a medicine</strong><span>Online · 15 Dec 2026</span></div>
+      </a>
+      <a class="ce-rel" href="/event-certification-2027">
+        <img src="/images/card-event-certification-2027.webp?v=20261107b" alt="Global TRE™ Provider Certification 2027" loading="lazy" decoding="async"/>
+        <div class="b"><strong>Global TRE™ Provider Certification</strong><span>Singapore · 2027 cohort</span></div>
+      </a>
+    </div>
+  </div>
+</section><footer>
+  <div class="foot-grid">
+    <div>
+      <a href="/" class="foot-logo"><img src="/images/logo-dark.webp" alt="HummingBeing — Coaching &amp; Somatics" style="height:48px;width:auto;display:block" width="144" height="48"/></a>
+      <p class="foot-desc">Science backed processes with TRE™, Coaching and Somatic Practices — a space to release, renew and restore.</p>
+      <p class="foot-desc">Part of <strong>Business and Human Development Consulting Pte Ltd</strong></p>
+      <div class="foot-socials">
+        <a href="https://www.instagram.com/isabelleclausteixeira_bhd/" target="_blank" class="soc" aria-label="Instagram" rel="noopener noreferrer"><i class="fa-brands fa-instagram"/></a>
+        <a href="https://www.linkedin.com/in/isabelleclausteixeira/" target="_blank" class="soc" aria-label="LinkedIn" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"/></a>
+        <a href="https://www.youtube.com/@IsabelleClausTeixeira" target="_blank" class="soc" aria-label="YouTube" rel="noopener noreferrer"><i class="fa-brands fa-youtube"/></a>
+        <a href="https://wa.me/818065151778" target="_blank" class="soc" aria-label="WhatsApp" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"/></a>
+      </div>
+    </div>
+    <div>
+      <div class="foot-h">Work with Isabelle</div>
+      <ul class="foot-links">
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™</a></li>
+        <li><a href="/tre-certification">TRE™ Certification</a></li>
+        <li><a href="/retreats-workshops">Retreats &amp; Workshops</a></li>
+        <li><a href="/events">Events</a></li>
+        <li><a href="/book">Book a free call</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="foot-h">HummingBeing</div>
+      <ul class="foot-links">
+        <li><a href="/about">About HummingBeing</a></li>
+        <li><a href="/isabelle">Meet Isabelle</a></li>
+        <li><a href="/gallery">Gallery</a></li>
+        <li><a href="/socials">Socials</a></li>
+        <li><a href="/tre-faq">TRE™ FAQ</a></li>
+        <li><a href="/is-tre-safe">Is TRE™ Safe?</a></li>
+        <li><a href="/tre-icf-cceu">TRE™ with ICF CCEs</a></li>
+        <li><a href="https://www.bhdasia.com" target="_blank" rel="noopener">BHD Asia</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="foot-h">Contact</div>
+      <ul class="foot-links">
+        <li><span>bonjour@bhd<span style="display:none">-no-spam</span>asia.com</span></li>
+        <li><a href="https://wa.me/818065151778" target="_blank" rel="noopener noreferrer">WhatsApp Us</a></li>
+        <li><span>Global</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <div class="foot-copy">© 2026 HummingBeing — Business and Human Development Consulting Pte Ltd</div>
+    <div class="foot-legal">
+      <span>Privacy Policy</span>
+      <span>Terms of Service</span>
+      <span class="foot-sep">·</span>
+      <a href="https://technext.asia" target="_blank" rel="noopener noreferrer">Powered by <span class="tn-brand">TechNext</span></a>
+    </div>
+  </div>
+</footer><a href="https://wa.me/818065151778" class="wa-float" target="_blank" aria-label="Chat on WhatsApp" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"/></a><button class="top-float" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top"><i class="fa-solid fa-chevron-up"/></button><script src="/scripts.js?v=20261109e" defer="defer"/><script type="application/json" id="reg-config">
+{
+ "slug": "intro-tre-singapore-2027",
+ "title": "Introduction to TRE\u2122 \u2014 Singapore 2027",
+ "priceLine": "&lt;span class=\"hb-price\"&gt;Public price S$88 per session.&lt;/span&gt;",
+ "buttons": [],
+ "note": "&lt;span class=\"hb-note\"&gt;Isabelle will confirm your place and send you the payment link by email.&lt;/span&gt;"
+}
+</script><script src="/event-gate.js?v=3" defer="defer"/><script>
+/* Session picker + discount-code hash check for this page only (the shared gate script is untouched).
+   The session is written into the hidden "event" field so the lead tells Isabelle which date; a code is
+   compared by SHA-256 of the upper-cased input, nothing readable is stored here. */
+(function(){
+  var form=document.querySelector('form.reg-form'); if(!form) return;
+  var sel=form.querySelector('[name="session"]'), ev=form.querySelector('[name="event"]'), step2=document.querySelector('.reg-step2');
+  var HASH='7ecbb9241b49e4d0980e4457d85debb95f2601d6e0208a8c616f7573eb749afe', KEY='hb-intro-tre-2027', pending=null, last=null;
+  function sessText(){ return sel &amp;&amp; sel.value ? sel.options[sel.selectedIndex].text.replace(/\s*,?\s*7:00.*$/,'') : ''; }
+  function syncEvent(){ if(sel&amp;&amp;ev) ev.value='Introduction to TRE™ — '+(sessText()||'session not chosen')+', 7–9pm SGT (in person, Singapore)'; }
+  if(sel){ sel.addEventListener('change',syncEvent); syncEvent(); }
+  function hex(b){ return Array.prototype.map.call(new Uint8Array(b),function(x){return ('0'+x.toString(16)).slice(-2);}).join(''); }
+  function check(code){
+    code=(code||'').trim().toUpperCase(); if(!code) return Promise.resolve(false);
+    try{ return crypto.subtle.digest('SHA-256',new TextEncoder().encode(code)).then(function(d){return hex(d)===HASH;},function(){return false;}); }catch(e){ return Promise.resolve(false); }
+  }
+  function save(o){ try{ if(o===null) localStorage.removeItem(KEY); else localStorage.setItem(KEY,JSON.stringify(o)); }catch(e){} }
+  function load(){ try{ return JSON.parse(localStorage.getItem(KEY)||'null'); }catch(e){ return null; } }
+  form.addEventListener('submit',function(){
+    syncEvent();
+    var code=(form.querySelector('[name="code"]')||{}).value||'', sess=sessText();
+    pending=check(code).then(function(ok){ last={disc:ok,hasCode:!!code.trim(),sess:sess}; save(last); return last; });
+  },true);
+  function apply(info){
+    var p=step2.querySelector('.hb-price'), n=step2.querySelector('.hb-note'), h=step2.querySelector('h3');
+    if(!p||!n) return;
+    step2.setAttribute('data-hb','1');
+    if(h) h.textContent='Registration received';
+    var sessLine=info.sess?' Your session: '+info.sess+', 7:00–9:00pm.':'';
+    if(info.disc){ p.textContent='Discount code applied: S$66 per session.'; n.textContent='Isabelle will confirm your place and send you the discounted payment link by email.'+sessLine; }
+    else { p.textContent='Public price S$88 per session.'; n.textContent=(info.hasCode?'The code was not recognised, so the public price applies. ':'')+'Isabelle will confirm your place and send you the payment link by email.'+sessLine; }
+  }
+  if(step2 &amp;&amp; window.MutationObserver){
+    new MutationObserver(function(){
+      if(step2.hidden||!step2.querySelector('.hb-price')||step2.getAttribute('data-hb')==='1') return;
+      (pending||Promise.resolve(last||load()||{disc:false,hasCode:false,sess:''})).then(apply);
+    }).observe(step2,{childList:true});
+    step2.addEventListener('click',function(e){ if(e.target.closest&amp;&amp;e.target.closest('.reg-again')){ step2.removeAttribute('data-hb'); pending=null; last=null; save(null); } });
+  }
+})();
+</script><script>
+(function(){
+  var poster=document.querySelector('.ce-poster'); if(!poster) return;
+  var img=poster.querySelector('img'); if(!img) return;
+  poster.setAttribute('role','button'); poster.setAttribute('tabindex','0'); poster.setAttribute('aria-label','View full-size image');
+  if(!poster.querySelector('.ce-zoom-hint')){ var h=document.createElement('span'); h.className='ce-zoom-hint'; h.innerHTML='&lt;i class="fa-solid fa-magnifying-glass-plus"&gt;&lt;/i&gt; Click to enlarge'; poster.style.position=poster.style.position||'relative'; poster.appendChild(h); }
+  var lb=document.createElement('div'); lb.className='ce-lightbox'; lb.setAttribute('aria-hidden','true');
+  lb.innerHTML='&lt;button class="ce-lightbox-close" aria-label="Close"&gt;&amp;times;&lt;/button&gt;&lt;img alt=""&gt;';
+  document.body.appendChild(lb);
+  var lbImg=lb.querySelector('img'), closeBtn=lb.querySelector('.ce-lightbox-close');
+  function open(){ lbImg.src=img.currentSrc||img.src; lbImg.alt=img.alt||''; lb.classList.add('open'); lb.setAttribute('aria-hidden','false'); document.body.style.overflow='hidden'; }
+  function shut(){ lb.classList.remove('open'); lb.setAttribute('aria-hidden','true'); document.body.style.overflow=''; }
+  poster.addEventListener('click', open);
+  poster.addEventListener('keydown', function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); open(); } });
+  lb.addEventListener('click', function(e){ if(e.target===lb||e.target===closeBtn) shut(); });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape') shut(); });
+})();
+</script><script src="/gdpr-consent.js?v=4"/><script src="/hb-tn.js?v=39" defer="defer"/></t></t>

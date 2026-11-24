@@ -1,0 +1,1052 @@
+<t t-name="hbs.page_retreats_workshops"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en&quot;}"/><t t-set="title">Somatic Retreats &amp; TRE™ Workshops | Singapore &amp; Japan</t><t t-set="head"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
+new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
+"https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,"script","dataLayer","GTM-TXLR5LGG");</script><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="description" content="TRE&#x2122; workshops, somatic retreats and corporate wellness with Isabelle Claus Teixeira, from half-day sessions to multi-day retreats. Enquire now."/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/><link rel="stylesheet" href="/styles.css?v=98"/><style>
+    /* ==========================================================================
+       RETREATS &amp; WORKSHOPS (.rw) - page-scoped. Every selector lives under an
+       rw- class so nothing leaks into styles.css. Buttons (.btn) are NOT restyled.
+       ========================================================================== */
+    .rw {
+      --rw-navy: #242e42; --rw-deep: #1a2030; --rw-mid: #3a4a66;
+      --rw-gold: #F5A623; --rw-gold-d: #c98000; --rw-cream: #fafaf8; --rw-text: #3d4250;
+      --rw-ease: cubic-bezier(.23, 1, .32, 1);
+      --rw-pad: clamp(16px, 5vw, 64px);
+      --rw-max: 1180px;
+    }
+    section.rw {
+      padding: clamp(3.5rem, 7vw, 6.5rem) var(--rw-pad);
+      position: relative; overflow: clip; color: var(--rw-text);
+    }
+    .rw-wrap { max-width: var(--rw-max); margin: 0 auto; position: relative; }
+    .rw :focus-visible { outline: 3px solid var(--rw-gold); outline-offset: 3px; }
+    .rw p { font-family: 'Lato', sans-serif; line-height: 1.8; }
+
+    .rw-eyebrow {
+      display: inline-flex; align-items: center; gap: .75rem;
+      font-family: 'Lato', sans-serif; font-size: .72rem; font-weight: 700; line-height: 1.3;
+      letter-spacing: 3px; text-transform: uppercase; color: var(--rw-gold-d); margin-bottom: 1rem;
+    }
+    .rw-eyebrow::before { content: ""; flex: 0 0 28px; height: 2px; background: var(--rw-gold); }
+    .rw-head .rw-eyebrow::after { content: ""; flex: 0 0 28px; height: 2px; background: var(--rw-gold); }
+    .rw-title {
+      font-family: 'Playfair Display', Georgia, serif; font-weight: 700; color: var(--rw-navy);
+      font-size: clamp(1.9rem, 4vw, 3rem); line-height: 1.1; letter-spacing: -.01em; margin: 0 0 1.1rem;
+    }
+    .rw-title em { font-style: italic; color: var(--rw-gold-d); }
+    .rw-head { text-align: center; max-width: 46rem; margin: 0 auto clamp(2.25rem, 4.5vw, 3.5rem); }
+    .rw-sub { font-size: 1.04rem; max-width: 40rem; margin: 0 auto; color: var(--rw-text); }
+    .rw-rule { display: block; width: 56px; height: 3px; border-radius: 2px; background: var(--rw-gold); margin: 1.4rem 0 1.6rem; transform-origin: left center; }
+    .rw-cta { margin-top: clamp(2rem, 4vw, 3rem); display: flex; justify-content: center; }
+
+    /* -- Reveal (only hidden once our script has run) ------------------------ */
+    .rw-js .rw-rv {
+      opacity: 0; transform: translateY(26px);
+      transition: opacity .8s var(--rw-ease), transform .95s var(--rw-ease);
+      transition-delay: calc(var(--rw-i, 0) * 90ms);
+    }
+    .rw-js .rw-rv.rw-in { opacity: 1; transform: none; }
+    .rw-js .rw-rule.rw-rv { opacity: 1; transform: scaleX(0); }
+    .rw-js .rw-rule.rw-rv.rw-in { transform: scaleX(1); }
+
+    /* ======================= 1. WHY A RETREAT ================================ */
+    .rw-why-grid { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); gap: clamp(2.5rem, 6vw, 5.5rem); align-items: center; }
+    .rw-why-media { position: relative; isolation: isolate; }
+    .rw-why-media::before {
+      content: ""; position: absolute; inset: 0; z-index: -1; border: 2px solid var(--rw-gold); border-radius: 20px;
+      transform: translate(calc(18px - var(--px, 0px)), calc(18px - var(--py, 0px)));
+      transition: transform .9s var(--rw-ease);
+    }
+    .rw-why-frame {
+      position: relative; aspect-ratio: 16 / 10; border-radius: 20px; overflow: hidden; background: var(--rw-deep);
+      box-shadow: 0 30px 70px rgba(26, 32, 48, .22);
+      transform: perspective(1100px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg));
+      transition: transform .8s var(--rw-ease);
+    }
+    .rw-why-frame img {
+      position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block;
+      transform: scale(1.1) translate(var(--px, 0px), var(--py, 0px));
+      transition: transform 1s var(--rw-ease);
+    }
+    .rw-why-glow {
+      position: absolute; inset: 0; pointer-events: none; opacity: 0; transition: opacity .5s var(--rw-ease);
+      background: radial-gradient(380px circle at var(--mx, 50%) var(--my, 50%), rgba(245, 166, 35, .26), transparent 55%);
+    }
+    .rw-why-media:hover .rw-why-glow { opacity: 1; }
+    .rw-why-rings { position: absolute; right: -7%; bottom: -14%; width: clamp(130px, 20vw, 210px); height: auto; pointer-events: none; overflow: visible; }
+    .rw-why-rings circle { fill: none; stroke: var(--rw-gold); stroke-width: 1.4; transform-box: view-box; transform-origin: 100px 100px; opacity: 0; animation: rw-ripple 5.4s var(--rw-ease) infinite; }
+    .rw-why-rings circle:nth-child(2) { animation-delay: 1.8s; }
+    .rw-why-rings circle:nth-child(3) { animation-delay: 3.6s; }
+    .rw-why-rings .rw-why-core { fill: var(--rw-gold); stroke: none; opacity: 1; animation: rw-core 5.4s ease-in-out infinite; }
+    @keyframes rw-ripple { 0% { transform: scale(.08); opacity: 0; } 12% { opacity: .95; } 100% { transform: scale(1); opacity: 0; } }
+    @keyframes rw-core { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.35); } }
+    .rw-why-text p { font-size: 1.02rem; margin: 0 0 1.1rem; }
+    .rw-mark {
+      color: var(--rw-navy); font-weight: 700;
+      text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 5px;
+      text-decoration-color: var(--rw-gold);
+      transition: text-decoration-color .9s var(--rw-ease) .5s;
+    }
+    .rw-js .rw-rv:not(.rw-in) .rw-mark { text-decoration-color: transparent; }
+
+    /* ======================= 2. OFFERINGS SWITCHER =========================== */
+    /* No-JS: the six panels simply sit in a grid. */
+    .rw-off-stage { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 1.25rem; }
+    .rw-off-panel {
+      position: relative; isolation: isolate; overflow: hidden; border-radius: 20px;
+      padding: clamp(1.6rem, 3.6vw, 2.8rem); color: #fff;
+      background: linear-gradient(150deg, var(--rw-mid) 0%, var(--rw-navy) 50%, var(--rw-deep) 100%);
+      box-shadow: 0 24px 60px rgba(26, 32, 48, .2);
+    }
+    .rw-off-panel::before {
+      content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none; opacity: 0;
+      background: radial-gradient(460px circle at var(--mx, 70%) var(--my, 30%), rgba(245, 166, 35, .2), transparent 55%);
+      transition: opacity .5s var(--rw-ease);
+    }
+    .rw-off-panel::after {
+      content: ""; position: absolute; right: -18%; top: -30%; width: 70%; aspect-ratio: 1; z-index: -1; border-radius: 50%;
+      background: radial-gradient(circle, rgba(245, 166, 35, .2), transparent 65%); pointer-events: none;
+    }
+    .rw-off-stage:hover .rw-off-panel::before { opacity: 1; }
+    /* real-photo backgrounds on the offering panels (2026-09-29) */
+    .rw-off-panel { background: var(--rw-deep); }
+    .rw-off-bg { position: absolute; inset: 0; z-index: -2; overflow: hidden; border-radius: inherit; pointer-events: none; }
+    .rw-off-bg img { width: 100%; height: 100%; object-fit: cover; display: block; transform: scale(1.12); transition: transform 7s cubic-bezier(.23, 1, .32, 1); }
+    .rw-off-panel.rw-on .rw-off-bg img { transform: scale(1.02); }
+    .rw-off-bg::after { content: ""; position: absolute; inset: 0;
+      background: linear-gradient(100deg, rgba(26, 32, 48, .9) 0%, rgba(26, 32, 48, .74) 40%, rgba(26, 32, 48, .3) 75%, rgba(26, 32, 48, .12) 100%); }
+    .rw-off-panel::after { opacity: .6; }
+    .rw-off-panel h3, .rw-off-panel p { text-shadow: 0 1px 12px rgba(10, 14, 24, .45); }
+    @media (max-width: 1024px) {
+      .rw-off-bg::after { background: linear-gradient(180deg, rgba(26, 32, 48, .35) 0%, rgba(26, 32, 48, .78) 45%, rgba(26, 32, 48, .92) 100%); }
+    }
+    @media (prefers-reduced-motion: reduce) { .rw-off-bg img { transition: none; transform: none !important; } }
+    .rw-off-ic {
+      position: relative; width: 78px; height: 78px; border-radius: 50%; margin-bottom: 1.6rem;
+      display: grid; place-items: center; font-size: 1.75rem;
+      background: var(--rw-gold); color: var(--rw-deep); box-shadow: 0 14px 40px rgba(245, 166, 35, .32);
+    }
+    .rw-off-ic::after { content: ""; position: absolute; inset: -11px; border-radius: 50%; border: 1.5px dashed rgba(245, 166, 35, .6); animation: rw-spin 22s linear infinite; }
+    @keyframes rw-spin { to { transform: rotate(360deg); } }
+    .rw-off-idx { display: block; font-family: 'Lato', sans-serif; font-size: .7rem; font-weight: 700; letter-spacing: 2.4px; text-transform: uppercase; color: var(--rw-gold); margin-bottom: .7rem; font-variant-numeric: tabular-nums; }
+    .rw-off-panel h3 { font-family: 'Playfair Display', Georgia, serif; font-weight: 700; font-size: clamp(1.45rem, 2.8vw, 2.1rem); line-height: 1.15; color: #fff; margin: 0 0 1rem; }
+    .rw-off-panel p { color: rgba(255, 255, 255, .9); font-size: 1.02rem; max-width: 36rem; margin: 0; }
+    .rw-off-ghost {
+      position: absolute; right: .18em; top: -.12em; z-index: -1; pointer-events: none;
+      font-family: 'Playfair Display', Georgia, serif; font-weight: 800; font-size: clamp(7rem, 15vw, 12rem); line-height: 1;
+      color: rgba(255, 255, 255, .05); font-variant-numeric: tabular-nums;
+    }
+
+    /* JS: vertical tab rail + one stage with stacked, cross-fading panels */
+    .rw-js .rw-off-ui { display: grid; grid-template-columns: minmax(0, .88fr) minmax(0, 1.4fr); gap: clamp(1.25rem, 3vw, 2.25rem); align-items: stretch; }
+    .rw-js .rw-off-stage { display: grid; grid-template-columns: minmax(0, 1fr); gap: 0; position: relative; }
+    .rw-js .rw-off-panel {
+      grid-area: 1 / 1; display: flex; flex-direction: column; justify-content: center;
+      padding-bottom: clamp(5.5rem, 8vw, 6.5rem);
+      opacity: 0; visibility: hidden; transition: opacity .45s var(--rw-ease), visibility 0s linear .45s;
+    }
+    .rw-js .rw-off-panel.rw-on { opacity: 1; visibility: visible; transition: opacity .5s var(--rw-ease), visibility 0s; }
+    .rw-js .rw-off-panel &gt; .rw-off-idx, .rw-js .rw-off-panel &gt; h3, .rw-js .rw-off-panel &gt; p {
+      opacity: 0; transform: translateY(18px); transition: opacity .5s var(--rw-ease), transform .7s var(--rw-ease);
+    }
+    .rw-js .rw-off-panel &gt; .rw-off-ic { transform: scale(.6) rotate(-25deg); opacity: 0; transition: opacity .5s var(--rw-ease), transform .8s var(--rw-ease); }
+    .rw-js .rw-off-panel &gt; .rw-off-ghost { opacity: 0; transform: translateX(40px); transition: opacity .6s var(--rw-ease), transform 1s var(--rw-ease); }
+    .rw-js .rw-off-panel.rw-on &gt; * { opacity: 1; transform: none; }
+    .rw-js .rw-off-panel.rw-on &gt; .rw-off-ic { transition-delay: .05s; }
+    .rw-js .rw-off-panel.rw-on &gt; .rw-off-idx { transition-delay: .12s; }
+    .rw-js .rw-off-panel.rw-on &gt; h3 { transition-delay: .18s; }
+    .rw-js .rw-off-panel.rw-on &gt; p { transition-delay: .26s; }
+
+    .rw-off-tabs {
+      position: relative; display: flex; flex-direction: column; gap: 4px; padding: 6px;
+      background: #fff; border: 1px solid rgba(36, 46, 66, .08); border-radius: 20px;
+      box-shadow: 0 12px 34px rgba(36, 46, 66, .08);
+    }
+    .rw-off-ind {
+      position: absolute; top: 0; left: 0; width: 0; height: 0; z-index: 0; pointer-events: none;
+      border-radius: 14px; background: var(--rw-navy); box-shadow: 0 10px 26px rgba(26, 32, 48, .25);
+      transition: transform .55s var(--rw-ease);
+    }
+    .rw-off-tabs.rw-noanim .rw-off-ind { transition: none; }
+    .rw-off-tab {
+      position: relative; z-index: 1; flex: 1 1 auto; overflow: hidden;
+      display: grid; grid-template-columns: 42px minmax(0, 1fr) auto; align-items: center; gap: .9rem;
+      width: 100%; min-height: 60px; margin: 0; padding: .65rem .95rem; border: 0; border-radius: 14px;
+      background: transparent; cursor: pointer; text-align: left;
+      font-family: 'Lato', sans-serif; font-size: .95rem; font-weight: 700; line-height: 1.3; color: var(--rw-navy);
+      transition: color .35s var(--rw-ease), background-color .35s var(--rw-ease);
+      -webkit-tap-highlight-color: transparent;
+    }
+    .rw-off-ti {
+      width: 42px; height: 42px; border-radius: 50%; display: grid; place-items: center; font-size: 1rem;
+      background: rgba(245, 166, 35, .15); color: var(--rw-gold-d);
+      transition: background-color .35s var(--rw-ease), color .35s var(--rw-ease), transform .55s var(--rw-ease);
+    }
+    .rw-off-tn { font-size: .7rem; letter-spacing: 1.5px; color: var(--rw-mid); font-variant-numeric: tabular-nums; transition: color .35s var(--rw-ease); }
+    .rw-off-tab[aria-selected="true"] { color: #fff; }
+    .rw-off-tab[aria-selected="true"] .rw-off-ti { background: var(--rw-gold); color: var(--rw-deep); transform: scale(1.06); }
+    .rw-off-tab[aria-selected="true"] .rw-off-tn { color: rgba(255, 255, 255, .78); }
+    .rw-off-tab:focus-visible { outline-offset: -3px; }
+    .rw-off-tab:active .rw-off-ti { transform: scale(.92); }
+    @media (hover: hover) and (pointer: fine) {
+      .rw-off-tab:not([aria-selected="true"]):hover { background-color: rgba(36, 46, 66, .05); }
+      .rw-off-tab:not([aria-selected="true"]):hover .rw-off-ti { transform: scale(1.1) rotate(-8deg); }
+    }
+    .rw-off-prog {
+      position: absolute; left: 14px; right: 14px; bottom: 5px; height: 2px; border-radius: 2px;
+      background: var(--rw-gold); transform: scaleX(0); transform-origin: left center; opacity: 0;
+    }
+    .rw-off-auto .rw-off-tab[aria-selected="true"] .rw-off-prog { opacity: 1; animation: rw-prog 6.5s linear forwards; }
+    .rw-off-paused .rw-off-prog { animation-play-state: paused !important; }
+    @keyframes rw-prog { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+
+    .rw-off-nav {
+      position: absolute; left: clamp(1.6rem, 3.6vw, 2.8rem); right: clamp(1.6rem, 3.6vw, 2.8rem); bottom: clamp(1.25rem, 2.6vw, 2rem);
+      z-index: 2; display: flex; align-items: center; justify-content: flex-end; gap: .6rem; pointer-events: none;
+    }
+    .rw-off-nav &gt; * { pointer-events: auto; }
+    .rw-off-btn {
+      display: grid; place-items: center; width: 46px; height: 46px; margin: 0; padding: 0; cursor: pointer;
+      border-radius: 50%; border: 1px solid rgba(255, 255, 255, .28); background: rgba(26, 32, 48, .35); color: #fff; font-size: .9rem;
+      transition: background-color .3s var(--rw-ease), border-color .3s var(--rw-ease), color .3s var(--rw-ease), transform .4s var(--rw-ease);
+    }
+    .rw-off-btn:hover { background-color: var(--rw-gold); border-color: var(--rw-gold); color: var(--rw-deep); }
+    .rw-off-btn:active { transform: scale(.9); }
+
+    /* ======================= 3. EXECUTIVE PROGRAMMES ========================= */
+    .rw-ex-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(1.25rem, 3vw, 2rem); max-width: 1040px; margin: 0 auto; }
+    .rw-ex-card {
+      position: relative; isolation: isolate; overflow: hidden; display: flex; flex-direction: column;
+      background: #fff; border-radius: 20px; border: 1px solid rgba(36, 46, 66, .08);
+      padding: clamp(1.6rem, 3.4vw, 2.6rem);
+      box-shadow: 0 14px 40px rgba(36, 46, 66, .08);
+    }
+    .rw-js .rw-ex-card.rw-in {
+      transform: perspective(1100px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)) translateY(var(--ty, 0px));
+      transition: opacity .8s var(--rw-ease), transform .7s var(--rw-ease), box-shadow .5s var(--rw-ease);
+      transition-delay: 0s;
+    }
+    .rw-js .rw-ex-card.rw-in.rw-tilting { transition: transform .14s linear, box-shadow .5s var(--rw-ease); }
+    .rw-ex-card::before {
+      content: ""; position: absolute; left: 0; right: 0; top: 0; height: 4px;
+      background: linear-gradient(90deg, var(--rw-gold-d), var(--rw-gold)); transform-origin: left center;
+      transition: transform 1.1s var(--rw-ease) .25s;
+    }
+    .rw-ex-alt::before { background: linear-gradient(90deg, var(--rw-navy), var(--rw-mid)); }
+    .rw-js .rw-ex-card:not(.rw-in)::before { transform: scaleX(0); }
+    .rw-ex-card::after {
+      content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none; opacity: 0;
+      background: radial-gradient(420px circle at var(--mx, 50%) var(--my, 0%), rgba(245, 166, 35, .12), transparent 60%);
+      transition: opacity .5s var(--rw-ease);
+    }
+    @media (hover: hover) and (pointer: fine) {
+      .rw-ex-card:hover { --ty: -6px; box-shadow: 0 30px 70px rgba(36, 46, 66, .16); }
+      .rw-ex-card:hover::after { opacity: 1; }
+      .rw-ex-card:hover .rw-ex-ic { transform: rotate(-10deg) scale(1.08); }
+    }
+    .rw-ex-top { display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin-bottom: 1.4rem; }
+    .rw-ex-ic {
+      width: 58px; height: 58px; border-radius: 16px; display: grid; place-items: center; font-size: 1.35rem;
+      background: var(--rw-navy); color: var(--rw-gold); transition: transform .6s var(--rw-ease);
+    }
+    .rw-ex-alt .rw-ex-ic { background: var(--rw-gold); color: var(--rw-deep); }
+    .rw-ex .rw-ex-dur {
+      margin: 0; padding: .5rem 1rem; border-radius: 999px; background: rgba(245, 166, 35, .14);
+      font-size: .78rem; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; line-height: 1.4; color: var(--rw-navy);
+    }
+    .rw-ex-n { font-family: 'Playfair Display', Georgia, serif; font-size: 1.2rem; letter-spacing: 0; color: var(--rw-navy); }
+    .rw-ex-card h3 { font-family: 'Playfair Display', Georgia, serif; font-weight: 700; font-size: clamp(1.45rem, 2.6vw, 1.85rem); line-height: 1.15; color: var(--rw-navy); margin: 0 0 1.1rem; }
+    .rw-ex-rh { position: relative; display: flex; align-items: center; gap: .4rem; flex-wrap: nowrap; margin: 0 0 1.4rem; }
+    .rw-ex-rh &gt; span {
+      flex: 0 1 30px; min-width: 0; aspect-ratio: 1; border-radius: 50%; display: grid; place-items: center; font-size: .72rem;
+      transition: transform .6s var(--rw-ease), opacity .5s var(--rw-ease); transition-delay: calc(.35s + var(--rw-k, 0) * 70ms);
+    }
+    .rw-ex-d { background: rgba(245, 166, 35, .18); color: var(--rw-gold-d); }
+    .rw-ex-nt { background: var(--rw-navy); color: #fff; }
+    .rw-js .rw-ex-card:not(.rw-in) .rw-ex-rh &gt; span { transform: scale(0); opacity: 0; }
+    .rw-ex-card p { font-size: .98rem; margin: 0 0 1rem; color: var(--rw-text); }
+    .rw-ex .rw-ex-link { align-self: flex-start; margin-top: auto; padding-top: .6rem; display: inline-flex; align-items: center; gap: .45rem; min-height: 44px; color: var(--rw-gold-d); }
+    .rw-ex .rw-ex-link:hover { color: var(--rw-navy); }
+    .rw-arr { display: inline-block; transition: transform .45s var(--rw-ease); }
+    .rw-ex-link:hover .rw-arr, .rw-ex-link:focus-visible .rw-arr { transform: translateX(6px); }
+
+    /* ======================= 4. WHAT TO EXPECT (timeline) ==================== */
+    .rw-arc-tl { position: relative; }
+    .rw-arc-list { list-style: none; margin: 0; padding: 0; position: relative; z-index: 1; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(1rem, 2.4vw, 1.75rem); }
+    .rw-arc-track { position: absolute; z-index: 0; top: 32px; left: 12.5%; right: 12.5%; height: 2px; border-radius: 2px; background: rgba(36, 46, 66, .12); overflow: hidden; }
+    .rw-arc-fill { position: absolute; inset: 0; background: linear-gradient(90deg, var(--rw-gold-d), var(--rw-gold)); transform-origin: left center; }
+    .rw-js .rw-arc-fill { transform: scaleX(var(--rw-p, 0)); }
+    .rw-js .rw-arc-v .rw-arc-fill { transform-origin: center top; transform: scaleY(var(--rw-p, 0)); background: linear-gradient(180deg, var(--rw-gold-d), var(--rw-gold)); }
+    .rw-arc-step { display: flex; flex-direction: column; align-items: center; text-align: center; min-width: 0; }
+    .rw-arc-node {
+      position: relative; flex: 0 0 auto; width: 64px; height: 64px; border-radius: 50%; margin-bottom: 1.4rem;
+      display: grid; place-items: center; background: var(--rw-navy); border: 2px solid var(--rw-navy); color: var(--rw-gold);
+      font-family: 'Playfair Display', Georgia, serif; font-size: 1.45rem; font-weight: 700; line-height: 1;
+      transition: background-color .5s var(--rw-ease), border-color .5s var(--rw-ease), color .5s var(--rw-ease), transform .6s var(--rw-ease);
+    }
+    .rw-js .rw-arc-step:not(.rw-lit) .rw-arc-node { background: #fff; border-color: rgba(36, 46, 66, .18); color: var(--rw-navy); }
+    .rw-js .rw-arc-step.rw-lit .rw-arc-node { transform: scale(1.06); }
+    .rw-arc-node::after {
+      content: ""; position: absolute; inset: -9px; border-radius: 50%; border: 2px solid var(--rw-gold); opacity: 0; pointer-events: none;
+    }
+    .rw-arc-step.rw-cur .rw-arc-node::after, .rw-arc-step.rw-hov .rw-arc-node::after { animation: rw-breathe 3.2s ease-in-out infinite; }
+    @keyframes rw-breathe { 0% { transform: scale(.86); opacity: .85; } 70%, 100% { transform: scale(1.3); opacity: 0; } }
+    .rw-arc-body {
+      position: relative; overflow: hidden; flex: 1 1 auto; width: 100%;
+      padding: 1.5rem 1.3rem 1.6rem; border-radius: 16px; background: var(--rw-cream); border: 1px solid rgba(36, 46, 66, .07);
+      transition: transform .6s var(--rw-ease), box-shadow .5s var(--rw-ease), background-color .5s var(--rw-ease);
+    }
+    .rw-arc-body::before {
+      content: ""; position: absolute; left: 0; right: 0; top: 0; height: 3px; background: var(--rw-gold);
+      transform-origin: left center; transition: transform .8s var(--rw-ease) .1s;
+    }
+    .rw-js .rw-arc-step:not(.rw-lit) .rw-arc-body::before { transform: scaleX(0); }
+    .rw-js .rw-arc-step.rw-lit .rw-arc-body { background-color: #fff; box-shadow: 0 14px 36px rgba(36, 46, 66, .08); }
+    @media (hover: hover) and (pointer: fine) {
+      .rw-arc-step:hover .rw-arc-body { transform: translateY(-6px); box-shadow: 0 24px 50px rgba(36, 46, 66, .14); }
+    }
+    .rw-arc-body h3 { font-family: 'Playfair Display', Georgia, serif; font-weight: 700; font-size: 1.2rem; line-height: 1.25; color: var(--rw-navy); margin: 0 0 .7rem; }
+    .rw-arc-body p { font-size: .95rem; line-height: 1.75; margin: 0; color: var(--rw-text); }
+
+    /* ======================= 5. LOCATIONS ==================================== */
+    .rw-loc-grid { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); gap: clamp(2.5rem, 6vw, 5.5rem); align-items: center; }
+    .rw-loc-text &gt; p { font-size: 1.02rem; margin: 0 0 .5rem; }
+    .rw-loc-list { list-style: none; margin: 1.4rem 0 0; padding: 0; display: grid; gap: .45rem; }
+    .rw-loc-item {
+      display: grid; grid-template-columns: 44px minmax(0, 1fr); align-items: center; gap: 1rem;
+      padding: .6rem .9rem .6rem .6rem; border-radius: 14px; border: 1px solid transparent;
+      font-family: 'Lato', sans-serif; font-size: .98rem; line-height: 1.5; color: var(--rw-text);
+      transition: background-color .4s var(--rw-ease), border-color .4s var(--rw-ease), box-shadow .4s var(--rw-ease), transform .55s var(--rw-ease);
+    }
+    .rw-loc-item strong { color: var(--rw-navy); }
+    .rw-loc-ic {
+      width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center; font-size: .95rem;
+      background: rgba(245, 166, 35, .15); color: var(--rw-gold-d);
+      transition: background-color .4s var(--rw-ease), color .4s var(--rw-ease), transform .55s var(--rw-ease);
+    }
+    .rw-loc-item.rw-on { background-color: #fff; border-color: rgba(36, 46, 66, .08); box-shadow: 0 12px 30px rgba(36, 46, 66, .09); transform: translateX(6px); }
+    .rw-loc-item.rw-on .rw-loc-ic { background-color: var(--rw-navy); color: var(--rw-gold); transform: rotate(-8deg) scale(1.05); }
+    .rw-loc-actions { display: flex; align-items: center; gap: 1rem 1.2rem; flex-wrap: wrap; margin-top: 1.8rem; }
+
+    .rw-loc-media { position: relative; isolation: isolate; width: 100%; max-width: 440px; margin: 0 auto; }
+    .rw-loc-media::before {
+      content: ""; position: absolute; inset: 0; z-index: -1; border: 2px solid var(--rw-gold);
+      border-radius: 240px 240px 22px 22px; transform: translate(16px, 16px);
+    }
+    .rw-loc-frame { position: relative; aspect-ratio: 4 / 5; border-radius: 240px 240px 22px 22px; overflow: hidden; background: var(--rw-deep); box-shadow: 0 30px 70px rgba(26, 32, 48, .22); }
+    .rw-loc-frame img { position: absolute; inset: -6% 0; width: 100%; height: 112%; object-fit: cover; object-position: center 25%; display: block; transform: translateY(var(--rw-sy, 0px)); }
+    .rw-loc-orbit {
+      position: absolute; z-index: -2; top: -8%; right: -14%; width: 58%; aspect-ratio: 1; border-radius: 50%;
+      border: 1.5px dashed rgba(201, 128, 0, .45); animation: rw-spin 40s linear infinite; pointer-events: none;
+    }
+    .rw-loc-badge {
+      position: absolute; left: 1rem; right: 1rem; bottom: 1rem; z-index: 2;
+      display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: .75rem;
+      padding: .75rem .9rem; border-radius: 14px; background: rgba(250, 250, 248, .96);
+      box-shadow: 0 14px 34px rgba(26, 32, 48, .22);
+    }
+    .rw-loc-slides { display: grid; min-width: 0; }
+    .rw-loc-bs {
+      grid-area: 1 / 1; display: flex; align-items: center; gap: .7rem; min-width: 0;
+      font-family: 'Lato', sans-serif; font-size: .9rem; font-weight: 700; color: var(--rw-navy);
+      opacity: 0; transform: translateY(10px); transition: opacity .45s var(--rw-ease), transform .6s var(--rw-ease);
+    }
+    .rw-loc-bs.rw-on { opacity: 1; transform: none; }
+    .rw-loc-bs i { flex: 0 0 34px; width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center; background: var(--rw-navy); color: var(--rw-gold); font-size: .8rem; }
+    .rw-loc-bs span { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .rw-loc-dots { display: flex; gap: 5px; }
+    .rw-loc-dots i { width: 6px; height: 6px; border-radius: 3px; background: rgba(36, 46, 66, .22); transition: transform .45s var(--rw-ease), background-color .45s var(--rw-ease); }
+    .rw-loc-dots i.rw-on { background: var(--rw-gold-d); transform: scaleX(2.2); margin: 0 4px; }
+
+    /* ======================= Responsive ====================================== */
+    @media (max-width: 960px) {
+      .rw-js .rw-off-ui { grid-template-columns: minmax(0, 1fr); }
+      .rw-off-tabs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .rw-off-tab { grid-template-columns: minmax(0, 1fr); justify-items: center; text-align: center; gap: .45rem; padding: .8rem .5rem 1rem; font-size: .84rem; }
+      .rw-off-tn { display: none; }
+      .rw-off-prog { bottom: 4px; left: 20%; right: 20%; }
+      .rw-arc-list { grid-template-columns: minmax(0, 1fr); gap: 1.1rem; }
+      .rw-arc-step { display: grid; grid-template-columns: 56px minmax(0, 1fr); align-items: start; gap: 1rem; text-align: left; }
+      .rw-arc-node { width: 56px; height: 56px; font-size: 1.25rem; margin: 0; }
+      .rw-arc-track { top: 28px; left: 27px; right: auto; width: 2px; height: 0; }
+      .rw-loc-grid { grid-template-columns: minmax(0, 1fr); }
+      .rw-loc-media { max-width: 380px; }
+    }
+    @media (max-width: 820px) {
+      .rw-why-grid { grid-template-columns: minmax(0, 1fr); gap: 3rem; }
+      .rw-why-media { max-width: 620px; width: 100%; margin: 0 auto; }
+      .rw-ex-grid { grid-template-columns: minmax(0, 1fr); max-width: 620px; }
+    }
+    @media (max-width: 560px) {
+      .rw-off-tabs { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .rw-off-tab { font-size: .8rem; min-height: 88px; }
+      .rw-js .rw-off-panel { padding-bottom: 5.25rem; }
+      .rw-off-ghost { font-size: 6.5rem; }
+      .rw-off-ic { width: 64px; height: 64px; font-size: 1.4rem; }
+      .rw-why-rings { right: -4%; bottom: -10%; width: 120px; }
+      .rw-why-media::before { transform: translate(10px, 10px); }
+      .rw-loc-media::before { transform: translate(10px, 10px); }
+      .rw-loc-media { max-width: 320px; }
+      .rw-loc-item { gap: .8rem; font-size: .94rem; padding-right: .6rem; }
+      .rw-loc-item.rw-on { transform: translateX(3px); }
+      .rw-loc-orbit { right: -8%; }
+      .rw-head .rw-eyebrow { letter-spacing: 2px; }
+      .rw-head .rw-eyebrow::before, .rw-head .rw-eyebrow::after { flex-basis: 16px; }
+    }
+    @media (max-width: 360px) {
+      .rw-off-tab { font-size: .76rem; padding: .7rem .35rem .9rem; }
+      .rw-ex .rw-ex-dur { letter-spacing: 1px; font-size: .72rem; }
+      .rw-ex-rh { gap: .3rem; }
+      .rw-ex-rh &gt; span { font-size: .62rem; }
+    }
+
+    /* ======================= Reduced motion ================================== */
+    @media (prefers-reduced-motion: reduce) {
+      .rw *, .rw *::before, .rw *::after { animation: none !important; transition-duration: .01ms !important; transition-delay: 0ms !important; }
+      .rw-js .rw-rv, .rw-js .rw-rule.rw-rv { opacity: 1 !important; transform: none !important; }
+      .rw-why-frame, .rw-why-frame img, .rw-why-media::before, .rw-js .rw-ex-card.rw-in, .rw-loc-frame img { transform: none !important; }
+      .rw-why-rings circle { opacity: .5; }
+      .rw-js .rw-ex-card .rw-ex-rh &gt; span { transform: none !important; opacity: 1 !important; }
+      .rw-js .rw-arc-fill { transform: none !important; }
+      .rw-off-prog { display: none; }
+    }
+  </style><link rel="preconnect" href="https://cdnjs.cloudflare.com"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png?v=3"/><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png?v=3"/><link rel="icon" href="/favicon.ico?v=3" sizes="any"/><link rel="apple-touch-icon" href="/apple-touch-icon.png?v=3"/><meta name="keywords" content="somatic retreat, somatic workshop, TRE&#x2122; retreat, wellness retreat, somatic healing workshop, breathwork retreat, corporate wellness workshop"/><link rel="canonical" href="https://www.hummingbeing.com/retreats-workshops"/><meta name="robots" content="index, follow"/><meta property="og:type" content="website"/><meta property="og:site_name" content="HummingBeing"/><meta property="og:title" content="Somatic Retreats &amp; TRE&#x2122; Workshops | Singapore &amp; Japan"/><meta property="og:description" content="TRE&#x2122; workshops, somatic retreats and corporate wellness with Isabelle Claus Teixeira, from half-day sessions to multi-day retreats. Enquire now."/><meta property="og:url" content="https://www.hummingbeing.com/retreats-workshops"/><meta property="og:image" content="https://www.hummingbeing.com/images/isabelle-her-story.webp"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image:alt" content="HummingBeing somatic wellness retreat"/><meta property="og:locale" content="en_SG"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Somatic Retreats &amp; TRE&#x2122; Workshops | Singapore &amp; Japan"/><meta name="twitter:description" content="TRE&#x2122; workshops, somatic retreats and corporate wellness with Isabelle Claus Teixeira, from half-day sessions to multi-day retreats. Enquire now."/><meta name="twitter:image" content="https://www.hummingbeing.com/images/isabelle-her-story.webp"/><script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Retreats and Workshops",
+    "url": "https://www.hummingbeing.com/retreats-workshops",
+    "description": "Immersive somatic wellness retreats and workshops with Isabelle Claus Teixeira — TRE™, Somatic Healing and Breathwork.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "HummingBeing",
+      "url": "https://www.hummingbeing.com/"
+    }
+  }
+  </script><script type="application/ld+json" data-seo="breadcrumb">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.hummingbeing.com/"}, {"@type": "ListItem", "position": 2, "name": "Retreats &amp; Workshops", "item": "https://www.hummingbeing.com/retreats-workshops"}]}</script><script type="application/ld+json" data-seo="services">{"@context": "https://schema.org", "@type": "Service", "name": "Somatic Retreats &amp; TRE™ Workshops", "serviceType": "Somatic retreats and TRE™ workshops", "provider": {"@id": "https://www.hummingbeing.com/#organization", "@type": "Organization", "name": "HummingBeing"}, "areaServed": ["Singapore", "Japan", "Worldwide"], "url": "https://www.hummingbeing.com/retreats-workshops", "hasOfferCatalog": {"@type": "OfferCatalog", "name": "Types of Retreats &amp; Workshops", "itemListElement": [{"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Half-Day &amp; Day Workshops", "description": "Focused, accessible group sessions introducing somatic practices — TRE™, Breathwork or EFT — in a supportive group setting. Perfect for those curious about somatic work or wanting a deeper dive on a specific modality."}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Weekend Retreats", "description": "Multi-day immersions in carefully chosen locations in Singapore and Japan. A combination of group somatic practice, individual integration time, nature connection and nourishing meals — designed to reset the nervous system at depth."}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Corporate Wellness", "description": "Bespoke somatic wellness sessions designed for teams — addressing stress, burnout, communication and resilience at the organisational level. Delivered in-house or off-site, half-day to full-day formats."}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "TRE™ Group Sessions", "description": "Facilitated group TRE™ practice — experiencing the body’s natural tremor mechanism together in community. A powerful introduction to TRE™ and an effective regular practice for existing practitioners."}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Somatic Healing Circles", "description": "Intimate group healing experiences combining Reiki, Breathwork, EFT and somatic movement. A safe container for deep rest, release and reconnection. Limited to small groups to ensure depth and personal attention."}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Professional Training", "description": "Workshops and training programmes for coaches, therapists and wellness practitioners wanting to deepen their embodied practice and integrate somatic approaches into their work with clients."}}]}}</script><link rel="preload" href="/fonts/hb/lato-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/hb/playfair-display-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/></t><t t-call="web.layout"><link rel="stylesheet" href="/styles.css?v=98"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXLR5LGG" height="0" width="0" style="display:none;visibility:hidden"/></noscript><nav>
+  <a href="/" class="logo"><img src="/images/logo-dark.webp" class="logo-on-dark" alt="HummingBeing — Coaching &amp; Somatics" style="height:56px;width:auto" width="168" height="56"/><img src="/images/logo-light.webp" class="logo-on-light" alt="HummingBeing — Coaching &amp; Somatics" style="height:56px;width:auto" width="168" height="56"/></a>
+  <ul class="nav-links">
+    <li><a href="/">Home</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/isabelle">Isabelle</a></li>
+    <li class="nav-dropdown">
+      <a href="javascript:void(0)" class="nav-dropdown-toggle active">Work with Isabelle <i class="fa-solid fa-chevron-down nav-arrow"/></a>
+      <ul class="nav-dropdown-menu">
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™<small>Private sessions, online or in person</small></a></li>
+        <li><a href="/tre-certification">TRE™ Certification<small>Become a certified TRE™ provider</small></a></li>
+        <li><a href="/retreats-workshops">Retreats &amp; Workshops<small>Groups, teams and executives</small></a></li>
+      </ul>
+    </li>
+    <li><a href="/events">Events</a></li>
+    <li class="nav-book-mobile"><a href="/book">Book a free call</a></li>
+  </ul>
+  <div class="nav-actions">
+    <a href="/book" class="nav-cta">Book a free call</a>
+    <button class="hamburger" onclick="toggleMenu()"><span/><span/><span/></button>
+  </div>
+</nav><div class="page-hero">
+  <span class="eyebrow">Group Experiences</span>
+  <h1>Retreats &amp; <em>Workshops</em></h1>
+  <p>Immersive group experiences designed to reset your nervous system, deepen body awareness and reconnect you to yourself.</p>
+  <div class="hero-actions">
+    <a href="/book" class="btn btn-primary">Register Your Interest</a>
+    <a href="/events" class="btn btn-outline">Upcoming Events</a>
+  </div>
+</div><div class="ticker-wrap" aria-hidden="true">
+  <div class="ticker-track">
+    <span class="t-item"><span class="t-star">★</span> Somatic Retreats</span><span class="t-sep">·</span>
+    <span class="t-item">In-Person &amp; Online Worldwide</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> TRE™ Workshops</span><span class="t-sep">·</span>
+    <span class="t-item">Group Healing</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Breathwork Sessions</span><span class="t-sep">·</span>
+    <span class="t-item">Corporate Wellness</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Day Retreats</span><span class="t-sep">·</span>
+    <span class="t-item">Weekend Immersions</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Release · Renew · Restore</span><span class="t-sep">·</span>
+    <span class="t-item">Business &amp; Human Development</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Somatic Retreats</span><span class="t-sep">·</span>
+    <span class="t-item">In-Person &amp; Online Worldwide</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> TRE™ Workshops</span><span class="t-sep">·</span>
+    <span class="t-item">Group Healing</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Breathwork Sessions</span><span class="t-sep">·</span>
+    <span class="t-item">Corporate Wellness</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Day Retreats</span><span class="t-sep">·</span>
+    <span class="t-item">Weekend Immersions</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Release · Renew · Restore</span><span class="t-sep">·</span>
+    <span class="t-item">Business &amp; Human Development</span><span class="t-sep">·</span>
+  </div>
+</div><section class="section-cream rw rw-why">
+  <div class="rw-wrap rw-why-grid">
+    <div class="rw-why-media rw-rv">
+      <div class="rw-why-frame">
+        <video class=" hb-vid" muted="" loop="" playsinline="" preload="none" poster="/images/video/rest-room.webp" aria-label="Resting on the floor of a quiet, light room" data-hb-vid=""><source src="/images/video/rest-room.mp4" type="video/mp4"/></video>
+        <span class="rw-why-glow" aria-hidden="true"/>
+      </div>
+      <svg class="rw-why-rings" viewbox="0 0 200 200" aria-hidden="true" focusable="false"><circle cx="100" cy="100" r="96"/><circle cx="100" cy="100" r="96"/><circle cx="100" cy="100" r="96"/><circle class="rw-why-core" cx="100" cy="100" r="7"/></svg>
+    </div>
+    <div class="rw-why-text">
+      <span class="rw-eyebrow rw-rv">Why a Retreat?</span>
+      <h2 class="rw-title rw-rv">Deep Healing Needs <em>Space</em></h2>
+      <span class="rw-rule rw-rv" aria-hidden="true"/>
+      <p class="rw-rv">1:1 sessions are powerful — but retreats and workshops create something different. When a group of people commit to a shared experience together, <span class="rw-mark">the collective field amplifies the individual journey</span>. There is permission to go deeper, let go more fully and be witnessed in the process.</p>
+      <p class="rw-rv">HummingBeing retreats and workshops are carefully designed immersive experiences — combining TRE™, Somatic Healing, Breathwork, movement and reflection — in spaces that invite genuine transformation.</p>
+    </div>
+  </div>
+</section><section class="section-sage rw rw-off">
+  <div class="rw-wrap">
+    <div class="rw-head">
+      <span class="rw-eyebrow rw-rv">Our Offerings</span>
+      <h2 class="rw-title rw-rv">Types of Retreats &amp; Workshops</h2>
+      <p class="rw-sub rw-rv">From half-day introductions to multi-day immersions — in Singapore, Japan and beyond.</p>
+    </div>
+    <div class="rw-off-ui rw-rv">
+      <div class="rw-off-stage">
+        <article class="rw-off-panel">
+          <span class="rw-off-bg" aria-hidden="true"><img src="/images/gallery/gallery-module2-sep2026-5.webp" alt="Group somatic workshop in Singapore" loading="lazy" decoding="async" style="object-position:50% 60%"/></span>
+          <div class="rw-off-ic"><i class="fa-solid fa-sun"/></div>
+          <h3>Half-Day &amp; Day Workshops</h3>
+          <p>Focused, accessible group sessions introducing somatic practices — TRE™, Breathwork or EFT — in a supportive group setting. Perfect for those curious about somatic work or wanting a deeper dive on a specific modality.</p>
+        </article>
+        <article class="rw-off-panel">
+          <span class="rw-off-bg" aria-hidden="true"><img src="/images/gallery/gallery-ws-3.webp" alt="Participants at a HummingBeing weekend retreat" loading="lazy" decoding="async" style="object-position:50% 45%"/></span>
+          <div class="rw-off-ic"><i class="fa-solid fa-moon"/></div>
+          <h3>Weekend Retreats</h3>
+          <p>Multi-day immersions in carefully chosen locations in Singapore and Japan. A combination of group somatic practice, individual integration time, nature connection and nourishing meals — designed to reset the nervous system at depth.</p>
+        </article>
+        <article class="rw-off-panel">
+          <span class="rw-off-bg" aria-hidden="true"><img src="/images/gallery/gallery-insead-simba-stenqvist.webp" alt="Corporate wellness session at INSEAD with Simba Stenqvist" loading="lazy" decoding="async" style="object-position:62% 50%"/></span>
+          <div class="rw-off-ic"><i class="fa-solid fa-building"/></div>
+          <h3>Corporate Wellness</h3>
+          <p>Bespoke somatic wellness sessions designed for teams — addressing stress, burnout, communication and resilience at the organisational level. Delivered in-house or off-site, half-day to full-day formats.</p>
+        </article>
+        <article class="rw-off-panel">
+          <span class="rw-off-bg" aria-hidden="true"><img src="/images/gallery/gallery-module2-sep2026-4.webp" alt="Facilitated TRE™ group session" loading="lazy" decoding="async" style="object-position:50% 60%"/></span>
+          <div class="rw-off-ic"><i class="fa-solid fa-users"/></div>
+          <h3>TRE™ Group Sessions</h3>
+          <p>Facilitated group TRE™ practice — experiencing the body’s natural tremor mechanism together in community. A powerful introduction to TRE™ and an effective regular practice for existing practitioners.</p>
+        </article>
+        <article class="rw-off-panel">
+          <span class="rw-off-bg" aria-hidden="true"><img src="/images/gallery/gallery-screenshot-practice.webp" alt="Somatic healing circle practice" loading="lazy" decoding="async" style="object-position:60% 40%"/></span>
+          <div class="rw-off-ic"><i class="fa-solid fa-fire"/></div>
+          <h3>Somatic Healing Circles</h3>
+          <p>Intimate group healing experiences combining Reiki, Breathwork, EFT and somatic movement. A safe container for deep rest, release and reconnection. Limited to small groups to ensure depth and personal attention.</p>
+        </article>
+        <article class="rw-off-panel">
+          <span class="rw-off-bg" aria-hidden="true"><img src="/images/gallery/gallery-ws-4.webp" alt="Professional somatic training for coaches and therapists" loading="lazy" decoding="async" style="object-position:50% 35%"/></span>
+          <div class="rw-off-ic"><i class="fa-solid fa-graduation-cap"/></div>
+          <h3>Professional Training</h3>
+          <p>Workshops and training programmes for coaches, therapists and wellness practitioners wanting to deepen their embodied practice and integrate somatic approaches into their work with clients.</p>
+        </article>
+      </div>
+    </div>
+  </div>
+</section><section class="section-cream rw rw-ex">
+  <div class="rw-wrap">
+    <div class="rw-head">
+      <span class="rw-eyebrow rw-rv">Resilience Retreats for Professionals</span>
+      <h2 class="rw-title rw-rv">Executive Retreat Programmes</h2>
+      <p class="rw-sub rw-rv">Immersive physiological and strategic resets for leaders ready to perform at their highest level.</p>
+    </div>
+    <div class="rw-ex-grid">
+      <article class="rw-ex-card rw-rv">
+        <div class="rw-ex-top">
+          <span class="rw-ex-ic"><i class="fa-solid fa-spa"/></span>
+          <p class="rw-ex-dur"><span class="rw-ex-n">5</span> Days · <span class="rw-ex-n">4</span> Nights</p>
+        </div>
+        <h3>The Corporate Detox</h3>
+        <div class="rw-ex-rh" aria-hidden="true"><span class="rw-ex-d"><i class="fa-solid fa-sun"/></span><span class="rw-ex-nt"><i class="fa-solid fa-moon"/></span><span class="rw-ex-d"><i class="fa-solid fa-sun"/></span><span class="rw-ex-nt"><i class="fa-solid fa-moon"/></span><span class="rw-ex-d"><i class="fa-solid fa-sun"/></span><span class="rw-ex-nt"><i class="fa-solid fa-moon"/></span><span class="rw-ex-d"><i class="fa-solid fa-sun"/></span><span class="rw-ex-nt"><i class="fa-solid fa-moon"/></span><span class="rw-ex-d"><i class="fa-solid fa-sun"/></span></div>
+        <p>An immersive sanctuary designed to prevent executive burnout and restore sustainable peak performance. By fusing advanced coaching, somatic and mindfulness techniques, this programme physically discharges accumulated stress and bypasses mental fatigue.</p>
+        <p>Generous daily self-reflection blocks provide the rare luxury of unstructured space to integrate deep breakthroughs and crystallise clear boundaries. You will return to work recalibrated — calm, deeply embodied, and leading with resilient authority.</p>
+        <a href="/book" class="card-link rw-ex-link">Enquire Now <span class="rw-arr" aria-hidden="true">→</span></a>
+      </article>
+      <article class="rw-ex-card rw-ex-alt rw-rv">
+        <div class="rw-ex-top">
+          <span class="rw-ex-ic"><i class="fa-solid fa-bolt"/></span>
+          <p class="rw-ex-dur"><span class="rw-ex-n">3</span> Days · <span class="rw-ex-n">2</span> Nights</p>
+        </div>
+        <h3>The Quick Reset</h3>
+        <div class="rw-ex-rh" aria-hidden="true"><span class="rw-ex-d"><i class="fa-solid fa-sun"/></span><span class="rw-ex-nt"><i class="fa-solid fa-moon"/></span><span class="rw-ex-d"><i class="fa-solid fa-sun"/></span><span class="rw-ex-nt"><i class="fa-solid fa-moon"/></span><span class="rw-ex-d"><i class="fa-solid fa-sun"/></span></div>
+        <p>A rapid down-regulation experience that shifts executives from survival mode into deep physiological recovery. It physically shakes off stored corporate stress while surfacing the subconscious cognitive saboteurs driving burnout.</p>
+        <p>You will return to work re-centred, equipped with immediate somatic tools to maintain clear boundaries and resilient, calm authority.</p>
+        <a href="/book" class="card-link rw-ex-link">Enquire Now <span class="rw-arr" aria-hidden="true">→</span></a>
+      </article>
+    </div>
+    <div class="rw-cta rw-rv">
+      <a href="/book" class="btn btn-primary">Register Your Interest</a>
+    </div>
+  </div>
+</section><section class="section-white rw rw-arc">
+  <div class="rw-wrap">
+    <div class="rw-head">
+      <span class="rw-eyebrow rw-rv">What to Expect</span>
+      <h2 class="rw-title rw-rv">A Typical Retreat Experience</h2>
+      <p class="rw-sub rw-rv">Each retreat is unique — but every one follows the same arc of arrival, release and integration.</p>
+    </div>
+    <div class="rw-arc-tl">
+      <div class="rw-arc-track" aria-hidden="true"><span class="rw-arc-fill"/></div>
+      <ol class="rw-arc-list">
+        <li class="rw-arc-step rw-rv">
+          <span class="rw-arc-node" aria-hidden="true">1</span>
+          <div class="rw-arc-body">
+            <h3>Arrival &amp; Grounding</h3>
+            <p>We begin by slowing down — settling into the body, getting present in the space, and meeting the group with curiosity and openness. No performance, no agenda imposed from the outside.</p>
+          </div>
+        </li>
+        <li class="rw-arc-step rw-rv">
+          <span class="rw-arc-node" aria-hidden="true">2</span>
+          <div class="rw-arc-body">
+            <h3>Somatic Practice</h3>
+            <p>Guided TRE™, Breathwork, movement or Somatic Healing sessions — supported by Isabelle throughout. The pace follows the group’s natural rhythm, not a clock.</p>
+          </div>
+        </li>
+        <li class="rw-arc-step rw-rv">
+          <span class="rw-arc-node" aria-hidden="true">3</span>
+          <div class="rw-arc-body">
+            <h3>Rest &amp; Integration</h3>
+            <p>Space to rest, journal, reflect or simply be. The body needs time to integrate what has been released — this is not downtime, it is an essential part of the healing arc.</p>
+          </div>
+        </li>
+        <li class="rw-arc-step rw-rv">
+          <span class="rw-arc-node" aria-hidden="true">4</span>
+          <div class="rw-arc-body">
+            <h3>Sharing &amp; Closing</h3>
+            <p>Optional group sharing in a confidential, supportive container. A closing practice to anchor the experience and prepare you to carry it into daily life.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+    <div class="rw-cta rw-rv">
+      <a href="/book" class="btn btn-primary">Register Your Interest</a>
+    </div>
+  </div>
+</section><section class="section-cream rw rw-loc">
+  <div class="rw-wrap rw-loc-grid">
+    <div class="rw-loc-text">
+      <span class="rw-eyebrow rw-rv">Where We Gather</span>
+      <h2 class="rw-title rw-rv">Singapore, Japan &amp; Beyond</h2>
+      <span class="rw-rule rw-rv" aria-hidden="true"/>
+      <p class="rw-rv">HummingBeing retreats are held in carefully selected venues — spaces that support rest, presence and deep healing rather than busy hotel conference rooms. Past locations have included intimate wellness studios, nature-surrounded resorts and traditional ryokan in Japan.</p>
+      <ul class="rw-loc-list rw-rv">
+        <li class="rw-loc-item"><span class="rw-loc-ic" aria-hidden="true"><i class="fa-solid fa-city"/></span><span class="rw-loc-t"><strong>Singapore</strong> — boutique wellness studios and retreat centres</span></li>
+        <li class="rw-loc-item"><span class="rw-loc-ic" aria-hidden="true"><i class="fa-solid fa-torii-gate"/></span><span class="rw-loc-t"><strong>Japan</strong> — traditional and nature-based settings</span></li>
+        <li class="rw-loc-item"><span class="rw-loc-ic" aria-hidden="true"><i class="fa-solid fa-earth-asia"/></span><span class="rw-loc-t"><strong>International retreats</strong> — by special arrangement</span></li>
+        <li class="rw-loc-item"><span class="rw-loc-ic" aria-hidden="true"><i class="fa-solid fa-laptop"/></span><span class="rw-loc-t"><strong>Online workshops</strong> — for global participants</span></li>
+        <li class="rw-loc-item"><span class="rw-loc-ic" aria-hidden="true"><i class="fa-solid fa-building"/></span><span class="rw-loc-t"><strong>In-house corporate</strong> — at your organisation</span></li>
+      </ul>
+      <div class="rw-loc-actions rw-rv">
+        <a href="/book" class="btn btn-primary">Enquire Now</a>
+        <a href="/events" class="btn btn-outline">Upcoming Events</a>
+      </div>
+    </div>
+    <div class="rw-loc-media rw-rv">
+      <div class="rw-loc-frame"><img src="/images/isabelle-where-we-gather.webp" alt="Isabelle Claus Teixeira facilitating a retreat" loading="lazy" decoding="async" width="800" height="600"/></div>
+      <span class="rw-loc-orbit" aria-hidden="true"/>
+    </div>
+  </div>
+</section><section class="tn-sec tn-warm tn-lead" id="start" aria-labelledby="tn-lead-h" data-funnel="book">
+  <div class="tn-wrap tn-lead-grid">
+    <div>
+      <span class="tn-eyebrow">Free discovery call</span>
+      <h2 class="tn-h2" id="tn-lead-h">Start with a free 30-minute call.</h2>
+      <p class="tn-lede">No agenda and no pressure. Tell Isabelle what you are carrying and she will suggest what fits, if anything does.</p>
+      <ol class="tn-next">
+        <li><span>1</span><div><b>Send your details</b>One minute, right here.</div></li>
+        <li><span>2</span><div><b>Pick a time</b>Choose a slot straight away, or we reply within one business day.</div></li>
+        <li><span>3</span><div><b>Talk with Isabelle</b>Online, wherever you are, or in person in Singapore.</div></li>
+      </ol>
+    </div>
+    <div class="tn-card tn-formcard">
+      <div class="tn-form-head"><h3>Book your free call</h3><p>Fields marked * are required.</p></div>
+      <form class="tn-form tn-lead-form" data-source="Free call form" action="#" method="post" novalidate="">
+        <input type="text" name="_honey" tabindex="-1" autocomplete="off" class="tn-hp" aria-hidden="true"/>
+        <div class="tn-fr">
+          <label class="tn-f"><span>Your name <i>*</i></span><input type="text" name="fullname" autocomplete="name" required=""/></label>
+          <label class="tn-f"><span>Email <i>*</i></span><input type="email" name="email" autocomplete="email" required=""/></label>
+        </div>
+        <div class="tn-fr">
+          <label class="tn-f"><span>Phone / WhatsApp <i>*</i></span><input type="tel" name="phone" autocomplete="tel" inputmode="tel" required="" placeholder="+65"/></label>
+          <label class="tn-f"><span>I'm interested in</span>
+            <select name="interest">
+              <option value="">Not sure yet</option>
+              <option>1:1 TRE™ sessions</option>
+              <option>Somatic coaching</option>
+              <option>Mindfulness programme</option>
+              <option>TRE™ certification</option>
+              <option>Retreat or team workshop</option>
+            </select></label>
+        </div>
+        <button type="submit" class="tn-btn">Request my free call <svg viewbox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <p class="tn-form-err" role="alert" hidden="">Please add your name, a valid email and a phone number.</p>
+      </form>
+      <div class="tn-form-ok" hidden="" role="status" tabindex="-1">
+        <svg class="tn-ok-ic" viewbox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M7.5 12.5l3 3 6-6.5"/></svg>
+        <h3>Thank you, your request is in.</h3>
+        <p>Pick a time for your call now, or wait for our reply within one business day.</p>
+        <a class="tn-btn" href="https://calendly.com/bhdasia/30min" target="_blank" rel="noopener" data-cta="thanks-calendly">Pick a time now</a>
+      </div>
+      <p class="tn-alt-contact">Prefer to message? <a href="https://wa.me/818065151778" target="_blank" rel="noopener">WhatsApp Isabelle</a></p>
+    </div>
+  </div>
+</section><footer>
+  <div class="foot-grid">
+    <div>
+      <a href="/" class="foot-logo"><img src="/images/logo-dark.webp" alt="HummingBeing — Coaching &amp; Somatics" width="144" height="48" style="height:48px;width:auto;display:block"/></a>
+      <p class="foot-desc">Science backed processes with TRE™, Coaching and Somatic Practices — a space to release, renew and restore.</p>
+      <p class="foot-desc">Part of <strong>Business and Human Development Consulting Pte Ltd</strong></p>
+      <div class="foot-socials">
+        <a href="https://www.instagram.com/isabelleclausteixeira_bhd/" target="_blank" rel="noopener noreferrer" class="soc" aria-label="Instagram"><i class="fa-brands fa-instagram"/></a>
+        <a href="https://www.linkedin.com/in/isabelleclausteixeira/" target="_blank" rel="noopener noreferrer" class="soc" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"/></a>
+        <a href="https://www.youtube.com/@IsabelleClausTeixeira" target="_blank" rel="noopener noreferrer" class="soc" aria-label="YouTube"><i class="fa-brands fa-youtube"/></a>
+        <a href="https://wa.me/818065151778" target="_blank" rel="noopener noreferrer" class="soc" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"/></a>
+      </div>
+    </div>
+    <div>
+      <div class="foot-h">Work with Isabelle</div>
+      <ul class="foot-links">
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™</a></li>
+        <li><a href="/tre-certification">TRE™ Certification</a></li>
+        <li><a href="/retreats-workshops">Retreats &amp; Workshops</a></li>
+        <li><a href="/events">Events</a></li>
+        <li><a href="/book">Book a free call</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="foot-h">HummingBeing</div>
+      <ul class="foot-links">
+        <li><a href="/about">About HummingBeing</a></li>
+        <li><a href="/isabelle">Meet Isabelle</a></li>
+        <li><a href="/gallery">Gallery</a></li>
+        <li><a href="/socials">Socials</a></li>
+        <li><a href="/tre-faq">TRE™ FAQ</a></li>
+        <li><a href="/is-tre-safe">Is TRE™ Safe?</a></li>
+        <li><a href="/tre-icf-cceu">TRE™ with ICF CCEs</a></li>
+        <li><a href="https://www.bhdasia.com" target="_blank" rel="noopener">BHD Asia</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="foot-h">Contact</div>
+      <ul class="foot-links">
+        <li><span>bonjour@bhd<span style="display:none">-no-spam</span>asia.com</span></li>
+        <li><a href="https://wa.me/818065151778" target="_blank" rel="noopener noreferrer">WhatsApp Us</a></li>
+        <li><span>Global</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <div class="foot-copy">© 2026 HummingBeing — Business and Human Development Consulting Pte Ltd</div>
+    <div class="foot-legal">
+      <span>Privacy Policy</span>
+      <span>Terms of Service</span>
+      <span class="foot-sep">·</span>
+      <a href="https://technext.asia" target="_blank" rel="noopener noreferrer">Powered by <span class="tn-brand">TechNext</span></a>
+    </div>
+  </div>
+</footer><a href="https://wa.me/818065151778" class="wa-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"/></a><button class="top-float" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top"><i class="fa-solid fa-chevron-up"/></button><script src="/scripts.js?v=20261109e" defer="defer"/><script>
+/* ==========================================================================
+   RETREATS &amp; WORKSHOPS (.rw) - scroll reveal, offerings tab switcher with
+   autoplay, executive card tilt, scroll-driven timeline, location spotlight.
+   Plain JS, no libraries. Everything is scoped to section.rw.
+   ========================================================================== */
+(function () {
+  'use strict';
+  var sections = document.querySelectorAll('section.rw');
+  if (!sections.length) return;
+  document.documentElement.classList.add('rw-js');
+
+  var mqReduce = window.matchMedia('(prefers-reduced-motion: reduce)');
+  var mqFine = window.matchMedia('(hover: hover) and (pointer: fine)');
+  function still() { return mqReduce.matches; }
+  function $(s, c) { return (c || document).querySelector(s); }
+  function $$(s, c) { return Array.prototype.slice.call((c || document).querySelectorAll(s)); }
+  function clamp(v, a, b) { return Math.max(a, Math.min(b, v)); }
+  var hasIO = 'IntersectionObserver' in window;
+
+  /* ---- Reveal on scroll (stagger index = position among revealing siblings) */
+  var rv = $$('section.rw .rw-rv');
+  rv.forEach(function (el) {
+    var sibs = Array.prototype.filter.call(el.parentElement.children, function (c) { return c.classList.contains('rw-rv'); });
+    el.style.setProperty('--rw-i', Math.min(sibs.indexOf(el), 6));
+  });
+  if (!hasIO || still()) {
+    rv.forEach(function (el) { el.classList.add('rw-in'); });
+  } else {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { e.target.classList.add('rw-in'); io.unobserve(e.target); }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -6% 0px' });
+    rv.forEach(function (el) { io.observe(el); });
+  }
+
+  /* ---- 1. Why a retreat: pointer parallax + glow ------------------------ */
+  var why = $('.rw-why-media');
+  if (why) {
+    var frame = $('.rw-why-frame', why);
+    why.addEventListener('pointermove', function (e) {
+      if (!mqFine.matches || still()) return;
+      var r = frame.getBoundingClientRect();
+      var x = (e.clientX - r.left) / r.width, y = (e.clientY - r.top) / r.height;
+      frame.style.setProperty('--ry', ((x - .5) * 7).toFixed(2) + 'deg');
+      frame.style.setProperty('--rx', ((.5 - y) * 6).toFixed(2) + 'deg');
+      why.style.setProperty('--px', ((x - .5) * -16).toFixed(1) + 'px');
+      why.style.setProperty('--py', ((y - .5) * -12).toFixed(1) + 'px');
+      frame.style.setProperty('--mx', (x * 100).toFixed(1) + '%');
+      frame.style.setProperty('--my', (y * 100).toFixed(1) + '%');
+    });
+    why.addEventListener('pointerleave', function () {
+      ['--rx', '--ry', '--mx', '--my'].forEach(function (p) { frame.style.removeProperty(p); });
+      why.style.removeProperty('--px'); why.style.removeProperty('--py');
+    });
+  }
+
+  /* ---- 2. Offerings: tabs + stacked panels + autoplay -------------------- */
+  var off = $('section.rw-off');
+  if (off) (function () {
+    var ui = $('.rw-off-ui', off), stage = $('.rw-off-stage', off);
+    var panels = $$('.rw-off-panel', stage), n = panels.length;
+    if (n &lt; 2) return;
+    function pad(k) { return (k &lt; 10 ? '0' : '') + k; }
+
+    var list = document.createElement('div');
+    list.className = 'rw-off-tabs';
+    list.setAttribute('role', 'tablist');
+    list.setAttribute('aria-label', 'Types of retreats and workshops');
+    var ind = document.createElement('span'); ind.className = 'rw-off-ind'; ind.setAttribute('aria-hidden', 'true');
+    list.appendChild(ind);
+
+    var tabs = panels.map(function (p, i) {
+      var h = $('h3', p), ic = $('.rw-off-ic i', p);
+      p.id = 'rw-off-p' + (i + 1);
+      p.setAttribute('role', 'tabpanel');
+      p.setAttribute('aria-labelledby', 'rw-off-t' + (i + 1));
+      p.setAttribute('tabindex', '0');
+      $('.rw-off-ic', p).setAttribute('aria-hidden', 'true');
+      var idx = document.createElement('span'); idx.className = 'rw-off-idx'; idx.setAttribute('aria-hidden', 'true');
+      idx.textContent = pad(i + 1) + ' / ' + pad(n);
+      p.insertBefore(idx, h);
+      var ghost = document.createElement('span'); ghost.className = 'rw-off-ghost'; ghost.setAttribute('aria-hidden', 'true');
+      ghost.textContent = pad(i + 1); p.appendChild(ghost);
+
+      var b = document.createElement('button');
+      b.type = 'button'; b.className = 'rw-off-tab'; b.id = 'rw-off-t' + (i + 1);
+      b.setAttribute('role', 'tab'); b.setAttribute('aria-controls', p.id);
+      b.innerHTML = '&lt;span class="rw-off-ti" aria-hidden="true"&gt;&lt;i class="' + (ic ? ic.className : 'fa-solid fa-circle') + '"&gt;&lt;/i&gt;&lt;/span&gt;' +
+        '&lt;span class="rw-off-tt"&gt;' + h.innerHTML + '&lt;/span&gt;' +
+        '&lt;span class="rw-off-tn" aria-hidden="true"&gt;' + pad(i + 1) + '&lt;/span&gt;' +
+        '&lt;span class="rw-off-prog" aria-hidden="true"&gt;&lt;/span&gt;';
+      list.appendChild(b);
+      return b;
+    });
+    ui.insertBefore(list, stage);
+
+    var nav = document.createElement('div'); nav.className = 'rw-off-nav';
+    nav.innerHTML = '&lt;button type="button" class="rw-off-btn" data-dir="-1" aria-label="Previous offering"&gt;&lt;i class="fa-solid fa-arrow-left" aria-hidden="true"&gt;&lt;/i&gt;&lt;/button&gt;' +
+      '&lt;button type="button" class="rw-off-btn" data-dir="1" aria-label="Next offering"&gt;&lt;i class="fa-solid fa-arrow-right" aria-hidden="true"&gt;&lt;/i&gt;&lt;/button&gt;';
+    stage.appendChild(nav);
+
+    var cur = 0;
+    function place() {
+      var t = tabs[cur];
+      ind.style.width = t.offsetWidth + 'px';
+      ind.style.height = t.offsetHeight + 'px';
+      ind.style.transform = 'translate(' + t.offsetLeft + 'px,' + t.offsetTop + 'px)';
+    }
+    function select(i, focus) {
+      cur = (i + n) % n;
+      tabs.forEach(function (t, k) {
+        var on = k === cur;
+        t.setAttribute('aria-selected', on ? 'true' : 'false');
+        t.tabIndex = on ? 0 : -1;
+        panels[k].classList.toggle('rw-on', on);
+        if (on) { panels[k].removeAttribute('inert'); panels[k].removeAttribute('aria-hidden'); }
+        else { panels[k].setAttribute('inert', ''); panels[k].setAttribute('aria-hidden', 'true'); }
+      });
+      place();
+      if (focus) tabs[cur].focus();
+    }
+    function stopAuto() { off.classList.remove('rw-off-auto'); }
+
+    tabs.forEach(function (t, k) {
+      t.addEventListener('click', function () { stopAuto(); select(k); });
+    });
+    list.addEventListener('keydown', function (e) {
+      var d = { ArrowRight: 1, ArrowDown: 1, ArrowLeft: -1, ArrowUp: -1 }[e.key];
+      if (d) { e.preventDefault(); stopAuto(); select(cur + d, true); return; }
+      if (e.key === 'Home') { e.preventDefault(); stopAuto(); select(0, true); }
+      if (e.key === 'End') { e.preventDefault(); stopAuto(); select(n - 1, true); }
+    });
+    nav.addEventListener('click', function (e) {
+      var b = e.target.closest('.rw-off-btn'); if (!b) return;
+      stopAuto(); select(cur + (+b.getAttribute('data-dir')));
+    });
+
+    /* swipe on the stage (touch) */
+    var sx = null, sy = null;
+    stage.addEventListener('touchstart', function (e) { sx = e.touches[0].clientX; sy = e.touches[0].clientY; }, { passive: true });
+    stage.addEventListener('touchend', function (e) {
+      if (sx === null) return;
+      var dx = e.changedTouches[0].clientX - sx, dy = e.changedTouches[0].clientY - sy; sx = null;
+      if (Math.abs(dx) &gt; 50 &amp;&amp; Math.abs(dx) &gt; Math.abs(dy) * 1.4) { stopAuto(); select(cur + (dx &lt; 0 ? 1 : -1)); }
+    }, { passive: true });
+
+    /* spotlight follows the pointer */
+    stage.addEventListener('pointermove', function (e) {
+      if (!mqFine.matches) return;
+      var p = panels[cur], r = p.getBoundingClientRect();
+      p.style.setProperty('--mx', ((e.clientX - r.left) / r.width * 100).toFixed(1) + '%');
+      p.style.setProperty('--my', ((e.clientY - r.top) / r.height * 100).toFixed(1) + '%');
+    });
+
+    /* autoplay: only while visible, paused on hover/focus, ends on first interaction */
+    if (!still() &amp;&amp; hasIO) {
+      var visible = false, hover = false, focusIn = false;
+      function sync() { off.classList.toggle('rw-off-paused', !visible || hover || focusIn || document.hidden); }
+      off.classList.add('rw-off-auto');
+      sync();
+      new IntersectionObserver(function (es) { visible = es[0].isIntersecting; sync(); }, { threshold: 0.45 }).observe(ui);
+      ui.addEventListener('pointerenter', function (e) { if (e.pointerType === 'mouse') { hover = true; sync(); } });
+      ui.addEventListener('pointerleave', function () { hover = false; sync(); });
+      ui.addEventListener('focusin', function () { focusIn = true; sync(); });
+      ui.addEventListener('focusout', function (e) { if (!ui.contains(e.relatedTarget)) { focusIn = false; sync(); } });
+      document.addEventListener('visibilitychange', sync);
+      list.addEventListener('animationend', function (e) {
+        if (!e.target.classList.contains('rw-off-prog') || !off.classList.contains('rw-off-auto')) return;
+        select(cur + 1);
+      });
+    }
+
+    select(0);
+    var rT;
+    window.addEventListener('resize', function () {
+      clearTimeout(rT);
+      list.classList.add('rw-noanim'); place();
+      rT = setTimeout(function () { list.classList.remove('rw-noanim'); }, 120);
+    });
+    if (document.fonts &amp;&amp; document.fonts.ready) document.fonts.ready.then(place);
+    window.addEventListener('load', place);
+  })();
+
+  /* ---- 3. Executive cards: tilt + spotlight, staggered rhythm icons ------ */
+  $$('.rw-ex-card').forEach(function (card) {
+    $$('.rw-ex-rh &gt; span', card).forEach(function (s, k) { s.style.setProperty('--rw-k', k); });
+    card.addEventListener('pointermove', function (e) {
+      if (!mqFine.matches || still()) return;
+      var r = card.getBoundingClientRect();
+      var x = (e.clientX - r.left) / r.width, y = (e.clientY - r.top) / r.height;
+      card.classList.add('rw-tilting');
+      card.style.setProperty('--ry', ((x - .5) * 5).toFixed(2) + 'deg');
+      card.style.setProperty('--rx', ((.5 - y) * 4).toFixed(2) + 'deg');
+      card.style.setProperty('--mx', (x * 100).toFixed(1) + '%');
+      card.style.setProperty('--my', (y * 100).toFixed(1) + '%');
+    });
+    card.addEventListener('pointerleave', function () {
+      card.classList.remove('rw-tilting');
+      ['--rx', '--ry'].forEach(function (p) { card.style.removeProperty(p); });
+    });
+  });
+
+  /* ---- 4. Timeline: scroll-driven fill, nodes light in sequence ---------- */
+  var tl = $('.rw-arc-tl');
+  if (tl) (function () {
+    var steps = $$('.rw-arc-step', tl), nodes = steps.map(function (s) { return $('.rw-arc-node', s); });
+    var track = $('.rw-arc-track', tl), fill = $('.rw-arc-fill', tl);
+    var n = steps.length, vertical = false, ticking = false;
+
+    function layout() {
+      var base = tl.getBoundingClientRect();
+      var a = nodes[0].getBoundingClientRect(), b = nodes[n - 1].getBoundingClientRect();
+      var ax = a.left + a.width / 2 - base.left, ay = a.top + a.height / 2 - base.top;
+      var bx = b.left + b.width / 2 - base.left, by = b.top + b.height / 2 - base.top;
+      vertical = Math.abs(by - ay) &gt; Math.abs(bx - ax);
+      tl.classList.toggle('rw-arc-v', vertical);
+      track.style.left = (ax - (vertical ? 1 : 0)) + 'px';
+      track.style.top = (ay - (vertical ? 0 : 1)) + 'px';
+      track.style.right = 'auto';
+      track.style.width = vertical ? '2px' : (bx - ax) + 'px';
+      track.style.height = vertical ? (by - ay) + 'px' : '2px';
+    }
+    function update() {
+      ticking = false;
+      var vh = window.innerHeight, p;
+      if (still()) p = 1;
+      else if (vertical) {
+        var a = nodes[0].getBoundingClientRect(), b = nodes[n - 1].getBoundingClientRect();
+        var ay = a.top + a.height / 2, by = b.top + b.height / 2;
+        p = clamp((vh * .62 - ay) / Math.max(1, by - ay), 0, 1);
+      } else {
+        var t = tl.getBoundingClientRect().top;
+        p = clamp((vh * .82 - t) / (vh * .42), 0, 1);
+      }
+      fill.style.setProperty('--rw-p', p.toFixed(4));
+      var last = -1;
+      steps.forEach(function (s, i) {
+        var lit = p &gt; 0.001 &amp;&amp; p &gt;= i / (n - 1) - 0.02;
+        s.classList.toggle('rw-lit', lit);
+        if (lit) last = i;
+      });
+      steps.forEach(function (s, i) { s.classList.toggle('rw-cur', i === last); });
+    }
+    function req() { if (!ticking) { ticking = true; requestAnimationFrame(update); } }
+    steps.forEach(function (s) {
+      s.addEventListener('pointerenter', function () { s.classList.add('rw-hov'); });
+      s.addEventListener('pointerleave', function () { s.classList.remove('rw-hov'); });
+    });
+    layout(); update();
+    window.addEventListener('scroll', req, { passive: true });
+    window.addEventListener('resize', function () { layout(); req(); });
+    window.addEventListener('load', function () { layout(); req(); });
+    if (document.fonts &amp;&amp; document.fonts.ready) document.fonts.ready.then(function () { layout(); req(); });
+  })();
+
+  /* ---- 5. Locations: badge on the photo follows the highlighted row ------ */
+  var loc = $('section.rw-loc');
+  if (loc) (function () {
+    var items = $$('.rw-loc-item', loc), media = $('.rw-loc-media', loc), frame = $('.rw-loc-frame', loc);
+    var img = $('img', frame), n = items.length;
+    if (!n || !media) return;
+    var badge = document.createElement('div'); badge.className = 'rw-loc-badge'; badge.setAttribute('aria-hidden', 'true');
+    var slidesH = '', dotsH = '';
+    items.forEach(function (it) {
+      var ic = $('.rw-loc-ic i', it), st = $('strong', it);
+      slidesH += '&lt;span class="rw-loc-bs"&gt;&lt;i class="' + (ic ? ic.className : '') + '"&gt;&lt;/i&gt;&lt;span&gt;' + (st ? st.textContent : '') + '&lt;/span&gt;&lt;/span&gt;';
+      dotsH += '&lt;i&gt;&lt;/i&gt;';
+    });
+    badge.innerHTML = '&lt;span class="rw-loc-slides"&gt;' + slidesH + '&lt;/span&gt;&lt;span class="rw-loc-dots"&gt;' + dotsH + '&lt;/span&gt;';
+    media.appendChild(badge);
+    var slides = $$('.rw-loc-bs', badge), dots = $$('.rw-loc-dots i', badge);
+
+    var cur = 0;
+    function set(i) {
+      cur = (i + n) % n;
+      items.forEach(function (it, k) { it.classList.toggle('rw-on', k === cur); });
+      slides.forEach(function (s, k) { s.classList.toggle('rw-on', k === cur); });
+      dots.forEach(function (d, k) { d.classList.toggle('rw-on', k === cur); });
+    }
+    set(0);
+    var hovering = false, visible = false, timer = null;
+    items.forEach(function (it, k) {
+      it.addEventListener('pointerenter', function () { hovering = true; set(k); });
+      it.addEventListener('click', function () { set(k); });
+    });
+    $('.rw-loc-list', loc).addEventListener('pointerleave', function () { hovering = false; });
+    if (!still() &amp;&amp; hasIO) {
+      new IntersectionObserver(function (es) { visible = es[0].isIntersecting; }, { threshold: 0.3 }).observe(loc);
+      timer = setInterval(function () { if (visible &amp;&amp; !hovering &amp;&amp; !document.hidden) set(cur + 1); }, 3000);
+    }
+
+    /* gentle scroll parallax on the portrait */
+    if (!still()) {
+      var tk = false;
+      var par = function () {
+        tk = false;
+        var r = frame.getBoundingClientRect(), vh = window.innerHeight;
+        if (r.bottom &lt; 0 || r.top &gt; vh) return;
+        var t = clamp((r.top + r.height / 2 - vh / 2) / vh, -1, 1);
+        img.style.setProperty('--rw-sy', (t * -22).toFixed(1) + 'px');
+      };
+      window.addEventListener('scroll', function () { if (!tk) { tk = true; requestAnimationFrame(par); } }, { passive: true });
+      par();
+    }
+  })();
+})();
+</script><script src="/gdpr-consent.js?v=4"/><script src="/hb-tn.js?v=39" defer="defer"/></t></t>

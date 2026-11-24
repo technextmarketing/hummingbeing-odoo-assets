@@ -1,0 +1,1122 @@
+<t t-name="hbs.page_isabelle"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en&quot;}"/><t t-set="title">Isabelle Claus Teixeira | Global TRE™ Certifying Trainer</t><t t-set="head"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
+new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
+"https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,"script","dataLayer","GTM-TXLR5LGG");</script><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="description" content="Meet Isabelle Claus Teixeira: Global TRE&#x2122; Certifying Trainer, ICF PCC executive coach, 30 years across 9 countries. Book a free discovery call."/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/><link rel="stylesheet" href="/styles.css?v=98"/><link rel="preconnect" href="https://cdnjs.cloudflare.com"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png?v=3"/><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png?v=3"/><link rel="icon" href="/favicon.ico?v=3" sizes="any"/><link rel="apple-touch-icon" href="/apple-touch-icon.png?v=3"/><style>
+    /* info strip — connected line */
+    .info-strip {
+      display: grid; grid-template-columns: repeat(4,1fr);
+      margin-top: 4rem;
+      border-top: 2px solid var(--gold);
+      border-bottom: 1px solid rgba(36,46,66,.08);
+    }
+    .info-item {
+      padding: 1.8rem 2rem 1.8rem 0;
+      display: flex; flex-direction: row; align-items: flex-start; gap: 1.1rem;
+      border-right: 1px solid rgba(36,46,66,.08);
+    }
+    .info-item:first-child { padding-left: 0; }
+    .info-item + .info-item { padding-left: 2rem; }
+    .info-item:last-child { border-right: none; }
+    .info-item i { color: var(--gold); font-size: 1.25rem; flex-shrink: 0; margin-top: .15rem; }
+    .info-item strong { font-family: 'PT Serif', Georgia, serif; font-size: .88rem; color: var(--navy); font-weight: 700; line-height: 1.5; }
+    @media (max-width: 820px) { .info-strip { grid-template-columns: repeat(2,1fr); column-gap: 1.5rem; } .info-item { border-right: none; border-bottom: 1px solid rgba(36,46,66,.08); padding: 1.4rem 0; } .info-item + .info-item { padding-left: 0; } }
+    @media (max-width: 520px) { .info-strip { grid-template-columns: 1fr; } }
+
+    /* services row — no card */
+    .svc-row { display: grid; grid-template-columns: repeat(3,1fr); margin-top: 3rem; }
+    .svc-item {
+      padding: 2.4rem 2.8rem 2.4rem 0;
+      border-right: 1px solid rgba(36,46,66,.09);
+      display: flex; flex-direction: column;
+    }
+    .svc-item + .svc-item { padding-left: 2.8rem; }
+    .svc-item:last-child { border-right: none; }
+    .svc-icon {
+      width: 52px; height: 52px; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.1rem; margin-bottom: 1.2rem; flex-shrink: 0;
+    }
+    .svc-icon.green { background: rgba(36,46,66,.07); color: var(--navy); }
+    .svc-icon.gold  { background: rgba(245,166,35,.15); color: var(--gold-dark); }
+    .svc-icon.sage  { background: rgba(138,143,158,.12); color: var(--text-mid); }
+    .svc-item h3 { font-family: 'PT Serif', Georgia, serif; font-size: 1.15rem; color: var(--navy); margin-bottom: .7rem; }
+    .svc-item p { font-size: .94rem; color: var(--body-text); line-height: 1.75; flex: 1; margin-bottom: 1.2rem; }
+    .svc-link { font-size: .75rem; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--gold-dark); text-decoration: none; transition: color .2s; }
+    .svc-link:hover { color: var(--navy); }
+    @media (max-width: 820px) { .svc-row { grid-template-columns: 1fr; } .svc-item { padding: 2rem 0; border-right: none; border-bottom: 1px solid rgba(36,46,66,.08); } .svc-item + .svc-item { padding-left: 0; } }
+    /* Global Journey — image frame: 5% narrower, 10% taller */
+    #global-journey .two-col { grid-template-columns: 1.05fr 0.95fr; }
+    #global-journey .two-col-image { min-height: 572px; }
+    @media (max-width: 900px) {
+      #global-journey .two-col { grid-template-columns: 1fr !important; }
+      #global-journey .two-col-image { min-height: 280px !important; }
+    }
+    #global-journey { padding-top: 5rem; padding-bottom: 5rem; }
+  </style><style>
+    /* ==========================================================================
+       ISABELLE (.is-x-*) - page-scoped interactive layer for the five sections
+       below the hero. Every selector is prefixed; buttons (.btn) are not restyled.
+       ========================================================================== */
+    .is-x-sec {
+      --is-x-navy: #242e42; --is-x-deep: #1a2030; --is-x-mid: #3a4a66;
+      --is-x-gold: #F5A623; --is-x-gold-d: #c98000; --is-x-cream: #fafaf8; --is-x-text: #3d4250;
+      --is-x-ease: cubic-bezier(.23, 1, .32, 1);
+      --is-x-pad: clamp(16px, 5vw, 64px);
+      position: relative; overflow: clip; color: var(--is-x-text);
+    }
+    section.is-x-sec, #global-journey.is-x-sec { padding: clamp(4rem, 8vw, 6.5rem) var(--is-x-pad); }
+    .is-x-wrap { position: relative; max-width: 1180px; margin: 0 auto; }
+    .is-x-sec :focus-visible { outline: 3px solid var(--is-x-gold); outline-offset: 3px; }
+    .is-x-sec figure { margin: 0; }
+    .is-x-sec p { margin: 0 0 1.1rem; }
+    .is-x-sec p:last-child { margin-bottom: 0; }
+
+    .is-x-eyebrow {
+      display: inline-flex; align-items: center; gap: .75rem; margin: 0 0 1rem;
+      font-family: 'Lato', sans-serif; font-size: .72rem; font-weight: 700; line-height: 1.4;
+      letter-spacing: 3px; text-transform: uppercase; color: var(--is-x-mid);
+    }
+    .is-x-eyebrow::before { content: ""; flex: none; width: 28px; height: 2px; background: var(--is-x-gold); }
+    .is-x-eyebrow-lt { color: var(--is-x-gold); }
+    .is-x-title {
+      font-family: 'Playfair Display', Georgia, serif; font-weight: 700; color: var(--is-x-navy);
+      font-size: clamp(2rem, 4.2vw, 3.1rem); line-height: 1.1; letter-spacing: -.01em; margin: 0 0 1.4rem;
+    }
+    .is-x-title em { font-style: italic; color: var(--is-x-gold-d); }
+    .is-x-center { text-align: center; }
+    .is-x-head { margin-bottom: clamp(2.25rem, 4vw, 3.25rem); }
+    .is-x-sub { font-size: 1.05rem; line-height: 1.7; color: var(--is-x-text); max-width: 36rem; margin: -.4rem auto 0 !important; }
+    .is-x-cta { display: flex; justify-content: center; flex-wrap: wrap; gap: 1rem; margin-top: clamp(2.5rem, 5vw, 3.5rem); }
+
+    /* reveal (only once the page script is running) */
+    .is-x-js .is-x-rv { opacity: 0; transform: translateY(24px); }
+    .is-x-js .is-x-rv.is-x-in {
+      opacity: 1; transform: none;
+      transition: opacity .8s var(--is-x-ease) var(--is-x-d, 0ms), transform 1s var(--is-x-ease) var(--is-x-d, 0ms);
+    }
+
+    /* -- 1. Her story ---------------------------------------------------------- */
+    .is-x-story .is-x-title { font-size: clamp(2rem, 3.6vw, 2.8rem); }
+    .is-x-story-grid { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: clamp(2.5rem, 6vw, 5.5rem); align-items: center; }
+    .is-x-portrait, .is-x-globe-photo { position: relative; isolation: isolate; }
+    .is-x-portrait::before, .is-x-globe-photo::before {
+      content: ""; position: absolute; z-index: -1; right: -18px; bottom: -18px; width: 72%; height: 72%;
+      border: 2px solid var(--is-x-gold); border-radius: 20px;
+      transform: translate(var(--is-x-fx, 0px), var(--is-x-fy, 0px)); transition: transform .9s var(--is-x-ease);
+    }
+    .is-x-portrait::after {
+      content: ""; position: absolute; z-index: -1; left: -26px; top: -26px; width: 46%; aspect-ratio: 1; border-radius: 50%;
+      background: radial-gradient(circle, rgba(245, 166, 35, .22), transparent 68%);
+    }
+    .is-x-portrait-frame {
+      position: relative; aspect-ratio: 4 / 5; border-radius: 20px; overflow: hidden; background: var(--is-x-deep);
+      box-shadow: 0 30px 70px rgba(26, 32, 48, .22);
+      transform: perspective(1100px) rotateX(var(--is-x-rx, 0deg)) rotateY(var(--is-x-ry, 0deg));
+      transition: transform .9s var(--is-x-ease);
+    }
+    .is-x-portrait-frame img {
+      position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 28%;
+      transform: scale(1.08) translate(var(--is-x-px, 0px), var(--is-x-py, 0px)); transition: transform 1.1s var(--is-x-ease);
+    }
+    .is-x-tilting .is-x-portrait-frame, .is-x-tilting .is-x-portrait-frame img, .is-x-tilting::before { transition-duration: .25s; }
+    .is-x-badge {
+      position: absolute; z-index: 2; display: flex; align-items: center; gap: .7rem;
+      padding: .8rem 1.1rem; border-radius: 14px; background: rgba(250, 250, 248, .95);
+      box-shadow: 0 16px 40px rgba(26, 32, 48, .2); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);
+      animation: is-x-bob 7s ease-in-out infinite;
+    }
+    .is-x-badge-a { top: 1.6rem; left: -1.6rem; }
+    .is-x-badge-b { right: -1.4rem; bottom: 2.2rem; animation-delay: -3.5s; }
+    .is-x-badge-n { font-family: 'Playfair Display', Georgia, serif; font-weight: 700; font-size: 2.1rem; line-height: 1; color: var(--is-x-navy); font-variant-numeric: tabular-nums; }
+    .is-x-badge-l { max-width: 9.5rem; font-family: 'Lato', sans-serif; font-size: .64rem; font-weight: 700; line-height: 1.35; letter-spacing: 1.3px; text-transform: uppercase; color: var(--is-x-mid); }
+    @keyframes is-x-bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+
+    .is-x-chaps { position: relative; list-style: none; margin: .6rem 0 0; padding: 0; }
+    .is-x-rail { position: absolute; left: 21px; top: 22px; bottom: 22px; width: 2px; background: rgba(36, 46, 66, .12); border-radius: 2px; overflow: hidden; }
+    .is-x-rail-fill { position: absolute; inset: 0; background: linear-gradient(180deg, var(--is-x-gold), var(--is-x-gold-d)); transform-origin: top; transform: scaleY(var(--is-x-p, 1)); }
+    .is-x-js .is-x-rail-fill { transform: scaleY(var(--is-x-p, 0)); }
+    .is-x-chap { position: relative; display: grid; grid-template-columns: 44px minmax(0, 1fr); gap: 1.25rem; }
+    .is-x-chap + .is-x-chap { margin-top: 1.9rem; }
+    .is-x-chap-node {
+      position: relative; z-index: 1; width: 44px; height: 44px; border-radius: 50%;
+      display: grid; place-items: center; font-size: .95rem;
+      background: var(--is-x-cream); color: var(--is-x-mid); border: 2px solid rgba(36, 46, 66, .16);
+      transition: background .5s var(--is-x-ease), color .5s var(--is-x-ease), border-color .5s var(--is-x-ease), transform .6s var(--is-x-ease), box-shadow .6s var(--is-x-ease);
+    }
+    .is-x-chap.is-x-lit .is-x-chap-node, html:not(.is-x-js) .is-x-chap-node { background: var(--is-x-gold); border-color: var(--is-x-gold); color: var(--is-x-deep); transform: scale(1.06); box-shadow: 0 0 0 7px rgba(245, 166, 35, .16); }
+    .is-x-chap-k { display: block; margin: .55rem 0 .5rem; font-family: 'Lato', sans-serif; font-size: .68rem; font-weight: 700; letter-spacing: 2.4px; text-transform: uppercase; color: var(--is-x-mid); }
+    .is-x-chap-body p { font-size: 1.02rem; line-height: 1.8; }
+    .is-x-chap-body strong { color: var(--is-x-navy); background: linear-gradient(transparent 62%, rgba(245, 166, 35, .35) 62%); }
+
+    /* -- 2. Credentials explorer ----------------------------------------------- */
+    .is-x-cx { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1.25rem; }
+    .is-x-cx-list { display: none; }
+    .is-x-cx-panels { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 1rem; }
+    .is-x-cx-nav { display: none; }
+    .is-x-cx-panel {
+      position: relative; overflow: hidden; border-radius: 18px; padding: clamp(1.6rem, 3vw, 2.6rem);
+      background: linear-gradient(150deg, var(--is-x-mid) 0%, var(--is-x-navy) 48%, var(--is-x-deep) 100%); color: #fff;
+    }
+    .is-x-cx-panel:focus-visible { outline-offset: -4px; }
+    .is-x-cx-big {
+      position: absolute; right: clamp(1rem, 3vw, 2rem); top: .4rem; font-family: 'Playfair Display', Georgia, serif; font-weight: 700;
+      font-size: clamp(4.5rem, 9vw, 7.5rem); line-height: 1; color: rgba(245, 166, 35, .13); pointer-events: none; user-select: none;
+    }
+    .is-x-cx-pico {
+      position: relative; display: grid; place-items: center; width: 64px; height: 64px; border-radius: 50%; margin-bottom: 1.4rem;
+      background: rgba(245, 166, 35, .14); color: var(--is-x-gold); font-size: 1.5rem;
+    }
+    .is-x-cx-pico::after { content: ""; position: absolute; inset: -7px; border-radius: 50%; border: 1px solid rgba(245, 166, 35, .4); }
+    .is-x-cx-panel h3 { position: relative; font-family: 'Playfair Display', Georgia, serif; font-weight: 700; font-size: clamp(1.35rem, 2.4vw, 1.85rem); line-height: 1.2; color: #fff; margin: 0 0 1rem; max-width: 30rem; }
+    .is-x-cx-panel p { position: relative; font-size: 1rem; line-height: 1.8; color: rgba(255, 255, 255, .88); max-width: 36rem; }
+
+    .is-x-js .is-x-cx { grid-template-columns: minmax(0, .92fr) minmax(0, 1.08fr); gap: clamp(1.25rem, 3vw, 2.5rem); align-items: stretch; }
+    .is-x-js .is-x-cx-list { display: flex; flex-direction: column; gap: 4px; }
+    .is-x-cx-tab {
+      position: relative; display: grid; grid-template-columns: auto auto minmax(0, 1fr); align-items: center; gap: .9rem;
+      width: 100%; min-height: 56px; margin: 0; padding: .7rem 1rem .7rem .9rem; text-align: left; cursor: pointer;
+      font: inherit; color: var(--is-x-navy); background: transparent; border: 0; border-radius: 12px;
+      transition: background .4s var(--is-x-ease), color .3s var(--is-x-ease), transform .5s var(--is-x-ease), box-shadow .4s var(--is-x-ease);
+    }
+    .is-x-cx-tab::before {
+      content: ""; position: absolute; left: 0; top: 12px; bottom: 12px; width: 3px; border-radius: 3px; background: var(--is-x-gold);
+      transform: scaleY(0); transition: transform .5s var(--is-x-ease);
+    }
+    .is-x-cx-num { font-family: 'Lato', sans-serif; font-size: .7rem; font-weight: 700; letter-spacing: 1px; color: var(--is-x-mid); font-variant-numeric: tabular-nums; }
+    .is-x-cx-ico {
+      display: grid; place-items: center; width: 38px; height: 38px; border-radius: 50%; font-size: .9rem;
+      background: rgba(36, 46, 66, .07); color: var(--is-x-navy);
+      transition: background .4s var(--is-x-ease), color .4s var(--is-x-ease), transform .5s var(--is-x-ease);
+    }
+    .is-x-cx-name { font-family: 'Lato', sans-serif; font-size: .95rem; font-weight: 700; line-height: 1.35; }
+    .is-x-cx-tab[aria-selected="true"] { background: #fff; box-shadow: 0 10px 30px rgba(36, 46, 66, .1); }
+    .is-x-cx-tab[aria-selected="true"]::before { transform: scaleY(1); }
+    .is-x-cx-tab[aria-selected="true"] .is-x-cx-ico { background: var(--is-x-gold); color: var(--is-x-deep); transform: rotate(-8deg) scale(1.06); }
+    .is-x-cx-tab:focus-visible { outline-offset: -3px; }
+    @media (hover: hover) and (pointer: fine) {
+      .is-x-cx-tab:hover { background: rgba(255, 255, 255, .7); transform: translateX(4px); }
+      .is-x-cx-tab[aria-selected="true"]:hover { background: #fff; }
+      .is-x-cx-tab:hover .is-x-cx-ico { transform: rotate(-8deg) scale(1.06); }
+    }
+
+    .is-x-js .is-x-cx-stage {
+      position: relative; display: flex; flex-direction: column; overflow: hidden; border-radius: 22px;
+      background: linear-gradient(150deg, var(--is-x-mid) 0%, var(--is-x-navy) 46%, var(--is-x-deep) 100%);
+      box-shadow: 0 30px 70px rgba(26, 32, 48, .25); isolation: isolate;
+    }
+    .is-x-js .is-x-cx-stage::before {
+      content: ""; position: absolute; z-index: -1; inset: 0; pointer-events: none;
+      background: radial-gradient(520px circle at var(--is-x-mx, 80%) var(--is-x-my, 10%), rgba(245, 166, 35, .2), transparent 55%);
+    }
+    .is-x-js .is-x-cx-panels { display: grid; grid-template-columns: minmax(0, 1fr); flex: 1; gap: 0; }
+    .is-x-js .is-x-cx-panel {
+      grid-area: 1 / 1; background: none; border-radius: 0; padding: clamp(1.8rem, 3.5vw, 3rem) clamp(1.5rem, 3.5vw, 3rem) 1rem;
+      visibility: hidden; opacity: 0; transform: translateY(14px);
+      transition: opacity .35s var(--is-x-ease), transform .6s var(--is-x-ease), visibility 0s linear .35s;
+    }
+    .is-x-js .is-x-cx-panel.is-x-cur { visibility: visible; opacity: 1; transform: none; transition: opacity .55s var(--is-x-ease) .08s, transform .8s var(--is-x-ease) .08s, visibility 0s; }
+    .is-x-js .is-x-cx-panel .is-x-cx-pico, .is-x-js .is-x-cx-panel h3, .is-x-js .is-x-cx-panel p { opacity: 0; transform: translateY(12px); }
+    .is-x-js .is-x-cx-panel.is-x-cur .is-x-cx-pico, .is-x-js .is-x-cx-panel.is-x-cur h3, .is-x-js .is-x-cx-panel.is-x-cur p { opacity: 1; transform: none; transition: opacity .6s var(--is-x-ease), transform .8s var(--is-x-ease); }
+    .is-x-js .is-x-cx-panel.is-x-cur .is-x-cx-pico { transition-delay: .1s; }
+    .is-x-js .is-x-cx-panel.is-x-cur h3 { transition-delay: .18s; }
+    .is-x-js .is-x-cx-panel.is-x-cur p { transition-delay: .26s; }
+    .is-x-js .is-x-cx-panel .is-x-cx-big { transform: translateX(18px); opacity: 0; }
+    .is-x-js .is-x-cx-panel.is-x-cur .is-x-cx-big { transform: none; opacity: 1; transition: opacity .8s var(--is-x-ease) .1s, transform 1s var(--is-x-ease) .1s; }
+    .is-x-cx-panel.is-x-cur .is-x-cx-pico::after { animation: is-x-ring 2.8s var(--is-x-ease) infinite; }
+    @keyframes is-x-ring { 0% { transform: scale(1); opacity: .9; } 100% { transform: scale(1.45); opacity: 0; } }
+
+    .is-x-js .is-x-cx-nav { display: flex; align-items: center; gap: 1rem; padding: 1rem clamp(1.5rem, 3.5vw, 3rem) clamp(1.4rem, 3vw, 2.2rem); }
+    .is-x-cx-arrow {
+      display: grid; place-items: center; flex: none; width: 44px; height: 44px; margin: 0; padding: 0; cursor: pointer;
+      border-radius: 50%; border: 1px solid rgba(255, 255, 255, .25); background: rgba(255, 255, 255, .04); color: #fff; font-size: .9rem;
+      transition: background .3s var(--is-x-ease), border-color .3s var(--is-x-ease), color .3s var(--is-x-ease), transform .4s var(--is-x-ease);
+    }
+    .is-x-cx-arrow:hover { background: var(--is-x-gold); border-color: var(--is-x-gold); color: var(--is-x-deep); }
+    .is-x-cx-arrow:active { transform: scale(.92); }
+    .is-x-cx-count { font-family: 'Lato', sans-serif; font-size: .78rem; font-weight: 700; letter-spacing: 2px; color: rgba(255, 255, 255, .78); font-variant-numeric: tabular-nums; white-space: nowrap; }
+    .is-x-cx-count b { color: var(--is-x-gold); font-weight: 700; }
+    .is-x-cx-prog { position: relative; flex: 1; height: 2px; border-radius: 2px; background: rgba(255, 255, 255, .14); overflow: hidden; }
+    .is-x-cx-prog span { position: absolute; inset: 0; background: var(--is-x-gold); transform-origin: left; transform: scaleX(var(--is-x-s, .1429)); transition: transform .7s var(--is-x-ease); }
+
+    /* -- 3. Global journey ----------------------------------------------------- */
+    .is-x-globe-top { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); gap: clamp(2.5rem, 6vw, 5.5rem); align-items: center; }
+    .is-x-globe-text p { font-size: 1.02rem; line-height: 1.8; }
+    .is-x-globe-photo .is-x-portrait-frame { aspect-ratio: 5 / 6; }
+    .is-x-globe-photo::before { right: auto; left: -18px; }
+    .is-x-globe-photo .is-x-portrait-frame img { object-position: 50% 30%; }
+
+    .is-x-map {
+      position: relative; display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr); align-items: stretch;
+      margin-top: clamp(3rem, 6vw, 4.5rem); border-radius: 22px; overflow: hidden; isolation: isolate;
+      background: linear-gradient(155deg, var(--is-x-navy) 0%, var(--is-x-deep) 100%); color: #fff;
+      box-shadow: 0 30px 70px rgba(26, 32, 48, .22);
+    }
+    .is-x-map-canvas { position: relative; padding: clamp(1rem, 2.5vw, 2rem); display: flex; align-items: center; min-width: 0; }
+    .is-x-map-svg { display: block; width: 100%; height: auto; overflow: visible; }
+    .is-x-grat path { fill: none; stroke: rgba(255, 255, 255, .09); stroke-width: 1; stroke-dasharray: 2 5; }
+    .is-x-grat .is-x-equator { stroke: rgba(245, 166, 35, .22); stroke-dasharray: 6 6; }
+    .is-x-region { font-family: 'Lato', sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 6px; fill: rgba(255, 255, 255, .28); transition: fill .5s var(--is-x-ease); }
+    .is-x-map[data-is-x-on="more"] .is-x-region { fill: var(--is-x-gold); }
+    .is-x-arcs path { fill: none; stroke: rgba(245, 166, 35, .38); stroke-width: 1.4; stroke-dasharray: 4 5; stroke-linecap: round; transition: opacity .6s var(--is-x-ease), stroke .4s; }
+    .is-x-js .is-x-arcs path { opacity: 0; }
+    .is-x-js .is-x-map.is-x-in .is-x-arcs path { opacity: 1; transition: opacity 1s var(--is-x-ease) var(--is-x-d, 0ms), stroke .4s; }
+    .is-x-arcs path.is-x-hot { stroke: var(--is-x-gold); stroke-width: 2; stroke-dasharray: none; }
+    .is-x-pin-dot { fill: var(--is-x-gold); }
+    .is-x-pin-ring { fill: none; stroke: rgba(245, 166, 35, .8); stroke-width: 1.5; transform-box: fill-box; transform-origin: center; animation: is-x-pulse 2.8s var(--is-x-ease) infinite; }
+    .is-x-pin:nth-child(2) .is-x-pin-ring { animation-delay: -.6s; }
+    .is-x-pin:nth-child(3) .is-x-pin-ring { animation-delay: -1.2s; }
+    .is-x-pin:nth-child(4) .is-x-pin-ring { animation-delay: -1.8s; }
+    .is-x-pin:nth-child(5) .is-x-pin-ring { animation-delay: -2.4s; }
+    @keyframes is-x-pulse { 0% { transform: scale(.6); opacity: 1; } 100% { transform: scale(2.3); opacity: 0; } }
+    .is-x-pin-halo { opacity: 0; transform-box: fill-box; transform-origin: center; transform: scale(.4); transition: opacity .5s var(--is-x-ease), transform .7s var(--is-x-ease); }
+    .is-x-pin-t { font-family: 'Lato', sans-serif; font-size: 13px; font-weight: 700; letter-spacing: .5px; fill: rgba(255, 255, 255, .82); text-anchor: middle; transition: fill .4s var(--is-x-ease); }
+    .is-x-pin.is-x-hot .is-x-pin-halo { opacity: 1; transform: scale(1); }
+    .is-x-pin.is-x-hot .is-x-pin-t { fill: var(--is-x-gold); }
+    .is-x-pin-dot { transform-box: fill-box; transform-origin: center; transition: transform .5s var(--is-x-ease); }
+    .is-x-pin.is-x-hot .is-x-pin-dot { transform: scale(1.35); }
+.is-x-pin-sm .is-x-pin-t { opacity: 0; transition: opacity .35s var(--is-x-ease), fill .4s var(--is-x-ease); }
+.is-x-pin-sm.is-x-hot .is-x-pin-t { opacity: 1; }
+.is-x-pin-sm .is-x-pin-ring { stroke-width: 1.2; }
+.is-x-js .is-x-map .is-x-arcs path.is-x-arc-sm:not(.is-x-hot), .is-x-map .is-x-arcs path.is-x-arc-sm:not(.is-x-hot) { opacity: 0; }
+
+    .is-x-map-side { display: flex; flex-direction: column; justify-content: center; gap: 1.5rem; padding: clamp(1.5rem, 3vw, 2.5rem); background: rgba(255, 255, 255, .035); border-left: 1px solid rgba(255, 255, 255, .08); min-width: 0; }
+    .is-x-places { display: flex; flex-wrap: wrap; gap: .5rem; }
+    .is-x-place {
+      display: inline-flex; align-items: center; gap: .5rem; min-height: 44px; margin: 0; padding: 0 1rem; cursor: pointer;
+      font-family: 'Lato', sans-serif; font-size: .8rem; font-weight: 700; letter-spacing: .4px; color: #fff;
+      background: rgba(255, 255, 255, .06); border: 1px solid rgba(255, 255, 255, .18); border-radius: 999px;
+      transition: background .35s var(--is-x-ease), border-color .35s var(--is-x-ease), color .35s var(--is-x-ease), transform .45s var(--is-x-ease);
+    }
+    .is-x-place i { color: var(--is-x-gold); font-size: .78rem; transition: color .35s var(--is-x-ease); }
+    .is-x-place[aria-pressed="true"] { background: var(--is-x-gold); border-color: var(--is-x-gold); color: var(--is-x-deep); }
+    .is-x-place[aria-pressed="true"] i { color: var(--is-x-deep); }
+    .is-x-place:active { transform: scale(.95); }
+    @media (hover: hover) and (pointer: fine) {
+      .is-x-place:hover { border-color: var(--is-x-gold); transform: translateY(-2px); }
+    }
+    .is-x-map-cap { display: flex; flex-direction: column; gap: .35rem; min-height: 9rem; padding-top: 1.25rem; border-top: 1px solid rgba(255, 255, 255, .12); }
+    .is-x-map-k { font-family: 'Lato', sans-serif; font-size: .66rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--is-x-gold); }
+    .is-x-map-t { font-family: 'Playfair Display', Georgia, serif; font-weight: 700; font-size: clamp(1.5rem, 2.6vw, 2rem); line-height: 1.15; color: #fff; }
+    .is-x-map-l { font-size: .95rem; line-height: 1.6; color: rgba(255, 255, 255, .86); }
+    .is-x-map-cap.is-x-swap &gt; * { animation: is-x-cap .6s var(--is-x-ease) both; }
+    .is-x-map-cap.is-x-swap &gt; :nth-child(2) { animation-delay: .05s; }
+    .is-x-map-cap.is-x-swap &gt; :nth-child(3) { animation-delay: .1s; }
+    @keyframes is-x-cap { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+
+    .is-x-facts { list-style: none; margin: clamp(1.5rem, 3vw, 2rem) 0 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1rem; }
+    .is-x-fact {
+      position: relative; display: flex; align-items: flex-start; gap: 1rem; padding: 1.4rem 1.3rem; border-radius: 16px; overflow: hidden;
+      background: var(--is-x-cream); border: 1px solid rgba(36, 46, 66, .08);
+      transition: transform .6s var(--is-x-ease), box-shadow .6s var(--is-x-ease), border-color .4s, opacity .8s var(--is-x-ease);
+    }
+    .is-x-fact::after { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 3px; background: var(--is-x-gold); transform: scaleX(0); transform-origin: left; transition: transform .7s var(--is-x-ease); }
+    .is-x-fact-ico { display: grid; place-items: center; flex: none; width: 42px; height: 42px; border-radius: 50%; background: rgba(245, 166, 35, .15); color: var(--is-x-gold-d); font-size: 1rem; transition: transform .6s var(--is-x-ease), background .4s, color .4s; }
+    .is-x-fact strong { font-family: 'Lato', sans-serif; font-size: .92rem; font-weight: 700; line-height: 1.5; color: var(--is-x-navy); }
+    @media (hover: hover) and (pointer: fine) {
+      .is-x-js .is-x-fact.is-x-in:hover, .is-x-fact:hover { transform: translateY(-5px); box-shadow: 0 20px 44px rgba(26, 32, 48, .12); border-color: rgba(245, 166, 35, .4); transition-delay: 0ms; }
+      .is-x-fact:hover::after { transform: scaleX(1); }
+      .is-x-fact:hover .is-x-fact-ico { transform: rotate(-10deg) scale(1.08); background: var(--is-x-gold); color: var(--is-x-deep); }
+    }
+
+    /* -- 4. In her own words --------------------------------------------------- */
+    section.is-x-note { background: radial-gradient(120% 90% at 50% 0%, var(--is-x-mid) 0%, var(--is-x-navy) 45%, var(--is-x-deep) 100%); color: #fff; text-align: center; }
+    .is-x-note-in { max-width: 860px; }
+    .is-x-breath { position: absolute; left: 50%; top: 46%; width: min(92vw, 760px); aspect-ratio: 1; transform: translate(-50%, -50%); pointer-events: none; }
+    .is-x-breath span { position: absolute; inset: 0; border-radius: 50%; border: 1px solid rgba(245, 166, 35, .16); animation: is-x-breathe 9s ease-in-out infinite; }
+    .is-x-breath span:nth-child(2) { inset: 14%; animation-delay: -3s; border-color: rgba(245, 166, 35, .12); }
+    .is-x-breath span:nth-child(3) { inset: 28%; animation-delay: -6s; background: radial-gradient(circle, rgba(245, 166, 35, .08), transparent 70%); }
+    @keyframes is-x-breathe { 0%, 100% { transform: scale(.92); opacity: .55; } 50% { transform: scale(1.04); opacity: 1; } }
+    .is-x-qmark { display: block; width: 56px; height: 42px; margin: .25rem auto 1.5rem; fill: var(--is-x-gold); }
+    .is-x-quote {
+      font-family: 'Playfair Display', Georgia, serif; font-weight: 400; color: #fff;
+      font-size: clamp(1.55rem, 3.2vw, 2.45rem); line-height: 1.38; margin: 0 0 2rem; letter-spacing: -.005em;
+    }
+    .is-x-quote em { font-style: italic; color: var(--is-x-gold); }
+    .is-x-w { opacity: var(--is-x-o, 1); transition: opacity .25s linear; }
+    .is-x-note-line { display: block; width: 56px; height: 3px; margin: 0 auto 2rem; border-radius: 3px; background: var(--is-x-gold); }
+    .is-x-js .is-x-note-line.is-x-rv { transform: scaleX(0); }
+    .is-x-js .is-x-note-line.is-x-rv.is-x-in { transform: none; }
+    .is-x-note-p { font-size: 1.05rem; line-height: 1.85; color: rgba(255, 255, 255, .88); max-width: 720px; margin-left: auto !important; margin-right: auto !important; }
+    .is-x-sig { margin-top: 1.6rem !important; font-family: 'Lato', sans-serif; font-weight: 700; letter-spacing: 1px; color: var(--is-x-gold); }
+
+    /* -- 5. Three ways to begin ------------------------------------------------ */
+    .is-x-paths { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(1rem, 2vw, 1.5rem); }
+    .is-x-path {
+      position: relative; display: flex; flex-direction: column; overflow: hidden; isolation: isolate;
+      padding: clamp(1.6rem, 2.6vw, 2.2rem); border-radius: 20px; background: #fff; border: 1px solid rgba(36, 46, 66, .08);
+      box-shadow: 0 8px 28px rgba(36, 46, 66, .06);
+    }
+    .is-x-js .is-x-fact.is-x-in { transition: opacity .8s var(--is-x-ease) var(--is-x-d, 0ms), transform .6s var(--is-x-ease), box-shadow .6s var(--is-x-ease), border-color .4s; }
+    .is-x-js .is-x-path.is-x-in { transition: opacity .8s var(--is-x-ease) var(--is-x-d, 0ms), transform .6s var(--is-x-ease), box-shadow .6s var(--is-x-ease), border-color .4s; }
+    .is-x-path::before {
+      content: ""; position: absolute; z-index: -1; inset: 0; pointer-events: none; opacity: 0; transition: opacity .5s var(--is-x-ease);
+      background: radial-gradient(380px circle at var(--is-x-mx, 50%) var(--is-x-my, 0%), rgba(245, 166, 35, .14), transparent 60%);
+    }
+    .is-x-path::after { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 3px; background: var(--is-x-gold); transform: scaleX(.18); transform-origin: left; transition: transform .7s var(--is-x-ease); }
+    .is-x-path-n { position: absolute; right: 1.4rem; top: 1rem; font-family: 'Playfair Display', Georgia, serif; font-weight: 700; font-size: 3.4rem; line-height: 1; color: rgba(36, 46, 66, .06); transition: color .5s var(--is-x-ease), transform .7s var(--is-x-ease); }
+    .is-x-path-ico {
+      display: grid; place-items: center; width: 56px; height: 56px; border-radius: 50%; margin-bottom: 1.3rem; font-size: 1.2rem;
+      background: rgba(36, 46, 66, .07); color: var(--is-x-navy); transition: transform .6s var(--is-x-ease), background .4s, color .4s;
+    }
+    .is-x-path-feat .is-x-path-ico { background: rgba(245, 166, 35, .16); color: var(--is-x-gold-d); }
+    .is-x-path h3 { font-family: 'Playfair Display', Georgia, serif; font-weight: 700; font-size: 1.45rem; line-height: 1.2; color: var(--is-x-navy); margin: 0 0 .8rem; }
+    .is-x-path p { font-size: .96rem; line-height: 1.75; color: var(--is-x-text); flex: 1; }
+    .is-x-path-chip {
+      align-self: flex-start; display: inline-flex; align-items: center; gap: .45rem; margin: 1.2rem 0 1.1rem; padding: .35rem .8rem; border-radius: 999px;
+      font-family: 'Lato', sans-serif; font-size: .7rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase;
+      color: var(--is-x-navy); background: rgba(36, 46, 66, .06);
+    }
+    .is-x-path-chip i { color: var(--is-x-gold-d); }
+    .is-x-path-link {
+      display: inline-flex; align-items: center; gap: .45rem; min-height: 44px; align-self: flex-start;
+      font-family: 'Lato', sans-serif; font-size: .76rem; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase;
+      color: var(--is-x-navy); text-decoration: none; border-bottom: 0;
+    }
+    .is-x-path-link::after { content: ""; position: absolute; inset: 0; z-index: 1; border-radius: 20px; }
+    .is-x-path-link:focus-visible { outline: none; }
+    .is-x-path:focus-within { outline: 3px solid var(--is-x-gold); outline-offset: 3px; }
+    .is-x-path:has(.is-x-path-link:focus:not(:focus-visible)) { outline: none; }
+    .is-x-arr { display: inline-block; color: var(--is-x-gold-d); transition: transform .5s var(--is-x-ease); }
+    @media (hover: hover) and (pointer: fine) {
+      .is-x-path:hover { transform: translateY(-8px); box-shadow: 0 28px 60px rgba(26, 32, 48, .14); border-color: rgba(245, 166, 35, .4); }
+      .is-x-path:hover::before { opacity: 1; }
+      .is-x-path:hover::after { transform: scaleX(1); }
+      .is-x-path:hover .is-x-path-ico { transform: rotate(-10deg) scale(1.08); background: var(--is-x-gold); color: var(--is-x-deep); }
+      .is-x-path:hover .is-x-path-n { color: rgba(245, 166, 35, .22); transform: translateY(-4px); }
+      .is-x-path:hover .is-x-arr { transform: translateX(6px); }
+      .is-x-path:hover .is-x-path-link { color: var(--is-x-gold-d); }
+    }
+    .is-x-path:focus-within::after { transform: scaleX(1); }
+    .is-x-path:focus-within .is-x-arr { transform: translateX(6px); }
+    .is-x-path:active { transform: scale(.985); }
+
+    /* -- Responsive ------------------------------------------------------------ */
+    @media (max-width: 1024px) {
+      .is-x-facts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .is-x-map { grid-template-columns: minmax(0, 1fr); }
+      .is-x-map-side { border-left: 0; border-top: 1px solid rgba(255, 255, 255, .08); }
+    }
+    @media (max-width: 900px) {
+      .is-x-story-grid, .is-x-globe-top { grid-template-columns: minmax(0, 1fr); }
+      .is-x-portrait { max-width: 460px; width: 100%; margin: 0 auto; }
+      .is-x-globe-photo { max-width: 460px; width: 100%; margin: 0 auto; order: -1; }
+      .is-x-js .is-x-cx { grid-template-columns: minmax(0, 1fr); }
+      .is-x-js .is-x-cx-list {
+        flex-direction: row; overflow-x: auto; gap: .6rem; margin: 0 calc(var(--is-x-pad) * -1); padding: .25rem var(--is-x-pad) .75rem;
+        scroll-snap-type: x mandatory; scroll-padding: 0 var(--is-x-pad); scrollbar-width: none; overscroll-behavior-x: contain;
+      }
+      .is-x-js .is-x-cx-list::-webkit-scrollbar { display: none; }
+      .is-x-cx-tab { flex: 0 0 min(72%, 260px); grid-template-columns: auto minmax(0, 1fr); scroll-snap-align: start; background: rgba(255, 255, 255, .55); border: 1px solid rgba(36, 46, 66, .08); }
+      .is-x-cx-tab::before { left: 12px; right: 12px; top: auto; bottom: 0; width: auto; height: 3px; transform: scaleX(0); }
+      .is-x-cx-tab[aria-selected="true"]::before { transform: scaleX(1); }
+      .is-x-cx-num { display: none; }
+      .is-x-cx-name { font-size: .86rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+      .is-x-paths { grid-template-columns: minmax(0, 1fr); max-width: 560px; margin: 0 auto; }
+      /* one panel at a time; height follows the content */
+      .is-x-js .is-x-cx-panel { display: none; }
+      .is-x-js .is-x-cx-panel.is-x-cur { display: block; }
+      .is-x-js .is-x-cx-panel.is-x-cur .is-x-cx-pico, .is-x-js .is-x-cx-panel.is-x-cur h3, .is-x-js .is-x-cx-panel.is-x-cur p, .is-x-js .is-x-cx-panel.is-x-cur .is-x-cx-big { animation: is-x-cap .7s var(--is-x-ease) both; }
+      .is-x-js .is-x-cx-panel.is-x-cur h3 { animation-delay: .06s; }
+      .is-x-js .is-x-cx-panel.is-x-cur p { animation-delay: .12s; }
+    }
+    @media (max-width: 600px) {
+      .is-x-badge { padding: .6rem .8rem; gap: .5rem; }
+      .is-x-badge-a { left: .7rem; top: .9rem; }
+      .is-x-badge-b { right: .7rem; bottom: .9rem; }
+      .is-x-badge-n { font-size: 1.6rem; }
+      .is-x-badge-l { font-size: .58rem; max-width: 7.5rem; letter-spacing: 1px; }
+      .is-x-portrait::before, .is-x-globe-photo::before { right: -10px; bottom: -10px; }
+      .is-x-globe-photo::before { left: -10px; }
+      .is-x-portrait::after { left: -14px; top: -14px; }
+      .is-x-chap { grid-template-columns: 38px minmax(0, 1fr); gap: 1rem; }
+      .is-x-chap-node { width: 38px; height: 38px; font-size: .85rem; }
+      .is-x-rail { left: 18px; top: 19px; bottom: 19px; }
+      .is-x-facts { grid-template-columns: minmax(0, 1fr); }
+      .is-x-map-canvas { display: block; padding: 1rem 0 .5rem; overflow-x: auto; overscroll-behavior-x: contain; scrollbar-width: none; -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); }
+      .is-x-map-canvas::-webkit-scrollbar { display: none; }
+      .is-x-map-svg { width: 660px; max-width: none; padding: 0 1rem; box-sizing: content-box; }
+      .is-x-pin-t { font-size: 15px; }
+      .is-x-place { font-size: .74rem; padding: 0 .8rem; }
+      .is-x-map-cap { min-height: 8.5rem; }
+      .is-x-js .is-x-cx-nav { gap: .7rem; }
+    }
+    @media (max-width: 360px) {
+      .is-x-badge-l { display: none; }
+      .is-x-place { padding: 0 .65rem; gap: .35rem; }
+    }
+
+    /* -- Reduced motion: everything visible, nothing moves --------------------- */
+    @media (prefers-reduced-motion: reduce) {
+      .is-x-sec *, .is-x-sec *::before, .is-x-sec *::after { animation: none !important; transition-duration: .01ms !important; transition-delay: 0ms !important; }
+      .is-x-js .is-x-rv, .is-x-js .is-x-note-line.is-x-rv { opacity: 1; transform: none; }
+      .is-x-js .is-x-rail-fill { transform: none; }
+      .is-x-js .is-x-arcs path { opacity: 1; }
+      .is-x-w { opacity: 1 !important; }
+      .is-x-portrait-frame, .is-x-portrait-frame img { transform: none !important; }
+      .is-x-portrait::before, .is-x-globe-photo::before { transform: none !important; }
+      .is-x-path:hover, .is-x-fact:hover, .is-x-js .is-x-fact.is-x-in:hover, .is-x-cx-tab:hover { transform: none; }
+      .is-x-js .is-x-cx-panel, .is-x-js .is-x-cx-panel .is-x-cx-pico, .is-x-js .is-x-cx-panel h3, .is-x-js .is-x-cx-panel p, .is-x-js .is-x-cx-panel .is-x-cx-big { transform: none; }
+    }
+  </style><meta name="keywords" content="Isabelle Claus Teixeira, Global TRE&#x2122; certifying trainer, somatic coach, certified TRE&#x2122; practitioner, ICF PCC executive coach, TRE&#x2122; provider"/><link rel="canonical" href="https://www.hummingbeing.com/isabelle"/><meta name="robots" content="index, follow"/><meta property="og:type" content="profile"/><meta property="og:site_name" content="HummingBeing"/><meta property="og:title" content="Isabelle Claus Teixeira | Global TRE&#x2122; Certifying Trainer"/><meta property="og:description" content="Meet Isabelle Claus Teixeira: Global TRE&#x2122; Certifying Trainer, ICF PCC executive coach, 30 years across 9 countries. Book a free discovery call."/><meta property="og:url" content="https://www.hummingbeing.com/isabelle"/><meta property="og:image" content="https://www.hummingbeing.com/images/isabelle-her-story.webp"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image:alt" content="Isabelle Claus Teixeira &#x2014; Global TRE&#x2122; Certifying Trainer and Somatic Coach"/><meta property="og:locale" content="en_SG"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Isabelle Claus Teixeira | Global TRE&#x2122; Certifying Trainer"/><meta name="twitter:description" content="Meet Isabelle Claus Teixeira: Global TRE&#x2122; Certifying Trainer, ICF PCC executive coach, 30 years across 9 countries. Book a free discovery call."/><meta name="twitter:image" content="https://www.hummingbeing.com/images/isabelle-her-story.webp"/><script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": "https://www.hummingbeing.com/isabelle#person",
+    "name": "Isabelle Claus Teixeira",
+    "jobTitle": [
+      "Global TRE™ Certifying Trainer",
+      "Certified TRE™ Provider",
+      "ICF PCC Executive Coach",
+      "Somatic Coach"
+    ],
+    "description": "Global TRE™ Certifying Trainer and Certified TRE™ Provider, ICF Professional Certified Coach (PCC) and Somatic Coach with 30 years of human development experience across 9 countries and 40+ nationalities.",
+    "url": "https://www.hummingbeing.com/isabelle",
+    "image": "https://www.hummingbeing.com/images/isabelle-her-story.webp",
+    "worksFor": {
+      "@id": "https://www.hummingbeing.com/#organization"
+    },
+    "hasCredential": [
+      {
+        "@type": "EducationalOccupationalCredential",
+        "name": "Global TRE™ Certifying Trainer &amp; Certified TRE™ Provider"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "name": "Professional Certified Coach (PCC) — ICF"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "name": "Strozzi Somatic Bodywork Practitioner"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "name": "Reiki Level II Practitioner"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "name": "Results Trained Coach — NeuroLeadership Institute"
+      }
+    ],
+    "knowsAbout": [
+      "TRE™ Exercises",
+      "Somatic coaching",
+      "Coaching",
+      "Mindfulness",
+      "Nervous System Regulation",
+      "Trauma Release",
+      "Executive Coaching",
+      "Breathwork",
+      "Reiki"
+    ],
+    "workLocation": [
+      {
+        "@type": "Country",
+        "name": "Singapore"
+      },
+      {
+        "@type": "Country",
+        "name": "Japan"
+      }
+    ],
+    "sameAs": [
+      "https://www.instagram.com/isabelleclausteixeira_bhd/",
+      "https://www.linkedin.com/in/isabelleclausteixeira/",
+      "https://www.youtube.com/@IsabelleClausTeixeira"
+    ],
+    "mainEntityOfPage": "https://www.hummingbeing.com/isabelle"
+  }
+  </script><script type="application/ld+json" data-seo="breadcrumb">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.hummingbeing.com/"}, {"@type": "ListItem", "position": 2, "name": "Isabelle Claus Teixeira", "item": "https://www.hummingbeing.com/isabelle"}]}</script><link rel="preload" href="/fonts/hb/lato-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/hb/playfair-display-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/></t><t t-call="web.layout"><link rel="stylesheet" href="/styles.css?v=98"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXLR5LGG" height="0" width="0" style="display:none;visibility:hidden"/></noscript><nav>
+  <a href="/" class="logo"><img src="/images/logo-dark.webp" class="logo-on-dark" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/><img src="/images/logo-light.webp" class="logo-on-light" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/></a>
+  <ul class="nav-links">
+    <li><a href="/">Home</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/isabelle" class="active">Isabelle</a></li>
+    <li class="nav-dropdown">
+      <a href="javascript:void(0)" class="nav-dropdown-toggle">Work with Isabelle <i class="fa-solid fa-chevron-down nav-arrow"/></a>
+      <ul class="nav-dropdown-menu">
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™<small>Private sessions, online or in person</small></a></li>
+        <li><a href="/tre-certification">TRE™ Certification<small>Become a certified TRE™ provider</small></a></li>
+        <li><a href="/retreats-workshops">Retreats &amp; Workshops<small>Groups, teams and executives</small></a></li>
+      </ul>
+    </li>
+    <li><a href="/events">Events</a></li>
+    <li class="nav-book-mobile"><a href="/book">Book a free call</a></li>
+  </ul>
+  <div class="nav-actions">
+    <a href="/book" class="nav-cta">Book a free call</a>
+    <button class="hamburger" onclick="toggleMenu()"><span/><span/><span/></button>
+  </div>
+</nav><div class="page-hero">
+  <span class="eyebrow">Meet the Practitioner</span>
+  <h1>Isabelle <em>Claus Teixeira</em></h1>
+  <p>· Senior Executive Coach (PCC) · Resilience Coach · Mindfulness Teacher · Somatic Coach · Somatic Bodyworker · Global TRE™ Certifying Trainer · Global TRE™ Provider · Breathwork Facilitator · Reiki &amp; Core Shamanism Healer ·</p>
+  <div class="hero-actions">
+    <a href="/book" class="btn btn-primary">Book a Free Discovery Call</a>
+    <a href="/holistic-mastermind" class="btn btn-outline">Explore Services</a>
+  </div>
+</div><div class="ticker-wrap" aria-hidden="true">
+  <div class="ticker-track">
+    <span class="t-item"><span class="t-star">★</span> Somatic Wellness</span><span class="t-sep">·</span>
+    <span class="t-item">In-Person &amp; Online Worldwide</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Certified TRE™ Provider</span><span class="t-sep">·</span>
+    <span class="t-item">30 Years of Experience</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Coaching</span><span class="t-sep">·</span>
+    <span class="t-item">Mindfulness</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> 9 Countries · 40+ Nationalities</span><span class="t-sep">·</span>
+    <span class="t-item">Release · Renew · Restore</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Business &amp; Human Development</span><span class="t-sep">·</span>
+    <span class="t-item">Nervous System Reset</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Mindfulness</span><span class="t-sep">·</span>
+    <span class="t-item">Embodied Leadership</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Trauma &amp; Tension Release</span><span class="t-sep">·</span>
+    <span class="t-item">Mind · Body · Soul</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Corporate Wellness</span><span class="t-sep">·</span>
+    <span class="t-item">Polyvagal Theory</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Global TRE™ Certifying Trainer</span><span class="t-sep">·</span>
+    <span class="t-item">Executive Coaching</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Breathwork</span><span class="t-sep">·</span>
+    <span class="t-item">Online &amp; In-Person</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Group Sessions</span><span class="t-sep">·</span>
+    <span class="t-item">Burnout Recovery</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Deep Rest &amp; Renewal</span><span class="t-sep">·</span>
+    <span class="t-item">Body Intelligence</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Somatic Intelligence</span><span class="t-sep">·</span>
+    <span class="t-item">Self-Regulation</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Dr. David Berceli Method</span><span class="t-sep">·</span><span class="t-item">Neurogenic Tremors</span><span class="t-sep">·</span><span class="t-item">Vagal Tone</span><span class="t-sep">·</span><span class="t-item">Psoas Release</span><span class="t-sep">·</span><span class="t-item">Europe · US · Asia · Worldwide</span><span class="t-sep">·</span><span class="t-item">Free Discovery Call</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Certified Reiki Level II</span><span class="t-sep">·</span><span class="t-item">Nervous System Literacy</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Somatic Wellness</span><span class="t-sep">·</span>
+    <span class="t-item">In-Person &amp; Online Worldwide</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Certified TRE™ Provider</span><span class="t-sep">·</span>
+    <span class="t-item">30 Years of Experience</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Coaching</span><span class="t-sep">·</span>
+    <span class="t-item">Mindfulness</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> 9 Countries · 40+ Nationalities</span><span class="t-sep">·</span>
+    <span class="t-item">Release · Renew · Restore</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Business &amp; Human Development</span><span class="t-sep">·</span>
+    <span class="t-item">Nervous System Reset</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Mindfulness</span><span class="t-sep">·</span>
+    <span class="t-item">Embodied Leadership</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Trauma &amp; Tension Release</span><span class="t-sep">·</span>
+    <span class="t-item">Mind · Body · Soul</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Corporate Wellness</span><span class="t-sep">·</span>
+    <span class="t-item">Polyvagal Theory</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Global TRE™ Certifying Trainer</span><span class="t-sep">·</span>
+    <span class="t-item">Executive Coaching</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Breathwork</span><span class="t-sep">·</span>
+    <span class="t-item">Online &amp; In-Person</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Group Sessions</span><span class="t-sep">·</span>
+    <span class="t-item">Burnout Recovery</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Deep Rest &amp; Renewal</span><span class="t-sep">·</span>
+    <span class="t-item">Body Intelligence</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Somatic Intelligence</span><span class="t-sep">·</span>
+    <span class="t-item">Self-Regulation</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Dr. David Berceli Method</span><span class="t-sep">·</span><span class="t-item">Neurogenic Tremors</span><span class="t-sep">·</span><span class="t-item">Vagal Tone</span><span class="t-sep">·</span><span class="t-item">Psoas Release</span><span class="t-sep">·</span><span class="t-item">Europe · US · Asia · Worldwide</span><span class="t-sep">·</span><span class="t-item">Free Discovery Call</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Certified Reiki Level II</span><span class="t-sep">·</span><span class="t-item">Nervous System Literacy</span><span class="t-sep">·</span>  </div>
+</div><section class="section-cream is-x-sec is-x-story" aria-labelledby="is-x-story-t">
+  <div class="is-x-wrap is-x-story-grid">
+    <figure class="is-x-portrait is-x-rv" data-is-x-tilt="">
+      <div class="is-x-portrait-frame"><img src="/images/isabelle-her-story.webp" alt="Isabelle Claus Teixeira — somatic practitioner" loading="lazy" decoding="async" width="800" height="600"/></div>
+      <div class="is-x-badge is-x-badge-a"><span class="is-x-badge-n"><span data-is-x-count="30">30</span>+</span><span class="is-x-badge-l">Years in Fortune 100 HR &amp; talent leadership</span></div>
+      <div class="is-x-badge is-x-badge-b"><span class="is-x-badge-n" data-is-x-count="9">9</span><span class="is-x-badge-l">Countries</span></div>
+    </figure>
+    <div class="is-x-story-text">
+      <span class="is-x-eyebrow is-x-rv">Her Story</span>
+      <h2 class="is-x-title is-x-rv" id="is-x-story-t">From Fortune 100 HR Leader<br/><em>to Somatic Practitioner</em></h2>
+      <ol class="is-x-chaps" data-is-x-rail="">
+        <li class="is-x-rail" aria-hidden="true"><span class="is-x-rail-fill"/></li>
+        <li class="is-x-chap is-x-rv" data-is-x-chap="">
+          <span class="is-x-chap-node" aria-hidden="true"><i class="fa-solid fa-briefcase"/></span>
+          <div class="is-x-chap-body">
+            <span class="is-x-chap-k">Then</span>
+            <p>Isabelle spent over <strong>30 years</strong> as a Senior HR Business Partner and Talent Management leader in Fortune 100 companies across 9 countries. She built careers, supported leaders, and achieved everything the corporate system rewards. She also went through her own hardship — the quiet damage that toxic work environments and toxic people can cause.</p>
+          </div>
+        </li>
+        <li class="is-x-chap is-x-rv" data-is-x-chap="">
+          <span class="is-x-chap-node" aria-hidden="true"><i class="fa-solid fa-leaf"/></span>
+          <div class="is-x-chap-body">
+            <span class="is-x-chap-k">Now</span>
+            <p>She healed herself through somatic practices, TRE™, mindfulness and deep personal work. That firsthand journey is what brought her here. She doesn’t approach this work as someone standing above you with a set of techniques. She approaches it as someone who has walked through it, who continues to do her own inner work, and who now walks alongside others as they find their way back: to themselves, their bodies and their aliveness.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </div>
+  <div class="is-x-cta is-x-rv">
+    <a href="/book" class="btn btn-primary">Work With Isabelle</a>
+  </div>
+</section><section class="section-sage is-x-sec is-x-cred" aria-labelledby="is-x-cred-t">
+  <div class="is-x-wrap">
+    <header class="is-x-head is-x-center">
+      <span class="is-x-eyebrow is-x-rv">Credentials &amp; Training</span>
+      <h2 class="is-x-title is-x-rv" id="is-x-cred-t">Her Training &amp; <em>Formation</em></h2>
+    </header>
+    <div class="is-x-cx is-x-rv">
+      <div class="is-x-cx-list" role="tablist" aria-label="Credentials and training" aria-orientation="vertical">
+        <button type="button" class="is-x-cx-tab" role="tab" id="is-x-cx-t1" aria-controls="is-x-cx-p1" aria-selected="true"><span class="is-x-cx-num" aria-hidden="true">01</span><span class="is-x-cx-ico" aria-hidden="true"><i class="fa-solid fa-graduation-cap"/></span><span class="is-x-cx-name">Global TRE™ Certifying Trainer &amp; Certified TRE™ Provider</span></button>
+        <button type="button" class="is-x-cx-tab" role="tab" id="is-x-cx-t2" aria-controls="is-x-cx-p2" aria-selected="false" tabindex="-1"><span class="is-x-cx-num" aria-hidden="true">02</span><span class="is-x-cx-ico" aria-hidden="true"><i class="fa-solid fa-medal"/></span><span class="is-x-cx-name">ICF PCC Level Certified Executive Coach</span></button>
+        <button type="button" class="is-x-cx-tab" role="tab" id="is-x-cx-t3" aria-controls="is-x-cx-p3" aria-selected="false" tabindex="-1"><span class="is-x-cx-num" aria-hidden="true">03</span><span class="is-x-cx-ico" aria-hidden="true"><i class="fa-solid fa-dna"/></span><span class="is-x-cx-name">Strozzi Somatic Bodywork</span></button>
+        <button type="button" class="is-x-cx-tab" role="tab" id="is-x-cx-t4" aria-controls="is-x-cx-p4" aria-selected="false" tabindex="-1"><span class="is-x-cx-num" aria-hidden="true">04</span><span class="is-x-cx-ico" aria-hidden="true"><i class="fa-solid fa-spa"/></span><span class="is-x-cx-name">Certified Accredited Usui/Holy Fire III Reiki Healer</span></button>
+        <button type="button" class="is-x-cx-tab" role="tab" id="is-x-cx-t5" aria-controls="is-x-cx-p5" aria-selected="false" tabindex="-1"><span class="is-x-cx-num" aria-hidden="true">05</span><span class="is-x-cx-ico" aria-hidden="true"><i class="fa-solid fa-book-open"/></span><span class="is-x-cx-name">Continuously Studying &amp; Growing</span></button>
+        <button type="button" class="is-x-cx-tab" role="tab" id="is-x-cx-t6" aria-controls="is-x-cx-p6" aria-selected="false" tabindex="-1"><span class="is-x-cx-num" aria-hidden="true">06</span><span class="is-x-cx-ico" aria-hidden="true"><i class="fa-solid fa-earth-americas"/></span><span class="is-x-cx-name">Global HR Leadership</span></button>
+        <button type="button" class="is-x-cx-tab" role="tab" id="is-x-cx-t7" aria-controls="is-x-cx-p7" aria-selected="false" tabindex="-1"><span class="is-x-cx-num" aria-hidden="true">07</span><span class="is-x-cx-ico" aria-hidden="true"><i class="fa-solid fa-handshake"/></span><span class="is-x-cx-name">Cross-Cultural Expertise</span></button>
+      </div>
+      <div class="is-x-cx-stage" data-is-x-glow="">
+        <div class="is-x-cx-panels">
+          <article class="is-x-cx-panel" role="tabpanel" id="is-x-cx-p1" aria-labelledby="is-x-cx-t1" tabindex="0">
+            <span class="is-x-cx-big" aria-hidden="true">01</span>
+            <span class="is-x-cx-pico" aria-hidden="true"><i class="fa-solid fa-graduation-cap"/></span>
+            <h3>Global TRE™ Certifying Trainer &amp; Certified TRE™ Provider</h3>
+            <p>Accredited as a Global TRE™ Certifying Trainer and Certified Provider under Dr. David Berceli’s methodology — the highest level of TRE™ qualification worldwide.</p>
+          </article>
+          <article class="is-x-cx-panel" role="tabpanel" id="is-x-cx-p2" aria-labelledby="is-x-cx-t2" tabindex="0">
+            <span class="is-x-cx-big" aria-hidden="true">02</span>
+            <span class="is-x-cx-pico" aria-hidden="true"><i class="fa-solid fa-medal"/></span>
+            <h3>ICF PCC Level Certified Executive Coach</h3>
+            <p>Certified Leadership Coach since 2012, supporting C-suite executives, senior leaders and high-potential professionals across Europe, the US, Asia and beyond.</p>
+          </article>
+          <article class="is-x-cx-panel" role="tabpanel" id="is-x-cx-p3" aria-labelledby="is-x-cx-t3" tabindex="0">
+            <span class="is-x-cx-big" aria-hidden="true">03</span>
+            <span class="is-x-cx-pico" aria-hidden="true"><i class="fa-solid fa-dna"/></span>
+            <h3>Strozzi Somatic Bodywork</h3>
+            <p>Trained in Strozzi Somatic Bodywork — a body-based methodology that uses gentle, systematic touch to help clients release historical patterns and contractions.</p>
+          </article>
+          <article class="is-x-cx-panel" role="tabpanel" id="is-x-cx-p4" aria-labelledby="is-x-cx-t4" tabindex="0">
+            <span class="is-x-cx-big" aria-hidden="true">04</span>
+            <span class="is-x-cx-pico" aria-hidden="true"><i class="fa-solid fa-spa"/></span>
+            <h3>Certified Accredited Usui/Holy Fire III Reiki Healer</h3>
+            <p>Certified Accredited Usui/Holy Fire III Reiki healer (lineage of William Lee Rand). Furthering her practice towards Reiki Master and Karuna Reiki — bringing deep energetic healing into her work.</p>
+          </article>
+          <article class="is-x-cx-panel" role="tabpanel" id="is-x-cx-p5" aria-labelledby="is-x-cx-t5" tabindex="0">
+            <span class="is-x-cx-big" aria-hidden="true">05</span>
+            <span class="is-x-cx-pico" aria-hidden="true"><i class="fa-solid fa-book-open"/></span>
+            <h3>Continuously Studying &amp; Growing</h3>
+            <p>Continuously studying coaching, resilience, somatic and energetic healing modalities. Isabelle is passionate and dedicated to her own development so she can best serve her clients and ensure her practice reflects the latest developments. She is currently studying under recognised teachers specialising in transformational coaching, breathwork, somatic practices, energetic healing, core shamanism and trauma-informed techniques.</p>
+          </article>
+          <article class="is-x-cx-panel" role="tabpanel" id="is-x-cx-p6" aria-labelledby="is-x-cx-t6" tabindex="0">
+            <span class="is-x-cx-big" aria-hidden="true">06</span>
+            <span class="is-x-cx-pico" aria-hidden="true"><i class="fa-solid fa-earth-americas"/></span>
+            <h3>Global HR Leadership</h3>
+            <p>30 years in senior HR roles at Fortune 100 companies across US, Europe, Asia, Russia and Japan — giving her unique insight into the challenges of corporate high performance.</p>
+          </article>
+          <article class="is-x-cx-panel" role="tabpanel" id="is-x-cx-p7" aria-labelledby="is-x-cx-t7" tabindex="0">
+            <span class="is-x-cx-big" aria-hidden="true">07</span>
+            <span class="is-x-cx-pico" aria-hidden="true"><i class="fa-solid fa-handshake"/></span>
+            <h3>Cross-Cultural Expertise</h3>
+            <p>Extensive experience in global, European, US and Asian leadership contexts. Has lived in 9 countries and collaborated with colleagues representing 40+ nationalities.</p>
+          </article>
+        </div>
+        <div class="is-x-cx-nav" aria-hidden="true">
+          <button type="button" class="is-x-cx-arrow" data-is-x-step="-1" tabindex="-1" aria-label="Previous credential"><i class="fa-solid fa-arrow-left"/></button>
+          <span class="is-x-cx-count"><b data-is-x-cur="">01</b> / 07</span>
+          <span class="is-x-cx-prog"><span data-is-x-prog=""/></span>
+          <button type="button" class="is-x-cx-arrow" data-is-x-step="1" tabindex="-1" aria-label="Next credential"><i class="fa-solid fa-arrow-right"/></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="is-x-cta is-x-rv">
+    <a href="/book" class="btn btn-primary">See If We're a Fit</a>
+  </div>
+</section><section id="global-journey" class="section-white hb-globe" aria-labelledby="is-x-globe-t">
+  <div class="hb-globe-wrap">
+    <div class="hb-globe-top">
+      <div class="hb-globe-copy">
+        <span class="section-eyebrow">A Truly Global Journey</span>
+        <h2 id="is-x-globe-t">9 Countries. <em>40+ Nationalities.</em></h2>
+        <p>This depth of cross-cultural exposure has shaped her ability to connect with clients from all walks of life — adapting her language, approach and style to whatever serves the individual in front of her.</p>
+        <p>She has collaborated with colleagues and clients representing 40+ nationalities across diverse religious, gender and age backgrounds. Her somatic practice is built on this foundation of genuine cultural respect and curiosity.</p>
+        <ul class="hb-globe-facts">
+          <li><i class="fa-solid fa-location-dot" aria-hidden="true"/><span>Currently living in Japan and working globally</span></li>
+          <li><i class="fa-solid fa-language" aria-hidden="true"/><span>Fluent in English, Spanish and French</span></li>
+          <li><i class="fa-solid fa-briefcase" aria-hidden="true"/><span>Extensive experience in global, European, US and Asian leadership contexts</span></li>
+          <li><i class="fa-solid fa-handshake" aria-hidden="true"/><span>Part of Business and Human Development Consulting Pte Ltd</span></li>
+        </ul>
+        <a href="/book" class="btn btn-primary">Connect With Isabelle</a>
+      </div>
+      <figure class="hb-globe-photo"><img src="/images/isabelle-global-journey.webp" alt="Isabelle Claus Teixeira, who has lived and worked in 9 countries" loading="lazy" decoding="async" width="850" height="1280"/></figure>
+    </div>
+    <div class="hb-globe-map" aria-label="Where Isabelle has lived and worked">
+      <div class="hb-globe-reg"><span class="hb-globe-k">Americas</span><ul><li>United States</li></ul></div>
+      <div class="hb-globe-reg"><span class="hb-globe-k">Europe</span><ul><li>United Kingdom</li><li>France</li><li>Spain</li><li>Belgium</li><li>Switzerland</li><li>Germany</li><li>Russia</li></ul></div>
+      <div class="hb-globe-reg"><span class="hb-globe-k">Asia</span><ul><li>Singapore</li><li class="hb-globe-home">Japan · home</li></ul></div>
+      <p class="hb-globe-more">And multiple other countries in Asia and Europe.</p>
+    </div>
+  </div>
+</section><section class="is-x-sec is-x-note" aria-labelledby="is-x-note-t">
+  <div class="is-x-breath" aria-hidden="true"><span/><span/><span/></div>
+  <div class="is-x-wrap is-x-note-in">
+    <span class="is-x-eyebrow is-x-eyebrow-lt is-x-rv">In Her Own Words</span>
+    <svg class="is-x-qmark is-x-rv" viewbox="0 0 64 48" aria-hidden="true" focusable="false"><path d="M0 48V28C0 12 8 2 26 0l2 7C18 10 14 16 14 24h12v24H0zm36 0V28c0-16 8-26 26-28l2 7c-10 3-14 9-14 17h12v24H36z"/></svg>
+    <h2 class="is-x-quote" id="is-x-note-t" data-is-x-words="">“I don’t do this work from a distance. <em>I’ve walked through it myself.</em> The practices I offer are ones I live — through my own ongoing inner work. Humility is not a value I add on. It is what this path requires.”</h2>
+    <span class="is-x-note-line is-x-rv" aria-hidden="true"/>
+    <p class="is-x-note-p is-x-rv">My corporate career gave me every achievement the system rewards — and I also went through my own hardship. The damage a toxic work environment can cause is real. Healing myself through somatic practices is what brought me here. Now I support others to walk through and out of those environments, and to find themselves back: empowered, respected, and as healthy — mentally and physically — as possible.</p>
+    <p class="is-x-sig is-x-rv">— Isabelle Claus Teixeira</p>
+  </div>
+  <div class="is-x-cta is-x-rv">
+    <a href="/book" class="btn btn-primary">Start the Conversation</a>
+  </div>
+</section><section class="section-cream is-x-sec is-x-work" aria-labelledby="is-x-work-t">
+  <div class="is-x-wrap">
+    <header class="is-x-head is-x-center">
+      <span class="is-x-eyebrow is-x-rv">Work With Isabelle</span>
+      <h2 class="is-x-title is-x-rv" id="is-x-work-t">Three Ways to <em>Begin</em></h2>
+      <p class="is-x-sub is-x-rv">Each path is designed to meet you where you are.</p>
+    </header>
+    <div class="is-x-paths">
+      <article class="is-x-path is-x-rv" data-is-x-glow="">
+        <span class="is-x-path-n" aria-hidden="true">01</span>
+        <span class="is-x-path-ico" aria-hidden="true"><i class="fa-solid fa-leaf"/></span>
+        <h3>TRE™ Sessions</h3>
+        <p>Learn Tension &amp; Trauma Release Exercises in supervised 1:1 sessions. After 3–4 sessions, practice independently as a lifelong self-regulation tool.</p>
+        <span class="is-x-path-chip" aria-hidden="true"><i class="fa-regular fa-clock"/>3–4 sessions</span>
+        <a href="/tre-certification" class="is-x-path-link">Learn About TRE™ <span class="is-x-arr">→</span></a>
+      </article>
+      <article class="is-x-path is-x-path-feat is-x-rv" data-is-x-glow="">
+        <span class="is-x-path-n" aria-hidden="true">02</span>
+        <span class="is-x-path-ico" aria-hidden="true"><i class="fa-solid fa-spa"/></span>
+        <h3>Coaching</h3>
+        <p>Somatic, trauma and neuroscience informed coaching — a 6–12 session journey that builds embodied intelligence for greater resilience, reduced stress and deeper self-awareness.</p>
+        <span class="is-x-path-chip" aria-hidden="true"><i class="fa-regular fa-clock"/>6–12 sessions</span>
+        <a href="/holistic-mastermind" class="is-x-path-link">Explore Coaching <span class="is-x-arr">→</span></a>
+      </article>
+      <article class="is-x-path is-x-rv" data-is-x-glow="">
+        <span class="is-x-path-n" aria-hidden="true">03</span>
+        <span class="is-x-path-ico" aria-hidden="true"><i class="fa-solid fa-hand"/></span>
+        <h3>Mindfulness</h3>
+        <p>A 6 or 8-session personalised journey to bring mindfulness and neuroscience-backed practices into your daily life — creating space for more presence, ease and aliveness.</p>
+        <span class="is-x-path-chip" aria-hidden="true"><i class="fa-regular fa-clock"/>6 or 8 sessions</span>
+        <a href="/holistic-mastermind" class="is-x-path-link">Explore Mindfulness <span class="is-x-arr">→</span></a>
+      </article>
+    </div>
+  </div>
+  <div class="is-x-cta is-x-rv">
+    <a href="/book" class="btn btn-dark">Let's Have a Chat</a>
+  </div>
+</section><section class="tn-sec tn-warm tn-lead" id="start" aria-labelledby="tn-lead-h" data-funnel="book">
+  <div class="tn-wrap tn-lead-grid">
+    <div>
+      <span class="tn-eyebrow">Free discovery call</span>
+      <h2 class="tn-h2" id="tn-lead-h">Start with a free 30-minute call.</h2>
+      <p class="tn-lede">No agenda and no pressure. Tell Isabelle what you are carrying and she will suggest what fits, if anything does.</p>
+      <ol class="tn-next">
+        <li><span>1</span><div><b>Send your details</b>One minute, right here.</div></li>
+        <li><span>2</span><div><b>Pick a time</b>Choose a slot straight away, or we reply within one business day.</div></li>
+        <li><span>3</span><div><b>Talk with Isabelle</b>Online, wherever you are, or in person in Singapore.</div></li>
+      </ol>
+    </div>
+    <div class="tn-card tn-formcard">
+      <div class="tn-form-head"><h3>Book your free call</h3><p>Fields marked * are required.</p></div>
+      <form class="tn-form tn-lead-form" data-source="Free call form" action="#" method="post" novalidate="">
+        <input type="text" name="_honey" tabindex="-1" autocomplete="off" class="tn-hp" aria-hidden="true"/>
+        <div class="tn-fr">
+          <label class="tn-f"><span>Your name <i>*</i></span><input type="text" name="fullname" autocomplete="name" required=""/></label>
+          <label class="tn-f"><span>Email <i>*</i></span><input type="email" name="email" autocomplete="email" required=""/></label>
+        </div>
+        <div class="tn-fr">
+          <label class="tn-f"><span>Phone / WhatsApp <i>*</i></span><input type="tel" name="phone" autocomplete="tel" inputmode="tel" required="" placeholder="+65"/></label>
+          <label class="tn-f"><span>I'm interested in</span>
+            <select name="interest">
+              <option value="">Not sure yet</option>
+              <option>1:1 TRE™ sessions</option>
+              <option>Somatic coaching</option>
+              <option>Mindfulness programme</option>
+              <option>TRE™ certification</option>
+              <option>Retreat or team workshop</option>
+            </select></label>
+        </div>
+        <button type="submit" class="tn-btn">Request my free call <svg viewbox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <p class="tn-form-err" role="alert" hidden="">Please add your name, a valid email and a phone number.</p>
+      </form>
+      <div class="tn-form-ok" hidden="" role="status" tabindex="-1">
+        <svg class="tn-ok-ic" viewbox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M7.5 12.5l3 3 6-6.5"/></svg>
+        <h3>Thank you, your request is in.</h3>
+        <p>Pick a time for your call now, or wait for our reply within one business day.</p>
+        <a class="tn-btn" href="https://calendly.com/bhdasia/30min" target="_blank" rel="noopener" data-cta="thanks-calendly">Pick a time now</a>
+      </div>
+      <p class="tn-alt-contact">Prefer to message? <a href="https://wa.me/818065151778" target="_blank" rel="noopener">WhatsApp Isabelle</a></p>
+    </div>
+  </div>
+</section><footer>
+  <div class="foot-grid">
+    <div>
+      <a href="/" class="foot-logo"><img src="/images/logo-dark.webp" alt="HummingBeing — Coaching &amp; Somatics" width="144" height="48" style="height:48px;width:auto;display:block"/></a>
+      <p class="foot-desc">Science backed processes with TRE™, Coaching and Somatic Practices — a space to release, renew and restore.</p>
+      <p class="foot-desc">Part of <strong>Business and Human Development Consulting Pte Ltd</strong></p>
+      <div class="foot-socials">
+        <a href="https://www.instagram.com/isabelleclausteixeira_bhd/" target="_blank" class="soc" aria-label="Instagram" rel="noopener noreferrer"><i class="fa-brands fa-instagram"/></a>
+        <a href="https://www.linkedin.com/in/isabelleclausteixeira/" target="_blank" class="soc" aria-label="LinkedIn" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"/></a>
+        <a href="https://www.youtube.com/@IsabelleClausTeixeira" target="_blank" class="soc" aria-label="YouTube" rel="noopener noreferrer"><i class="fa-brands fa-youtube"/></a>
+        <a href="https://wa.me/818065151778" target="_blank" class="soc" aria-label="WhatsApp" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"/></a>
+      </div>
+    </div>
+    <div>
+      <div class="foot-h">Work with Isabelle</div>
+      <ul class="foot-links">
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™</a></li>
+        <li><a href="/tre-certification">TRE™ Certification</a></li>
+        <li><a href="/retreats-workshops">Retreats &amp; Workshops</a></li>
+        <li><a href="/events">Events</a></li>
+        <li><a href="/book">Book a free call</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="foot-h">HummingBeing</div>
+      <ul class="foot-links">
+        <li><a href="/about">About HummingBeing</a></li>
+        <li><a href="/isabelle">Meet Isabelle</a></li>
+        <li><a href="/gallery">Gallery</a></li>
+        <li><a href="/socials">Socials</a></li>
+        <li><a href="/tre-faq">TRE™ FAQ</a></li>
+        <li><a href="/is-tre-safe">Is TRE™ Safe?</a></li>
+        <li><a href="/tre-icf-cceu">TRE™ with ICF CCEs</a></li>
+        <li><a href="https://www.bhdasia.com" target="_blank" rel="noopener">BHD Asia</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="foot-h">Contact</div>
+      <ul class="foot-links">
+        <li><span>bonjour@bhd<span style="display:none">-no-spam</span>asia.com</span></li>
+        <li><a href="https://wa.me/818065151778" target="_blank" rel="noopener noreferrer">WhatsApp Us</a></li>
+        <li><span>Global</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <div class="foot-copy">© 2026 HummingBeing — Business and Human Development Consulting Pte Ltd</div>
+    <div class="foot-legal">
+      <span>Privacy Policy</span>
+      <span>Terms of Service</span>
+      <span class="foot-sep">·</span>
+      <a href="https://technext.asia" target="_blank" rel="noopener noreferrer">Powered by <span class="tn-brand">TechNext</span></a>
+    </div>
+  </div>
+</footer><a href="https://wa.me/818065151778" class="wa-float" target="_blank" aria-label="Chat on WhatsApp" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"/></a><button class="top-float" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top"><i class="fa-solid fa-chevron-up"/></button><script src="/scripts.js?v=20261109e" defer="defer"/><script>
+/* ==========================================================================
+   ISABELLE (.is-x-*) - reveal, count-up, portrait tilt, story rail, credentials
+   tabs, journey map, scroll-scrubbed quote and card spotlights. No libraries.
+   ========================================================================== */
+(function () {
+  'use strict';
+  var secs = [].slice.call(document.querySelectorAll('section.is-x-sec'));
+  if (!secs.length) return;
+  document.documentElement.classList.add('is-x-js');
+
+  var mqReduce = window.matchMedia('(prefers-reduced-motion: reduce)');
+  var mqFine = window.matchMedia('(hover: hover) and (pointer: fine)');
+  function still() { return mqReduce.matches; }
+  function $(s, c) { return (c || document).querySelector(s); }
+  function $$(s, c) { return [].slice.call((c || document).querySelectorAll(s)); }
+  function clamp(v, a, b) { return Math.max(a, Math.min(b, v)); }
+  var hasIO = 'IntersectionObserver' in window;
+
+  /* ---- Reveal (staggered per batch) ------------------------------------- */
+  var revealIO = hasIO ? new IntersectionObserver(function (entries) {
+    var batch = entries.filter(function (e) { return e.isIntersecting; })
+      .sort(function (a, b) { return a.boundingClientRect.top - b.boundingClientRect.top || a.boundingClientRect.left - b.boundingClientRect.left; });
+    batch.forEach(function (e, i) {
+      var el = e.target;
+      el.style.setProperty('--is-x-d', Math.min(i, 6) * 90 + 'ms');
+      el.classList.add('is-x-in');
+      setTimeout(function () { el.style.removeProperty('--is-x-d'); }, 1800);
+      revealIO.unobserve(el);
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -6% 0px' }) : null;
+  $$('.is-x-rv').forEach(function (el) { if (revealIO) revealIO.observe(el); else el.classList.add('is-x-in'); });
+
+  /* ---- Count-up (only numbers already printed on the page) --------------- */
+  var nums = $$('[data-is-x-count]');
+  function countUp(el) {
+    var target = parseInt(el.getAttribute('data-is-x-count'), 10);
+    if (still() || isNaN(target)) { el.textContent = target; return; }
+    var t0 = null, dur = 1600;
+    function step(ts) {
+      if (t0 === null) t0 = ts;
+      var p = Math.min(1, (ts - t0) / dur), e = p === 1 ? 1 : 1 - Math.pow(2, -10 * p);
+      el.textContent = Math.round(target * e);
+      if (p &lt; 1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  }
+  if (hasIO &amp;&amp; !still()) {
+    var countIO = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) { if (e.isIntersecting) { countUp(e.target); countIO.unobserve(e.target); } });
+    }, { threshold: 0.6 });
+    nums.forEach(function (el) { el.textContent = '0'; countIO.observe(el); });
+  }
+
+  /* ---- Portrait tilt + parallax (fine pointers only) --------------------- */
+  $$('[data-is-x-tilt]').forEach(function (fig) {
+    var frame = $('.is-x-portrait-frame', fig), raf = 0, ev = null;
+    if (!frame) return;
+    fig.addEventListener('pointermove', function (e) {
+      if (e.pointerType !== 'mouse' || !mqFine.matches || still()) return;
+      ev = e; if (raf) return;
+      raf = requestAnimationFrame(function () {
+        raf = 0;
+        var r = fig.getBoundingClientRect();
+        var px = (ev.clientX - r.left) / r.width - 0.5, py = (ev.clientY - r.top) / r.height - 0.5;
+        fig.classList.add('is-x-tilting');
+        frame.style.setProperty('--is-x-ry', (px * 7).toFixed(2) + 'deg');
+        frame.style.setProperty('--is-x-rx', (-py * 7).toFixed(2) + 'deg');
+        frame.style.setProperty('--is-x-px', (-px * 14).toFixed(1) + 'px');
+        frame.style.setProperty('--is-x-py', (-py * 14).toFixed(1) + 'px');
+        fig.style.setProperty('--is-x-fx', (px * 16).toFixed(1) + 'px');
+        fig.style.setProperty('--is-x-fy', (py * 16).toFixed(1) + 'px');
+      });
+    });
+    fig.addEventListener('pointerleave', function () {
+      if (raf) { cancelAnimationFrame(raf); raf = 0; }
+      fig.classList.remove('is-x-tilting');
+      ['--is-x-rx', '--is-x-ry', '--is-x-px', '--is-x-py'].forEach(function (p) { frame.style.removeProperty(p); });
+      fig.style.removeProperty('--is-x-fx'); fig.style.removeProperty('--is-x-fy');
+    });
+  });
+
+  /* ---- Pointer spotlight (credential stage + path cards) ----------------- */
+  $$('[data-is-x-glow]').forEach(function (el) {
+    el.addEventListener('pointermove', function (e) {
+      if (e.pointerType !== 'mouse' || still()) return;
+      var r = el.getBoundingClientRect();
+      el.style.setProperty('--is-x-mx', ((e.clientX - r.left) / r.width * 100).toFixed(1) + '%');
+      el.style.setProperty('--is-x-my', ((e.clientY - r.top) / r.height * 100).toFixed(1) + '%');
+    });
+  });
+
+  /* ---- Credentials: tabs with roving focus + arrows ---------------------- */
+  (function () {
+    var box = $('.is-x-cx'); if (!box) return;
+    var tabs = $$('.is-x-cx-tab', box), panels = $$('.is-x-cx-panel', box);
+    var curEl = $('[data-is-x-cur]', box), prog = $('[data-is-x-prog]', box), stage = $('.is-x-cx-stage', box);
+    var list = $('.is-x-cx-list', box), cur = 0;
+    function pad(n) { return (n &lt; 10 ? '0' : '') + n; }
+    function select(i, focus) {
+      i = (i + tabs.length) % tabs.length; cur = i;
+      tabs.forEach(function (t, j) {
+        var on = j === i;
+        t.setAttribute('aria-selected', on ? 'true' : 'false');
+        t.tabIndex = on ? 0 : -1;
+        panels[j].classList.toggle('is-x-cur', on);
+        panels[j].setAttribute('aria-hidden', on ? 'false' : 'true');
+        panels[j].tabIndex = on ? 0 : -1;
+      });
+      if (curEl) curEl.textContent = pad(i + 1);
+      if (prog) prog.style.setProperty('--is-x-s', ((i + 1) / tabs.length).toFixed(4));
+      if (focus) tabs[i].focus({ preventScroll: true });
+      if (list &amp;&amp; list.scrollWidth &gt; list.clientWidth + 1) {
+        var t = tabs[i], left = t.offsetLeft - (list.clientWidth - t.offsetWidth) / 2;
+        try { list.scrollTo({ left: left, behavior: still() ? 'auto' : 'smooth' }); } catch (err) { list.scrollLeft = left; }
+      }
+    }
+    tabs.forEach(function (t, i) {
+      t.addEventListener('click', function () { select(i, false); });
+      t.addEventListener('keydown', function (e) {
+        var j = null;
+        if (e.key === 'ArrowDown' || e.key === 'ArrowRight') j = i + 1;
+        else if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') j = i - 1;
+        else if (e.key === 'Home') j = 0;
+        else if (e.key === 'End') j = tabs.length - 1;
+        if (j === null) return;
+        e.preventDefault(); select(j, true);
+      });
+    });
+    $$('[data-is-x-step]', box).forEach(function (b) {
+      b.addEventListener('click', function () { select(cur + parseInt(b.getAttribute('data-is-x-step'), 10), false); });
+    });
+    // swipe on the stage (touch)
+    var sx = null, sy = 0;
+    if (stage) {
+      stage.addEventListener('pointerdown', function (e) { if (e.pointerType === 'mouse') return; sx = e.clientX; sy = e.clientY; });
+      stage.addEventListener('pointerup', function (e) {
+        if (sx === null) return;
+        var dx = e.clientX - sx, dy = e.clientY - sy; sx = null;
+        if (Math.abs(dx) &gt; 50 &amp;&amp; Math.abs(dx) &gt; Math.abs(dy) * 1.3) select(cur + (dx &lt; 0 ? 1 : -1), false);
+      });
+      stage.addEventListener('pointercancel', function () { sx = null; });
+    }
+    select(0, false);
+  })();
+
+  /* ---- Journey map: place buttons &lt;-&gt; pins ------------------------------- */
+  (function () {
+    var map = $('[data-is-x-map]'); if (!map) return;
+    var btns = $$('.is-x-place', map), pins = $$('.is-x-pin', map), arcs = $$('.is-x-arcs path', map);
+    var canvas = $('.is-x-map-canvas', map);
+    var cap = $('.is-x-map-cap', map), k = $('[data-is-x-k]', map), t = $('[data-is-x-t]', map), l = $('[data-is-x-l]', map);
+    arcs.forEach(function (a, i) { a.style.setProperty('--is-x-d', 300 + i * 220 + 'ms'); });
+    function show(id, announce) {
+      map.setAttribute('data-is-x-on', id);
+      btns.forEach(function (b) { b.setAttribute('aria-pressed', b.getAttribute('data-place') === id ? 'true' : 'false'); });
+      pins.forEach(function (p) {
+        var pid = p.getAttribute('data-pin');
+        p.classList.toggle('is-x-hot', pid === id);
+      });
+      arcs.forEach(function (a) { a.classList.toggle('is-x-hot', a.getAttribute('data-arc') === id); });
+      var b = btns.filter(function (x) { return x.getAttribute('data-place') === id; })[0];
+      if (!b || !announce) return;
+      // phones: the map pans inside its frame, so bring the chosen pin to the middle
+      var pin = pins.filter(function (p) { return p.getAttribute('data-pin') === id; })[0];
+      if (canvas &amp;&amp; canvas.scrollWidth &gt; canvas.clientWidth + 1) {
+        var left = id === 'more' ? (canvas.scrollWidth - canvas.clientWidth) * 0.6 : null;
+        if (pin) { var pr = pin.getBoundingClientRect(), cr = canvas.getBoundingClientRect(); left = canvas.scrollLeft + (pr.left + pr.width / 2 - cr.left) - canvas.clientWidth / 2; }
+        if (left !== null) { try { canvas.scrollTo({ left: left, behavior: still() ? 'auto' : 'smooth' }); } catch (err) { canvas.scrollLeft = left; } }
+      }
+      k.textContent = b.getAttribute('data-k');
+      t.textContent = b.textContent.trim();
+      l.textContent = b.getAttribute('data-line');
+      cap.classList.remove('is-x-swap'); void cap.offsetWidth; if (!still()) cap.classList.add('is-x-swap');
+    }
+    btns.forEach(function (b) {
+      b.addEventListener('click', function () { show(b.getAttribute('data-place'), true); });
+      b.addEventListener('pointerenter', function (e) { if (e.pointerType === 'mouse' &amp;&amp; mqFine.matches) show(b.getAttribute('data-place'), true); });
+    });
+    show('jp', false);
+    if (canvas &amp;&amp; canvas.scrollWidth &gt; canvas.clientWidth + 1) {
+      var jp = pins.filter(function (p) { return p.getAttribute('data-pin') === 'jp'; })[0];
+      if (jp) { var jr = jp.getBoundingClientRect(), jc = canvas.getBoundingClientRect(); canvas.scrollLeft = canvas.scrollLeft + (jr.left + jr.width / 2 - jc.left) - canvas.clientWidth / 2; }
+      else canvas.scrollLeft = (canvas.scrollWidth - canvas.clientWidth) / 2;
+    }
+  })();
+
+  /* ---- Scroll-linked: story rail + quote word scrub ---------------------- */
+  var rail = $('[data-is-x-rail]'), fill = rail &amp;&amp; $('.is-x-rail-fill', rail), chaps = rail ? $$('[data-is-x-chap]', rail) : [];
+  var quote = $('[data-is-x-words]'), words = [];
+  if (quote) {
+    // wrap each word in a span without touching markup semantics (em stays)
+    var walker = document.createTreeWalker(quote, NodeFilter.SHOW_TEXT, null, false), nodes = [], n;
+    while ((n = walker.nextNode())) nodes.push(n);
+    nodes.forEach(function (node) {
+      var parts = node.nodeValue.split(/(\s+)/), frag = document.createDocumentFragment();
+      parts.forEach(function (p) {
+        if (!p) return;
+        if (/^\s+$/.test(p)) { frag.appendChild(document.createTextNode(p)); return; }
+        var s = document.createElement('span'); s.className = 'is-x-w'; s.textContent = p; frag.appendChild(s); words.push(s);
+      });
+      node.parentNode.replaceChild(frag, node);
+    });
+  }
+  var ticking = false;
+  function update() {
+    ticking = false;
+    var vh = window.innerHeight || 800;
+    if (fill) {
+      var r = rail.getBoundingClientRect();
+      var p = still() ? 1 : clamp((vh * 0.62 - r.top) / Math.max(1, r.height), 0, 1);
+      fill.style.setProperty('--is-x-p', p.toFixed(4));
+      chaps.forEach(function (c) { var cr = c.getBoundingClientRect(); c.classList.toggle('is-x-lit', still() || cr.top &lt; vh * 0.62); });
+    }
+    if (words.length) {
+      var qr = quote.getBoundingClientRect();
+      if (still()) { words.forEach(function (w) { w.style.removeProperty('--is-x-o'); }); }
+      else if (qr.bottom &gt; -50 &amp;&amp; qr.top &lt; vh + 50) {
+        // progress 0 when the quote top hits 85% of the viewport; fully lit by the time it is centred
+        var start = vh * 0.85, end = vh * 0.6;
+        var prog = clamp((start - qr.top) / Math.max(1, (start - end) + qr.height * 0.6), 0, 1);
+        var lit = prog * (words.length + 4);
+        words.forEach(function (w, i) { w.style.setProperty('--is-x-o', (0.2 + 0.8 * clamp(lit - i, 0, 1)).toFixed(3)); });
+      }
+    }
+  }
+  function onScroll() { if (!ticking) { ticking = true; requestAnimationFrame(update); } }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('resize', onScroll);
+  if (mqReduce.addEventListener) mqReduce.addEventListener('change', onScroll);
+  update();
+})();
+</script><script src="/gdpr-consent.js?v=4"/><script src="/hb-tn.js?v=39" defer="defer"/></t></t>

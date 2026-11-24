@@ -1,0 +1,419 @@
+<t t-name="hbs.page_event_tre_module1_bucharest"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en&quot;}"/><t t-set="title">TRE™ Module 1 Bucharest | ICF CCEUs | HummingBeing</t><t t-set="head"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
+new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
+"https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,"script","dataLayer","GTM-TXLR5LGG");</script><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="description" content="TRE&#x2122; Module 1 certification in Bucharest, 15&#x2013;17 October 2026 &#x2014; the first ICF-accredited TRE&#x2122; Module 1 in Europe. 21 ICF CCEUs. With Isabelle Claus Teixeira."/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/><link rel="stylesheet" href="/styles.css?v=98"/><link rel="preconnect" href="https://cdnjs.cloudflare.com"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png?v=3"/><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png?v=3"/><link rel="icon" href="/favicon.ico?v=3" sizes="any"/><link rel="apple-touch-icon" href="/apple-touch-icon.png?v=3"/><link rel="preload" as="image" href="/images/event-bucharest-module1.webp?v=4" fetchpriority="high"/><meta name="keywords" content="TRE&#x2122; Module 1 Romania, TRE&#x2122; certification Bucharest, ICF CCEUs TRE&#x2122;, TRE&#x2122; provider certification Europe, Isabelle Claus Teixeira, Saymara Ryon, TRE&#x2122; Romania"/><link rel="canonical" href="https://www.hummingbeing.com/event-tre-module1-bucharest"/><meta name="robots" content="index, follow"/><meta property="og:type" content="website"/><meta property="og:title" content="TRE&#x2122; Module 1 Bucharest &#x2014; First ICF-Accredited in Europe | 21 ICF CCEUs"/><meta property="og:description" content="TRE&#x2122; Module 1 Certification Training in Bucharest, Romania &#x2014; 15&#x2013;17 October 2026. The only TRE&#x2122; training in the world with ICF CCEUs."/><meta property="og:image" content="https://www.hummingbeing.com/images/event-bucharest-module1.webp?v=4"/><meta property="og:url" content="https://www.hummingbeing.com/event-tre-module1-bucharest"/><meta name="twitter:card" content="summary_large_image"/><script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationEvent",
+      "name": "TRE™ Module 1 — Bucharest, Romania",
+      "description": "TRE™ Module 1 Certification Training. The first ICF-accredited TRE™ Module 1 in Europe. 21 ICF CCEUs (16 Resource Development + 5 Core Competencies). Co-facilitated by Isabelle Claus Teixeira and Saymara Ryon.",
+      "startDate": "2026-10-15T17:00:00+03:00",
+      "endDate": "2026-10-17T18:00:00+03:00",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "location": {
+        "@type": "Place",
+        "name": "Bucharest, Romania",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "RO",
+          "addressLocality": "Bucharest"
+        }
+      },
+      "organizer": {
+        "@type": "Person",
+        "name": "Isabelle Claus Teixeira",
+        "url": "https://www.hummingbeing.com/isabelle"
+      },
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Super Early Bird (first 5)",
+          "price": "739",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/SoldOut",
+          "url": "https://www.hummingbeing.com/event-tre-module1-bucharest"
+        },
+        {
+          "@type": "Offer",
+          "name": "Early Bird (next 5)",
+          "price": "769",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/SoldOut",
+          "url": "https://www.hummingbeing.com/event-tre-module1-bucharest"
+        },
+        {
+          "@type": "Offer",
+          "name": "Full Price (final 10)",
+          "price": "799",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/SoldOut",
+          "url": "https://www.hummingbeing.com/event-tre-module1-bucharest"
+        }
+      ],
+      "image": "https://www.hummingbeing.com/images/event-bucharest-module1.webp?v=4",
+      "performer": [
+        {
+          "@type": "Person",
+          "name": "Isabelle Claus Teixeira",
+          "url": "https://www.hummingbeing.com/isabelle",
+          "jobTitle": "Global TRE™ Certifying Trainer"
+        },
+        {
+          "@type": "Person",
+          "name": "Saymara Ryon",
+          "url": "https://www.atelierdesuflet.ro/"
+        }
+      ]
+    }
+  </script><style>
+    /* ============ COMPACT EVENT LAYOUT (ce-*) ============ */
+    .ce-hero{position:relative;color:#fff;overflow:hidden;background:var(--navy-deep)}
+    .ce-hero .ce-bg{position:absolute;inset:0;background-size:cover;background-position:center;opacity:.20;filter:saturate(.7) blur(6px);transform:scale(1.06)}
+    .ce-hero::after{content:"";position:absolute;inset:0;background:linear-gradient(120deg,rgba(26,32,48,.94),rgba(36,46,66,.80) 60%,rgba(26,32,48,.92))}
+    .ce-hero-inner{position:relative;z-index:1;max-width:1160px;margin:0 auto;padding:96px 5% 40px;display:grid;grid-template-columns:1fr;gap:3rem;align-items:center}
+    .ce-crumbs{font-family:'Lato',sans-serif;font-size:.82rem;color:#c7d2e6;margin-bottom:1rem}
+    .ce-crumbs a{color:#fff;opacity:.85;text-decoration:none}.ce-crumbs a:hover{color:var(--gold)}
+    .ce-badges{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1.1rem}
+    .ce-badge{font-family:'Lato',sans-serif;font-size:.68rem;font-weight:800;letter-spacing:.09em;text-transform:uppercase;padding:.4rem .8rem;border-radius:50px;background:rgba(255,255,255,.14);color:#fff;border:1px solid rgba(255,255,255,.24)}
+    .ce-badge.cat{background:var(--gold);color:var(--navy);border-color:var(--gold)}
+    .ce-badge.sold{background:#c0392b;color:#fff;border-color:#c0392b}
+    .btn-soldout{background:#c0392b!important;border-color:#c0392b!important;color:#fff!important;cursor:not-allowed;pointer-events:none;box-shadow:none!important}
+    .ce-soldtag{display:inline-block;background:#c0392b;color:#fff;font-family:'Lato',sans-serif;font-size:.66rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:.3rem .7rem;border-radius:5px;margin-bottom:.7rem}
+    .ce-hero h1{font-family:'Playfair Display',Georgia,serif;font-size:clamp(2.1rem,4.4vw,3.3rem);font-weight:800;color:#fff;line-height:1.08;margin:0 0 .9rem}
+    .ce-hero h1 em{font-style:italic;color:var(--gold)}
+    .ce-lead{font-size:1.05rem;color:#dbe3f1;line-height:1.7;max-width:660px;margin:0 0 1.5rem}
+    .ce-hero-actions{display:flex;gap:.8rem;flex-wrap:wrap}
+    .ce-poster{margin:0;border-radius:14px;overflow:hidden}
+    .ce-main &gt; .ce-poster{max-width:100%;margin:0 0 1.8rem;order:0}
+    .ce-poster img{width:100%;height:auto;display:block}
+    @media(max-width:900px){.ce-hero-inner{grid-template-columns:1fr;gap:2rem}.ce-poster{max-width:460px;margin:0 auto;order:-1}}
+    .ce-facts{position:relative;z-index:2;margin-top:-38px}
+    .ce-facts-grid{max-width:1160px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);background:#fff;border:1px solid rgba(36,46,66,.1);border-radius:14px;box-shadow:0 14px 42px rgba(36,46,66,.15);overflow:hidden}
+    .ce-fact{padding:18px 20px;border-right:1px solid rgba(36,46,66,.1);display:flex;gap:.7rem;align-items:flex-start}
+    .ce-fact:last-child{border-right:0}
+    .ce-fact i{color:var(--gold-dark);font-size:1rem;margin-top:3px;width:18px;text-align:center}
+    .ce-fact b{display:block;font-family:'Lato',sans-serif;font-size:.64rem;letter-spacing:.1em;text-transform:uppercase;color:var(--text-mid);font-weight:800;margin-bottom:.2rem}
+    .ce-fact span{color:var(--navy);font-weight:700;font-size:.88rem;line-height:1.35;font-family:'Lato',sans-serif}
+    @media(max-width:820px){.ce-facts-grid{grid-template-columns:1fr 1fr}.ce-fact:nth-child(2){border-right:0}.ce-fact:nth-child(-n+2){border-bottom:1px solid rgba(36,46,66,.1)}}
+    @media(max-width:480px){.ce-facts-grid{grid-template-columns:1fr}.ce-fact{border-right:0;border-bottom:1px solid rgba(36,46,66,.1)}.ce-fact:last-child{border-bottom:0}}
+    .ce-layout{max-width:1160px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:3rem;align-items:start;padding:3.4rem 5% 4rem}
+    @media(max-width:900px){.ce-layout{grid-template-columns:1fr;gap:2.2rem;padding:2.4rem 5% 3rem}}
+    .ce-main h2{font-family:'Playfair Display',Georgia,serif;font-size:1.5rem;color:var(--navy);margin:2.4rem 0 1rem;line-height:1.2}
+    .ce-main h2:first-child{margin-top:0}
+    .ce-main p{font-size:1rem;line-height:1.8;color:var(--body-text);margin:0 0 1rem}
+    .ce-list{list-style:none;padding:0;margin:0 0 1rem}
+    .ce-list li{position:relative;padding-left:1.7rem;margin-bottom:.6rem;font-size:.97rem;line-height:1.6;color:var(--body-text)}
+    .ce-list li::before{content:"\2713";position:absolute;left:0;top:0;color:var(--gold-dark);font-weight:800}
+    .ce-sched{display:grid;gap:.9rem}
+    .ce-day{display:grid;grid-template-columns:118px minmax(0,1fr);gap:1.2rem;background:#fff;border:1px solid rgba(36,46,66,.1);border-left:4px solid var(--gold);border-radius:10px;padding:16px 18px}
+    .ce-day .when b{display:block;font-family:'Playfair Display',serif;color:var(--navy);font-size:1rem;line-height:1.2}
+    .ce-day .when span{display:block;color:var(--text-mid);font-size:.8rem;margin-top:.25rem;font-family:'Lato',sans-serif}
+    .ce-day h4{margin:0 0 .3rem;font-size:1.02rem;color:var(--navy)}
+    .ce-day p{margin:0;color:var(--body-text);font-size:.92rem;line-height:1.6}
+    .ce-day em{color:var(--gold-dark);font-size:.84rem}
+    @media(max-width:480px){.ce-day{grid-template-columns:1fr;gap:.5rem}}
+    .ce-callout{background:var(--navy);color:#fff;border-radius:12px;padding:1.6rem 1.8rem;text-align:center;margin-top:1.5rem}
+    .ce-callout i{color:var(--gold);font-size:1.6rem;display:block;margin-bottom:.5rem}
+    .ce-callout h4{font-family:'Playfair Display',serif;color:#fff;font-size:1.15rem;margin:0 0 .4rem}
+    .ce-callout p{color:rgba(255,255,255,.82);font-size:.9rem;line-height:1.6;margin:0}.ce-callout strong{color:var(--gold)}
+    .ce-people{display:grid;grid-template-columns:1fr;gap:1.1rem;margin-top:.4rem}
+    @media(max-width:640px){.ce-people{grid-template-columns:1fr}}
+    .ce-person{background:var(--navy-deep);color:#fff;border-radius:12px;padding:1.7rem;display:flex;gap:1.3rem;align-items:flex-start}
+    .ce-main &gt; .ce-person + .ce-person{margin-top:1.1rem}
+    .ce-person .ce-avatar{flex:0 0 auto;width:104px;height:104px;border-radius:50%;object-fit:cover;object-position:top center;border:3px solid rgba(245,166,35,.55);box-shadow:0 8px 22px rgba(0,0,0,.28)}
+    .ce-person .ce-person-body{flex:1;min-width:0}
+    @media(max-width:520px){.ce-person{flex-direction:column;align-items:center;text-align:center}.ce-person .links{justify-content:center}}
+    .ce-person .role{font-family:'Lato',sans-serif;font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);font-weight:800}
+    .ce-person h4{font-family:'Playfair Display',serif;margin:.35rem 0 .55rem;font-size:1.35rem;color:#fff}
+    .ce-person p{color:rgba(255,255,255,.82);font-size:.92rem;line-height:1.7;margin:0 0 .9rem}
+    .ce-person .links{display:flex;gap:.6rem;flex-wrap:wrap}
+    .ce-person .links a{font-family:'Lato',sans-serif;font-size:.78rem;font-weight:700;color:var(--gold);text-decoration:none;border:1px solid rgba(245,166,35,.4);padding:.32rem .8rem;border-radius:5px}
+    .ce-person .links a:hover{background:rgba(245,166,35,.15)}
+    .ce-collab{font-size:.84rem;color:var(--text-mid);margin-top:1.3rem;line-height:1.7}.ce-collab a{color:var(--gold-dark);font-weight:600}
+    .ce-prep{background:var(--navy);color:#fff;border-radius:12px;padding:1.6rem 1.8rem;border-left:5px solid var(--gold);margin-top:2.2rem}
+    .ce-prep h2{color:#fff;margin:0 0 .6rem;font-size:1.25rem}
+    .ce-prep p{color:#dbe3f1;font-size:.93rem;margin:0 0 1rem;line-height:1.7}
+    .ce-prep .ce-list li{color:#dbe3f1}.ce-prep .ce-list li::before{color:var(--gold)}
+    .ce-prep .btn-row{display:flex;gap:.7rem;flex-wrap:wrap;margin-top:.4rem}
+    .ce-prep-section{background:#fff;padding:0 5% 3.5rem}
+    .ce-prep-section .ce-prep{max-width:1160px;margin:0 auto}
+    .ce-prep-section .ce-prep-list{columns:2;column-gap:2.2rem}
+    @media(max-width:640px){.ce-prep-section .ce-prep-list{columns:1}}
+    /* sticky-safe: clip instead of hidden so .ce-side can stick */
+    html,body{overflow-x:hidden;overflow-x:clip}
+    .ce-side{position:sticky;top:90px;align-self:start;display:grid;gap:1.2rem;max-height:calc(100vh - 106px);overflow-y:auto;overscroll-behavior:contain;scrollbar-width:none;-ms-overflow-style:none}
+    .ce-side::-webkit-scrollbar{display:none}
+    @media(max-width:900px){.ce-side{position:static;max-height:none;overflow:visible}}
+    .ce-box{background:#fff;border:1px solid rgba(36,46,66,.1);border-radius:14px;padding:1.5rem;box-shadow:0 4px 22px rgba(36,46,66,.08)}
+    .ce-box h3{font-family:'Playfair Display',serif;font-size:1.18rem;color:var(--navy);margin:0 0 .3rem}
+    .ce-box .sub{font-size:.85rem;color:var(--text-mid);margin:0 0 1rem;line-height:1.5}
+    .ce-tiers{display:grid;gap:.55rem;margin-bottom:1.1rem}
+    .ce-tier{display:flex;justify-content:space-between;align-items:baseline;gap:.8rem;padding:.7rem .85rem;border:1px solid rgba(36,46,66,.12);border-radius:9px;background:#f6f7fa}
+    .ce-tier.hl{background:var(--cream);border-color:var(--gold)}
+    .ce-tier .tl{font-family:'Lato',sans-serif;font-weight:700;color:var(--navy);font-size:.88rem}
+    .ce-tier .tl small{display:block;font-weight:400;color:var(--text-mid);font-size:.74rem;margin-top:.12rem}
+    .ce-tier .tp{font-family:'Lato',sans-serif;font-weight:900;color:var(--navy);white-space:nowrap;font-size:1.02rem}
+    .ce-box .btn{width:100%;text-align:center;display:block;margin-top:.5rem}
+    .ce-box .fine{font-size:.76rem;color:var(--text-mid);margin:.9rem 0 0;line-height:1.55}.ce-box .fine .warn{color:#b23a2c;font-weight:700}
+    .ce-qa p{font-size:.9rem;color:var(--body-text);line-height:1.7;margin:0 0 .4rem}.ce-qa a{color:var(--gold-dark);font-weight:600}
+    .ce-related{background:var(--cream);padding:3rem 5%}
+    .ce-related-inner{max-width:1160px;margin:0 auto}
+    .ce-related h2{font-family:'Playfair Display',serif;font-size:1.5rem;color:var(--navy);text-align:center;margin:0 0 1.6rem}
+    .ce-rel-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem}
+    @media(max-width:760px){.ce-rel-grid{grid-template-columns:1fr}}
+    .ce-rel{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 3px 16px rgba(36,46,66,.08);text-decoration:none;display:block;transition:transform .2s,box-shadow .2s}
+    .ce-rel:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(36,46,66,.15)}
+    .ce-rel img{width:100%;height:150px;object-fit:cover;display:block}
+    .ce-rel .b{padding:.9rem 1.1rem}
+    .ce-rel strong{display:block;font-family:'Playfair Display',serif;color:var(--navy);font-size:1rem;margin-bottom:.25rem;line-height:1.3}
+    .ce-rel span{font-family:'Lato',sans-serif;font-size:.8rem;color:var(--text-mid)}
+  
+    /* poster lightbox (generic) */
+    .ce-poster{cursor:zoom-in}
+    .ce-zoom-hint{position:absolute;bottom:10px;right:10px;background:rgba(15,21,36,.72);color:#fff;font-family:'Lato',sans-serif;font-size:.62rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:.3rem .6rem;border-radius:50px;pointer-events:none}
+    .ce-lightbox{position:fixed;inset:0;z-index:9999;background:rgba(10,14,24,.93);display:none;align-items:center;justify-content:center;padding:4vmin;cursor:zoom-out}
+    .ce-lightbox.open{display:flex}
+    .ce-lightbox img{max-width:100%;max-height:100%;border-radius:10px;box-shadow:0 30px 90px rgba(0,0,0,.6)}
+    .ce-lightbox-close{position:absolute;top:16px;right:22px;width:44px;height:44px;border:0;border-radius:50%;background:rgba(255,255,255,.12);color:#fff;font-size:1.6rem;line-height:1;cursor:pointer}
+    .ce-lightbox-close:hover{background:rgba(255,255,255,.22)}
+  </style><script type="application/ld+json" data-seo="breadcrumb">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.hummingbeing.com/"}, {"@type": "ListItem", "position": 2, "name": "Events", "item": "https://www.hummingbeing.com/events"}, {"@type": "ListItem", "position": 3, "name": "TRE™ Module 1 — Bucharest", "item": "https://www.hummingbeing.com/event-tre-module1-bucharest"}]}</script><link rel="preload" href="/fonts/hb/lato-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/hb/playfair-display-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/></t><t t-call="web.layout"><link rel="stylesheet" href="/styles.css?v=98"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXLR5LGG" height="0" width="0" style="display:none;visibility:hidden"/></noscript><nav>
+  <a href="/" class="logo"><img src="/images/logo-dark.webp" class="logo-on-dark" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/><img src="/images/logo-light.webp" class="logo-on-light" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/></a>
+  <ul class="nav-links">
+    <li><a href="/">Home</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/isabelle">Isabelle</a></li>
+    <li class="nav-dropdown">
+      <a href="javascript:void(0)" class="nav-dropdown-toggle">Work with Isabelle <i class="fa-solid fa-chevron-down nav-arrow"/></a>
+      <ul class="nav-dropdown-menu">
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™<small>Private sessions, online or in person</small></a></li>
+        <li><a href="/tre-certification">TRE™ Certification<small>Become a certified TRE™ provider</small></a></li>
+        <li><a href="/retreats-workshops">Retreats &amp; Workshops<small>Groups, teams and executives</small></a></li>
+      </ul>
+    </li>
+    <li><a href="/events">Events</a></li>
+    <li class="nav-book-mobile"><a href="/book">Book a free call</a></li>
+  </ul>
+  <div class="nav-actions">
+    <a href="/book" class="nav-cta">Book a free call</a>
+    <button class="hamburger" onclick="toggleMenu()"><span/><span/><span/></button>
+  </div>
+</nav><section class="ce-hero">
+  <div class="ce-bg" style="background-image:url('/images/event-bucharest-module1.webp?v=4')"/>
+  <div class="ce-hero-inner">
+    <div>
+      <p class="ce-crumbs"><a href="/events">Events</a> › Certification</p>
+      <div class="ce-badges">
+        <span class="ce-badge">Bucharest, România</span>
+        <span class="ce-badge cat">Certification</span>
+        <span class="ce-badge">21 ICF CCEUs</span>
+        <span class="ce-badge">In English</span>
+        <span class="ce-badge sold">Sold Out</span>
+      </div>
+      <h1>TRE™ Module 1 <em>— Bucharest</em></h1>
+      <p class="ce-lead">Three immersive days in Bucharest to build your own TRE™ practice and your resilience as a practitioner. Counts as Module 1 of the Global TRE™ Provider Certification and is the first ICF-accredited TRE™ Module 1 in Europe, carrying 21 ICF CCEUs. Co-facilitated by Isabelle Claus Teixeira and Saymara Ryon.</p>
+      <div class="ce-hero-actions">
+        <span class="btn btn-soldout">Sold Out</span>
+        <a href="#programme" class="btn btn-outline">View schedule</a>
+      </div>
+    </div>
+  </div>
+</section><div class="ce-facts">
+  <div class="ce-facts-grid">
+    <div class="ce-fact"><i class="fa-regular fa-calendar"/><div><b>Dates</b><span>15–17 October 2026</span></div></div>
+    <div class="ce-fact"><i class="fa-solid fa-location-dot"/><div><b>Where</b><span>Bucharest, România</span></div></div>
+    <div class="ce-fact"><i class="fa-solid fa-award"/><div><b>Credits</b><span>21 ICF CCEUs</span></div></div>
+    <div class="ce-fact"><i class="fa-solid fa-tag"/><div><b>Investment</b><span>From €739</span></div></div>
+  </div>
+</div><div class="ce-layout">
+  <div class="ce-main">
+    <figure class="ce-poster">
+      <img src="/images/event-bucharest-module1.webp?v=4" alt="TRE™ Module 1 Bucharest — 15–17 October 2026, 21 ICF CCEUs, with Isabelle Claus Teixeira and Saymara Ryon" width="1600" height="900" decoding="async"/>
+    </figure>
+
+    <h2>Why TRE™ Module 1 in Bucharest?</h2>
+    <p>Europe’s <strong>first ICF-accredited TRE™ Module 1</strong> is also part of the only TRE™ training in the world that carries <strong>ICF CCEUs</strong> (21 CCEUs: 16 Resource Development + 5 Core Competencies). TRE™ was developed by Dr. David Berceli and is designed to engage the body’s own neurogenic tremoring reflex, which many people find helps them let go of held stress, build resilience and regulate more deeply.</p>
+    <p>Module 1 qualifies you to <strong>use TRE™ in your own personal practice</strong>. Add Modules 2 and 3 and you become a <strong>Certified Global TRE™ Provider</strong>, accredited to offer TRE™ to individuals and groups.</p>
+
+    <h2>Who it is for</h2>
+    <ul class="ce-list">
+      <li>A coach (in training or ACC, PCC, MCC level) looking for an ICF-accredited somatic tool</li>
+      <li>A therapist, psychologist or healthcare professional growing a trauma-informed practice</li>
+      <li>A yoga teacher, bodyworker or somatic practitioner who wants to add neuroscience-informed tools</li>
+      <li>Anyone experiencing chronic stress or burnout and ready for a body-led approach</li>
+      <li>Anyone weighing up the full Global TRE™ Provider Certification (Modules 1, 2 &amp; 3)</li>
+    </ul>
+
+    <h2 id="programme">Programme — 3 days in Bucharest</h2>
+    <div class="ce-sched">
+      <div class="ce-day">
+        <div class="when"><b>Day 1</b><span>15 Oct · 17:00–19:00 EET</span></div>
+        <div><h4>Introductory Evening: Self-Care &amp; Presence for Coaches</h4><p>An introductory evening on nervous system regulation and self-induced therapeutic tremoring — TRE™ as a personal resilience and self-care practice. <em>Counts as the “From Shaking to Shaping” workshop when combined with Module 1 registration.</em></p></div>
+      </div>
+      <div class="ce-day">
+        <div class="when"><b>Day 2</b><span>16 Oct · 09:00–18:00 EET</span></div>
+        <div><h4>TRE™ Module 1 — Full Certification Day</h4><p>The neuroscience of neurogenic tremoring, the TRE™ exercise sequence, somatic awareness, containment and grounding. You are guided through full TRE™ sessions and get direct feedback from your trainers.</p></div>
+      </div>
+      <div class="ce-day">
+        <div class="when"><b>Day 3</b><span>17 Oct · 09:00–18:00 EET</span></div>
+        <div><h4>TRE™ Module 1 — Continued &amp; Completion</h4><p>Deepen your practice, integrate the learning and complete Module 1. Q&amp;A, personal practice time and guidance toward Modules 2 and 3. <em>Certificate of completion issued on completion.</em></p></div>
+      </div>
+    </div>
+
+    <h2>What is included</h2>
+    <ul class="ce-list">
+      <li><strong>Module 1 Certification</strong>, valid as Module 1 of the Global TRE™ Provider Certification Program</li>
+      <li><strong>21 ICF CCEUs</strong>: 16 Resource Development + 5 Core Competencies (ICF-accredited)</li>
+      <li><strong>2.5 training days</strong> — including the Day 1 evening workshop for coaches</li>
+      <li><strong>Co-facilitation</strong>: two internationally certified TRE™ trainers teach the course, in English</li>
+      <li><strong>Global recognition</strong> — Module 1 is recognised worldwide under the Global TRE™ Certification Program</li>
+    </ul>
+    <div class="ce-callout">
+      <i class="fa-solid fa-award"/>
+      <h4>21 ICF CCEUs Included</h4>
+      <p>This is the <strong>only TRE™ training in the world</strong> that carries ICF CCEUs. 16 Resource Development + 5 Core Competency CCEUs = 21 total. Valid for ACC, PCC and MCC renewal.</p>
+    </div>
+
+    <h2>Your trainers</h2>
+    <div class="ce-people">
+      <div class="ce-person">
+        <img class="ce-avatar" src="/images/isabelle-your-trainer.webp" alt="Isabelle Claus Teixeira" width="78" height="78" loading="lazy" decoding="async"/>
+        <div class="ce-person-body">
+          <span class="role">Global TRE™ Certifying Trainer</span>
+          <h4>Isabelle Claus Teixeira</h4>
+          <p>Somatic and Trauma-informed Executive Coach (ICF PCC), Global TRE™ Certifying Trainer and Mindfulness Teacher. Trained directly under Dr. David Berceli. 30+ years across 9 countries and 40+ nationalities.</p>
+          <div class="links"><a href="/about">Meet Isabelle →</a><a href="/tre-certification">Certification →</a><a href="https://www.linkedin.com/in/isabelleclausteixeira/" target="_blank" rel="noopener">LinkedIn</a></div>
+        </div>
+      </div>
+      <div class="ce-person">
+        <img class="ce-avatar" src="/images/saymara-ryon.webp" alt="Saymara Ryon" width="78" height="78" loading="lazy" decoding="async"/>
+        <div class="ce-person-body">
+          <span class="role">Certified TRE™ Provider &amp; Trainer Trainee</span>
+          <h4>Saymara Ryon</h4>
+          <p>Founder &amp; President, Asociația TRE™ România. Holistic Coach, Trainer &amp; Mentor. Founder of Învață să Zbori SRL. Pioneer of TRE™ in Romania, building the practitioner community across Eastern Europe.</p>
+          <div class="links"><a href="https://www.atelierdesuflet.ro/" target="_blank" rel="noopener">Website →</a><a href="https://treromania.org/" target="_blank" rel="noopener">TRE™ Romania</a><a href="https://ro.linkedin.com/in/saymara-ryon-7252845" target="_blank" rel="noopener">LinkedIn</a></div>
+        </div>
+      </div>
+    </div>
+    <p class="ce-collab"><strong>In collaboration with</strong> <a href="https://www.atelierdesuflet.ro/" target="_blank" rel="noopener">Învață să Zbori SRL (Learn to Fly)</a> · <a href="https://treromania.org/" target="_blank" rel="noopener">TRE™ România</a> · HummingBeing.</p>
+
+    
+  </div>
+
+  <!-- SIDEBAR -->
+  <aside class="ce-side" id="register">
+    <div class="ce-box">
+      <span class="ce-soldtag">Sold out · sales closed</span>
+      <h3>Pricing &amp; tickets</h3>
+      <p class="sub">This event is sold out — ticket sales are closed. It has been postponed; see upcoming events for current dates.</p>
+      <div class="ce-tiers">
+        <div class="ce-tier hl"><div class="tl">Super Early Bird<small>first 5 tickets</small></div><div class="tp">€739</div></div>
+        <div class="ce-tier"><div class="tl">Early Bird<small>next 5 tickets</small></div><div class="tp">€769</div></div>
+        <div class="ce-tier"><div class="tl">Full Price<small>final 10 tickets</small></div><div class="tp">€799</div></div>
+      </div>
+      <span class="btn btn-soldout">Sold Out</span>
+      <a href="/events" class="btn btn-dark">See upcoming events →</a>
+      <p class="fine">This training is sold out and has been postponed. See upcoming events for current dates.</p>
+    </div>
+    <div class="ce-box ce-qa">
+      <h3>Questions?</h3>
+      <p>Ask before you register — we’re glad to help.</p>
+      <p><span>bonjour@bhd<span style="display:none">-no-spam</span>asia.com</span><br/><a href="https://wa.me/818065151778" target="_blank" rel="noopener">WhatsApp +81 80 6515 1778</a><br/><a href="https://treromania.org/" target="_blank" rel="noopener">treromania.org</a></p>
+      <p style="margin:1rem 0 0;padding-top:.9rem;border-top:1px solid rgba(36,46,66,.1);font-size:.76rem;line-height:1.55;color:var(--text-mid)"><i class="fa-solid fa-circle-exclamation" style="color:#b23a2c;margin-right:.4rem"/>All ticket sales are final — tickets are non-refundable and non-cancellable.</p>
+    </div>
+  </aside>
+</div><section class="ce-prep-section">
+  <div class="ce-prep" id="prepare">
+      <h2>Also available: From Shaking to Shaping</h2>
+      <p>Attend the online or in-person introductory workshop first — and get it free when you register for TRE™ Module 1.</p>
+      <div class="btn-row">
+        <a href="/event-shaking-to-shaping" class="btn btn-primary">Learn more →</a>
+      </div>
+    </div>
+</section><section class="ce-related">
+  <div class="ce-related-inner">
+    <h2>Other upcoming events</h2>
+    <div class="ce-rel-grid">
+      <a class="ce-rel" href="/event-shaking-to-shaping">
+        <img src="/images/card-event-shaking-to-shaping.webp?v=1" alt="From Shaking to Shaping" loading="lazy" decoding="async"/>
+        <div class="b"><strong>From Shaking to Shaping</strong><span>România · Sep–Oct 2026 · from €89</span></div>
+      </a>
+      <a class="ce-rel" href="/event-shaking-online">
+        <img src="/images/card-event-shaking-online.webp?v=1" alt="From Shaking to Shaping — Online" loading="lazy" decoding="async"/>
+        <div class="b"><strong>From Shaking to Shaping — Online</strong><span>Online · 8 October 2026</span></div>
+      </a>
+    </div>
+  </div>
+</section><footer>
+  <div class="foot-grid">
+    <div>
+      <a href="/" class="foot-logo"><img src="/images/logo-dark.webp" alt="HummingBeing — Coaching &amp; Somatics" style="height:48px;width:auto;display:block" width="144" height="48"/></a>
+      <p class="foot-desc">Science backed processes with TRE™, Coaching and Somatic Practices — a space to release, renew and restore.</p>
+      <p class="foot-desc">Part of <strong>Business and Human Development Consulting Pte Ltd</strong></p>
+      <div class="foot-socials">
+        <a href="https://www.instagram.com/isabelleclausteixeira_bhd/" target="_blank" class="soc" aria-label="Instagram" rel="noopener noreferrer"><i class="fa-brands fa-instagram"/></a>
+        <a href="https://www.linkedin.com/in/isabelleclausteixeira/" target="_blank" class="soc" aria-label="LinkedIn" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"/></a>
+        <a href="https://www.youtube.com/@IsabelleClausTeixeira" target="_blank" class="soc" aria-label="YouTube" rel="noopener noreferrer"><i class="fa-brands fa-youtube"/></a>
+        <a href="https://wa.me/818065151778" target="_blank" class="soc" aria-label="WhatsApp" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"/></a>
+      </div>
+    </div>
+    <div>
+      <div class="foot-h">Work with Isabelle</div>
+      <ul class="foot-links">
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™</a></li>
+        <li><a href="/tre-certification">TRE™ Certification</a></li>
+        <li><a href="/retreats-workshops">Retreats &amp; Workshops</a></li>
+        <li><a href="/events">Events</a></li>
+        <li><a href="/book">Book a free call</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="foot-h">HummingBeing</div>
+      <ul class="foot-links">
+        <li><a href="/about">About HummingBeing</a></li>
+        <li><a href="/isabelle">Meet Isabelle</a></li>
+        <li><a href="/gallery">Gallery</a></li>
+        <li><a href="/socials">Socials</a></li>
+        <li><a href="/tre-faq">TRE™ FAQ</a></li>
+        <li><a href="/is-tre-safe">Is TRE™ Safe?</a></li>
+        <li><a href="/tre-icf-cceu">TRE™ with ICF CCEs</a></li>
+        <li><a href="https://www.bhdasia.com" target="_blank" rel="noopener">BHD Asia</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="foot-h">Contact</div>
+      <ul class="foot-links">
+        <li><span>bonjour@bhd<span style="display:none">-no-spam</span>asia.com</span></li>
+        <li><a href="https://wa.me/818065151778" target="_blank" rel="noopener noreferrer">WhatsApp Us</a></li>
+        <li><span>Global</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <div class="foot-copy">© 2026 HummingBeing — Business and Human Development Consulting Pte Ltd</div>
+    <div class="foot-legal">
+      <span>Privacy Policy</span>
+      <span>Terms of Service</span>
+      <span class="foot-sep">·</span>
+      <a href="https://technext.asia" target="_blank" rel="noopener noreferrer">Powered by <span class="tn-brand">TechNext</span></a>
+    </div>
+  </div>
+</footer><a href="https://wa.me/818065151778" class="wa-float" target="_blank" aria-label="Chat on WhatsApp" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"/></a><button class="top-float" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top"><i class="fa-solid fa-chevron-up"/></button><script src="/scripts.js?v=20261109e" defer="defer"/><script>
+(function(){
+  var poster=document.querySelector('.ce-poster'); if(!poster) return;
+  var img=poster.querySelector('img'); if(!img) return;
+  poster.setAttribute('role','button'); poster.setAttribute('tabindex','0'); poster.setAttribute('aria-label','View full-size image');
+  if(!poster.querySelector('.ce-zoom-hint')){ var h=document.createElement('span'); h.className='ce-zoom-hint'; h.innerHTML='&lt;i class="fa-solid fa-magnifying-glass-plus"&gt;&lt;/i&gt; Click to enlarge'; poster.style.position=poster.style.position||'relative'; poster.appendChild(h); }
+  var lb=document.createElement('div'); lb.className='ce-lightbox'; lb.setAttribute('aria-hidden','true');
+  lb.innerHTML='&lt;button class="ce-lightbox-close" aria-label="Close"&gt;&amp;times;&lt;/button&gt;&lt;img alt=""&gt;';
+  document.body.appendChild(lb);
+  var lbImg=lb.querySelector('img'), closeBtn=lb.querySelector('.ce-lightbox-close');
+  function open(){ lbImg.src=img.currentSrc||img.src; lbImg.alt=img.alt||''; lb.classList.add('open'); lb.setAttribute('aria-hidden','false'); document.body.style.overflow='hidden'; }
+  function shut(){ lb.classList.remove('open'); lb.setAttribute('aria-hidden','true'); document.body.style.overflow=''; }
+  poster.addEventListener('click', open);
+  poster.addEventListener('keydown', function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); open(); } });
+  lb.addEventListener('click', function(e){ if(e.target===lb||e.target===closeBtn) shut(); });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape') shut(); });
+})();
+</script><script src="/gdpr-consent.js?v=4"/><script src="/hb-tn.js?v=39" defer="defer"/></t></t>

@@ -1,0 +1,295 @@
+<t t-name="bhds.page_event_shaking_to_shaping_singapore"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en-US&quot;}"/><t t-set="title">Shaking to Shaping — TRE™ for Coaches | Singapore 2027 | BHD Asia</t><t t-set="body_classname" t-value="&quot;page et_fixed_nav et_divi_theme evt2&quot;"/><t t-set="head"><script>try{if(!sessionStorage.getItem("bhdIntro")&amp;&amp;!matchMedia("(prefers-reduced-motion: reduce)").matches){var d=document.documentElement;d.classList.add("intro-on");setTimeout(function(){d.classList.remove("intro-on")},5000)}}catch(e){}</script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W9B95BT7');</script><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-Y6JMM9VCW2"/><script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Y6JMM9VCW2');
+</script><link rel="icon" href="/favicon.ico?v=3"/><link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png?v=3"/><link rel="apple-touch-icon" href="/apple-touch-icon.png?v=3"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/><meta name="description" content="Shaking to Shaping, TRE&#x2122; for Coaches: an ICF-accredited 3-hour in-person workshop in Singapore with Isabelle Claus Teixeira and Simba Stenqvist. 3 ICF CCEs. S$149."/><meta property="og:type" content="website"/><meta property="og:site_name" content="BHD Asia"/><meta property="og:title" content="Shaking to Shaping &#x2014; TRE&#x2122; for Coaches, In Person in Singapore 2027 | BHD Asia"/><meta property="og:description" content="An ICF-accredited 3-hour TRE&#x2122; workshop for coaches in Singapore, with Isabelle Claus Teixeira and Simba Stenqvist. 24 Feb, 30 Jun or 2 Nov 2027, 7&#x2013;10PM. 3 ICF CCEs. S$149."/><meta property="og:url" content="https://www.bhdasia.com/event-shaking-to-shaping-singapore"/><meta property="og:image" content="https://www.bhdasia.com/event-shaking-to-shaping-singapore.webp?v=1"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Shaking to Shaping &#x2014; TRE&#x2122; for Coaches | Singapore | BHD Asia"/><meta name="twitter:description" content="ICF-accredited 3-hour TRE&#x2122; workshop for coaches in Singapore. 24 Feb, 30 Jun or 2 Nov 2027, 7&#x2013;10PM. 3 ICF CCEs. S$149."/><link rel="canonical" href="https://www.bhdasia.com/event-shaking-to-shaping-singapore"/><link rel="stylesheet" href="/style.css?v=14"/><link rel="stylesheet" href="/event-detail.css?v=20261108a"/><script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[{"@type":"Event","name":"Shaking to Shaping — TRE™ for Coaches (in person, Singapore) — Wednesday 24 February 2027","description":"An ICF-accredited Introduction to TRE™ for Coaches: a 3-hour in-person workshop in Singapore, in collaboration with Simba Stenqvist, carrying 3 ICF CCEs (1.5 Resource Development + 1.5 Core Competencies). Venue details are shared with registered participants. Does not include TRE™ personal sessions.","startDate":"2027-02-24T19:00:00+08:00","endDate":"2027-02-24T22:00:00+08:00","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","location":{"@type":"Place","name":"Singapore (venue shared with registered participants)","address":{"@type":"PostalAddress","addressLocality":"Singapore","addressCountry":"SG"}},"isAccessibleForFree":false,"offers":{"@type":"Offer","name":"Public price","price":"149","priceCurrency":"SGD","url":"https://www.bhdasia.com/event-shaking-to-shaping-singapore#register","availability":"https://schema.org/InStock","validFrom":"2026-11-05T00:00:00+08:00"},"image":"https://www.bhdasia.com/event-shaking-to-shaping-singapore.webp?v=1","organizer":{"@type":"Organization","name":"BHD Asia","url":"https://www.bhdasia.com"},"performer":[{"@type":"Person","name":"Isabelle Claus Teixeira","jobTitle":"Global TRE™ Certifying Trainer"},{"@type":"Person","name":"Simba Stenqvist","jobTitle":"Global TRE™ Certifying Trainer"}],"url":"https://www.bhdasia.com/event-shaking-to-shaping-singapore"},{"@type":"Event","name":"Shaking to Shaping — TRE™ for Coaches (in person, Singapore) — Wednesday 30 June 2027","description":"An ICF-accredited Introduction to TRE™ for Coaches: a 3-hour in-person workshop in Singapore, in collaboration with Simba Stenqvist, carrying 3 ICF CCEs (1.5 Resource Development + 1.5 Core Competencies). Venue details are shared with registered participants. Does not include TRE™ personal sessions.","startDate":"2027-06-30T19:00:00+08:00","endDate":"2027-06-30T22:00:00+08:00","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","location":{"@type":"Place","name":"Singapore (venue shared with registered participants)","address":{"@type":"PostalAddress","addressLocality":"Singapore","addressCountry":"SG"}},"isAccessibleForFree":false,"offers":{"@type":"Offer","name":"Public price","price":"149","priceCurrency":"SGD","url":"https://www.bhdasia.com/event-shaking-to-shaping-singapore#register","availability":"https://schema.org/InStock","validFrom":"2026-11-05T00:00:00+08:00"},"image":"https://www.bhdasia.com/event-shaking-to-shaping-singapore.webp?v=1","organizer":{"@type":"Organization","name":"BHD Asia","url":"https://www.bhdasia.com"},"performer":[{"@type":"Person","name":"Isabelle Claus Teixeira","jobTitle":"Global TRE™ Certifying Trainer"},{"@type":"Person","name":"Simba Stenqvist","jobTitle":"Global TRE™ Certifying Trainer"}],"url":"https://www.bhdasia.com/event-shaking-to-shaping-singapore"},{"@type":"Event","name":"Shaking to Shaping — TRE™ for Coaches (in person, Singapore) — Tuesday 2 November 2027","description":"An ICF-accredited Introduction to TRE™ for Coaches: a 3-hour in-person workshop in Singapore, in collaboration with Simba Stenqvist, carrying 3 ICF CCEs (1.5 Resource Development + 1.5 Core Competencies). Venue details are shared with registered participants. Does not include TRE™ personal sessions.","startDate":"2027-11-02T19:00:00+08:00","endDate":"2027-11-02T22:00:00+08:00","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","location":{"@type":"Place","name":"Singapore (venue shared with registered participants)","address":{"@type":"PostalAddress","addressLocality":"Singapore","addressCountry":"SG"}},"isAccessibleForFree":false,"offers":{"@type":"Offer","name":"Public price","price":"149","priceCurrency":"SGD","url":"https://www.bhdasia.com/event-shaking-to-shaping-singapore#register","availability":"https://schema.org/InStock","validFrom":"2026-11-05T00:00:00+08:00"},"image":"https://www.bhdasia.com/event-shaking-to-shaping-singapore.webp?v=1","organizer":{"@type":"Organization","name":"BHD Asia","url":"https://www.bhdasia.com"},"performer":[{"@type":"Person","name":"Isabelle Claus Teixeira","jobTitle":"Global TRE™ Certifying Trainer"},{"@type":"Person","name":"Simba Stenqvist","jobTitle":"Global TRE™ Certifying Trainer"}],"url":"https://www.bhdasia.com/event-shaking-to-shaping-singapore"}]}
+</script><script type="application/ld+json" id="bhd-ld">{"@context":"https://schema.org","@graph":[{"@type":["Organization","ProfessionalService"],"@id":"https://www.bhdasia.com/#organization","name":"BHD Asia","legalName":"Business &amp; Human Development Consulting Pte Ltd","alternateName":["BHD Asia Singapore","Business and Human Development Consulting"],"url":"https://www.bhdasia.com/","logo":{"@type":"ImageObject","url":"https://www.bhdasia.com/favicon-192.png","width":192,"height":192},"image":"https://www.bhdasia.com/isagrey.webp","description":"Boutique HR consulting, executive coaching and resilience-building consultancy founded in Singapore in 2012. BHD Asia co-designs leadership development, organisation development and TRE™ programmes for organisations across Europe, the US, Asia, Japan and Russia.","slogan":"Highlight, Enhance and Appreciate Human in Business.","foundingDate":"2012","foundingLocation":"Singapore","founder":{"@id":"https://www.bhdasia.com/isabelle#person"},"employee":[{"@id":"https://www.bhdasia.com/isabelle#person"},{"@id":"https://www.bhdasia.com/jasmine#person"},{"@id":"https://www.bhdasia.com/simba#person"},{"@id":"https://www.bhdasia.com/rina#person"}],"address":{"@type":"PostalAddress","streetAddress":"50 Raffles Place, Singapore Land Tower #30-00","addressLocality":"Singapore","postalCode":"048623","addressCountry":"SG"},"telephone":"+81 80 6515 1778","identifier":{"@type":"PropertyValue","propertyID":"UEN (ACRA)","value":"201201974K"},"areaServed":["Singapore","Asia","Japan","Europe","United States","Middle East"],"knowsLanguage":["en","fr","es"],"knowsAbout":["Executive coaching","Leadership development","Organisation development","HR consulting","Talent management","Psychological safety","Resilience building","Burnout prevention","Somatic coaching","TRE™ (Tension &amp; Trauma Releasing Exercises)","Global TRE™ Provider Certification","Change management","Conflict resolution"],"sameAs":["https://www.facebook.com/bhdasia/","https://www.instagram.com/isabelleclausteixeira_bhd/","https://www.youtube.com/@IsabelleClausTeixeira","https://www.linkedin.com/in/isabelleclausteixeira/"],"contactPoint":{"@type":"ContactPoint","contactType":"customer service","telephone":"+81 80 6515 1778","availableLanguage":["English","French","Spanish"],"url":"https://www.bhdasia.com/contact"}},{"@type":"WebSite","@id":"https://www.bhdasia.com/#website","url":"https://www.bhdasia.com/","name":"BHD Asia","inLanguage":"en","publisher":{"@id":"https://www.bhdasia.com/#organization"}},{"@type":"WebPage","@id":"https://www.bhdasia.com/event-shaking-to-shaping-singapore#webpage","url":"https://www.bhdasia.com/event-shaking-to-shaping-singapore","name":"Shaking to Shaping — TRE™ for Coaches | Singapore 2027 | BHD Asia","description":"ICF-accredited in-person TRE™ workshop for coaches in Singapore, with Isabelle Claus Teixeira and Simba Stenqvist. 24 February, 30 June or 2 November 2027, 7–10PM. 3 ICF CCEs. S$149.","inLanguage":"en","isPartOf":{"@id":"https://www.bhdasia.com/#website"},"about":{"@id":"https://www.bhdasia.com/#organization"},"publisher":{"@id":"https://www.bhdasia.com/#organization"},"dateModified":"2026-11-05","primaryImageOfPage":{"@type":"ImageObject","url":"https://www.bhdasia.com/event-shaking-to-shaping-singapore.webp?v=1"},"breadcrumb":{"@id":"https://www.bhdasia.com/event-shaking-to-shaping-singapore#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://www.bhdasia.com/event-shaking-to-shaping-singapore#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.bhdasia.com/"},{"@type":"ListItem","position":2,"name":"Events","item":"https://www.bhdasia.com/events"},{"@type":"ListItem","position":3,"name":"Shaking to Shaping — TRE™ for Coaches","item":"https://www.bhdasia.com/event-shaking-to-shaping-singapore"}]}]}</script><style>
+.reg-lead{font-size:13px;color:var(--muted);line-height:1.6;margin:0 0 14px}
+.reg-lead strong{color:var(--text)}
+.evt-reg-form label.reg-opt{display:none}
+#reg-step2 h4{font-size:18px;color:var(--text);margin:0 0 6px;outline:none}
+#reg-step2 p{font-size:14px;color:var(--body);line-height:1.7;margin:0 0 12px;padding:0}
+#reg-step2 .reg-pay{display:flex;flex-direction:column;gap:10px;margin:14px 0}
+#reg-step2 .reg-pay .et_pb_button{width:100%;text-align:center;justify-content:center}
+#reg-step2 .reg-paypal{display:flex;align-items:center;gap:10px;flex-wrap:wrap;border:1.5px solid var(--border);border-radius:var(--r-md);padding:10px 12px;font-size:14px}
+#reg-step2 .reg-paypal span{flex:1;min-width:150px;word-break:break-all}
+#reg-step2 .reg-paypal b{display:block;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--blue-text);margin-bottom:2px}
+#reg-step2 .reg-copy,#reg-step2 .reg-again{font:inherit;font-size:13px;font-weight:700;cursor:pointer;border-radius:var(--r-md)}
+#reg-step2 .reg-copy{padding:8px 14px;border:1.5px solid var(--blue-text);background:#fff;color:var(--navy)}
+#reg-step2 .reg-again{background:none;border:0;color:var(--muted);text-decoration:underline;padding:6px 0;font-weight:500}
+</style><style>
+.sess-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
+.sess-list li{display:flex;justify-content:space-between;align-items:baseline;gap:14px;flex-wrap:wrap;padding:12px 16px;border:1.5px solid var(--border);border-radius:var(--r-md);font-size:15px}
+.sess-list li strong{color:var(--navy)}
+.sess-list li span{color:var(--muted);font-size:14px}
+.health-note{border-left:4px solid var(--gold);background:var(--navy-mid);border-radius:var(--r-md);padding:18px 20px;color:rgba(255,255,255,.86);font-size:14.5px;line-height:1.7}
+.health-note strong{color:#fff;display:block;font-family:'Sora',sans-serif;font-size:16px;margin-bottom:6px}
+.health-note ul{margin:8px 0 0;padding-left:20px}
+.health-note li{margin:3px 0}
+.reg-health{border:1.5px solid var(--gold);border-radius:var(--r-md);padding:12px 14px;margin:0 0 16px;font-size:13px;line-height:1.6;color:var(--body)}
+.reg-health strong{display:block;color:var(--text);margin-bottom:4px}
+.reg-health ul{margin:4px 0 0;padding-left:18px}
+.evt-reg-form select{width:100%}
+</style><link rel="preload" href="/fonts/tn/inter-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/tn/plus-jakarta-sans-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/technext-style.css?v=36"/></t><t t-call="web.layout"><link rel="stylesheet" href="/style.css?v=14"/><link rel="stylesheet" href="/event-detail.css?v=20261108a"/><link rel="stylesheet" href="/technext-style.css?v=36"/><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W9B95BT7" height="0" width="0" style="display:none;visibility:hidden"/></noscript><div id="page-container">
+<header id="main-header">
+  <div class="et_menu_container container clearfix">
+    <div class="logo_container">
+      <a href="/">
+        <img src="/bhd-logo.svg?v=1" alt="BHD Asia" width="51" height="34" onerror="this.style.display='none';document.querySelector('.logo-text').style.display='block'"/>
+        <span class="logo-text">BHD Asia</span>
+      </a>
+    </div>
+    <div id="et-top-navigation">
+      <nav id="top-menu-nav">
+        <ul id="top-menu" class="nav">
+          <li class="menu-item"><a href="/">Home</a></li>
+          <li class="menu-item"><a href="/services">Services</a></li>
+          <li class="menu-item"><a href="/about">About</a></li>
+          <li class="menu-item current-menu-item"><a href="/events">Events</a></li>
+          <li class="menu-item"><a href="/contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="/#book" class="header-contact-btn" data-cta="header-book">Book a call</a>
+      <div id="et_top_search"><span id="et_search_icon"/></div>
+      <div id="et_mobile_nav_menu"><button class="mobile_menu_bar" id="mobile-menu-btn" aria-expanded="false" aria-controls="top-menu-nav" aria-label="Open navigation"/></div>
+    </div>
+  </div>
+</header>
+<div id="et-main-area" tabindex="-1">
+
+<div class="evt-hero">
+  <img fetchpriority="high" class="evt-hero-img" src="/event-shaking-to-shaping-singapore.webp?v=1" srcset="/event-shaking-to-shaping-singapore-960.webp?v=1 960w, /event-shaking-to-shaping-singapore.webp?v=1 1920w" sizes="(max-width:900px) 100vw, 60vw" alt="Shaking to Shaping — TRE™ for Coaches, in person in Singapore, 2027, with Isabelle Claus Teixeira and Simba Stenqvist" width="1920" height="1080" loading="eager"/>
+  <div class="evt-hero-overlay"/>
+  <div class="evt-hero-inner">
+    <div class="container">
+      <p class="evt-crumbs"><a href="/events">Events</a> <span aria-hidden="true">›</span> <span>Singapore</span></p>
+      <div class="evt-hero-top">
+        <span class="evt-badge evt-badge-loc">Singapore</span>
+        <span class="evt-badge evt-badge-type">In Person</span>
+        <span class="evt-badge evt-badge-type">ICF-accredited · 3 CCEs</span>
+        <span class="evt-badge evt-badge-type">3 dates in 2027 · 7–10PM</span>
+        <span class="evt-badge evt-badge-type">S$149</span>
+      </div>
+      <h1>Shaking to Shaping — TRE™ for Coaches</h1>
+      <p class="evt-hero-sub">In person in Singapore — in collaboration with Simba Stenqvist. An ICF-accredited Introduction to TRE™ for Coaches: a 3-hour workshop with a full TRE™ session, to bring embodied presence and body-led listening into your coaching. Led by Isabelle Claus Teixeira and Simba Stenqvist.</p>
+      <div class="evt-hero-ctas">
+        <a class="et_pb_button btn-white" href="#register">Register — S$149 →</a>
+        <a class="et_pb_button btn-white-outline" href="#register">Details &amp; Questions</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="evt-facts">
+  <div class="container">
+    <div class="evt-facts-grid">
+      <div class="evt-fact"><svg class="evt-fact-ico" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3v3M17 3v3M4 9h16M5 5h14a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z"/></svg><div class="evt-fact-txt"><span class="evt-fact-label">Dates (choose one)</span><span class="evt-fact-val">24 Feb · 30 Jun · 2 Nov 2027</span></div></div>
+      <div class="evt-fact"><svg class="evt-fact-ico" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg><div class="evt-fact-txt"><span class="evt-fact-label">Time</span><span class="evt-fact-val">7:00–10:00PM Singapore time</span></div></div>
+      <div class="evt-fact"><svg class="evt-fact-ico" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="9" r="5.5"/><path d="M8.5 13.5L7 21l5-3 5 3-1.5-7.5"/></svg><div class="evt-fact-txt"><span class="evt-fact-label">ICF CCEs</span><span class="evt-fact-val">3 per workshop (1.5 RD + 1.5 CC)</span></div></div>
+      <div class="evt-fact"><svg class="evt-fact-ico" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12.5V4a1 1 0 0 1 1-1h8.5l8.5 8.5a1 1 0 0 1 0 1.4l-8.1 8.1a1 1 0 0 1-1.4 0z"/><circle cx="8" cy="8" r="1.2"/></svg><div class="evt-fact-txt"><span class="evt-fact-label">Investment</span><span class="evt-fact-val">S$149 per session · discounted S$129</span></div></div>
+    </div>
+  </div>
+</div>
+
+<style>
+.online-prep-strip{background:var(--navy-mid);padding:28px 0}
+.online-prep-strip .ops-inner{display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+.online-prep-strip .ops-ico{width:44px;height:44px;border-radius:50%;background:rgba(212,146,26,.18);color:var(--gold);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.online-prep-strip .ops-ico svg{width:20px;height:20px}
+.online-prep-strip .ops-text{flex:1;min-width:250px}
+.online-prep-strip .ops-text strong{display:block;font-family:'Sora',sans-serif;font-size:16px;font-weight:600;color:#fff;margin-bottom:3px}
+.online-prep-strip .ops-text span{font-size:14px;line-height:1.65;color:rgba(255,255,255,.7)}
+.partner-line{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-top:18px;padding-top:16px;border-top:1px solid var(--border)}
+.partner-line img{height:34px;width:auto}
+.partner-line span{font-size:13px;color:var(--muted)}
+</style>
+
+
+<div class="container">
+<div class="evt-layout">
+  <div class="evt-main">
+
+<div class="evt-section evt-poster-sec">
+      <span class="evt-section-label">Event Poster</span>
+      <h2>Save &amp; Share the Poster</h2>
+      <figure style="margin:0;max-width:440px">
+        <a href="/event-shaking-to-shaping-singapore-poster.webp?v=1" target="_blank" rel="noopener" aria-label="Open the full-size event poster" style="display:block;border-radius:16px;overflow:hidden;box-shadow:0 18px 50px -24px rgba(17,24,39,.45)"><img src="/event-shaking-to-shaping-singapore-poster.webp?v=1" alt="Shaking to Shaping, TRE for Coaches, ICF-accredited, in person in Singapore, 24 February, 30 June and 2 November 2027, 7 to 10pm, with Isabelle Claus Teixeira and Simba Stenqvist. 149 SGD, 129 SGD with a discount code. 3 ICF CCEs." width="1080" height="1350" loading="lazy" decoding="async" style="display:block;width:100%;height:auto"/></a>
+        <figcaption style="font-size:13px;color:var(--muted);margin-top:10px">Tap to open the full-size poster to save or share it.</figcaption>
+      </figure>
+    </div>
+
+<div class="evt-section">
+      <span class="evt-section-label">About the Workshop</span>
+      <h2>An ICF-accredited Introduction to TRE™ for Coaches</h2>
+      <p>This is an ICF-accredited Introduction to TRE™ for Coaches — a 3-hour workshop. Each workshop carries 3 ICF CCEs (1.5 Resource Development + 1.5 Core Competencies). Please note this in-person workshop does not include TRE™ personal sessions.</p>
+      <p>TRE™ (Tension, Stress &amp; Trauma Releasing Exercises), developed by Dr. David Berceli, activates the body's natural neurogenic tremoring mechanism — a reflex that releases stored stress and trauma, builds resilience and promotes deep regulation.</p>
+      <p>In this workshop you will explore how to use TRE™ within your coaching practice — as a self-care, so you embody presence and body-led listening skills as a coach. You can then continue your training with TRE™ <a href="/event-certification-2027">Module 1 (21 ICF CCEs) and Modules 2 and 3</a> to become a Certified Global TRE™ Provider — accredited to offer TRE™ to individuals and groups.</p>
+    </div>
+
+<div class="evt-section">
+      <span class="evt-section-label">Dates</span>
+      <h2>Choose Your Session</h2>
+      <p>The same 3-hour workshop runs on three dates. All are in person in Singapore, 7:00–10:00PM Singapore time.</p>
+      <ul class="sess-list">
+        <li><strong>Wednesday 24 February 2027</strong><span>7:00–10:00PM · Singapore</span></li>
+        <li><strong>Wednesday 30 June 2027</strong><span>7:00–10:00PM · Singapore</span></li>
+        <li><strong>Tuesday 2 November 2027</strong><span>7:00–10:00PM · Singapore</span></li>
+      </ul>
+    </div>
+
+<div class="evt-section">
+      <span class="evt-section-label">What We Will Cover</span>
+      <h2>TRE™ in Your Coaching Practice</h2>
+      <ul>
+        <li>A full TRE™ session experience, guided by Global TRE™ Certifying Trainers</li>
+        <li>The neuroscience behind neurogenic tremoring and nervous system regulation</li>
+        <li>How to integrate TRE™ into 1-on-1 and group coaching contexts</li>
+        <li>Embodied presence and body-led listening skills as a coach</li>
+      </ul>
+      <p>This workshop does not include TRE™ personal sessions. Personal sessions can be purchased in addition, for S$180 per session.</p>
+    </div>
+
+<div class="evt-section">
+      <span class="evt-section-label">Who This Is For</span>
+      <h2>For Coaches and Helping Professionals</h2>
+      <ul>
+        <li>Coaches (in training or ACC, PCC or MCC level) looking for an ICF-accredited somatic tool</li>
+        <li>Therapists, psychologists or healthcare professionals expanding a trauma-informed practice</li>
+      </ul>
+    </div>
+
+<div class="evt-section">
+      <span class="evt-section-label">Your Trainers</span>
+      <h2>Led by Isabelle Claus Teixeira &amp; Simba Stenqvist</h2>
+      <div class="facilitator-card">
+        <img class="fac-photo" src="/isa-portrait.webp" alt="Isabelle Claus Teixeira" width="90" height="90" loading="lazy"/>
+        <div class="fac-body">
+          <h4>Isabelle Claus Teixeira</h4>
+          <span class="fac-role">Global TRE™ Certifying Trainer · ICF PCC</span>
+          <p>Accredited by TRE™ for All under Dr. David Berceli's methodology — the highest level of qualification to certify new TRE™ Providers worldwide. Over 30 years of human development experience and somatic practice, training practitioners across Europe, Asia, the US and beyond.</p>
+          <div class="fac-links">
+            <a href="/isabelle">Meet Isabelle →</a>
+            <a href="https://www.linkedin.com/in/isabelleclausteixeira/" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+      <div class="facilitator-card" style="margin-top:16px">
+        <img class="fac-photo" src="/simba-portrait.webp" alt="Simba Stenqvist" width="90" height="90" loading="lazy"/>
+        <div class="fac-body">
+          <h4>Simba Stenqvist</h4>
+          <span class="fac-role">Global TRE™ Certifying Trainer · Creator of Internal Alchemy</span>
+          <p>Somatic practitioner with more than 25 years of hands-on practice in bodywork, nervous system regulation and energetic healing — developed in close collaboration with Dr. David Berceli, founder of TRE™.</p>
+          <div class="fac-links">
+            <a href="/simba">Meet Simba →</a>
+            <a href="https://livingwiththespirit.com/" target="_blank" rel="noopener">Official Website — livingwiththespirit.com</a>
+          </div>
+          <div class="partner-line">
+            <img src="/logo-lwts.webp?v=1" alt="Living with the Spirit" width="37" height="34" loading="lazy"/>
+            <span>Simba Stenqvist · Living with the Spirit</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="evt-sidebar" id="register">
+    <div class="evt-reg-card">
+      <div class="evt-reg-head">
+        <h3>Register for the Workshop</h3>
+        <p>In person in Singapore, 7:00–10:00PM Singapore time. Choose one of the three dates. Venue details are shared with registered participants.</p>
+      </div>
+      <div class="evt-reg-body">
+        <div style="border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:12px 0;margin-bottom:16px;display:flex;flex-direction:column;gap:8px">
+          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:14px;font-size:14px"><span style="color:var(--muted)">Format</span><strong>In person, Singapore</strong></div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:14px;font-size:14px"><span style="color:var(--muted)">Public price (per session)</span><strong>S$149</strong></div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:14px;font-size:14px"><span style="color:var(--muted)">Discounted price (with a discount code, limited places)</span><strong>S$129</strong></div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:14px;font-size:14px"><span style="color:var(--muted)">TRE™ personal session (optional, extra)</span><strong>S$180</strong></div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:14px;font-size:14px"><span style="color:var(--muted)">ICF CCEs (per workshop)</span><strong>3</strong></div>
+        </div>
+        <div id="reg-step1">
+        <p class="reg-lead"><strong>Step 1 of 2.</strong> Choose your session and tell us who you are. Have a discount code? Enter it below. Isabelle will confirm your place and send your payment link.</p>
+        <form class="evt-reg-form" id="evt-reg-form" onsubmit="submitReg(event)">
+          <select name="session" id="reg-session" aria-label="Session" required="" style="color:var(--body)">
+            <option value="">— Which session? *</option>
+            <option value="Wednesday 24 February 2027, 7-10PM">Wednesday 24 February 2027, 7–10PM</option>
+            <option value="Wednesday 30 June 2027, 7-10PM">Wednesday 30 June 2027, 7–10PM</option>
+            <option value="Tuesday 2 November 2027, 7-10PM">Tuesday 2 November 2027, 7–10PM</option>
+          </select>
+          <input type="text" name="name" placeholder="Full Name *" aria-label="Full Name" autocomplete="name" required=""/>
+          <input type="email" name="email" placeholder="Email Address *" aria-label="Email Address" autocomplete="email" required=""/>
+          <input type="tel" name="phone" placeholder="Phone / WhatsApp *" aria-label="Phone / WhatsApp" autocomplete="tel" required=""/>
+          <input type="text" name="country" placeholder="Country (optional)" aria-label="Country (optional)" autocomplete="country-name"/>
+          <input type="text" name="code" placeholder="Discount code (optional)" aria-label="Discount code (optional)" autocomplete="off" autocapitalize="characters"/>
+          <textarea name="message" rows="3" placeholder="Message (optional)" aria-label="Message (optional)"/>
+          <div class="reg-consent">
+            <label class="reg-check"><input type="checkbox" name="consent" value="yes" required=""/><span>I agree that my details will be collected and used to process my registration and to contact me about this event, in line with the <a href="/privacy" target="_blank" rel="noopener">Privacy Policy</a>.</span></label>
+          </div>
+          <button type="submit">Continue to registration →</button>
+        </form>
+        </div>
+        <div id="reg-step2" aria-live="polite" hidden=""/>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<section class="evt-join" id="join"><div class="container"><div class="evt-join-box">
+<div class="evt-join-head"><span class="evt-join-ico"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5a7 7 0 0 0-14 0C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></span><div class="evt-join-text"><strong>This is an in-person workshop in Singapore.</strong>
+        <span>Three separate dates, the same 3-hour workshop — choose the one that suits you. Venue details are shared with registered participants.</span></div></div>
+<div class="evt-join-actions"><a class="et_pb_button btn-white" href="#register">Register — S$149 →</a></div>
+</div></div></section>
+<section class="evt-related"><div class="container">
+<div class="evt-section"><span class="evt-section-label">More Events</span><h2>Other upcoming events</h2><div class="related-grid" hidden=""/><div class="ev-rel-empty"><p style="margin:0 0 6px"><strong>More events coming in 2027</strong></p><p style="margin:0 0 14px;font-size:14.5px">New workshops and retreats with Isabelle and Simba are being scheduled across Asia and Europe.</p><a class="et_pb_button btn-outline" href="/events">See all events →</a></div></div>
+</div></section>
+
+
+</div>
+<div class="cta-strip">
+  <div class="container">
+    <h2>Bring TRE™ into Your Coaching Practice</h2>
+    <p>An ICF-accredited 3-hour workshop in Singapore, with Isabelle Claus Teixeira and Simba Stenqvist. 24 February, 30 June or 2 November 2027, 7:00–10:00PM. 3 ICF CCEs. S$149.</p>
+    <a class="et_pb_button" href="#register">Register — S$149</a>
+    <a class="et_pb_button btn-outline" href="/events">View All Events</a>
+  </div>
+</div>
+<footer id="main-footer">
+  <div id="footer-widgets"><div class="container">
+    <div class="footer-widget">
+      <span class="footer-brand-name">BHD <span>Asia</span></span>
+      <p>Highlight, Enhance and Appreciate Human in Business.</p>
+      <p>Business &amp; Human Development Consulting Pte Ltd</p>
+      <div class="footer-social">
+        <a href="https://www.facebook.com/bhdasia/" target="_blank" rel="noopener" class="footer-soc-btn" aria-label="Facebook"><svg viewbox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+        <a href="https://www.instagram.com/isabelleclausteixeira_bhd/" target="_blank" rel="noopener" class="footer-soc-btn" aria-label="Instagram"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+        <a href="https://www.youtube.com/@IsabelleClausTeixeira" target="_blank" rel="noopener" class="footer-soc-btn" aria-label="YouTube"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.95C18.88 4 12 4 12 4s-6.88 0-8.59.47A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.95C5.12 20 12 20 12 20s6.88 0 8.59-.47a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="currentColor" stroke="none"/></svg></a>
+        <a href="https://www.linkedin.com/in/isabelleclausteixeira/" target="_blank" rel="noopener" class="footer-soc-btn" aria-label="LinkedIn"><svg viewbox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+      </div>
+    </div>
+    <div class="footer-widget"><h4>Navigate</h4><ul><li><a href="/">Home</a></li><li><a href="/services">Services</a></li><li><a href="/about">About</a></li><li><a href="/events">Events</a></li><li><a href="/contact">Contact</a></li><li><a href="https://www.hummingbeing.com/" target="_blank" rel="noopener">HummingBeing</a></li></ul></div>
+    <div class="footer-widget"><h4>Legal</h4><ul><li><a href="/privacy">Privacy Statement</a></li><li><a href="/terms">Terms &amp; Conditions</a></li><li><a href="/inclusivity">Inclusivity Statement</a></li></ul></div>
+    <div class="footer-widget"><h4>Contact</h4><p class="ft-addr">Singapore Land Tower, #30-00<br/>50 Raffles Place<br/>Singapore 048623</p><p><a href="tel:+818065151778">+81 80 6515 1778</a></p><p><span>bonjour@bhd<span style="display:none">-no-spam</span>asia.com</span></p><p><a href="/#book" data-cta="page-book">Book a Discovery Call →</a></p></div>
+  </div></div>
+  <div id="footer-bottom"><div class="container">
+    <div id="footer-info"><span>© 2026 BHD Asia. All rights reserved.</span></div>
+    
+    <div id="footer-credit">Powered by <a href="https://technext.asia" target="_blank" rel="noopener">TechNext</a></div>
+  </div></div>
+</footer>
+</div><script src="/shared.js?v=43"/><script src="/gdpr-consent.js?v=4"/><script>
+(function(){
+var REG={"slug": "shaking-to-shaping-singapore", "title": "Shaking to Shaping — TRE™ for Coaches (Singapore 2027)", "sheet": "https://script.google.com/macros/s/AKfycbxkv934L8ffTxU1TPUiw3jn9Hu6KmdE0Ol1CcJRB_vWstls2xiZHHb-LErG5qHXdTuX/exec", "price": "Registration is S$149 per session. Isabelle will confirm your place and send you the payment link.", "pay": [], "discount": {"hash": ["d726578b29ce1b182adb1339457e1777ef7c1e8d11d80f5a686e64a0334c116d", "7ecbb9241b49e4d0980e4457d85debb95f2601d6e0208a8c616f7573eb749afe"], "price": "With your discount code the price is S$129 per session. Isabelle will confirm your place and send you the discounted payment link.", "pay": []}, "codeNote": "Isabelle will check your discount code, confirm your place and send you the payment link.", "note": "Venue details are shared with registered participants."};
+/* the chosen session goes into the lead's event field */
+function SEL(){var s=document.getElementById('reg-session');return s&amp;&amp;s.value?s.value:''}
+Object.defineProperty(REG,'event',{get:function(){var v=SEL();return 'Shaking to Shaping \u2014 TRE\u2122 for Coaches, in person, Singapore'+(v?' \u2014 '+v:' 2027')},enumerable:true});
+Object.defineProperty(REG,'source',{get:function(){var v=SEL();return 'BHDasia Event \u2014 Shaking to Shaping (in person, Singapore 2027)'+(v?' \u2014 '+v:'')},enumerable:true});
+bhdRegGate(REG);
+})();
+</script></t></t>

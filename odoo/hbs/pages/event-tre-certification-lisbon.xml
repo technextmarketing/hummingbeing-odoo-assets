@@ -1,0 +1,533 @@
+<t t-name="hbs.page_event_tre_certification_lisbon"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en&quot;}"/><t t-set="title">TRE™ Certification Lisboa 2027 | HummingBeing</t><t t-set="head"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
+new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
+"https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,"script","dataLayer","GTM-TXLR5LGG");</script><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="description" content="Full TRE&#x2122; certification in Lisboa, Portugal: Modules 1&#x2013;3 (May, June and October 2027) with online sessions and 21 ICF CCEs for Module 1. Early bird &#x20AC;2,949."/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/><link rel="stylesheet" href="/styles.css?v=98"/><link rel="preconnect" href="https://cdnjs.cloudflare.com"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png?v=3"/><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png?v=3"/><link rel="icon" href="/favicon.ico?v=3" sizes="any"/><link rel="apple-touch-icon" href="/apple-touch-icon.png?v=3"/><meta name="keywords" content="TRE&#x2122; certification Portugal, TRE&#x2122; certification Lisbon, TRE&#x2122; Lisboa 2027, Global TRE&#x2122; Provider Certification Europe, ICF CCEs TRE&#x2122;, Isabelle Claus Teixeira, become TRE&#x2122; provider"/><link rel="canonical" href="https://www.hummingbeing.com/event-tre-certification-lisbon"/><meta name="robots" content="index, follow"/><meta property="og:type" content="website"/><meta property="og:title" content="TRE&#x2122; Certification Lisboa &#x2014; Portugal 2027 Cohort | HummingBeing"/><meta property="og:description" content="Full TRE&#x2122; certification in Lisboa, Portugal: Modules 1&#x2013;3 (May, June and October 2027) with online sessions and 21 ICF CCEs for Module 1. Early bird &#x20AC;2,949."/><meta property="og:image" content="https://www.hummingbeing.com/images/event-lisbon-certification.webp?v=2"/><meta property="og:url" content="https://www.hummingbeing.com/event-tre-certification-lisbon"/><meta name="twitter:card" content="summary_large_image"/><script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationEvent",
+      "name": "TRE™ Certification — Portugal 2027 Cohort (Lisboa)",
+      "description": "The complete Global TRE™ Provider Certification in Lisboa, Portugal: Module 1 (28-30 May 2027, plus 4 online personal sessions), Module 2 (1-4 June 2027, plus 4 online individual supervisions) and Module 3 (22-24 October 2027, plus 4 online individual supervisions). 21 ICF CCEs for Module 1: the ICF-accredited Module 1 includes an additional 4 hours, Self-Care &amp; Presence for Coaches (30 May, 14:00-18:00), mandatory to attend for the 21 ICF CCEs. Module 2: ICF accreditation pending. Led by Isabelle Claus Teixeira, Global TRE™ Certifying Trainer, with an assisting provider. Limited to 25 participants, in English. Early bird 2,949 EUR paid in full until 31 March 2027 (2,999 EUR in three instalments); regular 3,499 EUR (3,549 EUR in three instalments). Credit card or bank transfer, in full or in instalments; card charges are added on top of card payments.",
+      "startDate": "2027-05-28T10:00:00+01:00",
+      "endDate": "2027-10-24T18:00:00+01:00",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+      "maximumAttendeeCapacity": 25,
+      "inLanguage": "en",
+      "image": "https://www.hummingbeing.com/images/event-lisbon-certification.webp",
+      "location": {
+        "@type": "Place",
+        "name": "Lisbon (Lisboa), Portugal",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "PT",
+          "addressLocality": "Lisboa"
+        }
+      },
+      "organizer": {
+        "@type": "Person",
+        "name": "Isabelle Claus Teixeira",
+        "url": "https://www.hummingbeing.com/isabelle"
+      },
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Early bird, paid in full (until 31 March 2027)",
+          "price": "2949",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock",
+          "validThrough": "2027-03-31T23:59:00+01:00",
+          "url": "https://www.hummingbeing.com/event-tre-certification-lisbon"
+        },
+        {
+          "@type": "Offer",
+          "name": "Early bird, three instalments (739 + 1,400 + 860 EUR)",
+          "price": "2999",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock",
+          "validThrough": "2027-03-31T23:59:00+01:00",
+          "url": "https://www.hummingbeing.com/event-tre-certification-lisbon"
+        },
+        {
+          "@type": "Offer",
+          "name": "Regular price, paid in full",
+          "price": "3499",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock",
+          "url": "https://www.hummingbeing.com/event-tre-certification-lisbon"
+        },
+        {
+          "@type": "Offer",
+          "name": "Regular price, three instalments (799 + 1,700 + 1,050 EUR)",
+          "price": "3549",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock",
+          "url": "https://www.hummingbeing.com/event-tre-certification-lisbon"
+        }
+      ],
+      "performer": [
+        {
+          "@type": "Person",
+          "name": "Isabelle Claus Teixeira",
+          "url": "https://www.hummingbeing.com/isabelle",
+          "jobTitle": "Global TRE™ Certifying Trainer"
+        },
+        {
+          "@type": "Person",
+          "name": "Saymara Ryon",
+          "url": "https://www.atelierdesuflet.ro/"
+        }
+      ]
+    }
+  </script><style>
+    /* ============ COMPACT EVENT LAYOUT (ce-*) ============ */
+    .ce-hero{position:relative;color:#fff;overflow:hidden;background:var(--navy-deep)}
+    .ce-hero .ce-bg{position:absolute;inset:0;background-size:cover;background-position:center;opacity:.20;filter:saturate(.7) blur(6px);transform:scale(1.06)}
+    .ce-hero::after{content:"";position:absolute;inset:0;background:linear-gradient(120deg,rgba(26,32,48,.94),rgba(36,46,66,.80) 60%,rgba(26,32,48,.92))}
+    .ce-hero-inner{position:relative;z-index:1;max-width:1160px;margin:0 auto;padding:96px 5% 40px;display:grid;grid-template-columns:1fr;gap:3rem;align-items:center}
+    .ce-crumbs{font-family:'Lato',sans-serif;font-size:.82rem;color:#c7d2e6;margin-bottom:1rem}
+    .ce-crumbs a{color:#fff;opacity:.85;text-decoration:none}.ce-crumbs a:hover{color:var(--gold)}
+    .ce-badges{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1.1rem}
+    .ce-badge{font-family:'Lato',sans-serif;font-size:.68rem;font-weight:800;letter-spacing:.09em;text-transform:uppercase;padding:.4rem .8rem;border-radius:50px;background:rgba(255,255,255,.14);color:#fff;border:1px solid rgba(255,255,255,.24)}
+    .ce-badge.cat{background:var(--gold);color:var(--navy);border-color:var(--gold)}
+    .ce-hero h1{font-family:'Playfair Display',Georgia,serif;font-size:clamp(2.1rem,4.4vw,3.3rem);font-weight:800;color:#fff;line-height:1.08;margin:0 0 .9rem}
+    .ce-hero h1 em{font-style:italic;color:var(--gold)}
+    .ce-lead{font-size:1.05rem;color:#dbe3f1;line-height:1.7;max-width:660px;margin:0 0 1.5rem}
+    .ce-hero-actions{display:flex;gap:.8rem;flex-wrap:wrap}
+    .ce-poster{margin:0;border-radius:14px;overflow:hidden;cursor:zoom-in;position:relative}
+    .ce-main &gt; .ce-poster{max-width:100%;margin:0 0 1.8rem;order:0}
+    .ce-poster img{width:100%;height:auto;display:block;transition:transform .3s ease}
+    .ce-poster:hover img{transform:scale(1.03)}
+    .ce-poster .ce-zoom-hint{position:absolute;bottom:10px;right:10px;background:rgba(15,21,36,.72);color:#fff;font-family:'Lato',sans-serif;font-size:.62rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:.3rem .6rem;border-radius:50px;display:inline-flex;align-items:center;gap:.35rem;pointer-events:none}
+    @media(max-width:900px){.ce-hero-inner{grid-template-columns:1fr;gap:2rem}.ce-poster{max-width:520px;margin:0 auto;order:-1}}
+    /* Lightbox */
+    .ce-lightbox{position:fixed;inset:0;z-index:9999;background:rgba(10,14,24,.93);display:none;align-items:center;justify-content:center;padding:4vmin;cursor:zoom-out}
+    .ce-lightbox.open{display:flex}
+    .ce-lightbox img{max-width:100%;max-height:100%;border-radius:10px;box-shadow:0 30px 90px rgba(0,0,0,.6)}
+    .ce-lightbox-close{position:absolute;top:16px;right:22px;width:44px;height:44px;border:0;border-radius:50%;background:rgba(255,255,255,.12);color:#fff;font-size:1.6rem;line-height:1;cursor:pointer}
+    .ce-lightbox-close:hover{background:rgba(255,255,255,.22)}
+    /* facts */
+    .ce-facts{position:relative;z-index:2;margin-top:-38px}
+    .ce-facts-grid{max-width:1160px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);background:#fff;border:1px solid rgba(36,46,66,.1);border-radius:14px;box-shadow:0 14px 42px rgba(36,46,66,.15);overflow:hidden}
+    .ce-fact{padding:18px 20px;border-right:1px solid rgba(36,46,66,.1);display:flex;gap:.7rem;align-items:flex-start}
+    .ce-fact:last-child{border-right:0}
+    .ce-fact i{color:var(--gold-dark);font-size:1rem;margin-top:3px;width:18px;text-align:center}
+    .ce-fact b{display:block;font-family:'Lato',sans-serif;font-size:.64rem;letter-spacing:.1em;text-transform:uppercase;color:var(--text-mid);font-weight:800;margin-bottom:.2rem}
+    .ce-fact span{color:var(--navy);font-weight:700;font-size:.9rem;line-height:1.35;font-family:'Lato',sans-serif}
+    .ce-fact span small{display:block;margin-top:.3rem;font-size:.74rem;font-weight:400;line-height:1.4;color:var(--text-mid)}
+    @media(max-width:820px){.ce-facts-grid{grid-template-columns:1fr 1fr}.ce-fact:nth-child(2){border-right:0}.ce-fact:nth-child(-n+2){border-bottom:1px solid rgba(36,46,66,.1)}}
+    @media(max-width:480px){.ce-facts-grid{grid-template-columns:1fr}.ce-fact{border-right:0;border-bottom:1px solid rgba(36,46,66,.1)}.ce-fact:last-child{border-bottom:0}}
+    /* two-column body */
+    .ce-layout{max-width:1160px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:3rem;align-items:start;padding:3.4rem 5% 4rem}
+    @media(max-width:900px){.ce-layout{grid-template-columns:1fr;gap:2.2rem;padding:2.4rem 5% 3rem}}
+    .ce-main h2{font-family:'Playfair Display',Georgia,serif;font-size:1.5rem;color:var(--navy);margin:2.4rem 0 1rem;line-height:1.2}
+    .ce-main h2:first-child{margin-top:0}
+    .ce-main p{font-size:1rem;line-height:1.8;color:var(--body-text);margin:0 0 1rem}
+    .ce-list{list-style:none;padding:0;margin:0 0 1rem}
+    .ce-list li{position:relative;padding-left:1.7rem;margin-bottom:.6rem;font-size:.97rem;line-height:1.6;color:var(--body-text)}
+    .ce-list li::before{content:"\2713";position:absolute;left:0;top:0;color:var(--gold-dark);font-weight:800}
+    /* programme */
+    .ce-sched{display:grid;gap:.9rem}
+    .ce-day{display:grid;grid-template-columns:130px minmax(0,1fr);gap:1.2rem;background:#fff;border:1px solid rgba(36,46,66,.1);border-left:4px solid var(--gold);border-radius:10px;padding:16px 18px}
+    .ce-day .when b{display:block;font-family:'Playfair Display',serif;color:var(--navy);font-size:1rem;line-height:1.2}
+    .ce-day .when span{display:block;color:var(--text-mid);font-size:.8rem;margin-top:.25rem;font-family:'Lato',sans-serif}
+    .ce-day h4{margin:0 0 .3rem;font-size:1.02rem;color:var(--navy)}
+    .ce-day p{margin:0;color:var(--body-text);font-size:.92rem;line-height:1.6}
+    @media(max-width:480px){.ce-day{grid-template-columns:1fr;gap:.5rem}}
+    /* facilitator */
+    .ce-person{background:var(--navy-deep);color:#fff;border-radius:12px;padding:1.7rem;display:flex;gap:1.3rem;align-items:flex-start}
+    .ce-main &gt; .ce-person + .ce-person{margin-top:1.1rem}
+    .ce-person .ce-avatar{flex:0 0 auto;width:104px;height:104px;border-radius:50%;object-fit:cover;object-position:top center;border:3px solid rgba(245,166,35,.55);box-shadow:0 8px 22px rgba(0,0,0,.28)}
+    .ce-person .ce-person-body{flex:1;min-width:0}
+    @media(max-width:520px){.ce-person{flex-direction:column;align-items:center;text-align:center}.ce-person .links{justify-content:center}}
+    .ce-person .role{font-family:'Lato',sans-serif;font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);font-weight:800}
+    .ce-person h4{font-family:'Playfair Display',serif;margin:.35rem 0 .55rem;font-size:1.35rem;color:#fff}
+    .ce-person p{color:rgba(255,255,255,.82);font-size:.92rem;line-height:1.7;margin:0 0 .9rem}
+    .ce-person .links{display:flex;gap:.6rem;flex-wrap:wrap}
+    .ce-person .links a{font-family:'Lato',sans-serif;font-size:.78rem;font-weight:700;color:var(--gold);text-decoration:none;border:1px solid rgba(245,166,35,.4);padding:.32rem .8rem;border-radius:5px}
+    .ce-person .links a:hover{background:rgba(245,166,35,.15)}
+    /* online prep box */
+    .ce-prep{background:var(--navy);color:#fff;border-radius:12px;padding:1.6rem 1.8rem;border-left:5px solid var(--gold);margin-top:2.2rem}
+    .ce-prep h2{color:#fff;margin:0 0 .6rem;font-size:1.25rem}
+    .ce-prep p{color:#dbe3f1;font-size:.93rem;margin:0 0 1rem;line-height:1.7}
+    .ce-prep .ce-list li{color:#dbe3f1}
+    .ce-prep .ce-list li::before{color:var(--gold)}
+    .ce-prep .btn-row{display:flex;gap:.7rem;flex-wrap:wrap;margin-top:.4rem}
+    .ce-prep-section{background:#fff;padding:0 5% 3.5rem}
+    .ce-prep-section .ce-prep{max-width:1160px;margin:0 auto}
+    .ce-prep-section .ce-prep-list{columns:2;column-gap:2.2rem}
+    @media(max-width:640px){.ce-prep-section .ce-prep-list{columns:1}}
+    /* sidebar */
+    /* sticky-safe: clip instead of hidden so .ce-side can stick */
+    html,body{overflow-x:hidden;overflow-x:clip}
+    .ce-side{position:sticky;top:90px;align-self:start;display:grid;gap:1.2rem;max-height:calc(100vh - 106px);overflow-y:auto;overscroll-behavior:contain;scrollbar-width:none;-ms-overflow-style:none}
+    .ce-side::-webkit-scrollbar{display:none}
+    @media(max-width:900px){.ce-side{position:static;max-height:none;overflow:visible}}
+    .ce-box{background:#fff;border:1px solid rgba(36,46,66,.1);border-radius:14px;padding:1.5rem;box-shadow:0 4px 22px rgba(36,46,66,.08)}
+    .ce-box h3{font-family:'Playfair Display',serif;font-size:1.18rem;color:var(--navy);margin:0 0 .3rem}
+    .ce-box .ce-sub{font-family:'Lato',sans-serif;font-size:.82rem;color:var(--text-mid);margin:0 0 1rem;line-height:1.5}
+    .ce-tiers{display:grid;gap:.55rem;margin-bottom:1.1rem}
+    .ce-tier{display:flex;justify-content:space-between;align-items:baseline;gap:.8rem;padding:.7rem .85rem;border:1px solid rgba(36,46,66,.12);border-radius:9px;background:#f6f7fa}
+    .ce-tier.hl{background:var(--cream);border-color:var(--gold)}
+    .ce-tier .tl{font-family:'Lato',sans-serif;font-weight:700;color:var(--navy);font-size:.88rem}
+    .ce-tier .tl small{display:block;font-weight:400;color:var(--text-mid);font-size:.74rem;margin-top:.12rem}
+    .ce-tier .tp{font-family:'Lato',sans-serif;font-weight:900;color:var(--navy);white-space:nowrap;font-size:1.02rem}
+    .ce-box .btn{width:100%;text-align:center;display:block;margin-top:.5rem}
+    .ce-box .fine{font-size:.76rem;color:var(--text-mid);margin:.9rem 0 0;line-height:1.55}
+    .ce-box .fine .warn{color:#b23a2c;font-weight:700}
+    .ce-or{text-align:center;font-family:'Lato',sans-serif;font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--text-mid);margin:1rem 0 .6rem}
+    .ce-box .evtl-field{display:flex;flex-direction:column;gap:.3rem;margin-bottom:.7rem}
+    .ce-box .evtl-field label{font-family:'Lato',sans-serif;font-size:.68rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--text-mid)}
+    .ce-box .evtl-field input,.ce-box .evtl-field select{width:100%;padding:.6rem .75rem;border:1.5px solid rgba(36,46,66,.14);border-radius:8px;font-size:.9rem;font-family:'Lato',sans-serif;color:var(--navy);background:#fff;box-sizing:border-box}
+    .ce-box .evtl-field input:focus,.ce-box .evtl-field select:focus{outline:none;border-color:var(--gold)}
+    .ce-box .evtl-form-success{text-align:center;padding:.8rem 0}
+    .ce-box .evtl-form-success i{font-size:2rem;color:var(--gold);margin-bottom:.5rem}
+    .ce-box .evtl-form-success p{font-size:.9rem;color:var(--body-text);line-height:1.6;margin:0 0 .6rem}
+    .ce-qa p{font-size:.9rem;color:var(--body-text);line-height:1.7;margin:0 0 .4rem}
+    .ce-qa a{color:var(--gold-dark);font-weight:600}
+    /* related */
+    .ce-related{background:var(--cream);padding:3rem 5%}
+    .ce-related-inner{max-width:1160px;margin:0 auto}
+    .ce-related h2{font-family:'Playfair Display',serif;font-size:1.5rem;color:var(--navy);text-align:center;margin:0 0 1.6rem}
+    .ce-rel-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem}
+    @media(max-width:760px){.ce-rel-grid{grid-template-columns:1fr}}
+    .ce-rel{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 3px 16px rgba(36,46,66,.08);text-decoration:none;display:block;transition:transform .2s,box-shadow .2s}
+    .ce-rel:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(36,46,66,.15)}
+    .ce-rel img{width:100%;height:150px;object-fit:cover;display:block}
+    .ce-rel .b{padding:.9rem 1.1rem}
+    .ce-rel strong{display:block;font-family:'Playfair Display',serif;color:var(--navy);font-size:1rem;margin-bottom:.25rem;line-height:1.3}
+    .ce-rel span{font-family:'Lato',sans-serif;font-size:.8rem;color:var(--text-mid)}
+      .ce-poster-portrait .ce-zoom-hint{top:14px !important;bottom:auto !important}
+
+    /* 2027 package components (same tokens as ce-*) */
+    .ce-pkgs{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:1rem;margin:0 0 1.2rem}
+    .ce-pkg{background:#fff;border:1px solid rgba(36,46,66,.12);border-top:4px solid var(--gold);border-radius:12px;padding:1.15rem 1.2rem;display:flex;flex-direction:column;gap:.35rem;text-decoration:none;box-shadow:0 3px 16px rgba(36,46,66,.07)}
+    .ce-pkg.hl{background:var(--cream)}
+    .ce-pkg .k{font-family:'Lato',sans-serif;font-size:.64rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--text-mid)}
+    .ce-pkg h3{font-family:'Playfair Display',serif;font-size:1.15rem;color:var(--navy);margin:0;line-height:1.25}
+    .ce-pkg .pr{font-family:'Lato',sans-serif;font-weight:900;color:var(--navy);font-size:1.35rem;margin:.2rem 0 0}
+    .ce-pkg .pr small{display:block;font-weight:400;font-size:.76rem;color:var(--text-mid);margin-top:.1rem}
+    .ce-pkg p{font-size:.88rem !important;line-height:1.55 !important;margin:0 !important;color:var(--body-text)}
+    .ce-pkg .go{margin-top:auto;padding-top:.6rem;font-family:'Lato',sans-serif;font-weight:700;font-size:.84rem;color:var(--gold-dark)}
+    .ce-tblwrap{overflow-x:auto;margin:0 0 1.1rem;border:1px solid rgba(36,46,66,.1);border-radius:10px;background:#fff}
+    .ce-table{width:100%;border-collapse:collapse;font-family:'Lato',sans-serif;font-size:.86rem;color:var(--body-text)}
+    .ce-table th{background:var(--navy);color:#fff;text-align:left;font-size:.68rem;letter-spacing:.07em;text-transform:uppercase;padding:.6rem .75rem;font-weight:800}
+    .ce-table td{padding:.6rem .75rem;border-top:1px solid rgba(36,46,66,.08);vertical-align:top;line-height:1.45}
+    .ce-table td.n,.ce-table th.n{text-align:right;white-space:nowrap}
+    .ce-table tr.tot td{font-weight:800;color:var(--navy);background:#f6f7fa}
+    .ce-table td b{color:var(--navy)}
+    .ce-opt{background:#fff;border:1px solid rgba(36,46,66,.1);border-left:4px solid var(--gold);border-radius:10px;padding:1.1rem 1.2rem;margin:0 0 1rem}
+    .ce-opt h3{font-family:'Playfair Display',serif;font-size:1.12rem;color:var(--navy);margin:0 0 .3rem}
+    .ce-opt &gt; p{font-size:.92rem !important;margin:0 0 .8rem !important}
+    .ce-opt .ce-tblwrap{margin:0 0 .8rem}
+    .ce-opt .btn{display:inline-block;font-size:.84rem;padding:.6rem 1.3rem}
+    .ce-note{background:var(--cream);border:1px solid var(--gold);border-radius:10px;padding:1rem 1.2rem;margin:0 0 1.1rem;font-size:.92rem;line-height:1.65;color:var(--body-text)}
+    .ce-note strong{color:var(--navy)}
+    .ce-main{min-width:0}
+    @media(max-width:520px){.ce-opt{padding:.9rem .6rem}.ce-table td:first-child{min-width:0}}
+    @media(max-width:520px){.ce-table th,.ce-table td{padding:.5rem .45rem;font-size:.78rem}.ce-table td.n,.ce-table th.n{white-space:normal}}
+    .ce-payfull{font-size:.88rem !important;line-height:1.55 !important;margin:-.2rem 0 1rem !important;color:var(--body-text)}
+    .ce-pkgsec{background:var(--cream);padding:3rem 5%}
+    .ce-pkgsec-inner{max-width:1160px;margin:0 auto}
+    .ce-pkgsec h2{font-family:'Playfair Display',serif;font-size:1.5rem;color:var(--navy);text-align:center;margin:0 0 1.4rem}
+    .ce-pkgsec .ce-pkgs{grid-template-columns:repeat(3,1fr)}
+    @media(max-width:760px){.ce-pkgsec .ce-pkgs{grid-template-columns:1fr}}
+  </style><script type="application/ld+json" data-seo="breadcrumb">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.hummingbeing.com/"}, {"@type": "ListItem", "position": 2, "name": "Events", "item": "https://www.hummingbeing.com/events"}, {"@type": "ListItem", "position": 3, "name": "TRE™ Certification — Lisboa 2027", "item": "https://www.hummingbeing.com/event-tre-certification-lisbon"}]}</script><link rel="preload" href="/fonts/hb/lato-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/hb/playfair-display-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/></t><t t-call="web.layout"><link rel="stylesheet" href="/styles.css?v=98"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXLR5LGG" height="0" width="0" style="display:none;visibility:hidden"/></noscript><nav>
+  <a href="/" class="logo"><img src="/images/logo-dark.webp" class="logo-on-dark" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/><img src="/images/logo-light.webp" class="logo-on-light" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/></a>
+  <ul class="nav-links">
+    <li><a href="/">Home</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/isabelle">Isabelle</a></li>
+    <li class="nav-dropdown">
+      <a href="javascript:void(0)" class="nav-dropdown-toggle">Work with Isabelle <i class="fa-solid fa-chevron-down nav-arrow"/></a>
+      <ul class="nav-dropdown-menu">
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™<small>Private sessions, online or in person</small></a></li>
+        <li><a href="/tre-certification">TRE™ Certification<small>Become a certified TRE™ provider</small></a></li>
+        <li><a href="/retreats-workshops">Retreats &amp; Workshops<small>Groups, teams and executives</small></a></li>
+      </ul>
+    </li>
+    <li><a href="/events">Events</a></li>
+    <li class="nav-book-mobile"><a href="/book">Book a free call</a></li>
+  </ul>
+  <div class="nav-actions">
+    <a href="/book" class="nav-cta">Book a free call</a>
+    <button class="hamburger" onclick="toggleMenu()"><span/><span/><span/></button>
+  </div>
+</nav><section class="ce-hero">
+  <div class="ce-bg" style="background-image:url('/images/event-lisbon-certification.webp?v=2')"/>
+  <div class="ce-hero-inner">
+    <div>
+      <p class="ce-crumbs"><a href="/events">Events</a> › Certification › Lisboa 2027</p>
+      <div class="ce-badges"><span class="ce-badge">Lisboa, Portugal</span><span class="ce-badge cat">Certification</span><span class="ce-badge">2027 Cohort</span><span class="ce-badge">In English</span><span class="ce-badge">Limited to 25 places</span></div>
+      <h1>TRE™ Certification <em>— Lisboa</em></h1>
+      <p class="ce-lead">The complete Global TRE™ Provider Certification in Lisboa, Portugal: three in-person modules from May to October 2027, each with online TRE™ personal sessions or supervisions, and 21 ICF CCEs for Module 1. Led by Isabelle Claus Teixeira, Global TRE™ Certifying Trainer, with an assisting provider. Early bird €2,949 until 31 March 2027.</p>
+      <div class="ce-hero-actions">
+        <a href="#reserve" class="btn btn-primary">Reserve your place →</a>
+        <a href="#programme" class="btn btn-outline">See the three modules</a>
+      </div>
+    </div>
+  </div>
+</section><div class="ce-facts">
+  <div class="ce-facts-grid">
+    <div class="ce-fact"><i class="fa-regular fa-calendar"/><div><b>Dates</b><span>Modules 1–3 · May–Oct 2027<small>28–30 May · 1–4 Jun · 22–24 Oct</small></span></div></div>
+    <div class="ce-fact"><i class="fa-solid fa-location-dot"/><div><b>Where</b><span>Lisboa, Portugal · in person<small>plus online sessions and supervisions</small></span></div></div>
+    <div class="ce-fact"><i class="fa-solid fa-award"/><div><b>Credits</b><span>21 ICF CCEs for Module 1<small>16 Resource Development + 5 Core Competencies</small></span></div></div>
+    <div class="ce-fact"><i class="fa-solid fa-tag"/><div><b>Investment</b><span>€2,949 early bird<small>paid in full by 31 Mar 2027 · regular €3,499</small></span></div></div>
+  </div>
+</div><div class="ce-layout">
+  <div class="ce-main">
+    <figure class="ce-poster ce-poster-portrait" id="ce-poster" role="button" tabindex="0" aria-label="View full-size event poster" style="max-width:100%">
+      <img src="/images/event-lisbon-certification-poster.webp?v=2" alt="TRE™ Certification, Portugal 2027 cohort in Lisboa, led by Isabelle Claus Teixeira and Saymara Ryon: Module 1 28–30 May, Module 2 1–4 June, Module 3 22–24 October 2027. Early bird €2,949 paid in full by 31 March 2027, regular €3,499; 3 instalments available." width="1080" height="1350" fetchpriority="high" decoding="async"/>
+      <span class="ce-zoom-hint"><i class="fa-solid fa-magnifying-glass-plus"/> Click to enlarge</span>
+    </figure>
+    <h2 id="programme">Your certification journey</h2>
+    <p>Three in-person modules in Lisboa, Portugal, each including online TRE™ personal sessions or supervisions. Times are local Lisbon time.</p>
+    <div class="ce-sched">
+      <div class="ce-day">
+        <div class="when"><b>Module 1</b><span>28–30 May 2027 · Lisboa</span></div>
+        <div><h4>Your Personal TRE™ Practice</h4><p>A 3-day in-person workshop plus 4 online personal sessions. Day 1 and Day 2 10:00–18:00, Day 3 10:00–13:00. The ICF-accredited Module 1 includes an additional 4 hours, Self-Care &amp; Presence for Coaches (30 May, 14:00–18:00), mandatory to attend for the 21 ICF CCEs. <a href="/event-tre-module1-lisbon" style="color:var(--gold-dark);font-weight:700">Can be purchased alone →</a></p></div>
+      </div>
+      <div class="ce-day">
+        <div class="when"><b>Module 2</b><span>1–4 June 2027 · Lisboa</span><span>ICF accreditation pending</span></div>
+        <div><h4>Teaching TRE™ to One Person</h4><p>A 2.5-day in-person workshop plus 4 online individual supervisions, building your skills to guide one person safely through TRE™. 1 June 10:00–18:00; 2, 3 and 4 June 9:30–13:30.</p></div>
+      </div>
+      <div class="ce-day">
+        <div class="when"><b>Module 3</b><span>22–24 Oct 2027 · Lisboa</span></div>
+        <div><h4>Teaching TRE™ to Groups</h4><p>A 3-day in-person workshop (9:00–18:00 each day) plus 4 online individual supervisions. Completes your Global TRE™ Provider certification.</p></div>
+      </div>
+    </div>
+
+    <h2>Who it is for</h2>
+    <ul class="ce-list">
+      <li>Coaches (in training or ACC, PCC, MCC level) looking for an ICF-accredited somatic tool</li>
+      <li>Therapists, psychologists or healthcare professionals expanding a trauma-informed practice</li>
+      <li>Yoga teachers, Pilates teachers, bodyworkers or somatic practitioners</li>
+      <li>Anyone experiencing chronic stress or burnout and ready for a body-led approach</li>
+    </ul>
+
+    <h2>What is included</h2>
+    <ul class="ce-list">
+      <li><strong>Full certification</strong> — Modules 1, 2 and 3, with 4 online personal sessions (Module 1) and 4 online individual supervisions each for Modules 2 and 3</li>
+      <li><strong>21 ICF CCEs</strong> — 16 Resource Development + 5 Core Competencies (ICF-accredited), for Module 1</li>
+      <li><strong>8.5 training days</strong> — including the Day 3 afternoon workshop for coaches in Module 1</li>
+      <li><strong>Global recognition</strong> — the Global TRE™ Certification Program is recognised worldwide</li>
+      <li><strong>Small group</strong> — limited to 25 participants, led by a Global TRE™ Certifying Trainer with an assisting provider, in English</li>
+    </ul>
+    <p><strong>Not included:</strong> travel costs, accommodation and meals.</p>
+
+    <h2>What to bring</h2>
+    <ul class="ce-list">
+      <li>A yoga mat</li>
+      <li>A pillow or cushion</li>
+      <li>Blankets and socks</li>
+      <li>A couple of towels</li>
+    </ul>
+
+    <h2>Price and instalments</h2>
+    <p>Early bird <strong>€2,949</strong> paid in full until 31 March 2027. Regular price <strong>€3,499</strong> paid in full. Or pay in three instalments:</p>
+    <div class="ce-tblwrap"><table class="ce-table"><thead><tr><th>Instalment</th><th>Due</th><th class="n">Early bird</th><th class="n">Regular</th></tr></thead><tbody><tr><td><b>Instalment 1</b></td><td>On registration (early bird: no later than 1 Apr 2027)</td><td class="n">€739</td><td class="n">€799</td></tr><tr><td><b>Instalment 2</b></td><td>Before Module 2: by 15 May 2027 (early bird) or 30 May 2027 (regular)</td><td class="n">€1,400</td><td class="n">€1,700</td></tr><tr><td><b>Instalment 3</b></td><td>Before Module 3: by 1 Oct 2027 (early bird) or 15 Oct 2027 (regular)</td><td class="n">€860</td><td class="n">€1,050</td></tr><tr class="tot"><td>Total</td><td>Three instalments</td><td class="n">€2,999</td><td class="n">€3,549</td></tr></tbody></table></div><p class="ce-payfull"><strong>Or pay in full:</strong> €2,949 (early bird, until 31 March 2027) / €3,499 (regular), by bank transfer or credit card. Card charges apply to card payments only.</p>
+    <div class="ce-note"><strong>Pay by credit card or bank transfer</strong>, in full or in three instalments. Card payments go through Stripe, and card charges are added on top of every card payment.</div>
+    <h2 id="payment">Payment terms</h2>
+    <ul class="ce-list">
+      <li><strong>Credit card or bank transfer.</strong> You can pay in full or in three instalments by either method. Card payments go through Stripe. <strong>Card charges are added on top of every card payment.</strong></li>
+      <li><strong>Early-bird pricing applies until 31 March 2027.</strong> All prices are in euros (EUR).</li>
+      <li><strong>Module 1 can be purchased alone</strong> — <a href="/event-tre-module1-lisbon" style="color:var(--gold-dark);font-weight:700">see TRE™ Module 1 in Lisboa</a> (from €739).</li>
+      <li><strong>All ticket sales are final</strong> — tickets are non-refundable and non-cancellable.</li>
+    </ul>
+
+    <h2>Your trainers</h2>
+    <div class="ce-person">
+      <img class="ce-avatar" src="/images/isabelle-your-trainer.webp" alt="Isabelle Claus Teixeira" width="104" height="104" loading="lazy" decoding="async"/>
+      <div class="ce-person-body">
+        <span class="role">Global TRE™ Certifying Trainer · ICF PCC</span>
+        <h4>Isabelle Claus Teixeira</h4>
+        <p>Somatic and Trauma-informed Executive Coach (ICF PCC), Global TRE™ Certifying Trainer and Mindfulness Teacher, trained directly under Dr. David Berceli, founder of TRE™. Over 30 years of experience across 9 countries and 40+ nationalities — in person and online.</p>
+        <div class="links">
+          <a href="/about">Meet Isabelle →</a>
+          <a href="https://www.linkedin.com/in/isabelleclausteixeira/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"/> LinkedIn</a>
+        </div>
+      </div>
+    </div>
+    <div class="ce-person">
+      <img class="ce-avatar" src="/images/saymara-ryon.webp" alt="Saymara Ryon" width="104" height="104" loading="lazy" decoding="async"/>
+      <div class="ce-person-body">
+        <span class="role">Assisting · Certified TRE™ Provider</span>
+        <h4>Saymara Ryon</h4>
+        <p>Founder &amp; President, Asociația TRE™ România. Holistic Coach, Trainer &amp; Mentor. Founder of Învață să Zbori SRL. Pioneer of TRE™ in Romania, building the practitioner community across Eastern Europe.</p>
+        <div class="links">
+          <a href="https://www.atelierdesuflet.ro/" target="_blank" rel="noopener">Website →</a>
+          <a href="https://treromania.org/" target="_blank" rel="noopener">TRE™ Romania</a>
+        </div>
+      </div>
+    </div>
+    <p style="font-size:.84rem;color:var(--text-mid);margin-top:1.3rem;line-height:1.7">Times are local Lisbon time. Venue details are shared with registered participants.</p>
+  </div>
+
+  <!-- SIDEBAR -->
+  <aside class="ce-side" id="reserve">
+    <div class="ce-box evtl-form-card">
+      <h3>Reserve your place</h3>
+      <p class="ce-sub">Portugal 2027 cohort · only 25 places. Choose your option and share your details — Isabelle will confirm your place and send your payment link.</p>
+      <div class="ce-tiers">
+        <div class="ce-tier hl"><div class="tl">Early bird · pay in full<small>until 31 March 2027</small></div><div class="tp">€2,949</div></div>
+        <div class="ce-tier"><div class="tl">Early bird · 3 instalments<small>€739 + €1,400 + €860</small></div><div class="tp">€2,999</div></div>
+        <div class="ce-tier"><div class="tl">Regular · pay in full</div><div class="tp">€3,499</div></div>
+        <div class="ce-tier"><div class="tl">Regular · 3 instalments<small>€799 + €1,700 + €1,050</small></div><div class="tp">€3,549</div></div>
+      </div>
+      <form class="evtl-form" onsubmit="evtlSubmit(event)">
+        <input type="hidden" name="source" value="HummingBeing Event — TRE Certification Lisboa 2027 (Portugal cohort)"/>
+        <div class="evtl-field">
+          <label for="r-option">Which option?</label>
+          <select name="event" id="r-option" required="">
+            <option value="">— Select an option</option>
+            <option selected="selected">Full certification (Modules 1–3)</option>
+            <option>Module 1 only (28–30 May)</option>
+            <option>Not sure yet — send me the details</option>
+          </select>
+        </div>
+        <div class="evtl-field">
+          <label for="r-plan">Payment plan</label>
+          <select name="payment_plan" id="r-plan" required="">
+            <option value="">— Select a payment plan</option>
+            <option>Pay in full</option>
+            <option>3 instalments</option>
+          </select>
+        </div>
+        <div class="evtl-field"><label for="r-name">Full name</label><input id="r-name" type="text" name="name" placeholder="Your full name" required="" autocomplete="name"/></div>
+        <div class="evtl-field"><label for="r-email">Email</label><input id="r-email" type="email" name="email" placeholder="your@email.com" required="" autocomplete="email"/></div>
+        <div class="evtl-field"><label for="r-phone">Phone / WhatsApp (optional)</label><input id="r-phone" type="tel" name="phone" autocomplete="tel"/></div>
+        <button type="submit" class="btn btn-primary">Reserve my place →</button>
+      </form>
+      <div class="evtl-form-success" style="display:none">
+        <i class="fa-solid fa-circle-check"/>
+        <p>Thank you! Isabelle will be in touch shortly to confirm your place and the payment details.</p>
+      </div>
+      <p class="fine"><span class="warn">Only 25 places.</span> All prices in EUR; early-bird pricing applies until 31 March 2027. Pay by credit card (via Stripe) or bank transfer, in full or in instalments. <strong>Card charges are added on top of every card payment.</strong></p>
+    </div>
+    <div class="ce-box ce-qa">
+      <h3>Questions?</h3>
+      <p>Ask before you register — we’re glad to help.</p>
+      <p><span>bonjour@bhd<span style="display:none">-no-spam</span>asia.com</span><br/><a href="https://wa.me/818065151778" target="_blank" rel="noopener">WhatsApp +81 80 6515 1778</a></p>
+      <p style="margin:1rem 0 0;padding-top:.9rem;border-top:1px solid rgba(36,46,66,.1);font-size:.76rem;line-height:1.55;color:var(--text-mid)"><i class="fa-solid fa-circle-exclamation" style="color:#b23a2c;margin-right:.4rem"/>All ticket sales are final — tickets are non-refundable and non-cancellable.</p>
+    </div>
+  </aside>
+</div><section class="ce-pkgsec">
+  <div class="ce-pkgsec-inner">
+    <h2>Only want Module 1?</h2>
+    <div class="ce-pkgs" style="grid-template-columns:minmax(0,520px);justify-content:center">
+<a class="ce-pkg" href="/event-tre-module1-lisbon"><span class="k">Lisboa · 28–30 May 2027</span><h3>TRE™ Module 1 — Lisbon</h3><div class="pr">From €739<small>early bird, first 10 tickets until 31 March 2027 · then €799</small></div><p>Your Personal TRE™ Practice, with 21 ICF CCEUs for participants who join the Day 3 afternoon workshop for coaches.</p><span class="go">See Module 1 →</span></a>
+</div>
+  </div>
+</section><section class="ce-related" id="ce-more">
+  <div class="ce-related-inner">
+    <h2>Other upcoming events</h2>
+    <div class="ce-rel-grid" id="ce-more-grid"/>
+    <div id="ce-more-empty" hidden="" style="text-align:center;max-width:620px;margin:0 auto">
+      <p style="font-family:'Playfair Display',serif;font-size:1.3rem;color:var(--navy);margin:0 0 .5rem">More events coming in 2027</p>
+      <p style="color:var(--body-text);line-height:1.7;margin:0 0 1rem">New workshops and retreats with Isabelle are being scheduled across Asia and Europe.</p>
+      <a href="/events" class="btn btn-primary">See all events →</a>
+    </div>
+    <noscript><p style="text-align:center"><a href="/events" style="color:var(--gold-dark);font-weight:700">See all upcoming events →</a></p></noscript>
+  </div>
+</section><script>
+(function(){
+  var EV=[
+    {t:'The Body in the Room',s:'Online &amp;middot; 25 Nov 2026 &amp;middot; 7&amp;#8211;9pm SGT',img:'card-event-body-in-the-room.webp?v=1',h:'/event-body-in-the-room',end:'2026-11-25'},
+    {t:'Breath as a medicine',s:'Online &amp;middot; 15 Dec 2026 &amp;middot; 7&amp;#8211;9pm SGT',img:'card-event-breath-as-medicine.webp?v=1',h:'/event-breath-as-medicine',end:'2026-12-15'},
+    {t:'The Art of Conscious Rest',s:'Online &amp;middot; 24 Jan 2027 &amp;middot; 8&amp;#8211;10pm SGT',img:'card-event-art-of-conscious-rest.webp?v=1',h:'/event-art-of-conscious-rest',end:'2027-01-24'},
+    {t:'Certified TRE&amp;#8482; Provider &amp;mdash; 2027',s:'Singapore &amp;middot; from 24 Apr 2027',img:'card-event-certification-2027.webp?v=20261107b',h:'/event-certification-2027',end:'2027-10-31'},
+    {t:'TRE&amp;#8482; Module 1 ONLINE &amp;mdash; TRE Scotland',s:'Online &amp;middot; 18&amp;#8211;20 June 2027 &amp;middot; UK time',img:'card-event-scotland-online-module1.webp?v=2',h:'/event-tre-module1-online-scotland',end:'2027-06-20'}
+  ];
+  var now=Date.now(), grid=document.getElementById('ce-more-grid'), empty=document.getElementById('ce-more-empty');
+  var live=EV.filter(function(e){ return Date.parse(e.end+'T23:59:59+08:00')&gt;now; }).slice(0,3);
+  if(!live.length){ grid.style.display='none'; empty.hidden=false; return; }
+  grid.innerHTML=live.map(function(e){ return '&lt;a class="ce-rel" href="'+e.h+'"&gt;&lt;img src="images/'+e.img+'" alt="" loading="lazy" decoding="async" /&gt;&lt;div class="b"&gt;&lt;strong&gt;'+e.t+'&lt;/strong&gt;&lt;span&gt;'+e.s+'&lt;/span&gt;&lt;/div&gt;&lt;/a&gt;'; }).join('');
+})();
+</script><footer>
+  <div class="foot-grid">
+    <div>
+      <a href="/" class="foot-logo"><img src="/images/logo-dark.webp" alt="HummingBeing — Coaching &amp; Somatics" style="height:48px;width:auto;display:block" width="144" height="48"/></a>
+      <p class="foot-desc">Science backed processes with TRE™, Coaching and Somatic Practices — a space to release, renew and restore.</p>
+      <p class="foot-desc">Part of <strong>Business and Human Development Consulting Pte Ltd</strong></p>
+      <div class="foot-socials">
+        <a href="https://www.instagram.com/isabelleclausteixeira_bhd/" target="_blank" class="soc" aria-label="Instagram" rel="noopener noreferrer"><i class="fa-brands fa-instagram"/></a>
+        <a href="https://www.linkedin.com/in/isabelleclausteixeira/" target="_blank" class="soc" aria-label="LinkedIn" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"/></a>
+        <a href="https://www.youtube.com/@IsabelleClausTeixeira" target="_blank" class="soc" aria-label="YouTube" rel="noopener noreferrer"><i class="fa-brands fa-youtube"/></a>
+        <a href="https://wa.me/818065151778" target="_blank" class="soc" aria-label="WhatsApp" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"/></a>
+      </div>
+    </div>
+    <div>
+      <div class="foot-h">Work with Isabelle</div>
+      <ul class="foot-links">
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™</a></li>
+        <li><a href="/tre-certification">TRE™ Certification</a></li>
+        <li><a href="/retreats-workshops">Retreats &amp; Workshops</a></li>
+        <li><a href="/events">Events</a></li>
+        <li><a href="/book">Book a free call</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="foot-h">HummingBeing</div>
+      <ul class="foot-links">
+        <li><a href="/about">About HummingBeing</a></li>
+        <li><a href="/isabelle">Meet Isabelle</a></li>
+        <li><a href="/gallery">Gallery</a></li>
+        <li><a href="/socials">Socials</a></li>
+        <li><a href="/tre-faq">TRE™ FAQ</a></li>
+        <li><a href="/is-tre-safe">Is TRE™ Safe?</a></li>
+        <li><a href="/tre-icf-cceu">TRE™ with ICF CCEs</a></li>
+        <li><a href="https://www.bhdasia.com" target="_blank" rel="noopener">BHD Asia</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="foot-h">Contact</div>
+      <ul class="foot-links">
+        <li><span>bonjour@bhd<span style="display:none">-no-spam</span>asia.com</span></li>
+        <li><a href="https://wa.me/818065151778" target="_blank" rel="noopener noreferrer">WhatsApp Us</a></li>
+        <li><span>Global</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <div class="foot-copy">© 2026 HummingBeing — Business and Human Development Consulting Pte Ltd</div>
+    <div class="foot-legal">
+      <span>Privacy Policy</span>
+      <span>Terms of Service</span>
+      <span class="foot-sep">·</span>
+      <a href="https://technext.asia" target="_blank" rel="noopener noreferrer">Powered by <span class="tn-brand">TechNext</span></a>
+    </div>
+  </div>
+</footer><a href="https://wa.me/818065151778" class="wa-float" target="_blank" aria-label="Chat on WhatsApp" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"/></a><button class="top-float" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top"><i class="fa-solid fa-chevron-up"/></button><script src="/scripts.js?v=20261109e" defer="defer"/><script>
+function evtlSubmit(e) {
+  e.preventDefault();
+  var fd = new FormData(e.target);
+  sendLead({
+    name: fd.get('name') || '',
+    email: fd.get('email') || '',
+    phone: fd.get('phone') || '',
+    event: fd.get('event') || '',
+    inquiry: 'Event registration enquiry',
+    source: fd.get('source') || document.title,
+    message: 'Payment plan: ' + (fd.get('payment_plan') || ''),
+    payment_plan: fd.get('payment_plan') || ''
+  });
+  var card = e.target.closest('.evtl-form-card');
+  card.querySelector('.evtl-form').style.display = 'none';
+  card.querySelector('.evtl-form-success').style.display = 'block';
+}
+</script><script src="/gdpr-consent.js?v=4"/><div class="ce-lightbox" id="ce-lightbox" aria-hidden="true">
+  <button class="ce-lightbox-close" id="ce-lightbox-close" aria-label="Close">×</button>
+  <img src="/images/event-lisbon-certification-poster.webp?v=2" alt="TRE™ Certification Lisboa 2027 - full event poster"/>
+</div><script>
+(function(){
+  var poster=document.getElementById('ce-poster'), lb=document.getElementById('ce-lightbox'),
+      close=document.getElementById('ce-lightbox-close');
+  if(!poster||!lb) return;
+  function open(){ lb.classList.add('open'); lb.setAttribute('aria-hidden','false'); document.body.style.overflow='hidden'; }
+  function shut(){ lb.classList.remove('open'); lb.setAttribute('aria-hidden','true'); document.body.style.overflow=''; }
+  poster.addEventListener('click', open);
+  poster.addEventListener('keydown', function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); open(); } });
+  lb.addEventListener('click', function(e){ if(e.target===lb||e.target===close) shut(); });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape') shut(); });
+})();
+</script><script src="/hb-tn.js?v=39" defer="defer"/></t></t>
