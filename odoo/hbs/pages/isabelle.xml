@@ -411,7 +411,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
       .is-x-cx-tab::before { left: 12px; right: 12px; top: auto; bottom: 0; width: auto; height: 3px; transform: scaleX(0); }
       .is-x-cx-tab[aria-selected="true"]::before { transform: scaleX(1); }
       .is-x-cx-num { display: none; }
-      .is-x-cx-name { font-size: .86rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+      .is-x-cx-name { font-size: .86rem; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
       .is-x-paths { grid-template-columns: minmax(0, 1fr); max-width: 560px; margin: 0 auto; }
       /* one panel at a time; height follows the content */
       .is-x-js .is-x-cx-panel { display: none; }

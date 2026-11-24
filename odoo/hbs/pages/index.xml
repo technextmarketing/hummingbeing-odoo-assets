@@ -1464,15 +1464,29 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     var ns = fac.parentNode.querySelector('noscript');
     if (ns &amp;&amp; 'content' in document.createElement('template')) {
       fac.hidden = false;
-      fac.addEventListener('click', function () {
+      /* 25 Nov 2026 (owner): the video plays by itself when it scrolls into view - muted, because browsers only
+         allow silent autoplay - pauses when scrolled away and resumes on return. Pressing play = with sound. */
+      var vf = null, frame = fac.parentNode;
+      var load = function (auto) {
+        if (vf) return;
         var t = document.createElement('template'); t.innerHTML = ns.textContent;
         var f = t.content.querySelector('iframe'); if (!f) return;
-        f.setAttribute('src', f.getAttribute('src') + (f.getAttribute('src').indexOf('?') &gt; -1 ? '&amp;' : '?') + 'autoplay=1');
+        f.setAttribute('src', f.getAttribute('src') + (f.getAttribute('src').indexOf('?') &gt; -1 ? '&amp;' : '?') + 'autoplay=1&amp;playsinline=1&amp;enablejsapi=1' + (auto ? '&amp;mute=1&amp;loop=1&amp;playlist=8_UE9nKEh2s' : ''));
         f.removeAttribute('loading');
-        fac.parentNode.insertBefore(f, fac);
+        frame.insertBefore(f, fac); vf = f;
         fac.classList.add('hx-gone');
-        setTimeout(function () { fac.remove(); try { f.focus(); } catch (e) {} }, still() ? 0 : 500);
-      });
+        setTimeout(function () { fac.remove(); if (!auto) { try { f.focus(); } catch (e) {} } }, still() ? 0 : 500);
+      };
+      var yt = function (fn) { try { vf.contentWindow.postMessage(JSON.stringify({ event: 'command', func: fn, args: [] }), '*'); } catch (e) {} };
+      fac.addEventListener('click', function () { load(false); });
+      if ('IntersectionObserver' in window) {
+        new IntersectionObserver(function (es) {
+          es.forEach(function (e) {
+            if (e.isIntersecting) { if (!vf) load(true); else yt('playVideo'); }
+            else if (vf) yt('pauseVideo');
+          });
+        }, { threshold: 0.5 }).observe(frame);
+      }
       tilt(fac, 0, 0, function (x, y) {
         fac.style.setProperty('--px', ((.5 - x) * 16).toFixed(1) + 'px');
         fac.style.setProperty('--py', ((.5 - y) * 10).toFixed(1) + 'px');
