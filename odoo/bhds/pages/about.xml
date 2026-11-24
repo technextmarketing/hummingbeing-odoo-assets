@@ -1,4 +1,4 @@
-<t t-name="bhds.page_about"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en-US&quot;}"/><t t-set="title">About BHD Asia | Leadership Coaching Consultancy, Singapore</t><t t-set="body_classname" t-value="&quot;page et_fixed_nav et_divi_theme&quot;"/><t t-set="head"><script>try{if(!sessionStorage.getItem("bhdIntro")&amp;&amp;!matchMedia("(prefers-reduced-motion: reduce)").matches){var d=document.documentElement;d.classList.add("intro-on");setTimeout(function(){d.classList.remove("intro-on")},5000)}}catch(e){}</script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+<t t-name="bhds.page_about"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en-US&quot;}"/><t t-set="title">About BHD Asia | Leadership Coaching Consultancy, Singapore</t><t t-set="body_classname" t-value="&quot;page et_fixed_nav et_divi_theme&quot;"/><t t-set="x_icon" t-value="&quot;/favicon.ico?v=3&quot;"/><t t-set="head"><script>try{if(!sessionStorage.getItem("bhdIntro")&amp;&amp;!matchMedia("(prefers-reduced-motion: reduce)").matches){var d=document.documentElement;d.classList.add("intro-on");setTimeout(function(){d.classList.remove("intro-on")},5000)}}catch(e){}</script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
@@ -240,14 +240,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
 .ptn-link svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;transition:transform .2s}
 .ptn-link:hover svg{transform:translateX(3px)}
 @media (max-width:900px){.ptn-grid{grid-template-columns:1fr;gap:8px}.ptn{padding:56px 0}}
-</style></t><t t-call="web.layout"><link rel="stylesheet" href="/style.css?v=14"/><link rel="stylesheet" href="/technext-style.css?v=36"/><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W9B95BT7" height="0" width="0" style="display:none;visibility:hidden"/></noscript><div id="page-container">
+</style></t><t t-call="web.layout"><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W9B95BT7" height="0" width="0" style="display:none;visibility:hidden"/></noscript><div id="page-container">
 
 <!-- HEADER -->
 <header id="main-header">
   <div class="et_menu_container container clearfix">
     <div class="logo_container">
       <a href="/">
-        <img src="/bhd-logo.svg?v=1" alt="BHD Asia" width="51" height="34" onerror="this.style.display='none';document.querySelector('.logo-text').style.display='block'"/>
+        <img src="/bhd-logo.svg?v=1" alt="BHD Asia" width="51" height="34" onerror="this.style.display='none';document.querySelector('.logo-text').style.display='block'" loading="eager"/>
         <span class="logo-text">BHD Asia</span>
       </a>
     </div>
@@ -272,7 +272,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
 
 <!-- PAGE TITLE -->
 <div class="page-title-wrap">
-  <img class="page-hero-video" src="/hero-about.webp" alt="" aria-hidden="true" width="1600" height="893" fetchpriority="high" decoding="async"/>
+  <img class="page-hero-video" src="/hero-about.webp" alt="" aria-hidden="true" width="1600" height="893" fetchpriority="high" decoding="async" loading="eager"/>
   <div class="page-hero-overlay"/>
   <div class="container">
         <span class="section-label">Our Story</span>
@@ -329,15 +329,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
       </button>
       <button type="button" class="ab-pick" id="ab-pick-2" aria-controls="ab-person-2" aria-selected="false">
         <span class="ab-pick-img"><img src="/jasmine-photo.webp?v=2" alt="" width="760" height="760" loading="lazy"/></span>
-        <span class="ab-pick-t"><span class="ab-pick-n">Dr. Jasmine Low</span><span class="ab-pick-r">Organisational Psychologist &amp; Systems Coach</span></span>
+        <span class="ab-pick-t"><span class="ab-pick-n">Dr. Jasmine Low</span><span class="ab-pick-r">Organisational Psychologist &amp;amp; Systems Coach</span></span>
       </button>
       <button type="button" class="ab-pick" id="ab-pick-3" aria-controls="ab-person-3" aria-selected="false">
         <span class="ab-pick-img"><img src="/simba-photo.webp?v=3" alt="" width="800" height="981" loading="lazy"/></span>
-        <span class="ab-pick-t"><span class="ab-pick-n">Simba Stenqvist</span><span class="ab-pick-r">Somatic Practitioner &amp; TRE™ Specialist</span></span>
+        <span class="ab-pick-t"><span class="ab-pick-n">Simba Stenqvist</span><span class="ab-pick-r">Somatic Practitioner &amp;amp; TRE™ Specialist</span></span>
       </button>
       <button type="button" class="ab-pick" id="ab-pick-4" aria-controls="ab-person-4" aria-selected="false">
         <span class="ab-pick-img"><img src="/rina-photo.webp" alt="" width="800" height="800" loading="lazy"/></span>
-        <span class="ab-pick-t"><span class="ab-pick-n">Rina Ho</span><span class="ab-pick-r">Executive Coach &amp; TRE™ Practitioner</span></span>
+        <span class="ab-pick-t"><span class="ab-pick-n">Rina Ho</span><span class="ab-pick-r">Executive Coach &amp;amp; TRE™ Practitioner</span></span>
       </button>
     </div>
 
@@ -362,7 +362,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
         </figure>
         <div class="ab-person-body">
           <h3>Dr. Jasmine Low</h3>
-          <span class="ab-role">Organisational Psychologist &amp; Systems Coach</span>
+          <span class="ab-role">Organisational Psychologist &amp;amp; Systems Coach</span>
           <p>Over 15 years developing leaders, teams and psychological safety across 100+ organisations — blending evidence-based psychology with systems thinking and human-centered design.</p>
           <a class="et_pb_button" href="/jasmine">Meet Jasmine →</a>
         </div>
@@ -374,7 +374,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
         </figure>
         <div class="ab-person-body">
           <h3>Simba Stenqvist</h3>
-          <span class="ab-role">Somatic Practitioner &amp; TRE™ Specialist</span>
+          <span class="ab-role">Somatic Practitioner &amp;amp; TRE™ Specialist</span>
           <p>25+ years in bodywork and nervous-system regulation, developed with Dr. David Berceli, founder of TRE™ — helping people release stress and build resilience from the body up.</p>
           <a class="et_pb_button" href="/simba">Meet Simba →</a>
         </div>
@@ -386,7 +386,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
         </figure>
         <div class="ab-person-body">
           <h3>Rina Ho</h3>
-          <span class="ab-role">Executive Coach &amp; TRE™ Practitioner</span>
+          <span class="ab-role">Executive Coach &amp;amp; TRE™ Practitioner</span>
           <p>Executive coach and TRE™ practitioner with 25+ years across Sony, Reebok and adidas — including Vice President leading adidas's largest business unit in the region. Commercially grounded and warm, she helps leaders build regulation, resilience and sustainable performance.</p>
           <a class="et_pb_button" href="/rina">Meet Rina →</a>
         </div>
@@ -411,7 +411,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
       <div class="ab-rv ab-mission-cta"><a class="et_pb_button" href="/#book" data-cta="page-book">Meet Isabelle on a free call</a></div>
     </div>
     <div class="ab-values">
-      <span class="section-label">Values &amp; Beliefs</span>
+      <span class="section-label">Values &amp;amp; Beliefs</span>
       <h2 class="ab-h2 ab-split">What We Stand For</h2>
       <span class="ab-rule" aria-hidden="true"/>
       <div class="ab-vals">
@@ -442,9 +442,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
 
 <section class="ab-sec ptn" id="partners" aria-labelledby="ptn-h">
   <div class="container">
-    <div class="ptn-head"><p class="tn-eyebrow">Partners &amp; affiliations</p><h2 id="ptn-h">The networks Isabelle and BHD Asia work with.</h2>
+    <div class="ptn-head"><p class="tn-eyebrow">Partners &amp;amp; affiliations</p><h2 id="ptn-h">The networks Isabelle and BHD Asia work with.</h2>
       <p>The professional bodies, networks and sister brands that Isabelle and BHD Asia are part of.</p></div>
-    <div class="ptn-grid"><div class="ptn-col"><h3>Coaching</h3><ul><li><h4>ICF — International Coaching Federation</h4><span class="ptn-role">Certified Member</span><p>The ICF is the world's largest organisation of professionally trained coaches. Isabelle holds ICF certification — the global gold standard for coaching credentials, ensuring rigorous ethical and competency standards.</p><a class="ptn-link" href="https://coachingfederation.org/" target="_blank" rel="noopener">About ICF <svg viewbox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li><li><h4>GloCoach</h4><span class="ptn-role">Executive Coaching Partner</span><p>Founded in 2018, GloCoach is a global leadership development platform delivering one-on-one executive and advisory coaching to business leaders in 30+ countries, with offices across Europe and Asia including Singapore. Isabelle partners with GloCoach as an executive coach, supporting leaders across its multinational client base.</p><a class="ptn-link" href="https://www.glocoach.com/" target="_blank" rel="noopener">Visit GloCoach <svg viewbox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li><li><h4>The Coaching Solution</h4><span class="ptn-role">UK Executive Coaching Partner</span><p>The Coaching Solution is a UK-based executive coaching consultancy providing bespoke coaching, team coaching and mentoring for senior leaders and C-suite executives — recognised among the Top 5 Executive Coaching Companies in the UK. Isabelle works with The Coaching Solution as one of its handpicked executive coaches.</p><a class="ptn-link" href="https://thecoachingsolution.co.uk/" target="_blank" rel="noopener">Visit Website <svg viewbox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li><li><h4>Stakeholder Centered Coaching</h4><span class="ptn-role">Accredited — Marshall Goldsmith Method</span><p>Isabelle is accredited in Stakeholder Centered Coaching — the methodology developed by Marshall Goldsmith, the world's #1 executive coach. This approach measures behavioural change through stakeholder feedback rather than self-assessment alone.</p><a class="ptn-link" href="https://www.stakeholdercenteredcoaching.com/" target="_blank" rel="noopener">About the Method <svg viewbox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li></ul></div><div class="ptn-col"><h3>TRE™ networks</h3><ul><li><h4>TRE™ France</h4><span class="ptn-role">Francophone TRE™ Network</span><p>As a Global TRE™ Certifying Trainer who coaches in French, Isabelle works with TRE™ France — the francophone network of certified TRE™ providers — supporting the growth of Tension &amp; Trauma Releasing Exercises across French-speaking communities.</p><a class="ptn-link" href="https://treglobal.org/" target="_blank" rel="noopener">About TRE™ Global <svg viewbox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li><li><h4>TRE™ Iberoamérica</h4><span class="ptn-role">Spanish-Speaking TRE™ Network</span><p>Isabelle collaborates with TRE™ Iberoamérica, the network connecting certified TRE™ providers across Spain, Portugal and Latin America — extending body-based stress release and resilience work to Spanish-speaking communities worldwide.</p><a class="ptn-link" href="https://treglobal.org/" target="_blank" rel="noopener">About TRE™ Global <svg viewbox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li><li><h4>TRE™ for All</h4><span class="ptn-role">Certified TRE™ Provider</span><p>TRE™ for All is the official international organisation for Tension &amp; Trauma Releasing Exercises, certifying trainers and providers worldwide. Isabelle is a certified TRE™ provider and trainer trainee under their programme.</p><a class="ptn-link" href="https://traumaprevention.com/" target="_blank" rel="noopener">About TRE™ <svg viewbox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li></ul></div><div class="ptn-col"><h3>Sister brands &amp; media</h3><ul><li><h4>Living with the Spirit</h4><span class="ptn-role">Sister Practice — Internal Alchemy</span><p>Founded by Sara and Simba Stenqvist and based in Chiang Mai, Thailand, Living with the Spirit is the home of Internal Alchemy — a somatic modality integrating breath, fascia and nervous-system regulation, developed in close collaboration with Dr. David Berceli, founder of TRE™. BHD Asia team member Simba brings this work to Singapore through our workshops and certification cohorts.</p><a class="ptn-link" href="https://livingwiththespirit.com/" target="_blank" rel="noopener">Visit Website <svg viewbox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li><li><h4>Languages à Gogo</h4><span class="ptn-role">Sister Brand — Language Training</span><p>Co-founded by Rouviere Teixeira, Languages à Gogo offers personalised language instruction with a unique human-centred approach: centring teaching around WHO you are, WHY you want to learn, and WHAT you need to achieve your goals.</p></li><li><h4>Brainz Magazine</h4><span class="ptn-role">Editorial Contributor</span><p>Isabelle is a contributor to Brainz Magazine, a global digital publication spotlighting innovative entrepreneurs and thought leaders. Her articles cover leadership, resilience, and human development in the modern workplace.</p><a class="ptn-link" href="https://www.brainzmagazine.com/" target="_blank" rel="noopener">Visit Brainz <svg viewbox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li></ul></div></div>
+    <div class="ptn-grid"><div class="ptn-col"><h3>Coaching</h3><ul><li><h4>ICF — International Coaching Federation</h4><span class="ptn-role">Certified Member</span><p>The ICF is the world's largest organisation of professionally trained coaches. Isabelle holds ICF certification — the global gold standard for coaching credentials, ensuring rigorous ethical and competency standards.</p><a class="ptn-link" href="https://coachingfederation.org/" target="_blank" rel="noopener">About ICF <svg viewbox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li><li><h4>GloCoach</h4><span class="ptn-role">Executive Coaching Partner</span><p>Founded in 2018, GloCoach is a global leadership development platform delivering one-on-one executive and advisory coaching to business leaders in 30+ countries, with offices across Europe and Asia including Singapore. Isabelle partners with GloCoach as an executive coach, supporting leaders across its multinational client base.</p><a class="ptn-link" href="https://www.glocoach.com/" target="_blank" rel="noopener">Visit GloCoach <svg viewbox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li><li><h4>The Coaching Solution</h4><span class="ptn-role">UK Executive Coaching Partner</span><p>The Coaching Solution is a UK-based executive coaching consultancy providing bespoke coaching, team coaching and mentoring for senior leaders and C-suite executives — recognised among the Top 5 Executive Coaching Companies in the UK. Isabelle works with The Coaching Solution as one of its handpicked executive coaches.</p><a class="ptn-link" href="https://thecoachingsolution.co.uk/" target="_blank" rel="noopener">Visit Website <svg viewbox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li><li><h4>Stakeholder Centered Coaching</h4><span class="ptn-role">Accredited — Marshall Goldsmith Method</span><p>Isabelle is accredited in Stakeholder Centered Coaching — the methodology developed by Marshall Goldsmith, the world's #1 executive coach. This approach measures behavioural change through stakeholder feedback rather than self-assessment alone.</p><a class="ptn-link" href="https://www.stakeholdercenteredcoaching.com/" target="_blank" rel="noopener">About the Method <svg viewbox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li></ul></div><div class="ptn-col"><h3>TRE™ networks</h3><ul><li><h4>TRE™ France</h4><span class="ptn-role">Francophone TRE™ Network</span><p>As a Global TRE™ Certifying Trainer who coaches in French, Isabelle works with TRE™ France — the francophone network of certified TRE™ providers — supporting the growth of Tension &amp;amp; Trauma Releasing Exercises across French-speaking communities.</p><a class="ptn-link" href="https://treglobal.org/" target="_blank" rel="noopener">About TRE™ Global <svg viewbox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li><li><h4>TRE™ Iberoamérica</h4><span class="ptn-role">Spanish-Speaking TRE™ Network</span><p>Isabelle collaborates with TRE™ Iberoamérica, the network connecting certified TRE™ providers across Spain, Portugal and Latin America — extending body-based stress release and resilience work to Spanish-speaking communities worldwide.</p><a class="ptn-link" href="https://treglobal.org/" target="_blank" rel="noopener">About TRE™ Global <svg viewbox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li><li><h4>TRE™ for All</h4><span class="ptn-role">Certified TRE™ Provider</span><p>TRE™ for All is the official international organisation for Tension &amp;amp; Trauma Releasing Exercises, certifying trainers and providers worldwide. Isabelle is a certified TRE™ provider and trainer trainee under their programme.</p><a class="ptn-link" href="https://traumaprevention.com/" target="_blank" rel="noopener">About TRE™ <svg viewbox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li></ul></div><div class="ptn-col"><h3>Sister brands &amp;amp; media</h3><ul><li><h4>Living with the Spirit</h4><span class="ptn-role">Sister Practice — Internal Alchemy</span><p>Founded by Sara and Simba Stenqvist and based in Chiang Mai, Thailand, Living with the Spirit is the home of Internal Alchemy — a somatic modality integrating breath, fascia and nervous-system regulation, developed in close collaboration with Dr. David Berceli, founder of TRE™. BHD Asia team member Simba brings this work to Singapore through our workshops and certification cohorts.</p><a class="ptn-link" href="https://livingwiththespirit.com/" target="_blank" rel="noopener">Visit Website <svg viewbox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li><li><h4>Languages à Gogo</h4><span class="ptn-role">Sister Brand — Language Training</span><p>Co-founded by Rouviere Teixeira, Languages à Gogo offers personalised language instruction with a unique human-centred approach: centring teaching around WHO you are, WHY you want to learn, and WHAT you need to achieve your goals.</p></li><li><h4>Brainz Magazine</h4><span class="ptn-role">Editorial Contributor</span><p>Isabelle is a contributor to Brainz Magazine, a global digital publication spotlighting innovative entrepreneurs and thought leaders. Her articles cover leadership, resilience, and human development in the modern workplace.</p><a class="ptn-link" href="https://www.brainzmagazine.com/" target="_blank" rel="noopener">Visit Brainz <svg viewbox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li></ul></div></div>
   </div>
 </section>
 
@@ -468,7 +468,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
     <div class="footer-widget">
       <span class="footer-brand-name">BHD <span>Asia</span></span>
       <p>Highlight, Enhance and Appreciate Human in Business.</p>
-      <p>Business &amp; Human Development Consulting Pte Ltd</p>
+      <p>Business &amp;amp; Human Development Consulting Pte Ltd</p>
       <div class="footer-social">
         <a href="https://www.facebook.com/bhdasia/" target="_blank" rel="noopener" class="footer-soc-btn" aria-label="Facebook"><svg viewbox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
         <a href="https://www.instagram.com/isabelleclausteixeira_bhd/" target="_blank" rel="noopener" class="footer-soc-btn" aria-label="Instagram"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
@@ -477,7 +477,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
       </div>
     </div>
     <div class="footer-widget"><h4>Navigate</h4><ul><li><a href="/">Home</a></li><li><a href="/services">Services</a></li><li><a href="/about">About</a></li><li><a href="/events">Events</a></li><li><a href="/contact">Contact</a></li><li><a href="https://www.hummingbeing.com/" target="_blank" rel="noopener">HummingBeing</a></li></ul></div>
-    <div class="footer-widget"><h4>Legal</h4><ul><li><a href="/privacy">Privacy Statement</a></li><li><a href="/terms">Terms &amp; Conditions</a></li><li><a href="/inclusivity">Inclusivity Statement</a></li></ul></div>
+    <div class="footer-widget"><h4>Legal</h4><ul><li><a href="/privacy">Privacy Statement</a></li><li><a href="/terms">Terms &amp;amp; Conditions</a></li><li><a href="/inclusivity">Inclusivity Statement</a></li></ul></div>
     <div class="footer-widget"><h4>Contact</h4><p class="ft-addr">Singapore Land Tower, #30-00<br/>50 Raffles Place<br/>Singapore 048623</p><p><a href="tel:+818065151778">+81 80 6515 1778</a></p><p><span>bonjour@bhd<span style="display:none">-no-spam</span>asia.com</span></p><p><a href="/#book" data-cta="page-book">Meet Isabelle on a free call →</a></p></div>
   </div></div>
   <div id="footer-bottom"><div class="container">

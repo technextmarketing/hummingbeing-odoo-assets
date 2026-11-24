@@ -1,4 +1,4 @@
-<t t-name="hbs.page_book"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en&quot;}"/><t t-set="title">Book a TRE™ or Coaching Session | Free Discovery Call</t><t t-set="head"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
+<t t-name="hbs.page_book"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en&quot;}"/><t t-set="title">Book a TRE™ or Coaching Session | Free Discovery Call</t><t t-set="x_icon" t-value="&quot;/favicon-32.png?v=3&quot;"/><t t-set="head"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
 new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
 "https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
@@ -645,8 +645,8 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
       }
     ]
   }
-  </script><script type="application/ld+json" data-seo="breadcrumb">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.hummingbeing.com/"}, {"@type": "ListItem", "position": 2, "name": "Book a Session", "item": "https://www.hummingbeing.com/book"}]}</script><script type="application/ld+json" data-seo="services">{"@context": "https://schema.org", "@type": "Service", "name": "TRE™, Coaching &amp; Somatic Sessions with Isabelle Claus Teixeira", "provider": {"@id": "https://www.hummingbeing.com/#organization", "@type": "Organization", "name": "HummingBeing"}, "areaServed": ["Singapore", "Japan", "Worldwide"], "url": "https://www.hummingbeing.com/book", "hasOfferCatalog": {"@type": "OfferCatalog", "name": "Sessions &amp; Pricing", "itemListElement": [{"@type": "Offer", "name": "Free Discovery Call", "price": "0", "priceCurrency": "SGD", "description": "A free 30-minute video or phone call with Isabelle. No commitment. Available globally via Zoom."}, {"@type": "Offer", "name": "8-Week Coaching Package", "price": "2300", "priceCurrency": "SGD", "description": "Initial diagnostic session, 8 weekly one-on-one coaching sessions, targeted exercises between sessions and a follow-up session at 3 months."}, {"@type": "Offer", "name": "Deep Dive Package", "description": "12–24 personalised sessions combining TRE™, coaching and bodywork. Price on request."}]}}</script><link rel="preload" href="/fonts/hb/lato-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/hb/playfair-display-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/></t><t t-call="web.layout"><link rel="stylesheet" href="/styles.css?v=98"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXLR5LGG" height="0" width="0" style="display:none;visibility:hidden"/></noscript><nav>
-  <a href="/" class="logo"><img src="/images/logo-dark.webp" class="logo-on-dark" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/><img src="/images/logo-light.webp" class="logo-on-light" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/></a>
+  </script><script type="application/ld+json" data-seo="breadcrumb">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.hummingbeing.com/"}, {"@type": "ListItem", "position": 2, "name": "Book a Session", "item": "https://www.hummingbeing.com/book"}]}</script><script type="application/ld+json" data-seo="services">{"@context": "https://schema.org", "@type": "Service", "name": "TRE™, Coaching &amp; Somatic Sessions with Isabelle Claus Teixeira", "provider": {"@id": "https://www.hummingbeing.com/#organization", "@type": "Organization", "name": "HummingBeing"}, "areaServed": ["Singapore", "Japan", "Worldwide"], "url": "https://www.hummingbeing.com/book", "hasOfferCatalog": {"@type": "OfferCatalog", "name": "Sessions &amp; Pricing", "itemListElement": [{"@type": "Offer", "name": "Free Discovery Call", "price": "0", "priceCurrency": "SGD", "description": "A free 30-minute video or phone call with Isabelle. No commitment. Available globally via Zoom."}, {"@type": "Offer", "name": "8-Week Coaching Package", "price": "2300", "priceCurrency": "SGD", "description": "Initial diagnostic session, 8 weekly one-on-one coaching sessions, targeted exercises between sessions and a follow-up session at 3 months."}, {"@type": "Offer", "name": "Deep Dive Package", "description": "12–24 personalised sessions combining TRE™, coaching and bodywork. Price on request."}]}}</script><link rel="preload" href="/fonts/hb/lato-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/hb/playfair-display-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/></t><t t-call="web.layout"><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXLR5LGG" height="0" width="0" style="display:none;visibility:hidden"/></noscript><nav>
+  <a href="/" class="logo"><img src="/images/logo-dark.webp" class="logo-on-dark" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto" loading="eager"/><img src="/images/logo-light.webp" class="logo-on-light" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto" loading="eager"/></a>
   <ul class="nav-links">
     <li><a href="/">Home</a></li>
     <li><a href="/about">About</a></li>
@@ -654,9 +654,9 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     <li class="nav-dropdown">
       <a href="javascript:void(0)" class="nav-dropdown-toggle">Work with Isabelle <i class="fa-solid fa-chevron-down nav-arrow"/></a>
       <ul class="nav-dropdown-menu">
-        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™<small>Private sessions, online or in person</small></a></li>
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp;amp; TRE™<small>Private sessions, online or in person</small></a></li>
         <li><a href="/tre-certification">TRE™ Certification<small>Become a certified TRE™ provider</small></a></li>
-        <li><a href="/retreats-workshops">Retreats &amp; Workshops<small>Groups, teams and executives</small></a></li>
+        <li><a href="/retreats-workshops">Retreats &amp;amp; Workshops<small>Groups, teams and executives</small></a></li>
       </ul>
     </li>
     <li><a href="/events">Events</a></li>
@@ -677,54 +677,54 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
 </div><div class="ticker-wrap" aria-hidden="true">
   <div class="ticker-track">
     <span class="t-item"><span class="t-star">★</span> Somatic Wellness</span><span class="t-sep">·</span>
-    <span class="t-item">In-Person &amp; Online Worldwide</span><span class="t-sep">·</span>
+    <span class="t-item">In-Person &amp;amp; Online Worldwide</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Certified TRE™ Provider</span><span class="t-sep">·</span>
     <span class="t-item">30 Years of Experience</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Coaching</span><span class="t-sep">·</span>
     <span class="t-item">Mindfulness</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> 9 Countries · 40+ Nationalities</span><span class="t-sep">·</span>
     <span class="t-item">Release · Renew · Restore</span><span class="t-sep">·</span>
-    <span class="t-item"><span class="t-star">★</span> Business &amp; Human Development</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Business &amp;amp; Human Development</span><span class="t-sep">·</span>
     <span class="t-item">Nervous System Reset</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Mindfulness</span><span class="t-sep">·</span>
     <span class="t-item">Embodied Leadership</span><span class="t-sep">·</span>
-    <span class="t-item"><span class="t-star">★</span> Trauma &amp; Tension Release</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Trauma &amp;amp; Tension Release</span><span class="t-sep">·</span>
     <span class="t-item">Mind · Body · Soul</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Corporate Wellness</span><span class="t-sep">·</span>
     <span class="t-item">Polyvagal Theory</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Global TRE™ Certifying Trainer</span><span class="t-sep">·</span>
     <span class="t-item">Executive Coaching</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Breathwork</span><span class="t-sep">·</span>
-    <span class="t-item">Online &amp; In-Person</span><span class="t-sep">·</span>
+    <span class="t-item">Online &amp;amp; In-Person</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Group Sessions</span><span class="t-sep">·</span>
     <span class="t-item">Burnout Recovery</span><span class="t-sep">·</span>
-    <span class="t-item"><span class="t-star">★</span> Deep Rest &amp; Renewal</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Deep Rest &amp;amp; Renewal</span><span class="t-sep">·</span>
     <span class="t-item">Body Intelligence</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Somatic Intelligence</span><span class="t-sep">·</span>
     <span class="t-item">Self-Regulation</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Dr. David Berceli Method</span><span class="t-sep">·</span><span class="t-item">Neurogenic Tremors</span><span class="t-sep">·</span><span class="t-item">Vagal Tone</span><span class="t-sep">·</span><span class="t-item">Psoas Release</span><span class="t-sep">·</span><span class="t-item">Europe · US · Asia · Worldwide</span><span class="t-sep">·</span><span class="t-item">Free Discovery Call</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Certified Reiki Level II</span><span class="t-sep">·</span><span class="t-item">Nervous System Literacy</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Somatic Wellness</span><span class="t-sep">·</span>
-    <span class="t-item">In-Person &amp; Online Worldwide</span><span class="t-sep">·</span>
+    <span class="t-item">In-Person &amp;amp; Online Worldwide</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Certified TRE™ Provider</span><span class="t-sep">·</span>
     <span class="t-item">30 Years of Experience</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Coaching</span><span class="t-sep">·</span>
     <span class="t-item">Mindfulness</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> 9 Countries · 40+ Nationalities</span><span class="t-sep">·</span>
     <span class="t-item">Release · Renew · Restore</span><span class="t-sep">·</span>
-    <span class="t-item"><span class="t-star">★</span> Business &amp; Human Development</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Business &amp;amp; Human Development</span><span class="t-sep">·</span>
     <span class="t-item">Nervous System Reset</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Mindfulness</span><span class="t-sep">·</span>
     <span class="t-item">Embodied Leadership</span><span class="t-sep">·</span>
-    <span class="t-item"><span class="t-star">★</span> Trauma &amp; Tension Release</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Trauma &amp;amp; Tension Release</span><span class="t-sep">·</span>
     <span class="t-item">Mind · Body · Soul</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Corporate Wellness</span><span class="t-sep">·</span>
     <span class="t-item">Polyvagal Theory</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Global TRE™ Certifying Trainer</span><span class="t-sep">·</span>
     <span class="t-item">Executive Coaching</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Breathwork</span><span class="t-sep">·</span>
-    <span class="t-item">Online &amp; In-Person</span><span class="t-sep">·</span>
+    <span class="t-item">Online &amp;amp; In-Person</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Group Sessions</span><span class="t-sep">·</span>
     <span class="t-item">Burnout Recovery</span><span class="t-sep">·</span>
-    <span class="t-item"><span class="t-star">★</span> Deep Rest &amp; Renewal</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Deep Rest &amp;amp; Renewal</span><span class="t-sep">·</span>
     <span class="t-item">Body Intelligence</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Somatic Intelligence</span><span class="t-sep">·</span>
     <span class="t-item">Self-Regulation</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Dr. David Berceli Method</span><span class="t-sep">·</span><span class="t-item">Neurogenic Tremors</span><span class="t-sep">·</span><span class="t-item">Vagal Tone</span><span class="t-sep">·</span><span class="t-item">Psoas Release</span><span class="t-sep">·</span><span class="t-item">Europe · US · Asia · Worldwide</span><span class="t-sep">·</span><span class="t-item">Free Discovery Call</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Certified Reiki Level II</span><span class="t-sep">·</span><span class="t-item">Nervous System Literacy</span><span class="t-sep">·</span>  </div>
@@ -747,8 +747,8 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     <div class="bk-trust-i bk-rv" style="--d:180ms">
       <span class="bk-trust-ic" aria-hidden="true"><i class="fa-solid fa-video"/></span>
       <div class="bk-trust-tx">
-        <strong>In-Person &amp; Online</strong>
-        <span>Singapore, Japan &amp; globally via Zoom</span>
+        <strong>In-Person &amp;amp; Online</strong>
+        <span>Singapore, Japan &amp;amp; globally via Zoom</span>
       </div>
     </div>
     <div class="bk-trust-i bk-rv" style="--d:270ms">
@@ -762,7 +762,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
 </div><section class="section-white bk-sec bk-price" id="pricing">
   <div class="bk-wrap">
     <div class="bk-head bk-head-c bk-rv">
-      <span class="bk-eyebrow">Sessions &amp; Pricing</span>
+      <span class="bk-eyebrow">Sessions &amp;amp; Pricing</span>
       <h2 class="bk-h2">Choose Your Path</h2>
       <p class="bk-lede">Start with a free discovery call. From there, we find the programme that fits your life, your goals and your pace.</p>
     </div>
@@ -802,9 +802,9 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
           <p class="bk-plan-tag">A longer, more personal journey shaped entirely around you — for those ready to go deeper and stay with the process.</p>
           <ul class="bk-plan-list">
             <li>12–24 personalised sessions</li>
-            <li>Combined TRE™, Coaching &amp; Bodywork</li>
-            <li>Corporate &amp; leadership programmes</li>
-            <li>Priority scheduling &amp; direct access</li>
+            <li>Combined TRE™, Coaching &amp;amp; Bodywork</li>
+            <li>Corporate &amp;amp; leadership programmes</li>
+            <li>Priority scheduling &amp;amp; direct access</li>
             <li>Ongoing integration support</li>
           </ul>
           <a href="#contact-form" class="btn btn-primary bk-plan-cta">Enquire Now</a>
@@ -888,7 +888,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
               <label for="service">Which service interests you most? *</label>
               <select id="service" required="">
                 <option value="">Choose a service</option>
-                <option>TRE™ (Tension &amp; Trauma Release Exercises)</option>
+                <option>TRE™ (Tension &amp;amp; Trauma Release Exercises)</option>
                 <option>Coaching</option>
                 <option>Mindfulness</option>
                 <option>Not sure — help me decide</option>
@@ -933,7 +933,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
       <div class="bk-isa bk-rv">
         <div class="bk-isa-ph"><img class="bk-isa-img" src="/images/isabelle-her-story.webp" alt="Isabelle Claus Teixeira" loading="lazy" decoding="async" width="90" height="90"/></div>
         <h3>Isabelle Claus Teixeira</h3>
-        <span class="bk-isa-t">Somatic Practitioner &amp; Coach</span>
+        <span class="bk-isa-t">Somatic Practitioner &amp;amp; Coach</span>
         <blockquote>“I believe every body holds the wisdom it needs to heal. My role is simply to create the conditions for that wisdom to emerge.”</blockquote>
       </div>
 
@@ -956,8 +956,8 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
         <div class="bk-pane" id="bk-p-where">
           <h3 class="bk-pane-h"><i class="fa-solid fa-location-dot" aria-hidden="true"/>Where We Work</h3>
           <ul class="bk-locs">
-            <li class="bk-loc"><span class="bk-loc-pin" aria-hidden="true"><i class="fa-solid fa-location-dot"/></span><span><strong>Singapore</strong> — in-person &amp; online</span></li>
-            <li class="bk-loc"><span class="bk-loc-pin" aria-hidden="true"><i class="fa-solid fa-location-dot"/></span><span><strong>Japan</strong> (Tokyo &amp; beyond) — in-person &amp; online</span></li>
+            <li class="bk-loc"><span class="bk-loc-pin" aria-hidden="true"><i class="fa-solid fa-location-dot"/></span><span><strong>Singapore</strong> — in-person &amp;amp; online</span></li>
+            <li class="bk-loc"><span class="bk-loc-pin" aria-hidden="true"><i class="fa-solid fa-location-dot"/></span><span><strong>Japan</strong> (Tokyo &amp;amp; beyond) — in-person &amp;amp; online</span></li>
             <li class="bk-loc"><span class="bk-loc-pin" aria-hidden="true"><i class="fa-solid fa-globe"/></span><span><strong>International</strong> — online globally via Zoom</span></li>
           </ul>
         </div>
@@ -1037,7 +1037,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
 </div><footer>
   <div class="foot-grid">
     <div>
-      <a href="/" class="foot-logo"><img src="/images/logo-dark.webp" alt="HummingBeing — Coaching &amp; Somatics" width="144" height="48" style="height:48px;width:auto;display:block"/></a>
+      <a href="/" class="foot-logo"><img src="/images/logo-dark.webp" alt="HummingBeing — Coaching &amp; Somatics" width="144" height="48" style="height:48px;width:auto;display:block" loading="eager"/></a>
       <p class="foot-desc">Science backed processes with TRE™, Coaching and Somatic Practices — a space to release, renew and restore.</p>
       <p class="foot-desc">Part of <strong>Business and Human Development Consulting Pte Ltd</strong></p>
       <div class="foot-socials">
@@ -1050,9 +1050,9 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     <div>
       <div class="foot-h">Work with Isabelle</div>
       <ul class="foot-links">
-        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™</a></li>
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp;amp; TRE™</a></li>
         <li><a href="/tre-certification">TRE™ Certification</a></li>
-        <li><a href="/retreats-workshops">Retreats &amp; Workshops</a></li>
+        <li><a href="/retreats-workshops">Retreats &amp;amp; Workshops</a></li>
         <li><a href="/events">Events</a></li>
         <li><a href="/book">Book a free call</a></li>
       </ul>

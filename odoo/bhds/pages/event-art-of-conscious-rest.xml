@@ -1,4 +1,4 @@
-<t t-name="bhds.page_event_art_of_conscious_rest"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en-US&quot;}"/><t t-set="title">The Art of Conscious Rest | Olga Titkova | BHD Asia</t><t t-set="body_classname" t-value="&quot;page et_fixed_nav et_divi_theme evt2&quot;"/><t t-set="head"><script>try{if(!sessionStorage.getItem("bhdIntro")&amp;&amp;!matchMedia("(prefers-reduced-motion: reduce)").matches){var d=document.documentElement;d.classList.add("intro-on");setTimeout(function(){d.classList.remove("intro-on")},5000)}}catch(e){}</script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+<t t-name="bhds.page_event_art_of_conscious_rest"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en-US&quot;}"/><t t-set="title">The Art of Conscious Rest | Olga Titkova | BHD Asia</t><t t-set="body_classname" t-value="&quot;page et_fixed_nav et_divi_theme evt2&quot;"/><t t-set="x_icon" t-value="&quot;/favicon.ico?v=3&quot;"/><t t-set="head"><script>try{if(!sessionStorage.getItem("bhdIntro")&amp;&amp;!matchMedia("(prefers-reduced-motion: reduce)").matches){var d=document.documentElement;d.classList.add("intro-on");setTimeout(function(){d.classList.remove("intro-on")},5000)}}catch(e){}</script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
@@ -24,12 +24,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
 #reg-step2 .reg-copy,#reg-step2 .reg-again{font:inherit;font-size:13px;font-weight:700;cursor:pointer;border-radius:var(--r-md)}
 #reg-step2 .reg-copy{padding:8px 14px;border:1.5px solid var(--blue-text);background:#fff;color:var(--navy)}
 #reg-step2 .reg-again{background:none;border:0;color:var(--muted);text-decoration:underline;padding:6px 0;font-weight:500}
-</style><link rel="preload" href="/fonts/tn/inter-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/tn/plus-jakarta-sans-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/technext-style.css?v=36"/></t><t t-call="web.layout"><link rel="stylesheet" href="/style.css?v=14"/><link rel="stylesheet" href="/event-detail.css?v=20261108a"/><link rel="stylesheet" href="/technext-style.css?v=36"/><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W9B95BT7" height="0" width="0" style="display:none;visibility:hidden"/></noscript><div id="page-container">
+</style><link rel="preload" href="/fonts/tn/inter-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/tn/plus-jakarta-sans-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/technext-style.css?v=36"/></t><t t-call="web.layout"><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W9B95BT7" height="0" width="0" style="display:none;visibility:hidden"/></noscript><div id="page-container">
 <header id="main-header">
   <div class="et_menu_container container clearfix">
     <div class="logo_container">
       <a href="/">
-        <img src="/bhd-logo.svg?v=1" alt="BHD Asia" width="51" height="34" onerror="this.style.display='none';document.querySelector('.logo-text').style.display='block'"/>
+        <img src="/bhd-logo.svg?v=1" alt="BHD Asia" width="51" height="34" onerror="this.style.display='none';document.querySelector('.logo-text').style.display='block'" loading="eager"/>
         <span class="logo-text">BHD Asia</span>
       </a>
     </div>
@@ -59,7 +59,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
       <p class="evt-crumbs"><a href="/events">Events</a> <span aria-hidden="true">›</span> <span>Online</span></p>
       <div class="evt-hero-top">
         <span class="evt-badge evt-badge-loc">Online</span>
-        <span class="evt-badge evt-badge-type">Yoga Nidra &amp; Rest</span>
+        <span class="evt-badge evt-badge-type">Yoga Nidra &amp;amp; Rest</span>
         <span class="evt-badge evt-badge-type">24 Jan 2027 · 8–10PM SGT</span>
         <span class="evt-badge evt-badge-type">S$88</span>
       </div>
@@ -67,7 +67,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
       <p class="evt-hero-sub" style="color:rgba(255,255,255,.92)">Experiencing deep relaxation through Yoga Nidra. An experiential online workshop for anybody interested to know more about Yoga Nidra — no previous Yoga Nidra experience is required. Led by Olga Titkova.</p>
       <div class="evt-hero-ctas">
         <a class="et_pb_button btn-white" href="#register">Register — S$88 →</a>
-        <a class="et_pb_button btn-white-outline" href="#register">Details &amp; Questions</a>
+        <a class="et_pb_button btn-white-outline" href="#register">Details &amp;amp; Questions</a>
       </div>
     </div>
   </div>
@@ -105,7 +105,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
 
 <div class="evt-section evt-poster-sec">
       <span class="evt-section-label">Event Poster</span>
-      <h2>Save &amp; Share the Poster</h2>
+      <h2>Save &amp;amp; Share the Poster</h2>
       <figure style="margin:0;max-width:440px">
         <a href="/event-art-of-conscious-rest-portrait.webp?v=1" target="_blank" rel="noopener" aria-label="Open the full-size event poster" style="display:block;border-radius:16px;overflow:hidden;box-shadow:0 18px 50px -24px rgba(17,24,39,.45)"><img src="/event-art-of-conscious-rest-portrait.webp?v=1" alt="The Art of Conscious Rest — online Yoga Nidra workshop with Olga Titkova, 24 January 2027, 8–10pm Singapore time" width="1080" height="1350" loading="lazy" decoding="async" style="display:block;width:100%;height:auto"/></a>
         <figcaption style="font-size:13px;color:var(--muted);margin-top:10px">Tap to open the full-size poster to save or share it.</figcaption>
@@ -137,9 +137,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
       <span class="evt-section-label">Who This Is For</span>
       <h2>Anybody Curious About Yoga Nidra</h2>
       <ul class="evt-for-list">
-        <li><span><strong>TRE™ practitioners</strong> (Tension &amp; Trauma Releasing Exercises) interested in exploring Yoga Nidra as a complementary approach to deep relaxation, body awareness, and conscious rest.</span></li>
-        <li><span><strong>Yoga &amp; Mindfulness Practitioners:</strong> Individuals seeking to deepen their experience of relaxation, cultivate awareness, and explore the traditional practice of Yoga Nidra.</span></li>
-        <li><span><strong>Corporate &amp; Wellness Professionals:</strong> Individuals navigating demanding work environments, sustained mental fatigue, or disrupted sleep who are interested in exploring conscious rest as a way to support relaxation and mental wellbeing.</span></li>
+        <li><span><strong>TRE™ practitioners</strong> (Tension &amp;amp; Trauma Releasing Exercises) interested in exploring Yoga Nidra as a complementary approach to deep relaxation, body awareness, and conscious rest.</span></li>
+        <li><span><strong>Yoga &amp;amp; Mindfulness Practitioners:</strong> Individuals seeking to deepen their experience of relaxation, cultivate awareness, and explore the traditional practice of Yoga Nidra.</span></li>
+        <li><span><strong>Corporate &amp;amp; Wellness Professionals:</strong> Individuals navigating demanding work environments, sustained mental fatigue, or disrupted sleep who are interested in exploring conscious rest as a way to support relaxation and mental wellbeing.</span></li>
         <li><span><strong>Anyone Seeking Deep Rest:</strong> Individuals curious about experiencing profound relaxation and discovering a different approach to rest in everyday life.</span></li>
       </ul>
       <p>No previous Yoga Nidra experience is required.</p>
@@ -152,7 +152,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
         <img class="fac-photo" src="/olga-titkova-400.webp?v=1" alt="Olga Titkova, yoga and mindfulness teacher" width="90" height="90" loading="lazy"/>
         <div class="fac-body">
           <h4>Olga Titkova</h4>
-          <span class="fac-role">Yoga &amp; Mindfulness Teacher · E-RYT 200, RYT 500, YACEP</span>
+          <span class="fac-role">Yoga &amp;amp; Mindfulness Teacher · E-RYT 200, RYT 500, YACEP</span>
           <p>Olga has practiced yoga since 1997 and has been teaching since 2006. Her studies span traditional Hatha, Tantra, and Kundalini yoga, pranayama, meditation, and Yoga Nidra. She has also completed mindfulness teacher training in Oxford, UK.</p>
           <p>Alongside her yoga journey, Olga spent 27 years in the high-tech industry, leading global teams and technology operations across multiple countries. Her experience in demanding corporate environments has shaped her understanding of the importance of awareness, balance, and recovery in everyday life.</p>
           <p>Today, she brings together her yoga and mindfulness studies with her professional experience, integrating physical practice with awareness of bodily sensations, thoughts, and emotions to support personal wellbeing, inner balance, and a more conscious approach to everyday life.</p>
@@ -234,7 +234,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
     <div class="footer-widget">
       <span class="footer-brand-name">BHD <span>Asia</span></span>
       <p>Highlight, Enhance and Appreciate Human in Business.</p>
-      <p>Business &amp; Human Development Consulting Pte Ltd</p>
+      <p>Business &amp;amp; Human Development Consulting Pte Ltd</p>
       <div class="footer-social">
         <a href="https://www.facebook.com/bhdasia/" target="_blank" rel="noopener" class="footer-soc-btn" aria-label="Facebook"><svg viewbox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
         <a href="https://www.instagram.com/isabelleclausteixeira_bhd/" target="_blank" rel="noopener" class="footer-soc-btn" aria-label="Instagram"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
@@ -243,7 +243,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
       </div>
     </div>
     <div class="footer-widget"><h4>Navigate</h4><ul><li><a href="/">Home</a></li><li><a href="/services">Services</a></li><li><a href="/about">About</a></li><li><a href="/events">Events</a></li><li><a href="/contact">Contact</a></li><li><a href="https://www.hummingbeing.com/" target="_blank" rel="noopener">HummingBeing</a></li></ul></div>
-    <div class="footer-widget"><h4>Legal</h4><ul><li><a href="/privacy">Privacy Statement</a></li><li><a href="/terms">Terms &amp; Conditions</a></li><li><a href="/inclusivity">Inclusivity Statement</a></li></ul></div>
+    <div class="footer-widget"><h4>Legal</h4><ul><li><a href="/privacy">Privacy Statement</a></li><li><a href="/terms">Terms &amp;amp; Conditions</a></li><li><a href="/inclusivity">Inclusivity Statement</a></li></ul></div>
     <div class="footer-widget"><h4>Contact</h4><p class="ft-addr">Singapore Land Tower, #30-00<br/>50 Raffles Place<br/>Singapore 048623</p><p><a href="tel:+818065151778">+81 80 6515 1778</a></p><p><span>bonjour@bhd<span style="display:none">-no-spam</span>asia.com</span></p><p><a href="/#book" data-cta="page-book">Book a Discovery Call →</a></p></div>
   </div></div>
   <div id="footer-bottom"><div class="container">

@@ -1,4 +1,4 @@
-<t t-name="hbs.page_event_certification_2027"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en&quot;}"/><t t-set="title">TRE™ Certification 2027 Singapore — Packages | HummingBeing</t><t t-set="head"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
+<t t-name="hbs.page_event_certification_2027"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en&quot;}"/><t t-set="title">TRE™ Certification 2027 Singapore — Packages | HummingBeing</t><t t-set="x_icon" t-value="&quot;/favicon-32.png?v=3&quot;"/><t t-set="head"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
 new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
 "https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
@@ -305,8 +305,8 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     .ce-pkgsec h2{font-family:'Playfair Display',serif;font-size:1.5rem;color:var(--navy);text-align:center;margin:0 0 1.4rem}
     .ce-pkgsec .ce-pkgs{grid-template-columns:repeat(3,1fr)}
     @media(max-width:760px){.ce-pkgsec .ce-pkgs{grid-template-columns:1fr}}
-  </style><script type="application/ld+json" data-seo="breadcrumb">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.hummingbeing.com/"}, {"@type": "ListItem", "position": 2, "name": "Events", "item": "https://www.hummingbeing.com/events"}, {"@type": "ListItem", "position": 3, "name": "Certification 2027", "item": "https://www.hummingbeing.com/event-certification-2027"}]}</script><link rel="preload" href="/fonts/hb/lato-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/hb/playfair-display-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/></t><t t-call="web.layout"><link rel="stylesheet" href="/styles.css?v=98"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXLR5LGG" height="0" width="0" style="display:none;visibility:hidden"/></noscript><nav>
-  <a href="/" class="logo"><img src="/images/logo-dark.webp" class="logo-on-dark" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/><img src="/images/logo-light.webp" class="logo-on-light" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/></a>
+  </style><script type="application/ld+json" data-seo="breadcrumb">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.hummingbeing.com/"}, {"@type": "ListItem", "position": 2, "name": "Events", "item": "https://www.hummingbeing.com/events"}, {"@type": "ListItem", "position": 3, "name": "Certification 2027", "item": "https://www.hummingbeing.com/event-certification-2027"}]}</script><link rel="preload" href="/fonts/hb/lato-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/hb/playfair-display-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/></t><t t-call="web.layout"><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXLR5LGG" height="0" width="0" style="display:none;visibility:hidden"/></noscript><nav>
+  <a href="/" class="logo"><img src="/images/logo-dark.webp" class="logo-on-dark" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto" loading="eager"/><img src="/images/logo-light.webp" class="logo-on-light" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto" loading="eager"/></a>
   <ul class="nav-links">
     <li><a href="/">Home</a></li>
     <li><a href="/about">About</a></li>
@@ -314,9 +314,9 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     <li class="nav-dropdown">
       <a href="javascript:void(0)" class="nav-dropdown-toggle">Work with Isabelle <i class="fa-solid fa-chevron-down nav-arrow"/></a>
       <ul class="nav-dropdown-menu">
-        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™<small>Private sessions, online or in person</small></a></li>
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp;amp; TRE™<small>Private sessions, online or in person</small></a></li>
         <li><a href="/tre-certification">TRE™ Certification<small>Become a certified TRE™ provider</small></a></li>
-        <li><a href="/retreats-workshops">Retreats &amp; Workshops<small>Groups, teams and executives</small></a></li>
+        <li><a href="/retreats-workshops">Retreats &amp;amp; Workshops<small>Groups, teams and executives</small></a></li>
       </ul>
     </li>
     <li><a href="/events">Events</a></li>
@@ -350,7 +350,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
 </div><div class="ce-layout">
   <div class="ce-main">
     <figure class="ce-poster ce-poster-portrait" id="ce-poster" role="button" tabindex="0" aria-label="View full-size event poster" style="max-width:100%">
-      <img src="/images/event-certification-2027-poster-v3.webp" alt="Become a Certified TRE™ Provider 2027, boosted by Internal Alchemy, led by Isabelle Claus Teixeira and Simba Stenqvist. Growth, Foundational and Refresher packages; modules 24–25 Apr, 3–4 Jul and 30–31 Oct 2027 in Singapore." width="1080" height="1350" fetchpriority="high" decoding="async"/>
+      <img src="/images/event-certification-2027-poster-v3.webp" alt="Become a Certified TRE™ Provider 2027, boosted by Internal Alchemy, led by Isabelle Claus Teixeira and Simba Stenqvist. Growth, Foundational and Refresher packages; modules 24–25 Apr, 3–4 Jul and 30–31 Oct 2027 in Singapore." width="1080" height="1350" fetchpriority="high" decoding="async" loading="eager"/>
       <span class="ce-zoom-hint"><i class="fa-solid fa-magnifying-glass-plus"/> Click to enlarge</span>
     </figure>
 
@@ -363,7 +363,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     <div class="ce-pkgs">
 <a class="ce-pkg hl" href="/event-certification-2027-growth"><span class="k">New students</span><h3>Growth Package</h3><div class="pr">S$5,888<small>early bird to 31 Mar 2027 · then S$6,888</small></div><p>The full certification: Modules 1–3, all online personal sessions and supervisions, ICF credits and the three bonus programmes.</p><span class="go">See this package →</span></a>
 <a class="ce-pkg" href="/event-certification-2027-foundational"><span class="k">New students</span><h3>Foundational Package</h3><div class="pr">S$4,888<small>early bird to 31 Mar 2027 · then S$5,888</small></div><p>The whole certification pathway, minus the ICF credits and the three bonus programmes.</p><span class="go">See this package →</span></a>
-<a class="ce-pkg" href="/event-certification-2027-refresher"><span class="k">Accredited TRE™ Providers &amp; trainees</span><h3>Refresher Packages</h3><div class="pr">From S$2,200<small>early bird to 31 Mar 2027 · four options</small></div><p>For accredited TRE™ Providers and TRE™ Provider trainees who want to complete their training.</p><span class="go">See this package →</span></a>
+<a class="ce-pkg" href="/event-certification-2027-refresher"><span class="k">Accredited TRE™ Providers &amp;amp; trainees</span><h3>Refresher Packages</h3><div class="pr">From S$2,200<small>early bird to 31 Mar 2027 · four options</small></div><p>For accredited TRE™ Providers and TRE™ Provider trainees who want to complete their training.</p><span class="go">See this package →</span></a>
 </div>
 
     <h2>Growth vs Foundational</h2>
@@ -394,11 +394,11 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     <div class="ce-sched">
       <div class="ce-day">
         <div class="when"><b>Module 1</b><span>24–25 Apr 2027 · Singapore</span></div>
-        <div><h4>Your Personal TRE™ Practice</h4><p>A 2-day in-person workshop plus personal sessions: 2 online individual sessions (led by a different TRE™ trainer) and 2 online group sessions (5 May &amp; 1 Jun 2027, 7–9pm SGT).</p></div>
+        <div><h4>Your Personal TRE™ Practice</h4><p>A 2-day in-person workshop plus personal sessions: 2 online individual sessions (led by a different TRE™ trainer) and 2 online group sessions (5 May &amp;amp; 1 Jun 2027, 7–9pm SGT).</p></div>
       </div>
       <div class="ce-day">
         <div class="when"><b>Module 2</b><span>3–4 Jul 2027 · Singapore</span></div>
-        <div><h4>Teaching TRE™ to One Person</h4><p>A 2-day in-person workshop plus 2 online group supervisions (19 Jul &amp; 16 Aug 2027) and 2 online individual supervisions with a different trainer — building your skills to guide one person safely through TRE™.</p></div>
+        <div><h4>Teaching TRE™ to One Person</h4><p>A 2-day in-person workshop plus 2 online group supervisions (19 Jul &amp;amp; 16 Aug 2027) and 2 online individual supervisions with a different trainer — building your skills to guide one person safely through TRE™.</p></div>
       </div>
       <div class="ce-day">
         <div class="when"><b>Module 3</b><span>30–31 Oct 2027 · Singapore</span></div>
@@ -453,7 +453,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
       <div class="ce-tiers">
         <div class="ce-tier hl"><div class="tl">Growth Package<small>new students · early bird to 31 Mar 2027 · then S$6,888</small></div><div class="tp">S$5,888</div></div>
         <div class="ce-tier"><div class="tl">Foundational Package<small>new students · early bird · then S$5,888</small></div><div class="tp">S$4,888</div></div>
-        <div class="ce-tier"><div class="tl">Refresher Packages<small>accredited Providers &amp; trainees · early bird · then from S$2,900</small></div><div class="tp">from S$2,200</div></div>
+        <div class="ce-tier"><div class="tl">Refresher Packages<small>accredited Providers &amp;amp; trainees · early bird · then from S$2,900</small></div><div class="tp">from S$2,200</div></div>
       </div>
       <form class="evtl-form" onsubmit="evtlSubmit(event)">
         <input type="hidden" name="source" value="TRE Certification 2027 Singapore — INTEREST (overview)"/>
@@ -542,7 +542,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
 </script><footer>
   <div class="foot-grid">
     <div>
-      <a href="/" class="foot-logo"><img src="/images/logo-dark.webp" alt="HummingBeing — Coaching &amp; Somatics" style="height:48px;width:auto;display:block" width="144" height="48"/></a>
+      <a href="/" class="foot-logo"><img src="/images/logo-dark.webp" alt="HummingBeing — Coaching &amp; Somatics" style="height:48px;width:auto;display:block" width="144" height="48" loading="eager"/></a>
       <p class="foot-desc">Science backed processes with TRE™, Coaching and Somatic Practices — a space to release, renew and restore.</p>
       <p class="foot-desc">Part of <strong>Business and Human Development Consulting Pte Ltd</strong></p>
       <div class="foot-socials">
@@ -555,9 +555,9 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     <div>
       <div class="foot-h">Work with Isabelle</div>
       <ul class="foot-links">
-        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™</a></li>
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp;amp; TRE™</a></li>
         <li><a href="/tre-certification">TRE™ Certification</a></li>
-        <li><a href="/retreats-workshops">Retreats &amp; Workshops</a></li>
+        <li><a href="/retreats-workshops">Retreats &amp;amp; Workshops</a></li>
         <li><a href="/events">Events</a></li>
         <li><a href="/book">Book a free call</a></li>
       </ul>
@@ -595,7 +595,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
   </div>
 </footer><div class="ce-lightbox" id="ce-lightbox" aria-hidden="true">
   <button class="ce-lightbox-close" id="ce-lightbox-close" aria-label="Close">×</button>
-  <img src="/images/event-certification-2027-poster-v3.webp" alt="Become a Certified TRE™ Provider 2027 - full event poster"/>
+  <img src="/images/event-certification-2027-poster-v3.webp" alt="Become a Certified TRE™ Provider 2027 - full event poster" loading="eager"/>
 </div><script>
 (function(){
   var poster=document.getElementById('ce-poster'), lb=document.getElementById('ce-lightbox'),

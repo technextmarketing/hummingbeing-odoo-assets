@@ -1,4 +1,4 @@
-<t t-name="hbs.page_socials"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en&quot;}"/><t t-set="title">Follow HummingBeing | Isabelle Claus Teixeira</t><t t-set="head"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
+<t t-name="hbs.page_socials"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en&quot;}"/><t t-set="title">Follow HummingBeing | Isabelle Claus Teixeira</t><t t-set="x_icon" t-value="&quot;/favicon-32.png?v=3&quot;"/><t t-set="head"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
 new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
 "https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
@@ -441,8 +441,8 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
       "url": "https://www.hummingbeing.com/"
     }
   }
-  </script><script type="application/ld+json" data-seo="breadcrumb">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.hummingbeing.com/"}, {"@type": "ListItem", "position": 2, "name": "Socials", "item": "https://www.hummingbeing.com/socials"}]}</script><link rel="preload" href="/fonts/hb/lato-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/hb/playfair-display-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/></t><t t-call="web.layout"><link rel="stylesheet" href="/styles.css?v=98"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXLR5LGG" height="0" width="0" style="display:none;visibility:hidden"/></noscript><nav>
-  <a href="/" class="logo"><img src="/images/logo-dark.webp" class="logo-on-dark" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/><img src="/images/logo-light.webp" class="logo-on-light" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/></a>
+  </script><script type="application/ld+json" data-seo="breadcrumb">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.hummingbeing.com/"}, {"@type": "ListItem", "position": 2, "name": "Socials", "item": "https://www.hummingbeing.com/socials"}]}</script><link rel="preload" href="/fonts/hb/lato-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/hb/playfair-display-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/></t><t t-call="web.layout"><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXLR5LGG" height="0" width="0" style="display:none;visibility:hidden"/></noscript><nav>
+  <a href="/" class="logo"><img src="/images/logo-dark.webp" class="logo-on-dark" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto" loading="eager"/><img src="/images/logo-light.webp" class="logo-on-light" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto" loading="eager"/></a>
   <ul class="nav-links">
     <li><a href="/">Home</a></li>
     <li><a href="/about">About</a></li>
@@ -450,9 +450,9 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     <li class="nav-dropdown">
       <a href="javascript:void(0)" class="nav-dropdown-toggle">Work with Isabelle <i class="fa-solid fa-chevron-down nav-arrow"/></a>
       <ul class="nav-dropdown-menu">
-        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™<small>Private sessions, online or in person</small></a></li>
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp;amp; TRE™<small>Private sessions, online or in person</small></a></li>
         <li><a href="/tre-certification">TRE™ Certification<small>Become a certified TRE™ provider</small></a></li>
-        <li><a href="/retreats-workshops">Retreats &amp; Workshops<small>Groups, teams and executives</small></a></li>
+        <li><a href="/retreats-workshops">Retreats &amp;amp; Workshops<small>Groups, teams and executives</small></a></li>
       </ul>
     </li>
     <li><a href="/events">Events</a></li>
@@ -473,52 +473,52 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
 </div><div class="ticker-wrap" aria-hidden="true">
   <div class="ticker-track">
     <span class="t-item"><span class="t-star">★</span> Somatic Wellness</span><span class="t-sep">·</span>
-    <span class="t-item">In-Person &amp; Online Worldwide</span><span class="t-sep">·</span>
+    <span class="t-item">In-Person &amp;amp; Online Worldwide</span><span class="t-sep">·</span>
         <span class="t-item">30 Years of Experience</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Coaching</span><span class="t-sep">·</span>
     <span class="t-item">Mindfulness</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> 9 Countries · 40+ Nationalities</span><span class="t-sep">·</span>
     <span class="t-item">Release · Renew · Restore</span><span class="t-sep">·</span>
-    <span class="t-item"><span class="t-star">★</span> Business &amp; Human Development</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Business &amp;amp; Human Development</span><span class="t-sep">·</span>
     <span class="t-item">Nervous System Reset</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Mindfulness</span><span class="t-sep">·</span>
     <span class="t-item">Embodied Leadership</span><span class="t-sep">·</span>
-    <span class="t-item"><span class="t-star">★</span> Trauma &amp; Tension Release</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Trauma &amp;amp; Tension Release</span><span class="t-sep">·</span>
     <span class="t-item">Mind · Body · Soul</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Corporate Wellness</span><span class="t-sep">·</span>
     <span class="t-item">Polyvagal Theory</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Global TRE™ Certifying Trainer</span><span class="t-sep">·</span>
     <span class="t-item">Executive Coaching</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Breathwork</span><span class="t-sep">·</span>
-    <span class="t-item">Online &amp; In-Person</span><span class="t-sep">·</span>
+    <span class="t-item">Online &amp;amp; In-Person</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Group Sessions</span><span class="t-sep">·</span>
     <span class="t-item">Burnout Recovery</span><span class="t-sep">·</span>
-    <span class="t-item"><span class="t-star">★</span> Deep Rest &amp; Renewal</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Deep Rest &amp;amp; Renewal</span><span class="t-sep">·</span>
     <span class="t-item">Body Intelligence</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Somatic Intelligence</span><span class="t-sep">·</span>
     <span class="t-item">Self-Regulation</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Dr. David Berceli Method</span><span class="t-sep">·</span><span class="t-item">Neurogenic Tremors</span><span class="t-sep">·</span><span class="t-item">Vagal Tone</span><span class="t-sep">·</span><span class="t-item">Psoas Release</span><span class="t-sep">·</span><span class="t-item">Europe · US · Asia · Worldwide</span><span class="t-sep">·</span><span class="t-item">Free Discovery Call</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Certified Reiki Level II</span><span class="t-sep">·</span><span class="t-item">Nervous System Literacy</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Somatic Wellness</span><span class="t-sep">·</span>
-    <span class="t-item">In-Person &amp; Online Worldwide</span><span class="t-sep">·</span>
+    <span class="t-item">In-Person &amp;amp; Online Worldwide</span><span class="t-sep">·</span>
         <span class="t-item">30 Years of Experience</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Coaching</span><span class="t-sep">·</span>
     <span class="t-item">Mindfulness</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> 9 Countries · 40+ Nationalities</span><span class="t-sep">·</span>
     <span class="t-item">Release · Renew · Restore</span><span class="t-sep">·</span>
-    <span class="t-item"><span class="t-star">★</span> Business &amp; Human Development</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Business &amp;amp; Human Development</span><span class="t-sep">·</span>
     <span class="t-item">Nervous System Reset</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Mindfulness</span><span class="t-sep">·</span>
     <span class="t-item">Embodied Leadership</span><span class="t-sep">·</span>
-    <span class="t-item"><span class="t-star">★</span> Trauma &amp; Tension Release</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Trauma &amp;amp; Tension Release</span><span class="t-sep">·</span>
     <span class="t-item">Mind · Body · Soul</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Corporate Wellness</span><span class="t-sep">·</span>
     <span class="t-item">Polyvagal Theory</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Global TRE™ Certifying Trainer</span><span class="t-sep">·</span>
     <span class="t-item">Executive Coaching</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Breathwork</span><span class="t-sep">·</span>
-    <span class="t-item">Online &amp; In-Person</span><span class="t-sep">·</span>
+    <span class="t-item">Online &amp;amp; In-Person</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Group Sessions</span><span class="t-sep">·</span>
     <span class="t-item">Burnout Recovery</span><span class="t-sep">·</span>
-    <span class="t-item"><span class="t-star">★</span> Deep Rest &amp; Renewal</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Deep Rest &amp;amp; Renewal</span><span class="t-sep">·</span>
     <span class="t-item">Body Intelligence</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Somatic Intelligence</span><span class="t-sep">·</span>
     <span class="t-item">Self-Regulation</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Dr. David Berceli Method</span><span class="t-sep">·</span><span class="t-item">Neurogenic Tremors</span><span class="t-sep">·</span><span class="t-item">Vagal Tone</span><span class="t-sep">·</span><span class="t-item">Psoas Release</span><span class="t-sep">·</span><span class="t-item">Europe · US · Asia · Worldwide</span><span class="t-sep">·</span><span class="t-item">Free Discovery Call</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Certified Reiki Level II</span><span class="t-sep">·</span><span class="t-item">Nervous System Literacy</span><span class="t-sep">·</span>  </div>
@@ -620,7 +620,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
               <button type="button" class="sx-copy" data-copy="Isabelle Claus Teixeira" aria-label="Copy LinkedIn name"><i class="fa-regular fa-copy" aria-hidden="true"/><span class="sx-copy__lbl" aria-hidden="true">Copy</span></button>
             </div>
             <p class="sx-panel__label">What Isabelle shares here</p>
-            <ul class="sx-panel__list"><li>Leadership &amp; Resilience</li><li>Neuroscience &amp; Wellbeing</li></ul>
+            <ul class="sx-panel__list"><li>Leadership &amp;amp; Resilience</li><li>Neuroscience &amp;amp; Wellbeing</li></ul>
             <div class="sx-panel__foot">
               <span class="sx-magnet"><a class="btn btn-primary" href="https://www.linkedin.com/in/isabelleclausteixeira/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn<i class="fa-solid fa-arrow-right" aria-hidden="true"/></a></span>
               <button type="button" class="sx-textbtn" data-sx-show="linkedin">See LinkedIn themes <i class="fa-solid fa-arrow-down" aria-hidden="true"/></button>
@@ -726,7 +726,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
       <div class="sx-theme-cell" data-tags="linkedin" data-sx-reveal="">
         <article class="sx-theme" data-sx-tilt="5" style="--brand:#0A66C2">
           <div class="sx-theme__plat"><i class="fa-brands fa-linkedin" aria-hidden="true"/> LinkedIn</div>
-          <h3>Leadership &amp; Resilience</h3>
+          <h3>Leadership &amp;amp; Resilience</h3>
           <p>Evidence-based insights on how somatic awareness makes better leaders — with practical applications for high-performance professionals.</p>
         </article>
       </div>
@@ -747,7 +747,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
       <div class="sx-theme-cell" data-tags="linkedin" data-sx-reveal="">
         <article class="sx-theme" data-sx-tilt="5" style="--brand:#0A66C2">
           <div class="sx-theme__plat"><i class="fa-brands fa-linkedin" aria-hidden="true"/> LinkedIn</div>
-          <h3>Neuroscience &amp; Wellbeing</h3>
+          <h3>Neuroscience &amp;amp; Wellbeing</h3>
           <p>Accessible breakdowns of the latest research in polyvagal theory, trauma neuroscience and embodied leadership for professional audiences.</p>
         </article>
       </div>
@@ -782,7 +782,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     <header class="sx-head">
       <div data-sx-reveal="">
         <span class="sx-eyebrow">Further Reading</span>
-        <h2 class="sx-title" id="sx-res-h">Resources &amp; <em>Related Organisations</em></h2>
+        <h2 class="sx-title" id="sx-res-h">Resources &amp;amp; <em>Related Organisations</em></h2>
       </div>
       <p class="sx-sub" data-sx-reveal="" style="--d:100ms">Expand your understanding of somatic wellness with these trusted resources.</p>
     </header>
@@ -798,7 +798,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
         <span class="sx-res__icon" aria-hidden="true"><i class="fa-solid fa-globe"/></span>
         <div class="sx-res__body">
           <h3>TRE™ Global</h3>
-          <p>The official global organisation for Tension &amp; Trauma Release Exercises, founded by Dr. David Berceli. Find certified practitioners, research and resources worldwide.</p>
+          <p>The official global organisation for Tension &amp;amp; Trauma Release Exercises, founded by Dr. David Berceli. Find certified practitioners, research and resources worldwide.</p>
         </div>
         <a href="https://traumaprevention.com" target="_blank" rel="noopener noreferrer" class="sx-res__link">traumaprevention.com <span class="sx-res__arrow" aria-hidden="true"><i class="fa-solid fa-arrow-right"/></span></a>
       </li>
@@ -871,7 +871,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
         <ul class="sx-perks">
           <li><i class="fa-solid fa-check" aria-hidden="true"/>Monthly somatic micro-practices</li>
           <li><i class="fa-solid fa-check" aria-hidden="true"/>Nervous system research, made simple</li>
-          <li><i class="fa-solid fa-check" aria-hidden="true"/>Stories of transformation &amp; healing</li>
+          <li><i class="fa-solid fa-check" aria-hidden="true"/>Stories of transformation &amp;amp; healing</li>
         </ul>
       </div>
       <div class="sx-nl__r">
@@ -978,7 +978,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
 </section><footer>
   <div class="foot-grid">
     <div>
-      <a href="/" class="foot-logo"><img src="/images/logo-dark.webp" alt="HummingBeing — Coaching &amp; Somatics" width="144" height="48" style="height:48px;width:auto;display:block"/></a>
+      <a href="/" class="foot-logo"><img src="/images/logo-dark.webp" alt="HummingBeing — Coaching &amp; Somatics" width="144" height="48" style="height:48px;width:auto;display:block" loading="eager"/></a>
       <p class="foot-desc">Science backed processes with TRE™, Coaching and Somatic Practices — a space to release, renew and restore.</p>
       <p class="foot-desc">Part of <strong>Business and Human Development Consulting Pte Ltd</strong></p>
       <div class="foot-socials">
@@ -991,9 +991,9 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     <div>
       <div class="foot-h">Work with Isabelle</div>
       <ul class="foot-links">
-        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™</a></li>
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp;amp; TRE™</a></li>
         <li><a href="/tre-certification">TRE™ Certification</a></li>
-        <li><a href="/retreats-workshops">Retreats &amp; Workshops</a></li>
+        <li><a href="/retreats-workshops">Retreats &amp;amp; Workshops</a></li>
         <li><a href="/events">Events</a></li>
         <li><a href="/book">Book a free call</a></li>
       </ul>

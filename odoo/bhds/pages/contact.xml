@@ -1,4 +1,4 @@
-<t t-name="bhds.page_contact"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en-US&quot;}"/><t t-set="title">Contact BHD Asia | Book a Free Discovery Call in Singapore</t><t t-set="body_classname" t-value="&quot;page et_fixed_nav et_divi_theme&quot;"/><t t-set="head"><script>try{if(!sessionStorage.getItem("bhdIntro")&amp;&amp;!matchMedia("(prefers-reduced-motion: reduce)").matches){var d=document.documentElement;d.classList.add("intro-on");setTimeout(function(){d.classList.remove("intro-on")},5000)}}catch(e){}</script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+<t t-name="bhds.page_contact"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en-US&quot;}"/><t t-set="title">Contact BHD Asia | Book a Free Discovery Call in Singapore</t><t t-set="body_classname" t-value="&quot;page et_fixed_nav et_divi_theme&quot;"/><t t-set="x_icon" t-value="&quot;/favicon.ico?v=3&quot;"/><t t-set="head"><script>try{if(!sessionStorage.getItem("bhdIntro")&amp;&amp;!matchMedia("(prefers-reduced-motion: reduce)").matches){var d=document.documentElement;d.classList.add("intro-on");setTimeout(function(){d.classList.remove("intro-on")},5000)}}catch(e){}</script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
@@ -199,13 +199,13 @@ html body .ct-panel .ct-row:last-child{border-bottom:0}
 .ct-news{padding:40px 0 56px!important}
 .ct-cal-line{margin:18px 0 0;font-size:14px;color:#4b5163}
 .ct-cal-line a{color:#14244a;font-weight:600}
-</style></t><t t-call="web.layout"><link rel="stylesheet" href="/style.css?v=14"/><link rel="stylesheet" href="/technext-style.css?v=36"/><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W9B95BT7" height="0" width="0" style="display:none;visibility:hidden"/></noscript><div id="page-container">
+</style></t><t t-call="web.layout"><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W9B95BT7" height="0" width="0" style="display:none;visibility:hidden"/></noscript><div id="page-container">
 
 <header id="main-header">
   <div class="et_menu_container container clearfix">
     <div class="logo_container">
       <a href="/">
-        <img src="/bhd-logo.svg?v=1" alt="BHD Asia" width="51" height="34" onerror="this.style.display='none';document.querySelector('.logo-text').style.display='block'"/>
+        <img src="/bhd-logo.svg?v=1" alt="BHD Asia" width="51" height="34" onerror="this.style.display='none';document.querySelector('.logo-text').style.display='block'" loading="eager"/>
         <span class="logo-text">BHD Asia</span>
       </a>
     </div>
@@ -228,7 +228,7 @@ html body .ct-panel .ct-row:last-child{border-bottom:0}
 
 <div id="et-main-area" tabindex="-1">
 <div class="page-title-wrap">
-  <img class="page-hero-video" src="/hero-home.webp" alt="" aria-hidden="true" width="1600" height="893" fetchpriority="high" decoding="async"/>
+  <img class="page-hero-video" src="/hero-home.webp" alt="" aria-hidden="true" width="1600" height="893" fetchpriority="high" decoding="async" loading="eager"/>
   <div class="page-hero-overlay"/>
   <div class="container">
         <span class="section-label">Get in Touch</span>
@@ -281,7 +281,7 @@ html body .ct-panel .ct-row:last-child{border-bottom:0}
               <span class="ct-ico" aria-hidden="true"><svg viewbox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg></span>
               <div>
                 <strong class="ct-row-lbl">Company</strong>
-                <p class="ct-row-val">Business &amp; Human Development Consulting Pte Ltd<br/>ACRA Number: 201201974K</p>
+                <p class="ct-row-val">Business &amp;amp; Human Development Consulting Pte Ltd<br/>ACRA Number: 201201974K</p>
               </div>
               <button type="button" class="ct-copy" data-ct-copy="Business &amp; Human Development Consulting Pte Ltd, ACRA Number: 201201974K" data-ct-what="Company details" aria-label="Copy company details"><span class="ct-copy-off" aria-hidden="true"><svg viewbox="0 0 24 24"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></svg><span class="ct-copy-t">Copy</span></span><span class="ct-copy-on" aria-hidden="true"><svg viewbox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span class="ct-copy-t">Copied</span></span></button>
             </li>
@@ -338,7 +338,7 @@ html body .ct-panel .ct-row:last-child{border-bottom:0}
   <div class="container ct-news-in">
     <div class="ct-news-copy ct-rv">
       <span class="ct-news-ico" aria-hidden="true"><svg viewbox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 6.5 8.5 6.5 8.5-6.5"/></svg></span>
-      <h3 id="ct-news-title">Get Leadership Insights &amp; Updates</h3>
+      <h3 id="ct-news-title">Get Leadership Insights &amp;amp; Updates</h3>
       <p>Join our list for coaching insights, event news and resources from Isabelle and the BHD Asia team.</p>
     </div>
     <div class="ct-rv ct-d1">
@@ -361,7 +361,7 @@ html body .ct-panel .ct-row:last-child{border-bottom:0}
     <div class="footer-widget">
       <span class="footer-brand-name">BHD <span>Asia</span></span>
       <p>Highlight, Enhance and Appreciate Human in Business.</p>
-      <p>Business &amp; Human Development Consulting Pte Ltd</p>
+      <p>Business &amp;amp; Human Development Consulting Pte Ltd</p>
       <div class="footer-social">
         <a href="https://www.facebook.com/bhdasia/" target="_blank" rel="noopener" class="footer-soc-btn" aria-label="Facebook"><svg viewbox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
         <a href="https://www.instagram.com/isabelleclausteixeira_bhd/" target="_blank" rel="noopener" class="footer-soc-btn" aria-label="Instagram"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
@@ -370,7 +370,7 @@ html body .ct-panel .ct-row:last-child{border-bottom:0}
       </div>
     </div>
     <div class="footer-widget"><h4>Navigate</h4><ul><li><a href="/">Home</a></li><li><a href="/services">Services</a></li><li><a href="/about">About</a></li><li><a href="/events">Events</a></li><li><a href="/contact">Contact</a></li><li><a href="https://www.hummingbeing.com/" target="_blank" rel="noopener">HummingBeing</a></li></ul></div>
-    <div class="footer-widget"><h4>Legal</h4><ul><li><a href="/privacy">Privacy Statement</a></li><li><a href="/terms">Terms &amp; Conditions</a></li><li><a href="/inclusivity">Inclusivity Statement</a></li></ul></div>
+    <div class="footer-widget"><h4>Legal</h4><ul><li><a href="/privacy">Privacy Statement</a></li><li><a href="/terms">Terms &amp;amp; Conditions</a></li><li><a href="/inclusivity">Inclusivity Statement</a></li></ul></div>
     <div class="footer-widget"><h4>Contact</h4><p class="ft-addr">Singapore Land Tower, #30-00<br/>50 Raffles Place<br/>Singapore 048623</p><p><a href="tel:+818065151778">+81 80 6515 1778</a></p><p><span>bonjour@bhd<span style="display:none">-no-spam</span>asia.com</span></p><p><a href="/#book" data-cta="page-book">Book a free discovery call →</a></p></div>
   </div></div>
   <div id="footer-bottom"><div class="container">

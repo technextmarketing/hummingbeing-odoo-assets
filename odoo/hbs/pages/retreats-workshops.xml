@@ -1,4 +1,4 @@
-<t t-name="hbs.page_retreats_workshops"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en&quot;}"/><t t-set="title">Somatic Retreats &amp; TRE™ Workshops | Singapore &amp; Japan</t><t t-set="head"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
+<t t-name="hbs.page_retreats_workshops"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en&quot;}"/><t t-set="title">Somatic Retreats &amp; TRE™ Workshops | Singapore &amp; Japan</t><t t-set="x_icon" t-value="&quot;/favicon-32.png?v=3&quot;"/><t t-set="head"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
 new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
 "https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
@@ -423,8 +423,8 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
       "url": "https://www.hummingbeing.com/"
     }
   }
-  </script><script type="application/ld+json" data-seo="breadcrumb">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.hummingbeing.com/"}, {"@type": "ListItem", "position": 2, "name": "Retreats &amp; Workshops", "item": "https://www.hummingbeing.com/retreats-workshops"}]}</script><script type="application/ld+json" data-seo="services">{"@context": "https://schema.org", "@type": "Service", "name": "Somatic Retreats &amp; TRE™ Workshops", "serviceType": "Somatic retreats and TRE™ workshops", "provider": {"@id": "https://www.hummingbeing.com/#organization", "@type": "Organization", "name": "HummingBeing"}, "areaServed": ["Singapore", "Japan", "Worldwide"], "url": "https://www.hummingbeing.com/retreats-workshops", "hasOfferCatalog": {"@type": "OfferCatalog", "name": "Types of Retreats &amp; Workshops", "itemListElement": [{"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Half-Day &amp; Day Workshops", "description": "Focused, accessible group sessions introducing somatic practices — TRE™, Breathwork or EFT — in a supportive group setting. Perfect for those curious about somatic work or wanting a deeper dive on a specific modality."}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Weekend Retreats", "description": "Multi-day immersions in carefully chosen locations in Singapore and Japan. A combination of group somatic practice, individual integration time, nature connection and nourishing meals — designed to reset the nervous system at depth."}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Corporate Wellness", "description": "Bespoke somatic wellness sessions designed for teams — addressing stress, burnout, communication and resilience at the organisational level. Delivered in-house or off-site, half-day to full-day formats."}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "TRE™ Group Sessions", "description": "Facilitated group TRE™ practice — experiencing the body’s natural tremor mechanism together in community. A powerful introduction to TRE™ and an effective regular practice for existing practitioners."}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Somatic Healing Circles", "description": "Intimate group healing experiences combining Reiki, Breathwork, EFT and somatic movement. A safe container for deep rest, release and reconnection. Limited to small groups to ensure depth and personal attention."}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Professional Training", "description": "Workshops and training programmes for coaches, therapists and wellness practitioners wanting to deepen their embodied practice and integrate somatic approaches into their work with clients."}}]}}</script><link rel="preload" href="/fonts/hb/lato-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/hb/playfair-display-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/></t><t t-call="web.layout"><link rel="stylesheet" href="/styles.css?v=98"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXLR5LGG" height="0" width="0" style="display:none;visibility:hidden"/></noscript><nav>
-  <a href="/" class="logo"><img src="/images/logo-dark.webp" class="logo-on-dark" alt="HummingBeing — Coaching &amp; Somatics" style="height:56px;width:auto" width="168" height="56"/><img src="/images/logo-light.webp" class="logo-on-light" alt="HummingBeing — Coaching &amp; Somatics" style="height:56px;width:auto" width="168" height="56"/></a>
+  </script><script type="application/ld+json" data-seo="breadcrumb">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.hummingbeing.com/"}, {"@type": "ListItem", "position": 2, "name": "Retreats &amp; Workshops", "item": "https://www.hummingbeing.com/retreats-workshops"}]}</script><script type="application/ld+json" data-seo="services">{"@context": "https://schema.org", "@type": "Service", "name": "Somatic Retreats &amp; TRE™ Workshops", "serviceType": "Somatic retreats and TRE™ workshops", "provider": {"@id": "https://www.hummingbeing.com/#organization", "@type": "Organization", "name": "HummingBeing"}, "areaServed": ["Singapore", "Japan", "Worldwide"], "url": "https://www.hummingbeing.com/retreats-workshops", "hasOfferCatalog": {"@type": "OfferCatalog", "name": "Types of Retreats &amp; Workshops", "itemListElement": [{"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Half-Day &amp; Day Workshops", "description": "Focused, accessible group sessions introducing somatic practices — TRE™, Breathwork or EFT — in a supportive group setting. Perfect for those curious about somatic work or wanting a deeper dive on a specific modality."}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Weekend Retreats", "description": "Multi-day immersions in carefully chosen locations in Singapore and Japan. A combination of group somatic practice, individual integration time, nature connection and nourishing meals — designed to reset the nervous system at depth."}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Corporate Wellness", "description": "Bespoke somatic wellness sessions designed for teams — addressing stress, burnout, communication and resilience at the organisational level. Delivered in-house or off-site, half-day to full-day formats."}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "TRE™ Group Sessions", "description": "Facilitated group TRE™ practice — experiencing the body’s natural tremor mechanism together in community. A powerful introduction to TRE™ and an effective regular practice for existing practitioners."}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Somatic Healing Circles", "description": "Intimate group healing experiences combining Reiki, Breathwork, EFT and somatic movement. A safe container for deep rest, release and reconnection. Limited to small groups to ensure depth and personal attention."}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Professional Training", "description": "Workshops and training programmes for coaches, therapists and wellness practitioners wanting to deepen their embodied practice and integrate somatic approaches into their work with clients."}}]}}</script><link rel="preload" href="/fonts/hb/lato-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/hb/playfair-display-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/></t><t t-call="web.layout"><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXLR5LGG" height="0" width="0" style="display:none;visibility:hidden"/></noscript><nav>
+  <a href="/" class="logo"><img src="/images/logo-dark.webp" class="logo-on-dark" alt="HummingBeing — Coaching &amp; Somatics" style="height:56px;width:auto" width="168" height="56" loading="eager"/><img src="/images/logo-light.webp" class="logo-on-light" alt="HummingBeing — Coaching &amp; Somatics" style="height:56px;width:auto" width="168" height="56" loading="eager"/></a>
   <ul class="nav-links">
     <li><a href="/">Home</a></li>
     <li><a href="/about">About</a></li>
@@ -432,9 +432,9 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     <li class="nav-dropdown">
       <a href="javascript:void(0)" class="nav-dropdown-toggle active">Work with Isabelle <i class="fa-solid fa-chevron-down nav-arrow"/></a>
       <ul class="nav-dropdown-menu">
-        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™<small>Private sessions, online or in person</small></a></li>
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp;amp; TRE™<small>Private sessions, online or in person</small></a></li>
         <li><a href="/tre-certification">TRE™ Certification<small>Become a certified TRE™ provider</small></a></li>
-        <li><a href="/retreats-workshops">Retreats &amp; Workshops<small>Groups, teams and executives</small></a></li>
+        <li><a href="/retreats-workshops">Retreats &amp;amp; Workshops<small>Groups, teams and executives</small></a></li>
       </ul>
     </li>
     <li><a href="/events">Events</a></li>
@@ -446,7 +446,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
   </div>
 </nav><div class="page-hero">
   <span class="eyebrow">Group Experiences</span>
-  <h1>Retreats &amp; <em>Workshops</em></h1>
+  <h1>Retreats &amp;amp; <em>Workshops</em></h1>
   <p>Immersive group experiences designed to reset your nervous system, deepen body awareness and reconnect you to yourself.</p>
   <div class="hero-actions">
     <a href="/book" class="btn btn-primary">Register Your Interest</a>
@@ -455,7 +455,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
 </div><div class="ticker-wrap" aria-hidden="true">
   <div class="ticker-track">
     <span class="t-item"><span class="t-star">★</span> Somatic Retreats</span><span class="t-sep">·</span>
-    <span class="t-item">In-Person &amp; Online Worldwide</span><span class="t-sep">·</span>
+    <span class="t-item">In-Person &amp;amp; Online Worldwide</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> TRE™ Workshops</span><span class="t-sep">·</span>
     <span class="t-item">Group Healing</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Breathwork Sessions</span><span class="t-sep">·</span>
@@ -463,9 +463,9 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     <span class="t-item"><span class="t-star">★</span> Day Retreats</span><span class="t-sep">·</span>
     <span class="t-item">Weekend Immersions</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Release · Renew · Restore</span><span class="t-sep">·</span>
-    <span class="t-item">Business &amp; Human Development</span><span class="t-sep">·</span>
+    <span class="t-item">Business &amp;amp; Human Development</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Somatic Retreats</span><span class="t-sep">·</span>
-    <span class="t-item">In-Person &amp; Online Worldwide</span><span class="t-sep">·</span>
+    <span class="t-item">In-Person &amp;amp; Online Worldwide</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> TRE™ Workshops</span><span class="t-sep">·</span>
     <span class="t-item">Group Healing</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Breathwork Sessions</span><span class="t-sep">·</span>
@@ -473,7 +473,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     <span class="t-item"><span class="t-star">★</span> Day Retreats</span><span class="t-sep">·</span>
     <span class="t-item">Weekend Immersions</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Release · Renew · Restore</span><span class="t-sep">·</span>
-    <span class="t-item">Business &amp; Human Development</span><span class="t-sep">·</span>
+    <span class="t-item">Business &amp;amp; Human Development</span><span class="t-sep">·</span>
   </div>
 </div><section class="section-cream rw rw-why">
   <div class="rw-wrap rw-why-grid">
@@ -496,7 +496,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
   <div class="rw-wrap">
     <div class="rw-head">
       <span class="rw-eyebrow rw-rv">Our Offerings</span>
-      <h2 class="rw-title rw-rv">Types of Retreats &amp; Workshops</h2>
+      <h2 class="rw-title rw-rv">Types of Retreats &amp;amp; Workshops</h2>
       <p class="rw-sub rw-rv">From half-day introductions to multi-day immersions — in Singapore, Japan and beyond.</p>
     </div>
     <div class="rw-off-ui rw-rv">
@@ -504,7 +504,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
         <article class="rw-off-panel">
           <span class="rw-off-bg" aria-hidden="true"><img src="/images/gallery/gallery-module2-sep2026-5.webp" alt="Group somatic workshop in Singapore" loading="lazy" decoding="async" style="object-position:50% 60%"/></span>
           <div class="rw-off-ic"><i class="fa-solid fa-sun"/></div>
-          <h3>Half-Day &amp; Day Workshops</h3>
+          <h3>Half-Day &amp;amp; Day Workshops</h3>
           <p>Focused, accessible group sessions introducing somatic practices — TRE™, Breathwork or EFT — in a supportive group setting. Perfect for those curious about somatic work or wanting a deeper dive on a specific modality.</p>
         </article>
         <article class="rw-off-panel">
@@ -588,7 +588,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
         <li class="rw-arc-step rw-rv">
           <span class="rw-arc-node" aria-hidden="true">1</span>
           <div class="rw-arc-body">
-            <h3>Arrival &amp; Grounding</h3>
+            <h3>Arrival &amp;amp; Grounding</h3>
             <p>We begin by slowing down — settling into the body, getting present in the space, and meeting the group with curiosity and openness. No performance, no agenda imposed from the outside.</p>
           </div>
         </li>
@@ -602,14 +602,14 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
         <li class="rw-arc-step rw-rv">
           <span class="rw-arc-node" aria-hidden="true">3</span>
           <div class="rw-arc-body">
-            <h3>Rest &amp; Integration</h3>
+            <h3>Rest &amp;amp; Integration</h3>
             <p>Space to rest, journal, reflect or simply be. The body needs time to integrate what has been released — this is not downtime, it is an essential part of the healing arc.</p>
           </div>
         </li>
         <li class="rw-arc-step rw-rv">
           <span class="rw-arc-node" aria-hidden="true">4</span>
           <div class="rw-arc-body">
-            <h3>Sharing &amp; Closing</h3>
+            <h3>Sharing &amp;amp; Closing</h3>
             <p>Optional group sharing in a confidential, supportive container. A closing practice to anchor the experience and prepare you to carry it into daily life.</p>
           </div>
         </li>
@@ -623,7 +623,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
   <div class="rw-wrap rw-loc-grid">
     <div class="rw-loc-text">
       <span class="rw-eyebrow rw-rv">Where We Gather</span>
-      <h2 class="rw-title rw-rv">Singapore, Japan &amp; Beyond</h2>
+      <h2 class="rw-title rw-rv">Singapore, Japan &amp;amp; Beyond</h2>
       <span class="rw-rule rw-rv" aria-hidden="true"/>
       <p class="rw-rv">HummingBeing retreats are held in carefully selected venues — spaces that support rest, presence and deep healing rather than busy hotel conference rooms. Past locations have included intimate wellness studios, nature-surrounded resorts and traditional ryokan in Japan.</p>
       <ul class="rw-loc-list rw-rv">
@@ -690,7 +690,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
 </section><footer>
   <div class="foot-grid">
     <div>
-      <a href="/" class="foot-logo"><img src="/images/logo-dark.webp" alt="HummingBeing — Coaching &amp; Somatics" width="144" height="48" style="height:48px;width:auto;display:block"/></a>
+      <a href="/" class="foot-logo"><img src="/images/logo-dark.webp" alt="HummingBeing — Coaching &amp; Somatics" width="144" height="48" style="height:48px;width:auto;display:block" loading="eager"/></a>
       <p class="foot-desc">Science backed processes with TRE™, Coaching and Somatic Practices — a space to release, renew and restore.</p>
       <p class="foot-desc">Part of <strong>Business and Human Development Consulting Pte Ltd</strong></p>
       <div class="foot-socials">
@@ -703,9 +703,9 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     <div>
       <div class="foot-h">Work with Isabelle</div>
       <ul class="foot-links">
-        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™</a></li>
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp;amp; TRE™</a></li>
         <li><a href="/tre-certification">TRE™ Certification</a></li>
-        <li><a href="/retreats-workshops">Retreats &amp; Workshops</a></li>
+        <li><a href="/retreats-workshops">Retreats &amp;amp; Workshops</a></li>
         <li><a href="/events">Events</a></li>
         <li><a href="/book">Book a free call</a></li>
       </ul>

@@ -1,4 +1,4 @@
-<t t-name="bhds.page_isabelle"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en-US&quot;}"/><t t-set="title">Isabelle Claus Teixeira | Executive Coach Singapore | BHD Asia</t><t t-set="body_classname" t-value="&quot;page et_fixed_nav et_divi_theme&quot;"/><t t-set="head"><script>try{if(!sessionStorage.getItem("bhdIntro")&amp;&amp;!matchMedia("(prefers-reduced-motion: reduce)").matches){var d=document.documentElement;d.classList.add("intro-on");setTimeout(function(){d.classList.remove("intro-on")},5000)}}catch(e){}</script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+<t t-name="bhds.page_isabelle"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en-US&quot;}"/><t t-set="title">Isabelle Claus Teixeira | Executive Coach Singapore | BHD Asia</t><t t-set="body_classname" t-value="&quot;page et_fixed_nav et_divi_theme&quot;"/><t t-set="x_icon" t-value="&quot;/favicon.ico?v=3&quot;"/><t t-set="head"><script>try{if(!sessionStorage.getItem("bhdIntro")&amp;&amp;!matchMedia("(prefers-reduced-motion: reduce)").matches){var d=document.documentElement;d.classList.add("intro-on");setTimeout(function(){d.classList.remove("intro-on")},5000)}}catch(e){}</script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
@@ -274,13 +274,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
   .bio-js .bio-quote-t .bio-qw{color:var(--ink)!important}
   .bio-photo,.bio-pc{transform:none!important}
 }
-</style><script type="application/ld+json" id="bhd-ld">{"@context":"https://schema.org","@graph":[{"@type":["Organization","ProfessionalService"],"@id":"https://www.bhdasia.com/#organization","name":"BHD Asia","legalName":"Business &amp; Human Development Consulting Pte Ltd","alternateName":["BHD Asia Singapore","Business and Human Development Consulting"],"url":"https://www.bhdasia.com/","logo":{"@type":"ImageObject","url":"https://www.bhdasia.com/favicon-192.png","width":192,"height":192},"image":"https://www.bhdasia.com/isagrey.webp","description":"Boutique HR consulting, executive coaching and resilience-building consultancy founded in Singapore in 2012. BHD Asia co-designs leadership development, organisation development and TRE™ programmes for organisations across Europe, the US, Asia, Japan and Russia.","slogan":"Highlight, Enhance and Appreciate Human in Business.","foundingDate":"2012","foundingLocation":"Singapore","founder":{"@id":"https://www.bhdasia.com/isabelle#person"},"employee":[{"@id":"https://www.bhdasia.com/isabelle#person"},{"@id":"https://www.bhdasia.com/jasmine#person"},{"@id":"https://www.bhdasia.com/simba#person"},{"@id":"https://www.bhdasia.com/rina#person"}],"address":{"@type":"PostalAddress","streetAddress":"50 Raffles Place, Singapore Land Tower #30-00","addressLocality":"Singapore","postalCode":"048623","addressCountry":"SG"},"telephone":"+81 80 6515 1778","identifier":{"@type":"PropertyValue","propertyID":"UEN (ACRA)","value":"201201974K"},"areaServed":["Singapore","Asia","Japan","Europe","United States","Middle East"],"knowsLanguage":["en","fr","es"],"knowsAbout":["Executive coaching","Leadership development","Organisation development","HR consulting","Talent management","Psychological safety","Resilience building","Burnout prevention","Somatic coaching","TRE™ (Tension &amp; Trauma Releasing Exercises)","Global TRE™ Provider Certification","Change management","Conflict resolution"],"sameAs":["https://www.facebook.com/bhdasia/","https://www.instagram.com/isabelleclausteixeira_bhd/","https://www.youtube.com/@IsabelleClausTeixeira","https://www.linkedin.com/in/isabelleclausteixeira/"],"contactPoint":{"@type":"ContactPoint","contactType":"customer service","telephone":"+81 80 6515 1778","availableLanguage":["English","French","Spanish"],"url":"https://www.bhdasia.com/contact"}},{"@type":"WebSite","@id":"https://www.bhdasia.com/#website","url":"https://www.bhdasia.com/","name":"BHD Asia","inLanguage":"en","publisher":{"@id":"https://www.bhdasia.com/#organization"}},{"@type":"ProfilePage","@id":"https://www.bhdasia.com/isabelle#webpage","url":"https://www.bhdasia.com/isabelle","name":"Isabelle Claus Teixeira | Executive Coach Singapore | BHD Asia","description":"Meet Isabelle Claus Teixeira — executive coach, TRE™ provider and Brainz Magazine contributor with 30+ years of HR leadership across 9 countries.","inLanguage":"en","isPartOf":{"@id":"https://www.bhdasia.com/#website"},"about":{"@id":"https://www.bhdasia.com/#organization"},"publisher":{"@id":"https://www.bhdasia.com/#organization"},"dateModified":"2026-09-29","primaryImageOfPage":{"@type":"ImageObject","url":"https://www.bhdasia.com/isagrey.webp"},"breadcrumb":{"@id":"https://www.bhdasia.com/isabelle#breadcrumb"},"mainEntity":{"@id":"https://www.bhdasia.com/isabelle#person"}},{"@type":"BreadcrumbList","@id":"https://www.bhdasia.com/isabelle#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.bhdasia.com/"},{"@type":"ListItem","position":2,"name":"About","item":"https://www.bhdasia.com/about"},{"@type":"ListItem","position":3,"name":"Isabelle Claus Teixeira","item":"https://www.bhdasia.com/isabelle"}]},{"@type":"Person","@id":"https://www.bhdasia.com/isabelle#person","url":"https://www.bhdasia.com/isabelle","image":"https://www.bhdasia.com/isa-photo.webp","worksFor":{"@id":"https://www.bhdasia.com/#organization"},"description":"Executive coach, TRE™ provider and Brainz Magazine contributor with 30+ years in HR leadership across 9 countries.","name":"Isabelle Claus Teixeira","jobTitle":"Co-Founder and Director","knowsLanguage":["en","fr","es"],"sameAs":["https://www.linkedin.com/in/isabelleclausteixeira/","https://www.youtube.com/@IsabelleClausTeixeira","https://www.instagram.com/isabelleclausteixeira_bhd/"],"knowsAbout":["Executive coaching","Leadership development","HR business partnering","Talent management","Organisational effectiveness","TRE™ (Tension &amp; Trauma Releasing Exercises)","Somatic coaching"]}]}</script><link rel="preload" href="/fonts/tn/inter-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/tn/plus-jakarta-sans-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/technext-style.css?v=36"/></t><t t-call="web.layout"><link rel="stylesheet" href="/style.css?v=14"/><link rel="stylesheet" href="/technext-style.css?v=36"/><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W9B95BT7" height="0" width="0" style="display:none;visibility:hidden"/></noscript><div id="page-container">
+</style><script type="application/ld+json" id="bhd-ld">{"@context":"https://schema.org","@graph":[{"@type":["Organization","ProfessionalService"],"@id":"https://www.bhdasia.com/#organization","name":"BHD Asia","legalName":"Business &amp; Human Development Consulting Pte Ltd","alternateName":["BHD Asia Singapore","Business and Human Development Consulting"],"url":"https://www.bhdasia.com/","logo":{"@type":"ImageObject","url":"https://www.bhdasia.com/favicon-192.png","width":192,"height":192},"image":"https://www.bhdasia.com/isagrey.webp","description":"Boutique HR consulting, executive coaching and resilience-building consultancy founded in Singapore in 2012. BHD Asia co-designs leadership development, organisation development and TRE™ programmes for organisations across Europe, the US, Asia, Japan and Russia.","slogan":"Highlight, Enhance and Appreciate Human in Business.","foundingDate":"2012","foundingLocation":"Singapore","founder":{"@id":"https://www.bhdasia.com/isabelle#person"},"employee":[{"@id":"https://www.bhdasia.com/isabelle#person"},{"@id":"https://www.bhdasia.com/jasmine#person"},{"@id":"https://www.bhdasia.com/simba#person"},{"@id":"https://www.bhdasia.com/rina#person"}],"address":{"@type":"PostalAddress","streetAddress":"50 Raffles Place, Singapore Land Tower #30-00","addressLocality":"Singapore","postalCode":"048623","addressCountry":"SG"},"telephone":"+81 80 6515 1778","identifier":{"@type":"PropertyValue","propertyID":"UEN (ACRA)","value":"201201974K"},"areaServed":["Singapore","Asia","Japan","Europe","United States","Middle East"],"knowsLanguage":["en","fr","es"],"knowsAbout":["Executive coaching","Leadership development","Organisation development","HR consulting","Talent management","Psychological safety","Resilience building","Burnout prevention","Somatic coaching","TRE™ (Tension &amp; Trauma Releasing Exercises)","Global TRE™ Provider Certification","Change management","Conflict resolution"],"sameAs":["https://www.facebook.com/bhdasia/","https://www.instagram.com/isabelleclausteixeira_bhd/","https://www.youtube.com/@IsabelleClausTeixeira","https://www.linkedin.com/in/isabelleclausteixeira/"],"contactPoint":{"@type":"ContactPoint","contactType":"customer service","telephone":"+81 80 6515 1778","availableLanguage":["English","French","Spanish"],"url":"https://www.bhdasia.com/contact"}},{"@type":"WebSite","@id":"https://www.bhdasia.com/#website","url":"https://www.bhdasia.com/","name":"BHD Asia","inLanguage":"en","publisher":{"@id":"https://www.bhdasia.com/#organization"}},{"@type":"ProfilePage","@id":"https://www.bhdasia.com/isabelle#webpage","url":"https://www.bhdasia.com/isabelle","name":"Isabelle Claus Teixeira | Executive Coach Singapore | BHD Asia","description":"Meet Isabelle Claus Teixeira — executive coach, TRE™ provider and Brainz Magazine contributor with 30+ years of HR leadership across 9 countries.","inLanguage":"en","isPartOf":{"@id":"https://www.bhdasia.com/#website"},"about":{"@id":"https://www.bhdasia.com/#organization"},"publisher":{"@id":"https://www.bhdasia.com/#organization"},"dateModified":"2026-09-29","primaryImageOfPage":{"@type":"ImageObject","url":"https://www.bhdasia.com/isagrey.webp"},"breadcrumb":{"@id":"https://www.bhdasia.com/isabelle#breadcrumb"},"mainEntity":{"@id":"https://www.bhdasia.com/isabelle#person"}},{"@type":"BreadcrumbList","@id":"https://www.bhdasia.com/isabelle#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.bhdasia.com/"},{"@type":"ListItem","position":2,"name":"About","item":"https://www.bhdasia.com/about"},{"@type":"ListItem","position":3,"name":"Isabelle Claus Teixeira","item":"https://www.bhdasia.com/isabelle"}]},{"@type":"Person","@id":"https://www.bhdasia.com/isabelle#person","url":"https://www.bhdasia.com/isabelle","image":"https://www.bhdasia.com/isa-photo.webp","worksFor":{"@id":"https://www.bhdasia.com/#organization"},"description":"Executive coach, TRE™ provider and Brainz Magazine contributor with 30+ years in HR leadership across 9 countries.","name":"Isabelle Claus Teixeira","jobTitle":"Co-Founder and Director","knowsLanguage":["en","fr","es"],"sameAs":["https://www.linkedin.com/in/isabelleclausteixeira/","https://www.youtube.com/@IsabelleClausTeixeira","https://www.instagram.com/isabelleclausteixeira_bhd/"],"knowsAbout":["Executive coaching","Leadership development","HR business partnering","Talent management","Organisational effectiveness","TRE™ (Tension &amp; Trauma Releasing Exercises)","Somatic coaching"]}]}</script><link rel="preload" href="/fonts/tn/inter-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/tn/plus-jakarta-sans-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/technext-style.css?v=36"/></t><t t-call="web.layout"><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W9B95BT7" height="0" width="0" style="display:none;visibility:hidden"/></noscript><div id="page-container">
 
 <header id="main-header">
   <div class="et_menu_container container clearfix">
     <div class="logo_container">
       <a href="/">
-        <img src="/bhd-logo.svg?v=1" alt="BHD Asia" width="51" height="34" onerror="this.style.display='none';document.querySelector('.logo-text').style.display='block'"/>
+        <img src="/bhd-logo.svg?v=1" alt="BHD Asia" width="51" height="34" onerror="this.style.display='none';document.querySelector('.logo-text').style.display='block'" loading="eager"/>
         <span class="logo-text">BHD Asia</span>
       </a>
     </div>
@@ -303,7 +303,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
 
 <div id="et-main-area" tabindex="-1">
 <div class="page-title-wrap">
-  <img class="page-hero-video isa-hero-photo" src="/isa-photo.webp" alt="" aria-hidden="true" width="900" height="600" fetchpriority="high" decoding="async"/>
+  <img class="page-hero-video isa-hero-photo" src="/isa-photo.webp" alt="" aria-hidden="true" width="900" height="600" fetchpriority="high" decoding="async" loading="eager"/>
   <div class="page-hero-overlay"/>
   <div class="container">
         <span class="section-label">Meet Isabelle</span>
@@ -361,7 +361,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
       <div class="bio-aside">
         <figure class="bio-photo bio-rv" data-bio-tilt="">
           <img src="/isa-photo.webp" alt="Isabelle Claus Teixeira" width="900" height="600" loading="lazy"/>
-          <figcaption class="bio-badge"><strong>Isabelle Claus Teixeira</strong><span>Co-Founder &amp; Director, BHD Asia</span></figcaption>
+          <figcaption class="bio-badge"><strong>Isabelle Claus Teixeira</strong><span>Co-Founder &amp;amp; Director, BHD Asia</span></figcaption>
         </figure>
         <ul class="bio-stats">
           <li class="bio-stat bio-rv"><span class="bio-stat-n"><span data-bio-count="30">30</span>+</span><span class="bio-stat-l">Years HR Experience</span></li>
@@ -377,8 +377,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
 
       <div class="bio-body">
         <h2 id="bio-name" class="bio-rv">Isabelle Claus Teixeira</h2>
-        <p class="bio-role bio-rv">Leadership Coach &amp; Talent Development Specialist · Co-Founder &amp; Director, BHD Asia</p>
-        <blockquote class="bio-quote bio-rv"><p class="bio-quote-t">"Helping You Find &amp; Forge Your Own Path"</p></blockquote>
+        <p class="bio-role bio-rv">Leadership Coach &amp;amp; Talent Development Specialist · Co-Founder &amp;amp; Director, BHD Asia</p>
+        <blockquote class="bio-quote bio-rv"><p class="bio-quote-t">"Helping You Find &amp;amp; Forge Your Own Path"</p></blockquote>
         <div class="bio-intro bio-rv">
           <p>Isabelle brings 30+ years of Senior HR Business Partnering, Regional Talent Management, and Organisational Effectiveness experience across Europe, the US, Asia, Japan and Russia. Since 1996, she has held global, regional and country HR roles across Automotive, Software, IT, Pharmaceuticals, Medical Devices, and more.</p>
           <p>Having lived and worked in 9 countries — France, UK, Germany, Spain, Portugal, Belgium, Switzerland, Singapore, and Japan — she connects authentically with clients navigating the human complexities of international business.</p>
@@ -388,17 +388,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
           <h3>Coaching Specialisations</h3>
           <ul class="bio-chips">
             <li class="bio-chip"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>Executive Coaching</span></li>
-            <li class="bio-chip"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>Transition Coaching (role changes &amp; new leader onboarding)</span></li>
+            <li class="bio-chip"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>Transition Coaching (role changes &amp;amp; new leader onboarding)</span></li>
             <li class="bio-chip"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>Performance Coaching</span></li>
             <li class="bio-chip"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>Career Coaching</span></li>
             <li class="bio-chip"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>Self Awareness Development</span></li>
-            <li class="bio-chip"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>360° Debrief &amp; Multi-Perspective Feedback</span></li>
+            <li class="bio-chip"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>360° Debrief &amp;amp; Multi-Perspective Feedback</span></li>
             <li class="bio-chip"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>Somatic Coaching (body-based work integrated with neuroscience)</span></li>
-            <li class="bio-chip"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>TRE™ Provider &amp; Trainer Trainee (Tension &amp; Trauma Releasing Exercises)</span></li>
+            <li class="bio-chip"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>TRE™ Provider &amp;amp; Trainer Trainee (Tension &amp;amp; Trauma Releasing Exercises)</span></li>
           </ul>
         </div>
         <div class="bio-panel" id="bio-pan-2">
-          <h3>Credentials &amp; Certifications</h3>
+          <h3>Credentials &amp;amp; Certifications</h3>
           <ul class="bio-creds">
             <li class="bio-cred"><span class="bio-cred-ic"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.3 2.4 2.4 4.6-5"/></svg></span><span class="bio-cred-t">Certified Leadership Coach since 2012</span></li>
             <li class="bio-cred"><span class="bio-cred-ic"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.3 2.4 2.4 4.6-5"/></svg></span><span class="bio-cred-t">1,800+ paid coaching hours delivered</span></li>
@@ -445,7 +445,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
       </li>
       <li class="bio-tl-item" id="bio-m2">
         <div class="bio-tl-card">
-          <span class="bio-tl-year">1999 – 2007 · Europe &amp; Russia</span>
+          <span class="bio-tl-year">1999 – 2007 · Europe &amp;amp; Russia</span>
           <div class="bio-tl-txt">
             <h3 class="bio-tl-title">Regional HR Leadership</h3>
             <p class="bio-tl-desc">Held country and regional HR director roles across the UK, Germany, Spain, Belgium, and Russia — spanning Pharmaceuticals, IT, and Medical Devices. Developed fluency in cross-cultural leadership and international talent strategy.</p>
@@ -454,7 +454,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
       </li>
       <li class="bio-tl-item" id="bio-m3">
         <div class="bio-tl-card">
-          <span class="bio-tl-year">2008 – 2011 · Asia &amp; Japan</span>
+          <span class="bio-tl-year">2008 – 2011 · Asia &amp;amp; Japan</span>
           <div class="bio-tl-txt">
             <h3 class="bio-tl-title">Regional HR Leadership</h3>
             <p class="bio-tl-desc">Relocated to Singapore and Japan, leading HR across Asia for global multinationals. Built deep expertise in intercultural leadership, high-performance teams, and organisational transformation in Asian contexts.</p>
@@ -475,16 +475,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
           <span class="bio-tl-year">2017 · Singapore</span>
           <div class="bio-tl-txt">
             <h3 class="bio-tl-title">Founded BHD Asia</h3>
-            <p class="bio-tl-desc">Co-founded Business &amp; Human Development Consulting — bringing together HR strategy, executive coaching, somatic work and TRE™ to serve leaders and organisations worldwide.</p>
+            <p class="bio-tl-desc">Co-founded Business &amp;amp; Human Development Consulting — bringing together HR strategy, executive coaching, somatic work and TRE™ to serve leaders and organisations worldwide.</p>
           </div>
         </div>
       </li>
       <li class="bio-tl-item" id="bio-m6">
         <div class="bio-tl-card">
-          <span class="bio-tl-year">2020 – Present · Singapore &amp; Online</span>
+          <span class="bio-tl-year">2020 – Present · Singapore &amp;amp; Online</span>
           <div class="bio-tl-txt">
-            <h3 class="bio-tl-title">TRE™ Provider &amp; Trainer Trainee</h3>
-            <p class="bio-tl-desc">Became a certified TRE™ (Tension &amp; Trauma Releasing Exercises) provider and is completing her Trainer Trainee certification — expanding her somatic coaching practice to help individuals and groups release stress held in the body.</p>
+            <h3 class="bio-tl-title">TRE™ Provider &amp;amp; Trainer Trainee</h3>
+            <p class="bio-tl-desc">Became a certified TRE™ (Tension &amp;amp; Trauma Releasing Exercises) provider and is completing her Trainer Trainee certification — expanding her somatic coaching practice to help individuals and groups release stress held in the body.</p>
           </div>
         </div>
       </li>
@@ -552,7 +552,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
     <div class="footer-widget">
       <span class="footer-brand-name">BHD <span>Asia</span></span>
       <p>Highlight, Enhance and Appreciate Human in Business.</p>
-      <p>Business &amp; Human Development Consulting Pte Ltd</p>
+      <p>Business &amp;amp; Human Development Consulting Pte Ltd</p>
       <div class="footer-social">
         <a href="https://www.facebook.com/bhdasia/" target="_blank" rel="noopener" class="footer-soc-btn" aria-label="Facebook"><svg viewbox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
         <a href="https://www.instagram.com/isabelleclausteixeira_bhd/" target="_blank" rel="noopener" class="footer-soc-btn" aria-label="Instagram"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
@@ -561,7 +561,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
       </div>
     </div>
     <div class="footer-widget"><h4>Navigate</h4><ul><li><a href="/">Home</a></li><li><a href="/services">Services</a></li><li><a href="/about">About</a></li><li><a href="/events">Events</a></li><li><a href="/contact">Contact</a></li><li><a href="https://www.hummingbeing.com/" target="_blank" rel="noopener">HummingBeing</a></li></ul></div>
-    <div class="footer-widget"><h4>Legal</h4><ul><li><a href="/privacy">Privacy Statement</a></li><li><a href="/terms">Terms &amp; Conditions</a></li><li><a href="/inclusivity">Inclusivity Statement</a></li></ul></div>
+    <div class="footer-widget"><h4>Legal</h4><ul><li><a href="/privacy">Privacy Statement</a></li><li><a href="/terms">Terms &amp;amp; Conditions</a></li><li><a href="/inclusivity">Inclusivity Statement</a></li></ul></div>
     <div class="footer-widget"><h4>Contact</h4><p class="ft-addr">Singapore Land Tower, #30-00<br/>50 Raffles Place<br/>Singapore 048623</p><p><a href="tel:+818065151778">+81 80 6515 1778</a></p><p><span>bonjour@bhd<span style="display:none">-no-spam</span>asia.com</span></p><p><a href="/#book" data-cta="page-book">Book a call with Isabelle →</a></p></div>
   </div></div>
   <div id="footer-bottom"><div class="container">

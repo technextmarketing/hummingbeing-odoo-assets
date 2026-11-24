@@ -1,4 +1,4 @@
-<t t-name="hbs.page_event_certification_2027_refresher"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en&quot;}"/><t t-set="title">TRE™ Certification 2027 — Refresher Packages | HummingBeing</t><t t-set="head"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
+<t t-name="hbs.page_event_certification_2027_refresher"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en&quot;}"/><t t-set="title">TRE™ Certification 2027 — Refresher Packages | HummingBeing</t><t t-set="x_icon" t-value="&quot;/favicon-32.png?v=3&quot;"/><t t-set="head"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
 new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
 "https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
@@ -269,8 +269,8 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     .ce-pkgsec h2{font-family:'Playfair Display',serif;font-size:1.5rem;color:var(--navy);text-align:center;margin:0 0 1.4rem}
     .ce-pkgsec .ce-pkgs{grid-template-columns:repeat(3,1fr)}
     @media(max-width:760px){.ce-pkgsec .ce-pkgs{grid-template-columns:1fr}}
-  </style><script type="application/ld+json" data-seo="breadcrumb">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.hummingbeing.com/"}, {"@type": "ListItem", "position": 2, "name": "Events", "item": "https://www.hummingbeing.com/events"}, {"@type": "ListItem", "position": 3, "name": "Certification 2027", "item": "https://www.hummingbeing.com/event-certification-2027"}, {"@type": "ListItem", "position": 4, "name": "Refresher Packages", "item": "https://www.hummingbeing.com/event-certification-2027-refresher"}]}</script><link rel="preload" href="/fonts/hb/lato-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/hb/playfair-display-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/></t><t t-call="web.layout"><link rel="stylesheet" href="/styles.css?v=98"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXLR5LGG" height="0" width="0" style="display:none;visibility:hidden"/></noscript><nav>
-  <a href="/" class="logo"><img src="/images/logo-dark.webp" class="logo-on-dark" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/><img src="/images/logo-light.webp" class="logo-on-light" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/></a>
+  </style><script type="application/ld+json" data-seo="breadcrumb">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.hummingbeing.com/"}, {"@type": "ListItem", "position": 2, "name": "Events", "item": "https://www.hummingbeing.com/events"}, {"@type": "ListItem", "position": 3, "name": "Certification 2027", "item": "https://www.hummingbeing.com/event-certification-2027"}, {"@type": "ListItem", "position": 4, "name": "Refresher Packages", "item": "https://www.hummingbeing.com/event-certification-2027-refresher"}]}</script><link rel="preload" href="/fonts/hb/lato-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/hb/playfair-display-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/></t><t t-call="web.layout"><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXLR5LGG" height="0" width="0" style="display:none;visibility:hidden"/></noscript><nav>
+  <a href="/" class="logo"><img src="/images/logo-dark.webp" class="logo-on-dark" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto" loading="eager"/><img src="/images/logo-light.webp" class="logo-on-light" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto" loading="eager"/></a>
   <ul class="nav-links">
     <li><a href="/">Home</a></li>
     <li><a href="/about">About</a></li>
@@ -278,9 +278,9 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     <li class="nav-dropdown">
       <a href="javascript:void(0)" class="nav-dropdown-toggle">Work with Isabelle <i class="fa-solid fa-chevron-down nav-arrow"/></a>
       <ul class="nav-dropdown-menu">
-        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™<small>Private sessions, online or in person</small></a></li>
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp;amp; TRE™<small>Private sessions, online or in person</small></a></li>
         <li><a href="/tre-certification">TRE™ Certification<small>Become a certified TRE™ provider</small></a></li>
-        <li><a href="/retreats-workshops">Retreats &amp; Workshops<small>Groups, teams and executives</small></a></li>
+        <li><a href="/retreats-workshops">Retreats &amp;amp; Workshops<small>Groups, teams and executives</small></a></li>
       </ul>
     </li>
     <li><a href="/events">Events</a></li>
@@ -295,7 +295,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
   <div class="ce-hero-inner">
     <div>
       <p class="ce-crumbs"><a href="/events">Events</a> › <a href="/event-certification-2027">Certification 2027</a> › Refresher Packages</p>
-      <div class="ce-badges"><span class="ce-badge">Singapore</span><span class="ce-badge cat">Certification</span><span class="ce-badge">2027 Cohort</span><span class="ce-badge">Providers &amp; trainees</span></div>
+      <div class="ce-badges"><span class="ce-badge">Singapore</span><span class="ce-badge cat">Certification</span><span class="ce-badge">2027 Cohort</span><span class="ce-badge">Providers &amp;amp; trainees</span></div>
       <h1><em>Refresher</em> Packages</h1>
       <p class="ce-lead">Already an accredited TRE™ Provider, or part-way through your Provider training? Join the three 2027 Singapore modules at a special refresher price, with four options to choose from. Early bird from S$2,200 until 31 March 2027.</p>
       <div class="ce-hero-actions">
@@ -314,7 +314,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
 </div><div class="ce-layout">
   <div class="ce-main">
     <figure class="ce-poster ce-poster-portrait" id="ce-poster" role="button" tabindex="0" aria-label="View full-size event poster" style="max-width:100%">
-      <img src="/images/event-certification-2027-refresher-poster.webp?v=20261107b" alt="TRE™ Provider Certification 2027 Singapore, Refresher Packages, led by Isabelle Claus Teixeira and Simba Stenqvist; modules 24–25 Apr, 3–4 Jul and 30–31 Oct 2027." width="1080" height="1350" fetchpriority="high" decoding="async"/>
+      <img src="/images/event-certification-2027-refresher-poster.webp?v=20261107b" alt="TRE™ Provider Certification 2027 Singapore, Refresher Packages, led by Isabelle Claus Teixeira and Simba Stenqvist; modules 24–25 Apr, 3–4 Jul and 30–31 Oct 2027." width="1080" height="1350" fetchpriority="high" decoding="async" loading="eager"/>
       <span class="ce-zoom-hint"><i class="fa-solid fa-magnifying-glass-plus"/> Click to enlarge</span>
     </figure>
     <h2>Who the Refresher Packages are for</h2>
@@ -500,7 +500,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
 </script><footer>
   <div class="foot-grid">
     <div>
-      <a href="/" class="foot-logo"><img src="/images/logo-dark.webp" alt="HummingBeing — Coaching &amp; Somatics" style="height:48px;width:auto;display:block" width="144" height="48"/></a>
+      <a href="/" class="foot-logo"><img src="/images/logo-dark.webp" alt="HummingBeing — Coaching &amp; Somatics" style="height:48px;width:auto;display:block" width="144" height="48" loading="eager"/></a>
       <p class="foot-desc">Science backed processes with TRE™, Coaching and Somatic Practices — a space to release, renew and restore.</p>
       <p class="foot-desc">Part of <strong>Business and Human Development Consulting Pte Ltd</strong></p>
       <div class="foot-socials">
@@ -513,9 +513,9 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     <div>
       <div class="foot-h">Work with Isabelle</div>
       <ul class="foot-links">
-        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™</a></li>
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp;amp; TRE™</a></li>
         <li><a href="/tre-certification">TRE™ Certification</a></li>
-        <li><a href="/retreats-workshops">Retreats &amp; Workshops</a></li>
+        <li><a href="/retreats-workshops">Retreats &amp;amp; Workshops</a></li>
         <li><a href="/events">Events</a></li>
         <li><a href="/book">Book a free call</a></li>
       </ul>
@@ -581,7 +581,7 @@ function evtlSubmit(e) {
 })();
 </script><script src="/gdpr-consent.js?v=4"/><div class="ce-lightbox" id="ce-lightbox" aria-hidden="true">
   <button class="ce-lightbox-close" id="ce-lightbox-close" aria-label="Close">×</button>
-  <img src="/images/event-certification-2027-refresher-poster.webp?v=20261107b" alt="Refresher Packages 2027 - full event poster"/>
+  <img src="/images/event-certification-2027-refresher-poster.webp?v=20261107b" alt="Refresher Packages 2027 - full event poster" loading="eager"/>
 </div><script>
 (function(){
   var poster=document.getElementById('ce-poster'), lb=document.getElementById('ce-lightbox'),

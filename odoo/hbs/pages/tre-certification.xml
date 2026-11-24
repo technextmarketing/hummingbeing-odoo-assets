@@ -1,4 +1,4 @@
-<t t-name="hbs.page_tre_certification"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en&quot;}"/><t t-set="title">TRE™ Certification Singapore | Become a TRE™ Provider</t><t t-set="head"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
+<t t-name="hbs.page_tre_certification"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en&quot;}"/><t t-set="title">TRE™ Certification Singapore | Become a TRE™ Provider</t><t t-set="x_icon" t-value="&quot;/favicon-32.png?v=3&quot;"/><t t-set="head"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
 new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
 "https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
@@ -566,8 +566,8 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
 .hb-faq .a { padding: 0 1.25rem 1.15rem; }
 .hb-faq .a p { margin: 0 0 .6rem; font-size: .96rem; line-height: 1.75; color: var(--body-text); }
 .hb-faq .a a { color: var(--gold-dark); font-weight: 700; }
-</style><script type="application/ld+json" data-seo="faq">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I become a Certified TRE™ Provider?", "acceptedAnswer": {"@type": "Answer", "text": "Complete Modules 1, 2 and 3 of the Global TRE™ Provider Certification. Each module is a 2-day workshop plus 4 online sessions: personal TRE™ sessions in Module 1, supervision in Modules 2 and 3. You also complete the remaining certification requirements, and the certificate is issued by TRE™ for All once you qualify."}}, {"@type": "Question", "name": "How long does the TRE™ certification take?", "acceptedAnswer": {"@type": "Answer", "text": "The 2027 Singapore cohort runs across three modules: 24–25 April, 3–4 July and 30–31 October 2027, so roughly eight months from first workshop to final module. Online personal and supervision sessions take place between the workshops. Module 1 comes first and can also be booked on its own for personal practice."}}, {"@type": "Question", "name": "Is the TRE™ certification ICF-accredited?", "acceptedAnswer": {"@type": "Answer", "text": "The Global TRE™ Provider certificate is issued by TRE™ for All, not by ICF. Module 1 is ICF-accredited and carries 21 ICF CCEs for coaches, and the Growth Package includes ICF credits while the Foundational Package does not. Isabelle can confirm which package suits you before you enrol."}}]}</script><link rel="preload" href="/fonts/hb/lato-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/hb/playfair-display-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/></t><t t-call="web.layout"><link rel="stylesheet" href="/styles.css?v=98"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXLR5LGG" height="0" width="0" style="display:none;visibility:hidden"/></noscript><nav>
-  <a href="/" class="logo"><img src="/images/logo-dark.webp" class="logo-on-dark" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/><img src="/images/logo-light.webp" class="logo-on-light" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/></a>
+</style><script type="application/ld+json" data-seo="faq">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I become a Certified TRE™ Provider?", "acceptedAnswer": {"@type": "Answer", "text": "Complete Modules 1, 2 and 3 of the Global TRE™ Provider Certification. Each module is a 2-day workshop plus 4 online sessions: personal TRE™ sessions in Module 1, supervision in Modules 2 and 3. You also complete the remaining certification requirements, and the certificate is issued by TRE™ for All once you qualify."}}, {"@type": "Question", "name": "How long does the TRE™ certification take?", "acceptedAnswer": {"@type": "Answer", "text": "The 2027 Singapore cohort runs across three modules: 24–25 April, 3–4 July and 30–31 October 2027, so roughly eight months from first workshop to final module. Online personal and supervision sessions take place between the workshops. Module 1 comes first and can also be booked on its own for personal practice."}}, {"@type": "Question", "name": "Is the TRE™ certification ICF-accredited?", "acceptedAnswer": {"@type": "Answer", "text": "The Global TRE™ Provider certificate is issued by TRE™ for All, not by ICF. Module 1 is ICF-accredited and carries 21 ICF CCEs for coaches, and the Growth Package includes ICF credits while the Foundational Package does not. Isabelle can confirm which package suits you before you enrol."}}]}</script><link rel="preload" href="/fonts/hb/lato-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/hb/playfair-display-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/></t><t t-call="web.layout"><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXLR5LGG" height="0" width="0" style="display:none;visibility:hidden"/></noscript><nav>
+  <a href="/" class="logo"><img src="/images/logo-dark.webp" class="logo-on-dark" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto" loading="eager"/><img src="/images/logo-light.webp" class="logo-on-light" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto" loading="eager"/></a>
   <ul class="nav-links">
     <li><a href="/">Home</a></li>
     <li><a href="/about">About</a></li>
@@ -575,9 +575,9 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     <li class="nav-dropdown">
       <a href="javascript:void(0)" class="nav-dropdown-toggle active">Work with Isabelle <i class="fa-solid fa-chevron-down nav-arrow"/></a>
       <ul class="nav-dropdown-menu">
-        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™<small>Private sessions, online or in person</small></a></li>
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp;amp; TRE™<small>Private sessions, online or in person</small></a></li>
         <li><a href="/tre-certification">TRE™ Certification<small>Become a certified TRE™ provider</small></a></li>
-        <li><a href="/retreats-workshops">Retreats &amp; Workshops<small>Groups, teams and executives</small></a></li>
+        <li><a href="/retreats-workshops">Retreats &amp;amp; Workshops<small>Groups, teams and executives</small></a></li>
       </ul>
     </li>
     <li><a href="/events">Events</a></li>
@@ -600,25 +600,25 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     <span class="t-item"><span class="t-star">★</span> Global TRE™ Certifying Trainer</span><span class="t-sep">·</span>
     <span class="t-item">Certified TRE™ Provider Training</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Dr. David Berceli Methodology</span><span class="t-sep">·</span>
-    <span class="t-item">In-Person &amp; Online Worldwide</span><span class="t-sep">·</span>
+    <span class="t-item">In-Person &amp;amp; Online Worldwide</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Evidence-Based Somatic Practice</span><span class="t-sep">·</span>
     <span class="t-item">Train to Certify Others</span><span class="t-sep">·</span>
-    <span class="t-item"><span class="t-star">★</span> For Coaches &amp; Therapists</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> For Coaches &amp;amp; Therapists</span><span class="t-sep">·</span>
     <span class="t-item">Nervous System Regulation</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> TRE™ Provider Certification</span><span class="t-sep">·</span>
-    <span class="t-item">Group &amp; 1:1 Training</span><span class="t-sep">·</span>
+    <span class="t-item">Group &amp;amp; 1:1 Training</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Trauma-Informed</span><span class="t-sep">·</span>
     <span class="t-item">40+ Nationalities</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Global TRE™ Certifying Trainer</span><span class="t-sep">·</span>
     <span class="t-item">Certified TRE™ Provider Training</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Dr. David Berceli Methodology</span><span class="t-sep">·</span>
-    <span class="t-item">In-Person &amp; Online Worldwide</span><span class="t-sep">·</span>
+    <span class="t-item">In-Person &amp;amp; Online Worldwide</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Evidence-Based Somatic Practice</span><span class="t-sep">·</span>
     <span class="t-item">Train to Certify Others</span><span class="t-sep">·</span>
-    <span class="t-item"><span class="t-star">★</span> For Coaches &amp; Therapists</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> For Coaches &amp;amp; Therapists</span><span class="t-sep">·</span>
     <span class="t-item">Nervous System Regulation</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> TRE™ Provider Certification</span><span class="t-sep">·</span>
-    <span class="t-item">Group &amp; 1:1 Training</span><span class="t-sep">·</span>
+    <span class="t-item">Group &amp;amp; 1:1 Training</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Trauma-Informed</span><span class="t-sep">·</span>
     <span class="t-item">40+ Nationalities</span><span class="t-sep">·</span>
   </div>
@@ -791,7 +791,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
             <span class="tc-tl-icon" aria-hidden="true"><i class="fa-solid fa-calendar-check"/></span>
           </div>
           <h3>Module 1 · Singapore</h3>
-          <p>24 &amp; 25 April 2027 · 2-day workshop + 4 online personal TRE™ sessions. 21 ICF CCEs included.</p>
+          <p>24 &amp;amp; 25 April 2027 · 2-day workshop + 4 online personal TRE™ sessions. 21 ICF CCEs included.</p>
           <a href="/event-certification-2027#reserve" class="tc-enq">Enquire <span class="tc-enq-arr" aria-hidden="true">→</span></a>
         </article>
       </li>
@@ -803,7 +803,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
             <span class="tc-tl-icon" aria-hidden="true"><i class="fa-solid fa-person-chalkboard"/></span>
           </div>
           <h3>Module 2 · Singapore</h3>
-          <p>3 &amp; 4 July 2027 · 2-day workshop + 4 online supervision sessions. Open to those who have completed Module 1.</p>
+          <p>3 &amp;amp; 4 July 2027 · 2-day workshop + 4 online supervision sessions. Open to those who have completed Module 1.</p>
           <a href="/event-certification-2027#reserve" class="tc-enq">Enquire <span class="tc-enq-arr" aria-hidden="true">→</span></a>
         </article>
       </li>
@@ -815,7 +815,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
             <span class="tc-tl-icon" aria-hidden="true"><i class="fa-solid fa-people-group"/></span>
           </div>
           <h3>Module 3 · Singapore</h3>
-          <p>30 &amp; 31 October 2027 · 2-day workshop + 4 online supervision sessions. The final module: complete it, its supervisions and the remaining certification requirements to become a Global TRE™ Provider.</p>
+          <p>30 &amp;amp; 31 October 2027 · 2-day workshop + 4 online supervision sessions. The final module: complete it, its supervisions and the remaining certification requirements to become a Global TRE™ Provider.</p>
           <a href="/event-certification-2027#reserve" class="tc-enq">Enquire <span class="tc-enq-arr" aria-hidden="true">→</span></a>
         </article>
       </li>
@@ -850,7 +850,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
             <div class="tc-plan-tier tc-tier-on" data-tc-tier="eb"><span>Early bird · until 31 March 2027</span><span>S$5,888</span></div>
             <div class="tc-plan-tier" data-tc-tier="n"><span>Regular price</span><span>S$6,888</span></div>
           </div>
-          <p class="tc-plan-inc">New students · Modules 1, 2 &amp; 3 · all online sessions and supervisions · ICF credits · 3 bonus programmes → Global TRE™ Certified Provider · <a href="/event-certification-2027-growth" style="color:inherit;text-decoration:underline">See this package</a></p>
+          <p class="tc-plan-inc">New students · Modules 1, 2 &amp;amp; 3 · all online sessions and supervisions · ICF credits · 3 bonus programmes → Global TRE™ Certified Provider · <a href="/event-certification-2027-growth" style="color:inherit;text-decoration:underline">See this package</a></p>
         </article>
       </div>
       <div class="tc-plan-cell tc-rv">
@@ -964,7 +964,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
 </section><footer>
   <div class="foot-grid">
     <div>
-      <a href="/" class="foot-logo"><img src="/images/logo-dark.webp" alt="HummingBeing — Coaching &amp; Somatics" width="144" height="48" style="height:48px;width:auto;display:block"/></a>
+      <a href="/" class="foot-logo"><img src="/images/logo-dark.webp" alt="HummingBeing — Coaching &amp; Somatics" width="144" height="48" style="height:48px;width:auto;display:block" loading="eager"/></a>
       <p class="foot-desc">Science backed processes with TRE™, Coaching and Somatic Practices — a space to release, renew and restore.</p>
       <p class="foot-desc">Part of <strong>Business and Human Development Consulting Pte Ltd</strong></p>
       <div class="foot-socials">
@@ -977,9 +977,9 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     <div>
       <div class="foot-h">Work with Isabelle</div>
       <ul class="foot-links">
-        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™</a></li>
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp;amp; TRE™</a></li>
         <li><a href="/tre-certification">TRE™ Certification</a></li>
-        <li><a href="/retreats-workshops">Retreats &amp; Workshops</a></li>
+        <li><a href="/retreats-workshops">Retreats &amp;amp; Workshops</a></li>
         <li><a href="/events">Events</a></li>
         <li><a href="/book">Book a free call</a></li>
       </ul>

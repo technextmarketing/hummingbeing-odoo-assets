@@ -1,4 +1,4 @@
-<t t-name="bhds.page_event_module1_singapore"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en-US&quot;}"/><t t-set="title">Nervous System Regulation | Singapore Aug 2026 | BHD Asia</t><t t-set="body_classname" t-value="&quot;page et_fixed_nav et_divi_theme evt2&quot;"/><t t-set="head"><script>try{if(!sessionStorage.getItem("bhdIntro")&amp;&amp;!matchMedia("(prefers-reduced-motion: reduce)").matches){var d=document.documentElement;d.classList.add("intro-on");setTimeout(function(){d.classList.remove("intro-on")},5000)}}catch(e){}</script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+<t t-name="bhds.page_event_module1_singapore"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en-US&quot;}"/><t t-set="title">Nervous System Regulation | Singapore Aug 2026 | BHD Asia</t><t t-set="body_classname" t-value="&quot;page et_fixed_nav et_divi_theme evt2&quot;"/><t t-set="x_icon" t-value="&quot;/favicon.ico?v=3&quot;"/><t t-set="head"><script>try{if(!sessionStorage.getItem("bhdIntro")&amp;&amp;!matchMedia("(prefers-reduced-motion: reduce)").matches){var d=document.documentElement;d.classList.add("intro-on");setTimeout(function(){d.classList.remove("intro-on")},5000)}}catch(e){}</script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
@@ -10,13 +10,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
   gtag('config', 'G-Y6JMM9VCW2');
 </script><link rel="icon" href="/favicon.ico?v=3"/><link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png?v=3"/><link rel="apple-touch-icon" href="/apple-touch-icon.png?v=3"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/><meta name="description" content="A 2-day in-person TRE&#x2122; workshop for coaches in Singapore, 29&#x2013;30 August 2026. 21 ICF CCEUs. Valid as Module 1 of the Global TRE&#x2122; Provider Certification."/><meta property="og:title" content="Nervous System Regulation &amp; Neurogenic Tremoring | Singapore | BHD Asia"/><meta property="og:description" content="2-day TRE&#x2122; workshop for coaches in Singapore. 21 ICF CCEUs. Aug 29&#x2013;30, 2026."/><meta property="og:image" content="https://www.bhdasia.com/event-module1.webp?v=4"/><meta property="og:type" content="website"/><meta property="og:site_name" content="BHD Asia"/><meta property="og:url" content="https://www.bhdasia.com/event-module1-singapore"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Nervous System Regulation &amp; Neurogenic Tremoring | Singapore | BHD Asia"/><meta name="twitter:description" content="A 2-day in-person TRE&#x2122; workshop for coaches in Singapore, 29&#x2013;30 August 2026. 21 ICF CCEUs. Valid as Module 1 of the Global TRE&#x2122; Provider Certification."/><link rel="canonical" href="https://www.bhdasia.com/event-module1-singapore"/><link rel="stylesheet" href="/style.css?v=14"/><link rel="stylesheet" href="/event-detail.css?v=20261108a"/><script type="application/ld+json">
 {"@context":"https://schema.org","@type":"Event","name":"Nervous System Regulation &amp; Neurogenic Tremoring - TRE™ Workshop for Coaches","description":"A 2-day in-person TRE™ workshop for coaches in Singapore, 29-30 August 2026. 21 ICF CCEUs. Valid as Module 1 of the Global TRE™ Provider Certification.","startDate":"2026-08-29","endDate":"2026-08-30","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","eventStatus":"https://schema.org/EventScheduled","location":{"@type":"Place","name":"Singapore","address":{"@type":"PostalAddress","addressLocality":"Singapore","addressCountry":"SG"}},"image":"https://www.bhdasia.com/event-module1.webp?v=4","organizer":{"@type":"Organization","name":"BHD Asia","url":"https://www.bhdasia.com/"},"performer":{"@type":"Person","name":"Isabelle Claus Teixeira"},"url":"https://www.bhdasia.com/event-module1-singapore"}
-</script><script type="application/ld+json" id="bhd-ld">{"@context":"https://schema.org","@graph":[{"@type":["Organization","ProfessionalService"],"@id":"https://www.bhdasia.com/#organization","name":"BHD Asia","legalName":"Business &amp; Human Development Consulting Pte Ltd","alternateName":["BHD Asia Singapore","Business and Human Development Consulting"],"url":"https://www.bhdasia.com/","logo":{"@type":"ImageObject","url":"https://www.bhdasia.com/favicon-192.png","width":192,"height":192},"image":"https://www.bhdasia.com/isagrey.webp","description":"Boutique HR consulting, executive coaching and resilience-building consultancy founded in Singapore in 2012. BHD Asia co-designs leadership development, organisation development and TRE™ programmes for organisations across Europe, the US, Asia, Japan and Russia.","slogan":"Highlight, Enhance and Appreciate Human in Business.","foundingDate":"2012","foundingLocation":"Singapore","founder":{"@id":"https://www.bhdasia.com/isabelle#person"},"employee":[{"@id":"https://www.bhdasia.com/isabelle#person"},{"@id":"https://www.bhdasia.com/jasmine#person"},{"@id":"https://www.bhdasia.com/simba#person"},{"@id":"https://www.bhdasia.com/rina#person"}],"address":{"@type":"PostalAddress","streetAddress":"50 Raffles Place, Singapore Land Tower #30-00","addressLocality":"Singapore","postalCode":"048623","addressCountry":"SG"},"telephone":"+81 80 6515 1778","identifier":{"@type":"PropertyValue","propertyID":"UEN (ACRA)","value":"201201974K"},"areaServed":["Singapore","Asia","Japan","Europe","United States","Middle East"],"knowsLanguage":["en","fr","es"],"knowsAbout":["Executive coaching","Leadership development","Organisation development","HR consulting","Talent management","Psychological safety","Resilience building","Burnout prevention","Somatic coaching","TRE™ (Tension &amp; Trauma Releasing Exercises)","Global TRE™ Provider Certification","Change management","Conflict resolution"],"sameAs":["https://www.facebook.com/bhdasia/","https://www.instagram.com/isabelleclausteixeira_bhd/","https://www.youtube.com/@IsabelleClausTeixeira","https://www.linkedin.com/in/isabelleclausteixeira/"],"contactPoint":{"@type":"ContactPoint","contactType":"customer service","telephone":"+81 80 6515 1778","availableLanguage":["English","French","Spanish"],"url":"https://www.bhdasia.com/contact"}},{"@type":"WebSite","@id":"https://www.bhdasia.com/#website","url":"https://www.bhdasia.com/","name":"BHD Asia","inLanguage":"en","publisher":{"@id":"https://www.bhdasia.com/#organization"}},{"@type":"WebPage","@id":"https://www.bhdasia.com/event-module1-singapore#webpage","url":"https://www.bhdasia.com/event-module1-singapore","name":"Nervous System Regulation | Singapore Aug 2026 | BHD Asia","description":"A 2-day in-person TRE™ workshop for coaches in Singapore, 29–30 August 2026. 21 ICF CCEUs. Valid as Module 1 of the Global TRE™ Provider Certification.","inLanguage":"en","isPartOf":{"@id":"https://www.bhdasia.com/#website"},"about":{"@id":"https://www.bhdasia.com/#organization"},"publisher":{"@id":"https://www.bhdasia.com/#organization"},"dateModified":"2026-09-29","primaryImageOfPage":{"@type":"ImageObject","url":"https://www.bhdasia.com/event-module1.webp?v=4"},"breadcrumb":{"@id":"https://www.bhdasia.com/event-module1-singapore#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://www.bhdasia.com/event-module1-singapore#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.bhdasia.com/"},{"@type":"ListItem","position":2,"name":"Events","item":"https://www.bhdasia.com/events"},{"@type":"ListItem","position":3,"name":"Nervous System Regulation Workshop","item":"https://www.bhdasia.com/event-module1-singapore"}]}]}</script><link rel="preload" href="/fonts/tn/inter-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/tn/plus-jakarta-sans-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/technext-style.css?v=36"/></t><t t-call="web.layout"><link rel="stylesheet" href="/style.css?v=14"/><link rel="stylesheet" href="/event-detail.css?v=20261108a"/><link rel="stylesheet" href="/technext-style.css?v=36"/><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W9B95BT7" height="0" width="0" style="display:none;visibility:hidden"/></noscript><div id="page-container">
+</script><script type="application/ld+json" id="bhd-ld">{"@context":"https://schema.org","@graph":[{"@type":["Organization","ProfessionalService"],"@id":"https://www.bhdasia.com/#organization","name":"BHD Asia","legalName":"Business &amp; Human Development Consulting Pte Ltd","alternateName":["BHD Asia Singapore","Business and Human Development Consulting"],"url":"https://www.bhdasia.com/","logo":{"@type":"ImageObject","url":"https://www.bhdasia.com/favicon-192.png","width":192,"height":192},"image":"https://www.bhdasia.com/isagrey.webp","description":"Boutique HR consulting, executive coaching and resilience-building consultancy founded in Singapore in 2012. BHD Asia co-designs leadership development, organisation development and TRE™ programmes for organisations across Europe, the US, Asia, Japan and Russia.","slogan":"Highlight, Enhance and Appreciate Human in Business.","foundingDate":"2012","foundingLocation":"Singapore","founder":{"@id":"https://www.bhdasia.com/isabelle#person"},"employee":[{"@id":"https://www.bhdasia.com/isabelle#person"},{"@id":"https://www.bhdasia.com/jasmine#person"},{"@id":"https://www.bhdasia.com/simba#person"},{"@id":"https://www.bhdasia.com/rina#person"}],"address":{"@type":"PostalAddress","streetAddress":"50 Raffles Place, Singapore Land Tower #30-00","addressLocality":"Singapore","postalCode":"048623","addressCountry":"SG"},"telephone":"+81 80 6515 1778","identifier":{"@type":"PropertyValue","propertyID":"UEN (ACRA)","value":"201201974K"},"areaServed":["Singapore","Asia","Japan","Europe","United States","Middle East"],"knowsLanguage":["en","fr","es"],"knowsAbout":["Executive coaching","Leadership development","Organisation development","HR consulting","Talent management","Psychological safety","Resilience building","Burnout prevention","Somatic coaching","TRE™ (Tension &amp; Trauma Releasing Exercises)","Global TRE™ Provider Certification","Change management","Conflict resolution"],"sameAs":["https://www.facebook.com/bhdasia/","https://www.instagram.com/isabelleclausteixeira_bhd/","https://www.youtube.com/@IsabelleClausTeixeira","https://www.linkedin.com/in/isabelleclausteixeira/"],"contactPoint":{"@type":"ContactPoint","contactType":"customer service","telephone":"+81 80 6515 1778","availableLanguage":["English","French","Spanish"],"url":"https://www.bhdasia.com/contact"}},{"@type":"WebSite","@id":"https://www.bhdasia.com/#website","url":"https://www.bhdasia.com/","name":"BHD Asia","inLanguage":"en","publisher":{"@id":"https://www.bhdasia.com/#organization"}},{"@type":"WebPage","@id":"https://www.bhdasia.com/event-module1-singapore#webpage","url":"https://www.bhdasia.com/event-module1-singapore","name":"Nervous System Regulation | Singapore Aug 2026 | BHD Asia","description":"A 2-day in-person TRE™ workshop for coaches in Singapore, 29–30 August 2026. 21 ICF CCEUs. Valid as Module 1 of the Global TRE™ Provider Certification.","inLanguage":"en","isPartOf":{"@id":"https://www.bhdasia.com/#website"},"about":{"@id":"https://www.bhdasia.com/#organization"},"publisher":{"@id":"https://www.bhdasia.com/#organization"},"dateModified":"2026-09-29","primaryImageOfPage":{"@type":"ImageObject","url":"https://www.bhdasia.com/event-module1.webp?v=4"},"breadcrumb":{"@id":"https://www.bhdasia.com/event-module1-singapore#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://www.bhdasia.com/event-module1-singapore#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.bhdasia.com/"},{"@type":"ListItem","position":2,"name":"Events","item":"https://www.bhdasia.com/events"},{"@type":"ListItem","position":3,"name":"Nervous System Regulation Workshop","item":"https://www.bhdasia.com/event-module1-singapore"}]}]}</script><link rel="preload" href="/fonts/tn/inter-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/tn/plus-jakarta-sans-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/technext-style.css?v=36"/></t><t t-call="web.layout"><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W9B95BT7" height="0" width="0" style="display:none;visibility:hidden"/></noscript><div id="page-container">
 
 <header id="main-header">
   <div class="et_menu_container container clearfix">
     <div class="logo_container">
       <a href="/">
-        <img src="/bhd-logo.svg?v=1" alt="BHD Asia" width="51" height="34" onerror="this.style.display='none';document.querySelector('.logo-text').style.display='block'"/>
+        <img src="/bhd-logo.svg?v=1" alt="BHD Asia" width="51" height="34" onerror="this.style.display='none';document.querySelector('.logo-text').style.display='block'" loading="eager"/>
         <span class="logo-text">BHD Asia</span>
       </a>
     </div>
@@ -48,10 +48,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
       <p class="evt-crumbs"><a href="/events">Events</a> <span aria-hidden="true">›</span> <span>Singapore · In-Person</span></p>
       <div class="evt-hero-top">
         <span class="evt-badge evt-badge-loc">Singapore · In-Person</span>
-        <span class="evt-badge evt-badge-type">Self-Care &amp; Presence for Coaches</span>
+        <span class="evt-badge evt-badge-type">Self-Care &amp;amp; Presence for Coaches</span>
         <span class="evt-badge evt-badge-type">21 ICF CCEUs</span>
       </div>
-      <h1>Nervous System Regulation &amp; Neurogenic Tremoring</h1>
+      <h1>Nervous System Regulation &amp;amp; Neurogenic Tremoring</h1>
       <p class="evt-hero-sub">A 2-day in-person TRE™ workshop for coaches — develop embodied self-care, prevent burnout and deepen your somatic presence with clients. Valid as Module 1 of the Global TRE™ Provider Certification Program.</p>
       <div class="evt-hero-ctas">
         <a class="et_pb_button btn-white" href="/events">See Upcoming Events →</a>
@@ -65,7 +65,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
 <div class="evt-facts">
   <div class="container">
     <div class="evt-facts-grid">
-      <div class="evt-fact"><svg class="evt-fact-ico" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3v3M17 3v3M4 9h16M5 5h14a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z"/></svg><div class="evt-fact-txt"><span class="evt-fact-label">Date</span><span class="evt-fact-val">29 &amp; 30 August 2026</span></div></div>
+      <div class="evt-fact"><svg class="evt-fact-ico" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3v3M17 3v3M4 9h16M5 5h14a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z"/></svg><div class="evt-fact-txt"><span class="evt-fact-label">Date</span><span class="evt-fact-val">29 &amp;amp; 30 August 2026</span></div></div>
       <div class="evt-fact"><svg class="evt-fact-ico" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5a7 7 0 0 0-14 0C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><div class="evt-fact-txt"><span class="evt-fact-label">Location</span><span class="evt-fact-val">Singapore, In-Person</span></div></div>
       <div class="evt-fact"><svg class="evt-fact-ico" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="9" r="5.5"/><path d="M8.5 13.5L7 21l5-3 5 3-1.5-7.5"/></svg><div class="evt-fact-txt"><span class="evt-fact-label">ICF Price</span><span class="evt-fact-val">S$1,290</span></div></div>
       <div class="evt-fact"><svg class="evt-fact-ico" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg><div class="evt-fact-txt"><span class="evt-fact-label">Duration</span><span class="evt-fact-val">2 Days · 21 ICF CCEUs</span></div></div>
@@ -111,25 +111,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
 
 <div class="evt-section">
         <span class="evt-section-label">The Workshop</span>
-        <h2>Self-Care &amp; Presence for Coaches</h2>
+        <h2>Self-Care &amp;amp; Presence for Coaches</h2>
         <p>This 2-day in-person workshop is designed specifically for coaches — whether in training or at ACC, PCC or MCC level — who want to develop embodied self-care practices, prevent burnout and compassion fatigue, and deepen their somatic presence with clients.</p>
-        <p>TRE™ (Tension, Stress &amp; Trauma Releasing Exercises) activates the body's natural neurogenic tremoring response — a reflex that discharges stored stress and tension from the nervous system, builds resilience and promotes deep regulation.</p>
+        <p>TRE™ (Tension, Stress &amp;amp; Trauma Releasing Exercises) activates the body's natural neurogenic tremoring response — a reflex that discharges stored stress and tension from the nervous system, builds resilience and promotes deep regulation.</p>
         <p>This workshop counts as Module 1 of the Global TRE™ Provider Certification Program — your first step toward becoming a Certified TRE™ Provider.</p>
 
         <h3 style="font-size:15px;font-weight:700;color:var(--text);margin:24px 0 12px">This workshop is for you if you are:</h3>
         <ul class="evt-for-list">
-          <li>Coaches in training (ACC, PCC &amp; MCC level)</li>
-          <li>Looking to prevent &amp; recover from compassion fatigue and burnout</li>
+          <li>Coaches in training (ACC, PCC &amp;amp; MCC level)</li>
+          <li>Looking to prevent &amp;amp; recover from compassion fatigue and burnout</li>
           <li>Wanting a body-led modality for deep nervous system resilience</li>
           <li>Seeking to complement your coaching certifications with TRE™</li>
-          <li>Considering the full Global TRE™ Provider Certification (Modules 1, 2 &amp; 3)</li>
+          <li>Considering the full Global TRE™ Provider Certification (Modules 1, 2 &amp;amp; 3)</li>
         </ul>
       </div>
 
 <div class="evt-section">
         <span class="evt-section-label">Programme Schedule</span>
         <h2>2 Days in Singapore</h2>
-        <p style="font-size:14px;color:var(--muted)">29 &amp; 30 August 2026 · Singapore, In-Person</p>
+        <p style="font-size:14px;color:var(--muted)">29 &amp;amp; 30 August 2026 · Singapore, In-Person</p>
         <div class="schedule-grid">
           <div class="sched-day">
             <div class="sched-day-head">
@@ -141,7 +141,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
           <div class="sched-day">
             <div class="sched-day-head">
               <div class="sched-day-num"><span>30</span>Aug</div>
-              <div class="sched-day-title"><strong>DAY 2 — Sunday</strong><em>TRE™ Module 1 · Part 2 &amp; Completion</em></div>
+              <div class="sched-day-title"><strong>DAY 2 — Sunday</strong><em>TRE™ Module 1 · Part 2 &amp;amp; Completion</em></div>
             </div>
             <div class="sched-day-body">Deepening the practice, integration and completion of Module 1 requirements. Guidance on continuing toward Modules 2 and 3 of the Global TRE™ Provider Certification. Certificate of completion issued.</div>
           </div>
@@ -170,7 +170,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
 
 <div class="evt-section">
         <span class="evt-section-label">Investment</span>
-        <h2>Pricing &amp; Registration</h2>
+        <h2>Pricing &amp;amp; Registration</h2>
         <div class="pricing-cards">
           <div class="price-card featured">
             <span class="price-card-label">ICF Special Price</span>
@@ -188,7 +188,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
             <div class="price-card-until">Standard registration</div>
           </div>
         </div>
-        <p style="font-size:13px;color:var(--muted);margin-top:14px">Includes 2-day workshop + 4 personal online TRE™ sessions + 21 ICF CCEUs. Previous Module 1 payments are deductible if you continue to the full certification (Modules 2 &amp; 3).</p>
+        <p style="font-size:13px;color:var(--muted);margin-top:14px">Includes 2-day workshop + 4 personal online TRE™ sessions + 21 ICF CCEUs. Previous Module 1 payments are deductible if you continue to the full certification (Modules 2 &amp;amp; 3).</p>
         <div style="margin-top:18px;display:flex;gap:10px;flex-wrap:wrap">
           <a class="et_pb_button" href="/events">See Upcoming Events →</a>
           <a class="et_pb_button btn-outline" href="https://calendly.com/bhdasia/tre-certification-intake-call" target="_blank" rel="noopener">Book a Call via Calendly</a>
@@ -290,7 +290,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
     <div class="footer-widget">
       <span class="footer-brand-name">BHD <span>Asia</span></span>
       <p>Highlight, Enhance and Appreciate Human in Business.</p>
-      <p>Business &amp; Human Development Consulting Pte Ltd</p>
+      <p>Business &amp;amp; Human Development Consulting Pte Ltd</p>
       <div class="footer-social">
         <a href="https://www.facebook.com/bhdasia/" target="_blank" rel="noopener" class="footer-soc-btn" aria-label="Facebook"><svg viewbox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
         <a href="https://www.instagram.com/isabelleclausteixeira_bhd/" target="_blank" rel="noopener" class="footer-soc-btn" aria-label="Instagram"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
@@ -299,7 +299,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
       </div>
     </div>
     <div class="footer-widget"><h4>Navigate</h4><ul><li><a href="/">Home</a></li><li><a href="/services">Services</a></li><li><a href="/about">About</a></li><li><a href="/events">Events</a></li><li><a href="/contact">Contact</a></li><li><a href="https://www.hummingbeing.com/" target="_blank" rel="noopener">HummingBeing</a></li></ul></div>
-    <div class="footer-widget"><h4>Legal</h4><ul><li><a href="/privacy">Privacy Statement</a></li><li><a href="/terms">Terms &amp; Conditions</a></li><li><a href="/inclusivity">Inclusivity Statement</a></li></ul></div>
+    <div class="footer-widget"><h4>Legal</h4><ul><li><a href="/privacy">Privacy Statement</a></li><li><a href="/terms">Terms &amp;amp; Conditions</a></li><li><a href="/inclusivity">Inclusivity Statement</a></li></ul></div>
     <div class="footer-widget"><h4>Contact</h4><p class="ft-addr">Singapore Land Tower, #30-00<br/>50 Raffles Place<br/>Singapore 048623</p><p><a href="tel:+818065151778">+81 80 6515 1778</a></p><p><span>bonjour@bhd<span style="display:none">-no-spam</span>asia.com</span></p><p><a href="/#book" data-cta="page-book">Book a Discovery Call →</a></p></div>
   </div></div>
   <div id="footer-bottom"><div class="container">

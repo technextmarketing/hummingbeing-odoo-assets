@@ -1,4 +1,4 @@
-<t t-name="hbs.page_event_tre_module1_bucharest"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en&quot;}"/><t t-set="title">TRE™ Module 1 Bucharest | ICF CCEUs | HummingBeing</t><t t-set="head"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
+<t t-name="hbs.page_event_tre_module1_bucharest"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en&quot;}"/><t t-set="title">TRE™ Module 1 Bucharest | ICF CCEUs | HummingBeing</t><t t-set="x_icon" t-value="&quot;/favicon-32.png?v=3&quot;"/><t t-set="head"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
 new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
 "https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
@@ -178,8 +178,8 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     .ce-lightbox img{max-width:100%;max-height:100%;border-radius:10px;box-shadow:0 30px 90px rgba(0,0,0,.6)}
     .ce-lightbox-close{position:absolute;top:16px;right:22px;width:44px;height:44px;border:0;border-radius:50%;background:rgba(255,255,255,.12);color:#fff;font-size:1.6rem;line-height:1;cursor:pointer}
     .ce-lightbox-close:hover{background:rgba(255,255,255,.22)}
-  </style><script type="application/ld+json" data-seo="breadcrumb">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.hummingbeing.com/"}, {"@type": "ListItem", "position": 2, "name": "Events", "item": "https://www.hummingbeing.com/events"}, {"@type": "ListItem", "position": 3, "name": "TRE™ Module 1 — Bucharest", "item": "https://www.hummingbeing.com/event-tre-module1-bucharest"}]}</script><link rel="preload" href="/fonts/hb/lato-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/hb/playfair-display-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/></t><t t-call="web.layout"><link rel="stylesheet" href="/styles.css?v=98"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXLR5LGG" height="0" width="0" style="display:none;visibility:hidden"/></noscript><nav>
-  <a href="/" class="logo"><img src="/images/logo-dark.webp" class="logo-on-dark" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/><img src="/images/logo-light.webp" class="logo-on-light" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/></a>
+  </style><script type="application/ld+json" data-seo="breadcrumb">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.hummingbeing.com/"}, {"@type": "ListItem", "position": 2, "name": "Events", "item": "https://www.hummingbeing.com/events"}, {"@type": "ListItem", "position": 3, "name": "TRE™ Module 1 — Bucharest", "item": "https://www.hummingbeing.com/event-tre-module1-bucharest"}]}</script><link rel="preload" href="/fonts/hb/lato-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/hb/playfair-display-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/></t><t t-call="web.layout"><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXLR5LGG" height="0" width="0" style="display:none;visibility:hidden"/></noscript><nav>
+  <a href="/" class="logo"><img src="/images/logo-dark.webp" class="logo-on-dark" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto" loading="eager"/><img src="/images/logo-light.webp" class="logo-on-light" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto" loading="eager"/></a>
   <ul class="nav-links">
     <li><a href="/">Home</a></li>
     <li><a href="/about">About</a></li>
@@ -187,9 +187,9 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     <li class="nav-dropdown">
       <a href="javascript:void(0)" class="nav-dropdown-toggle">Work with Isabelle <i class="fa-solid fa-chevron-down nav-arrow"/></a>
       <ul class="nav-dropdown-menu">
-        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™<small>Private sessions, online or in person</small></a></li>
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp;amp; TRE™<small>Private sessions, online or in person</small></a></li>
         <li><a href="/tre-certification">TRE™ Certification<small>Become a certified TRE™ provider</small></a></li>
-        <li><a href="/retreats-workshops">Retreats &amp; Workshops<small>Groups, teams and executives</small></a></li>
+        <li><a href="/retreats-workshops">Retreats &amp;amp; Workshops<small>Groups, teams and executives</small></a></li>
       </ul>
     </li>
     <li><a href="/events">Events</a></li>
@@ -229,7 +229,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
 </div><div class="ce-layout">
   <div class="ce-main">
     <figure class="ce-poster">
-      <img src="/images/event-bucharest-module1.webp?v=4" alt="TRE™ Module 1 Bucharest — 15–17 October 2026, 21 ICF CCEUs, with Isabelle Claus Teixeira and Saymara Ryon" width="1600" height="900" decoding="async"/>
+      <img src="/images/event-bucharest-module1.webp?v=4" alt="TRE™ Module 1 Bucharest — 15–17 October 2026, 21 ICF CCEUs, with Isabelle Claus Teixeira and Saymara Ryon" width="1600" height="900" decoding="async" loading="eager"/>
     </figure>
 
     <h2>Why TRE™ Module 1 in Bucharest?</h2>
@@ -242,14 +242,14 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
       <li>A therapist, psychologist or healthcare professional growing a trauma-informed practice</li>
       <li>A yoga teacher, bodyworker or somatic practitioner who wants to add neuroscience-informed tools</li>
       <li>Anyone experiencing chronic stress or burnout and ready for a body-led approach</li>
-      <li>Anyone weighing up the full Global TRE™ Provider Certification (Modules 1, 2 &amp; 3)</li>
+      <li>Anyone weighing up the full Global TRE™ Provider Certification (Modules 1, 2 &amp;amp; 3)</li>
     </ul>
 
     <h2 id="programme">Programme — 3 days in Bucharest</h2>
     <div class="ce-sched">
       <div class="ce-day">
         <div class="when"><b>Day 1</b><span>15 Oct · 17:00–19:00 EET</span></div>
-        <div><h4>Introductory Evening: Self-Care &amp; Presence for Coaches</h4><p>An introductory evening on nervous system regulation and self-induced therapeutic tremoring — TRE™ as a personal resilience and self-care practice. <em>Counts as the “From Shaking to Shaping” workshop when combined with Module 1 registration.</em></p></div>
+        <div><h4>Introductory Evening: Self-Care &amp;amp; Presence for Coaches</h4><p>An introductory evening on nervous system regulation and self-induced therapeutic tremoring — TRE™ as a personal resilience and self-care practice. <em>Counts as the “From Shaking to Shaping” workshop when combined with Module 1 registration.</em></p></div>
       </div>
       <div class="ce-day">
         <div class="when"><b>Day 2</b><span>16 Oct · 09:00–18:00 EET</span></div>
@@ -257,7 +257,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
       </div>
       <div class="ce-day">
         <div class="when"><b>Day 3</b><span>17 Oct · 09:00–18:00 EET</span></div>
-        <div><h4>TRE™ Module 1 — Continued &amp; Completion</h4><p>Deepen your practice, integrate the learning and complete Module 1. Q&amp;A, personal practice time and guidance toward Modules 2 and 3. <em>Certificate of completion issued on completion.</em></p></div>
+        <div><h4>TRE™ Module 1 — Continued &amp;amp; Completion</h4><p>Deepen your practice, integrate the learning and complete Module 1. Q&amp;amp;A, personal practice time and guidance toward Modules 2 and 3. <em>Certificate of completion issued on completion.</em></p></div>
       </div>
     </div>
 
@@ -289,9 +289,9 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
       <div class="ce-person">
         <img class="ce-avatar" src="/images/saymara-ryon.webp" alt="Saymara Ryon" width="78" height="78" loading="lazy" decoding="async"/>
         <div class="ce-person-body">
-          <span class="role">Certified TRE™ Provider &amp; Trainer Trainee</span>
+          <span class="role">Certified TRE™ Provider &amp;amp; Trainer Trainee</span>
           <h4>Saymara Ryon</h4>
-          <p>Founder &amp; President, Asociația TRE™ România. Holistic Coach, Trainer &amp; Mentor. Founder of Învață să Zbori SRL. Pioneer of TRE™ in Romania, building the practitioner community across Eastern Europe.</p>
+          <p>Founder &amp;amp; President, Asociația TRE™ România. Holistic Coach, Trainer &amp;amp; Mentor. Founder of Învață să Zbori SRL. Pioneer of TRE™ in Romania, building the practitioner community across Eastern Europe.</p>
           <div class="links"><a href="https://www.atelierdesuflet.ro/" target="_blank" rel="noopener">Website →</a><a href="https://treromania.org/" target="_blank" rel="noopener">TRE™ Romania</a><a href="https://ro.linkedin.com/in/saymara-ryon-7252845" target="_blank" rel="noopener">LinkedIn</a></div>
         </div>
       </div>
@@ -305,7 +305,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
   <aside class="ce-side" id="register">
     <div class="ce-box">
       <span class="ce-soldtag">Sold out · sales closed</span>
-      <h3>Pricing &amp; tickets</h3>
+      <h3>Pricing &amp;amp; tickets</h3>
       <p class="sub">This event is sold out — ticket sales are closed. It has been postponed; see upcoming events for current dates.</p>
       <div class="ce-tiers">
         <div class="ce-tier hl"><div class="tl">Super Early Bird<small>first 5 tickets</small></div><div class="tp">€739</div></div>
@@ -348,7 +348,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
 </section><footer>
   <div class="foot-grid">
     <div>
-      <a href="/" class="foot-logo"><img src="/images/logo-dark.webp" alt="HummingBeing — Coaching &amp; Somatics" style="height:48px;width:auto;display:block" width="144" height="48"/></a>
+      <a href="/" class="foot-logo"><img src="/images/logo-dark.webp" alt="HummingBeing — Coaching &amp; Somatics" style="height:48px;width:auto;display:block" width="144" height="48" loading="eager"/></a>
       <p class="foot-desc">Science backed processes with TRE™, Coaching and Somatic Practices — a space to release, renew and restore.</p>
       <p class="foot-desc">Part of <strong>Business and Human Development Consulting Pte Ltd</strong></p>
       <div class="foot-socials">
@@ -361,9 +361,9 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     <div>
       <div class="foot-h">Work with Isabelle</div>
       <ul class="foot-links">
-        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™</a></li>
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp;amp; TRE™</a></li>
         <li><a href="/tre-certification">TRE™ Certification</a></li>
-        <li><a href="/retreats-workshops">Retreats &amp; Workshops</a></li>
+        <li><a href="/retreats-workshops">Retreats &amp;amp; Workshops</a></li>
         <li><a href="/events">Events</a></li>
         <li><a href="/book">Book a free call</a></li>
       </ul>

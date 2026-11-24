@@ -1,4 +1,4 @@
-<t t-name="hbs.page_event_selfcare_coaches_singapore"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en&quot;}"/><t t-set="title">Nervous System Regulation for Coaches | Singapore</t><t t-set="head"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
+<t t-name="hbs.page_event_selfcare_coaches_singapore"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en&quot;}"/><t t-set="title">Nervous System Regulation for Coaches | Singapore</t><t t-set="x_icon" t-value="&quot;/favicon-32.png?v=3&quot;"/><t t-set="head"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
 new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
 "https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
@@ -145,8 +145,8 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     .ce-lightbox img{max-width:100%;max-height:100%;border-radius:10px;box-shadow:0 30px 90px rgba(0,0,0,.6)}
     .ce-lightbox-close{position:absolute;top:16px;right:22px;width:44px;height:44px;border:0;border-radius:50%;background:rgba(255,255,255,.12);color:#fff;font-size:1.6rem;line-height:1;cursor:pointer}
     .ce-lightbox-close:hover{background:rgba(255,255,255,.22)}
-  </style><script type="application/ld+json" data-seo="breadcrumb">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.hummingbeing.com/"}, {"@type": "ListItem", "position": 2, "name": "Events", "item": "https://www.hummingbeing.com/events"}, {"@type": "ListItem", "position": 3, "name": "Nervous System Regulation &amp; Neurogenic Tremoring", "item": "https://www.hummingbeing.com/event-selfcare-coaches-singapore"}]}</script><link rel="preload" href="/fonts/hb/lato-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/hb/playfair-display-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/></t><t t-call="web.layout"><link rel="stylesheet" href="/styles.css?v=98"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXLR5LGG" height="0" width="0" style="display:none;visibility:hidden"/></noscript><nav>
-  <a href="/" class="logo"><img src="/images/logo-dark.webp" class="logo-on-dark" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/><img src="/images/logo-light.webp" class="logo-on-light" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/></a>
+  </style><script type="application/ld+json" data-seo="breadcrumb">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.hummingbeing.com/"}, {"@type": "ListItem", "position": 2, "name": "Events", "item": "https://www.hummingbeing.com/events"}, {"@type": "ListItem", "position": 3, "name": "Nervous System Regulation &amp; Neurogenic Tremoring", "item": "https://www.hummingbeing.com/event-selfcare-coaches-singapore"}]}</script><link rel="preload" href="/fonts/hb/lato-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/hb/playfair-display-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/></t><t t-call="web.layout"><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXLR5LGG" height="0" width="0" style="display:none;visibility:hidden"/></noscript><nav>
+  <a href="/" class="logo"><img src="/images/logo-dark.webp" class="logo-on-dark" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto" loading="eager"/><img src="/images/logo-light.webp" class="logo-on-light" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto" loading="eager"/></a>
   <ul class="nav-links">
     <li><a href="/">Home</a></li>
     <li><a href="/about">About</a></li>
@@ -154,9 +154,9 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     <li class="nav-dropdown">
       <a href="javascript:void(0)" class="nav-dropdown-toggle">Work with Isabelle <i class="fa-solid fa-chevron-down nav-arrow"/></a>
       <ul class="nav-dropdown-menu">
-        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™<small>Private sessions, online or in person</small></a></li>
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp;amp; TRE™<small>Private sessions, online or in person</small></a></li>
         <li><a href="/tre-certification">TRE™ Certification<small>Become a certified TRE™ provider</small></a></li>
-        <li><a href="/retreats-workshops">Retreats &amp; Workshops<small>Groups, teams and executives</small></a></li>
+        <li><a href="/retreats-workshops">Retreats &amp;amp; Workshops<small>Groups, teams and executives</small></a></li>
       </ul>
     </li>
     <li><a href="/events">Events</a></li>
@@ -177,8 +177,8 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
         <span class="ce-badge">21 ICF CCEUs</span>
         <span class="ce-badge sold">Sold Out</span>
       </div>
-      <h1>Nervous System Regulation &amp; <em>Neurogenic Tremoring</em></h1>
-      <p class="ce-lead">Self-Care &amp; Presence for Coaches — two in-person days of TRE™ for coaches who give a great deal to clients and need a way to restore themselves. Build embodied self-care, guard against burnout and bring a steadier somatic presence to your sessions. Counts as Module 1 of the Global TRE™ Provider Certification. This cohort is fully booked.</p>
+      <h1>Nervous System Regulation &amp;amp; <em>Neurogenic Tremoring</em></h1>
+      <p class="ce-lead">Self-Care &amp;amp; Presence for Coaches — two in-person days of TRE™ for coaches who give a great deal to clients and need a way to restore themselves. Build embodied self-care, guard against burnout and bring a steadier somatic presence to your sessions. Counts as Module 1 of the Global TRE™ Provider Certification. This cohort is fully booked.</p>
       <div class="ce-hero-actions">
         <a href="/events" class="btn btn-primary">See upcoming events →</a>
         <a href="/events" class="btn btn-outline">All events</a>
@@ -187,7 +187,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
   </div>
 </section><div class="ce-facts">
   <div class="ce-facts-grid">
-    <div class="ce-fact"><i class="fa-regular fa-calendar"/><div><b>Dates</b><span>29 &amp; 30 August 2026</span></div></div>
+    <div class="ce-fact"><i class="fa-regular fa-calendar"/><div><b>Dates</b><span>29 &amp;amp; 30 August 2026</span></div></div>
     <div class="ce-fact"><i class="fa-solid fa-location-dot"/><div><b>Where</b><span>Singapore · In-person</span></div></div>
     <div class="ce-fact"><i class="fa-solid fa-award"/><div><b>Credits</b><span>21 ICF CCEUs</span></div></div>
     <div class="ce-fact"><i class="fa-solid fa-tag"/><div><b>Investment</b><span>SGD 1,290 · sold out</span></div></div>
@@ -195,20 +195,20 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
 </div><div class="ce-layout">
   <div class="ce-main">
     <figure class="ce-poster">
-      <img src="/images/event-nervous-system.webp?v=4" alt="Nervous System Regulation &amp; Self-Induced Neurogenic Tremoring — Self-Care and Presence for Coaches, Singapore, 29–30 August 2026, 21 ICF CCEUs" width="1600" height="900" decoding="async"/>
+      <img src="/images/event-nervous-system.webp?v=4" alt="Nervous System Regulation &amp; Self-Induced Neurogenic Tremoring — Self-Care and Presence for Coaches, Singapore, 29–30 August 2026, 21 ICF CCEUs" width="1600" height="900" decoding="async" loading="eager"/>
     </figure>
 
-    <h2>Self-Care &amp; Presence for Coaches</h2>
+    <h2>Self-Care &amp;amp; Presence for Coaches</h2>
     <p>Coaching asks you to hold space for others, often at the cost of your own reserves. This workshop was built for coaches, whether in training or at ACC, PCC or MCC level, who want <strong>embodied self-care practices</strong>, protection against burnout and compassion fatigue, and a deeper somatic presence in the room with clients.</p>
-    <p>TRE™ (Tension, Stress &amp; Trauma Releasing Exercises) is designed to activate the body’s natural neurogenic tremoring response, a reflex through which the nervous system can discharge stored stress and tension, build resilience and regulate more deeply. The two days count as <strong>Module 1 of the Global TRE™ Provider Certification Program</strong>.</p>
+    <p>TRE™ (Tension, Stress &amp;amp; Trauma Releasing Exercises) is designed to activate the body’s natural neurogenic tremoring response, a reflex through which the nervous system can discharge stored stress and tension, build resilience and regulate more deeply. The two days count as <strong>Module 1 of the Global TRE™ Provider Certification Program</strong>.</p>
 
     <h2>Who it is for</h2>
     <ul class="ce-list">
-      <li>Coaches in training (ACC, PCC &amp; MCC level)</li>
-      <li>Those looking to prevent &amp; recover from compassion fatigue and burnout</li>
+      <li>Coaches in training (ACC, PCC &amp;amp; MCC level)</li>
+      <li>Those looking to prevent &amp;amp; recover from compassion fatigue and burnout</li>
       <li>Anyone wanting a body-led modality for deep nervous system resilience</li>
       <li>Coaches seeking to complement their certifications with TRE™</li>
-      <li>Anyone weighing up the full Global TRE™ Provider Certification (Modules 1, 2 &amp; 3)</li>
+      <li>Anyone weighing up the full Global TRE™ Provider Certification (Modules 1, 2 &amp;amp; 3)</li>
     </ul>
 
     <h2 id="programme">Programme — 2 days in Singapore</h2>
@@ -219,7 +219,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
       </div>
       <div class="ce-day">
         <div class="when"><b>Day 2</b><span>30 Aug · Sunday · SGT</span></div>
-        <div><h4>TRE™ Module 1 — Part 2 &amp; Completion</h4><p>Deepening the practice, integration and completion of Module 1 requirements. Guidance toward Modules 2 and 3 of the Global TRE™ Provider Certification. Certificate of completion issued.</p></div>
+        <div><h4>TRE™ Module 1 — Part 2 &amp;amp; Completion</h4><p>Deepening the practice, integration and completion of Module 1 requirements. Guidance toward Modules 2 and 3 of the Global TRE™ Provider Certification. Certificate of completion issued.</p></div>
       </div>
     </div>
 
@@ -254,7 +254,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     <div class="ce-box evtl-form-card">
       <span class="ce-soldtag">Sold out · event ended</span>
       <h3>This event has ended</h3>
-      <p class="sub">This cohort was fully booked and took place on 29 &amp; 30 Aug 2026. See what’s coming up next.</p>
+      <p class="sub">This cohort was fully booked and took place on 29 &amp;amp; 30 Aug 2026. See what’s coming up next.</p>
       <div class="ce-tiers">
         <div class="ce-tier hl"><div class="tl">ICF Special<small>the sold-out cohort price</small></div><div class="tp">S$1,290</div></div>
         <div class="ce-tier"><div class="tl">Early Bird</div><div class="tp">S$1,500</div></div>
@@ -287,7 +287,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
 </section><footer>
   <div class="foot-grid">
     <div>
-      <a href="/" class="foot-logo"><img src="/images/logo-dark.webp" alt="HummingBeing — Coaching &amp; Somatics" style="height:48px;width:auto;display:block" width="144" height="48"/></a>
+      <a href="/" class="foot-logo"><img src="/images/logo-dark.webp" alt="HummingBeing — Coaching &amp; Somatics" style="height:48px;width:auto;display:block" width="144" height="48" loading="eager"/></a>
       <p class="foot-desc">Science backed processes with TRE™, Coaching and Somatic Practices — a space to release, renew and restore.</p>
       <p class="foot-desc">Part of <strong>Business and Human Development Consulting Pte Ltd</strong></p>
       <div class="foot-socials">
@@ -300,9 +300,9 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     <div>
       <div class="foot-h">Work with Isabelle</div>
       <ul class="foot-links">
-        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™</a></li>
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp;amp; TRE™</a></li>
         <li><a href="/tre-certification">TRE™ Certification</a></li>
-        <li><a href="/retreats-workshops">Retreats &amp; Workshops</a></li>
+        <li><a href="/retreats-workshops">Retreats &amp;amp; Workshops</a></li>
         <li><a href="/events">Events</a></li>
         <li><a href="/book">Book a free call</a></li>
       </ul>

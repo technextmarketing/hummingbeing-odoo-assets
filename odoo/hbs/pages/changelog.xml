@@ -1,4 +1,4 @@
-<t t-name="hbs.page_changelog"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en&quot;}"/><t t-set="title">Changelog — HummingBeing</t><t t-set="head"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
+<t t-name="hbs.page_changelog"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en&quot;}"/><t t-set="title">Changelog — HummingBeing</t><t t-set="x_icon" t-value="&quot;/favicon-32.png?v=3&quot;"/><t t-set="head"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
 new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
 "https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
@@ -38,8 +38,8 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     @media (max-width: 640px) {
       .cl-entry { grid-template-columns: 1fr; gap: .75rem; }
     }
-  </style><link rel="preload" href="/fonts/hb/lato-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/hb/playfair-display-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/></t><t t-call="web.layout"><link rel="stylesheet" href="/styles.css?v=98"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXLR5LGG" height="0" width="0" style="display:none;visibility:hidden"/></noscript><nav>
-  <a href="/" class="logo"><img src="/images/logo-dark.webp" class="logo-on-dark" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/><img src="/images/logo-light.webp" class="logo-on-light" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/></a>
+  </style><link rel="preload" href="/fonts/hb/lato-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/hb/playfair-display-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/></t><t t-call="web.layout"><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXLR5LGG" height="0" width="0" style="display:none;visibility:hidden"/></noscript><nav>
+  <a href="/" class="logo"><img src="/images/logo-dark.webp" class="logo-on-dark" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto" loading="eager"/><img src="/images/logo-light.webp" class="logo-on-light" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto" loading="eager"/></a>
   <ul class="nav-links">
     <li><a href="/">Home</a></li>
     <li><a href="/about">About</a></li>
@@ -47,9 +47,9 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     <li class="nav-dropdown">
       <a href="javascript:void(0)" class="nav-dropdown-toggle">Work with Isabelle <i class="fa-solid fa-chevron-down nav-arrow"/></a>
       <ul class="nav-dropdown-menu">
-        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™<small>Private sessions, online or in person</small></a></li>
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp;amp; TRE™<small>Private sessions, online or in person</small></a></li>
         <li><a href="/tre-certification">TRE™ Certification<small>Become a certified TRE™ provider</small></a></li>
-        <li><a href="/retreats-workshops">Retreats &amp; Workshops<small>Groups, teams and executives</small></a></li>
+        <li><a href="/retreats-workshops">Retreats &amp;amp; Workshops<small>Groups, teams and executives</small></a></li>
       </ul>
     </li>
     <li><a href="/events">Events</a></li>
@@ -122,7 +122,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
       <div class="cl-body">
         <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span><span class="cl-tag cl-tag-fixed">Fixed</span></div>
         <ul>
-          <li><strong>Sitewide — Footer contact location</strong> — “Singapore &amp; Japan” updated to “Global” across all pages.</li>
+          <li><strong>Sitewide — Footer contact location</strong> — “Singapore &amp;amp; Japan” updated to “Global” across all pages.</li>
           <li><strong>index.html + isabelle.html + tre-certification.html — Dead link redirects</strong> — <code>tre.html</code> → <code>tre-certification.html</code>; <code>somatic-coaching.html</code> → <code>holistic-mastermind.html</code>; <code>somatic-bodywork.html</code> → <code>holistic-mastermind.html</code>.</li>
           <li><strong>Deleted 6 unused pages</strong> — <code>somatic-bodywork.html</code>, <code>somatic-coaching.html</code>, <code>somatic-healing.html</code>, <code>tre.html</code>, <code>image-audit.html</code>, <code>seo-audit.html</code>. All internal links updated before removal.</li>
         </ul>
@@ -138,7 +138,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
       <div class="cl-body">
         <div class="cl-tags"><span class="cl-tag cl-tag-fixed">Fixed</span><span class="cl-tag cl-tag-changed">Changed</span></div>
         <ul>
-          <li><strong>Sitewide (16 pages) — Footer contact</strong> — “Japan &amp; Worldwide” corrected to “Singapore &amp; Japan” in the Contact footer column.</li>
+          <li><strong>Sitewide (16 pages) — Footer contact</strong> — “Japan &amp;amp; Worldwide” corrected to “Singapore &amp;amp; Japan” in the Contact footer column.</li>
           <li><strong>Sitewide (14 pages) — Footer Company column</strong> — Removed stale “Retreats and Workshops” extra link left over from a previous nav restructure. Correct Services footer entry “Resilience Retreats” retained.</li>
           <li><strong>event-selfcare-coaches-singapore.html — Pricing</strong> — Added missing Early Bird (S$1,500 until 31 Jul 2026) and Normal Price (S$1,800) tiers below the ICF Special Price display.</li>
           <li><strong>events.html — Romania TRE™ Module 1 Bucharest card</strong> — Added “Contact for Pricing” pricing block (price not yet published).</li>
@@ -156,7 +156,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
       <div class="cl-body">
         <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
         <ul>
-          <li><strong>index.html + events.html — Countdown timers</strong> — Updated to next upcoming event: Singapore “Nervous System Regulation &amp; Neurogenic Tremoring” workshop, 29 August 2026 (<code>2026-08-29T09:00:00+08:00</code> SGT). Previously pointed to Romania Sep 3. Labels, date line and “View Event →” link updated accordingly.</li>
+          <li><strong>index.html + events.html — Countdown timers</strong> — Updated to next upcoming event: Singapore “Nervous System Regulation &amp;amp; Neurogenic Tremoring” workshop, 29 August 2026 (<code>2026-08-29T09:00:00+08:00</code> SGT). Previously pointed to Romania Sep 3. Labels, date line and “View Event →” link updated accordingly.</li>
         </ul>
       </div>
     </div>
@@ -184,7 +184,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
       <div class="cl-body">
         <div class="cl-tags"><span class="cl-tag cl-tag-added">Added</span></div>
         <ul>
-          <li><strong>events.html — Singapore For Certification card</strong> — Added “View &amp; Register →” button (<code>btn-dark</code>) linking to <code>tre-certification.html</code>. Both Singapore cards now match the Romania cards pattern: “View &amp; Register →” + “Book a Call via Calendly →” stacked buttons.</li>
+          <li><strong>events.html — Singapore For Certification card</strong> — Added “View &amp;amp; Register →” button (<code>btn-dark</code>) linking to <code>tre-certification.html</code>. Both Singapore cards now match the Romania cards pattern: “View &amp;amp; Register →” + “Book a Call via Calendly →” stacked buttons.</li>
         </ul>
       </div>
     </div>
@@ -198,8 +198,8 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
       <div class="cl-body">
         <div class="cl-tags"><span class="cl-tag cl-tag-added">Added</span><span class="cl-tag cl-tag-changed">Changed</span></div>
         <ul>
-          <li><strong>event-selfcare-coaches-singapore.html — New landing page</strong> — “Nervous System Regulation &amp; Self-Induced Neurogenic Tremoring: Self-Care and Presence for Coaches.” 2-day in-person Singapore workshop, 29 &amp; 30 August 2026. 21 ICF CCEUs (16 Resource Development + 5 Core Competencies). Valid as Module 1 of the Global TRE™ Provider Certification Program. Countdown timer targeting <code>2026-08-29T09:00:00+08:00</code> (SGT). Structured data, Calendly CTA, facilitator section (Isabelle), “Continue Your Journey” section linking to full certification path.</li>
-          <li><strong>events.html — Singapore Coaches card</strong> — Added “View &amp; Register →” link pointing to the new landing page, matching the pattern of Romania event cards.</li>
+          <li><strong>event-selfcare-coaches-singapore.html — New landing page</strong> — “Nervous System Regulation &amp;amp; Self-Induced Neurogenic Tremoring: Self-Care and Presence for Coaches.” 2-day in-person Singapore workshop, 29 &amp;amp; 30 August 2026. 21 ICF CCEUs (16 Resource Development + 5 Core Competencies). Valid as Module 1 of the Global TRE™ Provider Certification Program. Countdown timer targeting <code>2026-08-29T09:00:00+08:00</code> (SGT). Structured data, Calendly CTA, facilitator section (Isabelle), “Continue Your Journey” section linking to full certification path.</li>
+          <li><strong>events.html — Singapore Coaches card</strong> — Added “View &amp;amp; Register →” link pointing to the new landing page, matching the pattern of Romania event cards.</li>
         </ul>
       </div>
     </div>
@@ -316,7 +316,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
       <div class="cl-body">
         <div class="cl-tags"><span class="cl-tag cl-tag-added">Added</span></div>
         <ul>
-          <li><strong>gallery.html — 15 new images added</strong> — Da Nang TRE™ Conference Nov 2025, Dinner with David Berceli, Indoor skydiving with TRE™ colleagues, 4× Isabelle &amp; Saymara, TRE™ Module 1 May 2026, Isabelle with David Berceli &amp; Simba Stenqvist &amp; Nikki Tay, INSEAD campus visit, UK TRE™ students at Singapore airport, 2× UK TRE™ provider students, Asia TRE™ trainers with David Berceli, Chris Balsley Master Coach. All images copy from source and renamed to web-friendly slugs.</li>
+          <li><strong>gallery.html — 15 new images added</strong> — Da Nang TRE™ Conference Nov 2025, Dinner with David Berceli, Indoor skydiving with TRE™ colleagues, 4× Isabelle &amp;amp; Saymara, TRE™ Module 1 May 2026, Isabelle with David Berceli &amp;amp; Simba Stenqvist &amp;amp; Nikki Tay, INSEAD campus visit, UK TRE™ students at Singapore airport, 2× UK TRE™ provider students, Asia TRE™ trainers with David Berceli, Chris Balsley Master Coach. All images copy from source and renamed to web-friendly slugs.</li>
         </ul>
       </div>
     </div>
@@ -349,7 +349,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
         </div>
         <ul>
           <li><strong>All 15 pages — Services nav: 5 items → 3 items</strong> — Per the original brief (3 service categories): removed TRE™ Exercises, Coaching, Somatic Healing from nav (pages remain accessible). Kept Holistic Mastermind Ecosystem; renamed “Global TRE™ Certification” → “Global Certifications”; added “Resilience Retreats” (retreats-workshops.html, moved from Events).</li>
-          <li><strong>All 15 pages — Events dropdown removed</strong> — Events is now a single direct link to events.html. Retreats &amp; Workshops moved to Services.</li>
+          <li><strong>All 15 pages — Events dropdown removed</strong> — Events is now a single direct link to events.html. Retreats &amp;amp; Workshops moved to Services.</li>
           <li><strong>All 15 pages — Footer Services list updated</strong> — Now lists Holistic Mastermind Ecosystem, Global Certifications, Resilience Retreats and Book a Session.</li>
           <li><strong>retreats-workshops.html — Active state</strong> — Now correctly shows Services toggle active with “Resilience Retreats” highlighted.</li>
         </ul>
@@ -368,13 +368,13 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
           <span class="cl-tag cl-tag-changed">Changed</span>
         </div>
         <ul>
-          <li><strong>somatic-healing.html + retreats-workshops.html — Ticker</strong> — “BHD Asia &amp; BHD Japan” still present in both pages; corrected to “Business &amp; Human Development”.</li>
+          <li><strong>somatic-healing.html + retreats-workshops.html — Ticker</strong> — “BHD Asia &amp;amp; BHD Japan” still present in both pages; corrected to “Business &amp;amp; Human Development”.</li>
           <li><strong>gallery.html — Wrong YouTube video removed</strong> — ID <code>1PT1crBhhUE</code> (TRE™ FOR AFRICA Foundation video) appeared twice: podcast card link and embedded video card. Both replaced with channel links to <a href="https://www.youtube.com/@IsabelleClausTeixeira" target="_blank" rel="noopener">@IsabelleClausTeixeira</a>.</li>
-          <li><strong>somatic-coaching.html — “Eastern Wisdom + Neuroscience” tag removed</strong> — Replaced with “Neuroscience + Somatics”. Title, meta, OG, Twitter, JSON-LD service name all updated from “Somatic Coaching Singapore” to “Coaching | Somatic, Trauma &amp; Neuroscience-Informed”. CTA button updated.</li>
+          <li><strong>somatic-coaching.html — “Eastern Wisdom + Neuroscience” tag removed</strong> — Replaced with “Neuroscience + Somatics”. Title, meta, OG, Twitter, JSON-LD service name all updated from “Somatic Coaching Singapore” to “Coaching | Somatic, Trauma &amp;amp; Neuroscience-Informed”. CTA button updated.</li>
           <li><strong>about.html — Stale service names</strong> — “Somatic Coaching” → “Coaching” and “Bodywork” → “Mindfulness” across meta description, OG, Twitter, JSON-LD and body text.</li>
           <li><strong>All 15 pages — Ticker</strong> — “Somatic Coaching” → “Coaching”; “Strozzi Bodywork Method” → “Mindfulness” across every page.</li>
           <li><strong>All 15 pages — Nav Coaching label</strong> — “Coaching, somatic, trauma and neuroscience informed.” shortened to “Coaching”.</li>
-          <li><strong>index.html — Title/OG/Twitter/JSON-LD</strong> — “Somatic Coaching in Singapore &amp; Japan” → “Coaching in Japan &amp; Worldwide”; JSON-LD description updated.</li>
+          <li><strong>index.html — Title/OG/Twitter/JSON-LD</strong> — “Somatic Coaching in Singapore &amp;amp; Japan” → “Coaching in Japan &amp;amp; Worldwide”; JSON-LD description updated.</li>
           <li><strong>tre.html — Meta/OG/Twitter</strong> — “certified TRE™ Provider” → “Global TRE™ Certifying Trainer” in all three tags. OG image alt updated.</li>
           <li><strong>holistic-mastermind.html — Ticker position</strong> — Ticker was rendering above the hero; moved to after the hero, matching all other pages.</li>
           <li><strong>socials.html — Stale ticker item removed</strong> — Removed “Certified TRE™ Provider” ticker items (stale alongside correct “Global TRE™ Certifying Trainer”).</li>
@@ -428,9 +428,9 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
         </div>
         <ul>
           <li><strong>isabelle.html — Continuously Studying card</strong> — Added missing sentence from original feedback doc: “Isabelle is passionate and dedicated to her own development so she can best serve her clients and ensure her practice reflects the latest developments.”</li>
-          <li><strong>book.html — “Somatic Coaching” → “Coaching”</strong> — Replaced in 3 visible-text locations: service form dropdown, FAQ answer, and Session Lengths sidebar. Meta/OG/Twitter descriptions also updated (Somatic Coaching → Coaching, Somatic Bodywork → Mindfulness, Singapore &amp; Japan → Japan).</li>
-          <li><strong>All 15 pages — Ticker</strong> — “BHD Asia &amp; BHD Japan” → “Business &amp; Human Development” in scrolling ticker across every page.</li>
-          <li><strong>events.html — Title &amp; meta</strong> — “TRE™ Events &amp; Workshops Singapore &amp; Japan” → “TRE™ Events &amp; Workshops | Japan &amp; Worldwide”. Meta description updated to “in Japan and worldwide”.</li>
+          <li><strong>book.html — “Somatic Coaching” → “Coaching”</strong> — Replaced in 3 visible-text locations: service form dropdown, FAQ answer, and Session Lengths sidebar. Meta/OG/Twitter descriptions also updated (Somatic Coaching → Coaching, Somatic Bodywork → Mindfulness, Singapore &amp;amp; Japan → Japan).</li>
+          <li><strong>All 15 pages — Ticker</strong> — “BHD Asia &amp;amp; BHD Japan” → “Business &amp;amp; Human Development” in scrolling ticker across every page.</li>
+          <li><strong>events.html — Title &amp;amp; meta</strong> — “TRE™ Events &amp;amp; Workshops Singapore &amp;amp; Japan” → “TRE™ Events &amp;amp; Workshops | Japan &amp;amp; Worldwide”. Meta description updated to “in Japan and worldwide”.</li>
           <li><strong>Blocked (pending Isabelle)</strong> — Hero image on index.html still uses original image. Feedback doc provides 5 reference stock images showing business-professional direction (mid/senior level, stress management context). Will swap once actual file is supplied.</li>
         </ul>
       </div>
@@ -453,11 +453,11 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
           <li><strong>isabelle.html — Credential card body text</strong> — Visible card copy updated: “Accredited as a Global TRE™ Certifying Trainer and Certified Provider under Dr. David Berceli’s methodology — the highest level of TRE™ qualification worldwide.”</li>
           <li><strong>index.html — Meta/schema</strong> — Meta description, OG, Twitter, JSON-LD description and <code>serviceType</code>: “Somatic Bodywork” → “Mindfulness” throughout.</li>
           <li><strong>somatic-healing.html — Nav fixed</strong> — Services dropdown was missing Holistic Mastermind Ecosystem and Global TRE™ Certification items; now shows all 5.</li>
-          <li><strong>holistic-mastermind.html — Structural fix</strong> — Removed erroneous <code>&lt;header&gt;</code> wrapper around <code>&lt;nav&gt;</code>.</li>
+          <li><strong>holistic-mastermind.html — Structural fix</strong> — Removed erroneous <code>&amp;lt;header&gt;</code> wrapper around <code>&amp;lt;nav&gt;</code>.</li>
           <li><strong>somatic-bodywork.html — Nav active class</strong> — Services dropdown toggle now has <code>active</code> class, matching all other service pages.</li>
           <li><strong>book.html — Service names</strong> — Form dropdown and session lengths sidebar: “Somatic Bodywork” → “Mindfulness”.</li>
           <li><strong>tre-certification.html — Footer order</strong> — “Holistic Mastermind Ecosystem” moved to first position in Services list.</li>
-          <li><strong>socials.html — Title tag</strong> — “Podcast &amp; Resources” → “Follow &amp; Connect | Social Media &amp; Resources”.</li>
+          <li><strong>socials.html — Title tag</strong> — “Podcast &amp;amp; Resources” → “Follow &amp;amp; Connect | Social Media &amp;amp; Resources”.</li>
           <li><strong>All 14 ticker pages — Ticker item</strong> — “Somatic Bodywork” ticker item replaced with “Mindfulness”.</li>
         </ul>
       </div>
@@ -498,7 +498,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
           <li><strong>Section 1 — Why Holistic?</strong> — Two-col layout (about-why-exists.jpg left); 3 paragraphs on physiological performance premise; four tags: Cognitive Optimization, Somatic Decompression, Energetic Mastery, Expressive Vision.</li>
           <li><strong>Section 2 — The Four Pillars</strong> — <code>section-sage</code>; 4-card grid (gold-top/sage-top/green-top/gold-top): I. The Tactical Mind, II. The Somatic Vessel, III. The Energetic Matrix, IV. The Expressive Vision — each with icon, tagline, description and service tags.</li>
           <li><strong>Section 3 — Your Journey</strong> — <code>section-white</code>; 4-step pathway: Discovery → Foundation Work → Pillar Integration → Sustained Transformation.</li>
-          <li><strong>Section 4 — The Right Guide</strong> — <code>section-cream</code>; two-col reverse (isabelle-her-story.jpg); credentials narrative + 6-item feature list (ICF PCC, Global TRE™ Certifying Trainer, Strozzi, Reiki, Breathwork, NLP &amp; Mindfulness); inline CTA to isabelle.html.</li>
+          <li><strong>Section 4 — The Right Guide</strong> — <code>section-cream</code>; two-col reverse (isabelle-her-story.jpg); credentials narrative + 6-item feature list (ICF PCC, Global TRE™ Certifying Trainer, Strozzi, Reiki, Breathwork, NLP &amp;amp; Mindfulness); inline CTA to isabelle.html.</li>
           <li><strong>CTA banner</strong> — “Ready to Work at Every Level?” with Book a Free Discovery Call.</li>
           <li><strong>Nav</strong> — Services dropdown active state on Holistic Mastermind Ecosystem.</li>
           <li><strong>Footer</strong> — Full updated Services list including Holistic Mastermind Ecosystem and Global TRE™ Certification.</li>
@@ -519,7 +519,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
         </div>
         <ul>
           <li><strong>New page — tre-certification.html</strong> — Full certification service page for Isabelle’s Global TRE™ Provider Certification training. Hero with dual CTA (Enquire / Learn About TRE™), custom ticker, and 6 content sections.</li>
-          <li><strong>Section 1 — Your Trainer</strong> — Two-col with image: Isabelle as Global TRE™ Certifying Trainer accredited by TRE™ for All under Dr. David Berceli’s methodology. Tags: Global TRE™ Certifying Trainer, Dr. David Berceli Methodology, 30 Years Experience, Asia Pacific &amp; Global.</li>
+          <li><strong>Section 1 — Your Trainer</strong> — Two-col with image: Isabelle as Global TRE™ Certifying Trainer accredited by TRE™ for All under Dr. David Berceli’s methodology. Tags: Global TRE™ Certifying Trainer, Dr. David Berceli Methodology, 30 Years Experience, Asia Pacific &amp;amp; Global.</li>
           <li><strong>Section 2 — Why TRE™ Is Worth Certifying In</strong> — 6-card grid (Evidence-Based, Teachable, Physiologically Grounded, Versatile, Globally Recognised, Fast to See Results).</li>
           <li><strong>Section 3 — How the Certification Works</strong> — 4-step pathway: Module 1 (in-person) → Supervised Practice → Module 2 (in-person or online) → Certification (TRE™ for All certificate).</li>
           <li><strong>Section 4 — Who This Is For</strong> — Two-col with feature list: coaches, therapists, HR/OD, physios/yoga teachers, trauma support workers, practitioners with personal TRE™ experience.</li>
@@ -527,7 +527,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
           <li><strong>Section 6 — What’s Included</strong> — Two-col with feature list covering all training inclusions; note on variable pricing; Enquire CTA.</li>
           <li><strong>CTA banner</strong> — “Ready to Add TRE™ to Your Practice?” with Enquire Now button.</li>
           <li><strong>Nav</strong> — Services dropdown includes Holistic Mastermind Ecosystem and Global TRE™ Certification entries.</li>
-          <li><strong>Footer</strong> — Services list includes Global TRE™ Certification and Holistic Mastermind Ecosystem; BHD full name; Japan &amp; Worldwide.</li>
+          <li><strong>Footer</strong> — Services list includes Global TRE™ Certification and Holistic Mastermind Ecosystem; BHD full name; Japan &amp;amp; Worldwide.</li>
         </ul>
       </div>
     </div>
@@ -548,14 +548,14 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
           <li><strong>index.html</strong> — Service cards: "Somatic Coaching" → "Coaching" and "Somatic Bodywork" → "Mindfulness" with updated descriptions.</li>
           <li><strong>about.html</strong> — Hero updated: "A Safe Space to" → "Science Backed Processes to"; subtitle updated to 30 years + trauma-informed + mindfulness + somatics.</li>
           <li><strong>about.html</strong> — Mission section: "rooted in neuroscience and Eastern wisdom" → "trauma-informed, mindfulness and neuroscience backed practices".</li>
-          <li><strong>about.html</strong> — BHD section: "BHD Asia &amp; BHD Japan" → "Business and Human Development Consulting Pte Ltd".</li>
-          <li><strong>isabelle.html</strong> — Hero subtitle replaced with full credentials list (PCC, Resilience Coach, Mindfulness Teacher, Somatic Coach, Somatic Bodyworker, Global TRE™ Certifying Trainer, Provider, Breathwork Facilitator, Reiki &amp; Core Shamanism Healer).</li>
-          <li><strong>isabelle.html</strong> — Credentials cards: TRE™ card → "Global TRE™ Certifying Trainer &amp; Certified TRE™ Provider"; Executive Coach card → "ICF PCC Level Certified Executive Coach"; Reiki card → "Certified Accredited Usui/Holy Fire III Reiki Healer" and moved up to position 4; Ongoing Studies → "Continuously Studying &amp; Growing" with updated text.</li>
+          <li><strong>about.html</strong> — BHD section: "BHD Asia &amp;amp; BHD Japan" → "Business and Human Development Consulting Pte Ltd".</li>
+          <li><strong>isabelle.html</strong> — Hero subtitle replaced with full credentials list (PCC, Resilience Coach, Mindfulness Teacher, Somatic Coach, Somatic Bodyworker, Global TRE™ Certifying Trainer, Provider, Breathwork Facilitator, Reiki &amp;amp; Core Shamanism Healer).</li>
+          <li><strong>isabelle.html</strong> — Credentials cards: TRE™ card → "Global TRE™ Certifying Trainer &amp;amp; Certified TRE™ Provider"; Executive Coach card → "ICF PCC Level Certified Executive Coach"; Reiki card → "Certified Accredited Usui/Holy Fire III Reiki Healer" and moved up to position 4; Ongoing Studies → "Continuously Studying &amp;amp; Growing" with updated text.</li>
           <li><strong>isabelle.html</strong> — Info strip: location → "Currently living in Japan and working globally"; languages → "English, Spanish and French"; experience → "global, European and Asia Pacific"; BHD name updated.</li>
           <li><strong>isabelle.html</strong> — "Three Ways to Begin": "Somatic Coaching" → "Coaching"; "Somatic Bodywork" → "Mindfulness".</li>
           <li><strong>somatic-coaching.html</strong> — Hero updated to reflect coaching positioning (somatic, trauma and neuroscience informed).</li>
           <li><strong>retreats-workshops.html</strong> — Added "Resilience Retreats for Professionals" section with The Corporate Detox (5 days/4 nights) and The Quick Reset (3 days/2 nights) programme descriptions.</li>
-          <li><strong>All 13 pages — Footer</strong> — "BHD Asia &amp; BHD Japan" → "Business and Human Development Consulting Pte Ltd" (footer description, BHD name, copyright); "A safe space to learn" → "Science backed processes"; footer Services "Somatic Coaching" → "Coaching"; contact location "Singapore &amp; Japan" → "Japan &amp; Worldwide".</li>
+          <li><strong>All 13 pages — Footer</strong> — "BHD Asia &amp;amp; BHD Japan" → "Business and Human Development Consulting Pte Ltd" (footer description, BHD name, copyright); "A safe space to learn" → "Science backed processes"; footer Services "Somatic Coaching" → "Coaching"; contact location "Singapore &amp;amp; Japan" → "Japan &amp;amp; Worldwide".</li>
         </ul>
       </div>
     </div>
@@ -669,7 +669,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
           <span class="cl-tag cl-tag-changed">Mobile</span>
         </div>
         <ul>
-          <li><strong>Google Fonts — render-blocking eliminated</strong> — Replaced CSS <code>@import</code> with <code>&lt;link rel="preconnect"&gt;</code> + stylesheet link in HTML on all pages.</li>
+          <li><strong>Google Fonts — render-blocking eliminated</strong> — Replaced CSS <code>@import</code> with <code>&amp;lt;link rel="preconnect"&gt;</code> + stylesheet link in HTML on all pages.</li>
           <li><strong>Font Awesome — CDN preconnect</strong> — Added <code>rel="preconnect"</code> hint for <code>cdnjs.cloudflare.com</code> on all pages.</li>
           <li><strong>CSS — will-change added to animated elements</strong> — Added <code>will-change</code> to <code>.ticker-track</code>, <code>.wa-float</code>, and <code>.anim-*</code> for smoother GPU-composited animation.</li>
           <li><strong>CSS — dead code removed</strong> — Removed unused <code>@keyframes btn-pulse-gold</code> and unused CSS variables.</li>
@@ -681,17 +681,17 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
           <li><strong>All pages — scripts.js defer</strong> — Added <code>defer</code> attribute to <code>scripts.js</code> on all pages.</li>
           <li><strong>All pages — nav dropdown href fixed</strong> — Changed Services toggle from <code>href="#"</code> to <code>href="javascript:void(0)"</code>.</li>
           <li><strong>All pages — copyright year updated</strong> — Updated footer copyright from 2024 to 2026 across all pages.</li>
-          <li><strong>All pages — dead policy links</strong> — Converted non-existent Privacy Policy and Terms of Service links to plain text <code>&lt;span&gt;</code> elements.</li>
+          <li><strong>All pages — dead policy links</strong> — Converted non-existent Privacy Policy and Terms of Service links to plain text <code>&amp;lt;span&gt;</code> elements.</li>
           <li><strong>index.html — CTA after steps section</strong> — Added Book a Free Chat CTA button after the How It Works steps; alternated section backgrounds for visual separation.</li>
           <li><strong>isabelle.html — Global Journey padding</strong> — Moved <code>#global-journey</code> inline padding to a CSS rule.</li>
           <li><strong>tre.html — inline min-height removed</strong> — Removed inline <code>min-height</code> from <code>.two-col-image</code>.</li>
-          <li><strong>somatic-coaching.html — heading hierarchy fixed</strong> — Changed <code>&lt;h4&gt;</code> to <code>&lt;h3&gt;</code> for correct heading structure; alternated section backgrounds.</li>
-          <li><strong>somatic-bodywork.html — heading hierarchy fixed</strong> — Changed <code>&lt;h4&gt;</code> to <code>&lt;h3&gt;</code> for correct heading structure.</li>
+          <li><strong>somatic-coaching.html — heading hierarchy fixed</strong> — Changed <code>&amp;lt;h4&gt;</code> to <code>&amp;lt;h3&gt;</code> for correct heading structure; alternated section backgrounds.</li>
+          <li><strong>somatic-bodywork.html — heading hierarchy fixed</strong> — Changed <code>&amp;lt;h4&gt;</code> to <code>&amp;lt;h3&gt;</code> for correct heading structure.</li>
           <li><strong>about.html — inline min-height removed</strong> — Removed inline <code>min-height</code> from <code>.two-col-image</code>.</li>
           <li><strong>events.html — countdown ring max fixed; dead CSS removed</strong> — Fixed countdown ring max value; removed dead CSS classes.</li>
           <li><strong>gallery.html — filter class-based toggle</strong> — Fixed <code>galleryFilter</code> to use class-based toggle instead of direct style manipulation.</li>
           <li><strong>socials.html — external link security</strong> — Added <code>rel="noopener noreferrer"</code> to all external blank-target links.</li>
-          <li><strong>changelog.html — SEO &amp; structure</strong> — Added <code>noindex</code> meta; replaced marketing hero with minimal header; removed ticker.</li>
+          <li><strong>changelog.html — SEO &amp;amp; structure</strong> — Added <code>noindex</code> meta; replaced marketing hero with minimal header; removed ticker.</li>
         </ul>
       </div>
     </div>
@@ -713,7 +713,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
           <li><strong>index.html — scripts.js defer</strong> — Added <code>defer</code> attribute to the scripts.js script tag to improve page load performance.</li>
           <li><strong>index.html — Nav dropdown href fixed</strong> — Changed Services toggle from <code>href="#"</code> to <code>href="javascript:void(0)"</code> to prevent unwanted scroll-to-top on click.</li>
           <li><strong>index.html — Copyright year updated</strong> — Footer copyright changed from 2024 to 2026.</li>
-          <li><strong>index.html — Dead links replaced</strong> — Privacy Policy and Terms of Service changed from <code>&lt;a href="#"&gt;</code> to <code>&lt;span&gt;</code> since no destination pages exist yet.</li>
+          <li><strong>index.html — Dead links replaced</strong> — Privacy Policy and Terms of Service changed from <code>&amp;lt;a href="#"&gt;</code> to <code>&amp;lt;span&gt;</code> since no destination pages exist yet.</li>
           <li><strong>index.html — Footer separator class</strong> — Replaced inline <code>style="opacity:.4"</code> on the footer <code>·</code> separator with <code>class="foot-sep"</code>.</li>
           <li><strong>index.html — Hero video title</strong> — Added <code>title="Somatic wellness — HummingBeing background video"</code> for accessibility.</li>
           <li><strong>index.html — Image attributes</strong> — Nav logos get <code>width="168" height="56"</code>; footer logo gets <code>width="144" height="48"</code>; all body images get <code>loading="lazy" decoding="async"</code> and <code>width="800" height="600"</code>.</li>
@@ -734,7 +734,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
           <span class="cl-tag cl-tag-fixed">Fixed</span>
         </div>
         <ul>
-          <li><strong>isabelle.html — Global Journey section stacking</strong> — The <code>#global-journey .two-col</code> inline style (<code>1.05fr 0.95fr</code>) had higher CSS specificity than the responsive rule, preventing it from stacking to single column on mobile. Fixed by adding an explicit <code>@media (max-width: 900px)</code> override with <code>!important</code> inside the page's own <code>&lt;style&gt;</code> block.</li>
+          <li><strong>isabelle.html — Global Journey section stacking</strong> — The <code>#global-journey .two-col</code> inline style (<code>1.05fr 0.95fr</code>) had higher CSS specificity than the responsive rule, preventing it from stacking to single column on mobile. Fixed by adding an explicit <code>@media (max-width: 900px)</code> override with <code>!important</code> inside the page's own <code>&amp;lt;style&gt;</code> block.</li>
           <li><strong>somatic-coaching.html — Pricing grid responsive</strong> — Replaced the inline <code>grid-template-columns: repeat(3,1fr)</code> style attribute (which cannot be overridden by media queries) with the existing <code>.pricing-grid</code> CSS class, which already collapses to 1 column at 900px.</li>
         </ul>
       </div>
@@ -900,10 +900,10 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
           <span class="cl-tag cl-tag-changed">Changed</span>
         </div>
         <ul>
-          <li><strong>SEO — Page titles</strong> — All 10 HTML pages now have keyword-rich, location-targeted titles (e.g. <em>"TRE™ Exercises Singapore | Tension &amp; Trauma Release | HummingBeing"</em>) replacing generic placeholders.</li>
+          <li><strong>SEO — Page titles</strong> — All 10 HTML pages now have keyword-rich, location-targeted titles (e.g. <em>"TRE™ Exercises Singapore | Tension &amp;amp; Trauma Release | HummingBeing"</em>) replacing generic placeholders.</li>
           <li><strong>SEO — Meta descriptions</strong> — All 10 pages updated with concise, keyword-optimised descriptions covering TRE™, somatic coaching, Isabelle's credentials and geo locations (Singapore, Japan, online).</li>
           <li><strong>SEO — Meta keywords</strong> — Keyword tags added to all 10 pages covering primary and secondary terms: TRE™ Singapore, somatic coaching Singapore, Isabelle Claus Teixeira, nervous system reset, burnout recovery, etc.</li>
-          <li><strong>SEO — Canonical URLs</strong> — <code>&lt;link rel="canonical"&gt;</code> added to all 10 pages pointing to their full GitHub Pages URL.</li>
+          <li><strong>SEO — Canonical URLs</strong> — <code>&amp;lt;link rel="canonical"&gt;</code> added to all 10 pages pointing to their full GitHub Pages URL.</li>
           <li><strong>SEO — Robots meta</strong> — <code>index, follow</code> directive added to all 10 pages.</li>
           <li><strong>AEO/GEO — Open Graph tags</strong> — Full OG set (type, site_name, title, description, url, image, image:alt, locale) added to all 10 pages for rich link previews on LinkedIn, Facebook, WhatsApp, etc.</li>
           <li><strong>AEO/GEO — Twitter / X Cards</strong> — <code>summary_large_image</code> card tags added to all 10 pages.</li>
@@ -957,7 +957,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
         </div>
         <ul>
           <li><strong>book.html — Isabelle card portrait</strong> — Replaced generic <code>fa-user</code> icon with Isabelle's real portrait photo (<code>isabelle-her-story.jpg</code>), displayed as a circular 90px avatar with gold border using the existing <code>.isa-avatar</code> class.</li>
-          <li><strong>about.html — Hummingbird Metaphor image frame</strong> — Converted plain <code>&lt;img&gt;</code> to a <code>.two-col-image</code> wrapper with <code>min-height:572px</code> (10% taller than the standard 520px), so the image fills its column consistently with other sections.</li>
+          <li><strong>about.html — Hummingbird Metaphor image frame</strong> — Converted plain <code>&amp;lt;img&gt;</code> to a <code>.two-col-image</code> wrapper with <code>min-height:572px</code> (10% taller than the standard 520px), so the image fills its column consistently with other sections.</li>
         </ul>
       </div>
     </div>
@@ -974,7 +974,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
         </div>
         <ul>
           <li><strong>tre.html — TRE™ in Asia heading</strong> — Changed <code>font-weight:300</code> to <code>700</code> so heading matches the bold weight used across all other page sections.</li>
-          <li><strong>somatic-bodywork.html — Soma heading</strong> — Fixed wrong HTML entity: <code>&amp;#7766;</code> (Latin Ṗ) corrected to <code>&amp;#8182;</code> (Greek ῶ — omega with perispomeni). Now renders correctly as Soma (σῶμα). Also changed <code>font-weight:300</code> to <code>700</code>.</li>
+          <li><strong>somatic-bodywork.html — Soma heading</strong> — Fixed wrong HTML entity: <code>&amp;amp;#7766;</code> (Latin Ṗ) corrected to <code>&amp;amp;#8182;</code> (Greek ῶ — omega with perispomeni). Now renders correctly as Soma (σῶμα). Also changed <code>font-weight:300</code> to <code>700</code>.</li>
         </ul>
       </div>
     </div>
@@ -1176,7 +1176,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
       <div class="cl-body">
         <div class="cl-tags"><span class="cl-tag cl-tag-added">Added</span></div>
         <ul>
-          <li><strong>tre.html — Safety &amp; Suitability section</strong> — replaced placeholder with group meditation image (3 people in calm seated practice)</li>
+          <li><strong>tre.html — Safety &amp;amp; Suitability section</strong> — replaced placeholder with group meditation image (3 people in calm seated practice)</li>
           <li>"What Is TRE™?" and "Benefits" placeholders remain — source subfolders were empty</li>
         </ul>
       </div>
@@ -1270,7 +1270,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
           <li><strong>somatic-coaching.html</strong> — Process subtitle softened; Testimonials heading: "The Somatic Difference" → "Client Voices"</li>
           <li><strong>somatic-bodywork.html</strong> — Benefits subtitle: "transformation that touches every dimension" → honest description; Testimonials: "Transformations Through Bodywork" → "Client Voices"; fixed broken encoding (middle dot)</li>
           <li><strong>isabelle.html</strong> — Global Journey heading: "One Mission" brand tagline removed; facts speak for themselves</li>
-          <li><strong>book.html</strong> — Trust bar: credential/award icons replaced with service-oriented items (personal reply, no pressure, you set the pace); Pricing eyebrow: "Investment" → "Sessions &amp; Pricing"</li>
+          <li><strong>book.html</strong> — Trust bar: credential/award icons replaced with service-oriented items (personal reply, no pressure, you set the pace); Pricing eyebrow: "Investment" → "Sessions &amp;amp; Pricing"</li>
         </ul>
       </div>
     </div>
@@ -1286,7 +1286,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
         <ul>
           <li><strong>Philosophy rewrite — isabelle.html + about.html</strong> — applied Isabelle's core philosophy: humility over self-promotion, service over image, ongoing inner work as the real credential</li>
           <li><strong>isabelle.html — Bio</strong> — rewritten to include her personal healing journey: healed herself from toxic work environments, comes to this work as someone who has walked through it and continues their own inner work</li>
-          <li><strong>isabelle.html — Credentials header</strong> — changed "Expertise You Can Trust" to "Her Training &amp; Formation"</li>
+          <li><strong>isabelle.html — Credentials header</strong> — changed "Expertise You Can Trust" to "Her Training &amp;amp; Formation"</li>
           <li><strong>isabelle.html — Personal Note</strong> — quote and body rewritten: "I don't do this work from a distance. I've walked through it myself." Names the toxic environment experience and the goal: empowered, respected, as healthy mentally and physically as possible</li>
           <li><strong>about.html — Mission</strong> — origin updated: born from Isabelle's own healing journey, not a career plan; outcome language now mirrors the philosophy</li>
           <li><strong>about.html — Philosophy section</strong> — added closing note on humility, service and ongoing practitioner inner work</li>
@@ -1325,8 +1325,8 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
         <h3 class="cl-title">Content simplification — 7 pages</h3>
         <ul class="cl-list">
           <li><strong>index.html</strong> — philosophy section 3→2 paragraphs; all 3 service card descriptions shortened</li>
-          <li><strong>about.html</strong> — mission 3→2 paragraphs; hummingbird 3→2 paragraphs; BHD section 3→2 paragraphs; pillars 01 &amp; 04 differentiated</li>
-          <li><strong>isabelle.html</strong> — bio paragraphs 2 &amp; 3 merged into one</li>
+          <li><strong>about.html</strong> — mission 3→2 paragraphs; hummingbird 3→2 paragraphs; BHD section 3→2 paragraphs; pillars 01 &amp;amp; 04 differentiated</li>
+          <li><strong>isabelle.html</strong> — bio paragraphs 2 &amp;amp; 3 merged into one</li>
           <li><strong>tre.html</strong> — "What is TRE™?" paragraphs simplified; jargon reduced</li>
           <li><strong>somatic-coaching.html</strong> — P3 rewritten; Commitment 3→2 paragraphs; benefits list trimmed 10→7 items</li>
           <li><strong>somatic-bodywork.html</strong> — SB P3 simplified; Strozzi Method 3→2 paragraphs; Soma Etymology 2→1 paragraph</li>
@@ -1818,7 +1818,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
         </div>
         <ul>
           <li><strong>events.html</strong> ï¿½ full-width event banner image placeholder (320px, dark, rounded 24px) above event cards</li>
-          <li><strong>Hero text &amp; buttons</strong> ï¿½ h1 and paragraph font sizes reduced 10% on <code>.hero</code> and <code>.page-hero</code> (all pages); hero buttons also 10% smaller</li>
+          <li><strong>Hero text &amp;amp; buttons</strong> ï¿½ h1 and paragraph font sizes reduced 10% on <code>.hero</code> and <code>.page-hero</code> (all pages); hero buttons also 10% smaller</li>
           <li><strong>Testimonials</strong> ï¿½ fixed to 3 columns; 4th+ entries hidden</li>
           <li>CSS bumped to v52</li>
         </ul>
@@ -1850,7 +1850,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
           <span class="cl-tag cl-tag-changed">Changed</span>
         </div>
         <ul>
-          <li><strong>Sitewide redesign — less boxy aesthetic:</strong> Buttons are now pill-shaped (<code>border-radius: 50px</code>); all cards rounded to 24px; rigid coloured top-bar accent on cards replaced with colour-coded icon backgrounds; two-col images rounded to 32px; testimonials get a decorative gold quote mark instead of a left border; step cards and pricing cards fully rounded; contact form 28px, inputs 12px; social &amp; platform cards 24px; nav dropdown 16px with subtle grey border; tags and platform buttons pill-shaped; video embeds 24px</li>
+          <li><strong>Sitewide redesign — less boxy aesthetic:</strong> Buttons are now pill-shaped (<code>border-radius: 50px</code>); all cards rounded to 24px; rigid coloured top-bar accent on cards replaced with colour-coded icon backgrounds; two-col images rounded to 32px; testimonials get a decorative gold quote mark instead of a left border; step cards and pricing cards fully rounded; contact form 28px, inputs 12px; social &amp;amp; platform cards 24px; nav dropdown 16px with subtle grey border; tags and platform buttons pill-shaped; video embeds 24px</li>
           <li><strong>Section transitions:</strong> Sections after sections now have curved tops (<code>border-radius: 40px 40px 0 0</code>) with a 40px overlap, creating an organic layered-card flow between sections</li>
           <li><strong>isabelle.html:</strong> Credential placeholder areas made full-bleed to match card image behaviour; info-cards rounded to 16px</li>
           <li><strong>CSS v51</strong> across all pages</li>
@@ -1906,7 +1906,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
         </div>
         <ul>
           <li><strong>Reiki Practitioner Level II</strong> — certificate image added to Isabelle’s Credentials section</li>
-          <li><strong>Restored TRE™ &amp; Somatic Bodywork pages</strong> — <code>tre.html</code> and <code>somatic-bodywork.html</code> restored; nav dropdowns, footer links, service cards and isabelle.html Work With Me section all reverted</li>
+          <li><strong>Restored TRE™ &amp;amp; Somatic Bodywork pages</strong> — <code>tre.html</code> and <code>somatic-bodywork.html</code> restored; nav dropdowns, footer links, service cards and isabelle.html Work With Me section all reverted</li>
         </ul>
       </div>
     </div>
@@ -1969,7 +1969,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
         </div>
         <ul>
           <li><strong>Events page ï¿½ animated countdown</strong> — dark section with SVG progress rings, digit flip animation, pulsing background, and CTA; between ticker and Featured Event</li>
-          <li><strong>Homepage ï¿½ event countdown bar</strong> — replaces stats bar; cream background, large animated digits, event title &amp; date, "View Event" CTA counting down to 5 Jul 2026</li>
+          <li><strong>Homepage ï¿½ event countdown bar</strong> — replaces stats bar; cream background, large animated digits, event title &amp;amp; date, "View Event" CTA counting down to 5 Jul 2026</li>
           <li><strong>Service cards ï¿½ real photos</strong> — TRE™, Somatic Coaching and Somatic Bodywork cards now show actual images</li>
           <li><strong>Homepage hero centering fixed</strong> — buttons and paragraph now correctly centred</li>
           <li><strong>CSS v50</strong> — cache-busted across all pages</li>
@@ -1986,7 +1986,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
       <div class="cl-body">
         <div class="cl-tags"><span class="cl-tag cl-tag-added">Added</span></div>
         <ul>
-          <li><strong>Ticker â€” 8 new items on all pages</strong> — Breathwork, Online &amp; In-Person, Group Sessions, Burnout Recovery, Deep Rest &amp; Renewal, Body Intelligence, Somatic Intelligence, Self-Regulation; applied to all 10 pages</li>
+          <li><strong>Ticker â€” 8 new items on all pages</strong> — Breathwork, Online &amp;amp; In-Person, Group Sessions, Burnout Recovery, Deep Rest &amp;amp; Renewal, Body Intelligence, Somatic Intelligence, Self-Regulation; applied to all 10 pages</li>
         </ul>
       </div>
     </div>
@@ -2213,10 +2213,10 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
       <div class="cl-body">
         <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
         <ul>
-          <li><strong>Text contrast &amp; readability â€” site-wide</strong> — <code>--body-text</code> darkened to <code>#3d4250</code>; <code>--text-mid</code> darkened to <code>#5f6472</code> (was failing WCAG AA at 3.5:1 contrast, now ~5.5:1)</li>
+          <li><strong>Text contrast &amp;amp; readability â€” site-wide</strong> — <code>--body-text</code> darkened to <code>#3d4250</code>; <code>--text-mid</code> darkened to <code>#5f6472</code> (was failing WCAG AA at 3.5:1 contrast, now ~5.5:1)</li>
           <li><strong>Font weight</strong> — removed <code>font-weight: 300</code> from all hero and section descriptions; now renders at normal weight for crisper legibility</li>
           <li><strong>Dark-background text</strong> — raised white-text opacity on hero paragraphs, CTA banner, pricing cards, step descriptions, footer, stats bar, and platform cards</li>
-          <li><strong>Card &amp; component text sizes</strong> — bumped font size on card descriptions, step text, social card descriptions, and podcast meta (+5â€“10%)</li>
+          <li><strong>Card &amp;amp; component text sizes</strong> — bumped font size on card descriptions, step text, social card descriptions, and podcast meta (+5â€“10%)</li>
           <li><strong>Inline style fixes</strong> — corrected low-opacity text in <code>events.html</code> (countdown, featured event, notify strip), <code>gallery.html</code> (video info, channel card, podcast meta, lightbox caption), <code>book.html</code> (trust items, blockquote), <code>socials.html</code> (newsletter description)</li>
         </ul>
       </div>
@@ -2260,7 +2260,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
       <div class="cl-body">
         <div class="cl-tags"><span class="cl-tag cl-tag-fixed">Fixed</span></div>
         <ul>
-          <li><strong>Hero image priority loading</strong> — added <code>&lt;link rel="preload" fetchpriority="high"&gt;</code> in <code>&lt;head&gt;</code> for every hero poster image across all 9 pages; changed <code>preload="auto"</code> to <code>preload="none"</code> on all hero videos so poster loads instantly before video data begins downloading</li>
+          <li><strong>Hero image priority loading</strong> — added <code>&amp;lt;link rel="preload" fetchpriority="high"&gt;</code> in <code>&amp;lt;head&gt;</code> for every hero poster image across all 9 pages; changed <code>preload="auto"</code> to <code>preload="none"</code> on all hero videos so poster loads instantly before video data begins downloading</li>
         </ul>
       </div>
     </div>
@@ -2274,7 +2274,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
       <div class="cl-body">
         <div class="cl-tags"><span class="cl-tag cl-tag-fixed">Fixed</span></div>
         <ul>
-          <li><strong>Lazy loading audit</strong> — all <code>&lt;img&gt;</code> tags already had <code>loading="lazy" decoding="async"</code>; added missing attribute to YouTube <code>&lt;iframe&gt;</code> embed on the TRE™ page</li>
+          <li><strong>Lazy loading audit</strong> — all <code>&amp;lt;img&gt;</code> tags already had <code>loading="lazy" decoding="async"</code>; added missing attribute to YouTube <code>&amp;lt;iframe&gt;</code> embed on the TRE™ page</li>
         </ul>
       </div>
     </div>
@@ -2331,7 +2331,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
       <div class="cl-body">
         <div class="cl-tags"><span class="cl-tag cl-tag-fixed">Fixed</span></div>
         <ul>
-          <li><strong>HTML audit â€” malformed attribute quotes</strong> — full desktop audit found <code>?</code> characters replacing <code>"</code> in HTML attributes across 4 pages; all corrected: <code>index.html</code> (7 broken attributes), <code>about.html</code> (section-eyebrow &amp; divider classes), <code>isabelle.html</code> (em style, blockquote curly quotes, img alt text), <code>tre.html</code> (paragraph style attribute)</li>
+          <li><strong>HTML audit â€” malformed attribute quotes</strong> — full desktop audit found <code>?</code> characters replacing <code>"</code> in HTML attributes across 4 pages; all corrected: <code>index.html</code> (7 broken attributes), <code>about.html</code> (section-eyebrow &amp;amp; divider classes), <code>isabelle.html</code> (em style, blockquote curly quotes, img alt text), <code>tre.html</code> (paragraph style attribute)</li>
         </ul>
       </div>
     </div>
@@ -2376,7 +2376,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
         <ul>
           <li><strong>Hero poster images</strong> — all 8 hero sections show a still image instantly while video loads (<code>poster-*</code> files for about, book, events, gallery, socials, bodywork, coaching, TRE™)</li>
           <li><strong>Hero videos added</strong> — <code>about.html</code> and <code>somatic-coaching.html</code> now have looping background videos replacing static image backgrounds</li>
-          <li><strong>Fast video playback</strong> — <code>preload="none"</code> added to all hero <code>&lt;video&gt;</code> tags for immediate downloading on page load</li>
+          <li><strong>Fast video playback</strong> — <code>preload="none"</code> added to all hero <code>&amp;lt;video&gt;</code> tags for immediate downloading on page load</li>
         </ul>
       </div>
     </div>
@@ -2481,7 +2481,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
       <div class="cl-body">
         <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
         <ul>
-          <li><strong>Hero title size</strong> — font size increased to <code>clamp(3.5rem, 7vw, 7.5rem)</code> on homepage and <code>clamp(3rem, 6.5vw, 6.5rem)</code> on inner pages; all hero h1s now single-row (removed <code>&lt;br&gt;</code> breaks)</li>
+          <li><strong>Hero title size</strong> — font size increased to <code>clamp(3.5rem, 7vw, 7.5rem)</code> on homepage and <code>clamp(3rem, 6.5vw, 6.5rem)</code> on inner pages; all hero h1s now single-row (removed <code>&amp;lt;br&gt;</code> breaks)</li>
           <li><strong>CSS version</strong> bumped to <code>v31</code></li>
         </ul>
       </div>
@@ -2527,7 +2527,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
         <div class="cl-tags"><span class="cl-tag cl-tag-changed">Changed</span></div>
         <ul>
           <li><strong>Two-tone hero headings</strong> — all hero h1s split into white bold line + gold italic second line; e.g. “Somatic / <em>Coaching</em>”, “Let’s Begin / <em>Together</em>”</li>
-          <li><strong>Hero text glow</strong> — white <code>text-shadow</code> glow on all hero h1s; gold shimmer glow on all italic <code>&lt;em&gt;</code> lines</li>
+          <li><strong>Hero text glow</strong> — white <code>text-shadow</code> glow on all hero h1s; gold shimmer glow on all italic <code>&amp;lt;em&gt;</code> lines</li>
           <li><strong>CSS version</strong> bumped to <code>v28</code></li>
         </ul>
       </div>
@@ -2656,7 +2656,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
           <li><strong>Book page redesign</strong> — full personal-branding audit; pricing cards forced to single row at all desktop sizes; trust bar with 4 credentials; sidebar with Isabelle quote, WhatsApp card, locations and session lengths; accordion FAQ</li>
           <li><strong>Button animations</strong> — shimmer sweep via <code>::after</code> pseudo-element, <code>translateY(-3px)</code> lift on hover, gold / navy / outline box-shadow glow per variant, press-down on active</li>
           <li><strong>Image placeholders</strong> — all non-Isabelle images across all pages replaced with dark gradient <code>.img-placeholder</code> blocks (“Photo Coming Soon”); Isabelle’s two photos kept; gallery image cards without a real photo lose hover/lightbox behaviour via <code>:not([onclick])</code> CSS</li>
-          <li><strong>Events nav &amp; footer link</strong> — added to all pages; CSS version bumped to <code>v19</code></li>
+          <li><strong>Events nav &amp;amp; footer link</strong> — added to all pages; CSS version bumped to <code>v19</code></li>
         </ul>
       </div>
     </div>
@@ -2826,7 +2826,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
         <ul>
           <li><strong>Services nav dropdown</strong> — consolidated TRE™, Somatic Coaching and Somatic Bodywork into a single dropdown across all 8 pages; desktop hover panel with gold border; mobile tap-to-expand</li>
           <li><strong>Active state</strong> — service pages mark both the Services toggle and matching sub-link as active</li>
-          <li><strong>socials.html rewrite</strong> — removed broken inline <code>&lt;style&gt;</code> referencing undefined CSS variables; platform cards and content-theme section redesigned with valid global styles</li>
+          <li><strong>socials.html rewrite</strong> — removed broken inline <code>&amp;lt;style&gt;</code> referencing undefined CSS variables; platform cards and content-theme section redesigned with valid global styles</li>
         </ul>
       </div>
     </div>
@@ -2856,11 +2856,11 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
         <ul>
           <li><strong>WhatsApp floating button</strong> — fixed-position green button with pulse animation on all pages</li>
           <li><strong>Scroll animations</strong> — IntersectionObserver fade-up/left/right on cards, steps, testimonials and stats; staggered entry; <code>prefers-reduced-motion</code> respected</li>
-          <li><strong>Hero &amp; page-hero entrance animations</strong> — eyebrow, h1, paragraph and CTA buttons cascade in on load</li>
+          <li><strong>Hero &amp;amp; page-hero entrance animations</strong> — eyebrow, h1, paragraph and CTA buttons cascade in on load</li>
           <li><strong>“Powered by TechNext”</strong> — added to footer across all 8 pages</li>
           <li><strong>Footer compacted</strong> — padding and gap reduced across all pages</li>
           <li><strong>Mobile nav</strong> — class-based toggle with hamburger ✕ animation and outside-click-to-close</li>
-          <li><strong>Arrow encoding fix</strong> — corrected <code>â†‘</code> mojibake → <code>&amp;#8594;</code> across all pages</li>
+          <li><strong>Arrow encoding fix</strong> — corrected <code>â†‘</code> mojibake → <code>&amp;amp;#8594;</code> across all pages</li>
         </ul>
       </div>
     </div>
@@ -2875,7 +2875,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
         <div class="cl-tags"><span class="cl-tag cl-tag-added">Added</span><span class="cl-tag cl-tag-changed">Changed</span></div>
         <ul>
           <li><strong>36 CTA buttons</strong> — “Book a Free Consultation” added to every section across all 7 public pages</li>
-          <li><strong>Hero &amp; CTA banner background photos</strong> — real lifestyle photography from hummingbeing.com with dark gradient overlays</li>
+          <li><strong>Hero &amp;amp; CTA banner background photos</strong> — real lifestyle photography from hummingbeing.com with dark gradient overlays</li>
           <li><strong>Fonts</strong> — switched to PT Serif (headings) + Lato (body), matching hummingbeing.com editorial style</li>
           <li><strong>All images replaced</strong> — Unsplash stock photos removed; real photos from hummingbeing.com across all pages</li>
           <li><strong>Card icons</strong> — redesigned as navy circle with gold Font Awesome icon</li>
@@ -2896,7 +2896,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
           <li><strong>Font Awesome 6.5.0</strong> — CDN added to all pages</li>
           <li><strong>Favicon</strong> — custom <code>favicon.svg</code> (navy circle, orange “H”)</li>
           <li><strong>YouTube embed</strong> — responsive 16:9 container on TRE™ page</li>
-          <li><strong>Tags &amp; card icons</strong> — <code>.tag</code> pill components and Font Awesome icons on service pages</li>
+          <li><strong>Tags &amp;amp; card icons</strong> — <code>.tag</code> pill components and Font Awesome icons on service pages</li>
           <li><strong>Footer social icons</strong> — Instagram, LinkedIn, YouTube, WhatsApp icon links in footer</li>
           <li><strong>UTF-8 mojibake fix</strong> — corrected broken encoding (em dashes, trademark symbol, curly quotes) across all 8 pages</li>
         </ul>
@@ -2969,7 +2969,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
 </section><footer>
   <div class="foot-grid">
     <div>
-      <a href="/" class="foot-logo"><img src="/images/logo-dark.webp" alt="HummingBeing — Coaching &amp; Somatics" width="144" height="48" style="height:48px;width:auto;display:block"/></a>
+      <a href="/" class="foot-logo"><img src="/images/logo-dark.webp" alt="HummingBeing — Coaching &amp; Somatics" width="144" height="48" style="height:48px;width:auto;display:block" loading="eager"/></a>
       <p class="foot-desc">Science backed processes with TRE™, Coaching and Somatic Practices — a space to release, renew and restore.</p>
       <p class="foot-desc">Part of <strong>Business and Human Development Consulting Pte Ltd</strong></p>
       <div class="foot-socials">
@@ -2982,9 +2982,9 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     <div>
       <div class="foot-h">Work with Isabelle</div>
       <ul class="foot-links">
-        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™</a></li>
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp;amp; TRE™</a></li>
         <li><a href="/tre-certification">TRE™ Certification</a></li>
-        <li><a href="/retreats-workshops">Retreats &amp; Workshops</a></li>
+        <li><a href="/retreats-workshops">Retreats &amp;amp; Workshops</a></li>
         <li><a href="/events">Events</a></li>
         <li><a href="/book">Book a free call</a></li>
       </ul>
@@ -3007,7 +3007,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
       <ul class="foot-links">
         <li><span>bonjour@bhd<span style="display:none">-no-spam</span>asia.com</span></li>
         <li><a href="https://wa.me/818065151778" target="_blank" rel="noopener noreferrer">WhatsApp Us</a></li>
-        <li><span>Japan &amp; Worldwide</span></li>
+        <li><span>Japan &amp;amp; Worldwide</span></li>
       </ul>
     </div>
   </div>

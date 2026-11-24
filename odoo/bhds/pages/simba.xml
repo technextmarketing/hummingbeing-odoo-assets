@@ -1,4 +1,4 @@
-<t t-name="bhds.page_simba"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en-US&quot;}"/><t t-set="title">Simba Stenqvist | Somatic Practitioner &amp; TRE™ | BHD Asia</t><t t-set="body_classname" t-value="&quot;page et_fixed_nav et_divi_theme&quot;"/><t t-set="head"><script>try{if(!sessionStorage.getItem("bhdIntro")&amp;&amp;!matchMedia("(prefers-reduced-motion: reduce)").matches){var d=document.documentElement;d.classList.add("intro-on");setTimeout(function(){d.classList.remove("intro-on")},5000)}}catch(e){}</script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+<t t-name="bhds.page_simba"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en-US&quot;}"/><t t-set="title">Simba Stenqvist | Somatic Practitioner &amp; TRE™ | BHD Asia</t><t t-set="body_classname" t-value="&quot;page et_fixed_nav et_divi_theme&quot;"/><t t-set="x_icon" t-value="&quot;/favicon.ico?v=3&quot;"/><t t-set="head"><script>try{if(!sessionStorage.getItem("bhdIntro")&amp;&amp;!matchMedia("(prefers-reduced-motion: reduce)").matches){var d=document.documentElement;d.classList.add("intro-on");setTimeout(function(){d.classList.remove("intro-on")},5000)}}catch(e){}</script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
@@ -274,13 +274,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
   .bio-js .bio-quote-t .bio-qw{color:var(--ink)!important}
   .bio-photo,.bio-pc{transform:none!important}
 }
-</style><script type="application/ld+json" id="bhd-ld">{"@context":"https://schema.org","@graph":[{"@type":["Organization","ProfessionalService"],"@id":"https://www.bhdasia.com/#organization","name":"BHD Asia","legalName":"Business &amp; Human Development Consulting Pte Ltd","alternateName":["BHD Asia Singapore","Business and Human Development Consulting"],"url":"https://www.bhdasia.com/","logo":{"@type":"ImageObject","url":"https://www.bhdasia.com/favicon-192.png","width":192,"height":192},"image":"https://www.bhdasia.com/isagrey.webp","description":"Boutique HR consulting, executive coaching and resilience-building consultancy founded in Singapore in 2012. BHD Asia co-designs leadership development, organisation development and TRE™ programmes for organisations across Europe, the US, Asia, Japan and Russia.","slogan":"Highlight, Enhance and Appreciate Human in Business.","foundingDate":"2012","foundingLocation":"Singapore","founder":{"@id":"https://www.bhdasia.com/isabelle#person"},"employee":[{"@id":"https://www.bhdasia.com/isabelle#person"},{"@id":"https://www.bhdasia.com/jasmine#person"},{"@id":"https://www.bhdasia.com/simba#person"},{"@id":"https://www.bhdasia.com/rina#person"}],"address":{"@type":"PostalAddress","streetAddress":"50 Raffles Place, Singapore Land Tower #30-00","addressLocality":"Singapore","postalCode":"048623","addressCountry":"SG"},"telephone":"+81 80 6515 1778","identifier":{"@type":"PropertyValue","propertyID":"UEN (ACRA)","value":"201201974K"},"areaServed":["Singapore","Asia","Japan","Europe","United States","Middle East"],"knowsLanguage":["en","fr","es"],"knowsAbout":["Executive coaching","Leadership development","Organisation development","HR consulting","Talent management","Psychological safety","Resilience building","Burnout prevention","Somatic coaching","TRE™ (Tension &amp; Trauma Releasing Exercises)","Global TRE™ Provider Certification","Change management","Conflict resolution"],"sameAs":["https://www.facebook.com/bhdasia/","https://www.instagram.com/isabelleclausteixeira_bhd/","https://www.youtube.com/@IsabelleClausTeixeira","https://www.linkedin.com/in/isabelleclausteixeira/"],"contactPoint":{"@type":"ContactPoint","contactType":"customer service","telephone":"+81 80 6515 1778","availableLanguage":["English","French","Spanish"],"url":"https://www.bhdasia.com/contact"}},{"@type":"WebSite","@id":"https://www.bhdasia.com/#website","url":"https://www.bhdasia.com/","name":"BHD Asia","inLanguage":"en","publisher":{"@id":"https://www.bhdasia.com/#organization"}},{"@type":"ProfilePage","@id":"https://www.bhdasia.com/simba#webpage","url":"https://www.bhdasia.com/simba","name":"Simba Stenqvist | Somatic Practitioner &amp; TRE™ | BHD Asia","description":"Simba Stenqvist — somatic practitioner and TRE™ specialist with 25+ years in bodywork, developed in close collaboration with TRE™ founder Dr. David Berceli.","inLanguage":"en","isPartOf":{"@id":"https://www.bhdasia.com/#website"},"about":{"@id":"https://www.bhdasia.com/#organization"},"publisher":{"@id":"https://www.bhdasia.com/#organization"},"dateModified":"2026-09-29","primaryImageOfPage":{"@type":"ImageObject","url":"https://www.bhdasia.com/simba-photo.webp"},"breadcrumb":{"@id":"https://www.bhdasia.com/simba#breadcrumb"},"mainEntity":{"@id":"https://www.bhdasia.com/simba#person"}},{"@type":"BreadcrumbList","@id":"https://www.bhdasia.com/simba#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.bhdasia.com/"},{"@type":"ListItem","position":2,"name":"About","item":"https://www.bhdasia.com/about"},{"@type":"ListItem","position":3,"name":"Simba Stenqvist","item":"https://www.bhdasia.com/simba"}]},{"@type":"Person","@id":"https://www.bhdasia.com/simba#person","url":"https://www.bhdasia.com/simba","image":"https://www.bhdasia.com/simba-photo.webp","worksFor":{"@id":"https://www.bhdasia.com/#organization"},"description":"Somatic practitioner and TRE™ specialist with 25+ years in bodywork and nervous-system regulation, developed in close collaboration with Dr. David Berceli, founder of TRE™.","name":"Simba Stenqvist","jobTitle":"Somatic Practitioner &amp; TRE™ Specialist","knowsAbout":["TRE™ (Tension &amp; Trauma Releasing Exercises)","Somatic practice","Bodywork","Nervous system regulation","Internal Alchemy"]}]}</script><link rel="preload" href="/fonts/tn/inter-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/tn/plus-jakarta-sans-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/technext-style.css?v=36"/></t><t t-call="web.layout"><link rel="stylesheet" href="/style.css?v=14"/><link rel="stylesheet" href="/technext-style.css?v=36"/><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W9B95BT7" height="0" width="0" style="display:none;visibility:hidden"/></noscript><div id="page-container">
+</style><script type="application/ld+json" id="bhd-ld">{"@context":"https://schema.org","@graph":[{"@type":["Organization","ProfessionalService"],"@id":"https://www.bhdasia.com/#organization","name":"BHD Asia","legalName":"Business &amp; Human Development Consulting Pte Ltd","alternateName":["BHD Asia Singapore","Business and Human Development Consulting"],"url":"https://www.bhdasia.com/","logo":{"@type":"ImageObject","url":"https://www.bhdasia.com/favicon-192.png","width":192,"height":192},"image":"https://www.bhdasia.com/isagrey.webp","description":"Boutique HR consulting, executive coaching and resilience-building consultancy founded in Singapore in 2012. BHD Asia co-designs leadership development, organisation development and TRE™ programmes for organisations across Europe, the US, Asia, Japan and Russia.","slogan":"Highlight, Enhance and Appreciate Human in Business.","foundingDate":"2012","foundingLocation":"Singapore","founder":{"@id":"https://www.bhdasia.com/isabelle#person"},"employee":[{"@id":"https://www.bhdasia.com/isabelle#person"},{"@id":"https://www.bhdasia.com/jasmine#person"},{"@id":"https://www.bhdasia.com/simba#person"},{"@id":"https://www.bhdasia.com/rina#person"}],"address":{"@type":"PostalAddress","streetAddress":"50 Raffles Place, Singapore Land Tower #30-00","addressLocality":"Singapore","postalCode":"048623","addressCountry":"SG"},"telephone":"+81 80 6515 1778","identifier":{"@type":"PropertyValue","propertyID":"UEN (ACRA)","value":"201201974K"},"areaServed":["Singapore","Asia","Japan","Europe","United States","Middle East"],"knowsLanguage":["en","fr","es"],"knowsAbout":["Executive coaching","Leadership development","Organisation development","HR consulting","Talent management","Psychological safety","Resilience building","Burnout prevention","Somatic coaching","TRE™ (Tension &amp; Trauma Releasing Exercises)","Global TRE™ Provider Certification","Change management","Conflict resolution"],"sameAs":["https://www.facebook.com/bhdasia/","https://www.instagram.com/isabelleclausteixeira_bhd/","https://www.youtube.com/@IsabelleClausTeixeira","https://www.linkedin.com/in/isabelleclausteixeira/"],"contactPoint":{"@type":"ContactPoint","contactType":"customer service","telephone":"+81 80 6515 1778","availableLanguage":["English","French","Spanish"],"url":"https://www.bhdasia.com/contact"}},{"@type":"WebSite","@id":"https://www.bhdasia.com/#website","url":"https://www.bhdasia.com/","name":"BHD Asia","inLanguage":"en","publisher":{"@id":"https://www.bhdasia.com/#organization"}},{"@type":"ProfilePage","@id":"https://www.bhdasia.com/simba#webpage","url":"https://www.bhdasia.com/simba","name":"Simba Stenqvist | Somatic Practitioner &amp; TRE™ | BHD Asia","description":"Simba Stenqvist — somatic practitioner and TRE™ specialist with 25+ years in bodywork, developed in close collaboration with TRE™ founder Dr. David Berceli.","inLanguage":"en","isPartOf":{"@id":"https://www.bhdasia.com/#website"},"about":{"@id":"https://www.bhdasia.com/#organization"},"publisher":{"@id":"https://www.bhdasia.com/#organization"},"dateModified":"2026-09-29","primaryImageOfPage":{"@type":"ImageObject","url":"https://www.bhdasia.com/simba-photo.webp"},"breadcrumb":{"@id":"https://www.bhdasia.com/simba#breadcrumb"},"mainEntity":{"@id":"https://www.bhdasia.com/simba#person"}},{"@type":"BreadcrumbList","@id":"https://www.bhdasia.com/simba#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.bhdasia.com/"},{"@type":"ListItem","position":2,"name":"About","item":"https://www.bhdasia.com/about"},{"@type":"ListItem","position":3,"name":"Simba Stenqvist","item":"https://www.bhdasia.com/simba"}]},{"@type":"Person","@id":"https://www.bhdasia.com/simba#person","url":"https://www.bhdasia.com/simba","image":"https://www.bhdasia.com/simba-photo.webp","worksFor":{"@id":"https://www.bhdasia.com/#organization"},"description":"Somatic practitioner and TRE™ specialist with 25+ years in bodywork and nervous-system regulation, developed in close collaboration with Dr. David Berceli, founder of TRE™.","name":"Simba Stenqvist","jobTitle":"Somatic Practitioner &amp; TRE™ Specialist","knowsAbout":["TRE™ (Tension &amp; Trauma Releasing Exercises)","Somatic practice","Bodywork","Nervous system regulation","Internal Alchemy"]}]}</script><link rel="preload" href="/fonts/tn/inter-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/tn/plus-jakarta-sans-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/technext-style.css?v=36"/></t><t t-call="web.layout"><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W9B95BT7" height="0" width="0" style="display:none;visibility:hidden"/></noscript><div id="page-container">
 
 <header id="main-header">
   <div class="et_menu_container container clearfix">
     <div class="logo_container">
       <a href="/">
-        <img src="/bhd-logo.svg?v=1" alt="BHD Asia" width="51" height="34" onerror="this.style.display='none';document.querySelector('.logo-text').style.display='block'"/>
+        <img src="/bhd-logo.svg?v=1" alt="BHD Asia" width="51" height="34" onerror="this.style.display='none';document.querySelector('.logo-text').style.display='block'" loading="eager"/>
         <span class="logo-text">BHD Asia</span>
       </a>
     </div>
@@ -303,7 +303,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
 
 <div id="et-main-area" tabindex="-1">
 <div class="page-title-wrap">
-  <img class="page-hero-video" src="/hero-events.webp" alt="" aria-hidden="true" width="1600" height="893" fetchpriority="high" decoding="async"/>
+  <img class="page-hero-video" src="/hero-events.webp" alt="" aria-hidden="true" width="1600" height="893" fetchpriority="high" decoding="async" loading="eager"/>
   <div class="page-hero-overlay"/>
   <div class="container">
         <span class="section-label">Meet Simba Stenqvist</span>
@@ -323,7 +323,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
       <div class="bio-aside">
         <figure class="bio-photo bio-rv" data-bio-tilt="">
           <img src="/simba-photo.webp" alt="Simba Stenqvist" width="800" height="981" loading="lazy"/>
-          <figcaption class="bio-badge"><strong>Simba Stenqvist</strong><span>Somatic Practitioner &amp; TRE™ Specialist, BHD Asia</span></figcaption>
+          <figcaption class="bio-badge"><strong>Simba Stenqvist</strong><span>Somatic Practitioner &amp;amp; TRE™ Specialist, BHD Asia</span></figcaption>
         </figure>
         <ul class="bio-stats">
           <li class="bio-stat bio-rv"><span class="bio-stat-n"><span data-bio-count="25">25</span>+</span><span class="bio-stat-l">Years of Practice</span></li>
@@ -339,40 +339,40 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
 
       <div class="bio-body">
         <h2 id="bio-name" class="bio-rv">Simba Stenqvist</h2>
-        <p class="bio-role bio-rv">Somatic Practitioner &amp; TRE™ Specialist · BHD Asia</p>
+        <p class="bio-role bio-rv">Somatic Practitioner &amp;amp; TRE™ Specialist · BHD Asia</p>
         <blockquote class="bio-quote bio-rv"><p class="bio-quote-t">"The nervous system is the foundation for clarity, presence, and steady decision-making under pressure — not a technique layered on top of a person's life."</p></blockquote>
         <div class="bio-intro bio-rv">
-          <p>Part of the BHD Asia team, Simba brings more than twenty-five years of hands-on practice in bodywork, nervous-system regulation, and energetic healing into one integrated approach — developed in close collaboration with Dr. David Berceli, founder of TRE™ (Tension &amp; Trauma Release Exercises).</p>
+          <p>Part of the BHD Asia team, Simba brings more than twenty-five years of hands-on practice in bodywork, nervous-system regulation, and energetic healing into one integrated approach — developed in close collaboration with Dr. David Berceli, founder of TRE™ (Tension &amp;amp; Trauma Release Exercises).</p>
           <p>His work is grounded in anatomy, physiology, and nervous-system science, with each session shaped around what the body in front of him actually needs. Simba teaches and delivers this work across Singapore, Indonesia, Thailand and internationally — supporting practitioners, leaders, and high-performing individuals who are technically excellent yet privately sense a ceiling that more knowledge hasn't been able to move.</p>
         </div>
         <div class="bio-tabs bio-rv" data-bio-tabs="About Simba">
         <div class="bio-panel" id="bio-pan-1">
           <h3>How Simba Supports You</h3>
           <ul class="bio-chips">
-            <li class="bio-chip"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>Stress Reduction &amp; Emotional Regulation</span></li>
-            <li class="bio-chip"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>Pain Recovery &amp; Physical Wellbeing</span></li>
-            <li class="bio-chip"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>Sleep &amp; Recovery Optimisation</span></li>
-            <li class="bio-chip"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>Detoxification &amp; Organ Health</span></li>
-            <li class="bio-chip"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>Mindfulness &amp; Mental Clarity</span></li>
-            <li class="bio-chip"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>Family Health &amp; Lifestyle Balance</span></li>
+            <li class="bio-chip"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>Stress Reduction &amp;amp; Emotional Regulation</span></li>
+            <li class="bio-chip"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>Pain Recovery &amp;amp; Physical Wellbeing</span></li>
+            <li class="bio-chip"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>Sleep &amp;amp; Recovery Optimisation</span></li>
+            <li class="bio-chip"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>Detoxification &amp;amp; Organ Health</span></li>
+            <li class="bio-chip"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>Mindfulness &amp;amp; Mental Clarity</span></li>
+            <li class="bio-chip"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>Family Health &amp;amp; Lifestyle Balance</span></li>
           </ul>
         </div>
         <div class="bio-panel" id="bio-pan-2">
-          <h3>Modalities &amp; Methods</h3>
+          <h3>Modalities &amp;amp; Methods</h3>
           <ul class="bio-creds">
-            <li class="bio-cred"><span class="bio-cred-ic"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.3 2.4 2.4 4.6-5"/></svg></span><span class="bio-cred-t">TRE™ (Tension &amp; Trauma Release Exercises)</span></li>
+            <li class="bio-cred"><span class="bio-cred-ic"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.3 2.4 2.4 4.6-5"/></svg></span><span class="bio-cred-t">TRE™ (Tension &amp;amp; Trauma Release Exercises)</span></li>
             <li class="bio-cred"><span class="bio-cred-ic"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.3 2.4 2.4 4.6-5"/></svg></span><span class="bio-cred-t">Internal Alchemy <span class="bio-cred-by">— an integrated nervous-system method (breathwork, fascial release, grounding, tremor work)</span></span></li>
             <li class="bio-cred"><span class="bio-cred-ic"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.3 2.4 2.4 4.6-5"/></svg></span><span class="bio-cred-t">Breathwork</span></li>
-            <li class="bio-cred"><span class="bio-cred-ic"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.3 2.4 2.4 4.6-5"/></svg></span><span class="bio-cred-t">Bodywork &amp; Structural Therapy</span></li>
+            <li class="bio-cred"><span class="bio-cred-ic"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.3 2.4 2.4 4.6-5"/></svg></span><span class="bio-cred-t">Bodywork &amp;amp; Structural Therapy</span></li>
             <li class="bio-cred"><span class="bio-cred-ic"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.3 2.4 2.4 4.6-5"/></svg></span><span class="bio-cred-t">Chi Nei Tsang (abdominal organ massage)</span></li>
             <li class="bio-cred"><span class="bio-cred-ic"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.3 2.4 2.4 4.6-5"/></svg></span><span class="bio-cred-t">NADA AcuDetox</span></li>
             <li class="bio-cred"><span class="bio-cred-ic"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.3 2.4 2.4 4.6-5"/></svg></span><span class="bio-cred-t">Fascia Therapy</span></li>
-            <li class="bio-cred"><span class="bio-cred-ic"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.3 2.4 2.4 4.6-5"/></svg></span><span class="bio-cred-t">Mindfulness &amp; Meditation</span></li>
+            <li class="bio-cred"><span class="bio-cred-ic"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.3 2.4 2.4 4.6-5"/></svg></span><span class="bio-cred-t">Mindfulness &amp;amp; Meditation</span></li>
           </ul>
         </div>
         <div class="bio-panel" id="bio-pan-3">
           <h3>Ways to Work Together</h3>
-          <p>Private 1-on-1 sessions · Couple &amp; family sessions · Group workshops · Immersive lifestyle programmes · Online follow-up support.</p>
+          <p>Private 1-on-1 sessions · Couple &amp;amp; family sessions · Group workshops · Immersive lifestyle programmes · Online follow-up support.</p>
         </div>
         <div class="bio-panel" id="bio-pan-4">
           <h3>Working with Simba</h3>
@@ -429,7 +429,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
         <div class="bio-tl-card">
           <span class="bio-tl-year">Teaching Across Asia</span>
           <div class="bio-tl-txt">
-            <h3 class="bio-tl-title">Singapore, Indonesia &amp; Thailand</h3>
+            <h3 class="bio-tl-title">Singapore, Indonesia &amp;amp; Thailand</h3>
             <p class="bio-tl-desc">Teaches and delivers this work across the region and internationally — from private sessions to large group workshops with hundreds of participants.</p>
           </div>
         </div>
@@ -438,7 +438,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
         <div class="bio-tl-card">
           <span class="bio-tl-year">Today · With BHD Asia</span>
           <div class="bio-tl-txt">
-            <h3 class="bio-tl-title">Somatic Practitioner &amp; TRE™ Specialist</h3>
+            <h3 class="bio-tl-title">Somatic Practitioner &amp;amp; TRE™ Specialist</h3>
             <p class="bio-tl-desc">Brings his somatic and nervous-system practice to BHD Asia's clients — complementing the team's coaching and TRE™ work to help leaders and teams build resilience from the body up.</p>
           </div>
         </div>
@@ -461,7 +461,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
         <div class="bio-pc-img"><img src="/simba-pc-2.webp" alt="Somatic &amp; Nervous-System Work" width="800" height="450" loading="lazy"/></div>
         <div class="bio-pc-body">
           <span class="bio-pc-num" aria-hidden="true">1</span>
-          <h3 id="bio-pc-1">Somatic &amp; Nervous-System Work</h3>
+          <h3 id="bio-pc-1">Somatic &amp;amp; Nervous-System Work</h3>
           <p>TRE™, Internal Alchemy, breathwork and fascia therapy — releasing stress and restoring the nervous system, one-to-one or in large groups.</p>
           <a class="bio-pc-link" href="/events" aria-describedby="bio-pc-1">Explore<svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
         </div>
@@ -470,7 +470,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
         <div class="bio-pc-img"><img src="/simba-pc-1.webp" alt="Bodywork &amp; Structural Therapy" width="800" height="450" loading="lazy"/></div>
         <div class="bio-pc-body">
           <span class="bio-pc-num" aria-hidden="true">2</span>
-          <h3 id="bio-pc-2">Bodywork &amp; Structural Therapy</h3>
+          <h3 id="bio-pc-2">Bodywork &amp;amp; Structural Therapy</h3>
           <p>Chronic pain, muscular imbalance and injury, plus Chi Nei Tsang and NADA AcuDetox — restoring circulation, mobility and organ health.</p>
           <a class="bio-pc-link" href="/services" aria-describedby="bio-pc-2">Explore<svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
         </div>
@@ -479,8 +479,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
         <div class="bio-pc-img"><img src="/simba-pc-3.webp" alt="Lifestyle, Detox &amp; Family Wellbeing" width="800" height="450" loading="lazy"/></div>
         <div class="bio-pc-body">
           <span class="bio-pc-num" aria-hidden="true">3</span>
-          <h3 id="bio-pc-3">Lifestyle, Detox &amp; Family Wellbeing</h3>
-          <p>Detox &amp; nutrition programmes, mindfulness, and lifestyle coaching — building shared rhythms of movement, nourishment and rest that last.</p>
+          <h3 id="bio-pc-3">Lifestyle, Detox &amp;amp; Family Wellbeing</h3>
+          <p>Detox &amp;amp; nutrition programmes, mindfulness, and lifestyle coaching — building shared rhythms of movement, nourishment and rest that last.</p>
           <a class="bio-pc-link" href="/services" aria-describedby="bio-pc-3">Explore<svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
         </div>
       </article>
@@ -507,7 +507,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
     <div class="footer-widget">
       <span class="footer-brand-name">BHD <span>Asia</span></span>
       <p>Highlight, Enhance and Appreciate Human in Business.</p>
-      <p>Business &amp; Human Development Consulting Pte Ltd</p>
+      <p>Business &amp;amp; Human Development Consulting Pte Ltd</p>
       <div class="footer-social">
         <a href="https://www.facebook.com/bhdasia/" target="_blank" rel="noopener" class="footer-soc-btn" aria-label="Facebook"><svg viewbox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
         <a href="https://www.instagram.com/isabelleclausteixeira_bhd/" target="_blank" rel="noopener" class="footer-soc-btn" aria-label="Instagram"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
@@ -516,7 +516,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
       </div>
     </div>
     <div class="footer-widget"><h4>Navigate</h4><ul><li><a href="/">Home</a></li><li><a href="/services">Services</a></li><li><a href="/about">About</a></li><li><a href="/events">Events</a></li><li><a href="/contact">Contact</a></li><li><a href="https://www.hummingbeing.com/" target="_blank" rel="noopener">HummingBeing</a></li></ul></div>
-    <div class="footer-widget"><h4>Legal</h4><ul><li><a href="/privacy">Privacy Statement</a></li><li><a href="/terms">Terms &amp; Conditions</a></li><li><a href="/inclusivity">Inclusivity Statement</a></li></ul></div>
+    <div class="footer-widget"><h4>Legal</h4><ul><li><a href="/privacy">Privacy Statement</a></li><li><a href="/terms">Terms &amp;amp; Conditions</a></li><li><a href="/inclusivity">Inclusivity Statement</a></li></ul></div>
     <div class="footer-widget"><h4>Contact</h4><p class="ft-addr">Singapore Land Tower, #30-00<br/>50 Raffles Place<br/>Singapore 048623</p><p><a href="tel:+818065151778">+81 80 6515 1778</a></p><p><span>bonjour@bhd<span style="display:none">-no-spam</span>asia.com</span></p><p><a href="/#book" data-cta="page-book">Talk to our team →</a></p></div>
   </div></div>
   <div id="footer-bottom"><div class="container">

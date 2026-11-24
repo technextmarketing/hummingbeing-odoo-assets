@@ -1,4 +1,4 @@
-<t t-name="hbs.page_event_intro_tre_singapore_2027"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en&quot;}"/><t t-set="title">Introduction to TRE™ in Singapore 2027 | HummingBeing</t><t t-set="head"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
+<t t-name="hbs.page_event_intro_tre_singapore_2027"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en&quot;}"/><t t-set="title">Introduction to TRE™ in Singapore 2027 | HummingBeing</t><t t-set="x_icon" t-value="&quot;/favicon-32.png?v=3&quot;"/><t t-set="head"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
 new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
 "https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
@@ -266,8 +266,8 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     .ce-sessions{list-style:none;padding:0;margin:0 0 1rem;display:grid;gap:.6rem}
     .ce-sessions li{background:#fff;border:1px solid rgba(36,46,66,.12);border-radius:10px;padding:.8rem 1rem;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;font-family:'Lato',sans-serif;color:var(--navy)}
     .ce-sessions li strong{font-weight:800}.ce-sessions li span{color:var(--text-mid);font-size:.9rem}
-  </style><script type="application/ld+json" data-seo="breadcrumb">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.hummingbeing.com/"}, {"@type": "ListItem", "position": 2, "name": "Events", "item": "https://www.hummingbeing.com/events"}, {"@type": "ListItem", "position": 3, "name": "Introduction to TRE™", "item": "https://www.hummingbeing.com/event-intro-tre-singapore-2027"}]}</script><link rel="preload" href="/fonts/hb/lato-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/hb/playfair-display-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/></t><t t-call="web.layout"><link rel="stylesheet" href="/styles.css?v=98"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXLR5LGG" height="0" width="0" style="display:none;visibility:hidden"/></noscript><nav>
-  <a href="/" class="logo"><img src="/images/logo-dark.webp" class="logo-on-dark" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/><img src="/images/logo-light.webp" class="logo-on-light" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/></a>
+  </style><script type="application/ld+json" data-seo="breadcrumb">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.hummingbeing.com/"}, {"@type": "ListItem", "position": 2, "name": "Events", "item": "https://www.hummingbeing.com/events"}, {"@type": "ListItem", "position": 3, "name": "Introduction to TRE™", "item": "https://www.hummingbeing.com/event-intro-tre-singapore-2027"}]}</script><link rel="preload" href="/fonts/hb/lato-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/hb/playfair-display-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/></t><t t-call="web.layout"><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXLR5LGG" height="0" width="0" style="display:none;visibility:hidden"/></noscript><nav>
+  <a href="/" class="logo"><img src="/images/logo-dark.webp" class="logo-on-dark" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto" loading="eager"/><img src="/images/logo-light.webp" class="logo-on-light" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto" loading="eager"/></a>
   <ul class="nav-links">
     <li><a href="/">Home</a></li>
     <li><a href="/about">About</a></li>
@@ -275,9 +275,9 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     <li class="nav-dropdown">
       <a href="javascript:void(0)" class="nav-dropdown-toggle">Work with Isabelle <i class="fa-solid fa-chevron-down nav-arrow"/></a>
       <ul class="nav-dropdown-menu">
-        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™<small>Private sessions, online or in person</small></a></li>
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp;amp; TRE™<small>Private sessions, online or in person</small></a></li>
         <li><a href="/tre-certification">TRE™ Certification<small>Become a certified TRE™ provider</small></a></li>
-        <li><a href="/retreats-workshops">Retreats &amp; Workshops<small>Groups, teams and executives</small></a></li>
+        <li><a href="/retreats-workshops">Retreats &amp;amp; Workshops<small>Groups, teams and executives</small></a></li>
       </ul>
     </li>
     <li><a href="/events">Events</a></li>
@@ -302,7 +302,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
       <p class="ce-lead">A first, hands-on meeting with TRE™ for anyone curious about calming a tired nervous system. In person in Singapore, in collaboration with TRE Thailand and Simba Stenqvist: two hours, including a full TRE™ session guided by two Global TRE™ Certifying Trainers, <strong>Isabelle Claus Teixeira</strong> and <strong>Simba Stenqvist</strong>.</p>
       <div class="ce-hero-actions">
         <a href="#register" class="btn btn-primary">Choose a session</a>
-        <a href="#reserve" class="btn btn-outline">Details &amp; questions</a>
+        <a href="#reserve" class="btn btn-outline">Details &amp;amp; questions</a>
       </div>
     </div>
   </div>
@@ -316,12 +316,12 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
 </div><div class="ce-layout">
   <div class="ce-main">
     <figure class="ce-poster ce-poster-portrait" style="max-width:540px;margin-left:auto;margin-right:auto">
-      <img src="/images/event-intro-tre-singapore-2027-poster.webp?v=1" alt="Introduction to TRE, in person workshop in Singapore in collaboration with TRE Thailand, led by Isabelle Claus Teixeira and Simba Stenqvist, Global TRE Certifying Trainers. Dates 23 February, 29 June and 3 November 2027, 7 to 9 PM, in person. Public price 88 SGD, 66 SGD with a discount code." width="1080" height="1350" decoding="async"/>
+      <img src="/images/event-intro-tre-singapore-2027-poster.webp?v=1" alt="Introduction to TRE, in person workshop in Singapore in collaboration with TRE Thailand, led by Isabelle Claus Teixeira and Simba Stenqvist, Global TRE Certifying Trainers. Dates 23 February, 29 June and 3 November 2027, 7 to 9 PM, in person. Public price 88 SGD, 66 SGD with a discount code." width="1080" height="1350" decoding="async" loading="eager"/>
     </figure>
 
     <h2>An Introduction to TRE™ for the general public</h2>
     <p>Open to the general public and lasting two hours, this in-person workshop is the easiest way into TRE™. It does not include TRE™ personal sessions.</p>
-    <p>TRE™ (Tension, Stress &amp; Trauma Releasing Exercises) is the work of Dr. David Berceli. It is designed to switch on the body’s own neurogenic tremoring reflex, which many people find helps them let go of held stress, build resilience and settle into deeper regulation.</p>
+    <p>TRE™ (Tension, Stress &amp;amp; Trauma Releasing Exercises) is the work of Dr. David Berceli. It is designed to switch on the body’s own neurogenic tremoring reflex, which many people find helps them let go of held stress, build resilience and settle into deeper regulation.</p>
     <p>Along the way you will find out what TRE™ is and whether it could be a useful body-based practice for you, one you can keep using in daily life.</p>
     <p>Should you want to go deeper, you can then continue your training with TRE™ <a href="/event-certification-2027" style="color:var(--gold-dark);font-weight:600">Module 1, Module 2 and Module 3</a> to become a Certified Global TRE™ Provider — accredited to offer TRE™ to individuals and groups.</p>
 
@@ -331,7 +331,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
       <li><strong>What TRE™ is</strong> and how it can be beneficial for you as a body-based practice.</li>
     </ul>
 
-    <h2>Dates &amp; place</h2>
+    <h2>Dates &amp;amp; place</h2>
     <p>Three sessions are offered, each a separate date with the same content. Choose the one that suits you when you register.</p>
     <ul class="ce-sessions"><li><strong>Tuesday 23 February 2027</strong><span>7:00–9:00pm Singapore time</span></li><li><strong>Tuesday 29 June 2027</strong><span>7:00–9:00pm Singapore time</span></li><li><strong>Wednesday 3 November 2027</strong><span>7:00–9:00pm Singapore time</span></li></ul>
     <p>In person in Singapore. The venue details are shared with registered participants.</p>
@@ -416,7 +416,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
         <div class="evtl-field"><label for="r-country">Country (optional)</label><input id="r-country" name="country" type="text" autocomplete="country-name"/></div>
         <div class="evtl-field"><label for="r-code">Discount code (optional)</label><input id="r-code" name="code" type="text" autocomplete="off" autocapitalize="characters"/></div>
         <div class="evtl-field"><label for="r-msg">Your question (optional)</label><input id="r-msg" name="message" type="text"/></div>
-        <button type="submit" class="btn btn-primary">Register &amp; continue →</button>
+        <button type="submit" class="btn btn-primary">Register &amp;amp; continue →</button>
       </form>
       <p class="fine">Have a discount code? Enter it above and Isabelle will send you the discounted payment link. TRE™ personal sessions are not included and can be added for S$180 per session.</p>
       </div>
@@ -464,7 +464,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
 </section><footer>
   <div class="foot-grid">
     <div>
-      <a href="/" class="foot-logo"><img src="/images/logo-dark.webp" alt="HummingBeing — Coaching &amp; Somatics" style="height:48px;width:auto;display:block" width="144" height="48"/></a>
+      <a href="/" class="foot-logo"><img src="/images/logo-dark.webp" alt="HummingBeing — Coaching &amp; Somatics" style="height:48px;width:auto;display:block" width="144" height="48" loading="eager"/></a>
       <p class="foot-desc">Science backed processes with TRE™, Coaching and Somatic Practices — a space to release, renew and restore.</p>
       <p class="foot-desc">Part of <strong>Business and Human Development Consulting Pte Ltd</strong></p>
       <div class="foot-socials">
@@ -477,9 +477,9 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     <div>
       <div class="foot-h">Work with Isabelle</div>
       <ul class="foot-links">
-        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™</a></li>
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp;amp; TRE™</a></li>
         <li><a href="/tre-certification">TRE™ Certification</a></li>
-        <li><a href="/retreats-workshops">Retreats &amp; Workshops</a></li>
+        <li><a href="/retreats-workshops">Retreats &amp;amp; Workshops</a></li>
         <li><a href="/events">Events</a></li>
         <li><a href="/book">Book a free call</a></li>
       </ul>

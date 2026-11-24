@@ -1,4 +1,4 @@
-<t t-name="bhds.page_jasmine"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en-US&quot;}"/><t t-set="title">Dr. Jasmine Low | Organisational Psychologist | BHD Asia</t><t t-set="body_classname" t-value="&quot;page et_fixed_nav et_divi_theme&quot;"/><t t-set="head"><script>try{if(!sessionStorage.getItem("bhdIntro")&amp;&amp;!matchMedia("(prefers-reduced-motion: reduce)").matches){var d=document.documentElement;d.classList.add("intro-on");setTimeout(function(){d.classList.remove("intro-on")},5000)}}catch(e){}</script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+<t t-name="bhds.page_jasmine"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en-US&quot;}"/><t t-set="title">Dr. Jasmine Low | Organisational Psychologist | BHD Asia</t><t t-set="body_classname" t-value="&quot;page et_fixed_nav et_divi_theme&quot;"/><t t-set="x_icon" t-value="&quot;/favicon.ico?v=3&quot;"/><t t-set="head"><script>try{if(!sessionStorage.getItem("bhdIntro")&amp;&amp;!matchMedia("(prefers-reduced-motion: reduce)").matches){var d=document.documentElement;d.classList.add("intro-on");setTimeout(function(){d.classList.remove("intro-on")},5000)}}catch(e){}</script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
@@ -274,13 +274,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
   .bio-js .bio-quote-t .bio-qw{color:var(--ink)!important}
   .bio-photo,.bio-pc{transform:none!important}
 }
-</style><script type="application/ld+json" id="bhd-ld">{"@context":"https://schema.org","@graph":[{"@type":["Organization","ProfessionalService"],"@id":"https://www.bhdasia.com/#organization","name":"BHD Asia","legalName":"Business &amp; Human Development Consulting Pte Ltd","alternateName":["BHD Asia Singapore","Business and Human Development Consulting"],"url":"https://www.bhdasia.com/","logo":{"@type":"ImageObject","url":"https://www.bhdasia.com/favicon-192.png","width":192,"height":192},"image":"https://www.bhdasia.com/isagrey.webp","description":"Boutique HR consulting, executive coaching and resilience-building consultancy founded in Singapore in 2012. BHD Asia co-designs leadership development, organisation development and TRE™ programmes for organisations across Europe, the US, Asia, Japan and Russia.","slogan":"Highlight, Enhance and Appreciate Human in Business.","foundingDate":"2012","foundingLocation":"Singapore","founder":{"@id":"https://www.bhdasia.com/isabelle#person"},"employee":[{"@id":"https://www.bhdasia.com/isabelle#person"},{"@id":"https://www.bhdasia.com/jasmine#person"},{"@id":"https://www.bhdasia.com/simba#person"},{"@id":"https://www.bhdasia.com/rina#person"}],"address":{"@type":"PostalAddress","streetAddress":"50 Raffles Place, Singapore Land Tower #30-00","addressLocality":"Singapore","postalCode":"048623","addressCountry":"SG"},"telephone":"+81 80 6515 1778","identifier":{"@type":"PropertyValue","propertyID":"UEN (ACRA)","value":"201201974K"},"areaServed":["Singapore","Asia","Japan","Europe","United States","Middle East"],"knowsLanguage":["en","fr","es"],"knowsAbout":["Executive coaching","Leadership development","Organisation development","HR consulting","Talent management","Psychological safety","Resilience building","Burnout prevention","Somatic coaching","TRE™ (Tension &amp; Trauma Releasing Exercises)","Global TRE™ Provider Certification","Change management","Conflict resolution"],"sameAs":["https://www.facebook.com/bhdasia/","https://www.instagram.com/isabelleclausteixeira_bhd/","https://www.youtube.com/@IsabelleClausTeixeira","https://www.linkedin.com/in/isabelleclausteixeira/"],"contactPoint":{"@type":"ContactPoint","contactType":"customer service","telephone":"+81 80 6515 1778","availableLanguage":["English","French","Spanish"],"url":"https://www.bhdasia.com/contact"}},{"@type":"WebSite","@id":"https://www.bhdasia.com/#website","url":"https://www.bhdasia.com/","name":"BHD Asia","inLanguage":"en","publisher":{"@id":"https://www.bhdasia.com/#organization"}},{"@type":"ProfilePage","@id":"https://www.bhdasia.com/jasmine#webpage","url":"https://www.bhdasia.com/jasmine","name":"Dr. Jasmine Low | Organisational Psychologist | BHD Asia","description":"Dr. Jasmine Low — organisational psychologist and ORSC systems coach with 15+ years developing leaders, teams and psychological safety across 100+ organisations.","inLanguage":"en","isPartOf":{"@id":"https://www.bhdasia.com/#website"},"about":{"@id":"https://www.bhdasia.com/#organization"},"publisher":{"@id":"https://www.bhdasia.com/#organization"},"dateModified":"2026-09-29","primaryImageOfPage":{"@type":"ImageObject","url":"https://www.bhdasia.com/jasmine-photo.webp"},"breadcrumb":{"@id":"https://www.bhdasia.com/jasmine#breadcrumb"},"mainEntity":{"@id":"https://www.bhdasia.com/jasmine#person"}},{"@type":"BreadcrumbList","@id":"https://www.bhdasia.com/jasmine#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.bhdasia.com/"},{"@type":"ListItem","position":2,"name":"About","item":"https://www.bhdasia.com/about"},{"@type":"ListItem","position":3,"name":"Jasmine Low","item":"https://www.bhdasia.com/jasmine"}]},{"@type":"Person","@id":"https://www.bhdasia.com/jasmine#person","url":"https://www.bhdasia.com/jasmine","image":"https://www.bhdasia.com/jasmine-photo.webp","worksFor":{"@id":"https://www.bhdasia.com/#organization"},"description":"Organisational psychologist, ORSC systems coach and OD practitioner with 15+ years developing leaders, teams and psychological safety across 100+ organisations.","name":"Jasmine Low","honorificPrefix":"Dr.","jobTitle":"Organisational Psychologist &amp; Systems Coach","knowsAbout":["Organisational psychology","Psychological safety","ORSC systems coaching","Team development","Leadership development"]}]}</script><link rel="preload" href="/fonts/tn/inter-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/tn/plus-jakarta-sans-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/technext-style.css?v=36"/></t><t t-call="web.layout"><link rel="stylesheet" href="/style.css?v=14"/><link rel="stylesheet" href="/technext-style.css?v=36"/><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W9B95BT7" height="0" width="0" style="display:none;visibility:hidden"/></noscript><div id="page-container">
+</style><script type="application/ld+json" id="bhd-ld">{"@context":"https://schema.org","@graph":[{"@type":["Organization","ProfessionalService"],"@id":"https://www.bhdasia.com/#organization","name":"BHD Asia","legalName":"Business &amp; Human Development Consulting Pte Ltd","alternateName":["BHD Asia Singapore","Business and Human Development Consulting"],"url":"https://www.bhdasia.com/","logo":{"@type":"ImageObject","url":"https://www.bhdasia.com/favicon-192.png","width":192,"height":192},"image":"https://www.bhdasia.com/isagrey.webp","description":"Boutique HR consulting, executive coaching and resilience-building consultancy founded in Singapore in 2012. BHD Asia co-designs leadership development, organisation development and TRE™ programmes for organisations across Europe, the US, Asia, Japan and Russia.","slogan":"Highlight, Enhance and Appreciate Human in Business.","foundingDate":"2012","foundingLocation":"Singapore","founder":{"@id":"https://www.bhdasia.com/isabelle#person"},"employee":[{"@id":"https://www.bhdasia.com/isabelle#person"},{"@id":"https://www.bhdasia.com/jasmine#person"},{"@id":"https://www.bhdasia.com/simba#person"},{"@id":"https://www.bhdasia.com/rina#person"}],"address":{"@type":"PostalAddress","streetAddress":"50 Raffles Place, Singapore Land Tower #30-00","addressLocality":"Singapore","postalCode":"048623","addressCountry":"SG"},"telephone":"+81 80 6515 1778","identifier":{"@type":"PropertyValue","propertyID":"UEN (ACRA)","value":"201201974K"},"areaServed":["Singapore","Asia","Japan","Europe","United States","Middle East"],"knowsLanguage":["en","fr","es"],"knowsAbout":["Executive coaching","Leadership development","Organisation development","HR consulting","Talent management","Psychological safety","Resilience building","Burnout prevention","Somatic coaching","TRE™ (Tension &amp; Trauma Releasing Exercises)","Global TRE™ Provider Certification","Change management","Conflict resolution"],"sameAs":["https://www.facebook.com/bhdasia/","https://www.instagram.com/isabelleclausteixeira_bhd/","https://www.youtube.com/@IsabelleClausTeixeira","https://www.linkedin.com/in/isabelleclausteixeira/"],"contactPoint":{"@type":"ContactPoint","contactType":"customer service","telephone":"+81 80 6515 1778","availableLanguage":["English","French","Spanish"],"url":"https://www.bhdasia.com/contact"}},{"@type":"WebSite","@id":"https://www.bhdasia.com/#website","url":"https://www.bhdasia.com/","name":"BHD Asia","inLanguage":"en","publisher":{"@id":"https://www.bhdasia.com/#organization"}},{"@type":"ProfilePage","@id":"https://www.bhdasia.com/jasmine#webpage","url":"https://www.bhdasia.com/jasmine","name":"Dr. Jasmine Low | Organisational Psychologist | BHD Asia","description":"Dr. Jasmine Low — organisational psychologist and ORSC systems coach with 15+ years developing leaders, teams and psychological safety across 100+ organisations.","inLanguage":"en","isPartOf":{"@id":"https://www.bhdasia.com/#website"},"about":{"@id":"https://www.bhdasia.com/#organization"},"publisher":{"@id":"https://www.bhdasia.com/#organization"},"dateModified":"2026-09-29","primaryImageOfPage":{"@type":"ImageObject","url":"https://www.bhdasia.com/jasmine-photo.webp"},"breadcrumb":{"@id":"https://www.bhdasia.com/jasmine#breadcrumb"},"mainEntity":{"@id":"https://www.bhdasia.com/jasmine#person"}},{"@type":"BreadcrumbList","@id":"https://www.bhdasia.com/jasmine#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.bhdasia.com/"},{"@type":"ListItem","position":2,"name":"About","item":"https://www.bhdasia.com/about"},{"@type":"ListItem","position":3,"name":"Jasmine Low","item":"https://www.bhdasia.com/jasmine"}]},{"@type":"Person","@id":"https://www.bhdasia.com/jasmine#person","url":"https://www.bhdasia.com/jasmine","image":"https://www.bhdasia.com/jasmine-photo.webp","worksFor":{"@id":"https://www.bhdasia.com/#organization"},"description":"Organisational psychologist, ORSC systems coach and OD practitioner with 15+ years developing leaders, teams and psychological safety across 100+ organisations.","name":"Jasmine Low","honorificPrefix":"Dr.","jobTitle":"Organisational Psychologist &amp; Systems Coach","knowsAbout":["Organisational psychology","Psychological safety","ORSC systems coaching","Team development","Leadership development"]}]}</script><link rel="preload" href="/fonts/tn/inter-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/tn/plus-jakarta-sans-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/technext-style.css?v=36"/></t><t t-call="web.layout"><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W9B95BT7" height="0" width="0" style="display:none;visibility:hidden"/></noscript><div id="page-container">
 
 <header id="main-header">
   <div class="et_menu_container container clearfix">
     <div class="logo_container">
       <a href="/">
-        <img src="/bhd-logo.svg?v=1" alt="BHD Asia" width="51" height="34" onerror="this.style.display='none';document.querySelector('.logo-text').style.display='block'"/>
+        <img src="/bhd-logo.svg?v=1" alt="BHD Asia" width="51" height="34" onerror="this.style.display='none';document.querySelector('.logo-text').style.display='block'" loading="eager"/>
         <span class="logo-text">BHD Asia</span>
       </a>
     </div>
@@ -303,7 +303,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
 
 <div id="et-main-area" tabindex="-1">
 <div class="page-title-wrap">
-  <img class="page-hero-video" src="/hero-services.webp" alt="" aria-hidden="true" width="1600" height="893" fetchpriority="high" decoding="async"/>
+  <img class="page-hero-video" src="/hero-services.webp" alt="" aria-hidden="true" width="1600" height="893" fetchpriority="high" decoding="async" loading="eager"/>
   <div class="page-hero-overlay"/>
   <div class="container">
         <span class="section-label">Meet Dr. Jasmine Low</span>
@@ -323,7 +323,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
       <div class="bio-aside">
         <figure class="bio-photo bio-rv" data-bio-tilt="">
           <img src="/jasmine-photo.webp" alt="Dr. Jasmine Low" width="760" height="760" loading="lazy"/>
-          <figcaption class="bio-badge"><strong>Dr. Jasmine Low</strong><span>Organisational Psychologist &amp; Systems Coach, BHD Asia</span></figcaption>
+          <figcaption class="bio-badge"><strong>Dr. Jasmine Low</strong><span>Organisational Psychologist &amp;amp; Systems Coach, BHD Asia</span></figcaption>
         </figure>
         <ul class="bio-stats">
           <li class="bio-stat bio-rv"><span class="bio-stat-n"><span data-bio-count="15">15</span>+</span><span class="bio-stat-l">Years OD Experience</span></li>
@@ -339,7 +339,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
 
       <div class="bio-body">
         <h2 id="bio-name" class="bio-rv">Dr. Jasmine Low</h2>
-        <p class="bio-role bio-rv">Organisational Psychologist &amp; Systems Coach · BHD Asia</p>
+        <p class="bio-role bio-rv">Organisational Psychologist &amp;amp; Systems Coach · BHD Asia</p>
         <blockquote class="bio-quote bio-rv"><p class="bio-quote-t">"Helping leaders and teams navigate complexity, build alignment, and strengthen psychological safety."</p></blockquote>
         <div class="bio-intro bio-rv">
           <p>Part of the BHD Asia team, Jasmine is an Organisational Psychologist with over 15 years of experience designing and delivering interventions that drive leadership development, organisational transformation, and team effectiveness. She blends evidence-based psychology with systems thinking and human-centered design.</p>
@@ -349,25 +349,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
         <div class="bio-panel" id="bio-pan-1">
           <h3>Areas of Expertise</h3>
           <ul class="bio-chips">
-            <li class="bio-chip"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>Organisation Development &amp; Change</span></li>
+            <li class="bio-chip"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>Organisation Development &amp;amp; Change</span></li>
             <li class="bio-chip"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>ORSC Systems Coaching</span></li>
-            <li class="bio-chip"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>Leadership &amp; Team Development</span></li>
-            <li class="bio-chip"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>Psychological Safety &amp; Culture Building</span></li>
-            <li class="bio-chip"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>Strategic Planning &amp; Change Facilitation</span></li>
-            <li class="bio-chip"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>Experiential &amp; Learning Facilitation</span></li>
-            <li class="bio-chip"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>Process Facilitation &amp; Design Thinking</span></li>
-            <li class="bio-chip"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>Data Analysis &amp; Research</span></li>
+            <li class="bio-chip"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>Leadership &amp;amp; Team Development</span></li>
+            <li class="bio-chip"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>Psychological Safety &amp;amp; Culture Building</span></li>
+            <li class="bio-chip"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>Strategic Planning &amp;amp; Change Facilitation</span></li>
+            <li class="bio-chip"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>Experiential &amp;amp; Learning Facilitation</span></li>
+            <li class="bio-chip"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>Process Facilitation &amp;amp; Design Thinking</span></li>
+            <li class="bio-chip"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg><span>Data Analysis &amp;amp; Research</span></li>
           </ul>
         </div>
         <div class="bio-panel" id="bio-pan-2">
-          <h3>Credentials &amp; Education</h3>
+          <h3>Credentials &amp;amp; Education</h3>
           <ul class="bio-creds">
-            <li class="bio-cred"><span class="bio-cred-ic"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.3 2.4 2.4 4.6-5"/></svg></span><span class="bio-cred-t">Ph.D. in Human Resource Psychology (Cum Laude &amp; International Mention) <span class="bio-cred-by">— Universidad de Valencia, Spain</span></span></li>
-            <li class="bio-cred"><span class="bio-cred-ic"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.3 2.4 2.4 4.6-5"/></svg></span><span class="bio-cred-t">Erasmus Mundus Master in Work, Organizational &amp; Personnel Psychology <span class="bio-cred-by">— Valencia &amp; Università di Bologna</span></span></li>
-            <li class="bio-cred"><span class="bio-cred-ic"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.3 2.4 2.4 4.6-5"/></svg></span><span class="bio-cred-t">B.A. in Psychology with Minors in Org. Psychology &amp; Marketing <span class="bio-cred-by">— Murdoch University, Australia</span></span></li>
-            <li class="bio-cred"><span class="bio-cred-ic"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.3 2.4 2.4 4.6-5"/></svg></span><span class="bio-cred-t">Organization &amp; Relationship Systems Coaching (ORSC) <span class="bio-cred-by">— CRR Global</span></span></li>
-            <li class="bio-cred"><span class="bio-cred-ic"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.3 2.4 2.4 4.6-5"/></svg></span><span class="bio-cred-t">Advanced Certificate in Learning &amp; Performance (ACLP) <span class="bio-cred-by">— Institute of Adult Learning</span></span></li>
-            <li class="bio-cred"><span class="bio-cred-ic"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.3 2.4 2.4 4.6-5"/></svg></span><span class="bio-cred-t">Design Thinking Facilitator &amp; Certified Behavioural Consultant (DISC)</span></li>
+            <li class="bio-cred"><span class="bio-cred-ic"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.3 2.4 2.4 4.6-5"/></svg></span><span class="bio-cred-t">Ph.D. in Human Resource Psychology (Cum Laude &amp;amp; International Mention) <span class="bio-cred-by">— Universidad de Valencia, Spain</span></span></li>
+            <li class="bio-cred"><span class="bio-cred-ic"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.3 2.4 2.4 4.6-5"/></svg></span><span class="bio-cred-t">Erasmus Mundus Master in Work, Organizational &amp;amp; Personnel Psychology <span class="bio-cred-by">— Valencia &amp;amp; Università di Bologna</span></span></li>
+            <li class="bio-cred"><span class="bio-cred-ic"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.3 2.4 2.4 4.6-5"/></svg></span><span class="bio-cred-t">B.A. in Psychology with Minors in Org. Psychology &amp;amp; Marketing <span class="bio-cred-by">— Murdoch University, Australia</span></span></li>
+            <li class="bio-cred"><span class="bio-cred-ic"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.3 2.4 2.4 4.6-5"/></svg></span><span class="bio-cred-t">Organization &amp;amp; Relationship Systems Coaching (ORSC) <span class="bio-cred-by">— CRR Global</span></span></li>
+            <li class="bio-cred"><span class="bio-cred-ic"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.3 2.4 2.4 4.6-5"/></svg></span><span class="bio-cred-t">Advanced Certificate in Learning &amp;amp; Performance (ACLP) <span class="bio-cred-by">— Institute of Adult Learning</span></span></li>
+            <li class="bio-cred"><span class="bio-cred-ic"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.3 2.4 2.4 4.6-5"/></svg></span><span class="bio-cred-t">Design Thinking Facilitator &amp;amp; Certified Behavioural Consultant (DISC)</span></li>
           </ul>
         </div>
         <div class="bio-panel" id="bio-pan-3">
@@ -375,13 +375,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
           <ul class="bio-creds">
             <li class="bio-cred"><span class="bio-cred-ic"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.3 2.4 2.4 4.6-5"/></svg></span><span class="bio-cred-t">"Young Organizational Psychologist with Talent" <span class="bio-cred-by">— Colegio Oficial de Psicólogos de Madrid (2016)</span></span></li>
             <li class="bio-cred"><span class="bio-cred-ic"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.3 2.4 2.4 4.6-5"/></svg></span><span class="bio-cred-t">Erasmus Mundus Scholarship <span class="bio-cred-by">— European Commission</span></span></li>
-            <li class="bio-cred"><span class="bio-cred-ic"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.3 2.4 2.4 4.6-5"/></svg></span><span class="bio-cred-t">FPU Research &amp; Teaching Scholarship <span class="bio-cred-by">— Ministry of Science, Spain</span></span></li>
+            <li class="bio-cred"><span class="bio-cred-ic"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.3 2.4 2.4 4.6-5"/></svg></span><span class="bio-cred-t">FPU Research &amp;amp; Teaching Scholarship <span class="bio-cred-by">— Ministry of Science, Spain</span></span></li>
             <li class="bio-cred"><span class="bio-cred-ic"><svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.3 2.4 2.4 4.6-5"/></svg></span><span class="bio-cred-t">Vice Chancellor's Commendation for Academic Excellence <span class="bio-cred-by">— Murdoch University</span></span></li>
           </ul>
         </div>
         <div class="bio-panel" id="bio-pan-4">
           <h3>Selected Clients</h3>
-          <p>NUHS · Ministry of Education (MOE) · Ministry of Social &amp; Family Development (MSF) · Singapore Polytechnic · Ngee Ann Polytechnic · Woodlands Health · Thermo Fisher Scientific · StarHub · DBS · OCBC · Xylem.</p>
+          <p>NUHS · Ministry of Education (MOE) · Ministry of Social &amp;amp; Family Development (MSF) · Singapore Polytechnic · Ngee Ann Polytechnic · Woodlands Health · Thermo Fisher Scientific · StarHub · DBS · OCBC · Xylem.</p>
         </div>
         <div class="bio-panel" id="bio-pan-5">
           <h3>Working with Jasmine</h3>
@@ -418,7 +418,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
       </li>
       <li class="bio-tl-item" id="bio-m2">
         <div class="bio-tl-card">
-          <span class="bio-tl-year">2012 – 2014 · Valencia &amp; Bologna</span>
+          <span class="bio-tl-year">2012 – 2014 · Valencia &amp;amp; Bologna</span>
           <div class="bio-tl-txt">
             <h3 class="bio-tl-title">Erasmus Mundus Master</h3>
             <p class="bio-tl-desc">Awarded the prestigious Erasmus Mundus scholarship to complete a Master in Work, Organizational and Personnel Psychology across Spain and Italy.</p>
@@ -430,7 +430,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
           <span class="bio-tl-year">2015 – 2019 · Valencia, Spain</span>
           <div class="bio-tl-txt">
             <h3 class="bio-tl-title">Ph.D. in Human Resource Psychology</h3>
-            <p class="bio-tl-desc">Earned her doctorate (Cum Laude &amp; International Mention) on an FPU research scholarship, and was recognised as a "Young Organizational Psychologist with Talent" by the Colegio Oficial de Psicólogos de Madrid.</p>
+            <p class="bio-tl-desc">Earned her doctorate (Cum Laude &amp;amp; International Mention) on an FPU research scholarship, and was recognised as a "Young Organizational Psychologist with Talent" by the Colegio Oficial de Psicólogos de Madrid.</p>
           </div>
         </div>
       </li>
@@ -438,7 +438,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
         <div class="bio-tl-card">
           <span class="bio-tl-year">2020 – 2024 · Singapore</span>
           <div class="bio-tl-txt">
-            <h3 class="bio-tl-title">Organisational Development &amp; Research</h3>
+            <h3 class="bio-tl-title">Organisational Development &amp;amp; Research</h3>
             <p class="bio-tl-desc">Led SME transformation initiatives, evidence-based management research, educator development, and strategic retreats — redesigning HR processes and running change-management workshops across sectors.</p>
           </div>
         </div>
@@ -448,13 +448,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
           <span class="bio-tl-year">2022 · Singapore</span>
           <div class="bio-tl-txt">
             <h3 class="bio-tl-title">Certified ORSC Systems Coach</h3>
-            <p class="bio-tl-desc">Completed Organization &amp; Relationship Systems Coaching (CRR Global), deepening her practice in team dynamics, relational systems, and psychological safety.</p>
+            <p class="bio-tl-desc">Completed Organization &amp;amp; Relationship Systems Coaching (CRR Global), deepening her practice in team dynamics, relational systems, and psychological safety.</p>
           </div>
         </div>
       </li>
       <li class="bio-tl-item" id="bio-m6">
         <div class="bio-tl-card">
-          <span class="bio-tl-year">Today · Singapore &amp; Beyond</span>
+          <span class="bio-tl-year">Today · Singapore &amp;amp; Beyond</span>
           <div class="bio-tl-txt">
             <h3 class="bio-tl-title">Systems Coach with BHD Asia</h3>
             <p class="bio-tl-desc">Brings her organisational psychology and systems coaching practice to BHD Asia's clients — supporting leadership development, culture change, and team effectiveness worldwide.</p>
@@ -479,7 +479,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
         <div class="bio-pc-img"><img src="/pillar-1.webp" alt="Leadership &amp; Team Development" width="800" height="432" loading="lazy"/></div>
         <div class="bio-pc-body">
           <span class="bio-pc-num" aria-hidden="true">1</span>
-          <h3 id="bio-pc-1">Leadership &amp; Team Development</h3>
+          <h3 id="bio-pc-1">Leadership &amp;amp; Team Development</h3>
           <p>ORSC systems coaching, team effectiveness, leadership programmes, and psychological safety — strengthening how people work together.</p>
           <a class="bio-pc-link" href="/services" aria-describedby="bio-pc-1">Explore<svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
         </div>
@@ -488,7 +488,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
         <div class="bio-pc-img"><img src="/pillar-2.webp" alt="Organisational Transformation &amp; Change" width="800" height="432" loading="lazy"/></div>
         <div class="bio-pc-body">
           <span class="bio-pc-num" aria-hidden="true">2</span>
-          <h3 id="bio-pc-2">Transformation &amp; Change</h3>
+          <h3 id="bio-pc-2">Transformation &amp;amp; Change</h3>
           <p>Strategic planning, change facilitation, and culture building — helping organisations align direction, culture, and action.</p>
           <a class="bio-pc-link" href="/services" aria-describedby="bio-pc-2">Explore<svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
         </div>
@@ -497,7 +497,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
         <div class="bio-pc-img"><img src="/pillar-3.webp" alt="Experiential Learning &amp; Facilitation" width="800" height="432" loading="lazy"/></div>
         <div class="bio-pc-body">
           <span class="bio-pc-num" aria-hidden="true">3</span>
-          <h3 id="bio-pc-3">Learning &amp; Facilitation</h3>
+          <h3 id="bio-pc-3">Learning &amp;amp; Facilitation</h3>
           <p>Experiential learning design, process facilitation, and design thinking — building internal capability that lasts.</p>
           <a class="bio-pc-link" href="/services" aria-describedby="bio-pc-3">Explore<svg viewbox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
         </div>
@@ -525,7 +525,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
     <div class="footer-widget">
       <span class="footer-brand-name">BHD <span>Asia</span></span>
       <p>Highlight, Enhance and Appreciate Human in Business.</p>
-      <p>Business &amp; Human Development Consulting Pte Ltd</p>
+      <p>Business &amp;amp; Human Development Consulting Pte Ltd</p>
       <div class="footer-social">
         <a href="https://www.facebook.com/bhdasia/" target="_blank" rel="noopener" class="footer-soc-btn" aria-label="Facebook"><svg viewbox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
         <a href="https://www.instagram.com/isabelleclausteixeira_bhd/" target="_blank" rel="noopener" class="footer-soc-btn" aria-label="Instagram"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
@@ -534,7 +534,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
       </div>
     </div>
     <div class="footer-widget"><h4>Navigate</h4><ul><li><a href="/">Home</a></li><li><a href="/services">Services</a></li><li><a href="/about">About</a></li><li><a href="/events">Events</a></li><li><a href="/contact">Contact</a></li><li><a href="https://www.hummingbeing.com/" target="_blank" rel="noopener">HummingBeing</a></li></ul></div>
-    <div class="footer-widget"><h4>Legal</h4><ul><li><a href="/privacy">Privacy Statement</a></li><li><a href="/terms">Terms &amp; Conditions</a></li><li><a href="/inclusivity">Inclusivity Statement</a></li></ul></div>
+    <div class="footer-widget"><h4>Legal</h4><ul><li><a href="/privacy">Privacy Statement</a></li><li><a href="/terms">Terms &amp;amp; Conditions</a></li><li><a href="/inclusivity">Inclusivity Statement</a></li></ul></div>
     <div class="footer-widget"><h4>Contact</h4><p class="ft-addr">Singapore Land Tower, #30-00<br/>50 Raffles Place<br/>Singapore 048623</p><p><a href="tel:+818065151778">+81 80 6515 1778</a></p><p><span>bonjour@bhd<span style="display:none">-no-spam</span>asia.com</span></p><p><a href="/#book" data-cta="page-book">Talk to our team →</a></p></div>
   </div></div>
   <div id="footer-bottom"><div class="container">

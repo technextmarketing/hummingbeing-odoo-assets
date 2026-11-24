@@ -1,4 +1,4 @@
-<t t-name="bhds.page_services"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en-US&quot;}"/><t t-set="title">Executive Coaching &amp; Leadership Development Services | BHD Asia</t><t t-set="body_classname" t-value="&quot;page et_fixed_nav et_divi_theme&quot;"/><t t-set="head"><script>try{if(!sessionStorage.getItem("bhdIntro")&amp;&amp;!matchMedia("(prefers-reduced-motion: reduce)").matches){var d=document.documentElement;d.classList.add("intro-on");setTimeout(function(){d.classList.remove("intro-on")},5000)}}catch(e){}</script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+<t t-name="bhds.page_services"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en-US&quot;}"/><t t-set="title">Executive Coaching &amp; Leadership Development Services | BHD Asia</t><t t-set="body_classname" t-value="&quot;page et_fixed_nav et_divi_theme&quot;"/><t t-set="x_icon" t-value="&quot;/favicon.ico?v=3&quot;"/><t t-set="head"><script>try{if(!sessionStorage.getItem("bhdIntro")&amp;&amp;!matchMedia("(prefers-reduced-motion: reduce)").matches){var d=document.documentElement;d.classList.add("intro-on");setTimeout(function(){d.classList.remove("intro-on")},5000)}}catch(e){}</script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
@@ -269,13 +269,13 @@ html body .sv-fig{justify-self:stretch!important;max-width:none!important}
 .svp-card .svp-sum{margin:0 0 12px!important}
 .svp-card .svp-inc{margin:0 0 18px!important;padding:0!important;gap:6px 20px!important}
 .svp-card .svp-inc li{margin:0!important;padding-bottom:0!important}
-</style></t><t t-call="web.layout"><link rel="stylesheet" href="/style.css?v=14"/><link rel="stylesheet" href="/technext-style.css?v=36"/><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W9B95BT7" height="0" width="0" style="display:none;visibility:hidden"/></noscript><div id="page-container">
+</style></t><t t-call="web.layout"><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W9B95BT7" height="0" width="0" style="display:none;visibility:hidden"/></noscript><div id="page-container">
 
 <header id="main-header">
   <div class="et_menu_container container clearfix">
     <div class="logo_container">
       <a href="/">
-        <img src="/bhd-logo.svg?v=1" alt="BHD Asia" width="51" height="34" onerror="this.style.display='none';document.querySelector('.logo-text').style.display='block'"/>
+        <img src="/bhd-logo.svg?v=1" alt="BHD Asia" width="51" height="34" onerror="this.style.display='none';document.querySelector('.logo-text').style.display='block'" loading="eager"/>
         <span class="logo-text">BHD Asia</span>
       </a>
     </div>
@@ -298,11 +298,11 @@ html body .sv-fig{justify-self:stretch!important;max-width:none!important}
 
 <div id="et-main-area" tabindex="-1">
 <div class="page-title-wrap">
-  <img class="page-hero-video" src="/hero-services.webp" alt="" aria-hidden="true" width="1600" height="893" fetchpriority="high" decoding="async"/>
+  <img class="page-hero-video" src="/hero-services.webp" alt="" aria-hidden="true" width="1600" height="893" fetchpriority="high" decoding="async" loading="eager"/>
   <div class="page-hero-overlay"/>
   <div class="container">
     <span class="section-label">What We Offer</span>
-    <h1 class="page-title">Coaching &amp; Leadership Services, Tailored for You</h1>
+    <h1 class="page-title">Coaching &amp;amp; Leadership Services, Tailored for You</h1>
     <p class="page-hero-sub">Co-designed, bespoke solutions built around your people — not off-the-shelf programmes.</p>
     <div class="page-hero-ctas">
       <a class="et_pb_button btn-white" href="/#book" data-cta="page-book">Plan your programme with us</a>
@@ -337,9 +337,9 @@ html body .sv-fig{justify-self:stretch!important;max-width:none!important}
         <div class="sv-panel-copy">
           <h2>Organisation Development</h2>
           <ul class="sv-list">
-            <li class="sv-item"><span class="sv-dot" aria-hidden="true"/><span>HR &amp; Talent Management Advisory</span></li>
+            <li class="sv-item"><span class="sv-dot" aria-hidden="true"/><span>HR &amp;amp; Talent Management Advisory</span></li>
             <li class="sv-item"><span class="sv-dot" aria-hidden="true"/><span>High Performing Teams Facilitation</span></li>
-            <li class="sv-item"><span class="sv-dot" aria-hidden="true"/><span>Challenging Conversations &amp; Constructive Conflict Management</span></li>
+            <li class="sv-item"><span class="sv-dot" aria-hidden="true"/><span>Challenging Conversations &amp;amp; Constructive Conflict Management</span></li>
             <li class="sv-item"><span class="sv-dot" aria-hidden="true"/><span>Leadership Skills Development</span></li>
             <li class="sv-item"><span class="sv-dot" aria-hidden="true"/><span>Organisation Culture Transformation</span></li>
             <li class="sv-item"><span class="sv-dot" aria-hidden="true"/><span>Change Management Skills</span></li>
@@ -354,8 +354,8 @@ html body .sv-fig{justify-self:stretch!important;max-width:none!important}
           <h2>Resilience Building</h2>
           <ul class="sv-list">
             <li class="sv-item"><span class="sv-dot" aria-hidden="true"/><span>Somatic Coaching <span class="sv-item-d">— body-based work integrated with neuroscience and energy psychology</span></span></li>
-            <li class="sv-item"><span class="sv-dot" aria-hidden="true"/><span>Tension &amp; Trauma Releasing Exercises (TRE™) <span class="sv-item-d">— neurogenic stress release without detailed discussion</span></span></li>
-            <li class="sv-item"><span class="sv-dot" aria-hidden="true"/><span>Stress Management &amp; Burnout Prevention</span></li>
+            <li class="sv-item"><span class="sv-dot" aria-hidden="true"/><span>Tension &amp;amp; Trauma Releasing Exercises (TRE™) <span class="sv-item-d">— neurogenic stress release without detailed discussion</span></span></li>
+            <li class="sv-item"><span class="sv-dot" aria-hidden="true"/><span>Stress Management &amp;amp; Burnout Prevention</span></li>
             <li class="sv-item"><span class="sv-dot" aria-hidden="true"/><span>Psychological Safety Workshops</span></li>
             <li class="sv-item"><span class="sv-dot" aria-hidden="true"/><span>Conflict Resolution</span></li>
           </ul>
@@ -480,7 +480,7 @@ html body .sv-fig{justify-self:stretch!important;max-width:none!important}
     <div class="footer-widget">
       <span class="footer-brand-name">BHD <span>Asia</span></span>
       <p>Highlight, Enhance and Appreciate Human in Business.</p>
-      <p>Business &amp; Human Development Consulting Pte Ltd</p>
+      <p>Business &amp;amp; Human Development Consulting Pte Ltd</p>
       <div class="footer-social">
         <a href="https://www.facebook.com/bhdasia/" target="_blank" rel="noopener" class="footer-soc-btn" aria-label="Facebook"><svg viewbox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
         <a href="https://www.instagram.com/isabelleclausteixeira_bhd/" target="_blank" rel="noopener" class="footer-soc-btn" aria-label="Instagram"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
@@ -489,7 +489,7 @@ html body .sv-fig{justify-self:stretch!important;max-width:none!important}
       </div>
     </div>
     <div class="footer-widget"><h4>Navigate</h4><ul><li><a href="/">Home</a></li><li><a href="/services">Services</a></li><li><a href="/about">About</a></li><li><a href="/events">Events</a></li><li><a href="/contact">Contact</a></li><li><a href="https://www.hummingbeing.com/" target="_blank" rel="noopener">HummingBeing</a></li></ul></div>
-    <div class="footer-widget"><h4>Legal</h4><ul><li><a href="/privacy">Privacy Statement</a></li><li><a href="/terms">Terms &amp; Conditions</a></li><li><a href="/inclusivity">Inclusivity Statement</a></li></ul></div>
+    <div class="footer-widget"><h4>Legal</h4><ul><li><a href="/privacy">Privacy Statement</a></li><li><a href="/terms">Terms &amp;amp; Conditions</a></li><li><a href="/inclusivity">Inclusivity Statement</a></li></ul></div>
     <div class="footer-widget"><h4>Contact</h4><p class="ft-addr">Singapore Land Tower, #30-00<br/>50 Raffles Place<br/>Singapore 048623</p><p><a href="tel:+818065151778">+81 80 6515 1778</a></p><p><span>bonjour@bhd<span style="display:none">-no-spam</span>asia.com</span></p><p><a href="/#book" data-cta="page-book">Plan your programme with us →</a></p></div>
   </div></div>
   <div id="footer-bottom"><div class="container">

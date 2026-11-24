@@ -1,4 +1,4 @@
-<t t-name="bhds.page_events"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en-US&quot;}"/><t t-set="title">TRE™ Workshops &amp; Certification Events 2026–2027 | BHD Asia</t><t t-set="body_classname" t-value="&quot;page et_fixed_nav et_divi_theme&quot;"/><t t-set="head"><script>try{if(!sessionStorage.getItem("bhdIntro")&amp;&amp;!matchMedia("(prefers-reduced-motion: reduce)").matches){var d=document.documentElement;d.classList.add("intro-on");setTimeout(function(){d.classList.remove("intro-on")},5000)}}catch(e){}</script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+<t t-name="bhds.page_events"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en-US&quot;}"/><t t-set="title">TRE™ Workshops &amp; Certification Events 2026–2027 | BHD Asia</t><t t-set="body_classname" t-value="&quot;page et_fixed_nav et_divi_theme&quot;"/><t t-set="x_icon" t-value="&quot;/favicon.ico?v=3&quot;"/><t t-set="head"><script>try{if(!sessionStorage.getItem("bhdIntro")&amp;&amp;!matchMedia("(prefers-reduced-motion: reduce)").matches){var d=document.documentElement;d.classList.add("intro-on");setTimeout(function(){d.classList.remove("intro-on")},5000)}}catch(e){}</script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
@@ -365,13 +365,13 @@ html body p.ev-refund a{color:#14244a;text-decoration:underline;text-underline-o
 .ev-archive li span{font-size:12.5px;color:#6b7080}
 .ev-archive li a:hover b{text-decoration:underline;text-underline-offset:3px}
 @media (max-width:700px){.ev-archive ul{grid-template-columns:1fr}}
-</style></t><t t-call="web.layout"><link rel="stylesheet" href="/style.css?v=12"/><link rel="stylesheet" href="/technext-style.css?v=36"/><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W9B95BT7" height="0" width="0" style="display:none;visibility:hidden"/></noscript><div id="page-container">
+</style></t><t t-call="web.layout"><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W9B95BT7" height="0" width="0" style="display:none;visibility:hidden"/></noscript><div id="page-container">
 
 <header id="main-header">
   <div class="et_menu_container container clearfix">
     <div class="logo_container">
       <a href="/">
-        <img src="/bhd-logo.svg?v=1" alt="BHD Asia" width="51" height="34" onerror="this.style.display='none';document.querySelector('.logo-text').style.display='block'"/>
+        <img src="/bhd-logo.svg?v=1" alt="BHD Asia" width="51" height="34" onerror="this.style.display='none';document.querySelector('.logo-text').style.display='block'" loading="eager"/>
         <span class="logo-text">BHD Asia</span>
       </a>
     </div>
@@ -396,11 +396,11 @@ html body p.ev-refund a{color:#14244a;text-decoration:underline;text-underline-o
 
 <!-- HERO -->
 <div class="page-title-wrap">
-  <img class="page-hero-video" src="/hero-home.webp" alt="" aria-hidden="true" width="1600" height="893" fetchpriority="high" decoding="async"/>
+  <img class="page-hero-video" src="/hero-home.webp" alt="" aria-hidden="true" width="1600" height="893" fetchpriority="high" decoding="async" loading="eager"/>
   <div class="page-hero-overlay"/>
   <div class="container">
-    <span class="section-label">Events &amp; Workshops</span>
-    <h1 class="page-title">TRE™ Events &amp; Workshops</h1>
+    <span class="section-label">Events &amp;amp; Workshops</span>
+    <h1 class="page-title">TRE™ Events &amp;amp; Workshops</h1>
     <p class="page-hero-sub">Group workshops, TRE™ sessions and certification trainings — in Singapore, Romania and online. Led by Global TRE™ Certifying Trainer Isabelle Claus Teixeira.</p>
     <div class="page-hero-ctas">
       <a class="et_pb_button btn-white" href="https://calendly.com/bhdasia/tre-certification-intake-call" target="_blank" rel="noopener">Book a Free Discovery Call</a>
@@ -455,10 +455,10 @@ html body p.ev-refund a{color:#14244a;text-decoration:underline;text-underline-o
   <div class="container">
     <div class="ev-head">
       <div class="ev-head-t ev-rv">
-        <span class="section-label">Workshops &amp; Certifications</span>
+        <span class="section-label">Workshops &amp;amp; Certifications</span>
         <h2 id="ev-up-title">Upcoming Events</h2>
-        <p>Singapore &amp; Bucharest · 2026–2027 · Led by Isabelle Claus Teixeira</p>
-        <p class="ev-count" id="ev-count" hidden=""><b class="ev-cu" id="ev-count-up">0</b> upcoming · <b id="ev-count-past">0</b> past &amp; sold out</p>
+        <p>Singapore &amp;amp; Bucharest · 2026–2027 · Led by Isabelle Claus Teixeira</p>
+        <p class="ev-count" id="ev-count" hidden=""><b class="ev-cu" id="ev-count-up">0</b> upcoming · <b id="ev-count-past">0</b> past &amp;amp; sold out</p>
       </div>
       <div class="ev-views ev-rv" role="group" aria-label="Choose a layout" style="--d:120ms">
         <button type="button" class="ev-view" data-view="grid" aria-pressed="true"><svg viewbox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="7" height="7" rx="1.5"/><rect x="13.5" y="3.5" width="7" height="7" rx="1.5"/><rect x="3.5" y="13.5" width="7" height="7" rx="1.5"/><rect x="13.5" y="13.5" width="7" height="7" rx="1.5"/></svg>Grid</button>
@@ -476,7 +476,7 @@ html body p.ev-refund a{color:#14244a;text-decoration:underline;text-underline-o
       <p class="ev-status" id="ev-status" aria-live="polite"/>
     </div>
 
-    <p class="ev-refund" role="note"><svg viewbox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></svg>All ticket sales are final: tickets are non-refundable and non-cancellable. <a href="/terms">Terms &amp; Conditions</a></p>
+    <p class="ev-refund" role="note"><svg viewbox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></svg>All ticket sales are final: tickets are non-refundable and non-cancellable. <a href="/terms">Terms &amp;amp; Conditions</a></p>
 
     <div class="events-grid" id="up-grid" role="tabpanel" aria-labelledby="ev-tab-all">
 
@@ -584,7 +584,7 @@ html body p.ev-refund a{color:#14244a;text-decoration:underline;text-underline-o
             28–30 May 2027 · In Person · Lisboa, Portugal
           </div>
           <h3>TRE™ Module 1 — Lisbon</h3>
-          <p>ICF-accredited TRE™ Module 1 in Lisboa, led by Isabelle Claus Teixeira, assisted by Saymara Ryon. The 21 ICF CCEUs require the additional 4-hour Self-Care &amp; Presence for Coaches session (30 May, 14:00–18:00). Only 25 places.</p>
+          <p>ICF-accredited TRE™ Module 1 in Lisboa, led by Isabelle Claus Teixeira, assisted by Saymara Ryon. The 21 ICF CCEUs require the additional 4-hour Self-Care &amp;amp; Presence for Coaches session (30 May, 14:00–18:00). Only 25 places.</p>
           <div class="ec-footer">
             <div class="ec-price">from €739<span>Early bird (first 10) to 31 Mar 2027 · then €799</span></div>
             <div class="ec-ctas">
@@ -650,7 +650,7 @@ html body p.ev-refund a{color:#14244a;text-decoration:underline;text-underline-o
           <div class="ec-tags"><span class="ec-loc">Romania</span><span class="ec-type">In-Person</span></div>
           <div class="ec-date">
             <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-            20 &amp; 24 October 2026 · Bucharest
+            20 &amp;amp; 24 October 2026 · Bucharest
           </div>
           <h3>From Shaking to Shaping — Bucharest</h3>
           <p>Integrate TRE™ into your coaching practice — neurogenic tremoring as a somatic tool for nervous system regulation and embodied client presence. Two half-day in-person intensives in Bucharest, România.</p>
@@ -676,7 +676,7 @@ html body p.ev-refund a{color:#14244a;text-decoration:underline;text-underline-o
             3 September 2026 · Online
           </div>
           <h3>From Shaking to Shaping — Online</h3>
-          <p>The 3 September 2026 online session with Isabelle Claus Teixeira &amp; Saymara Ryon. Fully booked; this session has now taken place.</p>
+          <p>The 3 September 2026 online session with Isabelle Claus Teixeira &amp;amp; Saymara Ryon. Fully booked; this session has now taken place.</p>
           <div class="ec-footer">
             <div class="ec-price">Online session<span>Fully booked — now closed</span></div>
             <div class="ec-ctas">
@@ -764,7 +764,7 @@ html body p.ev-refund a{color:#14244a;text-decoration:underline;text-underline-o
           <img src="/card-body-in-the-room.webp?v=1" srcset="/card-body-in-the-room-960.webp?v=1 960w, /card-body-in-the-room.webp?v=1 1920w" sizes="(max-width:700px) 100vw, (max-width:1100px) 50vw, 33vw" alt="The Body in the Room — online workshop with Aun Ali, 25 November 2026" width="1920" height="1080" loading="lazy"/>
         </div>
         <div class="ec-body">
-          <div class="ec-tags"><span class="ec-loc">Online</span><span class="ec-type">Psychotherapy &amp; Somatics</span></div>
+          <div class="ec-tags"><span class="ec-loc">Online</span><span class="ec-type">Psychotherapy &amp;amp; Somatics</span></div>
           <div class="ec-date">
             <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
             25 November 2026 · 7–9PM SGT · Live Online
@@ -787,7 +787,7 @@ html body p.ev-refund a{color:#14244a;text-decoration:underline;text-underline-o
           <img src="/card-breath-as-medicine.webp?v=1" srcset="/card-breath-as-medicine-960.webp?v=1 960w, /card-breath-as-medicine.webp?v=1 1920w" sizes="(max-width:700px) 100vw, (max-width:1100px) 50vw, 33vw" alt="Ania Zielińska, yoga teacher" width="1920" height="1080" loading="lazy"/>
         </div>
         <div class="ec-body">
-          <div class="ec-tags"><span class="ec-loc">Online</span><span class="ec-type">Breathwork &amp; Wellbeing</span></div>
+          <div class="ec-tags"><span class="ec-loc">Online</span><span class="ec-type">Breathwork &amp;amp; Wellbeing</span></div>
           <div class="ec-date">
             <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
             15 December 2026 · 7–9PM SGT · Live Online
@@ -810,10 +810,10 @@ html body p.ev-refund a{color:#14244a;text-decoration:underline;text-underline-o
           <img src="/event-intro-tre-singapore-2027.webp?v=1" srcset="/event-intro-tre-singapore-2027-960.webp?v=1 960w, /event-intro-tre-singapore-2027.webp?v=1 1920w" sizes="(max-width:700px) 100vw, (max-width:1100px) 50vw, 33vw" alt="Introduction to TRE™ — in person in Singapore, 2027, with Isabelle Claus Teixeira and Simba Stenqvist" width="1920" height="1080" loading="lazy"/>
         </div>
         <div class="ec-body">
-          <div class="ec-tags"><span class="ec-loc">Singapore</span><span class="ec-type">Introduction &amp; Workshop</span></div>
+          <div class="ec-tags"><span class="ec-loc">Singapore</span><span class="ec-type">Introduction &amp;amp; Workshop</span></div>
           <div class="ec-date">
             <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-            23 Feb, 29 Jun &amp; 3 Nov 2027 · 7–9PM · In Person
+            23 Feb, 29 Jun &amp;amp; 3 Nov 2027 · 7–9PM · In Person
           </div>
           <h3>Introduction to TRE™</h3>
           <p>A 2-hour in-person workshop for the general public in Singapore, in collaboration with TRE Thailand and Simba Stenqvist. Discover what TRE™ is and how it can benefit you. Choose one of three dates.</p>
@@ -836,7 +836,7 @@ html body p.ev-refund a{color:#14244a;text-decoration:underline;text-underline-o
           <div class="ec-tags"><span class="ec-loc">Singapore</span><span class="ec-type">3 ICF CCEs</span></div>
           <div class="ec-date">
             <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-            24 Feb, 30 Jun &amp; 2 Nov 2027 · 7–10PM · In Person
+            24 Feb, 30 Jun &amp;amp; 2 Nov 2027 · 7–10PM · In Person
           </div>
           <h3>Shaking to Shaping — TRE™ for Coaches</h3>
           <p>An ICF-accredited 3-hour Introduction to TRE™ for Coaches in Singapore, in collaboration with Simba Stenqvist. A full TRE™ session and how to bring it into your coaching. Choose one of three dates.</p>
@@ -856,7 +856,7 @@ html body p.ev-refund a{color:#14244a;text-decoration:underline;text-underline-o
           <img src="/card-art-of-conscious-rest.webp?v=1" srcset="/card-art-of-conscious-rest-960.webp?v=1 960w, /card-art-of-conscious-rest.webp?v=1 1920w" sizes="(max-width:700px) 100vw, (max-width:1100px) 50vw, 33vw" alt="Olga Titkova, yoga and mindfulness teacher" width="1920" height="1080" loading="lazy"/>
         </div>
         <div class="ec-body">
-          <div class="ec-tags"><span class="ec-loc">Online</span><span class="ec-type">Yoga Nidra &amp; Rest</span></div>
+          <div class="ec-tags"><span class="ec-loc">Online</span><span class="ec-type">Yoga Nidra &amp;amp; Rest</span></div>
           <div class="ec-date">
             <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
             24 January 2027 · 8–10PM SGT · Live Online
@@ -879,12 +879,12 @@ html body p.ev-refund a{color:#14244a;text-decoration:underline;text-underline-o
           <img src="/card-feminine-masculine.webp?v=1" srcset="/card-feminine-masculine-960.webp?v=1 960w, /card-feminine-masculine.webp?v=1 1920w" sizes="(max-width:700px) 100vw, (max-width:1100px) 50vw, 33vw" alt="Navigating Feminine &amp; Masculine Energetics — Sara Marie, 28 October 2026" width="1920" height="1080" loading="lazy"/>
         </div>
         <div class="ec-body">
-          <div class="ec-tags"><span class="ec-loc">Online</span><span class="ec-type">Energetics &amp; Somatics</span></div>
+          <div class="ec-tags"><span class="ec-loc">Online</span><span class="ec-type">Energetics &amp;amp; Somatics</span></div>
           <div class="ec-date">
             <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
             28 October 2026 · 7–9:30PM SGT · Live Online
           </div>
-          <h3>Navigating Feminine &amp; Masculine Energetics</h3>
+          <h3>Navigating Feminine &amp;amp; Masculine Energetics</h3>
           <p>A live online workshop with Sara Marie — The Alchemist. Alchemising the pressure of masculine corporate structures into liberation, ease and personal power, through energetic transmission and somatic release.</p>
           <div class="ec-footer">
             <div class="ec-price">from 88 SGD<span>69 USD · TRE™ providers 68 SGD</span></div>
@@ -975,9 +975,9 @@ html body p.ev-refund a{color:#14244a;text-decoration:underline;text-underline-o
           <div class="ec-tags"><span class="ec-loc">Singapore</span><span class="ec-type">21 CCEUs · ICF</span></div>
           <div class="ec-date">
             <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-            29 &amp; 30 August 2026 · In-Person
+            29 &amp;amp; 30 August 2026 · In-Person
           </div>
-          <h3>Nervous System Regulation &amp; Self-Induced Neurogenic Tremoring</h3>
+          <h3>Nervous System Regulation &amp;amp; Self-Induced Neurogenic Tremoring</h3>
           <p>A 2-day in-person TRE™ workshop for coaches — develop embodied self-care, prevent burnout, and deepen your somatic presence with clients. Valid as Module 1 of the Global TRE™ Provider Certification Program.</p>
           <div class="ec-footer">
             <div class="ec-price">from S$1,290<span>ICF Special Price until 15 Aug</span></div>
@@ -1029,7 +1029,7 @@ html body p.ev-refund a{color:#14244a;text-decoration:underline;text-underline-o
     <div class="footer-widget">
       <span class="footer-brand-name">BHD <span>Asia</span></span>
       <p>Highlight, Enhance and Appreciate Human in Business.</p>
-      <p>Business &amp; Human Development Consulting Pte Ltd</p>
+      <p>Business &amp;amp; Human Development Consulting Pte Ltd</p>
       <div class="footer-social">
         <a href="https://www.facebook.com/bhdasia/" target="_blank" rel="noopener" class="footer-soc-btn" aria-label="Facebook"><svg viewbox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
         <a href="https://www.instagram.com/isabelleclausteixeira_bhd/" target="_blank" rel="noopener" class="footer-soc-btn" aria-label="Instagram"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
@@ -1038,7 +1038,7 @@ html body p.ev-refund a{color:#14244a;text-decoration:underline;text-underline-o
       </div>
     </div>
     <div class="footer-widget"><h4>Navigate</h4><ul><li><a href="/">Home</a></li><li><a href="/services">Services</a></li><li><a href="/about">About</a></li><li><a href="/events">Events</a></li><li><a href="/contact">Contact</a></li><li><a href="https://www.hummingbeing.com/" target="_blank" rel="noopener">HummingBeing</a></li></ul></div>
-    <div class="footer-widget"><h4>Legal</h4><ul><li><a href="/privacy">Privacy Statement</a></li><li><a href="/terms">Terms &amp; Conditions</a></li><li><a href="/inclusivity">Inclusivity Statement</a></li></ul></div>
+    <div class="footer-widget"><h4>Legal</h4><ul><li><a href="/privacy">Privacy Statement</a></li><li><a href="/terms">Terms &amp;amp; Conditions</a></li><li><a href="/inclusivity">Inclusivity Statement</a></li></ul></div>
     <div class="footer-widget"><h4>Contact</h4><p class="ft-addr">Singapore Land Tower, #30-00<br/>50 Raffles Place<br/>Singapore 048623</p><p><a href="tel:+818065151778">+81 80 6515 1778</a></p><p><span>bonjour@bhd<span style="display:none">-no-spam</span>asia.com</span></p><p><a href="/#book" data-cta="page-book">Not sure which event? Ask us →</a></p></div>
   </div></div>
   <div id="footer-bottom"><div class="container">

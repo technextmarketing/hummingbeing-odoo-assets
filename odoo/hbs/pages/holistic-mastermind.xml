@@ -1,4 +1,4 @@
-<t t-name="hbs.page_holistic_mastermind"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en&quot;}"/><t t-set="title">Holistic Mastermind: Somatic Coaching for Leaders</t><t t-set="head"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
+<t t-name="hbs.page_holistic_mastermind"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en&quot;}"/><t t-set="title">Holistic Mastermind: Somatic Coaching for Leaders</t><t t-set="x_icon" t-value="&quot;/favicon-32.png?v=3&quot;"/><t t-set="head"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
 new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
 "https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
@@ -530,8 +530,8 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
       }
     ]
   }
-  </script><script type="application/ld+json" data-seo="breadcrumb">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.hummingbeing.com/"}, {"@type": "ListItem", "position": 2, "name": "Holistic Mastermind", "item": "https://www.hummingbeing.com/holistic-mastermind"}]}</script><link rel="preload" href="/fonts/hb/lato-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/hb/playfair-display-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/></t><t t-call="web.layout"><link rel="stylesheet" href="/styles.css?v=98"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXLR5LGG" height="0" width="0" style="display:none;visibility:hidden"/></noscript><nav>
-      <a href="/" class="logo"><img src="/images/logo-dark.webp" class="logo-on-dark" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/><img src="/images/logo-light.webp" class="logo-on-light" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/></a>
+  </script><script type="application/ld+json" data-seo="breadcrumb">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.hummingbeing.com/"}, {"@type": "ListItem", "position": 2, "name": "Holistic Mastermind", "item": "https://www.hummingbeing.com/holistic-mastermind"}]}</script><link rel="preload" href="/fonts/hb/lato-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/hb/playfair-display-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/></t><t t-call="web.layout"><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXLR5LGG" height="0" width="0" style="display:none;visibility:hidden"/></noscript><nav>
+      <a href="/" class="logo"><img src="/images/logo-dark.webp" class="logo-on-dark" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto" loading="eager"/><img src="/images/logo-light.webp" class="logo-on-light" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto" loading="eager"/></a>
       <ul class="nav-links">
     <li><a href="/">Home</a></li>
     <li><a href="/about">About</a></li>
@@ -539,9 +539,9 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     <li class="nav-dropdown">
       <a href="javascript:void(0)" class="nav-dropdown-toggle active">Work with Isabelle <i class="fa-solid fa-chevron-down nav-arrow"/></a>
       <ul class="nav-dropdown-menu">
-        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™<small>Private sessions, online or in person</small></a></li>
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp;amp; TRE™<small>Private sessions, online or in person</small></a></li>
         <li><a href="/tre-certification">TRE™ Certification<small>Become a certified TRE™ provider</small></a></li>
-        <li><a href="/retreats-workshops">Retreats &amp; Workshops<small>Groups, teams and executives</small></a></li>
+        <li><a href="/retreats-workshops">Retreats &amp;amp; Workshops<small>Groups, teams and executives</small></a></li>
       </ul>
     </li>
     <li><a href="/events">Events</a></li>
@@ -562,7 +562,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
   </div><div class="ticker-wrap" aria-hidden="true">
     <div class="ticker-track">
       <span class="t-item"><span class="t-star">★</span> Somatic Wellness</span><span class="t-sep">·</span>
-      <span class="t-item">In-Person &amp; Online Worldwide</span><span class="t-sep">·</span>
+      <span class="t-item">In-Person &amp;amp; Online Worldwide</span><span class="t-sep">·</span>
       <span class="t-item"><span class="t-star">★</span> Holistic Mastermind Ecosystem</span><span class="t-sep">·</span>
       <span class="t-item">Four Pillars of Leadership</span><span class="t-sep">·</span>
       <span class="t-item"><span class="t-star">★</span> The Tactical Mind</span><span class="t-sep">·</span>
@@ -575,7 +575,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
       <span class="t-item">Mindfulness</span><span class="t-sep">·</span>
       <span class="t-item"><span class="t-star">★</span> 9 Countries · 40+ Nationalities</span><span class="t-sep">·</span>
       <span class="t-item">Release · Renew · Restore</span><span class="t-sep">·</span>
-      <span class="t-item"><span class="t-star">★</span> Business &amp; Human Development</span><span class="t-sep">·</span>
+      <span class="t-item"><span class="t-star">★</span> Business &amp;amp; Human Development</span><span class="t-sep">·</span>
       <span class="t-item">Nervous System Reset</span><span class="t-sep">·</span>
       <span class="t-item"><span class="t-star">★</span> Mindfulness</span><span class="t-sep">·</span>
       <span class="t-item">Embodied Leadership</span><span class="t-sep">·</span>
@@ -585,7 +585,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
       <span class="t-item">Burnout Recovery</span><span class="t-sep">·</span>
       <span class="t-item"><span class="t-star">★</span> Executive Coaching</span><span class="t-sep">·</span>
       <span class="t-item">Breathwork</span><span class="t-sep">·</span>
-      <span class="t-item"><span class="t-star">★</span> Online &amp; In-Person</span><span class="t-sep">·</span>
+      <span class="t-item"><span class="t-star">★</span> Online &amp;amp; In-Person</span><span class="t-sep">·</span>
       <span class="t-item">Body Intelligence</span><span class="t-sep">·</span>
       <span class="t-item"><span class="t-star">★</span> Somatic Intelligence</span><span class="t-sep">·</span>
       <span class="t-item">Self-Regulation</span><span class="t-sep">·</span>
@@ -605,7 +605,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
       <span class="t-item">Mindfulness</span><span class="t-sep">·</span>
       <span class="t-item"><span class="t-star">★</span> 9 Countries · 40+ Nationalities</span><span class="t-sep">·</span>
       <span class="t-item">Release · Renew · Restore</span><span class="t-sep">·</span>
-      <span class="t-item"><span class="t-star">★</span> Business &amp; Human Development</span><span class="t-sep">·</span>
+      <span class="t-item"><span class="t-star">★</span> Business &amp;amp; Human Development</span><span class="t-sep">·</span>
       <span class="t-item">Nervous System Reset</span><span class="t-sep">·</span>
       <span class="t-item"><span class="t-star">★</span> Cognitive Optimization</span><span class="t-sep">·</span>
       <span class="t-item">Energetic Mastery</span><span class="t-sep">·</span>
@@ -687,7 +687,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
               <p class="hm-pn-body">Values and belief-system auditing, identifying and dismantling saboteurs, resilience planning aligned with your core values. You develop the cognitive clarity and strategic thinking of someone operating from wholeness — not survival. The goal is not just better thinking, but liberated thinking: free from the unconscious patterns that have been quietly constraining your decisions.</p>
               <ul class="hm-chips">
                 <li style="--i:0">Neuroscience-Backed Coaching</li>
-                <li style="--i:1">Values &amp; Beliefs</li>
+                <li style="--i:1">Values &amp;amp; Beliefs</li>
                 <li style="--i:2">Saboteurs</li>
                 <li style="--i:3">Resilience Coaching</li>
               </ul>
@@ -825,17 +825,17 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
         <p class="hm-rv">Very few practitioners can credibly hold all four pillars. Each demands deep specialist training, supervised practice and lived fluency — not a weekend certification. Isabelle holds credentials spanning executive coaching (ICF PCC), somatic bodywork (Strozzi Institute), TRE™ (Global Certifying Trainer), Reiki (Usui/Holy Fire III Master Teacher), breathwork, NLP, mindfulness and core shamanism.</p>
         <p class="hm-rv">This breadth is not accidental — it is the result of 25+ years of disciplined study, practice and client work across nine countries and forty nationalities. It is what makes the ecosystem coherent, and why the four pillars function as an integrated system rather than a loose collection of modalities.</p>
         <ul class="hm-stats hm-rv" aria-hidden="true">
-          <li class="hm-stat"><span class="hm-stat-n" data-hm-count="25" data-hm-suffix="+">25+</span><span class="hm-stat-l">Years of study &amp; practice</span></li>
+          <li class="hm-stat"><span class="hm-stat-n" data-hm-count="25" data-hm-suffix="+">25+</span><span class="hm-stat-l">Years of study &amp;amp; practice</span></li>
           <li class="hm-stat" style="--d:150ms"><span class="hm-stat-n" data-hm-count="9">9</span><span class="hm-stat-l">Countries</span></li>
           <li class="hm-stat" style="--d:300ms"><span class="hm-stat-n" data-hm-count="40">40</span><span class="hm-stat-l">Nationalities</span></li>
         </ul>
         <ul class="hm-creds">
           <li class="hm-cred hm-rv"><i class="fa-solid fa-check"/> ICF PCC Level Certified Executive Coach</li>
-          <li class="hm-cred hm-rv"><i class="fa-solid fa-check"/> Global TRE™ Certifying Trainer &amp; Provider</li>
+          <li class="hm-cred hm-rv"><i class="fa-solid fa-check"/> Global TRE™ Certifying Trainer &amp;amp; Provider</li>
           <li class="hm-cred hm-rv"><i class="fa-solid fa-check"/> Strozzi Somatic Bodywork Practitioner</li>
           <li class="hm-cred hm-rv"><i class="fa-solid fa-check"/> Certified Accredited Usui/Holy Fire III Reiki Healer</li>
           <li class="hm-cred hm-rv"><i class="fa-solid fa-check"/> Breathwork Facilitator</li>
-          <li class="hm-cred hm-rv"><i class="fa-solid fa-check"/> NLP &amp; Mindfulness Teacher</li>
+          <li class="hm-cred hm-rv"><i class="fa-solid fa-check"/> NLP &amp;amp; Mindfulness Teacher</li>
         </ul>
         <a href="/isabelle" class="btn btn-outline" style="margin-top:1.5rem">Read Isabelle's Full Story</a>
       </div>
@@ -887,7 +887,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
 </section><footer>
     <div class="foot-grid">
       <div>
-        <a href="/" class="foot-logo"><img src="/images/logo-dark.webp" alt="HummingBeing — Coaching &amp; Somatics" width="144" height="48" style="height:48px;width:auto;display:block"/></a>
+        <a href="/" class="foot-logo"><img src="/images/logo-dark.webp" alt="HummingBeing — Coaching &amp; Somatics" width="144" height="48" style="height:48px;width:auto;display:block" loading="eager"/></a>
         <p class="foot-desc">Science backed processes with TRE™, Coaching and Somatic Practices — a space to release, renew and restore.</p>
         <p class="foot-desc">Part of <strong>Business and Human Development Consulting Pte Ltd</strong></p>
         <div class="foot-socials">
@@ -900,9 +900,9 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
       <div>
         <div class="foot-h">Work with Isabelle</div>
       <ul class="foot-links">
-        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™</a></li>
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp;amp; TRE™</a></li>
         <li><a href="/tre-certification">TRE™ Certification</a></li>
-        <li><a href="/retreats-workshops">Retreats &amp; Workshops</a></li>
+        <li><a href="/retreats-workshops">Retreats &amp;amp; Workshops</a></li>
         <li><a href="/events">Events</a></li>
         <li><a href="/book">Book a free call</a></li>
       </ul>

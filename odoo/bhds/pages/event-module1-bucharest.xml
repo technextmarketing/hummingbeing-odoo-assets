@@ -1,4 +1,4 @@
-<t t-name="bhds.page_event_module1_bucharest"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en-US&quot;}"/><t t-set="title">TRE™ Module 1 Bucharest — Oct 15–17 2026 | BHD Asia</t><t t-set="body_classname" t-value="&quot;page et_fixed_nav et_divi_theme evt2&quot;"/><t t-set="head"><script>try{if(!sessionStorage.getItem("bhdIntro")&amp;&amp;!matchMedia("(prefers-reduced-motion: reduce)").matches){var d=document.documentElement;d.classList.add("intro-on");setTimeout(function(){d.classList.remove("intro-on")},5000)}}catch(e){}</script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+<t t-name="bhds.page_event_module1_bucharest"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en-US&quot;}"/><t t-set="title">TRE™ Module 1 Bucharest — Oct 15–17 2026 | BHD Asia</t><t t-set="body_classname" t-value="&quot;page et_fixed_nav et_divi_theme evt2&quot;"/><t t-set="x_icon" t-value="&quot;/favicon.ico?v=3&quot;"/><t t-set="head"><script>try{if(!sessionStorage.getItem("bhdIntro")&amp;&amp;!matchMedia("(prefers-reduced-motion: reduce)").matches){var d=document.documentElement;d.classList.add("intro-on");setTimeout(function(){d.classList.remove("intro-on")},5000)}}catch(e){}</script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
@@ -21,12 +21,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
 .price-card.tier-soldout .tk-label{color:#c0392b}
 </style><script type="application/ld+json">
 {"@context":"https://schema.org","@type":"Event","name":"TRE™ Module 1 Certification - Bucharest","description":"3-day immersive TRE™ Module 1 certification in Bucharest, Romania, 15-17 October 2026. 21 ICF CCEUs - the first English-language TRE™ Module 1 in Europe.","startDate":"2026-10-15","endDate":"2026-10-17","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","eventStatus":"https://schema.org/EventScheduled","location":{"@type":"Place","name":"Bucharest","address":{"@type":"PostalAddress","addressLocality":"Bucharest","addressCountry":"RO"}},"image":"https://www.bhdasia.com/event-bucharest-module1.webp?v=4","offers":{"@type":"AggregateOffer","lowPrice":"739","highPrice":"799","priceCurrency":"EUR","offerCount":"20","url":"https://www.bhdasia.com/contact","availability":"https://schema.org/SoldOut"},"organizer":{"@type":"Organization","name":"BHD Asia","url":"https://www.bhdasia.com/"},"performer":[{"@type":"Person","name":"Isabelle Claus Teixeira"},{"@type":"Person","name":"Saymara Ryon","url":"https://www.atelierdesuflet.ro/"}],"url":"https://www.bhdasia.com/event-module1-bucharest"}
-</script><script type="application/ld+json" id="bhd-ld">{"@context":"https://schema.org","@graph":[{"@type":["Organization","ProfessionalService"],"@id":"https://www.bhdasia.com/#organization","name":"BHD Asia","legalName":"Business &amp; Human Development Consulting Pte Ltd","alternateName":["BHD Asia Singapore","Business and Human Development Consulting"],"url":"https://www.bhdasia.com/","logo":{"@type":"ImageObject","url":"https://www.bhdasia.com/favicon-192.png","width":192,"height":192},"image":"https://www.bhdasia.com/isagrey.webp","description":"Boutique HR consulting, executive coaching and resilience-building consultancy founded in Singapore in 2012. BHD Asia co-designs leadership development, organisation development and TRE™ programmes for organisations across Europe, the US, Asia, Japan and Russia.","slogan":"Highlight, Enhance and Appreciate Human in Business.","foundingDate":"2012","foundingLocation":"Singapore","founder":{"@id":"https://www.bhdasia.com/isabelle#person"},"employee":[{"@id":"https://www.bhdasia.com/isabelle#person"},{"@id":"https://www.bhdasia.com/jasmine#person"},{"@id":"https://www.bhdasia.com/simba#person"},{"@id":"https://www.bhdasia.com/rina#person"}],"address":{"@type":"PostalAddress","streetAddress":"50 Raffles Place, Singapore Land Tower #30-00","addressLocality":"Singapore","postalCode":"048623","addressCountry":"SG"},"telephone":"+81 80 6515 1778","identifier":{"@type":"PropertyValue","propertyID":"UEN (ACRA)","value":"201201974K"},"areaServed":["Singapore","Asia","Japan","Europe","United States","Middle East"],"knowsLanguage":["en","fr","es"],"knowsAbout":["Executive coaching","Leadership development","Organisation development","HR consulting","Talent management","Psychological safety","Resilience building","Burnout prevention","Somatic coaching","TRE™ (Tension &amp; Trauma Releasing Exercises)","Global TRE™ Provider Certification","Change management","Conflict resolution"],"sameAs":["https://www.facebook.com/bhdasia/","https://www.instagram.com/isabelleclausteixeira_bhd/","https://www.youtube.com/@IsabelleClausTeixeira","https://www.linkedin.com/in/isabelleclausteixeira/"],"contactPoint":{"@type":"ContactPoint","contactType":"customer service","telephone":"+81 80 6515 1778","availableLanguage":["English","French","Spanish"],"url":"https://www.bhdasia.com/contact"}},{"@type":"WebSite","@id":"https://www.bhdasia.com/#website","url":"https://www.bhdasia.com/","name":"BHD Asia","inLanguage":"en","publisher":{"@id":"https://www.bhdasia.com/#organization"}},{"@type":"WebPage","@id":"https://www.bhdasia.com/event-module1-bucharest#webpage","url":"https://www.bhdasia.com/event-module1-bucharest","name":"TRE™ Module 1 Bucharest — Oct 15–17 2026 | BHD Asia","description":"TRE™ Module 1 Certification, Bucharest, Oct 15–17 2026. 3-day immersive, 21 ICF CCEUs — the first English-language TRE™ Module 1 in Europe.","inLanguage":"en","isPartOf":{"@id":"https://www.bhdasia.com/#website"},"about":{"@id":"https://www.bhdasia.com/#organization"},"publisher":{"@id":"https://www.bhdasia.com/#organization"},"dateModified":"2026-09-29","primaryImageOfPage":{"@type":"ImageObject","url":"https://www.bhdasia.com/event-bucharest-module1.webp?v=4"},"breadcrumb":{"@id":"https://www.bhdasia.com/event-module1-bucharest#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://www.bhdasia.com/event-module1-bucharest#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.bhdasia.com/"},{"@type":"ListItem","position":2,"name":"Events","item":"https://www.bhdasia.com/events"},{"@type":"ListItem","position":3,"name":"TRE™ Module 1 Bucharest — Oct 15–17 2026","item":"https://www.bhdasia.com/event-module1-bucharest"}]}]}</script><link rel="preload" href="/fonts/tn/inter-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/tn/plus-jakarta-sans-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/technext-style.css?v=36"/></t><t t-call="web.layout"><link rel="stylesheet" href="/style.css?v=14"/><link rel="stylesheet" href="/event-detail.css?v=20261108a"/><link rel="stylesheet" href="/technext-style.css?v=36"/><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W9B95BT7" height="0" width="0" style="display:none;visibility:hidden"/></noscript><div id="page-container">
+</script><script type="application/ld+json" id="bhd-ld">{"@context":"https://schema.org","@graph":[{"@type":["Organization","ProfessionalService"],"@id":"https://www.bhdasia.com/#organization","name":"BHD Asia","legalName":"Business &amp; Human Development Consulting Pte Ltd","alternateName":["BHD Asia Singapore","Business and Human Development Consulting"],"url":"https://www.bhdasia.com/","logo":{"@type":"ImageObject","url":"https://www.bhdasia.com/favicon-192.png","width":192,"height":192},"image":"https://www.bhdasia.com/isagrey.webp","description":"Boutique HR consulting, executive coaching and resilience-building consultancy founded in Singapore in 2012. BHD Asia co-designs leadership development, organisation development and TRE™ programmes for organisations across Europe, the US, Asia, Japan and Russia.","slogan":"Highlight, Enhance and Appreciate Human in Business.","foundingDate":"2012","foundingLocation":"Singapore","founder":{"@id":"https://www.bhdasia.com/isabelle#person"},"employee":[{"@id":"https://www.bhdasia.com/isabelle#person"},{"@id":"https://www.bhdasia.com/jasmine#person"},{"@id":"https://www.bhdasia.com/simba#person"},{"@id":"https://www.bhdasia.com/rina#person"}],"address":{"@type":"PostalAddress","streetAddress":"50 Raffles Place, Singapore Land Tower #30-00","addressLocality":"Singapore","postalCode":"048623","addressCountry":"SG"},"telephone":"+81 80 6515 1778","identifier":{"@type":"PropertyValue","propertyID":"UEN (ACRA)","value":"201201974K"},"areaServed":["Singapore","Asia","Japan","Europe","United States","Middle East"],"knowsLanguage":["en","fr","es"],"knowsAbout":["Executive coaching","Leadership development","Organisation development","HR consulting","Talent management","Psychological safety","Resilience building","Burnout prevention","Somatic coaching","TRE™ (Tension &amp; Trauma Releasing Exercises)","Global TRE™ Provider Certification","Change management","Conflict resolution"],"sameAs":["https://www.facebook.com/bhdasia/","https://www.instagram.com/isabelleclausteixeira_bhd/","https://www.youtube.com/@IsabelleClausTeixeira","https://www.linkedin.com/in/isabelleclausteixeira/"],"contactPoint":{"@type":"ContactPoint","contactType":"customer service","telephone":"+81 80 6515 1778","availableLanguage":["English","French","Spanish"],"url":"https://www.bhdasia.com/contact"}},{"@type":"WebSite","@id":"https://www.bhdasia.com/#website","url":"https://www.bhdasia.com/","name":"BHD Asia","inLanguage":"en","publisher":{"@id":"https://www.bhdasia.com/#organization"}},{"@type":"WebPage","@id":"https://www.bhdasia.com/event-module1-bucharest#webpage","url":"https://www.bhdasia.com/event-module1-bucharest","name":"TRE™ Module 1 Bucharest — Oct 15–17 2026 | BHD Asia","description":"TRE™ Module 1 Certification, Bucharest, Oct 15–17 2026. 3-day immersive, 21 ICF CCEUs — the first English-language TRE™ Module 1 in Europe.","inLanguage":"en","isPartOf":{"@id":"https://www.bhdasia.com/#website"},"about":{"@id":"https://www.bhdasia.com/#organization"},"publisher":{"@id":"https://www.bhdasia.com/#organization"},"dateModified":"2026-09-29","primaryImageOfPage":{"@type":"ImageObject","url":"https://www.bhdasia.com/event-bucharest-module1.webp?v=4"},"breadcrumb":{"@id":"https://www.bhdasia.com/event-module1-bucharest#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://www.bhdasia.com/event-module1-bucharest#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.bhdasia.com/"},{"@type":"ListItem","position":2,"name":"Events","item":"https://www.bhdasia.com/events"},{"@type":"ListItem","position":3,"name":"TRE™ Module 1 Bucharest — Oct 15–17 2026","item":"https://www.bhdasia.com/event-module1-bucharest"}]}]}</script><link rel="preload" href="/fonts/tn/inter-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/tn/plus-jakarta-sans-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/technext-style.css?v=36"/></t><t t-call="web.layout"><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W9B95BT7" height="0" width="0" style="display:none;visibility:hidden"/></noscript><div id="page-container">
 <header id="main-header">
   <div class="et_menu_container container clearfix">
     <div class="logo_container">
       <a href="/">
-        <img src="/bhd-logo.svg?v=1" alt="BHD Asia" width="51" height="34" onerror="this.style.display='none';document.querySelector('.logo-text').style.display='block'"/>
+        <img src="/bhd-logo.svg?v=1" alt="BHD Asia" width="51" height="34" onerror="this.style.display='none';document.querySelector('.logo-text').style.display='block'" loading="eager"/>
         <span class="logo-text">BHD Asia</span>
       </a>
     </div>
@@ -110,7 +110,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
 <div class="evt-section">
       <span class="evt-section-label">The Training</span>
       <h2>What Is TRE™ Module 1?</h2>
-      <p>TRE™ (Tension, Stress &amp; Trauma Releasing Exercises) is a simple yet powerful body-based tool, developed by Dr. David Berceli, that activates a natural neurogenic tremoring mechanism to help discharge accumulated stress, tension and trauma from the nervous system.</p>
+      <p>TRE™ (Tension, Stress &amp;amp; Trauma Releasing Exercises) is a simple yet powerful body-based tool, developed by Dr. David Berceli, that activates a natural neurogenic tremoring mechanism to help discharge accumulated stress, tension and trauma from the nervous system.</p>
       <p>Module 1 is the foundational certification level, giving you an in-depth theoretical understanding and supervised hands-on experience of TRE™ — equipping you to integrate neurogenic tremoring safely into your professional practice and personal self-care.</p>
       <p>This is the <strong>first time TRE™ Module 1 is offered in Europe in English</strong>, opening the certification pathway to international coaches, therapists, and healthcare professionals based in or visiting Romania.</p>
       <h3 style="font-size:15px;font-weight:700;color:var(--text);margin:24px 0 12px">Who Should Attend</h3>
@@ -138,7 +138,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
             <li>Welcome, introductions and context setting</li>
             <li>Introduction to TRE™ — neuroscience, stress biology and the tremor mechanism</li>
             <li>Live TRE™ session experience (guided by Isabelle and Saymara)</li>
-            <li>Q&amp;A, integration and close</li>
+            <li>Q&amp;amp;A, integration and close</li>
           </ul>
           <div class="icf-callout" style="margin-top:16px">This evening is also the <strong>From Shaking to Shaping</strong> Bucharest in-person session — participants may register for the workshop standalone or as part of this Module 1 training.</div>
         </div>
@@ -164,7 +164,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
             <span class="sched-day-num">Day 3</span>
             <div class="sched-day-meta"><strong>Saturday, 17 October 2026</strong><span>09:00–18:00 EET · Full day</span></div>
           </div>
-          <div class="sched-day-title">TRE™ Module 1 — Continued &amp; Completion</div>
+          <div class="sched-day-title">TRE™ Module 1 — Continued &amp;amp; Completion</div>
           <ul class="sched-sessions">
             <li>Morning check-in and overnight integration shares</li>
             <li>Group facilitation practice — working with more complex presentations</li>
@@ -190,7 +190,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
         <li>Guided audio recordings for continued home practice</li>
         <li>Post-training Zoom integration call (1 hour, within 4 weeks)</li>
         <li>Access to the TRE™ Module 1 alumni community</li>
-        <li>Pathway to Module 2 &amp; Global TRE™ Provider Certification</li>
+        <li>Pathway to Module 2 &amp;amp; Global TRE™ Provider Certification</li>
       </ul>
       <div class="icf-callout">
         <strong>21 ICF CCEUs Approved</strong><br/>
@@ -199,7 +199,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
     </div>
 
 <div class="evt-section" id="pricing">
-      <span class="evt-section-label">Pricing &amp; Ticket Availability</span>
+      <span class="evt-section-label">Pricing &amp;amp; Ticket Availability</span>
       <h2>Investment</h2>
       <p style="font-size:14px;color:var(--muted)">20 tickets in total, released in three waves — the price steps up as each wave sells out. All prices per person and include the 3-day training, 21 ICF CCEUs, all training materials and the post-training integration call.</p>
       <div class="pricing-cards">
@@ -246,14 +246,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
           <div class="mod-step-num">02</div>
           <div class="mod-step-body">
             <strong>Module 2</strong>
-            <span>Deepening somatic skills — date &amp; location TBC · Contact Isabelle</span>
+            <span>Deepening somatic skills — date &amp;amp; location TBC · Contact Isabelle</span>
           </div>
         </div>
         <div class="mod-step">
           <div class="mod-step-num">03</div>
           <div class="mod-step-body">
             <strong>Module 3</strong>
-            <span>Advanced integration &amp; supervised group facilitation — date &amp; location TBC</span>
+            <span>Advanced integration &amp;amp; supervised group facilitation — date &amp;amp; location TBC</span>
           </div>
         </div>
         <div class="mod-step">
@@ -287,8 +287,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
         <img class="fac-photo" src="/saymara-ryon.webp" alt="Saymara Ryon" width="90" height="90" loading="lazy"/>
         <div class="fac-body">
           <h4>Saymara Ryon</h4>
-          <span class="fac-role">Certified TRE™ Provider &amp; Trainer Trainee · Bucharest</span>
-          <p>Founder &amp; President, Asociația TRE™ România. Holistic Coach, Trainer &amp; Mentor, and Certified TRE™ Provider currently in the Trainer Trainee program. The pioneer who introduced TRE™ to Romania, Saymara brings deep local knowledge of the somatic and coaching landscape in Eastern Europe.</p>
+          <span class="fac-role">Certified TRE™ Provider &amp;amp; Trainer Trainee · Bucharest</span>
+          <p>Founder &amp;amp; President, Asociația TRE™ România. Holistic Coach, Trainer &amp;amp; Mentor, and Certified TRE™ Provider currently in the Trainer Trainee program. The pioneer who introduced TRE™ to Romania, Saymara brings deep local knowledge of the somatic and coaching landscape in Eastern Europe.</p>
           <div class="fac-links">
             <a href="https://www.atelierdesuflet.ro/" target="_blank" rel="noopener">Official Website →</a>
             <a href="https://treromania.org" target="_blank" rel="noopener">TRE™ Romania →</a>
@@ -328,7 +328,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
       <div class="related-grid">
         <a class="rel-card" href="/event-shaking-shaping">
           <div class="rel-img"><img src="/card-shaking-to-shaping.webp?v=1" srcset="/card-shaking-to-shaping-960.webp?v=1 960w, /card-shaking-to-shaping.webp?v=1 1920w" sizes="(max-width:700px) 100vw, (max-width:1100px) 50vw, 33vw" alt="From Shaking to Shaping" width="400" height="220" loading="lazy"/></div>
-          <div class="rel-body"><strong>From Shaking to Shaping</strong><span>Romania &amp; Online · Sep–Oct 2026 · From €89</span></div>
+          <div class="rel-body"><strong>From Shaking to Shaping</strong><span>Romania &amp;amp; Online · Sep–Oct 2026 · From €89</span></div>
         </a>
         <a class="rel-card" href="/event-module1-singapore">
           <div class="rel-img"><img src="/card-nervous-system.webp?v=1" srcset="/card-nervous-system-960.webp?v=1 960w, /card-nervous-system.webp?v=1 1920w" sizes="(max-width:700px) 100vw, (max-width:1100px) 50vw, 33vw" alt="TRE™ Module 1 Singapore" width="400" height="220" loading="lazy"/></div>
@@ -356,7 +356,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
     <div class="footer-widget">
       <span class="footer-brand-name">BHD <span>Asia</span></span>
       <p>Highlight, Enhance and Appreciate Human in Business.</p>
-      <p>Business &amp; Human Development Consulting Pte Ltd</p>
+      <p>Business &amp;amp; Human Development Consulting Pte Ltd</p>
       <div class="footer-social">
         <a href="https://www.facebook.com/bhdasia/" target="_blank" rel="noopener" class="footer-soc-btn" aria-label="Facebook"><svg viewbox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
         <a href="https://www.instagram.com/isabelleclausteixeira_bhd/" target="_blank" rel="noopener" class="footer-soc-btn" aria-label="Instagram"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
@@ -365,7 +365,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
       </div>
     </div>
     <div class="footer-widget"><h4>Navigate</h4><ul><li><a href="/">Home</a></li><li><a href="/services">Services</a></li><li><a href="/about">About</a></li><li><a href="/events">Events</a></li><li><a href="/contact">Contact</a></li><li><a href="https://www.hummingbeing.com/" target="_blank" rel="noopener">HummingBeing</a></li></ul></div>
-    <div class="footer-widget"><h4>Legal</h4><ul><li><a href="/privacy">Privacy Statement</a></li><li><a href="/terms">Terms &amp; Conditions</a></li><li><a href="/inclusivity">Inclusivity Statement</a></li></ul></div>
+    <div class="footer-widget"><h4>Legal</h4><ul><li><a href="/privacy">Privacy Statement</a></li><li><a href="/terms">Terms &amp;amp; Conditions</a></li><li><a href="/inclusivity">Inclusivity Statement</a></li></ul></div>
     <div class="footer-widget"><h4>Contact</h4><p class="ft-addr">Singapore Land Tower, #30-00<br/>50 Raffles Place<br/>Singapore 048623</p><p><a href="tel:+818065151778">+81 80 6515 1778</a></p><p><span>bonjour@bhd<span style="display:none">-no-spam</span>asia.com</span></p><p><a href="/#book" data-cta="page-book">Book a Discovery Call →</a></p></div>
   </div></div>
   <div id="footer-bottom"><div class="container">

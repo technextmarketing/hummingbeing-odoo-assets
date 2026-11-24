@@ -1,4 +1,4 @@
-<t t-name="bhds.page_event_intro_tre_singapore_2027"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en-US&quot;}"/><t t-set="title">Introduction to TRE™ | In Person in Singapore 2027 | BHD Asia</t><t t-set="body_classname" t-value="&quot;page et_fixed_nav et_divi_theme evt2&quot;"/><t t-set="head"><script>try{if(!sessionStorage.getItem("bhdIntro")&amp;&amp;!matchMedia("(prefers-reduced-motion: reduce)").matches){var d=document.documentElement;d.classList.add("intro-on");setTimeout(function(){d.classList.remove("intro-on")},5000)}}catch(e){}</script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+<t t-name="bhds.page_event_intro_tre_singapore_2027"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en-US&quot;}"/><t t-set="title">Introduction to TRE™ | In Person in Singapore 2027 | BHD Asia</t><t t-set="body_classname" t-value="&quot;page et_fixed_nav et_divi_theme evt2&quot;"/><t t-set="x_icon" t-value="&quot;/favicon.ico?v=3&quot;"/><t t-set="head"><script>try{if(!sessionStorage.getItem("bhdIntro")&amp;&amp;!matchMedia("(prefers-reduced-motion: reduce)").matches){var d=document.documentElement;d.classList.add("intro-on");setTimeout(function(){d.classList.remove("intro-on")},5000)}}catch(e){}</script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
@@ -37,12 +37,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
 .reg-health strong{display:block;color:var(--text);margin-bottom:4px}
 .reg-health ul{margin:4px 0 0;padding-left:18px}
 .evt-reg-form select{width:100%}
-</style><link rel="preload" href="/fonts/tn/inter-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/tn/plus-jakarta-sans-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/technext-style.css?v=36"/></t><t t-call="web.layout"><link rel="stylesheet" href="/style.css?v=14"/><link rel="stylesheet" href="/event-detail.css?v=20261108a"/><link rel="stylesheet" href="/technext-style.css?v=36"/><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W9B95BT7" height="0" width="0" style="display:none;visibility:hidden"/></noscript><div id="page-container">
+</style><link rel="preload" href="/fonts/tn/inter-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/tn/plus-jakarta-sans-latin.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/technext-style.css?v=36"/></t><t t-call="web.layout"><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W9B95BT7" height="0" width="0" style="display:none;visibility:hidden"/></noscript><div id="page-container">
 <header id="main-header">
   <div class="et_menu_container container clearfix">
     <div class="logo_container">
       <a href="/">
-        <img src="/bhd-logo.svg?v=1" alt="BHD Asia" width="51" height="34" onerror="this.style.display='none';document.querySelector('.logo-text').style.display='block'"/>
+        <img src="/bhd-logo.svg?v=1" alt="BHD Asia" width="51" height="34" onerror="this.style.display='none';document.querySelector('.logo-text').style.display='block'" loading="eager"/>
         <span class="logo-text">BHD Asia</span>
       </a>
     </div>
@@ -80,7 +80,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
       <p class="evt-hero-sub">In person in Singapore — in collaboration with TRE Thailand and Simba Stenqvist. A 2-hour workshop for the general public: discover what TRE™ is and how it can be beneficial for you as a body-based practice. Led by Isabelle Claus Teixeira and Simba Stenqvist.</p>
       <div class="evt-hero-ctas">
         <a class="et_pb_button btn-white" href="#register">Register — S$88 →</a>
-        <a class="et_pb_button btn-white-outline" href="#register">Details &amp; Questions</a>
+        <a class="et_pb_button btn-white-outline" href="#register">Details &amp;amp; Questions</a>
       </div>
     </div>
   </div>
@@ -117,7 +117,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
 
 <div class="evt-section evt-poster-sec">
       <span class="evt-section-label">Event Poster</span>
-      <h2>Save &amp; Share the Poster</h2>
+      <h2>Save &amp;amp; Share the Poster</h2>
       <figure style="margin:0;max-width:440px">
         <a href="/event-intro-tre-singapore-2027-poster.webp?v=1" target="_blank" rel="noopener" aria-label="Open the full-size event poster" style="display:block;border-radius:16px;overflow:hidden;box-shadow:0 18px 50px -24px rgba(17,24,39,.45)"><img src="/event-intro-tre-singapore-2027-poster.webp?v=1" alt="Introduction to TRE — in person in Singapore, 23 February, 29 June and 3 November 2027, 7–9pm, with Isabelle Claus Teixeira and Simba Stenqvist" width="1080" height="1350" loading="lazy" decoding="async" style="display:block;width:100%;height:auto"/></a>
         <figcaption style="font-size:13px;color:var(--muted);margin-top:10px">Tap to open the full-size poster to save or share it.</figcaption>
@@ -128,7 +128,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
       <span class="evt-section-label">About the Workshop</span>
       <h2>Discover TRE™ in Person</h2>
       <p>This is an Introduction to TRE™ for the general public — a 2-hour workshop. Please note this in-person workshop does not include TRE™ personal sessions.</p>
-      <p>TRE™ (Tension, Stress &amp; Trauma Releasing Exercises), developed by Dr. David Berceli, activates the body's natural neurogenic tremoring mechanism — a reflex that releases stored stress and trauma, builds resilience and promotes deep regulation.</p>
+      <p>TRE™ (Tension, Stress &amp;amp; Trauma Releasing Exercises), developed by Dr. David Berceli, activates the body's natural neurogenic tremoring mechanism — a reflex that releases stored stress and trauma, builds resilience and promotes deep regulation.</p>
       <p>In this workshop you will discover what TRE™ is and how it can be beneficial for you as a body-based practice. Should you want to go deeper, you can then continue your training with TRE™ <a href="/event-certification-2027">Module 1, Module 2 and Module 3</a> to become a Certified Global TRE™ Provider — accredited to offer TRE™ to individuals and groups.</p>
     </div>
 
@@ -172,7 +172,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
 
 <div class="evt-section">
       <span class="evt-section-label">Your Trainers</span>
-      <h2>Led by Isabelle Claus Teixeira &amp; Simba Stenqvist</h2>
+      <h2>Led by Isabelle Claus Teixeira &amp;amp; Simba Stenqvist</h2>
       <div class="facilitator-card">
         <img class="fac-photo" src="/isa-portrait.webp" alt="Isabelle Claus Teixeira" width="90" height="90" loading="lazy"/>
         <div class="fac-body">
@@ -271,7 +271,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
     <div class="footer-widget">
       <span class="footer-brand-name">BHD <span>Asia</span></span>
       <p>Highlight, Enhance and Appreciate Human in Business.</p>
-      <p>Business &amp; Human Development Consulting Pte Ltd</p>
+      <p>Business &amp;amp; Human Development Consulting Pte Ltd</p>
       <div class="footer-social">
         <a href="https://www.facebook.com/bhdasia/" target="_blank" rel="noopener" class="footer-soc-btn" aria-label="Facebook"><svg viewbox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
         <a href="https://www.instagram.com/isabelleclausteixeira_bhd/" target="_blank" rel="noopener" class="footer-soc-btn" aria-label="Instagram"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
@@ -280,7 +280,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
       </div>
     </div>
     <div class="footer-widget"><h4>Navigate</h4><ul><li><a href="/">Home</a></li><li><a href="/services">Services</a></li><li><a href="/about">About</a></li><li><a href="/events">Events</a></li><li><a href="/contact">Contact</a></li><li><a href="https://www.hummingbeing.com/" target="_blank" rel="noopener">HummingBeing</a></li></ul></div>
-    <div class="footer-widget"><h4>Legal</h4><ul><li><a href="/privacy">Privacy Statement</a></li><li><a href="/terms">Terms &amp; Conditions</a></li><li><a href="/inclusivity">Inclusivity Statement</a></li></ul></div>
+    <div class="footer-widget"><h4>Legal</h4><ul><li><a href="/privacy">Privacy Statement</a></li><li><a href="/terms">Terms &amp;amp; Conditions</a></li><li><a href="/inclusivity">Inclusivity Statement</a></li></ul></div>
     <div class="footer-widget"><h4>Contact</h4><p class="ft-addr">Singapore Land Tower, #30-00<br/>50 Raffles Place<br/>Singapore 048623</p><p><a href="tel:+818065151778">+81 80 6515 1778</a></p><p><span>bonjour@bhd<span style="display:none">-no-spam</span>asia.com</span></p><p><a href="/#book" data-cta="page-book">Book a Discovery Call →</a></p></div>
   </div></div>
   <div id="footer-bottom"><div class="container">

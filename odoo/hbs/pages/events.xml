@@ -1,4 +1,4 @@
-<t t-name="hbs.page_events"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en&quot;}"/><t t-set="title">Upcoming TRE™ Workshops &amp; Events | HummingBeing</t><t t-set="head"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
+<t t-name="hbs.page_events"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en&quot;}"/><t t-set="title">Upcoming TRE™ Workshops &amp; Events | HummingBeing</t><t t-set="x_icon" t-value="&quot;/favicon-32.png?v=3&quot;"/><t t-set="head"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
 new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
 "https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
@@ -1568,8 +1568,8 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
 .hb-faq .a { padding: 0 1.25rem 1.15rem; }
 .hb-faq .a p { margin: 0 0 .6rem; font-size: .96rem; line-height: 1.75; color: var(--body-text); }
 .hb-faq .a a { color: var(--gold-dark); font-weight: 700; }
-</style><script type="application/ld+json" data-seo="faq">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Are HummingBeing workshops in person or online?", "acceptedAnswer": {"@type": "Answer", "text": "Both. Several workshops run live online in Singapore time, such as Breath as Medicine and The Art of Conscious Rest, and TRE™ Module 1 is also offered online with TRE Scotland in UK time. In-person events take place in Singapore and Lisboa, Portugal, including Introduction to TRE™ and the 2027 certification cohorts."}}, {"@type": "Question", "name": "Which event should I start with if I am new to TRE™?", "acceptedAnswer": {"@type": "Answer", "text": "Introduction to TRE™ is an in-person, two-hour workshop in Singapore for the general public, held with TRE Thailand on 23 February, 29 June and 3 November 2027. If you cannot travel, book a free discovery call and Isabelle will help you find the right starting point, including online sessions."}}]}</script><link rel="preload" href="/fonts/hb/lato-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/hb/playfair-display-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/></t><t t-call="web.layout"><link rel="stylesheet" href="/styles.css?v=98"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXLR5LGG" height="0" width="0" style="display:none;visibility:hidden"/></noscript><nav>
-  <a href="/" class="logo"><img src="/images/logo-dark.webp" class="logo-on-dark" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/><img src="/images/logo-light.webp" class="logo-on-light" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/></a>
+</style><script type="application/ld+json" data-seo="faq">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Are HummingBeing workshops in person or online?", "acceptedAnswer": {"@type": "Answer", "text": "Both. Several workshops run live online in Singapore time, such as Breath as Medicine and The Art of Conscious Rest, and TRE™ Module 1 is also offered online with TRE Scotland in UK time. In-person events take place in Singapore and Lisboa, Portugal, including Introduction to TRE™ and the 2027 certification cohorts."}}, {"@type": "Question", "name": "Which event should I start with if I am new to TRE™?", "acceptedAnswer": {"@type": "Answer", "text": "Introduction to TRE™ is an in-person, two-hour workshop in Singapore for the general public, held with TRE Thailand on 23 February, 29 June and 3 November 2027. If you cannot travel, book a free discovery call and Isabelle will help you find the right starting point, including online sessions."}}]}</script><link rel="preload" href="/fonts/hb/lato-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/hb/playfair-display-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/></t><t t-call="web.layout"><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXLR5LGG" height="0" width="0" style="display:none;visibility:hidden"/></noscript><nav>
+  <a href="/" class="logo"><img src="/images/logo-dark.webp" class="logo-on-dark" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto" loading="eager"/><img src="/images/logo-light.webp" class="logo-on-light" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto" loading="eager"/></a>
   <ul class="nav-links">
     <li><a href="/">Home</a></li>
     <li><a href="/about">About</a></li>
@@ -1577,9 +1577,9 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     <li class="nav-dropdown">
       <a href="javascript:void(0)" class="nav-dropdown-toggle">Work with Isabelle <i class="fa-solid fa-chevron-down nav-arrow"/></a>
       <ul class="nav-dropdown-menu">
-        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™<small>Private sessions, online or in person</small></a></li>
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp;amp; TRE™<small>Private sessions, online or in person</small></a></li>
         <li><a href="/tre-certification">TRE™ Certification<small>Become a certified TRE™ provider</small></a></li>
-        <li><a href="/retreats-workshops">Retreats &amp; Workshops<small>Groups, teams and executives</small></a></li>
+        <li><a href="/retreats-workshops">Retreats &amp;amp; Workshops<small>Groups, teams and executives</small></a></li>
       </ul>
     </li>
     <li><a href="/events">Events</a></li>
@@ -1590,8 +1590,8 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     <button class="hamburger" onclick="toggleMenu()"><span/><span/><span/></button>
   </div>
 </nav><div class="event-hero">
-  <span class="eyebrow">Live Events &amp; Workshops</span>
-  <h1>Events &amp; <em>Sessions</em></h1>
+  <span class="eyebrow">Live Events &amp;amp; Workshops</span>
+  <h1>Events &amp;amp; <em>Sessions</em></h1>
   <p>Group workshops, TRE™ sessions, somatic intensives and community gatherings — in Singapore, Europe and online.</p>
   <div class="hero-actions">
     <a href="#events-grid" class="btn btn-primary">See upcoming events</a>
@@ -1600,54 +1600,54 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
 </div><div class="ticker-wrap" aria-hidden="true">
   <div class="ticker-track">
     <span class="t-item"><span class="t-star">★</span> Somatic Wellness</span><span class="t-sep">·</span>
-    <span class="t-item">In-Person &amp; Online Worldwide</span><span class="t-sep">·</span>
+    <span class="t-item">In-Person &amp;amp; Online Worldwide</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Certified TRE™ Provider</span><span class="t-sep">·</span>
     <span class="t-item">30 Years of Experience</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Coaching</span><span class="t-sep">·</span>
     <span class="t-item">Mindfulness</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> 9 Countries · 40+ Nationalities</span><span class="t-sep">·</span>
     <span class="t-item">Release · Renew · Restore</span><span class="t-sep">·</span>
-    <span class="t-item"><span class="t-star">★</span> Business &amp; Human Development</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Business &amp;amp; Human Development</span><span class="t-sep">·</span>
     <span class="t-item">Nervous System Reset</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Mindfulness</span><span class="t-sep">·</span>
     <span class="t-item">Embodied Leadership</span><span class="t-sep">·</span>
-    <span class="t-item"><span class="t-star">★</span> Trauma &amp; Tension Release</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Trauma &amp;amp; Tension Release</span><span class="t-sep">·</span>
     <span class="t-item">Mind · Body · Soul</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Corporate Wellness</span><span class="t-sep">·</span>
     <span class="t-item">Polyvagal Theory</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Global TRE™ Certifying Trainer</span><span class="t-sep">·</span>
     <span class="t-item">Executive Coaching</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Breathwork</span><span class="t-sep">·</span>
-    <span class="t-item">Online &amp; In-Person</span><span class="t-sep">·</span>
+    <span class="t-item">Online &amp;amp; In-Person</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Group Sessions</span><span class="t-sep">·</span>
     <span class="t-item">Burnout Recovery</span><span class="t-sep">·</span>
-    <span class="t-item"><span class="t-star">★</span> Deep Rest &amp; Renewal</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Deep Rest &amp;amp; Renewal</span><span class="t-sep">·</span>
     <span class="t-item">Body Intelligence</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Somatic Intelligence</span><span class="t-sep">·</span>
     <span class="t-item">Self-Regulation</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Dr. David Berceli Method</span><span class="t-sep">·</span><span class="t-item">Neurogenic Tremors</span><span class="t-sep">·</span><span class="t-item">Vagal Tone</span><span class="t-sep">·</span><span class="t-item">Psoas Release</span><span class="t-sep">·</span><span class="t-item">Europe · US · Asia · Worldwide</span><span class="t-sep">·</span><span class="t-item">Free Discovery Call</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Certified Reiki Level II</span><span class="t-sep">·</span><span class="t-item">Nervous System Literacy</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Somatic Wellness</span><span class="t-sep">·</span>
-    <span class="t-item">In-Person &amp; Online Worldwide</span><span class="t-sep">·</span>
+    <span class="t-item">In-Person &amp;amp; Online Worldwide</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Certified TRE™ Provider</span><span class="t-sep">·</span>
     <span class="t-item">30 Years of Experience</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Coaching</span><span class="t-sep">·</span>
     <span class="t-item">Mindfulness</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> 9 Countries · 40+ Nationalities</span><span class="t-sep">·</span>
     <span class="t-item">Release · Renew · Restore</span><span class="t-sep">·</span>
-    <span class="t-item"><span class="t-star">★</span> Business &amp; Human Development</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Business &amp;amp; Human Development</span><span class="t-sep">·</span>
     <span class="t-item">Nervous System Reset</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Mindfulness</span><span class="t-sep">·</span>
     <span class="t-item">Embodied Leadership</span><span class="t-sep">·</span>
-    <span class="t-item"><span class="t-star">★</span> Trauma &amp; Tension Release</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Trauma &amp;amp; Tension Release</span><span class="t-sep">·</span>
     <span class="t-item">Mind · Body · Soul</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Corporate Wellness</span><span class="t-sep">·</span>
     <span class="t-item">Polyvagal Theory</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Global TRE™ Certifying Trainer</span><span class="t-sep">·</span>
     <span class="t-item">Executive Coaching</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Breathwork</span><span class="t-sep">·</span>
-    <span class="t-item">Online &amp; In-Person</span><span class="t-sep">·</span>
+    <span class="t-item">Online &amp;amp; In-Person</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Group Sessions</span><span class="t-sep">·</span>
     <span class="t-item">Burnout Recovery</span><span class="t-sep">·</span>
-    <span class="t-item"><span class="t-star">★</span> Deep Rest &amp; Renewal</span><span class="t-sep">·</span>
+    <span class="t-item"><span class="t-star">★</span> Deep Rest &amp;amp; Renewal</span><span class="t-sep">·</span>
     <span class="t-item">Body Intelligence</span><span class="t-sep">·</span>
     <span class="t-item"><span class="t-star">★</span> Somatic Intelligence</span><span class="t-sep">·</span>
     <span class="t-item">Self-Regulation</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Dr. David Berceli Method</span><span class="t-sep">·</span><span class="t-item">Neurogenic Tremors</span><span class="t-sep">·</span><span class="t-item">Vagal Tone</span><span class="t-sep">·</span><span class="t-item">Psoas Release</span><span class="t-sep">·</span><span class="t-item">Europe · US · Asia · Worldwide</span><span class="t-sep">·</span><span class="t-item">Free Discovery Call</span><span class="t-sep">·</span><span class="t-item"><span class="t-star">★</span> Certified Reiki Level II</span><span class="t-sep">·</span><span class="t-item">Nervous System Literacy</span><span class="t-sep">·</span>  </div>
@@ -1727,7 +1727,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
       <div class="ev-head-t ev-rv">
         <span class="section-eyebrow">Calendar</span>
         <h2 class="section-title" id="ev-up-title">Upcoming Events</h2>
-        <p class="section-subtitle ev-count" id="evt-count"><span id="evt-count-up">–</span> upcoming · <span id="evt-count-past">–</span> past &amp; sold out</p>
+        <p class="section-subtitle ev-count" id="evt-count"><span id="evt-count-up">–</span> upcoming · <span id="evt-count-past">–</span> past &amp;amp; sold out</p>
       </div>
       <div class="ev-views ev-rv" role="group" aria-label="Choose a layout" style="--d:120ms">
         <button type="button" class="ev-view" data-view="grid" aria-pressed="true"><i class="fa-solid fa-grip" aria-hidden="true"/>Grid</button>
@@ -1753,7 +1753,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     <article class="evt-card" data-cat="online workshops speakers" data-start="2026-11-25" data-end="2026-11-25">
       <a href="/event-body-in-the-room" class="evt-card-thumb"><img src="/images/card-event-body-in-the-room.webp?v=1" alt="The Body in the Room — online workshop with Aun Ali, 25 November 2026" loading="lazy" decoding="async" width="1920" height="1080"/></a>
       <div class="evt-card-content">
-        <div class="evt-card-tags"><span class="evt-tag loc">Online</span><span class="evt-tag">Psychotherapy &amp; Somatics</span></div>
+        <div class="evt-card-tags"><span class="evt-tag loc">Online</span><span class="evt-tag">Psychotherapy &amp;amp; Somatics</span></div>
         <h3>The Body in the Room</h3>
         <div class="evt-dates"><span class="evt-date-tag" data-start="2026-11-25" data-end="2026-11-25">25 Nov 2026 · 7–9pm SGT</span></div>
         <p class="evt-card-desc">Integrating TRE™ and somatic practice into psychotherapy — a trauma-informed approach. An online workshop with Aun Ali, Certified TRE™ Trainer and Clinically Certified Trauma Specialist, for psychologists, counsellors and narrative therapists.</p>
@@ -1767,7 +1767,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     <article class="evt-card" data-cat="online workshops speakers" data-start="2026-12-15" data-end="2026-12-15">
       <a href="/event-breath-as-medicine" class="evt-card-thumb"><img src="/images/card-event-breath-as-medicine.webp?v=1" alt="Ania Zielińska, yoga teacher, who leads the Breath as a medicine workshop on 15 December 2026" loading="lazy" decoding="async" width="1920" height="1080"/></a>
       <div class="evt-card-content">
-        <div class="evt-card-tags"><span class="evt-tag loc">Online</span><span class="evt-tag">Breathwork &amp; Yoga</span></div>
+        <div class="evt-card-tags"><span class="evt-tag loc">Online</span><span class="evt-tag">Breathwork &amp;amp; Yoga</span></div>
         <h3>Breath as a medicine</h3>
         <div class="evt-dates"><span class="evt-date-tag" data-start="2026-12-15" data-end="2026-12-15">15 Dec 2026 · 7–9pm SGT</span></div>
         <p class="evt-card-desc">An introduction to pranayama: how conscious breathing supports your physical, mental and emotional wellbeing. An online workshop with Ania Zielińska, yoga teacher and life realignment mentor. Beginners welcome.</p>
@@ -1781,7 +1781,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     <article class="evt-card" data-cat="online workshops speakers" data-start="2027-01-24" data-end="2027-01-24">
       <a href="/event-art-of-conscious-rest" class="evt-card-thumb"><img src="/images/card-event-art-of-conscious-rest.webp?v=1" alt="The Art of Conscious Rest — online Yoga Nidra workshop with Olga Titkova, 24 January 2027" loading="lazy" decoding="async" width="1920" height="1080"/></a>
       <div class="evt-card-content">
-        <div class="evt-card-tags"><span class="evt-tag loc">Online</span><span class="evt-tag">Yoga Nidra &amp; Mindfulness</span></div>
+        <div class="evt-card-tags"><span class="evt-tag loc">Online</span><span class="evt-tag">Yoga Nidra &amp;amp; Mindfulness</span></div>
         <h3>The Art of Conscious Rest</h3>
         <div class="evt-dates"><span class="evt-date-tag" data-start="2027-01-24" data-end="2027-01-24">24 Jan 2027 · 8–10pm SGT</span></div>
         <p class="evt-card-desc">Experiencing deep relaxation through Yoga Nidra. An online workshop with Olga Titkova, yoga and mindfulness teacher. No previous Yoga Nidra experience is required.</p>
@@ -1795,8 +1795,8 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     <article class="evt-card" data-cat="online workshops speakers" data-start="2026-10-28" data-end="2026-10-28">
       <a href="/event-feminine-masculine-energetics" class="evt-card-thumb"><img src="/images/card-event-feminine-masculine.webp?v=1" alt="Navigating Feminine &amp; Masculine Energetics Inside Corporate Structures — Sara Marie, 28 October" loading="lazy" decoding="async" width="1920" height="1080"/></a>
       <div class="evt-card-content">
-        <div class="evt-card-tags"><span class="evt-tag loc">Online</span><span class="evt-tag">Energetics &amp; Somatics</span></div>
-        <h3>Navigating Feminine &amp; Masculine Energetics</h3>
+        <div class="evt-card-tags"><span class="evt-tag loc">Online</span><span class="evt-tag">Energetics &amp;amp; Somatics</span></div>
+        <h3>Navigating Feminine &amp;amp; Masculine Energetics</h3>
         <div class="evt-dates"><span class="evt-date-tag" data-start="2026-10-28" data-end="2026-10-28">28 Oct 2026 · 7–9:30pm SGT</span></div>
         <p class="evt-card-desc">A live online workshop with Sara Marie — The Alchemist. Alchemising the pressure of masculine corporate structures into liberation, ease and personal power, through energetic transmission and somatic release.</p>
         <div class="evt-card-actions">
@@ -1813,7 +1813,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
         <div class="evt-card-tags"><span class="evt-tag loc">Online</span><span class="evt-tag">TRE™ Coaching</span></div>
         <h3>From Shaking to Shaping — Online</h3>
         <div class="evt-dates"><span class="evt-date-tag" data-start="2026-10-08" data-end="2026-10-08">8 Oct 2026 · 7–9pm</span></div>
-        <p class="evt-card-desc">A live online workshop on using TRE™ in a coaching context — co-led by Isabelle Claus Teixeira &amp; Saymara Ryon, in partnership with Neurogenic Integration.</p>
+        <p class="evt-card-desc">A live online workshop on using TRE™ in a coaching context — co-led by Isabelle Claus Teixeira &amp;amp; Saymara Ryon, in partnership with Neurogenic Integration.</p>
         <div class="evt-card-actions">
           <a href="/event-shaking-online" class="btn btn-primary">Register</a>
           <a href="/event-shaking-online" class="btn evt-btn-2">View Details</a>
@@ -1829,7 +1829,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
         <div class="evt-card-tags"><span class="evt-tag loc">Singapore</span><span class="evt-tag">Introduction to TRE™</span></div>
         <h3>Introduction to TRE™</h3>
         <div class="evt-dates"><span class="evt-date-tag" data-start="2027-02-23" data-end="2027-02-23">Tue 23 Feb 2027</span><span class="evt-date-tag" data-start="2027-06-29" data-end="2027-06-29">Tue 29 Jun 2027</span><span class="evt-date-tag" data-start="2027-11-03" data-end="2027-11-03">Wed 3 Nov 2027</span></div>
-        <p class="evt-card-desc">An in-person Introduction to TRE™ for the general public — a 2-hour workshop in Singapore, in collaboration with TRE Thailand, led by Global TRE™ Certifying Trainers Isabelle Claus Teixeira &amp; Simba Stenqvist. Three dates to choose from, 7–9pm. TRE™ personal sessions are not included.</p>
+        <p class="evt-card-desc">An in-person Introduction to TRE™ for the general public — a 2-hour workshop in Singapore, in collaboration with TRE Thailand, led by Global TRE™ Certifying Trainers Isabelle Claus Teixeira &amp;amp; Simba Stenqvist. Three dates to choose from, 7–9pm. TRE™ personal sessions are not included.</p>
         <div class="evt-card-actions">
           <a href="/event-intro-tre-singapore-2027#register" class="btn btn-primary">Register</a>
           <a href="/event-intro-tre-singapore-2027" class="btn evt-btn-2">View Details</a>
@@ -1844,7 +1844,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
         <div class="evt-card-tags"><span class="evt-tag loc">Singapore</span><span class="evt-tag">3 ICF CCEs</span></div>
         <h3>Shaking to Shaping — TRE™ for Coaches</h3>
         <div class="evt-dates"><span class="evt-date-tag" data-start="2027-02-24" data-end="2027-02-24">Wed 24 Feb 2027</span><span class="evt-date-tag" data-start="2027-06-30" data-end="2027-06-30">Wed 30 Jun 2027</span><span class="evt-date-tag" data-start="2027-11-02" data-end="2027-11-02">Tue 2 Nov 2027</span></div>
-        <p class="evt-card-desc">An ICF-accredited Introduction to TRE™ for Coaches — a 3-hour in-person workshop in Singapore with 3 ICF CCEs, led by Global TRE™ Certifying Trainers Isabelle Claus Teixeira &amp; Simba Stenqvist. Three dates to choose from, 7–10pm. TRE™ personal sessions are not included.</p>
+        <p class="evt-card-desc">An ICF-accredited Introduction to TRE™ for Coaches — a 3-hour in-person workshop in Singapore with 3 ICF CCEs, led by Global TRE™ Certifying Trainers Isabelle Claus Teixeira &amp;amp; Simba Stenqvist. Three dates to choose from, 7–10pm. TRE™ personal sessions are not included.</p>
         <div class="evt-card-actions">
           <a href="/event-shaking-to-shaping-singapore#register" class="btn btn-primary">Register</a>
           <a href="/event-shaking-to-shaping-singapore" class="btn evt-btn-2">View Details</a>
@@ -1858,7 +1858,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
         <div class="evt-card-tags"><span class="evt-tag loc">Singapore</span><span class="evt-tag">Certification</span></div>
         <h3>Become a Certified TRE™ Provider — 2027 Cohort</h3>
         <div class="evt-dates"><span class="evt-date-tag" data-start="2027-04-24" data-end="2027-04-25">M1 · 24–25 Apr 2027</span><span class="evt-date-tag" data-start="2027-07-03" data-end="2027-07-04">M2 · 3–4 Jul 2027</span><span class="evt-date-tag" data-start="2027-10-30" data-end="2027-10-31">M3 · 30–31 Oct 2027</span></div>
-        <p class="evt-card-desc">The 2027 Singapore cohort of the Global TRE™ Provider Certification — three in-person modules plus online supervisions, taught by two TRE™ Trainers, Isabelle Claus Teixeira &amp; Simba Stenqvist. Choose a Growth, Foundational or Refresher package: from S$2,200 early bird until 31 Mar 2027 (Growth S$5,888, Foundational S$4,888). 21 ICF CCEs for Module 1 with the Growth Package.</p>
+        <p class="evt-card-desc">The 2027 Singapore cohort of the Global TRE™ Provider Certification — three in-person modules plus online supervisions, taught by two TRE™ Trainers, Isabelle Claus Teixeira &amp;amp; Simba Stenqvist. Choose a Growth, Foundational or Refresher package: from S$2,200 early bird until 31 Mar 2027 (Growth S$5,888, Foundational S$4,888). 21 ICF CCEs for Module 1 with the Growth Package.</p>
         <div class="evt-card-actions">
           <a href="/event-certification-2027#reserve" class="btn btn-primary">Register</a>
           <a href="/event-certification-2027" class="btn evt-btn-2">Details</a>
@@ -1897,10 +1897,10 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     <article class="evt-card" data-cat="singapore certification" data-start="2027-04-24" data-end="2027-10-31">
       <a href="/event-certification-2027-refresher" class="evt-card-thumb"><img src="/images/event-certification-2027-refresher.webp?v=20261107b" alt="Refresher Packages, TRE™ Certification Singapore 2027, with Isabelle Claus Teixeira and Simba Stenqvist" loading="lazy" decoding="async" width="1920" height="1080"/></a>
       <div class="evt-card-content">
-        <div class="evt-card-tags"><span class="evt-tag loc">Singapore</span><span class="evt-tag">Providers &amp; trainees</span></div>
+        <div class="evt-card-tags"><span class="evt-tag loc">Singapore</span><span class="evt-tag">Providers &amp;amp; trainees</span></div>
         <h3>TRE™ Certification 2027 — Refresher Packages</h3>
         <div class="evt-dates"><span class="evt-date-tag" data-start="2027-04-24" data-end="2027-04-25">M1 · 24–25 Apr 2027</span><span class="evt-date-tag" data-start="2027-07-03" data-end="2027-07-04">M2 · 3–4 Jul 2027</span><span class="evt-date-tag" data-start="2027-10-30" data-end="2027-10-31">M3 · 30–31 Oct 2027</span></div>
-        <p class="evt-card-desc">Accredited TRE™ Providers &amp; trainees, 4 options. From S$2,200 early bird to 31 Mar 2027, then from S$2,900.</p>
+        <p class="evt-card-desc">Accredited TRE™ Providers &amp;amp; trainees, 4 options. From S$2,200 early bird to 31 Mar 2027, then from S$2,900.</p>
         <div class="evt-card-actions">
           <a href="/event-certification-2027-refresher#reserve" class="btn btn-primary">Register</a>
           <a href="/event-certification-2027-refresher" class="btn evt-btn-2">Details</a>
@@ -1915,7 +1915,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
         <div class="evt-card-tags"><span class="evt-tag loc">Portugal</span><span class="evt-tag">21 ICF CCEUs</span></div>
         <h3>TRE™ Module 1 — Lisbon</h3>
         <div class="evt-dates"><span class="evt-date-tag" data-start="2027-05-28" data-end="2027-05-30">28–30 May 2027 · Lisboa</span></div>
-        <p class="evt-card-desc">ICF-accredited TRE™ Module 1 in Lisboa, Portugal: 28 and 29 May (10:00–18:00) and 30 May (10:00–13:00), led by Isabelle Claus Teixeira and assisted by Saymara Ryon. The 21 ICF CCEUs require the additional 4-hour Self-Care &amp; Presence for Coaches session (30 May, 14:00–18:00). Only 25 places. Early bird €739 (first 10, until 31 March 2027), then €799.</p>
+        <p class="evt-card-desc">ICF-accredited TRE™ Module 1 in Lisboa, Portugal: 28 and 29 May (10:00–18:00) and 30 May (10:00–13:00), led by Isabelle Claus Teixeira and assisted by Saymara Ryon. The 21 ICF CCEUs require the additional 4-hour Self-Care &amp;amp; Presence for Coaches session (30 May, 14:00–18:00). Only 25 places. Early bird €739 (first 10, until 31 March 2027), then €799.</p>
         <div class="evt-card-actions">
           <a href="/event-tre-module1-lisbon#register" class="btn btn-primary">Register</a>
           <a href="/event-tre-module1-lisbon" class="btn evt-btn-2">Details</a>
@@ -1977,7 +1977,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
       <div class="evt-card-content">
         <div class="evt-card-tags"><span class="evt-tag loc">Romania</span><span class="evt-tag">In-Person</span></div>
         <h3>From Shaking to Shaping — Bucharest</h3>
-        <div class="evt-dates"><span class="evt-date-tag" data-start="2026-10-20" data-end="2026-10-24">20 &amp; 24 Oct 2026 · Bucharest</span></div>
+        <div class="evt-dates"><span class="evt-date-tag" data-start="2026-10-20" data-end="2026-10-24">20 &amp;amp; 24 Oct 2026 · Bucharest</span></div>
         <p class="evt-card-desc">Integrate TRE™ into your coaching practice — neurogenic tremoring as a somatic tool for nervous system regulation and embodied presence. In-person in Bucharest, România.</p>
         <div class="evt-card-actions">
           <span class="btn btn-soldout">Sold Out</span>
@@ -2052,7 +2052,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
         <div class="evt-card-tags"><span class="evt-tag loc">Online</span><span class="evt-tag">TRE™ Coaching</span></div>
         <h3>From Shaking to Shaping — Online</h3>
         <div class="evt-dates"><span class="evt-date-tag" data-start="2026-09-03" data-end="2026-09-03">3 Sep 2026 · Online</span></div>
-        <p class="evt-card-desc">Use of TRE™ in a coaching context — the 3 September 2026 online session with Isabelle Claus Teixeira &amp; Saymara Ryon. Fully booked; this session has now taken place.</p>
+        <p class="evt-card-desc">Use of TRE™ in a coaching context — the 3 September 2026 online session with Isabelle Claus Teixeira &amp;amp; Saymara Ryon. Fully booked; this session has now taken place.</p>
         <div class="evt-card-actions">
           <span class="btn btn-ended">Event Ended</span>
           <a href="/event-shaking-to-shaping-sep3" class="btn evt-btn-2">View Details</a>
@@ -2066,7 +2066,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
         <div class="evt-card-tags"><span class="evt-tag loc">Singapore</span><span class="evt-tag">Workshop</span></div>
         <h3>Internal Alchemy — Introductory Workshop</h3>
         <div class="evt-dates"><span class="evt-date-tag" data-start="2026-09-01" data-end="2026-09-01">1 Sep 2026 · 7–9pm</span></div>
-        <p class="evt-card-desc">Breathwork, fascial release, grounding &amp; tremor work with Simba Stenqvist, creator of Internal Alchemy. This workshop has now taken place.</p>
+        <p class="evt-card-desc">Breathwork, fascial release, grounding &amp;amp; tremor work with Simba Stenqvist, creator of Internal Alchemy. This workshop has now taken place.</p>
         <div class="evt-card-actions">
           <span class="btn btn-ended">Event Ended</span>
           <a href="/event-internal-alchemy" class="btn evt-btn-2">View Details</a>
@@ -2078,7 +2078,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
       <a href="/event-selfcare-coaches-singapore" class="evt-card-thumb"><span class="evt-past-badge">Passed</span><img src="/images/card-event-nervous-system.webp?v=1" alt="Nervous System Regulation &amp; Self-Induced Neurogenic Tremoring" loading="lazy" decoding="async"/></a>
       <div class="evt-card-content">
         <div class="evt-card-tags"><span class="evt-tag loc">Singapore</span><span class="evt-tag">21 CCEUs · ICF</span></div>
-        <h3>Nervous System Regulation &amp; Self-Induced Neurogenic Tremoring</h3>
+        <h3>Nervous System Regulation &amp;amp; Self-Induced Neurogenic Tremoring</h3>
         <div class="evt-dates"><span class="evt-date-tag" data-start="2026-08-29" data-end="2026-08-30">29–30 Aug 2026</span></div>
         <p class="evt-card-desc">Self-care and presence for coaches — a 2-day ICF-accredited workshop. Valid as Module 1 of the Global TRE™ Provider Certification. This workshop has now taken place.</p>
         <div class="evt-card-actions">
@@ -2094,7 +2094,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
 </section><section class="section-cream hb-faq-sec" id="faq" aria-labelledby="hb-faq-title">
   <div class="hb-faq-head">
     <span class="section-eyebrow">Common Questions</span>
-    <h2 class="section-title" id="hb-faq-title">Workshops &amp; Events: Quick Answers</h2>
+    <h2 class="section-title" id="hb-faq-title">Workshops &amp;amp; Events: Quick Answers</h2>
   </div>
   <div class="hb-faq">
     <details><summary><h3>Are HummingBeing workshops in person or online?</h3></summary><div class="a"><p>Both. Several workshops run live online in Singapore time, such as Breath as Medicine and The Art of Conscious Rest, and TRE™ Module 1 is also offered online with TRE Scotland in UK time. In-person events take place in Singapore and Lisboa, Portugal, including Introduction to TRE™ and the 2027 certification cohorts.</p></div></details>
@@ -2147,7 +2147,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
 </section><footer>
   <div class="foot-grid">
     <div>
-      <a href="/" class="foot-logo"><img src="/images/logo-dark.webp" alt="HummingBeing — Coaching &amp; Somatics" width="144" height="48" style="height:48px;width:auto;display:block"/></a>
+      <a href="/" class="foot-logo"><img src="/images/logo-dark.webp" alt="HummingBeing — Coaching &amp; Somatics" width="144" height="48" style="height:48px;width:auto;display:block" loading="eager"/></a>
       <p class="foot-desc">Science backed processes with TRE™, Coaching and Somatic Practices — a space to release, renew and restore.</p>
       <p class="foot-desc">Part of <strong>Business and Human Development Consulting Pte Ltd</strong></p>
       <div class="foot-socials">
@@ -2160,9 +2160,9 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     <div>
       <div class="foot-h">Work with Isabelle</div>
       <ul class="foot-links">
-        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™</a></li>
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp;amp; TRE™</a></li>
         <li><a href="/tre-certification">TRE™ Certification</a></li>
-        <li><a href="/retreats-workshops">Retreats &amp; Workshops</a></li>
+        <li><a href="/retreats-workshops">Retreats &amp;amp; Workshops</a></li>
         <li><a href="/events">Events</a></li>
         <li><a href="/book">Book a free call</a></li>
       </ul>

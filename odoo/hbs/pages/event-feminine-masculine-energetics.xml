@@ -1,4 +1,4 @@
-<t t-name="hbs.page_event_feminine_masculine_energetics"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en&quot;}"/><t t-set="title">Navigating Feminine &amp; Masculine Energetics | HummingBeing</t><t t-set="head"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
+<t t-name="hbs.page_event_feminine_masculine_energetics"><t t-set="html_data" t-value="{&quot;lang&quot;: &quot;en&quot;}"/><t t-set="title">Navigating Feminine &amp; Masculine Energetics | HummingBeing</t><t t-set="x_icon" t-value="&quot;/favicon-32.png?v=3&quot;"/><t t-set="head"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
 new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
 "https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
@@ -146,8 +146,8 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     .ce-lightbox-close{position:absolute;top:16px;right:22px;width:44px;height:44px;border:0;border-radius:50%;background:rgba(255,255,255,.12);color:#fff;font-size:1.6rem;line-height:1;cursor:pointer}
     .ce-lightbox-close:hover{background:rgba(255,255,255,.22)}
       .ce-poster-portrait .ce-zoom-hint{top:14px !important;bottom:auto !important}
-  </style><script type="application/ld+json" data-seo="breadcrumb">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.hummingbeing.com/"}, {"@type": "ListItem", "position": 2, "name": "Events", "item": "https://www.hummingbeing.com/events"}, {"@type": "ListItem", "position": 3, "name": "Navigating Feminine &amp; Masculine Energetics Inside Corporate Structures", "item": "https://www.hummingbeing.com/event-feminine-masculine-energetics"}]}</script><link rel="preload" href="/fonts/hb/lato-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/hb/playfair-display-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/></t><t t-call="web.layout"><link rel="stylesheet" href="/styles.css?v=98"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXLR5LGG" height="0" width="0" style="display:none;visibility:hidden"/></noscript><nav>
-  <a href="/" class="logo"><img src="/images/logo-dark.webp" class="logo-on-dark" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/><img src="/images/logo-light.webp" class="logo-on-light" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto"/></a>
+  </style><script type="application/ld+json" data-seo="breadcrumb">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.hummingbeing.com/"}, {"@type": "ListItem", "position": 2, "name": "Events", "item": "https://www.hummingbeing.com/events"}, {"@type": "ListItem", "position": 3, "name": "Navigating Feminine &amp; Masculine Energetics Inside Corporate Structures", "item": "https://www.hummingbeing.com/event-feminine-masculine-energetics"}]}</script><link rel="preload" href="/fonts/hb/lato-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="preload" href="/fonts/hb/playfair-display-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin=""/><link rel="stylesheet" href="/hb-tn.css?v=39" data-tn=""/></t><t t-call="web.layout"><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXLR5LGG" height="0" width="0" style="display:none;visibility:hidden"/></noscript><nav>
+  <a href="/" class="logo"><img src="/images/logo-dark.webp" class="logo-on-dark" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto" loading="eager"/><img src="/images/logo-light.webp" class="logo-on-light" alt="HummingBeing — Coaching &amp; Somatics" width="168" height="56" style="height:56px;width:auto" loading="eager"/></a>
   <ul class="nav-links">
     <li><a href="/">Home</a></li>
     <li><a href="/about">About</a></li>
@@ -155,9 +155,9 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     <li class="nav-dropdown">
       <a href="javascript:void(0)" class="nav-dropdown-toggle">Work with Isabelle <i class="fa-solid fa-chevron-down nav-arrow"/></a>
       <ul class="nav-dropdown-menu">
-        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™<small>Private sessions, online or in person</small></a></li>
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp;amp; TRE™<small>Private sessions, online or in person</small></a></li>
         <li><a href="/tre-certification">TRE™ Certification<small>Become a certified TRE™ provider</small></a></li>
-        <li><a href="/retreats-workshops">Retreats &amp; Workshops<small>Groups, teams and executives</small></a></li>
+        <li><a href="/retreats-workshops">Retreats &amp;amp; Workshops<small>Groups, teams and executives</small></a></li>
       </ul>
     </li>
     <li><a href="/events">Events</a></li>
@@ -174,14 +174,14 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
       <p class="ce-crumbs"><a href="/events">Events</a> › Online workshop</p>
       <div class="ce-badges">
         <span class="ce-badge cat">Live Online</span>
-        <span class="ce-badge">Energetics &amp; Somatics</span>
+        <span class="ce-badge">Energetics &amp;amp; Somatics</span>
         <span class="ce-badge">28 Oct · 7–9:30pm SGT</span>
       </div>
-      <h1>Navigating Feminine &amp; Masculine Energetics <em>Inside Corporate Structures</em></h1>
+      <h1>Navigating Feminine &amp;amp; Masculine Energetics <em>Inside Corporate Structures</em></h1>
       <p class="ce-lead">Energetic awareness meets somatic embodiment, so that moving through masculine structures can become a source of ease and personal power rather than depletion. A live online workshop with <strong>Sara Marie</strong> — The Alchemist.</p>
       <div class="ce-hero-actions">
         <a href="/events" class="btn btn-primary">See upcoming events →</a>
-        <a href="#reserve" class="btn btn-outline">Pricing &amp; details</a>
+        <a href="#reserve" class="btn btn-outline">Pricing &amp;amp; details</a>
       </div>
     </div>
   </div>
@@ -195,7 +195,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
 </div><div class="ce-layout">
   <div class="ce-main">
     <figure class="ce-poster ce-poster-portrait" style="max-width:540px;margin-left:auto;margin-right:auto">
-      <img src="/images/event-feminine-masculine-poster.webp?v=1" alt="Navigating Feminine &amp; Masculine Energetics Inside Corporate Structures — online workshop led by Sara Marie, 28 October 2026, 7:00–9:30 PM Singapore time. 88 SGD (69 USD)." width="1080" height="1350" decoding="async"/>
+      <img src="/images/event-feminine-masculine-poster.webp?v=1" alt="Navigating Feminine &amp; Masculine Energetics Inside Corporate Structures — online workshop led by Sara Marie, 28 October 2026, 7:00–9:30 PM Singapore time. 88 SGD (69 USD)." width="1080" height="1350" decoding="async" loading="eager"/>
     </figure>
 
     <h2>The woman this is for</h2>
@@ -218,7 +218,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
         <div class="ce-person-body">
           <span class="role">The Alchemist · CEO, Living with the Spirit</span>
           <h4>Sara Marie</h4>
-          <p>Sara brings decades of experience from a wide range of masculine structures, having worked in marketing with global brands including L’Oréal Paris, the Volvo brands and Dolce &amp; Gabbana. The pace and pressure of that world eventually led her into a severe burnout, and the road back to her health became the place where she learned to release the masculine weight she had been carrying and reclaim her energy and happiness. For the past decade she has lived in Chiang Mai as CEO of Living with the Spirit, where she runs a retreat centre and the Internal Alchemy Certification Trainings with her husband Simba.</p>
+          <p>Sara brings decades of experience from a wide range of masculine structures, having worked in marketing with global brands including L’Oréal Paris, the Volvo brands and Dolce &amp;amp; Gabbana. The pace and pressure of that world eventually led her into a severe burnout, and the road back to her health became the place where she learned to release the masculine weight she had been carrying and reclaim her energy and happiness. For the past decade she has lived in Chiang Mai as CEO of Living with the Spirit, where she runs a retreat centre and the Internal Alchemy Certification Trainings with her husband Simba.</p>
           <div class="links"><a href="https://linktr.ee/saramariespirit" target="_blank" rel="noopener">Linktree</a><a href="https://www.instagram.com/saramariespirit" target="_blank" rel="noopener">Instagram</a><a href="https://www.youtube.com/@saramariealchemist" target="_blank" rel="noopener">YouTube</a><a href="https://www.linkedin.com/in/saramariespirit" target="_blank" rel="noopener">LinkedIn</a></div>
         </div>
       </div>
@@ -273,7 +273,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
 </section><footer>
   <div class="foot-grid">
     <div>
-      <a href="/" class="foot-logo"><img src="/images/logo-dark.webp" alt="HummingBeing — Coaching &amp; Somatics" style="height:48px;width:auto;display:block" width="144" height="48"/></a>
+      <a href="/" class="foot-logo"><img src="/images/logo-dark.webp" alt="HummingBeing — Coaching &amp; Somatics" style="height:48px;width:auto;display:block" width="144" height="48" loading="eager"/></a>
       <p class="foot-desc">Science backed processes with TRE™, Coaching and Somatic Practices — a space to release, renew and restore.</p>
       <p class="foot-desc">Part of <strong>Business and Human Development Consulting Pte Ltd</strong></p>
       <div class="foot-socials">
@@ -286,9 +286,9 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
     <div>
       <div class="foot-h">Work with Isabelle</div>
       <ul class="foot-links">
-        <li><a href="/holistic-mastermind">1:1 Coaching &amp; TRE™</a></li>
+        <li><a href="/holistic-mastermind">1:1 Coaching &amp;amp; TRE™</a></li>
         <li><a href="/tre-certification">TRE™ Certification</a></li>
-        <li><a href="/retreats-workshops">Retreats &amp; Workshops</a></li>
+        <li><a href="/retreats-workshops">Retreats &amp;amp; Workshops</a></li>
         <li><a href="/events">Events</a></li>
         <li><a href="/book">Book a free call</a></li>
       </ul>
