@@ -533,1028 +533,1250 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
       .ev .evt-card:hover .evt-card-thumb img, .ev .evt-card:hover .ev-cal { transform: none !important; }
     }
   </style><meta name="keywords" content="TRE&#x2122; events, TRE&#x2122; workshop, somatic wellness events, TRE&#x2122; certification, group TRE&#x2122; session, TRE&#x2122; Singapore, TRE&#x2122; Romania, somatic healing workshop"/><link rel="canonical" href="https://www.hummingbeing.com/events"/><meta name="robots" content="index, follow"/><meta property="og:type" content="website"/><meta property="og:site_name" content="HummingBeing"/><meta property="og:title" content="Upcoming TRE&#x2122; Workshops &amp; Events | HummingBeing"/><meta property="og:description" content="TRE&#x2122; workshops, certification modules and online sessions with Isabelle Claus Teixeira and guest trainers in Singapore, Europe and online. Reserve a place."/><meta property="og:url" content="https://www.hummingbeing.com/events"/><meta property="og:image" content="https://www.hummingbeing.com/images/isabelle-her-story.webp"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image:alt" content="TRE&#x2122; events and somatic workshops with Isabelle Claus Teixeira"/><meta property="og:locale" content="en_SG"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Upcoming TRE&#x2122; Workshops &amp; Events | HummingBeing"/><meta name="twitter:description" content="TRE&#x2122; workshops, certification modules and online sessions with Isabelle Claus Teixeira and guest trainers in Singapore, Europe and online. Reserve a place."/><meta name="twitter:image" content="https://www.hummingbeing.com/images/isabelle-her-story.webp"/><script type="application/ld+json">
-  [
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "organizer": {
-        "@type": "Person",
-        "name": "Isabelle Claus Teixeira",
-        "url": "https://www.hummingbeing.com/isabelle"
-      },
-      "name": "From Shaking to Shaping — Live Online Session",
-      "description": "A live online workshop on using TRE™ in a coaching context, co-led by Isabelle Claus Teixeira and Saymara Ryon.",
-      "startDate": "2026-10-08T19:00:00+03:00",
-      "endDate": "2026-10-08T21:00:00+03:00",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-      "location": {
-        "@type": "VirtualLocation",
-        "url": "https://www.hummingbeing.com/event-shaking-online"
-      },
-      "image": "https://www.hummingbeing.com/images/event-shaking-online.webp",
-      "url": "https://www.hummingbeing.com/event-shaking-online",
-      "offers": {
-        "@type": "Offer",
-        "availability": "https://schema.org/SoldOut",
-        "url": "https://www.hummingbeing.com/event-shaking-online"
-      }
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "organizer": {
+      "@type": "Person",
+      "name": "Isabelle Claus Teixeira",
+      "url": "https://www.hummingbeing.com/isabelle"
     },
-    {
-      "@context": "https://schema.org",
-      "@type": "EducationEvent",
-      "name": "The Body in the Room — Integrating TRE™ and Somatic Practice into Psychotherapy",
-      "description": "An online workshop with Aun Ali (Certified TRE™ Trainer, Clinically Certified Trauma Specialist) for psychologists, counsellors and narrative therapists: a trauma-informed approach to bringing the body into therapeutic work. 25 November 2026, 7–9pm Singapore time, on Zoom. Presented in partnership with the Trauma Release and Wellness Centre, Karachi, Pakistan.",
-      "startDate": "2026-11-25T19:00:00+08:00",
-      "endDate": "2026-11-25T21:00:00+08:00",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-      "location": {
-        "@type": "VirtualLocation",
-        "url": "https://www.hummingbeing.com/event-body-in-the-room"
-      },
-      "isAccessibleForFree": false,
-      "offers": {
-        "@type": "Offer",
-        "name": "Public price",
-        "price": "88",
-        "priceCurrency": "SGD",
-        "url": "https://www.hummingbeing.com/event-body-in-the-room#register",
-        "availability": "https://schema.org/InStock",
-        "validFrom": "2026-09-29T00:00:00+08:00"
-      },
-      "organizer": [
-        {
-          "@type": "Organization",
-          "name": "HummingBeing",
-          "url": "https://www.hummingbeing.com/"
-        },
-        {
-          "@type": "Organization",
-          "name": "Trauma Release and Wellness Centre",
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Karachi",
-            "addressCountry": "PK"
-          }
-        }
-      ],
-      "performer": {
-        "@type": "Person",
-        "name": "Aun Ali",
-        "jobTitle": "Certified TRE™ Trainer, Founder of the Trauma Release and Wellness Centre"
-      },
-      "image": "https://www.hummingbeing.com/images/event-body-in-the-room.webp?v=2",
+    "name": "From Shaking to Shaping — Live Online Session",
+    "description": "A live online workshop on using TRE™ in a coaching context, co-led by Isabelle Claus Teixeira and Saymara Ryon.",
+    "startDate": "2026-10-08T19:00:00+03:00",
+    "endDate": "2026-10-08T21:00:00+03:00",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+    "location": {
+      "@type": "VirtualLocation",
+      "url": "https://www.hummingbeing.com/event-shaking-online"
+    },
+    "image": "https://www.hummingbeing.com/images/event-shaking-online.webp",
+    "url": "https://www.hummingbeing.com/event-shaking-online",
+    "offers": {
+      "@type": "Offer",
+      "url": "https://neurogenic-integration.com/",
+      "availability": "https://schema.org/SoldOut"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationEvent",
+    "name": "The Body in the Room — Integrating TRE™ and Somatic Practice into Psychotherapy",
+    "description": "An online workshop with Aun Ali (Certified TRE™ Trainer, Clinically Certified Trauma Specialist) for psychologists, counsellors and narrative therapists: a trauma-informed approach to bringing the body into therapeutic work. 25 November 2026, 7–9pm Singapore time, on Zoom. Presented in partnership with the Trauma Release and Wellness Centre, Karachi, Pakistan.",
+    "startDate": "2026-11-25T19:00:00+08:00",
+    "endDate": "2026-11-25T21:00:00+08:00",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+    "location": {
+      "@type": "VirtualLocation",
       "url": "https://www.hummingbeing.com/event-body-in-the-room"
     },
-    {
-      "@context": "https://schema.org",
-      "@type": "EducationEvent",
-      "name": "Breath as a medicine — Introduction to pranayama",
-      "description": "An introductory online workshop with Ania Zielińska (Sunrise), yoga teacher, holistic health coach and life realignment mentor: what pranayama is and how conscious breathing supports physical, mental and emotional wellbeing. Suitable for beginners. Tuesday 15 December 2026, 7–9pm Singapore time, on Zoom.",
-      "startDate": "2026-12-15T19:00:00+08:00",
-      "endDate": "2026-12-15T21:00:00+08:00",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-      "location": {
-        "@type": "VirtualLocation",
-        "url": "https://www.hummingbeing.com/event-breath-as-medicine"
-      },
-      "isAccessibleForFree": false,
-      "offers": {
-        "@type": "Offer",
-        "name": "Public price",
-        "price": "88",
-        "priceCurrency": "SGD",
-        "url": "https://www.hummingbeing.com/event-breath-as-medicine#register",
-        "availability": "https://schema.org/InStock",
-        "validFrom": "2026-10-12T00:00:00+08:00"
-      },
-      "organizer": {
+    "isAccessibleForFree": false,
+    "offers": {
+      "@type": "Offer",
+      "name": "Public price",
+      "price": "88",
+      "priceCurrency": "SGD",
+      "url": "https://www.hummingbeing.com/event-body-in-the-room#register",
+      "availability": "https://schema.org/InStock",
+      "validFrom": "2026-09-29T00:00:00+08:00"
+    },
+    "organizer": [
+      {
         "@type": "Organization",
         "name": "HummingBeing",
         "url": "https://www.hummingbeing.com/"
       },
-      "performer": {
-        "@type": "Person",
-        "name": "Ania Zielińska",
-        "jobTitle": "Yoga Teacher, Holistic Health Coach, Life Realignment Mentor"
-      },
-      "image": "https://www.hummingbeing.com/images/event-breath-as-medicine.webp?v=1",
+      {
+        "@type": "Organization",
+        "name": "Trauma Release and Wellness Centre",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Karachi",
+          "addressCountry": "PK"
+        }
+      }
+    ],
+    "performer": {
+      "@type": "Person",
+      "name": "Aun Ali",
+      "jobTitle": "Certified TRE™ Trainer, Founder of the Trauma Release and Wellness Centre"
+    },
+    "image": "https://www.hummingbeing.com/images/event-body-in-the-room.webp?v=2",
+    "url": "https://www.hummingbeing.com/event-body-in-the-room"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationEvent",
+    "name": "Breath as a medicine — Introduction to pranayama",
+    "description": "An introductory online workshop with Ania Zielińska (Sunrise), yoga teacher, holistic health coach and life realignment mentor: what pranayama is and how conscious breathing supports physical, mental and emotional wellbeing. Suitable for beginners. Tuesday 15 December 2026, 7–9pm Singapore time, on Zoom.",
+    "startDate": "2026-12-15T19:00:00+08:00",
+    "endDate": "2026-12-15T21:00:00+08:00",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+    "location": {
+      "@type": "VirtualLocation",
       "url": "https://www.hummingbeing.com/event-breath-as-medicine"
     },
-    {
-      "@context": "https://schema.org",
-      "@type": "EducationEvent",
-      "name": "The Art of Conscious Rest — Experiencing deep relaxation through Yoga Nidra",
-      "description": "An experiential online workshop with Olga Titkova, yoga and mindfulness teacher (E-RYT 200, RYT 500, YACEP): an introduction to Yoga Nidra, a practice rooted in the Tantric yoga tradition that invites deep relaxation while cultivating awareness. No previous Yoga Nidra experience is required. Sunday 24 January 2027, 8–10pm Singapore time, on Zoom.",
-      "startDate": "2027-01-24T20:00:00+08:00",
-      "endDate": "2027-01-24T22:00:00+08:00",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-      "location": {
-        "@type": "VirtualLocation",
-        "url": "https://www.hummingbeing.com/event-art-of-conscious-rest"
-      },
-      "isAccessibleForFree": false,
-      "offers": {
-        "@type": "Offer",
-        "name": "Public price",
-        "price": "88",
-        "priceCurrency": "SGD",
-        "url": "https://www.hummingbeing.com/event-art-of-conscious-rest#register",
-        "availability": "https://schema.org/InStock",
-        "validFrom": "2026-10-19T00:00:00+08:00"
-      },
-      "organizer": {
-        "@type": "Organization",
-        "name": "HummingBeing",
-        "url": "https://www.hummingbeing.com/"
-      },
-      "performer": {
-        "@type": "Person",
-        "name": "Olga Titkova",
-        "jobTitle": "Yoga &amp; Mindfulness Teacher"
-      },
-      "image": "https://www.hummingbeing.com/images/event-art-of-conscious-rest.webp?v=1",
+    "isAccessibleForFree": false,
+    "offers": {
+      "@type": "Offer",
+      "name": "Public price",
+      "price": "88",
+      "priceCurrency": "SGD",
+      "url": "https://www.hummingbeing.com/event-breath-as-medicine#register",
+      "availability": "https://schema.org/InStock",
+      "validFrom": "2026-10-12T00:00:00+08:00"
+    },
+    "organizer": {
+      "@type": "Organization",
+      "name": "HummingBeing",
+      "url": "https://www.hummingbeing.com/"
+    },
+    "performer": {
+      "@type": "Person",
+      "name": "Ania Zielińska",
+      "jobTitle": "Yoga Teacher, Holistic Health Coach, Life Realignment Mentor"
+    },
+    "image": "https://www.hummingbeing.com/images/event-breath-as-medicine.webp?v=1",
+    "url": "https://www.hummingbeing.com/event-breath-as-medicine"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationEvent",
+    "name": "The Art of Conscious Rest — Experiencing deep relaxation through Yoga Nidra",
+    "description": "An experiential online workshop with Olga Titkova, yoga and mindfulness teacher (E-RYT 200, RYT 500, YACEP): an introduction to Yoga Nidra, a practice rooted in the Tantric yoga tradition that invites deep relaxation while cultivating awareness. No previous Yoga Nidra experience is required. Sunday 24 January 2027, 8–10pm Singapore time, on Zoom.",
+    "startDate": "2027-01-24T20:00:00+08:00",
+    "endDate": "2027-01-24T22:00:00+08:00",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+    "location": {
+      "@type": "VirtualLocation",
       "url": "https://www.hummingbeing.com/event-art-of-conscious-rest"
     },
-    {
-      "@context": "https://schema.org",
-      "@type": "EducationEvent",
-      "name": "TRE™ Module 1 — Lisbon, Portugal",
-      "description": "ICF-accredited TRE™ Module 1 in Lisboa: Day 1 (28 May) and Day 2 (29 May) 10:00-18:00, Day 3 (30 May) 10:00-13:00. The ICF-accredited Module 1 includes an additional 4 hours, Self-Care &amp; Presence for Coaches (30 May, 14:00-18:00), which is mandatory to attend for the 21 ICF CCEUs (16 Resource Development + 5 Core Competencies). Led by Isabelle Claus Teixeira, assisted by Saymara Ryon. Limited to 25 participants.",
-      "startDate": "2027-05-28T10:00:00+01:00",
-      "endDate": "2027-05-30T18:00:00+01:00",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "maximumAttendeeCapacity": 25,
-      "inLanguage": "en",
-      "image": "https://www.hummingbeing.com/images/event-lisbon-module1.webp",
-      "url": "https://www.hummingbeing.com/event-tre-module1-lisbon",
-      "location": {
-        "@type": "Place",
-        "name": "Lisbon (Lisboa), Portugal",
-        "address": {
-          "@type": "PostalAddress",
-          "addressCountry": "PT",
-          "addressLocality": "Lisboa"
-        }
-      },
-      "organizer": {
-        "@type": "Person",
-        "name": "Isabelle Claus Teixeira",
-        "url": "https://www.hummingbeing.com/isabelle"
-      },
-      "offers": [
-        {
-          "@type": "Offer",
-          "name": "Early Bird (first 10 tickets, until 31 March 2027)",
-          "price": "739",
-          "priceCurrency": "EUR",
-          "availability": "https://schema.org/InStock",
-          "validThrough": "2027-03-31T23:59:00+01:00",
-          "url": "https://www.hummingbeing.com/event-tre-module1-lisbon"
-        },
-        {
-          "@type": "Offer",
-          "name": "Full Price (until sold out)",
-          "price": "799",
-          "priceCurrency": "EUR",
-          "availability": "https://schema.org/InStock",
-          "url": "https://www.hummingbeing.com/event-tre-module1-lisbon"
-        }
-      ],
-      "performer": [
-        {
-          "@type": "Person",
-          "name": "Isabelle Claus Teixeira",
-          "url": "https://www.hummingbeing.com/isabelle",
-          "jobTitle": "Global TRE™ Certifying Trainer"
-        },
-        {
-          "@type": "Person",
-          "name": "Saymara Ryon",
-          "url": "https://www.atelierdesuflet.ro/"
-        }
-      ]
+    "isAccessibleForFree": false,
+    "offers": {
+      "@type": "Offer",
+      "name": "Public price",
+      "price": "88",
+      "priceCurrency": "SGD",
+      "url": "https://www.hummingbeing.com/event-art-of-conscious-rest#register",
+      "availability": "https://schema.org/InStock",
+      "validFrom": "2026-10-19T00:00:00+08:00"
     },
-    {
-      "@context": "https://schema.org",
-      "@type": "EducationEvent",
-      "name": "TRE™ Certification — Portugal 2027 Cohort (Lisboa)",
-      "description": "The complete Global TRE™ Provider Certification in Lisboa, Portugal: Module 1 (28-30 May 2027, plus 4 online personal sessions), Module 2 (1-4 June 2027, plus 4 online individual supervisions) and Module 3 (22-24 October 2027, plus 4 online individual supervisions). 21 ICF CCEs for Module 1: the ICF-accredited Module 1 includes an additional 4 hours, Self-Care &amp; Presence for Coaches (30 May, 14:00-18:00), mandatory to attend for the 21 ICF CCEs. Module 2: ICF accreditation pending. Led by Isabelle Claus Teixeira, Global TRE™ Certifying Trainer, with an assisting provider. Limited to 25 participants, in English. Early bird 2,949 EUR paid in full until 31 March 2027 (2,999 EUR in three instalments); regular 3,499 EUR (3,549 EUR in three instalments). Credit card or bank transfer, in full or in instalments; card charges are added on top of card payments.",
-      "startDate": "2027-05-28T10:00:00+01:00",
-      "endDate": "2027-10-24T18:00:00+01:00",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
-      "maximumAttendeeCapacity": 25,
-      "inLanguage": "en",
-      "image": "https://www.hummingbeing.com/images/event-lisbon-certification.webp",
-      "url": "https://www.hummingbeing.com/event-tre-certification-lisbon",
-      "location": {
-        "@type": "Place",
-        "name": "Lisbon (Lisboa), Portugal",
-        "address": {
-          "@type": "PostalAddress",
-          "addressCountry": "PT",
-          "addressLocality": "Lisboa"
-        }
-      },
-      "organizer": {
-        "@type": "Person",
-        "name": "Isabelle Claus Teixeira",
-        "url": "https://www.hummingbeing.com/isabelle"
-      },
-      "offers": [
-        {
-          "@type": "Offer",
-          "name": "Early bird, paid in full (until 31 March 2027)",
-          "price": "2949",
-          "priceCurrency": "EUR",
-          "availability": "https://schema.org/InStock",
-          "validThrough": "2027-03-31T23:59:00+01:00",
-          "url": "https://www.hummingbeing.com/event-tre-certification-lisbon"
-        },
-        {
-          "@type": "Offer",
-          "name": "Early bird, three instalments (739 + 1,400 + 860 EUR)",
-          "price": "2999",
-          "priceCurrency": "EUR",
-          "availability": "https://schema.org/InStock",
-          "validThrough": "2027-03-31T23:59:00+01:00",
-          "url": "https://www.hummingbeing.com/event-tre-certification-lisbon"
-        },
-        {
-          "@type": "Offer",
-          "name": "Regular price, paid in full",
-          "price": "3499",
-          "priceCurrency": "EUR",
-          "availability": "https://schema.org/InStock",
-          "url": "https://www.hummingbeing.com/event-tre-certification-lisbon"
-        },
-        {
-          "@type": "Offer",
-          "name": "Regular price, three instalments (799 + 1,700 + 1,050 EUR)",
-          "price": "3549",
-          "priceCurrency": "EUR",
-          "availability": "https://schema.org/InStock",
-          "url": "https://www.hummingbeing.com/event-tre-certification-lisbon"
-        }
-      ],
-      "performer": [
-        {
-          "@type": "Person",
-          "name": "Isabelle Claus Teixeira",
-          "url": "https://www.hummingbeing.com/isabelle",
-          "jobTitle": "Global TRE™ Certifying Trainer"
-        },
-        {
-          "@type": "Person",
-          "name": "Saymara Ryon",
-          "url": "https://www.atelierdesuflet.ro/"
-        }
-      ]
+    "organizer": {
+      "@type": "Organization",
+      "name": "HummingBeing",
+      "url": "https://www.hummingbeing.com/"
     },
-    {
-      "@context": "https://schema.org",
-      "@type": "EducationEvent",
-      "name": "TRE™ Module 1 ONLINE — with TRE Scotland",
-      "description": "ICF-accredited TRE™ Module 1 online with TRE Scotland, led by Isabelle Claus Teixeira with Vicki Cook. 21 ICF CCEUs (16 Resource Development + 5 Core Competencies), UK time, small group limited to 15 participants. TRE™ personal sessions are not included (£85 each as an add-on).",
-      "startDate": "2027-06-18T14:00:00+01:00",
-      "endDate": "2027-06-20T18:00:00+01:00",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-      "inLanguage": "en",
-      "location": { "@type": "VirtualLocation", "url": "https://www.hummingbeing.com/event-tre-module1-online-scotland" },
-      "organizer": { "@type": "Person", "name": "Isabelle Claus Teixeira", "url": "https://www.hummingbeing.com/isabelle" },
-      "image": "https://www.hummingbeing.com/images/event-scotland-online-module1.webp?v=2",
-      "url": "https://www.hummingbeing.com/event-tre-module1-online-scotland",
-      "performer": [
-        { "@type": "Person", "name": "Isabelle Claus Teixeira", "url": "https://www.hummingbeing.com/isabelle" },
-        { "@type": "Person", "name": "Vicki Cook" }
-      ],
-      "offers": [
-        { "@type": "Offer", "name": "Early Bird (until 31 May 2027)", "price": "488", "priceCurrency": "GBP", "availability": "https://schema.org/InStock", "validThrough": "2027-05-31T23:59:59+01:00", "url": "https://www.hummingbeing.com/event-tre-module1-online-scotland" },
-        { "@type": "Offer", "name": "Normal price", "price": "589", "priceCurrency": "GBP", "availability": "https://schema.org/InStock", "url": "https://www.hummingbeing.com/event-tre-module1-online-scotland" }
-      ]
+    "performer": {
+      "@type": "Person",
+      "name": "Olga Titkova",
+      "jobTitle": "Yoga &amp; Mindfulness Teacher"
     },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "organizer": {
-        "@type": "Person",
-        "name": "Isabelle Claus Teixeira",
-        "url": "https://www.hummingbeing.com/isabelle"
-      },
-      "name": "TRE™ Module 1 — Bucharest, Romania",
-      "description": "An immersive 3-day TRE™ Module 1 certification training — the first in Europe in English. 21 ICF CCEUs.",
-      "startDate": "2026-10-15",
-      "endDate": "2026-10-17",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "location": {
-        "@type": "Place",
-        "name": "Bucharest",
-        "address": {
-          "@type": "PostalAddress",
-          "addressCountry": "RO",
-          "addressLocality": "Bucharest"
-        }
-      },
-      "image": "https://www.hummingbeing.com/images/event-bucharest-module1.webp",
-      "url": "https://www.hummingbeing.com/event-tre-module1-bucharest",
-      "offers": {
+    "image": "https://www.hummingbeing.com/images/event-art-of-conscious-rest.webp?v=1",
+    "url": "https://www.hummingbeing.com/event-art-of-conscious-rest"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationEvent",
+    "name": "TRE™ Module 1 — Lisbon, Portugal",
+    "description": "ICF-accredited TRE™ Module 1 in Lisboa: Day 1 (28 May) and Day 2 (29 May) 10:00-18:00, Day 3 (30 May) 10:00-13:00. The ICF-accredited Module 1 includes an additional 4 hours, Self-Care &amp; Presence for Coaches (30 May, 14:00-18:00), which is mandatory to attend for the 21 ICF CCEUs (16 Resource Development + 5 Core Competencies). Led by Isabelle Claus Teixeira, assisted by Saymara Ryon. Limited to 25 participants.",
+    "startDate": "2027-05-28T10:00:00+01:00",
+    "endDate": "2027-05-30T18:00:00+01:00",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "maximumAttendeeCapacity": 25,
+    "inLanguage": "en",
+    "image": "https://www.hummingbeing.com/images/event-lisbon-module1.webp",
+    "url": "https://www.hummingbeing.com/event-tre-module1-lisbon",
+    "location": {
+      "@type": "Place",
+      "name": "Lisbon (Lisboa), Portugal",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "PT",
+        "addressLocality": "Lisboa"
+      }
+    },
+    "organizer": {
+      "@type": "Person",
+      "name": "Isabelle Claus Teixeira",
+      "url": "https://www.hummingbeing.com/isabelle"
+    },
+    "offers": [
+      {
         "@type": "Offer",
+        "name": "Early Bird (first 10 tickets, until 31 March 2027)",
+        "price": "739",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validThrough": "2027-03-31T23:59:00+01:00",
+        "url": "https://www.hummingbeing.com/event-tre-module1-lisbon"
+      },
+      {
+        "@type": "Offer",
+        "name": "Full Price (until sold out)",
+        "price": "799",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.hummingbeing.com/event-tre-module1-lisbon"
+      }
+    ],
+    "performer": [
+      {
+        "@type": "Person",
+        "name": "Isabelle Claus Teixeira",
+        "url": "https://www.hummingbeing.com/isabelle",
+        "jobTitle": "Global TRE™ Certifying Trainer"
+      },
+      {
+        "@type": "Person",
+        "name": "Saymara Ryon",
+        "url": "https://www.atelierdesuflet.ro/"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationEvent",
+    "name": "TRE™ Certification — Portugal 2027 Cohort (Lisboa)",
+    "description": "The complete Global TRE™ Provider Certification in Lisboa, Portugal: Module 1 (28-30 May 2027, plus 4 online personal sessions), Module 2 (1-4 June 2027, plus 4 online individual supervisions) and Module 3 (22-24 October 2027, plus 4 online individual supervisions). 21 ICF CCEs for Module 1: the ICF-accredited Module 1 includes an additional 4 hours, Self-Care &amp; Presence for Coaches (30 May, 14:00-18:00), mandatory to attend for the 21 ICF CCEs. Module 2: ICF accreditation pending. Led by Isabelle Claus Teixeira, Global TRE™ Certifying Trainer, with an assisting provider. Limited to 25 participants, in English. Early bird 2,949 EUR paid in full until 31 March 2027 (2,999 EUR in three instalments); regular 3,499 EUR (3,549 EUR in three instalments). Credit card or bank transfer, in full or in instalments; card charges are added on top of card payments.",
+    "startDate": "2027-05-28T10:00:00+01:00",
+    "endDate": "2027-10-24T18:00:00+01:00",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+    "maximumAttendeeCapacity": 25,
+    "inLanguage": "en",
+    "image": "https://www.hummingbeing.com/images/event-lisbon-certification.webp",
+    "url": "https://www.hummingbeing.com/event-tre-certification-lisbon",
+    "location": {
+      "@type": "Place",
+      "name": "Lisbon (Lisboa), Portugal",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "PT",
+        "addressLocality": "Lisboa"
+      }
+    },
+    "organizer": {
+      "@type": "Person",
+      "name": "Isabelle Claus Teixeira",
+      "url": "https://www.hummingbeing.com/isabelle"
+    },
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Early bird, paid in full (until 31 March 2027)",
+        "price": "2949",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validThrough": "2027-03-31T23:59:00+01:00",
+        "url": "https://www.hummingbeing.com/event-tre-certification-lisbon"
+      },
+      {
+        "@type": "Offer",
+        "name": "Early bird, three instalments (739 + 1,400 + 860 EUR)",
+        "price": "2999",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validThrough": "2027-03-31T23:59:00+01:00",
+        "url": "https://www.hummingbeing.com/event-tre-certification-lisbon"
+      },
+      {
+        "@type": "Offer",
+        "name": "Regular price, paid in full",
+        "price": "3499",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.hummingbeing.com/event-tre-certification-lisbon"
+      },
+      {
+        "@type": "Offer",
+        "name": "Regular price, three instalments (799 + 1,700 + 1,050 EUR)",
+        "price": "3549",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.hummingbeing.com/event-tre-certification-lisbon"
+      }
+    ],
+    "performer": [
+      {
+        "@type": "Person",
+        "name": "Isabelle Claus Teixeira",
+        "url": "https://www.hummingbeing.com/isabelle",
+        "jobTitle": "Global TRE™ Certifying Trainer"
+      },
+      {
+        "@type": "Person",
+        "name": "Saymara Ryon",
+        "url": "https://www.atelierdesuflet.ro/"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationEvent",
+    "name": "TRE™ Module 1 ONLINE — with TRE Scotland",
+    "description": "ICF-accredited TRE™ Module 1 online with TRE Scotland, led by Isabelle Claus Teixeira with Vicki Cook. 21 ICF CCEUs (16 Resource Development + 5 Core Competencies), UK time, small group limited to 15 participants. TRE™ personal sessions are not included (£85 each as an add-on).",
+    "startDate": "2027-06-18T14:00:00+01:00",
+    "endDate": "2027-06-20T18:00:00+01:00",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+    "inLanguage": "en",
+    "location": {
+      "@type": "VirtualLocation",
+      "url": "https://www.hummingbeing.com/event-tre-module1-online-scotland"
+    },
+    "organizer": {
+      "@type": "Person",
+      "name": "Isabelle Claus Teixeira",
+      "url": "https://www.hummingbeing.com/isabelle"
+    },
+    "image": "https://www.hummingbeing.com/images/event-scotland-online-module1.webp?v=2",
+    "url": "https://www.hummingbeing.com/event-tre-module1-online-scotland",
+    "performer": [
+      {
+        "@type": "Person",
+        "name": "Isabelle Claus Teixeira",
+        "url": "https://www.hummingbeing.com/isabelle"
+      },
+      {
+        "@type": "Person",
+        "name": "Vicki Cook"
+      }
+    ],
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Early Bird (until 31 May 2027)",
+        "price": "488",
+        "priceCurrency": "GBP",
+        "availability": "https://schema.org/InStock",
+        "validThrough": "2027-05-31T23:59:59+01:00",
+        "url": "https://www.hummingbeing.com/event-tre-module1-online-scotland"
+      },
+      {
+        "@type": "Offer",
+        "name": "Normal price",
+        "price": "589",
+        "priceCurrency": "GBP",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.hummingbeing.com/event-tre-module1-online-scotland"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "organizer": {
+      "@type": "Person",
+      "name": "Isabelle Claus Teixeira",
+      "url": "https://www.hummingbeing.com/isabelle"
+    },
+    "name": "TRE™ Module 1 — Bucharest, Romania",
+    "description": "An immersive 3-day TRE™ Module 1 certification training — the first in Europe in English. 21 ICF CCEUs.",
+    "startDate": "2026-10-15",
+    "endDate": "2026-10-17",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "location": {
+      "@type": "Place",
+      "name": "Bucharest",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "RO",
+        "addressLocality": "Bucharest"
+      }
+    },
+    "image": "https://www.hummingbeing.com/images/event-bucharest-module1.webp",
+    "url": "https://www.hummingbeing.com/event-tre-module1-bucharest",
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Super Early Bird (first 5)",
         "price": "739",
         "priceCurrency": "EUR",
         "availability": "https://schema.org/SoldOut",
         "url": "https://www.hummingbeing.com/event-tre-module1-bucharest"
-      }
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "organizer": {
-        "@type": "Person",
-        "name": "Isabelle Claus Teixeira",
-        "url": "https://www.hummingbeing.com/isabelle"
       },
-      "name": "From Shaking to Shaping — Bucharest",
-      "description": "Integrate TRE™ into your coaching practice — neurogenic tremoring as a somatic tool for nervous system regulation and embodied presence.",
-      "startDate": "2026-10-20",
-      "endDate": "2026-10-24",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "location": {
-        "@type": "Place",
-        "name": "Bucharest",
-        "address": {
-          "@type": "PostalAddress",
-          "addressCountry": "RO",
-          "addressLocality": "Bucharest"
-        }
-      },
-      "image": "https://www.hummingbeing.com/images/event-shaking-to-shaping.webp",
-      "url": "https://www.hummingbeing.com/event-shaking-to-shaping",
-      "offers": {
+      {
         "@type": "Offer",
+        "name": "Early Bird (next 5)",
+        "price": "769",
+        "priceCurrency": "EUR",
         "availability": "https://schema.org/SoldOut",
-        "url": "https://www.hummingbeing.com/event-shaking-to-shaping"
+        "url": "https://www.hummingbeing.com/event-tre-module1-bucharest"
+      },
+      {
+        "@type": "Offer",
+        "name": "Full Price (final 10)",
+        "price": "799",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/SoldOut",
+        "url": "https://www.hummingbeing.com/event-tre-module1-bucharest"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "organizer": {
+      "@type": "Person",
+      "name": "Isabelle Claus Teixeira",
+      "url": "https://www.hummingbeing.com/isabelle"
+    },
+    "name": "From Shaking to Shaping — Bucharest",
+    "description": "Integrate TRE™ into your coaching practice — neurogenic tremoring as a somatic tool for nervous system regulation and embodied presence.",
+    "startDate": "2026-10-20",
+    "endDate": "2026-10-24",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+    "location": {
+      "@type": "Place",
+      "name": "Bucharest",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "RO",
+        "addressLocality": "Bucharest"
       }
     },
-    {
-      "@context": "https://schema.org",
-      "@type": "EducationEvent",
-      "organizer": {
+    "image": "https://www.hummingbeing.com/images/event-shaking-to-shaping.webp",
+    "url": "https://www.hummingbeing.com/event-shaking-to-shaping",
+    "offers": {
+      "@type": "Offer",
+      "price": "89",
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/SoldOut",
+      "url": "https://www.hummingbeing.com/event-shaking-to-shaping"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationEvent",
+    "organizer": {
+      "@type": "Person",
+      "name": "Isabelle Claus Teixeira",
+      "url": "https://www.hummingbeing.com/isabelle"
+    },
+    "name": "Global TRE™ Provider Certification — Singapore 2027 Cohort",
+    "description": "The 2027 Singapore cohort of the Global TRE™ Provider Certification, co-taught by Isabelle Claus Teixeira and Simba Stenqvist. Module 1: 24–25 Apr, Module 2: 3–4 Jul, Module 3: 30–31 Oct 2027, plus online supervisions. Packages: Growth (S$5,888 early bird, S$6,888 regular), Foundational (S$4,888 / S$5,888) and Refresher options from S$2,200 early bird. Early bird until 31 March 2027.",
+    "startDate": "2027-04-24",
+    "endDate": "2027-10-31",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+    "location": {
+      "@type": "Place",
+      "name": "Singapore",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "SG",
+        "addressLocality": "Singapore"
+      }
+    },
+    "image": "https://www.hummingbeing.com/images/event-certification-2027.webp?v=20261107b",
+    "url": "https://www.hummingbeing.com/event-certification-2027",
+    "performer": [
+      {
         "@type": "Person",
         "name": "Isabelle Claus Teixeira",
         "url": "https://www.hummingbeing.com/isabelle"
       },
-      "name": "Global TRE™ Provider Certification — Singapore 2027 Cohort",
-      "description": "The 2027 Singapore cohort of the Global TRE™ Provider Certification, co-taught by Isabelle Claus Teixeira and Simba Stenqvist. Module 1: 24–25 Apr, Module 2: 3–4 Jul, Module 3: 30–31 Oct 2027, plus online supervisions. Packages: Growth (S$5,888 early bird, S$6,888 regular), Foundational (S$4,888 / S$5,888) and Refresher options from S$2,200 early bird. Early bird until 31 March 2027.",
-      "startDate": "2027-04-24",
-      "endDate": "2027-10-31",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
-      "location": {
-        "@type": "Place",
-        "name": "Singapore",
-        "address": {
-          "@type": "PostalAddress",
-          "addressCountry": "SG",
-          "addressLocality": "Singapore"
-        }
-      },
-      "image": "https://www.hummingbeing.com/images/event-certification-2027.webp?v=20261107b",
-      "url": "https://www.hummingbeing.com/event-certification-2027",
-      "performer": [
-        { "@type": "Person", "name": "Isabelle Claus Teixeira", "url": "https://www.hummingbeing.com/isabelle" },
-        { "@type": "Person", "name": "Simba Stenqvist" }
-      ],
-      "offers": [
-        {
-          "@type": "Offer",
-          "name": "Growth Package (new students) — Early Bird (until 31 Mar 2027)",
-          "price": "5888",
-          "priceCurrency": "SGD",
-          "availability": "https://schema.org/InStock",
-          "url": "https://www.hummingbeing.com/event-certification-2027-growth"
-        },
-        {
-          "@type": "Offer",
-          "name": "Growth Package (new students) — Regular",
-          "price": "6888",
-          "priceCurrency": "SGD",
-          "availability": "https://schema.org/InStock",
-          "url": "https://www.hummingbeing.com/event-certification-2027-growth"
-        },
-        {
-          "@type": "Offer",
-          "name": "Foundational Package (new students) — Early Bird (until 31 Mar 2027)",
-          "price": "4888",
-          "priceCurrency": "SGD",
-          "availability": "https://schema.org/InStock",
-          "url": "https://www.hummingbeing.com/event-certification-2027-foundational"
-        },
-        {
-          "@type": "Offer",
-          "name": "Foundational Package (new students) — Regular",
-          "price": "5888",
-          "priceCurrency": "SGD",
-          "availability": "https://schema.org/InStock",
-          "url": "https://www.hummingbeing.com/event-certification-2027-foundational"
-        },
-        {
-          "@type": "Offer",
-          "name": "Refresher Package, Option 1 (accredited TRE™ Providers and trainees) — Early Bird (until 31 Mar 2027)",
-          "price": "2200",
-          "priceCurrency": "SGD",
-          "availability": "https://schema.org/InStock",
-          "url": "https://www.hummingbeing.com/event-certification-2027-refresher"
-        },
-        {
-          "@type": "Offer",
-          "name": "Refresher Package, Option 1 (accredited TRE™ Providers and trainees) — Regular",
-          "price": "2900",
-          "priceCurrency": "SGD",
-          "availability": "https://schema.org/InStock",
-          "url": "https://www.hummingbeing.com/event-certification-2027-refresher"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "EducationEvent",
-      "name": "TRE™ Certification Singapore 2027 — Growth Package",
-      "description": "Growth Package (new students): Modules 1-3, all online personal sessions and supervisions, ICF credits and three bonus programmes. S$5,888 early bird until 31 Mar 2027, then S$6,888. Modules: 24–25 Apr, 3–4 Jul and 30–31 Oct 2027, Singapore.",
-      "startDate": "2027-04-24",
-      "endDate": "2027-10-31",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "location": {
-        "@type": "Place",
-        "name": "Singapore",
-        "address": { "@type": "PostalAddress", "addressCountry": "SG", "addressLocality": "Singapore" }
-      },
-      "organizer": { "@type": "Person", "name": "Isabelle Claus Teixeira", "url": "https://www.hummingbeing.com/isabelle" },
-      "image": "https://www.hummingbeing.com/images/event-certification-2027-growth.webp?v=20261107b",
-      "url": "https://www.hummingbeing.com/event-certification-2027-growth",
-      "performer": [
-        { "@type": "Person", "name": "Isabelle Claus Teixeira", "url": "https://www.hummingbeing.com/isabelle" },
-        { "@type": "Person", "name": "Simba Stenqvist" }
-      ],
-      "offers": [
-        {
-          "@type": "Offer",
-          "name": "Growth Package — Early Bird (until 31 Mar 2027)",
-          "price": "5888",
-          "priceCurrency": "SGD",
-          "availability": "https://schema.org/InStock",
-          "url": "https://www.hummingbeing.com/event-certification-2027-growth"
-        },
-        {
-          "@type": "Offer",
-          "name": "Growth Package — Regular",
-          "price": "6888",
-          "priceCurrency": "SGD",
-          "availability": "https://schema.org/InStock",
-          "url": "https://www.hummingbeing.com/event-certification-2027-growth"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "EducationEvent",
-      "name": "TRE™ Certification Singapore 2027 — Foundational Package",
-      "description": "Foundational Package (new students): the complete certification pathway, without ICF credits and without the bonus programmes. S$4,888 early bird until 31 Mar 2027, then S$5,888. Modules: 24–25 Apr, 3–4 Jul and 30–31 Oct 2027, Singapore.",
-      "startDate": "2027-04-24",
-      "endDate": "2027-10-31",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "location": {
-        "@type": "Place",
-        "name": "Singapore",
-        "address": { "@type": "PostalAddress", "addressCountry": "SG", "addressLocality": "Singapore" }
-      },
-      "organizer": { "@type": "Person", "name": "Isabelle Claus Teixeira", "url": "https://www.hummingbeing.com/isabelle" },
-      "image": "https://www.hummingbeing.com/images/event-certification-2027-foundational.webp?v=20261107b",
-      "url": "https://www.hummingbeing.com/event-certification-2027-foundational",
-      "performer": [
-        { "@type": "Person", "name": "Isabelle Claus Teixeira", "url": "https://www.hummingbeing.com/isabelle" },
-        { "@type": "Person", "name": "Simba Stenqvist" }
-      ],
-      "offers": [
-        {
-          "@type": "Offer",
-          "name": "Foundational Package — Early Bird (until 31 Mar 2027)",
-          "price": "4888",
-          "priceCurrency": "SGD",
-          "availability": "https://schema.org/InStock",
-          "url": "https://www.hummingbeing.com/event-certification-2027-foundational"
-        },
-        {
-          "@type": "Offer",
-          "name": "Foundational Package — Regular",
-          "price": "5888",
-          "priceCurrency": "SGD",
-          "availability": "https://schema.org/InStock",
-          "url": "https://www.hummingbeing.com/event-certification-2027-foundational"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "EducationEvent",
-      "name": "TRE™ Certification Singapore 2027 — Refresher Packages",
-      "description": "Refresher Packages (four options) for accredited TRE™ Providers and trainees. From S$2,200 early bird until 31 Mar 2027, then from S$2,900. Modules: 24–25 Apr, 3–4 Jul and 30–31 Oct 2027, Singapore.",
-      "startDate": "2027-04-24",
-      "endDate": "2027-10-31",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "location": {
-        "@type": "Place",
-        "name": "Singapore",
-        "address": { "@type": "PostalAddress", "addressCountry": "SG", "addressLocality": "Singapore" }
-      },
-      "organizer": { "@type": "Person", "name": "Isabelle Claus Teixeira", "url": "https://www.hummingbeing.com/isabelle" },
-      "image": "https://www.hummingbeing.com/images/event-certification-2027-refresher.webp?v=20261107b",
-      "url": "https://www.hummingbeing.com/event-certification-2027-refresher",
-      "performer": [
-        { "@type": "Person", "name": "Isabelle Claus Teixeira", "url": "https://www.hummingbeing.com/isabelle" },
-        { "@type": "Person", "name": "Simba Stenqvist" }
-      ],
-      "offers": [
-        {
-          "@type": "Offer",
-          "name": "Refresher Packages — Option 1 Early Bird (until 31 Mar 2027)",
-          "price": "2200",
-          "priceCurrency": "SGD",
-          "availability": "https://schema.org/InStock",
-          "url": "https://www.hummingbeing.com/event-certification-2027-refresher"
-        },
-        {
-          "@type": "Offer",
-          "name": "Refresher Packages — Option 1 Regular",
-          "price": "2900",
-          "priceCurrency": "SGD",
-          "availability": "https://schema.org/InStock",
-          "url": "https://www.hummingbeing.com/event-certification-2027-refresher"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "name": "Nervous System Regulation &amp; Self-Induced Neurogenic Tremoring — For Coaches (TRE™ Module 1)",
-      "image": "https://www.hummingbeing.com/images/event-nervous-system.webp",
-      "description": "For coaches in training and ACC, PCC and MCC level coaches who want to develop embodied self-care practices, prevent burnout and compassion fatigue, and deepen their somatic presence with clients. ICF accredited — 21 CCEUs. Valid as Module 1 of the Global TRE™ Provider Certification Program.",
-      "startDate": "2026-08-29",
-      "endDate": "2026-08-30",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "location": {
-        "@type": "Place",
-        "name": "Singapore",
-        "address": {
-          "@type": "PostalAddress",
-          "addressCountry": "SG",
-          "addressLocality": "Singapore"
-        }
-      },
-      "organizer": {
+      {
         "@type": "Person",
-        "name": "Isabelle Claus Teixeira",
-        "url": "https://www.hummingbeing.com/isabelle"
-      },
-      "offers": {
+        "name": "Simba Stenqvist"
+      }
+    ],
+    "offers": [
+      {
         "@type": "Offer",
+        "name": "Growth Package (new students) - Early Bird (until 31 Mar 2027)",
+        "price": "5888",
+        "priceCurrency": "SGD",
+        "availability": "https://schema.org/PreOrder",
+        "url": "https://www.hummingbeing.com/event-certification-2027-growth",
+        "validThrough": "2027-03-31T23:59:00+08:00"
+      },
+      {
+        "@type": "Offer",
+        "name": "Growth Package (new students) - Regular",
+        "price": "6888",
+        "priceCurrency": "SGD",
+        "availability": "https://schema.org/PreOrder",
+        "url": "https://www.hummingbeing.com/event-certification-2027-growth",
+        "validFrom": "2027-04-01T00:00:00+08:00"
+      },
+      {
+        "@type": "Offer",
+        "name": "Foundational Package (new students) - Early Bird (until 31 Mar 2027)",
+        "price": "4888",
+        "priceCurrency": "SGD",
+        "availability": "https://schema.org/PreOrder",
+        "url": "https://www.hummingbeing.com/event-certification-2027-foundational",
+        "validThrough": "2027-03-31T23:59:00+08:00"
+      },
+      {
+        "@type": "Offer",
+        "name": "Foundational Package (new students) - Regular",
+        "price": "5888",
+        "priceCurrency": "SGD",
+        "availability": "https://schema.org/PreOrder",
+        "url": "https://www.hummingbeing.com/event-certification-2027-foundational",
+        "validFrom": "2027-04-01T00:00:00+08:00"
+      },
+      {
+        "@type": "Offer",
+        "name": "Refresher Package, Option 1 (accredited TRE™ Providers and trainees) - Early Bird (until 31 Mar 2027)",
+        "price": "2200",
+        "priceCurrency": "SGD",
+        "availability": "https://schema.org/PreOrder",
+        "url": "https://www.hummingbeing.com/event-certification-2027-refresher",
+        "validThrough": "2027-03-31T23:59:00+08:00"
+      },
+      {
+        "@type": "Offer",
+        "name": "Refresher Package, Option 1 (accredited TRE™ Providers and trainees) - Regular",
+        "price": "2900",
+        "priceCurrency": "SGD",
+        "availability": "https://schema.org/PreOrder",
+        "url": "https://www.hummingbeing.com/event-certification-2027-refresher",
+        "validFrom": "2027-04-01T00:00:00+08:00"
+      },
+      {
+        "@type": "Offer",
+        "name": "Refresher Package, Option 2 - Supervised Refresher (accredited TRE™ Providers and trainees) - Early Bird (until 31 Mar 2027)",
+        "price": "2990",
+        "priceCurrency": "SGD",
+        "availability": "https://schema.org/PreOrder",
+        "url": "https://www.hummingbeing.com/event-certification-2027-refresher",
+        "validThrough": "2027-03-31T23:59:00+08:00"
+      },
+      {
+        "@type": "Offer",
+        "name": "Refresher Package, Option 2 - Supervised Refresher (accredited TRE™ Providers and trainees) - Regular",
+        "price": "3600",
+        "priceCurrency": "SGD",
+        "availability": "https://schema.org/PreOrder",
+        "url": "https://www.hummingbeing.com/event-certification-2027-refresher",
+        "validFrom": "2027-04-01T00:00:00+08:00"
+      },
+      {
+        "@type": "Offer",
+        "name": "Refresher Package, Option 3 - Boosted Refresher (accredited TRE™ Providers and trainees) - Early Bird (until 31 Mar 2027)",
+        "price": "3200",
+        "priceCurrency": "SGD",
+        "availability": "https://schema.org/PreOrder",
+        "url": "https://www.hummingbeing.com/event-certification-2027-refresher",
+        "validThrough": "2027-03-31T23:59:00+08:00"
+      },
+      {
+        "@type": "Offer",
+        "name": "Refresher Package, Option 3 - Boosted Refresher (accredited TRE™ Providers and trainees) - Regular",
+        "price": "3900",
+        "priceCurrency": "SGD",
+        "availability": "https://schema.org/PreOrder",
+        "url": "https://www.hummingbeing.com/event-certification-2027-refresher",
+        "validFrom": "2027-04-01T00:00:00+08:00"
+      },
+      {
+        "@type": "Offer",
+        "name": "Refresher Package, Option 4 - Boosted Supervised Refresher (accredited TRE™ Providers and trainees) - Early Bird (until 31 Mar 2027)",
+        "price": "3990",
+        "priceCurrency": "SGD",
+        "availability": "https://schema.org/PreOrder",
+        "url": "https://www.hummingbeing.com/event-certification-2027-refresher",
+        "validThrough": "2027-03-31T23:59:00+08:00"
+      },
+      {
+        "@type": "Offer",
+        "name": "Refresher Package, Option 4 - Boosted Supervised Refresher (accredited TRE™ Providers and trainees) - Regular",
+        "price": "4600",
+        "priceCurrency": "SGD",
+        "availability": "https://schema.org/PreOrder",
+        "url": "https://www.hummingbeing.com/event-certification-2027-refresher",
+        "validFrom": "2027-04-01T00:00:00+08:00"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationEvent",
+    "name": "TRE™ Certification Singapore 2027 — Growth Package",
+    "description": "Growth Package (new students): Modules 1-3, all online personal sessions and supervisions, ICF credits and three bonus programmes. S$5,888 early bird until 31 Mar 2027, then S$6,888. Modules: 24–25 Apr, 3–4 Jul and 30–31 Oct 2027, Singapore.",
+    "startDate": "2027-04-24",
+    "endDate": "2027-10-31",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+    "location": {
+      "@type": "Place",
+      "name": "Singapore",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "SG",
+        "addressLocality": "Singapore"
+      }
+    },
+    "organizer": {
+      "@type": "Person",
+      "name": "Isabelle Claus Teixeira",
+      "url": "https://www.hummingbeing.com/isabelle"
+    },
+    "image": "https://www.hummingbeing.com/images/event-certification-2027-growth.webp?v=20261107b",
+    "url": "https://www.hummingbeing.com/event-certification-2027-growth",
+    "performer": [
+      {
+        "@type": "Person",
+        "name": "Isabelle Claus Teixeira",
+        "url": "https://www.hummingbeing.com/isabelle"
+      },
+      {
+        "@type": "Person",
+        "name": "Simba Stenqvist"
+      }
+    ],
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Growth Package (new students) - Early Bird (until 31 Mar 2027)",
+        "price": "5888",
+        "priceCurrency": "SGD",
+        "availability": "https://schema.org/PreOrder",
+        "url": "https://www.hummingbeing.com/event-certification-2027-growth",
+        "validThrough": "2027-03-31T23:59:00+08:00"
+      },
+      {
+        "@type": "Offer",
+        "name": "Growth Package (new students) - Regular",
+        "price": "6888",
+        "priceCurrency": "SGD",
+        "availability": "https://schema.org/PreOrder",
+        "url": "https://www.hummingbeing.com/event-certification-2027-growth",
+        "validFrom": "2027-04-01T00:00:00+08:00"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationEvent",
+    "name": "TRE™ Certification Singapore 2027 — Foundational Package",
+    "description": "Foundational Package (new students): the complete certification pathway, without ICF credits and without the bonus programmes. S$4,888 early bird until 31 Mar 2027, then S$5,888. Modules: 24–25 Apr, 3–4 Jul and 30–31 Oct 2027, Singapore.",
+    "startDate": "2027-04-24",
+    "endDate": "2027-10-31",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+    "location": {
+      "@type": "Place",
+      "name": "Singapore",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "SG",
+        "addressLocality": "Singapore"
+      }
+    },
+    "organizer": {
+      "@type": "Person",
+      "name": "Isabelle Claus Teixeira",
+      "url": "https://www.hummingbeing.com/isabelle"
+    },
+    "image": "https://www.hummingbeing.com/images/event-certification-2027-foundational.webp?v=20261107b",
+    "url": "https://www.hummingbeing.com/event-certification-2027-foundational",
+    "performer": [
+      {
+        "@type": "Person",
+        "name": "Isabelle Claus Teixeira",
+        "url": "https://www.hummingbeing.com/isabelle"
+      },
+      {
+        "@type": "Person",
+        "name": "Simba Stenqvist"
+      }
+    ],
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Foundational Package (new students) - Early Bird (until 31 Mar 2027)",
+        "price": "4888",
+        "priceCurrency": "SGD",
+        "availability": "https://schema.org/PreOrder",
+        "url": "https://www.hummingbeing.com/event-certification-2027-foundational",
+        "validThrough": "2027-03-31T23:59:00+08:00"
+      },
+      {
+        "@type": "Offer",
+        "name": "Foundational Package (new students) - Regular",
+        "price": "5888",
+        "priceCurrency": "SGD",
+        "availability": "https://schema.org/PreOrder",
+        "url": "https://www.hummingbeing.com/event-certification-2027-foundational",
+        "validFrom": "2027-04-01T00:00:00+08:00"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationEvent",
+    "name": "TRE™ Certification Singapore 2027 — Refresher Packages",
+    "description": "Refresher Packages (four options) for accredited TRE™ Providers and trainees. From S$2,200 early bird until 31 Mar 2027, then from S$2,900. Modules: 24–25 Apr, 3–4 Jul and 30–31 Oct 2027, Singapore.",
+    "startDate": "2027-04-24",
+    "endDate": "2027-10-31",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+    "location": {
+      "@type": "Place",
+      "name": "Singapore",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "SG",
+        "addressLocality": "Singapore"
+      }
+    },
+    "organizer": {
+      "@type": "Person",
+      "name": "Isabelle Claus Teixeira",
+      "url": "https://www.hummingbeing.com/isabelle"
+    },
+    "image": "https://www.hummingbeing.com/images/event-certification-2027-refresher.webp?v=20261107b",
+    "url": "https://www.hummingbeing.com/event-certification-2027-refresher",
+    "performer": [
+      {
+        "@type": "Person",
+        "name": "Isabelle Claus Teixeira",
+        "url": "https://www.hummingbeing.com/isabelle"
+      },
+      {
+        "@type": "Person",
+        "name": "Simba Stenqvist"
+      }
+    ],
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Refresher Option 1 - Refresher - Early Bird (until 31 Mar 2027)",
+        "price": "2200",
+        "priceCurrency": "SGD",
+        "availability": "https://schema.org/PreOrder",
+        "url": "https://www.hummingbeing.com/event-certification-2027-refresher",
+        "validThrough": "2027-03-31T23:59:00+08:00"
+      },
+      {
+        "@type": "Offer",
+        "name": "Refresher Option 1 - Refresher - Regular",
+        "price": "2900",
+        "priceCurrency": "SGD",
+        "availability": "https://schema.org/PreOrder",
+        "url": "https://www.hummingbeing.com/event-certification-2027-refresher",
+        "validFrom": "2027-04-01T00:00:00+08:00"
+      },
+      {
+        "@type": "Offer",
+        "name": "Refresher Option 2 - Supervised Refresher - Early Bird (until 31 Mar 2027)",
+        "price": "2990",
+        "priceCurrency": "SGD",
+        "availability": "https://schema.org/PreOrder",
+        "url": "https://www.hummingbeing.com/event-certification-2027-refresher",
+        "validThrough": "2027-03-31T23:59:00+08:00"
+      },
+      {
+        "@type": "Offer",
+        "name": "Refresher Option 2 - Supervised Refresher - Regular",
+        "price": "3600",
+        "priceCurrency": "SGD",
+        "availability": "https://schema.org/PreOrder",
+        "url": "https://www.hummingbeing.com/event-certification-2027-refresher",
+        "validFrom": "2027-04-01T00:00:00+08:00"
+      },
+      {
+        "@type": "Offer",
+        "name": "Refresher Option 3 - Boosted Refresher - Early Bird (until 31 Mar 2027)",
+        "price": "3200",
+        "priceCurrency": "SGD",
+        "availability": "https://schema.org/PreOrder",
+        "url": "https://www.hummingbeing.com/event-certification-2027-refresher",
+        "validThrough": "2027-03-31T23:59:00+08:00"
+      },
+      {
+        "@type": "Offer",
+        "name": "Refresher Option 3 - Boosted Refresher - Regular",
+        "price": "3900",
+        "priceCurrency": "SGD",
+        "availability": "https://schema.org/PreOrder",
+        "url": "https://www.hummingbeing.com/event-certification-2027-refresher",
+        "validFrom": "2027-04-01T00:00:00+08:00"
+      },
+      {
+        "@type": "Offer",
+        "name": "Refresher Option 4 - Boosted Supervised Refresher - Early Bird (until 31 Mar 2027)",
+        "price": "3990",
+        "priceCurrency": "SGD",
+        "availability": "https://schema.org/PreOrder",
+        "url": "https://www.hummingbeing.com/event-certification-2027-refresher",
+        "validThrough": "2027-03-31T23:59:00+08:00"
+      },
+      {
+        "@type": "Offer",
+        "name": "Refresher Option 4 - Boosted Supervised Refresher - Regular",
+        "price": "4600",
+        "priceCurrency": "SGD",
+        "availability": "https://schema.org/PreOrder",
+        "url": "https://www.hummingbeing.com/event-certification-2027-refresher",
+        "validFrom": "2027-04-01T00:00:00+08:00"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "Nervous System Regulation &amp; Self-Induced Neurogenic Tremoring — For Coaches (TRE™ Module 1)",
+    "image": "https://www.hummingbeing.com/images/event-nervous-system.webp",
+    "description": "For coaches in training and ACC, PCC and MCC level coaches who want to develop embodied self-care practices, prevent burnout and compassion fatigue, and deepen their somatic presence with clients. ICF accredited — 21 CCEUs. Valid as Module 1 of the Global TRE™ Provider Certification Program.",
+    "startDate": "2026-08-29",
+    "endDate": "2026-08-30",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "location": {
+      "@type": "Place",
+      "name": "Singapore",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "SG",
+        "addressLocality": "Singapore"
+      }
+    },
+    "organizer": {
+      "@type": "Person",
+      "name": "Isabelle Claus Teixeira",
+      "url": "https://www.hummingbeing.com/isabelle"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "1290",
+      "priceCurrency": "SGD",
+      "priceValidUntil": "2026-08-15",
+      "url": "https://calendly.com/bhdasia/tre-certification-intake-call",
+      "availability": "https://schema.org/SoldOut"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "TRE™ Provider Certification — Module 1: Personal Practice",
+    "image": "https://www.hummingbeing.com/images/event-transform-practice.webp",
+    "description": "Module 1 of the Global TRE™ Provider Certification Program. TRE™ is a body-led series of simple, powerful exercises to release stress, tension and trauma and build resilience. Includes 4 online TRE™ personal sessions. Can be purchased alone or as part of the full certification.",
+    "startDate": "2026-08-29",
+    "endDate": "2026-08-30",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "location": {
+      "@type": "Place",
+      "name": "Singapore",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "SG",
+        "addressLocality": "Singapore"
+      }
+    },
+    "organizer": {
+      "@type": "Person",
+      "name": "Isabelle Claus Teixeira",
+      "url": "https://www.hummingbeing.com/isabelle"
+    },
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Module 1 Only (2026 intake — closed)",
         "price": "1290",
         "priceCurrency": "SGD",
         "priceValidUntil": "2026-08-15",
         "url": "https://calendly.com/bhdasia/tre-certification-intake-call",
         "availability": "https://schema.org/SoldOut"
-      }
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "name": "TRE™ Provider Certification — Module 1: Personal Practice",
-      "image": "https://www.hummingbeing.com/images/event-transform-practice.webp",
-      "description": "Module 1 of the Global TRE™ Provider Certification Program. TRE™ is a body-led series of simple, powerful exercises to release stress, tension and trauma and build resilience. Includes 4 online TRE™ personal sessions. Can be purchased alone or as part of the full certification.",
-      "startDate": "2026-08-29",
-      "endDate": "2026-08-30",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "location": {
-        "@type": "Place",
-        "name": "Singapore",
-        "address": {
-          "@type": "PostalAddress",
-          "addressCountry": "SG",
-          "addressLocality": "Singapore"
-        }
       },
-      "organizer": {
-        "@type": "Person",
-        "name": "Isabelle Claus Teixeira",
-        "url": "https://www.hummingbeing.com/isabelle"
-      },
-      "offers": [
-        {
-          "@type": "Offer",
-          "name": "Module 1 Only (2026 intake — closed)",
-          "price": "1290",
-          "priceCurrency": "SGD",
-          "priceValidUntil": "2026-08-15",
-          "url": "https://calendly.com/bhdasia/tre-certification-intake-call",
-          "availability": "https://schema.org/SoldOut"
-        },
-        {
-          "@type": "Offer",
-          "name": "Full Certification Package (2026 intake — closed)",
-          "price": "3699",
-          "priceCurrency": "SGD",
-          "priceValidUntil": "2026-08-15",
-          "url": "https://calendly.com/bhdasia/tre-certification-intake-call",
-          "availability": "https://schema.org/SoldOut"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "name": "TRE™ Provider Certification — Module 2: Teaching to 1 Person",
-      "image": "https://www.hummingbeing.com/images/event-transform-practice.webp",
-      "description": "Module 2 of the Global TRE™ Provider Certification Program. Open after completing Module 1. Includes 2-day workshop and 4 supervisions. The 2026 intake is closed and sold out; the next cohort runs in 2027.",
-      "startDate": "2026-09-26",
-      "endDate": "2026-09-27",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "location": {
-        "@type": "Place",
-        "name": "Singapore",
-        "address": {
-          "@type": "PostalAddress",
-          "addressCountry": "SG",
-          "addressLocality": "Singapore"
-        }
-      },
-      "organizer": {
-        "@type": "Person",
-        "name": "Isabelle Claus Teixeira",
-        "url": "https://www.hummingbeing.com/isabelle"
-      },
-      "offers": {
+      {
         "@type": "Offer",
+        "name": "Full Certification Package (2026 intake — closed)",
+        "price": "3699",
+        "priceCurrency": "SGD",
+        "priceValidUntil": "2026-08-15",
         "url": "https://calendly.com/bhdasia/tre-certification-intake-call",
         "availability": "https://schema.org/SoldOut"
       }
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "name": "TRE™ Provider Certification — Module 3: Teaching to Groups",
-      "image": "https://www.hummingbeing.com/images/event-transform-practice.webp",
-      "description": "Module 3 of the Global TRE™ Provider Certification Program. Open after completing Module 2. Includes 2-day workshop and 4 supervisions. The 2026 intake is closed and sold out; the next cohort runs in 2027.",
-      "startDate": "2027-02-20",
-      "endDate": "2027-02-21",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "location": {
-        "@type": "Place",
-        "name": "Singapore",
-        "address": {
-          "@type": "PostalAddress",
-          "addressCountry": "SG",
-          "addressLocality": "Singapore"
-        }
-      },
-      "organizer": {
-        "@type": "Person",
-        "name": "Isabelle Claus Teixeira",
-        "url": "https://www.hummingbeing.com/isabelle"
-      },
-      "offers": {
-        "@type": "Offer",
-        "url": "https://calendly.com/bhdasia/tre-certification-intake-call",
-        "availability": "https://schema.org/SoldOut"
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "TRE™ Provider Certification — Module 2: Teaching to 1 Person",
+    "image": "https://www.hummingbeing.com/images/event-transform-practice.webp",
+    "description": "Module 2 of the Global TRE™ Provider Certification Program. Open after completing Module 1. Includes 2-day workshop and 4 supervisions. The 2026 intake is closed and sold out; the next cohort runs in 2027.",
+    "startDate": "2026-09-26",
+    "endDate": "2026-09-27",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "location": {
+      "@type": "Place",
+      "name": "Singapore",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "SG",
+        "addressLocality": "Singapore"
       }
     },
-    {
-      "@context": "https://schema.org",
-      "@type": "EducationEvent",
-      "name": "Introduction to TRE™ — in person in Singapore (23 Feb 2027)",
-      "description": "An Introduction to TRE™ for the general public: a 2-hour in-person workshop in Singapore, led by Global TRE™ Certifying Trainers Isabelle Claus Teixeira and Simba Stenqvist, in collaboration with TRE Thailand. Does not include TRE™ personal sessions. Venue details are shared with registered participants.",
-      "startDate": "2027-02-23T19:00:00+08:00",
-      "endDate": "2027-02-23T21:00:00+08:00",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "location": {
-        "@type": "Place",
-        "name": "Singapore (venue shared with registered participants)",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Singapore",
-          "addressCountry": "SG"
-        }
-      },
-      "isAccessibleForFree": false,
-      "offers": {
-        "@type": "Offer",
-        "name": "Public price",
-        "price": "88",
-        "priceCurrency": "SGD",
-        "url": "https://www.hummingbeing.com/event-intro-tre-singapore-2027#register",
-        "availability": "https://schema.org/InStock",
-        "validFrom": "2026-11-05T00:00:00+08:00"
-      },
-      "organizer": [
-        {
-          "@type": "Organization",
-          "name": "HummingBeing",
-          "url": "https://www.hummingbeing.com/"
-        }
-      ],
-      "performer": [
-        {
-          "@type": "Person",
-          "name": "Isabelle Claus Teixeira",
-          "jobTitle": "Global TRE™ Certifying Trainer"
-        },
-        {
-          "@type": "Person",
-          "name": "Simba Stenqvist",
-          "jobTitle": "Global TRE™ Certifying Trainer"
-        }
-      ],
-      "image": "https://www.hummingbeing.com/images/event-intro-tre-singapore-2027.webp?v=1",
-      "url": "https://www.hummingbeing.com/event-intro-tre-singapore-2027"
+    "organizer": {
+      "@type": "Person",
+      "name": "Isabelle Claus Teixeira",
+      "url": "https://www.hummingbeing.com/isabelle"
     },
-    {
-      "@context": "https://schema.org",
-      "@type": "EducationEvent",
-      "name": "Introduction to TRE™ — in person in Singapore (29 Jun 2027)",
-      "description": "An Introduction to TRE™ for the general public: a 2-hour in-person workshop in Singapore, led by Global TRE™ Certifying Trainers Isabelle Claus Teixeira and Simba Stenqvist, in collaboration with TRE Thailand. Does not include TRE™ personal sessions. Venue details are shared with registered participants.",
-      "startDate": "2027-06-29T19:00:00+08:00",
-      "endDate": "2027-06-29T21:00:00+08:00",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "location": {
-        "@type": "Place",
-        "name": "Singapore (venue shared with registered participants)",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Singapore",
-          "addressCountry": "SG"
-        }
-      },
-      "isAccessibleForFree": false,
-      "offers": {
-        "@type": "Offer",
-        "name": "Public price",
-        "price": "88",
-        "priceCurrency": "SGD",
-        "url": "https://www.hummingbeing.com/event-intro-tre-singapore-2027#register",
-        "availability": "https://schema.org/InStock",
-        "validFrom": "2026-11-05T00:00:00+08:00"
-      },
-      "organizer": [
-        {
-          "@type": "Organization",
-          "name": "HummingBeing",
-          "url": "https://www.hummingbeing.com/"
-        }
-      ],
-      "performer": [
-        {
-          "@type": "Person",
-          "name": "Isabelle Claus Teixeira",
-          "jobTitle": "Global TRE™ Certifying Trainer"
-        },
-        {
-          "@type": "Person",
-          "name": "Simba Stenqvist",
-          "jobTitle": "Global TRE™ Certifying Trainer"
-        }
-      ],
-      "image": "https://www.hummingbeing.com/images/event-intro-tre-singapore-2027.webp?v=1",
-      "url": "https://www.hummingbeing.com/event-intro-tre-singapore-2027"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "EducationEvent",
-      "name": "Introduction to TRE™ — in person in Singapore (3 Nov 2027)",
-      "description": "An Introduction to TRE™ for the general public: a 2-hour in-person workshop in Singapore, led by Global TRE™ Certifying Trainers Isabelle Claus Teixeira and Simba Stenqvist, in collaboration with TRE Thailand. Does not include TRE™ personal sessions. Venue details are shared with registered participants.",
-      "startDate": "2027-11-03T19:00:00+08:00",
-      "endDate": "2027-11-03T21:00:00+08:00",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "location": {
-        "@type": "Place",
-        "name": "Singapore (venue shared with registered participants)",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Singapore",
-          "addressCountry": "SG"
-        }
-      },
-      "isAccessibleForFree": false,
-      "offers": {
-        "@type": "Offer",
-        "name": "Public price",
-        "price": "88",
-        "priceCurrency": "SGD",
-        "url": "https://www.hummingbeing.com/event-intro-tre-singapore-2027#register",
-        "availability": "https://schema.org/InStock",
-        "validFrom": "2026-11-05T00:00:00+08:00"
-      },
-      "organizer": [
-        {
-          "@type": "Organization",
-          "name": "HummingBeing",
-          "url": "https://www.hummingbeing.com/"
-        }
-      ],
-      "performer": [
-        {
-          "@type": "Person",
-          "name": "Isabelle Claus Teixeira",
-          "jobTitle": "Global TRE™ Certifying Trainer"
-        },
-        {
-          "@type": "Person",
-          "name": "Simba Stenqvist",
-          "jobTitle": "Global TRE™ Certifying Trainer"
-        }
-      ],
-      "image": "https://www.hummingbeing.com/images/event-intro-tre-singapore-2027.webp?v=1",
-      "url": "https://www.hummingbeing.com/event-intro-tre-singapore-2027"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "EducationEvent",
-      "name": "Shaking to Shaping — TRE™ for Coaches, in person in Singapore (24 Feb 2027)",
-      "description": "An ICF-accredited Introduction to TRE™ for Coaches: a 3-hour in-person workshop in Singapore carrying 3 ICF CCEs (1.5 Resource Development + 1.5 Core Competencies), led by Global TRE™ Certifying Trainers Isabelle Claus Teixeira and Simba Stenqvist. Does not include TRE™ personal sessions. Venue details are shared with registered participants.",
-      "startDate": "2027-02-24T19:00:00+08:00",
-      "endDate": "2027-02-24T22:00:00+08:00",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "location": {
-        "@type": "Place",
-        "name": "Singapore (venue shared with registered participants)",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Singapore",
-          "addressCountry": "SG"
-        }
-      },
-      "isAccessibleForFree": false,
-      "audience": {
-        "@type": "Audience",
-        "audienceType": "Coaches, therapists, psychologists and healthcare professionals"
-      },
-      "offers": {
-        "@type": "Offer",
-        "name": "Public price",
-        "price": "149",
-        "priceCurrency": "SGD",
-        "url": "https://www.hummingbeing.com/event-shaking-to-shaping-singapore#register",
-        "availability": "https://schema.org/InStock",
-        "validFrom": "2026-11-05T00:00:00+08:00"
-      },
-      "organizer": [
-        {
-          "@type": "Organization",
-          "name": "HummingBeing",
-          "url": "https://www.hummingbeing.com/"
-        }
-      ],
-      "performer": [
-        {
-          "@type": "Person",
-          "name": "Isabelle Claus Teixeira",
-          "jobTitle": "Global TRE™ Certifying Trainer"
-        },
-        {
-          "@type": "Person",
-          "name": "Simba Stenqvist",
-          "jobTitle": "Global TRE™ Certifying Trainer"
-        }
-      ],
-      "image": "https://www.hummingbeing.com/images/event-shaking-to-shaping-singapore.webp?v=1",
-      "url": "https://www.hummingbeing.com/event-shaking-to-shaping-singapore"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "EducationEvent",
-      "name": "Shaking to Shaping — TRE™ for Coaches, in person in Singapore (30 Jun 2027)",
-      "description": "An ICF-accredited Introduction to TRE™ for Coaches: a 3-hour in-person workshop in Singapore carrying 3 ICF CCEs (1.5 Resource Development + 1.5 Core Competencies), led by Global TRE™ Certifying Trainers Isabelle Claus Teixeira and Simba Stenqvist. Does not include TRE™ personal sessions. Venue details are shared with registered participants.",
-      "startDate": "2027-06-30T19:00:00+08:00",
-      "endDate": "2027-06-30T22:00:00+08:00",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "location": {
-        "@type": "Place",
-        "name": "Singapore (venue shared with registered participants)",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Singapore",
-          "addressCountry": "SG"
-        }
-      },
-      "isAccessibleForFree": false,
-      "audience": {
-        "@type": "Audience",
-        "audienceType": "Coaches, therapists, psychologists and healthcare professionals"
-      },
-      "offers": {
-        "@type": "Offer",
-        "name": "Public price",
-        "price": "149",
-        "priceCurrency": "SGD",
-        "url": "https://www.hummingbeing.com/event-shaking-to-shaping-singapore#register",
-        "availability": "https://schema.org/InStock",
-        "validFrom": "2026-11-05T00:00:00+08:00"
-      },
-      "organizer": [
-        {
-          "@type": "Organization",
-          "name": "HummingBeing",
-          "url": "https://www.hummingbeing.com/"
-        }
-      ],
-      "performer": [
-        {
-          "@type": "Person",
-          "name": "Isabelle Claus Teixeira",
-          "jobTitle": "Global TRE™ Certifying Trainer"
-        },
-        {
-          "@type": "Person",
-          "name": "Simba Stenqvist",
-          "jobTitle": "Global TRE™ Certifying Trainer"
-        }
-      ],
-      "image": "https://www.hummingbeing.com/images/event-shaking-to-shaping-singapore.webp?v=1",
-      "url": "https://www.hummingbeing.com/event-shaking-to-shaping-singapore"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "EducationEvent",
-      "name": "Shaking to Shaping — TRE™ for Coaches, in person in Singapore (2 Nov 2027)",
-      "description": "An ICF-accredited Introduction to TRE™ for Coaches: a 3-hour in-person workshop in Singapore carrying 3 ICF CCEs (1.5 Resource Development + 1.5 Core Competencies), led by Global TRE™ Certifying Trainers Isabelle Claus Teixeira and Simba Stenqvist. Does not include TRE™ personal sessions. Venue details are shared with registered participants.",
-      "startDate": "2027-11-02T19:00:00+08:00",
-      "endDate": "2027-11-02T22:00:00+08:00",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "location": {
-        "@type": "Place",
-        "name": "Singapore (venue shared with registered participants)",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Singapore",
-          "addressCountry": "SG"
-        }
-      },
-      "isAccessibleForFree": false,
-      "audience": {
-        "@type": "Audience",
-        "audienceType": "Coaches, therapists, psychologists and healthcare professionals"
-      },
-      "offers": {
-        "@type": "Offer",
-        "name": "Public price",
-        "price": "149",
-        "priceCurrency": "SGD",
-        "url": "https://www.hummingbeing.com/event-shaking-to-shaping-singapore#register",
-        "availability": "https://schema.org/InStock",
-        "validFrom": "2026-11-05T00:00:00+08:00"
-      },
-      "organizer": [
-        {
-          "@type": "Organization",
-          "name": "HummingBeing",
-          "url": "https://www.hummingbeing.com/"
-        }
-      ],
-      "performer": [
-        {
-          "@type": "Person",
-          "name": "Isabelle Claus Teixeira",
-          "jobTitle": "Global TRE™ Certifying Trainer"
-        },
-        {
-          "@type": "Person",
-          "name": "Simba Stenqvist",
-          "jobTitle": "Global TRE™ Certifying Trainer"
-        }
-      ],
-      "image": "https://www.hummingbeing.com/images/event-shaking-to-shaping-singapore.webp?v=1",
-      "url": "https://www.hummingbeing.com/event-shaking-to-shaping-singapore"
+    "offers": {
+      "@type": "Offer",
+      "url": "https://calendly.com/bhdasia/tre-certification-intake-call",
+      "availability": "https://schema.org/SoldOut"
     }
-  ]
-  </script><script type="application/ld+json" data-seo="breadcrumb">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.hummingbeing.com/"}, {"@type": "ListItem", "position": 2, "name": "Events", "item": "https://www.hummingbeing.com/events"}]}</script><style>
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "TRE™ Provider Certification — Module 3: Teaching to Groups",
+    "image": "https://www.hummingbeing.com/images/event-transform-practice.webp",
+    "description": "Module 3 of the Global TRE™ Provider Certification Program. Open after completing Module 2. Includes 2-day workshop and 4 supervisions. The 2026 intake is closed and sold out; the next cohort runs in 2027.",
+    "startDate": "2027-02-20",
+    "endDate": "2027-02-21",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "location": {
+      "@type": "Place",
+      "name": "Singapore",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "SG",
+        "addressLocality": "Singapore"
+      }
+    },
+    "organizer": {
+      "@type": "Person",
+      "name": "Isabelle Claus Teixeira",
+      "url": "https://www.hummingbeing.com/isabelle"
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": "https://calendly.com/bhdasia/tre-certification-intake-call",
+      "availability": "https://schema.org/SoldOut"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationEvent",
+    "name": "Introduction to TRE™ — in person in Singapore (23 Feb 2027)",
+    "description": "An Introduction to TRE™ for the general public: a 2-hour in-person workshop in Singapore, led by Global TRE™ Certifying Trainers Isabelle Claus Teixeira and Simba Stenqvist, in collaboration with TRE Thailand. Does not include TRE™ personal sessions. Venue details are shared with registered participants.",
+    "startDate": "2027-02-23T19:00:00+08:00",
+    "endDate": "2027-02-23T21:00:00+08:00",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "location": {
+      "@type": "Place",
+      "name": "Singapore (venue shared with registered participants)",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Singapore",
+        "addressCountry": "SG"
+      }
+    },
+    "isAccessibleForFree": false,
+    "offers": {
+      "@type": "Offer",
+      "name": "Public price",
+      "price": "88",
+      "priceCurrency": "SGD",
+      "url": "https://www.hummingbeing.com/event-intro-tre-singapore-2027#register",
+      "availability": "https://schema.org/InStock",
+      "validFrom": "2026-11-05T00:00:00+08:00"
+    },
+    "organizer": [
+      {
+        "@type": "Organization",
+        "name": "HummingBeing",
+        "url": "https://www.hummingbeing.com/"
+      }
+    ],
+    "performer": [
+      {
+        "@type": "Person",
+        "name": "Isabelle Claus Teixeira",
+        "jobTitle": "Global TRE™ Certifying Trainer"
+      },
+      {
+        "@type": "Person",
+        "name": "Simba Stenqvist",
+        "jobTitle": "Global TRE™ Certifying Trainer"
+      }
+    ],
+    "image": "https://www.hummingbeing.com/images/event-intro-tre-singapore-2027.webp?v=1",
+    "url": "https://www.hummingbeing.com/event-intro-tre-singapore-2027"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationEvent",
+    "name": "Introduction to TRE™ — in person in Singapore (29 Jun 2027)",
+    "description": "An Introduction to TRE™ for the general public: a 2-hour in-person workshop in Singapore, led by Global TRE™ Certifying Trainers Isabelle Claus Teixeira and Simba Stenqvist, in collaboration with TRE Thailand. Does not include TRE™ personal sessions. Venue details are shared with registered participants.",
+    "startDate": "2027-06-29T19:00:00+08:00",
+    "endDate": "2027-06-29T21:00:00+08:00",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "location": {
+      "@type": "Place",
+      "name": "Singapore (venue shared with registered participants)",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Singapore",
+        "addressCountry": "SG"
+      }
+    },
+    "isAccessibleForFree": false,
+    "offers": {
+      "@type": "Offer",
+      "name": "Public price",
+      "price": "88",
+      "priceCurrency": "SGD",
+      "url": "https://www.hummingbeing.com/event-intro-tre-singapore-2027#register",
+      "availability": "https://schema.org/InStock",
+      "validFrom": "2026-11-05T00:00:00+08:00"
+    },
+    "organizer": [
+      {
+        "@type": "Organization",
+        "name": "HummingBeing",
+        "url": "https://www.hummingbeing.com/"
+      }
+    ],
+    "performer": [
+      {
+        "@type": "Person",
+        "name": "Isabelle Claus Teixeira",
+        "jobTitle": "Global TRE™ Certifying Trainer"
+      },
+      {
+        "@type": "Person",
+        "name": "Simba Stenqvist",
+        "jobTitle": "Global TRE™ Certifying Trainer"
+      }
+    ],
+    "image": "https://www.hummingbeing.com/images/event-intro-tre-singapore-2027.webp?v=1",
+    "url": "https://www.hummingbeing.com/event-intro-tre-singapore-2027"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationEvent",
+    "name": "Introduction to TRE™ — in person in Singapore (3 Nov 2027)",
+    "description": "An Introduction to TRE™ for the general public: a 2-hour in-person workshop in Singapore, led by Global TRE™ Certifying Trainers Isabelle Claus Teixeira and Simba Stenqvist, in collaboration with TRE Thailand. Does not include TRE™ personal sessions. Venue details are shared with registered participants.",
+    "startDate": "2027-11-03T19:00:00+08:00",
+    "endDate": "2027-11-03T21:00:00+08:00",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "location": {
+      "@type": "Place",
+      "name": "Singapore (venue shared with registered participants)",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Singapore",
+        "addressCountry": "SG"
+      }
+    },
+    "isAccessibleForFree": false,
+    "offers": {
+      "@type": "Offer",
+      "name": "Public price",
+      "price": "88",
+      "priceCurrency": "SGD",
+      "url": "https://www.hummingbeing.com/event-intro-tre-singapore-2027#register",
+      "availability": "https://schema.org/InStock",
+      "validFrom": "2026-11-05T00:00:00+08:00"
+    },
+    "organizer": [
+      {
+        "@type": "Organization",
+        "name": "HummingBeing",
+        "url": "https://www.hummingbeing.com/"
+      }
+    ],
+    "performer": [
+      {
+        "@type": "Person",
+        "name": "Isabelle Claus Teixeira",
+        "jobTitle": "Global TRE™ Certifying Trainer"
+      },
+      {
+        "@type": "Person",
+        "name": "Simba Stenqvist",
+        "jobTitle": "Global TRE™ Certifying Trainer"
+      }
+    ],
+    "image": "https://www.hummingbeing.com/images/event-intro-tre-singapore-2027.webp?v=1",
+    "url": "https://www.hummingbeing.com/event-intro-tre-singapore-2027"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationEvent",
+    "name": "Shaking to Shaping — TRE™ for Coaches, in person in Singapore (24 Feb 2027)",
+    "description": "An ICF-accredited Introduction to TRE™ for Coaches: a 3-hour in-person workshop in Singapore carrying 3 ICF CCEs (1.5 Resource Development + 1.5 Core Competencies), led by Global TRE™ Certifying Trainers Isabelle Claus Teixeira and Simba Stenqvist. Does not include TRE™ personal sessions. Venue details are shared with registered participants.",
+    "startDate": "2027-02-24T19:00:00+08:00",
+    "endDate": "2027-02-24T22:00:00+08:00",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "location": {
+      "@type": "Place",
+      "name": "Singapore (venue shared with registered participants)",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Singapore",
+        "addressCountry": "SG"
+      }
+    },
+    "isAccessibleForFree": false,
+    "audience": {
+      "@type": "Audience",
+      "audienceType": "Coaches, therapists, psychologists and healthcare professionals"
+    },
+    "offers": {
+      "@type": "Offer",
+      "name": "Public price",
+      "price": "149",
+      "priceCurrency": "SGD",
+      "url": "https://www.hummingbeing.com/event-shaking-to-shaping-singapore#register",
+      "availability": "https://schema.org/InStock",
+      "validFrom": "2026-11-05T00:00:00+08:00"
+    },
+    "organizer": [
+      {
+        "@type": "Organization",
+        "name": "HummingBeing",
+        "url": "https://www.hummingbeing.com/"
+      }
+    ],
+    "performer": [
+      {
+        "@type": "Person",
+        "name": "Isabelle Claus Teixeira",
+        "jobTitle": "Global TRE™ Certifying Trainer"
+      },
+      {
+        "@type": "Person",
+        "name": "Simba Stenqvist",
+        "jobTitle": "Global TRE™ Certifying Trainer"
+      }
+    ],
+    "image": "https://www.hummingbeing.com/images/event-shaking-to-shaping-singapore.webp?v=1",
+    "url": "https://www.hummingbeing.com/event-shaking-to-shaping-singapore"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationEvent",
+    "name": "Shaking to Shaping — TRE™ for Coaches, in person in Singapore (30 Jun 2027)",
+    "description": "An ICF-accredited Introduction to TRE™ for Coaches: a 3-hour in-person workshop in Singapore carrying 3 ICF CCEs (1.5 Resource Development + 1.5 Core Competencies), led by Global TRE™ Certifying Trainers Isabelle Claus Teixeira and Simba Stenqvist. Does not include TRE™ personal sessions. Venue details are shared with registered participants.",
+    "startDate": "2027-06-30T19:00:00+08:00",
+    "endDate": "2027-06-30T22:00:00+08:00",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "location": {
+      "@type": "Place",
+      "name": "Singapore (venue shared with registered participants)",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Singapore",
+        "addressCountry": "SG"
+      }
+    },
+    "isAccessibleForFree": false,
+    "audience": {
+      "@type": "Audience",
+      "audienceType": "Coaches, therapists, psychologists and healthcare professionals"
+    },
+    "offers": {
+      "@type": "Offer",
+      "name": "Public price",
+      "price": "149",
+      "priceCurrency": "SGD",
+      "url": "https://www.hummingbeing.com/event-shaking-to-shaping-singapore#register",
+      "availability": "https://schema.org/InStock",
+      "validFrom": "2026-11-05T00:00:00+08:00"
+    },
+    "organizer": [
+      {
+        "@type": "Organization",
+        "name": "HummingBeing",
+        "url": "https://www.hummingbeing.com/"
+      }
+    ],
+    "performer": [
+      {
+        "@type": "Person",
+        "name": "Isabelle Claus Teixeira",
+        "jobTitle": "Global TRE™ Certifying Trainer"
+      },
+      {
+        "@type": "Person",
+        "name": "Simba Stenqvist",
+        "jobTitle": "Global TRE™ Certifying Trainer"
+      }
+    ],
+    "image": "https://www.hummingbeing.com/images/event-shaking-to-shaping-singapore.webp?v=1",
+    "url": "https://www.hummingbeing.com/event-shaking-to-shaping-singapore"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationEvent",
+    "name": "Shaking to Shaping — TRE™ for Coaches, in person in Singapore (2 Nov 2027)",
+    "description": "An ICF-accredited Introduction to TRE™ for Coaches: a 3-hour in-person workshop in Singapore carrying 3 ICF CCEs (1.5 Resource Development + 1.5 Core Competencies), led by Global TRE™ Certifying Trainers Isabelle Claus Teixeira and Simba Stenqvist. Does not include TRE™ personal sessions. Venue details are shared with registered participants.",
+    "startDate": "2027-11-02T19:00:00+08:00",
+    "endDate": "2027-11-02T22:00:00+08:00",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "location": {
+      "@type": "Place",
+      "name": "Singapore (venue shared with registered participants)",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Singapore",
+        "addressCountry": "SG"
+      }
+    },
+    "isAccessibleForFree": false,
+    "audience": {
+      "@type": "Audience",
+      "audienceType": "Coaches, therapists, psychologists and healthcare professionals"
+    },
+    "offers": {
+      "@type": "Offer",
+      "name": "Public price",
+      "price": "149",
+      "priceCurrency": "SGD",
+      "url": "https://www.hummingbeing.com/event-shaking-to-shaping-singapore#register",
+      "availability": "https://schema.org/InStock",
+      "validFrom": "2026-11-05T00:00:00+08:00"
+    },
+    "organizer": [
+      {
+        "@type": "Organization",
+        "name": "HummingBeing",
+        "url": "https://www.hummingbeing.com/"
+      }
+    ],
+    "performer": [
+      {
+        "@type": "Person",
+        "name": "Isabelle Claus Teixeira",
+        "jobTitle": "Global TRE™ Certifying Trainer"
+      },
+      {
+        "@type": "Person",
+        "name": "Simba Stenqvist",
+        "jobTitle": "Global TRE™ Certifying Trainer"
+      }
+    ],
+    "image": "https://www.hummingbeing.com/images/event-shaking-to-shaping-singapore.webp?v=1",
+    "url": "https://www.hummingbeing.com/event-shaking-to-shaping-singapore"
+  }
+]
+</script><script type="application/ld+json" data-seo="breadcrumb">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.hummingbeing.com/"}, {"@type": "ListItem", "position": 2, "name": "Events", "item": "https://www.hummingbeing.com/events"}]}</script><style>
 /* Q&amp;A block (reuses the tre-faq accordion look) */
 .hb-faq-head { text-align: center; max-width: 780px; margin: 0 auto; }
 .hb-faq { max-width: 820px; margin: 1.5rem auto 0; }

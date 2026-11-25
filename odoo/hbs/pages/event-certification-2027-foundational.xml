@@ -371,9 +371,9 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
             <option>Pay in full at registration</option>
           </select>
         </div>
-        <div class="evtl-field"><label>Full name</label><input type="text" name="name" placeholder="Your full name" required=""/></div>
-        <div class="evtl-field"><label>Email</label><input type="email" name="email" placeholder="your@email.com" required=""/></div>
-        <div class="evtl-field"><label>Phone (optional)</label><input type="tel" name="phone" placeholder="+65 ..."/></div>
+        <div class="evtl-field"><label for="evtl-name">Full name</label><input id="evtl-name" autocomplete="name" type="text" name="name" placeholder="Your full name" required=""/></div>
+        <div class="evtl-field"><label for="evtl-email">Email</label><input id="evtl-email" autocomplete="email" type="email" name="email" placeholder="your@email.com" required=""/></div>
+        <div class="evtl-field"><label for="evtl-phone">Phone (optional)</label><input id="evtl-phone" autocomplete="tel" type="tel" name="phone" placeholder="+65 ..."/></div>
         <button type="submit" class="btn btn-primary">Reserve my place →</button>
       </form>
       <div class="evtl-form-success" id="evtl-success" style="display:none">

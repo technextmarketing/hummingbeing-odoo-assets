@@ -1482,7 +1482,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
       if ('IntersectionObserver' in window) {
         new IntersectionObserver(function (es) {
           es.forEach(function (e) {
-            if (e.isIntersecting) { if (!vf) load(true); else yt('playVideo'); }
+            if (e.isIntersecting) { if (!vf) { if (!still()) load(true); } else yt('playVideo'); }   /* no autoplay for reduced motion */
             else if (vf) yt('pauseVideo');
           });
         }, { threshold: 0.5 }).observe(frame);

@@ -253,9 +253,9 @@ j=d.createElement(s),dl=l!="dataLayer"?"&amp;l="+l:"";j.async=true;j.src=
       <p class="sub">3–4 July 2027 · Singapore. Leave your details and Isabelle will confirm your place and the payment options.</p>
       <form class="evtl-form" onsubmit="evtlSubmit(event)">
         <input type="hidden" name="event" value="Teaching TRE™ to One Person — 3–4 July 2027"/>
-        <label>Full name<input type="text" name="name" required="" placeholder="Your full name"/></label>
-        <label>Email<input type="email" name="email" required="" placeholder="you@email.com"/></label>
-        <label>WhatsApp / phone<input type="text" name="phone" placeholder="+65 …"/></label>
+        <label>Full name<input type="text" name="name" autocomplete="name" required="" placeholder="Your full name"/></label>
+        <label>Email<input type="email" name="email" autocomplete="email" required="" placeholder="you@email.com"/></label>
+        <label>WhatsApp / phone<input type="tel" name="phone" autocomplete="tel" placeholder="+65 …"/></label>
         <label>Anything we should know?<textarea name="message" rows="3" placeholder="Optional"/></label>
         <button type="submit" class="btn btn-primary" style="width:100%">Reserve my place →</button>
       </form>
